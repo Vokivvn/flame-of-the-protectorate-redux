@@ -1,0 +1,28 @@
+﻿capital = 46
+
+set_variable = { country_infamy = 6 } 
+
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.6
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1933.12.20"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	conservatism = 100
+}
+
+create_country_leader = {
+	name = "Carol II"
+	desc = "POLITICS_Carol_II_DESC"
+	picture = "Portrait_ROM_Carol_II.dds"
+	expire = "1965.1.1"
+	ideology = conservatism_subtype
+	traits = {
+		#
+	}
+}

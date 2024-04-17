@@ -1,0 +1,14 @@
+state={
+	id=852
+	name="STATE_852"
+	provinces={
+		1268 4420 7436 8067 10246 10278 10808 12164 
+	}
+	history={
+		owner = FEI
+		add_core_of = RAJ
+	}
+	manpower=4312976
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

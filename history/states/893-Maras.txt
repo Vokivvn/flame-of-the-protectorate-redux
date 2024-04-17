@@ -1,0 +1,23 @@
+
+state={ #Urfa
+	id=893
+	name="STATE_893"
+	manpower = 356194
+	
+	state_category = town
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			9823 1
+		}
+		add_core_of = TUR
+	}
+
+	provinces={
+		3921 6813 9912 11759 11871 9823
+	}
+}

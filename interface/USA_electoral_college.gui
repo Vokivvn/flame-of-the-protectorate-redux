@@ -1,0 +1,240 @@
+@WINDOW_X_POS = -4
+@WINDOW_Y_POS = 60	
+
+guiTypes = {
+	containerWindowType = {
+		name = "usa_electoral_map"
+		position = { x = @WINDOW_X_POS y = @WINDOW_Y_POS }
+		size = { width = 100% height= 400 }
+		
+		iconType={
+			name ="TOTP_ALABAMA"
+			position = { x= 334 y = 254 }
+		}
+		iconType={
+			name ="TOTP_APPALATIA"
+			position = { x= 375 y = 214 }
+		}
+		iconType={
+			name ="TOTP_ARIZONA"
+			position = { x= 147 y = 224 }
+		}
+		iconType={
+			name ="TOTP_CADDO"
+			position = { x= 291 y = 242 }
+		}
+		iconType={
+			name ="TOTP_CALIFORNIA"
+			position = { x= 79 y = 196 }
+		}
+		iconType={
+			name ="TOTP_CHEYENE"
+			position = { x= 209 y = 141 }
+		}
+		iconType={
+			name ="TOTP_CONN"
+			position = { x= 440 y = 196 }
+		}
+		iconType={
+			name ="TOTP_CUBA"
+			position = { x= 94 y = 331 }
+		}
+		iconType={
+			name ="TOTP_DALLAS"
+			position = { x= 131 y = 268 }
+		}
+		iconType={
+			name ="TOTP_DELWARE"
+			position = { x= 425 y = 221 }
+		}
+		iconType={
+			name ="TOTP_FLORIDA"
+			position = { x= 359 y = 288 }
+		}
+		iconType={
+			name ="TOTP_GEORGIA"
+			position = { x= 354 y = 254 }
+		}
+		iconType={
+			name ="TOTP_HAITI"
+			position = { x= 44 y = 345 }
+		}
+		iconType={
+			name ="TOTP_HAMLIN"
+			position = { x= 109 y = 134 }
+		}
+		iconType={
+			name ="TOTP_ILLINOIS"
+			position = { x= 312 y = 192 }
+		}
+		iconType={
+			name ="TOTP_IOWA"
+			position = { x= 259 y = 183 }
+		}
+		iconType={
+			name ="TOTP_KANSAS"
+			position = { x= 214 y = 213 }
+		}
+		iconType={
+			name ="TOTP_KENTUCKY"
+			position = { x= 329 y = 221 }
+		}
+		iconType={
+			name ="TOTP_LOUSIANA"
+			position = { x= 295 y = 270 }
+		}
+		iconType={
+			name ="TOTP_MAINE"
+			position = { x= 457 y = 142 }
+		}
+		iconType={
+			name ="TOTP_MARYLAND"
+			position = { x= 404 y = 214 }
+		}
+		iconType={
+			name ="TOTP_MASSA"
+			position = { x= 440 y = 189 }
+		}
+		iconType={
+			name ="TOTP_MIAMI"
+			position = { x= 338 y = 198 }
+		}
+		iconType={
+			name ="TOTP_MICHIGAN"
+			position = { x= 347 y = 155 }
+		}
+		iconType={
+			name ="TOTP_MINNESODA"
+			position = { x= 247 y = 159 }
+		}
+		iconType={
+			name ="TOTP_MISSISSIPPI"
+			position = { x= 312 y = 254 }
+		}
+		iconType={
+			name ="TOTP_MISSOURI"
+			position = { x= 284 y = 208 }
+		}
+		iconType={
+			name ="TOTP_NEBRASKA"
+			position = { x= 214 y = 187 }
+		}
+		iconType={
+			name ="TOTP_NEVADA"
+			position = { x= 109 y = 196 }
+		}
+		iconType={
+			name ="TOTP_NEWHAMSHIRE"
+			position = { x= 447 y = 169 }
+		}
+		iconType={
+			name ="TOTP_NEWJERSEY"
+			position = { x= 428 y = 202 }
+		}
+		iconType={
+			name ="TOTP_NEWMEXICO"
+			position = { x= 187 y = 221 }
+		}
+		iconType={
+			name ="TOTP_NEWYORK"
+			position = { x= 395 y = 169 }
+		}
+		iconType={
+			name ="TOTP_NORTHCAROLINA"
+			position = { x= 367 y = 241 }
+		}
+		iconType={
+			name ="TOTP_OHIO"
+			position = { x= 361 y = 196 }
+		}
+		iconType={
+			name ="TOTP_OKLAHOMA"
+			position = { x= 252 y = 238 }
+		}
+		iconType={
+			name ="TOTP_OREGON"
+			position = { x= 78 y = 159 }
+		}
+		iconType={
+			name ="TOTP_PENN"
+			position = { x= 391 y = 194 }
+		}
+		iconType={
+			name ="TOTP_POLK"
+			position = { x= 15 y = 75 }
+		}
+		
+		iconType={
+			name ="TOTP_RHODEISLAND"
+			position = { x= 452 y = 196 }
+		}
+		iconType={
+			name ="TOTP_SHOSHONE"
+			position = { x= 147 y = 134 }
+		}
+		iconType={
+			name ="TOTP_SOUTHCAROLINA"
+			position = { x= 372 y = 252 }
+		}
+		iconType={
+			name ="TOTP_SUPERIOR"
+			position = { x= 207 y = 133 }
+		}
+		iconType={
+			name ="TOTP_TENNESEE"
+			position = { x= 323 y = 240 }
+		}
+		iconType={
+			name ="TOTP_TEXAS"
+			position = { x= 200 y = 196 }
+		}
+		iconType={
+			name ="TOTP_VERMONT"
+			position = { x= 440 y = 169 }
+		}
+		iconType={
+			name ="TOTP_VIRGINIA"
+			position = { x= 374 y = 219 }
+		}
+		iconType={
+			name ="TOTP_WESTFLORIDA"
+			position = { x= 325 y = 287 }
+		}
+		iconType={
+			name ="TOTP_WALKER"
+			position = { x= 51 y = 312 }
+		}
+		iconType={
+			name ="TOTP_WASHINGTON"
+			position = { x= 77 y = 134 }
+		}
+		iconType={
+			name ="TOTP_WISCONSIN"
+			position = { x= 302 y = 150 }
+		}
+		iconType={
+			name ="TOTP_YUCTAN"
+			position = { x= 10 y = 303 }
+		}
+		iconType={
+			name ="TOTP_YUTIA"
+			position = { x= 135 y = 196 }
+		}
+		
+		###############################
+		iconType={
+			name ="electoral_map_overlay"
+			spriteType = "GFX_map_overlay"
+			position = { x= @WINDOW_X_POS y = @WINDOW_Y_POS }
+			alwaystransparent = yes
+		}
+		iconType={
+			name ="blank_electoral_map"
+			spriteType = "GFX_map_blank"
+			position = { x= @WINDOW_X_POS y = @WINDOW_Y_POS }
+			alwaystransparent = yes
+		}
+		
+	}
+	
+}

@@ -1,0 +1,403 @@
+scripted_gui = {
+
+	filibuster_gui = {
+		context_type = decision_category
+		window_name = "filibuster_leader_selection"
+		visible = {
+			tag = USA
+		}
+		
+		effects = {
+			reverse_button_click = {
+				if = {
+					limit = {
+						has_country_flag = USA_filibuster
+					}
+					
+				}
+				else_if = {
+					limit = {
+						NOT = {
+							check_variable = { filicycle = 1 }
+						}
+					}
+					add_to_variable = { filicycle = -1 } 
+				}
+				else_if = {
+					limit = {
+						check_variable = { filicycle = 1 }
+					}
+					set_variable = { filicycle = 3 }
+				}
+			}
+			send_button_click = {
+				set_country_flag = USA_filibuster
+				if = {
+					limit = {
+						check_variable = { countrycycle = 1 }
+					}
+					country_event = {
+						id = fili.1
+						days = 30
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { countrycycle = 2 }
+					}
+					country_event = {
+						id = fili.6
+						days = 30
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { countrycycle = 3 }
+					}	
+					country_event = {
+						id = fili.11
+						days = 30
+					}
+				}
+			}
+			forward_button_click = {
+				if = {
+					limit = {
+						has_country_flag = USA_filibuster
+					}
+					
+				}
+				else_if = {
+					limit = {
+						NOT = {
+							check_variable = { filicycle = 3 }
+						}
+					}
+					add_to_variable = { filicycle = 1 } 
+				}
+				else_if = {
+					limit = {
+						check_variable = { filicycle = 3 }
+					}
+					set_variable = { filicycle = 1 }
+				}
+			}
+			
+			# countries
+			reverse_button_flag_click = {
+				if = {
+					limit = {
+						has_country_flag = USA_filibuster
+					}
+					
+				}
+				else_if = {
+					limit = {
+						NOT = {
+							check_variable = { countrycycle = 1 }
+						}
+					}
+					add_to_variable = { countrycycle = -1 } 
+				}
+				else_if = {
+					limit = {
+						check_variable = { countrycycle = 1 }
+					}
+					set_variable = { countrycycle = 3 }
+				}
+			}
+			forward_button_flag_click = {
+				if = {
+					limit = {
+						has_country_flag = USA_filibuster
+					}
+					
+				}
+				else_if = {
+					limit = {
+						NOT = {
+							check_variable = { countrycycle = 3 }
+						}
+					}
+					add_to_variable = { countrycycle = 1 } 
+				}
+				else_if = {
+					limit = {
+						check_variable = { countrycycle = 3 }
+					}
+					set_variable = { countrycycle = 1 }
+				}
+			}	
+			
+			# aid
+			
+			top_aid_button_click = {
+				if = {
+					limit = {
+						has_country_flag = USA_filibuster
+					}
+					
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = aid_check
+							value = 1
+							compare = equals
+						}
+					}
+					set_variable = { aid_check = 0 }
+					add_political_power = 35
+				}
+				else_if = {
+					limit = {
+						NOT = {
+							check_variable = {
+								var = aid_check
+								value = 1
+								compare = equals
+							}
+						}
+					}
+					set_variable = { aid_check = 1 } 
+					add_political_power = -200
+				}
+			}
+
+			med_aid_button_click = {
+				if = {
+					limit = {
+						has_country_flag = USA_filibuster
+					}
+					
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = aid_check
+							value = 2
+							compare = equals
+						}
+					}
+					set_variable = { aid_check = 0 }
+					add_political_power = 25
+				}
+				else_if = {
+					limit = {
+						NOT = {
+							check_variable = {
+								var = aid_check
+								value = 2
+								compare = equals
+							}
+						}
+					}
+					set_variable = { aid_check = 2 } 
+					add_political_power = -100
+				}
+			}
+			
+			low_aid_button_click = {
+				if = {
+					limit = {
+						has_country_flag = USA_filibuster
+					}
+					
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = aid_check
+							value = 3
+							compare = equals
+						}
+					}
+					set_variable = { aid_check = 0 }
+					add_political_power = 15
+				}
+				else_if = {
+					limit = {
+						NOT = {
+							check_variable = {
+								var = aid_check
+								value = 3
+								compare = equals
+							}
+						}
+					}
+					set_variable = { aid_check = 3 } 
+					add_political_power = -50
+				}
+			}
+		}
+		
+		triggers = {
+			no_leader_visible = {
+				check_variable = { filicycle = 0 }
+			}
+		
+			Dean_La_visible = {
+				check_variable = { filicycle = 1 }
+			}
+			
+			Tex_OR_visible = {
+				check_variable = { filicycle = 2 }
+			}
+			
+			Sam_Dr_visible = {
+				check_variable = { filicycle = 3 }
+			}
+			
+			JAM_country_flag_visible = {
+				check_variable = { countrycycle = 1 }
+			}
+			
+			BOL_country_flag_visible = {
+				check_variable = { countrycycle = 2 }
+			}
+			
+			GUA_country_flag_visible = {
+				check_variable = { countrycycle = 3 }
+			}
+			
+			in_action_word_visible = {
+				has_country_flag = USA_filibuster
+			}
+			
+			top_aid_button_visible = {
+                AND = {
+                    OR = {
+						check_variable = {
+							var = aid_check
+							value = 1
+							compare = equals
+						}
+						check_variable = {
+							var = aid_check
+							value = 0
+							compare = equals
+						}
+					}
+					OR = {
+						check_variable = {
+							var = political_power
+							value = 200
+							compare = greater_than_or_equals
+						}
+						check_variable = {
+							var = aid_check
+							value = 1
+							compare = equals
+						}
+					}
+                }
+            }
+			
+			med_aid_button_visible = {
+				AND = {
+                    OR = {
+						check_variable = {
+							var = aid_check
+							value = 2
+							compare = equals
+						}
+						check_variable = {
+							var = aid_check
+							value = 0
+							compare = equals
+						}
+					}
+					OR = {
+						check_variable = {
+							var = political_power
+							value = 100
+							compare = greater_than_or_equals
+						}
+						check_variable = {
+							var = aid_check
+							value = 2
+							compare = equals
+						}
+					}
+                }
+			}
+			
+			low_aid_button_visible = {
+				AND = {
+                    OR = {
+						check_variable = {
+							var = aid_check
+							value = 3
+							compare = equals
+						}
+						check_variable = {
+							var = aid_check
+							value = 0
+							compare = equals
+						}
+					}
+					OR = {
+						check_variable = {
+							var = political_power
+							value = 50
+							compare = greater_than_or_equals
+						}
+						check_variable = {
+							var = aid_check
+							value = 3
+							compare = equals
+						}
+					}
+                }
+			}
+			
+			send_button_visible = {
+                OR = {
+					check_variable = {
+						var = aid_check
+						value = 3
+						compare = equals
+					}
+					check_variable = {
+						var = aid_check
+						value = 2
+						compare = equals
+					}
+					check_variable = {
+						var = aid_check
+						value = 1
+						compare = equals
+					}
+				}
+				NOT = {
+					AND = {
+						check_variable = {
+							var = aid_check
+							value = 0
+							compare = equals
+						}
+						check_variable = {
+							var = political_power
+							value = 150
+							compare = less_than
+						}
+					}
+				}
+			}
+		}
+		
+		properties = {
+			JAM_country_flag = {
+				image = "[JAM.GetFlag]"
+			}
+			
+			BOL_country_flag = {
+				image = "[BOL.GetFlag]"
+			}
+			
+			GUA_country_flag = {
+				image = "[GUA.GetFlag]"
+			}
+		}
+	}
+}

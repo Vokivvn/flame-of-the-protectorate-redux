@@ -1,0 +1,34 @@
+﻿capital = 845
+
+set_variable = { country_infamy = 8 } 
+
+set_research_slots = 3
+set_stability = 0.3
+set_war_support = 0.7
+
+set_convoys = 100
+
+load_focus_tree = FSR_Starting_Out
+
+set_politics = {
+	ruling_party = socialism
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	socialism = 41
+	centralism = 59
+}
+
+add_ideas = {
+	FRA_rival_nationalism_even
+}
+
+create_country_leader = {
+	name = "Édouard Herriot"
+	desc = "POLITICS_Edouard_Herriot_DESC"
+	picture = "Leader_FSR_Edouard_Herriot.dds"
+	expire = "1965.1.1"
+	ideology = socialism_subtype
+}

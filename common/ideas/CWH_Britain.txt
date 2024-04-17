@@ -1,0 +1,59 @@
+ideas = {
+	country = {
+	
+		ENG_cromwells_legacy = {
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = ENG_the_protectorate
+			
+			modifier = {
+				stability_factor = 0.20 # Based!
+				stability_weekly = -0.01 # Slowly people realize, you suck
+				conscription_factor = -0.15 # Catholics hate you
+			}
+		}
+		
+		ENG_all_alone = {
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = ENG_the_protectorate
+			
+			modifier = {
+				trade_opinion_factor = -0.30 # No one likes you
+				war_support_factor = -0.15 # Fuck war
+				mobilization_speed = -0.25 # Fuck war
+				offensive_war_stability_factor = -0.4 # No one wants you to do this
+			}
+		}
+		
+		ENG_into_the_dark = {
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = ENG_the_protectorate
+			
+			modifier = {
+				MONTHLY_POPULATION = 0.05 # Empire make babies :)
+				non_core_manpower = 0.02 # Empire people join army :)
+				research_speed_factor = 0.05 # Academia 
+				political_power_factor = -0.25 # Political Comitments to Empire 
+				local_resources_factor = 0.15 # Exploitation
+			}
+		}
+		
+	}
+}

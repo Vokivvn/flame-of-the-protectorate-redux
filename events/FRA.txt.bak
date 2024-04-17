@@ -1,0 +1,1146 @@
+﻿add_namespace = FRA
+
+country_event = { #Socialist France
+	id = FRA.1
+	title = FRA.1.t
+	desc = FRA.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = FRA.1.a
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = progressivism
+		}
+		create_country_leader = {
+			name = "Édouard Herriot"
+			desc = "Ed_Herriot_DESC"
+			picture = "Leader_FRA_Edouard_Herriot.dds"
+			expire = "1965.1.1"
+			ideology = progressivism_subtype
+			traits = {
+		
+			}
+		}
+		load_focus_tree = FRA_herriot_elected
+		complete_national_focus = FRA_victory_for_people
+	}
+}
+
+country_event = { #Liberal France
+	id = FRA.2
+	title = FRA.2.t
+	desc = FRA.2.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = FRA.2.a
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = liberalism
+		}
+		create_country_leader = {
+			name = "Pierre-Étienne Flandin"
+			desc = "Pierre_Etienne_Flandin_DESC"
+			picture = "Leader_FRA_Pierre_Etienne_Flandin.dds"
+			expire = "1965.1.1"
+			ideology = liberalism_subtype
+			traits = {
+		
+			}
+		}
+	}
+}
+
+country_event = { #De Gaulle France
+	id = FRA.3
+	title = FRA.3.t
+	desc = FRA.3.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = FRA.3.a
+		load_focus_tree = FRA_de_gaulle
+		complete_national_focus = FRA_the_expected_outcome
+	}
+}
+
+country_event = { #The Campaign begins
+	id = FRA.4
+	title = FRA.4.t
+	desc = FRA.4.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = FRA.4.a
+		country_event = {
+			id = FRA.5
+			days = 2
+		}
+	}
+}
+
+country_event = { # On the topic of foreign threats
+	id = FRA.5
+	title = FRA.5.t
+	desc = FRA.5.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # to be able to fight we must first be autonomous individuals, not ones to be held back the oppressive regime we live under today
+		name = FRA.5.a
+		add_to_variable = { var = FRA_socialist_support value = 1 }
+		country_event = {
+			id = FRA.6
+			days = 4
+		}
+	}
+	option = { # though there may be aggressors, through cooperation everyone may come to gain something
+		name = FRA.5.b
+		add_to_variable = { var = FRA_liberal_support value = 1 }
+		country_event = {
+			id = FRA.6
+			days = 4
+		}
+	}
+	option = { # defend self from Herriot
+		name = FRA.5.c
+		add_to_variable = { var = FRA_conservative_support value = 1 }
+		add_to_variable = { var = FRA_socialist_tension value = 1 }
+		country_event = {
+			id = FRA.6
+			days = 4
+		}
+	}
+}
+
+country_event = { # On the topic of corporate control
+	id = FRA.6
+	title = FRA.6.t
+	desc = FRA.6.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # today our laws are for pure gain, the individual suffers under these effects
+		name = FRA.6.a
+		add_to_variable = { var = FRA_socialist_support value = 1 }
+		country_event = {
+			id = FRA.7
+			days = 4
+		}
+	}
+	option = { # cooperation with teh corporations will lead to a stronger france
+		name = FRA.6.b
+		add_to_variable = { var = FRA_liberal_support value = 1 }
+		add_to_variable = { var = FRA_socialist_tension value = .05 }
+		country_event = {
+			id = FRA.7
+			days = 4
+		}
+	}
+	option = { # though there are issues with our current way of business, they have yet to fail us
+		name = FRA.6.c
+		add_to_variable = { var = FRA_conservative_support value = 1 }
+		add_to_variable = { var = FRA_socialist_tension value = 1 }
+		country_event = {
+			id = FRA.7
+			days = 4
+		}
+	}
+}
+
+country_event = { # Cocahina, no, flour.
+	id = FRA.7
+	title = FRA.7.t
+	desc = FRA.7.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # so, someone just asked me why i hate the military
+		name = FRA.7.a
+		add_to_variable = { var = FRA_socialist_support value = 1 }
+		country_event = {
+			id = FRA.8
+			days = 4
+		}
+	}
+	option = { # the military influence is a problem, we spenmd far too much on these ailments
+		name = FRA.7.b
+		add_to_variable = { var = FRA_liberal_support value = 1 }
+		country_event = {
+			id = FRA.8
+			days = 4
+		}
+	}
+	option = { # through reform, the military will retain its might while our country will be unchained
+		name = FRA.7.c
+		add_to_variable = { var = FRA_conservative_support value = 1 }
+		add_to_variable = { var = FRA_socialist_tension value = 1 }
+		country_event = {
+			id = FRA.8
+			days = 4
+		}
+	}
+}
+
+country_event = { # voting day
+	id = FRA.8
+	title = FRA.8.t
+	desc = FRA.8.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # 
+		name = FRA.8.a
+		if = {
+			limit = {
+				check_variable = {
+					var = FRA_conservative_support
+					value = FRA_liberal_support
+					compare = greater_than_or_equals
+				}
+				check_variable = {
+					var = FRA_conservative_support
+					value = FRA_socialist_support
+					compare = greater_than_or_equals
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = FRA_socialist_tension
+						value = 4
+						compare = greater_than_or_equals
+					}
+				}
+				country_event = {
+					id = FSR.1
+					days = 5
+				}
+				country_event = {
+					id = FRA.3
+					days = 1
+				}
+			}
+			if = {
+				limit = {
+				NOT = {
+						check_variable = {
+							var = FRA_socialist_tension
+							value = 4
+							compare = greater_than_or_equals
+						}
+					}
+				}
+				country_event = {
+					id = FRA.3
+					days = 1
+				}
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = FRA_socialist_support
+					value = FRA_liberal_support
+					compare = greater_than
+				}
+				check_variable = {
+					var = FRA_socialist_support
+					value = FRA_conservative_support
+					compare = greater_than
+				}
+			}
+			country_event = {
+				id = FRA.9
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { #socialists are going to win, rig elections?
+	id = FRA.9
+	title = FRA.9.t
+	desc = FRA.9.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # no
+		name = FRA.9.a
+		country_event = {
+			id = FRA.1
+			days = 1
+		}
+	}
+	option = { # yes
+		name = FRA.9.a
+		add_to_variable = { var = FRA_socialist_tension value = 2 }
+		hidden_effect = {
+			if = {
+				limit = {
+					check_variable = {
+						var = FRA_socialist_tension
+						value = 4
+						compare = greater_than_or_equals
+					}
+				}
+				country_event = {
+					id = FSR.1
+					days = 4
+				}
+				country_event = {
+					id = FRA.3
+					days = 1
+				}
+			}
+		}
+	}
+}
+
+country_event = { # the situation in catalonia
+	id = FRA.10
+	title = FRA.10.t
+	desc = FRA.10.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # we shall stand dear to our democratic ideals
+		name = FRA.10.a
+		complete_national_focus = FRA_tolerate_the_socialists
+	}
+	option = { # lefty scum, im gonna cum
+		name = FRA.10.b
+		add_to_variable = { var = FRA_socialist_tension value = .05 }
+		complete_national_focus = FRA_solidify_the_grip
+	}
+}
+
+country_event = { # Affirmation of Catalan government
+	id = FRA.11
+	title = FRA.11.t
+	desc = FRA.11.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # a welcome treat
+		name = FRA.11.a
+	}
+}
+
+country_event = { # The Perfect Imperfection
+	id = FRA.12
+	title = FRA.12.t
+	desc = FRA.12.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # what a mess
+		name = FRA.12.a
+	}
+}
+
+country_event = { # Cordinated Military Marches
+	id = FRA.13
+	title = FRA.13.t
+	desc = FRA.13.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # through left majority regions
+		name = FRA.13.a
+		add_popularity = {
+			ideology = socialism
+			popularity = -0.05
+		}
+		add_to_variable = { var = FRA_socialist_tension value = .05 }
+		army_experience = 5
+	}
+	option = { # wherever
+		name = FRA.13.b
+		army_experience = 5
+	}
+}
+
+
+country_event = { # Supress the left campaign?
+	id = FRA.14
+	title = FRA.14.t
+	desc = FRA.14.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # through left majority regions
+		name = FRA.14.a
+		add_popularity = {
+			ideology = socialism
+			popularity = -0.05
+		}
+		add_to_variable = { var = FRA_socialist_tension value = .05 }
+		add_to_variable = { var = FRA_socialist_support value = -1 }
+	}
+	option = { # nah
+		name = FRA.14.b
+	}
+}
+
+
+country_event = { # Huntziger takes over!
+	id = FRA.15
+	title = FRA.15.t
+	desc = FRA.15.d
+	picture = GFX_report_event_gamelin
+
+	is_triggered_only = yes
+	
+	option = { # 
+		name = FRA.15.a
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = republicanism
+		}
+		create_country_leader = {
+			name = "Charles Huntziger"
+			desc = "POLITICS_Charles_Huntziger_DESC"
+			picture = "Portrait_FRA_Charles_Huntziger.dds"
+			expire = "1965.1.1"
+			ideology = republicanism_subtype
+			traits = {
+		
+			}
+		}
+		set_cosmetic_tag = FRA_junta
+		load_focus_tree = FRA_huntziger
+	}
+}
+
+country_event = { # For Germany, seize Rhein!
+	id = FRA.16
+	title = FRA.16.t
+	desc = FRA.16.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # 
+		name = FRA.16.a
+		RHI = {
+			transfer_state = 51
+			add_state_core = 51
+			transfer_state = 42
+			add_state_core = 42
+		}
+		FRA = {
+			country_event = {
+				id = FRA.17
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = { # The Rhein declares indepdence! 
+	id = FRA.17
+	title = FRA.17.t
+	desc = FRA.17.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # 
+		name = FRA.17.a
+		832 = {
+			set_demilitarized_zone = yes
+		}
+	}
+}
+
+country_event = { # For Italy, occupy Corsica?
+	id = FRA.18
+	title = FRA.18.t
+	desc = FRA.18.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Yes!
+		name = FRA.18.a
+		transfer_state = 1
+		FRA = {
+			country_event = {
+				id = FRA.19
+				days = 3
+			}
+		}
+	}
+	option = { # That is no way to treat an ally!
+		name = FRA.18.b
+		
+	}
+}
+
+country_event = { # Italy occupies Corsica!
+	id = FRA.19
+	title = FRA.19.t
+	desc = FRA.19.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Yes!
+		name = FRA.19.a
+		833 = {
+			set_demilitarized_zone = yes
+		}
+	}
+}
+
+country_event = { # For Spain, occupy Catalonia!
+	id = FRA.20
+	title = FRA.20.t
+	desc = FRA.20.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Yes!
+		name = FRA.20.a
+		transfer_state = 165
+		add_state_core = 165
+		transfer_state = 871
+		add_state_core = 871
+		FRA = {
+			country_event = {
+				id = FRA.21
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = { # Spain occupies Catalonia!
+	id = FRA.21
+	title = FRA.21.t
+	desc = FRA.21.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Yes!
+		name = FRA.21.a
+		
+	}
+}
+
+# De Gaulle
+
+country_event = { # Challenge Instability
+	id = FRA.22
+	title = FRA.22.t
+	desc = FRA.22.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Yes!
+		name = FRA.22.a
+		
+	}
+}
+
+country_event = { # Overshadow the Left
+	id = FRA.23
+	title = FRA.23.t
+	desc = FRA.23.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Yes!
+		name = FRA.23.a
+		
+	}
+}
+
+country_event = { # A Stronger State
+	id = FRA.24
+	title = FRA.24.t
+	desc = FRA.24.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Yes!
+		name = FRA.24.a
+		
+	}
+}
+
+country_event = { # France's Influence
+	id = FRA.25
+	title = FRA.25.t
+	desc = FRA.25.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Yes!
+		name = FRA.25.a
+		
+	}
+}
+
+country_event = { # Rally for support
+	id = FRA.26
+	title = FRA.26.t
+	desc = FRA.26.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Yes!
+		name = FRA.26.a
+		
+	}
+}
+
+country_event = { # Referendum for the Republic
+	id = FRA.27
+	title = FRA.27.t
+	desc = FRA.27.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Yes!
+		name = FRA.27.a
+		hidden_effect = {
+		if = {
+			limit = {
+				check_variable = { FRA_republic_support > FRA_military_grip }
+			}
+			country_event = {
+				id = FRA.28
+				days = 3
+			}
+		}
+		if = {
+			limit = {
+				check_variable = { FRA_military_grip > FRA_republic_support }
+			}
+			country_event = {
+				id = FRA.29
+				days = 3
+			}
+		}
+		}
+	}
+}
+
+country_event = { # The Third French Republic
+	id = FRA.28
+	title = FRA.28.t
+	desc = FRA.28.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Yes!
+		name = FRA.28.a
+		complete_national_focus = FRA_the_third_french_republic
+		complete_national_focus = FRA_a_l_etranger
+	}
+}
+
+country_event = { # Huntziger Coup
+	id = FRA.29
+	title = FRA.29.t
+	desc = FRA.29.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Yes!
+		name = FRA.29.a
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = republicanism
+		}
+		create_country_leader = {
+			name = "Charles Huntziger"
+			desc = "Charles_Huntziger_DESC"
+			picture = "Portrait_FRA_Charles_Huntziger.dds"
+			expire = "1965.1.1"
+			ideology = republicanism_subtype
+			traits = {
+		
+			}
+		}
+		set_cosmetic_tag = FRA_junta
+		load_focus_tree = FRA_huntziger
+	}
+}
+
+country_event = { # En Afrique
+	id = FRA.30
+	title = FRA.30.t
+	desc = FRA.30.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Yes!
+		name = FRA.30.a
+		
+	}
+}
+
+country_event = { # En Asie
+	id = FRA.31
+	title = FRA.31.t
+	desc = FRA.31.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Yes!
+		name = FRA.31.a
+		
+	}
+}
+
+country_event = { # Diplomatie Inde
+	id = FRA.32
+	title = FRA.32.t
+	desc = FRA.32.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Yes!
+		name = FRA.32.a
+		
+	}
+}
+
+country_event = { # En La Terre
+	id = FRA.33
+	title = FRA.33.t
+	desc = FRA.33.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Yes!
+		name = FRA.33.a
+		
+	}
+}
+
+country_event = { # Expand the Entente
+	id = FRA.34
+	title = FRA.34.t
+	desc = FRA.34.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Yes!
+		name = FRA.34.a
+		
+	}
+}
+
+country_event = { # Join the Entente (Sweden)
+	id = FRA.35
+	title = FRA.35.t
+	desc = FRA.35.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Yes!
+		name = FRA.35.a
+		FRA = { add_to_faction = ROOT }
+	}
+	option = { # no.
+		name = FRA.35.b
+		
+	}
+}
+
+country_event = { # Join the Entente (Denmark)
+	id = FRA.36
+	title = FRA.36.t
+	desc = FRA.36.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Yes!
+		name = FRA.36.a
+		FRA = { add_to_faction = ROOT }
+	}
+	option = { # no.
+		name = FRA.36.b
+		
+	}
+}
+
+country_event = { # Join the Entente (Hungary)
+	id = FRA.37
+	title = FRA.37.t
+	desc = FRA.37.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Yes!
+		name = FRA.37.a
+		FRA = { add_to_faction = ROOT }
+	}
+	option = { # no.
+		name = FRA.37.b
+		
+	}
+}
+
+country_event = { # Join the Entente (Russia)
+	id = FRA.38
+	title = FRA.38.t
+	desc = FRA.38.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Yes!
+		name = FRA.38.a
+		FRA = { add_to_faction = ROOT }
+	}
+	option = { # no.
+		name = FRA.38.b
+		
+	}
+}
+
+country_event = { # Work with France? (USA)
+	id = FRA.39
+	title = FRA.39.t
+	desc = FRA.39.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Yes!
+		name = FRA.39.a
+		
+	}
+}
+
+country_event = { # A Similar Cause (USA)
+	id = FRA.40
+	title = FRA.40.t
+	desc = FRA.40.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Yes!
+		name = FRA.40.a
+		
+	}
+}
+
+country_event = { # Complete Cooperation with France (USA)
+	id = FRA.41
+	title = FRA.41.t
+	desc = FRA.41.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Yes!
+		name = FRA.41.a
+		
+	}
+}
+
+###################Herriot Democratic
+country_event = { # Colonial Question
+	id = FRA.42
+	title = FRA.42.t
+	desc = FRA.42.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Reform
+		name = FRA.42.a
+		set_country_flag = FRA_colonial_reform_flag
+		
+	}
+	option = { # Decolonisation
+		name = FRA.42.b
+		set_country_flag = FRA_decol_flag
+	}
+}
+add_namespace = FSR
+
+country_event = { #A new Paris Commune
+	id = FSR.1
+	title = FSR.1.t
+	desc = FSR.1.d
+	picture = GFX_report_event_paris_commune
+	immediate = { 
+		hidden_effect = {
+			FSR = {
+			transfer_state = 845
+			add_state_core = 845
+			load_oob = "FSR_REVOLT1"
+				country_event = {
+					id = FSR.2
+					days = 1
+				}
+			}
+		}
+	}
+	is_triggered_only = yes
+	
+	option = { # stay in FRA
+		name = FSR.1.a
+	}
+	option = { # tag FSR
+		name = FSR.1.b
+		FSR = { change_tag_from = ROOT }
+	}
+}
+
+country_event = { #More regions rise up
+	id = FSR.2
+	title = FSR.2.t
+	desc = FSR.2.d
+	picture = GFX_report_event_communist_rise_up
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = FSR.2.a
+		FRA = {
+			dismantle_faction = yes
+		}	
+		FSR = {
+		load_oob = "FSR_REVOLT2"
+		transfer_state = 845
+		add_state_core = 845
+		transfer_state = 19
+		add_state_core = 19
+		transfer_state = 31
+		add_state_core = 31
+		transfer_state = 22
+		add_state_core = 22
+		transfer_state = 29
+		add_state_core = 29
+		transfer_state = 785
+		add_state_core = 785
+		transfer_state = 16
+		add_state_core = 16
+		transfer_state = 24
+		add_state_core = 24
+		transfer_state = 33
+		add_state_core = 33
+		transfer_state = 18
+		add_state_core = 18
+		transfer_state = 27
+		add_state_core = 27
+		declare_war_on = {
+				target = FRA
+				type = civil_war
+			}
+		}
+		hidden_effect = {
+		every_country = {
+			news_event = {
+				id = newswar.4
+				days = 4
+			}
+		}
+		FRA = {
+			country_event = {
+				id = FRA.15
+				days = 14
+			}
+			country_event = {
+				id = FRA_CW.1
+				days = 1
+			}
+			country_event = {
+				id = FRA.16
+				days = 3
+			}
+		}
+		ITA = {
+			country_event = {
+				id = FRA.18
+				days = 6
+			}
+		}
+		SPR = {
+			country_event = {
+				id = FRA.20
+				days = 9
+			}
+		}
+	}
+}
+
+country_event = { #SFIO-N coup
+	id = FSR.3
+	title = FSR.3.t
+	desc = FSR.3.d
+	picture = GFX_report_event_communist_rise_up
+
+	is_triggered_only = yes
+	
+	option = {
+		name = FSR.3.a
+		set_politics = {
+			ruling_party = centralism
+		}
+		set_party_name = {
+			ideology = centralism
+			long_name = FSR_neosocialist_centralism_party_long
+			name = FSR_neosocialist_centralism_party
+		}
+		create_country_leader = {
+			name = "Marcel Déat"
+			desc = "POLITICS_Marcel_Deat_DESC"
+			picture = "ITA_Marcel_Deat.dds"
+			expire = "1965.1.1"
+			ideology = social_nationalism
+			traits = {
+				#
+			}
+		}
+	}
+}
+
+country_event = { #PCF-S coup
+	id = FSR.4
+	title = FSR.4.t
+	desc = FSR.4.d
+	picture = GFX_report_event_communist_rise_up
+
+	is_triggered_only = yes
+	
+	option = {
+		name = FSR.4.a
+		set_politics = {
+			ruling_party = centralism
+		}
+		set_party_name = {
+			ideology = centralism
+			long_name = FSR_surrealist_centralism_party_long
+			name = FSR_surrealist_centralism_party
+		}
+		create_country_leader = {
+			name = "André Breton"
+			desc = "POLITICS_Andre_Breton_DESC"
+			picture = "Portrait_France_Andre_Breton.dds"
+			expire = "1965.1.1"
+			ideology = centralism_subtype
+			traits = {
+				#
+			}
+		}
+	}
+}
+
+country_event = { #PCF coup
+	id = FSR.5
+	title = FSR.5.t
+	desc = FSR.5.d
+	picture = GFX_report_event_communist_rise_up
+
+	is_triggered_only = yes
+	
+	option = {
+		name = FSR.5.a
+		set_politics = {
+			ruling_party = centralism
+		}
+		set_party_name = {
+			ideology = centralism
+			long_name = FSR_PCF_centralism_party_long
+			name = FSR_PCF_centralism_party
+		}
+		create_country_leader = {
+			name = "Jacques Doriot"
+			desc = "POLITICS_Jacques_Doriot_DESC"
+			picture = "Portrait_France_Jacques_Doriot.dds"
+			expire = "1965.1.1"
+			ideology = centralism_subtype
+			traits = {
+				#
+			}
+		}
+	}
+}
+
+country_event = { #Leon Blum coup
+	id = FSR.6
+	title = FSR.6.t
+	desc = FSR.6.d
+	picture = GFX_report_event_communist_rise_up
+
+	is_triggered_only = yes
+	
+	option = {
+		name = FSR.6.a
+		set_politics = {
+			ruling_party = socialism
+		}
+		create_country_leader = {
+			name = "Léon Blum"
+			desc = "POLITICS_Leon_Blum_DESC"
+			picture = "Portrait_France_Leon_Blum.dds"
+			expire = "1965.1.1"
+			ideology = socialism_subtype
+			traits = {
+				#
+	}
+}
+
+add_namespace = FRA_CW
+
+country_event = { #  more regions rise, fuck commies!!!!
+	id = FRA_CW.1
+	title = FRA_CW.1.t
+	desc = FRA_CW.1.d
+	picture = GFX_report_event_communsits_in_streets
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = FRA_CW.1.a
+		
+	}
+}
+

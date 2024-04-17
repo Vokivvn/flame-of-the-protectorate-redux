@@ -1,0 +1,1143 @@
+﻿add_namespace = AUS
+
+country_event = { #intro
+	id = AUS.0
+	title = AUS.0.t
+	desc = AUS.0.desc
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = {
+		name = AUS.0.a
+	}
+}
+
+country_event = { #shattered lands focus
+	id = AUS.1
+	title = AUS.1.t
+	desc = AUS.1.desc
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	option = {
+		name = AUS.1.a
+	}
+}
+
+country_event = { #imperial decree focus
+	id = AUS.2
+	title = AUS.2.t
+	desc = AUS.2.desc
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = {
+		name = AUS.2.a
+		add_to_variable = {
+			var = country_infamy
+			value = 3
+		}
+	}
+}
+
+country_event = { #pacification campaign in slovakia
+	id = AUS.3
+	title = AUS.3.t
+	desc = AUS.3.desc
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = {
+		name = AUS.3.a
+		add_to_variable = {
+			var = country_infamy
+			value = 2
+		}
+		hidden_effect = {
+			country_event = {
+				id = AUSslovakia.1
+				days = 5
+			}
+		}
+	}
+}
+
+country_event = { #balkan diplomacy
+	id = AUS.4
+	title = AUS.4.t
+	desc = AUS.4.desc
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = {
+		name = AUS.4.a
+	}
+}
+
+country_event = { #hungarian negotiations begin
+	id = AUS.5
+	title = AUS.5.t
+	desc = AUS.5.desc
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = { #join us, hungary, the dark side
+		name = AUS.5.a
+		hidden_effect = {
+			HUN = {
+				country_event = {
+					id = AUS.6
+				}
+			}
+		}
+	}
+}
+
+country_event = { #hungary agrees y/n
+	id = AUS.6
+	title = AUS.6.t
+	desc = AUS.6.desc
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = { #interesting proposal, yes
+		name = AUS.6.a
+		hidden_effect = {
+			AUS = {
+				country_event = {
+					id = AUS.7
+					hours = 4
+				}
+			}
+		}
+	}
+
+	option = { #get out of here kraut
+		name = AUS.6.b
+		hidden_effect = {
+			AUS = {
+				country_event = {
+					id = AUS.8
+					hours = 4
+				}
+			}
+		}
+	}
+}
+
+country_event = { #hungarian negotiations begin
+	id = AUS.7
+	title = AUS.7.t
+	desc = AUS.7.desc
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = { #aggressive diplomacy (alliance, abandon claims, ambiguous austrian support)
+		name = AUS.7.a
+		hidden_effect = {
+			HUN = {
+				country_event = {
+					id = AUS.9
+				}
+			}
+		}
+	}
+
+	option = { #balanced diplomacy (alliance, support hungarian claims)
+		name = AUS.7.b
+		hidden_effect = {
+			HUN = {
+				country_event = {
+					id = AUS.10
+				}
+			}
+		}
+	}
+
+	option = { #passive diplomacy (non-aggression pact, mutual claim support)
+		name = AUS.7.c
+		hidden_effect = {
+			HUN = {
+				country_event = {
+					id = AUS.11
+				}
+			}
+		}
+	}
+}
+
+country_event = { #hungarian negotiations fail
+	id = AUS.8
+	title = AUS.8.t
+	desc = AUS.8.desc
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = { #; ( hungary y tho
+		name = AUS.8.a
+		add_political_power = -25
+	}
+}
+
+country_event = { #agg diplomacy response
+	id = AUS.9
+	title = AUS.9.t
+	desc = AUS.9.desc
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = { #....sure
+		name = AUS.9.a
+		add_political_power = -50
+		add_stability = -0.15
+		AUS = {
+			create_faction = "Danubian Compact"
+			add_to_faction = AUS
+			add_to_faction = HUN
+		}
+		if = {
+			limit = {
+				country_exists = GAL
+			}
+			GAL = {
+				leave_faction = yes
+			}
+			add_to_faction = GAL
+		}
+		remove_state_claim = 70
+		remove_state_claim = 71
+		remove_state_claim = 76
+		remove_state_claim = 82
+		remove_state_claim = 83
+		remove_state_claim = 84
+		remove_state_claim = 103
+		remove_state_claim = 109
+		remove_state_claim = 764
+		AUS = {
+			country_event = {
+				id = AUS.12
+				days = 1
+			}
+		}
+	}
+
+	option = { #FUCK NO BOOTBOY
+		name = AUS.9.b
+		add_political_power = 50
+		add_stability = 0.05
+		reverse_add_opinion_modifier = {
+			target = AUS
+			modifier = AUS_hungary_spited
+		}
+		AUS = {
+			country_event = {
+				id = AUS.8
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { #balanced diplomacy response
+	id = AUS.10
+	title = AUS.10.t
+	desc = AUS.10.desc
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = { #ok
+		name = AUS.10.a
+		add_political_power = 10
+		add_stability = 0.05
+		add_war_support = 0.10
+		AUS = {
+			create_faction = "Danubian Compact"
+			add_to_faction = AUS
+			add_to_faction = HUN
+			if = {
+				limit = {
+					country_exists = GAL
+				}
+				GAL = {
+					leave_faction = yes
+				}
+				add_to_faction = GAL
+			}
+		}
+		remove_state_claim = 103
+		remove_state_claim = 109
+		remove_state_claim = 835
+		remove_state_claim = 847
+		AUS = {
+			country_event = {
+				id = AUS.12
+				days = 1
+			}
+		}
+	}
+
+	option = { #nah
+		name = AUS.10.b
+		AUS = {
+			country_event = {
+				id = AUS.8
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { #hungarian negotiations begin
+	id = AUS.11
+	title = AUS.11.t
+	desc = AUS.11.desc
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = { #yes
+		name = AUS.11.a
+		add_political_power = -50
+		add_stability = -0.15
+		diplomatic_relation = {
+			country = AUS
+			relation = non_aggression_pact
+			active = yes
+		}
+		remove_state_claim = 103
+		remove_state_claim = 109
+		remove_state_claim = 835
+		remove_state_claim = 847
+		AUS = {
+			country_event = {
+				id = AUS.12
+				days = 1
+			}
+		}
+	}
+
+	option = { #no
+		name = AUS.11.b
+		AUS = {
+			country_event = {
+				id = AUS.8
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { #hungary accepts terms
+	id = AUS.12
+	title = AUS.12.t
+	desc = AUS.12.desc
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = { #based
+		name = AUS.12.a
+		add_political_power = 50
+		add_stability = 0.02
+		add_war_support = 0.05
+	}
+}
+
+country_event = { #Kurt Deluge join ranks
+	id = AUS.13
+	title = AUS.13.t
+	desc = AUS.13.desc
+	picture = GFX_report_event_hapsburg_family
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = { #oof
+		name = AUS.13.a
+		create_corps_commander = { 
+			name = "Kurt Deluge"
+			picture = "Portrait_GER_Kurt_Deluge.dds"
+			#traits = {   }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+}
+
+country_event = { #Emperor Franz Detained
+	id = AUS.14
+	title = AUS.14.t
+	desc = AUS.14.desc
+	picture = GFX_report_event_family_Austria
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = { #Execution
+		name = AUS.14.a
+		create_country_leader = {
+			name = "Charles"
+			desc = "POLITICS_BLESSED_KARL_DESC"
+			picture = "Leader_AUS_Karl_I_of_Austria.dds"
+			expire = "1965.1.1"
+			ideology = conservatism_subtype
+			traits = {
+				#
+			}
+		}
+		set_country_flag = AUS_no_monarchy_f
+	}
+	option = { #HOUSE ARREST
+		name = AUS.14.b
+		create_country_leader = {
+			name = "Charles"
+			desc = "POLITICS_BLESSED_KARL_DESC"
+			picture = "Leader_AUS_Karl_I_of_Austria.dds"
+			expire = "1965.1.1"
+			ideology = conservatism_subtype
+			traits = {
+				#
+			}
+		}
+		set_country_flag = AUS_house_arrest_monarchy_f
+	}
+}
+
+country_event = { #The Wiener-constitution
+	id = AUS.15
+	title = AUS.15.t
+	desc = AUS.15.desc
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = { #based
+		name = AUS.15.a
+
+	}
+}
+
+
+add_namespace = AUS_borderwar_CRO
+
+country_event = { #austria win
+	id = AUS_borderwar_CRO.1
+	title = AUS_borderwar_CRO.1.t
+	desc = AUS_borderwar_CRO.1.desc
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = {
+		name = AUS_borderwar_CRO.1.a
+		add_political_power = 100
+		add_stability = 0.03
+		add_manpower = -2500
+		army_experience = 20
+	}
+}
+
+country_event = { #austria lose
+	id = AUS_borderwar_CRO.2
+	title = AUS_borderwar_CRO.2.t
+	desc = AUS_borderwar_CRO.2.desc
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = {
+		name = AUS_borderwar_CRO.2.a
+		add_political_power = -50
+		add_stability = -0.05
+		add_manpower = -5000
+		army_experience = 10
+	}
+}
+
+country_event = { #austria stalemate
+	id = AUS_borderwar_CRO.3
+	title = AUS_borderwar_CRO.3.t
+	desc = AUS_borderwar_CRO.3.desc
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = {
+		name = AUS_borderwar_CRO.3.a
+		add_political_power = -10
+		add_manpower = -3500
+		army_experience = 5
+	}
+}
+
+country_event = { #tito win
+	id = AUS_borderwar_CRO.4
+	title = AUS_borderwar_CRO.4.t
+	desc = AUS_borderwar_CRO.4.desc
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = {
+		name = AUS_borderwar_CRO.4.a
+		add_political_power = 100
+		add_stability = 0.03
+		add_manpower = -2500
+		army_experience = 20
+	}
+}
+
+country_event = { #tito lose
+	id = AUS_borderwar_CRO.5
+	title = AUS_borderwar_CRO.5.t
+	desc = AUS_borderwar_CRO.5.desc
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = {
+		name = AUS_borderwar_CRO.5.a
+		add_political_power = 100
+		add_stability = -0.05
+		add_manpower = -4000
+		army_experience = 10
+	}
+}
+
+country_event = { #tito stalemate
+	id = AUS_borderwar_CRO.6
+	title = AUS_borderwar_CRO.6.t
+	desc = AUS_borderwar_CRO.6.desc
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = {
+		name = AUS_borderwar_CRO.6.a
+		add_stability = 0.05
+		add_political_power = 50
+		add_manpower = -3500
+		army_experience = 10
+	}
+}
+
+add_namespace = AUSslovakia
+
+country_event = { #breaks away slovakia
+	id = AUSslovakia.1
+	title = AUSslovakia.1.t
+	desc = AUSslovakia.1.desc
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = {
+		name = AUSslovakia.1.a
+		SLO = {
+			set_country_flag = SLO_independence_flag
+			leave_faction = yes
+			set_cosmetic_tag = SLO_free
+			set_popularities = {
+				centralism = 10
+				socialism = 25
+				liberalism = 25
+				conservatism = 10
+				ultranationalism = 30
+			}
+			set_politics = {
+				ruling_party = liberalism
+				elections_allowed = no
+			}
+			create_country_leader = {
+				name = "Rudolf Viest"
+				desc = "POLITICS_RUDOLF_VIEST_DESC"
+				picture = "Portrait_Slovakia_Rudolf_Viest.dds"
+				expire = "1999.1.1"
+				ideology = liberalism_subtype
+				traits = {
+				}
+			}
+			create_country_leader = {
+				name = "Rudolf Viest"
+				desc = "POLITICS_RUDOLF_VIEST_DESC"
+				picture = "Portrait_Slovakia_Rudolf_Viest.dds"
+				expire = "1999.1.1"
+				ideology = conservatism_subtype
+				traits = {
+				}
+			}
+			create_country_leader = {
+				name = "Andrej Hlinka"
+				desc = "POLITICS_ANDREJ_HLINKA_DESC"
+				picture = "Portrait_Slovakia_Andrej_Hlinka.dds"
+				expire = "1999.1.1"
+				ideology = ultranationalism_subtype
+				traits = {
+				}
+			}
+			create_country_leader = {
+				name = "Ján Nálepka"
+				desc = "POLITICS_JAN_NALEPKA_DESC"
+				picture = "Portrait_Slovakia_Jan_Nalepka.dds"
+				expire = "1999.1.1"
+				ideology = centralism_subtype
+				traits = {
+				}
+			}
+			create_country_leader = {
+				name = "Ján Nálepka"
+				desc = "POLITICS_JAN_NALEPKA_DESC"
+				picture = "Portrait_Slovakia_Jan_Nalepka.dds"
+				expire = "1999.1.1"
+				ideology = socialism_subtype
+				traits = {
+				}
+			}
+			load_oob = "SLO_revolt"
+		}
+		country_event = {
+			id = AUSslovakia.2
+			days = 10
+		}
+	}
+}
+
+country_event = { #war
+	id = AUSslovakia.2
+	title = AUSslovakia.2.t
+	desc = AUSslovakia.2.desc
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	option = {
+		name = AUSslovakia.2.a
+		AUS = {
+			declare_war_on = {
+				target = SLO
+				type = annex_everything
+			}
+		}
+		hidden_effect = {
+			news_event = {
+				id = newswar.2
+				days = 2
+			}
+		}
+	}
+}
+
+add_namespace = MONARCH_AUS
+
+country_event = { #Victory
+	id = MONARCH_AUS.1
+	title = MONARCH_AUS.1.t
+	desc = MONARCH_AUS.1.desc
+	picture = GFX_report_event_hapsburg_family
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = {
+		name = MONARCH_AUS.1.a
+	}
+}
+
+add_namespace = FASH_AUS
+
+country_event = { #Take Over
+	id = FASH_AUS.1
+	title = FASH_AUS.1.t
+	desc = FASH_AUS.1.desc
+	picture = GFX_report_event_fash_coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = {
+		name = FASH_AUS.1.a
+		set_country_flag = AUS_lost_poland_war
+		hidden_effect = {
+			remove_ideas = {
+				AUS_the_father_of_europe
+				AUS_the_nostalgic_empire
+				AUS_the_revitalized_empire
+				AUS_right_unity
+			}
+		}
+		add_ideas = {
+			AUS_overwhelming_resistance_3
+			AUS_internal_struggles
+			AUS_corporate_suits_among_us
+		}
+	}
+}
+
+country_event = { #asutrofash tree
+	id = FASH_AUS.2
+	title = FASH_AUS.2.t
+	desc = FASH_AUS.2.desc
+	picture = GFX_report_event_fash_coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = {
+		name = FASH_AUS.2.a
+		load_focus_tree = AUS_Austrofascism
+	}
+}
+
+country_event = { #fuck unions
+	id = FASH_AUS.3
+	title = FASH_AUS.3.t
+	desc = FASH_AUS.3.desc
+	picture = GFX_report_event_fash_coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = {
+		name = FASH_AUS.3.a
+	}
+}
+
+country_event = { #meeting with the church
+	id = FASH_AUS.4
+	title = FASH_AUS.4.t
+	desc = FASH_AUS.4.desc
+	picture = GFX_report_event_fash_coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = {
+		name = FASH_AUS.4.a
+	}
+}
+
+country_event = { #(Italy) Austria meets with the church
+	id = FASH_AUS.5
+	title = FASH_AUS.5.t
+	desc = FASH_AUS.5.desc
+	picture = GFX_report_event_fash_coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = {
+		name = FASH_AUS.5.a
+	}
+}
+
+country_event = { #meeting with the bavarians
+	id = FASH_AUS.6
+	title = FASH_AUS.6.t
+	desc = FASH_AUS.6.desc
+	picture = GFX_report_event_fash_coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = {
+		name = FASH_AUS.6.a
+	}
+}
+
+country_event = { #(Germany) Austria meets with the bavarians
+	id = FASH_AUS.7
+	title = FASH_AUS.7.t
+	desc = FASH_AUS.7.desc
+	picture = GFX_report_event_fash_coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = {
+		name = FASH_AUS.7.a
+	}
+}
+
+country_event = { # Czech Revolt, rising
+	id = FASH_AUS.8
+	title = FASH_AUS.8.t
+	desc = FASH_AUS.8.desc
+	picture = GFX_report_event_fash_coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = {
+		name = FASH_AUS.8.a
+		CZE = {
+			transfer_state = 9
+			add_state_core = 9
+			transfer_state = 69
+			add_state_core = 69
+			transfer_state = 74
+			add_state_core = 74
+			transfer_state = 75
+			add_state_core = 75
+		}
+		AUS = {
+			hidden_effect = {
+				country_event = {
+					id = FASH_AUS.9
+					days = 3
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Austria DOW on Czechs
+	id = FASH_AUS.9
+	title = FASH_AUS.9.t
+	desc = FASH_AUS.9.desc
+	picture = GFX_report_event_fash_coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = {
+		name = FASH_AUS.9.a
+		AUS = {
+			declare_war_on = {
+				target = CZE
+				type = annex_everything
+			}
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					country_exists = SLO
+				}
+				CZE = {
+					country_event = {
+						id = FASH_AUS.10
+						days = 2
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = { #CZE czecoslovakia 
+	id = FASH_AUS.10
+	title = FASH_AUS.10.t
+	desc = FASH_AUS.10.desc
+	picture = GFX_report_event_fash_coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = {
+		name = FASH_AUS.10.a
+		CZE = {
+			annex_country = {
+				target = SLO
+				transfer_troops = yes
+			}
+			add_state_core = 70
+			add_state_core = 71
+			set_cosmetic_tag = CZE_SLO
+		}
+		hidden_effect = {
+			AUS = {
+				country_event = {
+					id = FASH_AUS.11
+					days = 2
+				}
+			}
+		}
+	}
+}
+
+country_event = { # Austria, bro wtf
+	id = FASH_AUS.11
+	title = FASH_AUS.11.t
+	desc = FASH_AUS.11.desc
+	picture = GFX_report_event_fash_coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = {
+		name = FASH_AUS.11.a
+	}
+}
+
+country_event = { # Austria demands Dalmatian Coast
+	id = FASH_AUS.12
+	title = FASH_AUS.12.t
+	desc = FASH_AUS.12.desc
+	picture = GFX_report_event_fash_coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = { # cede
+		name = FASH_AUS.12.a
+		hidden_effect = {
+			country_event = {
+				id = FASH_AUS.13
+				days = 2
+			}
+		}
+	}
+	option = { # no
+		name = FASH_AUS.12.b
+		hidden_effect = {
+			country_event = {
+				id = FASH_AUS.14
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = { # Austria takes the coast, we did it
+	id = FASH_AUS.13
+	title = FASH_AUS.13.t
+	desc = FASH_AUS.13.desc
+	picture = GFX_report_event_fash_coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = { # cede
+		name = FASH_AUS.13.a
+		AUS = {
+			if = {
+				limit = {
+					owns_state = 103
+				}
+				transfer_state = 103
+			}
+			if = {
+				limit = {
+					owns_state = 847
+				}
+				transfer_state = 847
+			}
+			if = {
+				limit = {
+					owns_state = 163
+				}
+				transfer_state = 163
+			}
+		}
+	}
+}
+
+country_event = { # they say no, we will invade
+	id = FASH_AUS.14
+	title = FASH_AUS.14.t
+	desc = FASH_AUS.14.desc
+	picture = GFX_report_event_fash_coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = { # cede
+		name = FASH_AUS.14.a
+		AUS = {
+			create_wargoal = {
+				type = annex_everything
+				target = FROM
+			}
+		}
+	}
+}
+
+country_event = { # establishing venetian special econ zone
+	id = FASH_AUS.15
+	title = FASH_AUS.15.t
+	desc = FASH_AUS.15.desc
+	picture = GFX_report_event_fash_coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = { # 
+		name = FASH_AUS.15.a
+		AUS = {
+			if = {
+				limit = {
+					owns_state = 163
+				}
+				VNZ = {
+					transfer_state = 163
+					add_state_core = 163
+				}
+			}
+			if = {
+				limit = {
+					owns_state = 847
+				}
+				VNZ = {
+					transfer_state = 847
+					add_state_core = 847
+				}
+			}
+			if = {
+				limit = {
+					owns_state = 103
+				}
+				VNZ = {
+					transfer_state = 103
+					add_state_core = 103
+				}
+			}
+			if = {
+				limit = {
+					owns_state = 953
+				}
+				VNZ = {
+					transfer_state = 953
+					add_state_core = 953
+				}
+			}
+			if = {
+				limit = {
+					owns_state = 951
+				}
+				VNZ = {
+					transfer_state = 951
+					add_state_core = 951
+				}
+			}
+		}
+	}
+}
+
+country_event = { # Hungary invades Transylvania
+	id = FASH_AUS.16
+	title = FASH_AUS.16.t
+	desc = FASH_AUS.16.desc
+	picture = GFX_report_event_fash_coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = { # cede
+		name = FASH_AUS.16.a
+		HUN = {
+			declare_war_on = {
+				target = TRA
+				type = annex_everything
+			}
+		}
+	}
+}
+
+add_namespace = NAZI_AUS
+
+country_event = { #Take Over
+	id = NAZI_AUS.1
+	title = NAZI_AUS.1.t
+	desc = NAZI_AUS.1.desc
+	picture = GFX_report_event_fash_coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = {
+		name = NAZI_AUS.1.a
+	}
+}
+
+add_namespace = MON_AUS
+
+country_event = { # Monarchy lives
+	id = MON_AUS.1
+	title = MON_AUS.1.t
+	desc = MON_AUS.1.desc
+	picture = GFX_report_event_fash_coup
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = {
+		name = MON_AUS.1.a
+		load_focus_tree = AUS_Monarchism
+	}
+}

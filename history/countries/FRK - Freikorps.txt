@@ -1,0 +1,23 @@
+﻿capital = 65
+
+set_politics = {
+	ruling_party = ultranationalism
+	last_election = "1934.8.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	ultranationalism = 100
+}
+
+create_country_leader = {
+	name = "Waldemar Pabst"
+	desc = "LEADER_DESC_Waldemar_Pabst"
+	picture = "Waldemar_Pabst.dds"
+	expire = "1965.1.1"
+	ideology = ultranationalism_subtype
+	traits = {
+		
+	}
+}

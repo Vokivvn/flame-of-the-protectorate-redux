@@ -1,0 +1,37 @@
+ideas = {
+	country = {
+		LBR_French_Administration = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = ENG_the_protectorate
+
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = 0.15
+			}
+		}
+		LBR_Christianisation_Programme = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = ENG_the_protectorate
+
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.05
+			}
+		}
+		LBR_Karen_Insurgency = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = ENG_the_protectorate
+
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = -0.2
+			}
+		}
+	}
+}

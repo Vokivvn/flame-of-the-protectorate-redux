@@ -1,0 +1,28 @@
+state={
+	id=676
+	name="STATE_676"
+	manpower = 189191
+	
+	state_category = rural
+	
+	resources={
+		oil=8 # was: 10
+	}
+
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			10106 1 
+		}
+		add_core_of = TUR
+		add_core_of = IRQ
+	}
+	
+	provinces={
+		1600 1938 10106 10804 12372 
+	}
+}

@@ -1,0 +1,61 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_3333_box"
+		texturefile = "gfx/interface/Germany_State_GUI/3333_box.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Ideology_Box_GUI"
+		texturefile = "gfx/interface/Germany_State_GUI/Ideology_Box_GUI.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_GGUI_Communist"
+		texturefile = "gfx/interface/Germany_State_GUI/GGUI_Communist.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_GGUI_Socialism"
+		texturefile = "gfx/interface/Germany_State_GUI/GGUI_Socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_GGUI_SocDem"
+		texturefile = "gfx/interface/Germany_State_GUI/GGUI_SocDem.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_GGUI_Liberalism"
+		texturefile = "gfx/interface/Germany_State_GUI/GGUI_Liberalism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_GGUI_Conservative"
+		texturefile = "gfx/interface/Germany_State_GUI/GGUI_Conservative.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_GGUI_Republicanism"
+		texturefile = "gfx/interface/Germany_State_GUI/GGUI_Republicanism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_GGUI_Auth"
+		texturefile = "gfx/interface/Germany_State_GUI/GGUI_Auth.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_GGUI_UltNat"
+		texturefile = "gfx/interface/Germany_State_GUI/GGUI_UltNat.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_GGUI_Military_Occupation"
+		texturefile = "gfx/interface/Germany_State_GUI/GGUI_Military_Occupation.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_GGUI_Monarchy"
+		texturefile = "gfx/interface/Germany_State_GUI/GGUI_Monarchy.dds"
+	}
+}

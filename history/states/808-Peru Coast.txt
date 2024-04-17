@@ -1,0 +1,24 @@
+
+state={
+	id=808
+	name="STATE_808"
+	manpower = 61000
+	
+	state_category = rural
+
+	history={
+		owner = PRU
+		victory_points = {
+			5131 3 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+
+		add_core_of = PRU
+	}
+
+	provinces={
+		5131
+	}
+}

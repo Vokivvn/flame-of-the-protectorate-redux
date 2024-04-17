@@ -1,0 +1,30 @@
+﻿capital = 464
+
+set_research_slots = 2
+set_stability = 0.4
+set_war_support = 0.5
+set_convoys = 100
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	republicanism = 30
+	progressivism = 20
+	authoritarianism = 40
+	conservatism = 10
+}
+
+create_country_leader = {
+	name = "Humphrey Walwyn"
+	desc = "POLITICS_Humphrey_Walwyn_DESC"
+	picture = "Portrait_PCN_Humphrey_Walwyn.dds"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+	traits = {
+		
+	}
+}

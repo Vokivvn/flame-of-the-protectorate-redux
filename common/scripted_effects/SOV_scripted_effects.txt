@@ -1,0 +1,529 @@
+###Classes interactions
+SOV_classes_increase_worker_support_5 = {
+	add_to_variable = { SOV_worker_support_percentage = 0.05 } 
+	clamp_variable = {
+		var = SOV_worker_support_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_workers_increase_support_low_tt
+}
+SOV_classes_increase_worker_support_10 = {
+	add_to_variable = { SOV_worker_support_percentage = 0.1 } 
+	clamp_variable = {
+		var = SOV_worker_support_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_workers_increase_support_medium_tt
+}
+SOV_classes_increase_worker_support_15 = {
+	add_to_variable = { SOV_worker_support_percentage = 0.15 } 
+	clamp_variable = {
+		var = SOV_worker_support_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_workers_increase_support_high_tt
+}
+SOV_classes_decrease_worker_support_5 = {
+	add_to_variable = { SOV_worker_support_percentage = -0.05 } 
+	clamp_variable = {
+		var = SOV_worker_support_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_workers_decrease_support_low_tt
+}
+SOV_classes_decrease_worker_support_10 = {
+	add_to_variable = { SOV_worker_support_percentage = -0.1 } 
+	clamp_variable = {
+		var = SOV_worker_support_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_workers_decrease_support_medium_tt
+}
+SOV_classes_decrease_worker_support_15 = {
+	add_to_variable = { SOV_worker_support_percentage = -0.15 } 
+	clamp_variable = {
+		var = SOV_worker_support_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_workers_decrease_support_high_tt
+}
+SOV_classes_increase_noble_support_5 = {
+	add_to_variable = { SOV_noble_support_percentage = 0.05 } 
+	clamp_variable = {
+		var = SOV_noble_support_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_nobles_increase_support_low_tt
+}
+SOV_classes_increase_noble_support_10 = {
+	add_to_variable = { SOV_noble_support_percentage = 0.1 } 
+	clamp_variable = {
+		var = SOV_noble_support_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_nobles_increase_support_medium_tt
+}
+SOV_classes_increase_noble_support_15 = {
+	add_to_variable = { SOV_noble_support_percentage = 0.15 } 
+	clamp_variable = {
+		var = SOV_noble_support_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_nobles_increase_support_high_tt
+}
+SOV_classes_decrease_noble_support_5 = {
+	add_to_variable = { SOV_noble_support_percentage = -0.05 } 
+	clamp_variable = {
+		var = SOV_noble_support_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_nobles_decrease_support_low_tt
+}
+SOV_classes_decrease_noble_support_10 = {
+	add_to_variable = { SOV_noble_support_percentage = -0.1 } 
+	clamp_variable = {
+		var = SOV_noble_support_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_nobles_decrease_support_medium_tt
+}
+SOV_classes_decrease_noble_support_15 = {
+	add_to_variable = { SOV_noble_support_percentage = -0.15 } 
+	clamp_variable = {
+		var = SOV_noble_support_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_nobles_decrease_support_high_tt
+}
+SOV_classes_increase_army_support_5 = {
+	add_to_variable = { SOV_army_support_percentage = 0.05 } 
+	clamp_variable = {
+		var = SOV_army_support_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_army_increase_support_low_tt
+}
+SOV_classes_increase_army_support_10 = {
+	add_to_variable = { SOV_army_support_percentage = 0.1 } 
+	clamp_variable = {
+		var = SOV_army_support_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_army_increase_support_medium_tt
+}
+SOV_classes_increase_army_support_15 = {
+	add_to_variable = { SOV_army_support_percentage = 0.15 } 
+	clamp_variable = {
+		var = SOV_army_support_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_army_increase_support_high_tt
+}
+SOV_classes_decrease_army_support_5 = {
+	add_to_variable = { SOV_army_support_percentage = -0.05 } 
+	clamp_variable = {
+		var = SOV_army_support_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_army_decrease_support_low_tt
+}
+SOV_classes_decrease_army_support_10 = {
+	add_to_variable = { SOV_army_support_percentage = -0.1 } 
+	clamp_variable = {
+		var = SOV_army_support_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_army_decrease_support_medium_tt
+}
+SOV_classes_decrease_army_support_15 = {
+	add_to_variable = { SOV_army_support_percentage = -0.15 } 
+	clamp_variable = {
+		var = SOV_army_support_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_army_decrease_support_high_tt
+}
+SOV_classes_increase_council_support_5 = {
+	add_to_variable = { SOV_duma_support_percentage = 0.05 } 
+	clamp_variable = {
+		var = SOV_duma_support_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_council_increase_support_low_tt
+}
+SOV_classes_increase_council_support_10 = {
+	add_to_variable = { SOV_duma_support_percentage = 0.1 } 
+	clamp_variable = {
+		var = SOV_duma_support_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_council_increase_support_medium_tt
+}
+SOV_classes_increase_council_support_15 = {
+	add_to_variable = { SOV_duma_support_percentage = 0.15 } 
+	clamp_variable = {
+		var = SOV_duma_support_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_council_increase_support_high_tt
+}
+SOV_classes_decrease_council_support_5 = {
+	add_to_variable = { SOV_duma_support_percentage = -0.05 } 
+	clamp_variable = {
+		var = SOV_duma_support_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_council_decrease_support_low_tt
+}
+SOV_classes_decrease_council_support_10 = {
+	add_to_variable = { SOV_duma_support_percentage = -0.1 } 
+	clamp_variable = {
+		var = SOV_duma_support_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_council_decrease_support_medium_tt
+}
+SOV_classes_decrease_council_support_15 = {
+	add_to_variable = { SOV_duma_support_percentage = -0.15 } 
+	clamp_variable = {
+		var = SOV_duma_support_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_council_decrease_support_high_tt
+}
+SOV_classes_increase_worker_influence_5 = {
+	add_to_variable = { SOV_worker_influence_percentage = 0.05 } 
+	clamp_variable = {
+		var = SOV_worker_influence_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_workers_increase_influence_low_tt
+}
+SOV_classes_increase_worker_influence_10 = {
+	add_to_variable = { SOV_worker_influence_percentage = 0.1 } 
+	clamp_variable = {
+		var = SOV_worker_influence_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_workers_increase_influence_medium_tt
+}
+SOV_classes_increase_worker_influence_15 = {
+	add_to_variable = { SOV_worker_influence_percentage = 0.15 } 
+	clamp_variable = {
+		var = SOV_worker_influence_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_workers_increase_influence_high_tt
+}
+SOV_classes_decrease_worker_influence_5 = {
+	add_to_variable = { SOV_worker_influence_percentage = -0.05 } 
+	clamp_variable = {
+		var = SOV_worker_influence_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_workers_decrease_influence_low_tt
+}
+SOV_classes_decrease_worker_influence_10 = {
+	add_to_variable = { SOV_worker_influence_percentage = -0.1 } 
+	clamp_variable = {
+		var = SOV_worker_influence_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_workers_decrease_influence_medium_tt
+}
+SOV_classes_decrease_worker_influence_15 = {
+	add_to_variable = { SOV_worker_influence_percentage = -0.15 } 
+	clamp_variable = {
+		var = SOV_worker_influence_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_workers_decrease_influence_high_tt
+}
+SOV_classes_increase_noble_influence_5 = {
+	add_to_variable = { SOV_noble_influence_percentage = 0.05 } 
+	clamp_variable = {
+		var = SOV_noble_influence_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_nobles_increase_influence_low_tt
+}
+SOV_classes_increase_noble_influence_10 = {
+	add_to_variable = { SOV_noble_influence_percentage = 0.1 } 
+	clamp_variable = {
+		var = SOV_noble_influence_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_nobles_increase_influence_medium_tt
+}
+SOV_classes_increase_noble_influence_15 = {
+	add_to_variable = { SOV_noble_influence_percentage = 0.15 } 
+	clamp_variable = {
+		var = SOV_noble_influence_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_nobles_increase_influence_high_tt
+}
+SOV_classes_decrease_noble_influence_5 = {
+	add_to_variable = { SOV_noble_influence_percentage = -0.05 } 
+	clamp_variable = {
+		var = SOV_noble_influence_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_nobles_decrease_influence_low_tt
+}
+SOV_classes_decrease_noble_influence_10 = {
+	add_to_variable = { SOV_noble_influence_percentage = -0.1 } 
+	clamp_variable = {
+		var = SOV_noble_influence_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_nobles_decrease_influence_medium_tt
+}
+SOV_classes_decrease_noble_influence_15 = {
+	add_to_variable = { SOV_noble_influence_percentage = -0.15 } 
+	clamp_variable = {
+		var = SOV_noble_influence_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_nobles_decrease_influence_high_tt
+}
+SOV_classes_increase_army_influence_5 = {
+	add_to_variable = { SOV_army_influence_percentage = 0.05 } 
+	clamp_variable = {
+		var = SOV_army_influence_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_army_increase_influence_low_tt
+}
+SOV_classes_increase_army_influence_10 = {
+	add_to_variable = { SOV_army_influence_percentage = 0.1 } 
+	clamp_variable = {
+		var = SOV_army_influence_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_army_increase_influence_medium_tt
+}
+SOV_classes_increase_army_influence_15 = {
+	add_to_variable = { SOV_army_influence_percentage = 0.15 } 
+	clamp_variable = {
+		var = SOV_army_influence_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_army_increase_influence_high_tt
+}
+SOV_classes_decrease_army_influence_5 = {
+	add_to_variable = { SOV_army_influence_percentage = -0.05 } 
+	clamp_variable = {
+		var = SOV_army_influence_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_army_decrease_influence_low_tt
+}
+SOV_classes_decrease_army_influence_10 = {
+	add_to_variable = { SOV_army_influence_percentage = -0.1 } 
+	clamp_variable = {
+		var = SOV_army_influence_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_army_decrease_influence_medium_tt
+}
+SOV_classes_decrease_army_influence_15 = {
+	add_to_variable = { SOV_army_influence_percentage = -0.15 } 
+	clamp_variable = {
+		var = SOV_army_influence_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_army_decrease_influence_high_tt
+}
+SOV_classes_increase_council_influence_5 = {
+	add_to_variable = { SOV_duma_influence_percentage = 0.05 } 
+	clamp_variable = {
+		var = SOV_duma_influence_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_council_increase_influence_low_tt
+}
+SOV_classes_increase_council_influence_10 = {
+	add_to_variable = { SOV_duma_influence_percentage = 0.1 } 
+	clamp_variable = {
+		var = SOV_duma_influence_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_council_increase_influence_medium_tt
+}
+SOV_classes_increase_council_influence_15 = {
+	add_to_variable = { SOV_duma_influence_percentage = 0.15 } 
+	clamp_variable = {
+		var = SOV_duma_influence_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_council_increase_influence_high_tt
+}
+SOV_classes_decrease_council_influence_5 = {
+	add_to_variable = { SOV_duma_influence_percentage = -0.05 } 
+	clamp_variable = {
+		var = SOV_duma_influence_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_council_decrease_influence_low_tt
+}
+SOV_classes_decrease_council_influence_10 = {
+	add_to_variable = { SOV_duma_influence_percentage = -0.1 } 
+	clamp_variable = {
+		var = SOV_duma_influence_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_council_decrease_influence_medium_tt
+}
+SOV_classes_decrease_council_influence_15 = {
+	add_to_variable = { SOV_duma_influence_percentage = -0.15 } 
+	clamp_variable = {
+		var = SOV_duma_influence_percentage
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_classes_council_decrease_influence_high_tt
+}
+
+###Western Krai
+SOV_western_krai_increase_michael_influence_10 = {
+	add_to_variable = { SOV_western_krai_michael_influence = 0.1 }
+	clamp_variable = {
+		var = SOV_western_krai_michael_influence
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_western_krai_increase_michael_influence_low
+}
+SOV_western_krai_increase_michael_influence_15 = {
+	add_to_variable = { SOV_western_krai_michael_influence = 0.15 }
+	clamp_variable = {
+		var = SOV_western_krai_michael_influence
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_western_krai_increase_michael_influence_medium
+}
+SOV_western_krai_increase_michael_influence_20 = {
+	add_to_variable = { SOV_western_krai_michael_influence = 0.2 }
+	clamp_variable = {
+		var = SOV_western_krai_michael_influence
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = SOV_western_krai_increase_michael_influence_high
+}
+SOV_western_krai_lithuania_folds = {
+	SOV = {
+		if = {
+			limit = {
+				OR = {
+					has_dlc = "Together for Victory"
+					has_dlc = "Man the Guns"
+				}
+			}
+			set_autonomy = {
+				target = LIT
+				autonomous_state = autonomy_rus_dutchy
+			}
+			else = { puppet = LIT }
+		}
+		add_to_faction = LIT
+	}
+	POL = { 
+		country_event = { id = RUS.4 days = 1 }
+	}
+	LIT = {
+		set_cosmetic_tag = LIT_RUS
+		if = {
+			limit = { has_war_with = POL }
+			white_peace = POL
+		}
+		if = {
+			limit = { has_war_with = BLR }
+			white_peace = BLR
+		}
+		if = {
+			limit = { has_war_with = UKR }
+			white_peace = UKR
+		}
+		if = {
+			limit = { has_war_with = UKN }
+			white_peace = UKN
+		}
+		if = {
+			limit = { 
+				AND = { 
+					SOV = { owns_state = 95 }
+					SOV = { owns_state = 94 }
+				}
+			}
+			LIT = { transfer_state = 95 transfer_state = 94 }
+		}
+	}	
+
+}
+###Limbo
+SOV_start_limbo = {
+	set_country_flag = RUS_started_limbo
+	hidden_effect = {
+		retire_country_leader = yes	
+	}
+	create_country_leader = {
+		name = "Deputy Assembly"
+		desc = "POLITICS_DEPUTY_ASSEMBLY_DESC"
+		traits = {}
+		#picture = todo:chair
+		expire = 1999.1.1
+		ideology = conservatism_subtype
+	}
+	country_event = { id = RUS.1 days = 12 }
+	clr_country_flag = SOV_flag_our_western_krai_decisions_unlocked
+}

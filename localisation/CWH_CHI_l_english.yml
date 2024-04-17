@@ -1,0 +1,362 @@
+﻿l_english:
+ ## Ideas ##
+ 
+ CHI_Republic_of_China:0 "Province of the Republic of China"
+ CHI_Republic_of_China_desc:0 "Don't forget you're Beijing's bitch."
+
+ CHI_Province_Xinj:0 "Chinese Warlord Clique"
+ CHI_Province_Xinj_desc:0 "This government administers the northern portion of Xinjiang Province."
+ CHI_Province_Yunnan:0 "Chinese Warlord Clique"
+ CHI_Province_Yunnan_desc:0 "This government administers Yunnan and Guizhou Provinces."
+ CHI_Province_Ma:0 "Chinese Warlord Clique"
+ CHI_Province_Ma_desc:0 "This government administers the southern portion of China's western provinces."
+ CHI_Province_Tibet:0 "Chinese Warlord Clique"
+ CHI_Province_Tibet_desc:0 "This government administers the region of Tibet."
+ CHI_Province_Sichuan:0 "Chinese Warlord Clique"
+ CHI_Province_Sichuan_desc:0 "This government administers Sichuan Province."
+ CHI_Province_Manchu:0 "Chinese Warlord Clique"
+ CHI_Province_Manchu_desc:0 "This government administers the northeastern provinces of China."
+ CHI_Province_Anhui:0 "Chinese Warlord Clique"
+ CHI_Province_Anhui_desc:0 "This governmetn administers Shanghai, Zhejiang, and Mobei Menggu Provinces"
+
+ CHI_Legitimate_Government_of_China:0 "Legitimate Government of China"
+ CHI_Legitimate_Government_of_China_desc:0 "This administration is recognized by the nations of the world to be the sole legitimate government of all China. Despite domestic de-facto autonomies and the increasing intensity of internal political movements, this government is seen to represent all peoples of China and as such will be responsible for the world’s dealings with all parts of the nation. In the face of civil uprisings this undoubtedly valuable status could be put in jeopardy as foreign governments turn their support against our regime, making it important to maintain good graces amidst internal conflict and pursue positive diplomacy. Should peaceful options deplete, it would be permissibly necessary to enforce this government’s legitimacy by military force."
+ CHI_Unstable_Government:0 "Unstable Government"
+ CHI_Unstable_Government_desc:0 "China’s fractured state is perhaps the strongest legacy of the T’aip’ing Heavenly Kingdom. That regime’s byzantine territorial administration structure pitted King on King, warring over Princes and Provinces changing hands with organic consistency. Kings formed armies to defend and “police” their patrimonies, but often engaged other administrations to push territorial claims. Western powers utilized these internal rivalries for economic penetration in exchange for martial modernization. By the turn of the century China’s internal administrations had solidified behind a cold-war of powerful Kings and their armies wielding modern equipment and western doctrine.\n\nThe T’aip’ing T’iankouo’s untimely demise by revolution saw the Kings dethroned and many within the Kingly armies defecting to the Republican cause. These military cliques complied with the Peik’ing government’s creation of a legally defined provincial system and developed a working relationship with the central government. Though the governments in the warlord provinces enact Peik’ing’s policies and participate in tax collection and trade infrastructure, provincial governors are loyal to their clique patrons before the Presidency. Until the government develops infrastructure to push direct administration onto these provinces, the warlords are the law of the land and powerful assets to anybody pursuing rule over all China."
+ CHI_Taiping_Memories:0 "T'aip'ing Memories"
+ CHI_Taiping_Memories_desc:0 "The T’aip’ing T’iankouo was a brutal regime that enticed the common peasant to their ranks with promises of land reform and egalitarianism. Indeed, land reform occurred and indeed, bureaucratic placement was not racially profiled. But it was decentralized and corrupt, and the already thinly-stretched line of resources from T’ianking was being taken from by greedy Governors and Princes. Even the five Kings were no stranger to self-indulgence, and were happy to have the administration pay the cost. What was once seen as a reprieve from the Manchu-dominated Ts’ing Dynasty had turned into a new oppressive regime set on exploiting the people. Power struggles amongst the Kings lead to further militarization of the territorial administrations and better ability at putting down anti-government movements.\n\nIt was not until 1932 that the Chinese people were able to throw the Heavenly Kingdom off in favor of a Republic, but that government distrust remains. Radical socialist agitators unhappy with the state of the Republic organize amongst urban academics and associated rural educators to protest government action. They act alongside unsatisfied moderate Republicans who push for a more legally bound and centralized administration along the American model. Rumors of a secret society of T’aip’ing wealthy persons acting with God Worship zealots to subvert Peik’ing’s administration are surely unfounded, though mysterious benefactors continue to bankroll key agitating organizations. A drop in public support for the government could empower these dissidents, and could have dire consequences for the central administration."
+ CHI_China_Violation:0 "An Oriental Tragedy"
+ CHI_China_Violation_desc:0 "From the first sounding shot of French cannons onto Hiang Kiang nearly a century ago to the contemporary bustle of western motorcars through the legation quarter’s streetways, European imperialism has rung loud throughout China. The French twisted the Ts’ing dry, then supported the T’aip’ing rebels they would later abuse for extraterritoriality and territorial concessions across a myriad of unfair treaties. The Danish, British, Americans, Germans, Italians, anybody with a navy and the correct diplomatic channels sailed warships up the Yangtze and Yellow Rivers to guide their carving knife through Chinese society. Even the Republic, a government espousing change and triumph against tyranny, was forced to kneel before the western powers under threat of economic and diplomatic destruction. This unfairness continues, and the Republic endures it.\n\nMaintaining cordial relations with Europe has allowed for the modernization of the Chinese military and the education of Chinese professionals for use in improving the economic and political situation of the Republic. Should war come to the fragile Republic, it would be ideal to have the west’s support. However should the humiliation be too much to bear, indulging in nationalism and rejecting the coerced treaties would destroy China’s diplomatic ties for the benefit of rallying the populace and securing China’s position as a new hegemonic power in Asia. These options must be carefully considered, and caution must be upheld with nations all-too-eager for tearing into the East once more."
+ CHI_The_New_Army:0 "Marshall Touan’s New Army"
+ CHI_The_New_Army_desc:0 "It is an unfortunate fate for the Republican government that there will always be a force working against it. At its inception, the Peik’ing government was happily ignorant of this fact and accepted what appear to be the patriotic generosity of a well-experienced Heavenly Army General to serve as China’s Marshall. Marshall Touan Ts’ijoui began to enact a massive military overhaul campaign financed in part by French bonds and various foreign aid packages along with domestic revenue and state reserves. As this was a national Army, Touan’s growingly influential Nganhouei Clique was not responsible for financing this expansion and would reap the benefit of increased military influence at no additional cost. Intercepted communications between Touan and his subordinates regarding  the siphoning of New Army resources for the Nhanhouei Clique alerted President Kou to the real danger of allowing Touan to continue further.\n\nEdouard Kou kept quiet at first, opting instead to appeal to the various warlord Cliques for their political support against Touan. His control over the military, Kou said, would lead to his domination over the Republic. The warlords agreed, and President Kou brought the fight against Touan. He was stripped of his position as Marshall and the Nganhouei Clique’s loyal provincial governments were aggressively dissolved. Conflict was just short of violent engagement when a compromise was reached, putting Touan’s General Hu Chutcheng up as Marshall and Touan accepting the vastly reduced size of the Nganhouei Clique. In the years since this test of the Presidency’s power, the New Army has seen the modernization progress stalled in developmental limbo. Politics have penetrated the army brass and Touan’s incredible bitterness towards Kou has led to sections of the military refusing to cooperate, citing differing loyalties. Discord and developmental stagnation are assured if this divide is not bridged soon."
+
+ CHI_Economic_Industiralization:0 "Economic Industrialization"
+ CHI_Economic_Industiralization_desc:0 "har har"
+ CHI_Code_of_Law:0 "Code of Law"
+ CHI_Code_of_Law_desc:0 "har har"
+
+ ## Leader Descriptions ##
+ CHI_TOTP_DESC:0 "The still-smoldering embers of the T’aip’ing Heavenly Kingdom were the base where Chinese Republican revolutionaries seized the reigns of state and forever changed the course of Chinese history. It is year three of Peik’ing government’s administration of China, and already so much has changed. China sits on a dangerous precipice, sensitive to pressure in any direction. President Edouard Kou pushes the nation towards legal legitimization and free elections, careful of the growing residency for jealous opponents and the expanding spectrum of politically-dissatisfied ideologique dissidents." 
+ POLITICS_Ed_Koo_DESC:0 "Born Kou Ouei-tsouen, Edouard Kou has always been a man fascinated by opportunity. Discipline from a young age kept him performing above standard well through his schooling and allowed him to make a handsome name for himself as an academic and prospective employee. A failed relationship with the daughter of a Indonesian-Chinese business magnate ending just before his rejection from the Heavenly Ministry of Foreign Affairs had Kou looking and feeling like the world's most qualified failure. When faced with the hobbies of choice for Chinese academic washouts, opium and education abroad, Kou opted to book a trip from Hiang Kiang to Paris. \n\nIn Paris, Kou furthered his fascination with French culture. He adopted a French Christian name (Edouard, after a Haitian accountant who saved Kou during a boating accident) and began to identify himself as a Chinese citizen enlightened by the culture and advances of the west. Amidst the political upheaval in Europe, China remained the same "Kingdom of Heaven'' that regularly indulged in tyranny and corrupt nepotism, reeling still from western imperialism’s many wounds cut upon the state. After years in Paris, he returned to the East and began a publishing house with fellow French-educated Chinese academics and printed multiple anti-T’aip’ing serial journals.\n\nThe 1932 Chinese Revolution overthrew T’ianking and the door was opened for Kou to return to China. Barely off the train in Kouangtcheou, readers of his publications cheered for him as he declared himself for the newly established Republic of China. His academic experience as well as his western connections were sought after in the new government and, following a period of intense government backchanneling, the warlord-supported Peik’ing government appointed Kou Minister of Foreign Affairs. In the Foreign Ministry, Kou excelled at furthering the Sino-French relationship and securing key national development funds. Cancer opened the nation’s executive position for prying parties and the well-connected Kou was elected to serve as the Republic's next President. Kou’s high-class style, suave speech, native-like French, and attractive bachelor status build the eyed-easily President in a fabulously iconic light with no other contemporary comparison."
+ 
+ ## Parties ##
+ CHI_centralism_party:0 "CPC"
+ CHI_centralism_party_long:0 "Communist Party of China"
+ CHI_socialism_party:0 "PNS"
+ CHI_socialism_party_long:0 "People's National Society"
+ CHI_progressivism_party:0 "3SP"
+ CHI_progressivism_party_long:0 "Three-Securities Party"
+ CHI_liberalism_party:0 "LP"
+ CHI_liberalism_party_long:0 "Liberal Party"
+ CHI_conservatism_party:0 "YCP"
+ CHI_conservatism_party_long:0 "Young China Party"
+ CHI_republicanism_party:0 "CRF"
+ CHI_republicanism_party_long:0 "Chinese Revolutionary Front"
+ CHI_authoritarianism_party:0 "ROCA AS"
+ CHI_authoritarianism_party_long:0 "Republic of China Army Adivsory Staff"
+ CHI_ultranationalism_party:0 "AML"
+ CHI_ultranationalism_party_long:0 "Anti-Manchu League"
+
+ CHI_DIVINE_ultranationalism_party:0 "DW"
+ CHI_DIVINE_ultranationalism_party_long:0 "Divine Worship"
+
+ ## Focuses ##
+
+ #Intro Tree
+ CHI_President_Koo:0 "Kou's Three Modernizations"
+ CHI_President_Koo_desc:0 ""
+ CHI_Policy_Direction_Comittee:0 "Form the Policy Direction Committee"
+ CHI_Policy_Direction_Comittee_desc:0 "Bread spelled committee wrong"
+ CHI_consult_the_military:0 "Consult the Military"
+ CHI_consult_the_military_desc:0 ""
+ CHI_woo_the_bureaucracy:0 "Woo the Bureaucracy"
+ CHI_woo_the_bureaucracy_desc:0 ""
+ #Intro Warlord Management
+ CHI_defragmentation:0 "Defragmentation"
+ CHI_defragmentation_desc:0 ""
+ CHI_the_easy_way:0 "The Easy Way"
+ CHI_the_easy_way_desc:0 ""
+ CHI_the_much_harder_way:0 "The Much Harder Way"
+ CHI_the_much_harder_way_desc:0 ""
+ CHI_touan_tsijouis_last_dance:0 "Touan Ts'ijoui's Last Dance"
+ CHI_touan_tsijouis_last_dance_desc:0 ""
+ CHI_summon_tchangs_debts:0 "Summon Tchangs' Debts"
+ CHI_summon_tchangs_debts_desc:0 ""
+ CHI_yangs_isolation:0 "Yang's Isolation"
+ CHI_yangs_isolation_desc:0 ""
+ CHI_tangs_goodwill:0 "T'ang's Goodwill"
+ CHI_tangs_goodwill_desc:0 ""
+ CHI_fastest_hand_in_the_east:0 "Fastest Hand in the East"
+ CHI_fastest_hand_in_the_east_desc:0 ""
+ #Intro Economic Reforms
+ CHI_industrialization:0 "Industrialization"
+ CHI_industrialization_desc:0 ""
+ CHI_privatization_scheme:0 "Privatization Scheme"
+ CHI_privatization_scheme_desc:0 ""
+ CHI_state_corporations:0 "State Corporations"
+ CHI_state_corporations_desc:0 ""
+ CHI_corporate_alliances_for_chinese_development:0 "Corporate Alliances for Chinese Development"
+ CHI_corporate_alliances_for_chinese_development_desc:0 ""
+ CHI_small_business_loans:0 "Small Business Loans"
+ CHI_small_business_loans_desc:0 ""
+ CHI_improve_distribution_networks:0 "Improve Distribution Networks"
+ CHI_improve_distribution_networks_desc:0 ""
+ CHI_economic_egalitarianism:0 "Economic Egalitarianism"
+ CHI_economic_egalitarianism_desc:0 ""
+ CHI_state_sponsored_banking:0 "State Sponsored Banking"
+ CHI_state_sponsored_banking_desc:0 ""
+ CHI_building_capital_reserves:0 "Building Capital Reserves"
+ CHI_building_capital_reserves_desc:0 ""
+ CHI_smart_investing:0 "Smart Investing"
+ CHI_smart_investing_desc:0 ""
+ CHI_apply_for_foreign_loans:0 "Apply for Foreign Loans"
+ CHI_apply_for_foreign_loans_desc:0 ""
+ CHI_roadways_away:0 "Roadways, Away!"
+ CHI_roadways_away_desc:0 ""
+ CHI_a_rich_government:0 "A Rich Government"
+ CHI_a_rich_government_desc:0 ""
+ CHI_chinese_capitalism:0 "Chinese Capitalism"
+ CHI_chinese_capitalism_desc:0 ""
+ #Intro Army Reforms
+ CHI_democratization:0 "Democratization"
+ CHI_democratization_desc:0 ""
+ CHI_end_summary_executions:0 "End Summary Executions"
+ CHI_end_summary_executions_desc:0 ""
+ CHI_the_chinese_code_of_law:0 "The Chinese Code of Law"
+ CHI_the_chinese_code_of_law_desc:0 ""
+ CHI_define_the_territorial_claims:0 "Define the Territorial Claims"
+ CHI_define_the_territorial_claims_desc:0 ""
+ CHI_national_education_standards:0 "National Education Standards"
+ CHI_national_education_standards_desc:0 ""
+ CHI_build_the_court_system:0 "Build the Court System"
+ CHI_build_the_court_system_desc:0 ""
+ CHI_define_separation_of_powers:0 "Define Seperation of Powers"
+ CHI_define_separation_of_powers_desc:0 ""
+ CHI_the_lawsuit:0 "The Lawsuit"
+ CHI_the_lawsuit_desc:0 ""
+ CHI_define_the_rules_abide_by_the_rules:0 "Define the Rules, Abide by the Rules"
+ CHI_define_the_rules_abide_by_the_rules_desc:0 ""
+ CHI_the_1938_elections:0 "The 1938 Elections"
+ CHI_the_1938_elections_desc:0 ""
+
+ CHI_private_industry_buff:0 "§GPrivate Industry will recieve a bonus from this.§!"
+ CHI_construction_buff:0 "§GCorporations will aid in construction.§!"
+ CHI_local_construction_buff:0 "§GLand will be properly rennovated.§!"
+ CHI_investments_better_working:0 "§GInvestments will improve working standards.§!"
+ CHI_code_of_law_cemented:0 "§GCode of law will be cemented, preparing us for the road ahead.§!"
+ CHI_big_dick_moves:0 "§GMoves on the international stage will benefeit out government's style.§!"
+ CHI_education_standards:0 "§GEducation standards will improve out institutions.§!"
+ CHI_court_of_law_bad_ass:0 "§GThe court of law will provide benefeits to our government's functioning.§!"
+ CHI_separation_of_powers:0 "§GFaith in the functions of our government will stabilize it further.§!"
+
+ #Kou is dead tree
+ CHI_the_headless_chicken:0 "The Flood"
+ CHI_the_headless_chicken_desc:0 ""
+ CHI_doing_our_best_to_keep_calm:0 "Doing Our Best to Keep Calm"
+ CHI_doing_our_best_to_keep_calm_desc:0 ""
+ CHI_appeal_to_the_warlords:0 "Appeal to the Warlords"
+ CHI_appeal_to_the_warlords_desc:0 ""
+ CHI_cross_camp_discourse:0 "Cross Camp Discourse"
+ CHI_cross_camp_discourse_desc:0 ""
+ CHI_reason_and_conversation_triumphant:0 "Reason and Compromise Triumphant"
+ CHI_reason_and_conversation_triumphant_desc:0 ""
+ CHI_burn_the_palace_down:0 "Burn the Palace Down"
+ CHI_burn_the_palace_down_desc:0 ""
+ 
+ ## Events ##
+ 
+ ## Kou Presidency ##
+
+ chikoo.1.t:0 "The Life and Times of President Edouard Kou"
+ chikoo.1.d:0 "It is no secret that the Republic of China is as fractured and teetering on instability as it is profoundly corrupt and wholly unmanageable. Areas under the administration and protection of the central government are presided over by civilian governors reinforced by federal army troops under the command of the seat in Peik’ing. This, in most cases, is equitable enough for the capital government, but it is not the case everywhere in China. Beyond the eastern provinces warlords loyal to the Presidency hold absolute sway over regional armies and provincial administrations, utilizing their local clout to influence Chinese politics. Most warlords are friendly, or at least positively ambivalent, while one in particular makes no secret of his hostility towards Peik’ing.\n\nFormer Marshal of the Republic of China Touan Ts'ijou and his Nganhouei Clique represent the second largest political machine in China, second of course to the central government. Clique leadership does not take this network for granted, and is actively working under Touan’s orders to subvert Peik’ing and, more importantly, the presidency of V. K. Edouard Kou. The French-educated bachelor-President retains his charm well into his middling years, and is a popular reformist keeping well-enjoyed stability in the Republic of China. Kou’s skills with oration and negotiation have served him well in building business, military, and bureaucratic connections that every day assist with the Republic’s slow transition towards liberal democracy. Despite his optimism and well-placed bets, President Kou is still dealing with the grand Chinese house of cards. The revolutionary regime must still sort through administrative kinks and infighting; Kou is well aware of Touan’s scheming and, after months of deliberation, has resorted to his final option: force.\n\nShould President Kou succeed in upending the dissident military factions, his unified government might just win democracy for the Chinese people. But if a force strong enough to derail the administration presents itself, then China will enter a period of violent upheaval yet unknown. All this hangs in the balance."
+ chikoo.1.a:0 "Allons-y, Monsieur Kou!"
+ 
+ chikoo.2.t:0 ""
+ chikoo.2.d:0 ""
+ chikoo.2.a:0 ""
+ 
+ chikoo.3.t:0 ""
+ chikoo.3.d:0 ""
+ chikoo.3.a:0 ""
+ 
+ chikoo.4.t:0 ""
+ chikoo.4.d:0 ""
+ chikoo.4.a:0 ""
+ 
+ chikoo.5.t:0 ""
+ chikoo.5.d:0 ""
+ chikoo.5.a:0 ""
+ 
+ chikoo.6.t:0 ""
+ chikoo.6.d:0 ""
+ chikoo.6.a:0 ""
+ 
+ chikoo.7.t:0 ""
+ chikoo.7.d:0 ""
+ chikoo.7.a:0 ""
+ 
+ chikoo.8.t:0 ""
+ chikoo.8.d:0 ""
+ chikoo.8.a:0 ""
+ 
+ chikoo.9.t:0 ""
+ chikoo.9.d:0 ""
+ chikoo.9.a:0 ""
+ 
+ chikoo.10.t:0 ""
+ chikoo.10.d:0 ""
+ chikoo.10.a:0 ""
+ 
+ chikoo.11.t:0 ""
+ chikoo.11.d:0 ""
+ chikoo.11.a:0 ""
+ 
+ chikoo.12.t:0 ""
+ chikoo.12.d:0 ""
+ chikoo.12.a:0 ""
+ 
+ chikoo.13.t:0 ""
+ chikoo.13.d:0 ""
+ chikoo.13.a:0 ""
+ 
+ chikoo.14.t:0 ""
+ chikoo.14.d:0 ""
+ chikoo.14.a:0 ""
+ 
+ chikoo.15.t:0 "Warlord Protest Kou"
+ chikoo.15.d:0 ""
+ chikoo.15.a:0 "Dammit"
+ 
+ chikoo.16.t:0 "Touan is removed"
+ chikoo.16.d:0 ""
+ chikoo.16.a:0 "Poggers"
+ 
+ chikoo.17.t:0 ""
+ chikoo.17.d:0 ""
+ chikoo.17.a:0 ""
+ 
+ chikoo.18.t:0 ""
+ chikoo.18.d:0 ""
+ chikoo.18.a:0 ""
+ 
+ chikoo.19.t:0 ""
+ chikoo.19.d:0 ""
+ chikoo.19.a:0 ""
+ 
+ chikoo.20.t:0 ""
+ chikoo.20.d:0 ""
+ chikoo.20.a:0 ""
+ 
+ chikoo.21.t:0 ""
+ chikoo.21.d:0 ""
+ chikoo.21.a:0 ""
+ 
+ chikoo.22.t:0 ""
+ chikoo.22.d:0 ""
+ chikoo.22.a:0 ""
+ 
+ chikoo.23.t:0 ""
+ chikoo.23.d:0 ""
+ chikoo.23.a:0 ""
+ 
+ chikoo.24.t:0 ""
+ chikoo.24.d:0 ""
+ chikoo.24.a:0 ""
+ 
+ chikoo.25.t:0 ""
+ chikoo.25.d:0 ""
+ chikoo.25.a:0 ""
+ 
+ chikoo.26.t:0 ""
+ chikoo.26.d:0 ""
+ chikoo.26.a:0 ""
+ 
+ chikoo.27.t:0 ""
+ chikoo.27.d:0 ""
+ chikoo.27.a:0 ""
+ 
+ chikoo.28.t:0 ""
+ chikoo.28.d:0 ""
+ chikoo.28.a:0 ""
+ 
+ chikoo.29.t:0 ""
+ chikoo.29.d:0 ""
+ chikoo.29.a:0 ""
+ 
+ chikoo.31.t:0 ""
+ chikoo.31.d:0 ""
+ chikoo.31.a:0 ""
+ 
+ chikoo.32.t:0 ""
+ chikoo.32.d:0 ""
+ chikoo.32.a:0 ""
+ 
+ chikoo.33.t:0 ""
+ chikoo.33.d:0 ""
+ chikoo.33.a:0 ""
+ 
+ chikoo.34.t:0 ""
+ chikoo.34.d:0 ""
+ chikoo.34.a:0 ""
+ 
+ chikoo.35.t:0 ""
+ chikoo.35.d:0 ""
+ chikoo.35.a:0 ""
+ 
+ chikoo.36.t:0 ""
+ chikoo.36.d:0 ""
+ chikoo.36.a:0 ""
+ 
+ chikoo.37.t:0 ""
+ chikoo.37.d:0 ""
+ chikoo.37.a:0 ""
+ 
+ chikoo.38.t:0 ""
+ chikoo.38.d:0 ""
+ chikoo.38.a:0 ""
+ 
+ chikoo.39.t:0 ""
+ chikoo.39.d:0 ""
+ chikoo.39.a:0 ""
+ 
+ chikoo.40.t:0 ""
+ chikoo.40.d:0 ""
+ chikoo.40.a:0 ""
+ 
+ TEMP_RANDOM_TOBEDONE:0 "The result of this event is currently random, it will later be decided by a variable. Get back to work so this can be fixed faster."
+ CHI_kou_died:0 "[get.CHI_eduard_secret_death]
+ CHI_kou_dead:0 "§RPresident Eduard Kou has died.§!"
+ CHI_kou_dead:0 "§GThe Elections have not yet occured.§!"
+
+ ## Misc Events ##
+
+ CHI.3.t:0 "I Hate Edouard Kou"
+ CHI.3.d:0 "It is not strange for the ever-reclusive Touan Ts'ijoui to pace around his sleeping quarters at odd hours of the night wielding nothing more than his officer’s sword and his ornate Marshall’s headpiece. “Ever since that bastard Kou dismissed me,” Toucan would tell housekeepers, “I have felt nothing but a raging desire to see that Parisian chambermaid put in his place.” In the years since President Edouard Kou’s dismissal of Touan as the Marshall of the Republic of China there has been little for Changhai’s premier anchorite to do besides continue pacing about his sprawling city villa and further curse the name of his greatest political enemy.\n\nThose around Touan are keenly aware of his age and his progressing senility, but are powerless to secure leadership from the eternal Marshall. Episodes of lucidity come only when dealing with the soldiers of his strongman Nganhouei Clique, before whom Touan displays battlefield erudition with charisma and inspiration. The thunderous cheers from the ranks show he is loved by his army and any actions against Touan would be a death sentence. So instead the senior officers still tag along with their leader and stand behind him even in the most hopeless of schemes. At one point the wine-addled Marshall called upon his Generals to launch an offensive to regain lost provinces from the central government, a plan which was halted only when General Hu Chutcheng physically assaulted the order-bearing message runner outside of Touan’s home. It is the opinion of many within the Nganhouei Clique that it is not a question of IF the mentally slipping Touan Ts’ijoui will cause major issue for the Clique, it is a question of when. Some think very soon."
+ CHI.3.a:0 "What a grudge!"
+
+ CHI.4.t:0 "Farewell to Tianjing"
+ CHI.4.d:0 "China's last dynasty, the Taiping Heavenly Kingdom, reigned for just under a century over a people discontent with the ever-oppressive status quo. During their war of liberation against the Qing, disciples of the Hong dynasty enforced land ownership reorganization and forcible social equalization to adhere to "God Worship" values. Public utilities and development schemes too came and as the war wound down, the break from Qing economic inequality seemed less and less enjoyable. A strict noose on morality and government control once again turned agitation against the Chinese government, festering public discontentment with the unlikely pair of western abuse to form a near-perfect storm. A republican uprising in 1912 was brutally crushed, killing the revolutionaries and their leaders but planting a seed for more to come.\n\nThe breaking point came in 1931 when the King of Heaven signed an agreement with the French allowing French law to be practiced anywhere on the mainland to any person, so long as they be accompanied by a Frenchman. The common Chinese found this legal code to be much more fair than the Chinese one and would often kidnap Frenchmen on top of previous crimes in the hope to receiving a better trial. Tastes of liberalization and growing distance between the military and the King came to a head with the 1932 Revolution, a two-pronged assault on the Tianjing government from the people and the military. The King was deposed and a clique of Beijing-based generals and bureaucrats organized a temporary government which has reformed into the contemporary ROC.\n\nA long history of labor equity and land reform keep the government instilled with a culture of communal caring while ruling with an autocrat's fist, placating the common man but agitating the socialist left. A very real opposition festers in China's shadows, one which is unafraid of death or failure, and one which declares loyalty only for the people. They, the CPC, mold the opposition in their image and organize a broad coalition in the name of seeking government representation.\n\nAnd President Kou, the "most cultured man in China". is not all suave and suckering. He is a skilled orator with many enemies, meaning he is just as likely to talk his way out of a mess as he is to disappear right into another. China is changing, now more than ever, and even with Tianjing returning to Nanjing the stains of the Taiping era do not come off easily."
+ CHI.4.a:0 "Wash away the sins of the father."
+
+ ## Decisions ##
+ CHI_political_machinations:0 "The Men Behind Kou"
+ CHI_political_machinations_desc:0 "Two dick heads enter, one will leave as president of the Republic. \n\n[?chi_shuzheng_power|%G0] of the National Assembly favors General Shuzheng. \n\n[?chi_kewen_power|%G0] of the National Assembly favors Minister Kewen. \n\nCurrently, [Root.CHI_national_assembly_favors]"
+
+ CHI_government_health:0 "China's Stability"
+ CHI_government_health_desc:0 "Oh no the republic is kind of a shit hole. If things get too bad, the actually cool people in Shanghai are going to rise up and kick your fucking ass dipshit. \n\n[?CHI_institutional_health|%G0] of the Political Class still support us. \n\n[?CHI_popular_support|%G0] of the Republic's Citizens still support us. \n\nAll in all, the stability of our regime is currently at [?CHI_regime_health|%G0] stable."
+
+ ## Scripted Localization ##
+ CHI_shuzheng_favored:0 "§Ythe National Assembly favors General Shuzheng§!"
+ CHI_kewen_favored:0 "§Ythe National Assembly favors Minister Kewen§!"
+
+ ## Tool Tips ##
+ CHI_shuzheng_increase_tt:0 "The National Assembly shifts towards §OGeneral Shuzheng§!."
+ CHI_shuzheng_minor_increase_tt:0 "The National Assembly slightly shifts towards §OGeneral Shuzheng§!."
+ CHI_shuzheng_major_increase_tt:0 "The National Assembly decisively shifts towards §OGeneral Shuzheng§!."
+ CHI_kewen_increase_tt:0 "The National Assembly shifts towards §OMinister Kewen§!."
+ CHI_kewen_minor_increase_tt:0 "The National Assembly slightly shifts towards §OMinister Kewen§!."
+ CHI_kewen_major_increase_tt:0 "The National Assembly decisively shifts towards §OMinister Kewen§!."
+
+ #Debug Decisions
+ CHI_debug:0 "China Debug"
+ CHI_debug_spawn_shanghai_government:0 "Spawn the Shanghai Government"

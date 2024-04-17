@@ -1,0 +1,289 @@
+ideas = {
+	country = {
+	
+		USA_the_model_imperialist = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = USA_walker_doctrine
+
+				modifier = {
+					non_core_manpower = 0.03
+					war_support_factor = 0.05
+					mobilization_speed = -0.1
+					drift_defence_factor = 0.25 
+					offensive_war_stability_factor = -0.2
+				}
+		}
+		
+		USA_the_hotbed_of_socialism = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = USA_Hotbed_Of_Socialism
+
+				modifier = {
+					stability_factor = -0.10
+					war_support_weekly = -0.02
+					research_speed_factor = 0.05
+					production_speed_buildings_factor = -0.1
+					production_factory_max_efficiency_factor = -0.1
+				}
+		}
+		
+		USA_faux_freedom = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = USA_oxymoronic_bastion
+
+				modifier = {
+					conscription_factor = -0.15
+					local_building_slots_factor = -0.2
+					stability_factor = -0.15
+				}
+		}
+	
+		USA_colonial_grant_master = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = USA_oxymoronic_bastion
+
+				modifier = {
+					consumer_goods_factor = 0.08
+					local_building_slots_factor = 0.2
+					min_export = -0.05
+				}
+		}
+		
+		USA_colonial_grant_subject = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = USA_oxymoronic_bastion
+
+				modifier = {
+					local_resources_factor = 0.15
+					industrial_capacity_factory = 0.1 
+					consumer_goods_factor = -0.03
+				}
+		}
+		
+		USA_May_Day_Strikes = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = generic_strike
+
+				modifier = {
+					local_resources_factor = -0.15
+					industrial_capacity_factory = -0.15
+					consumer_goods_factor = 0.15
+				}
+		}
+		
+		USA_May_Day_Strikes_2 = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = generic_strike
+
+				modifier = {
+					local_resources_factor = -0.075
+					industrial_capacity_factory = -0.075
+					consumer_goods_factor = 0.075
+				}
+		}
+		
+		NMB_a_colony_for_the_klan = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = NMB_colony_for_klan
+
+				modifier = {
+					stability_factor = 0.1
+					non_core_manpower = -0.5
+				}
+		}
+		
+		LIB_resource_deoposit_of_the_union = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = LIB_Resource_Deposit
+
+				modifier = {
+					local_resources_factor = 0.10 
+					extra_trade_to_target_factor = 1.0
+				}
+		}
+		
+		PHI_ignition_on_the_rise = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = PHI_Ignition_Iminent
+
+				modifier = {
+					stability_weekly = -0.03
+					weekly_manpower = -1000 
+					consumer_goods_factor = 0.25
+				}
+		}
+##########################################################################
+########### PHILLIPINES WAR ##############################################
+		USA_PhCW_prog_attack_bonusA = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = NMB_colony_for_klan
+
+				targeted_modifier = { tag = TAG attack_bonus_against = 0.05 }
+		}
+		USA_PhCW_prog_attack_bonusB = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = NMB_colony_for_klan
+
+				targeted_modifier = { tag = HUK attack_bonus_against = 0.05 }
+		}
+		USA_PhCW_prog_attack_bonusC = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = NMB_colony_for_klan
+
+				targeted_modifier = { tag = TAG attack_bonus_against = 0.05 }
+				targeted_modifier = { tag = HUK attack_bonus_against = 0.05 }
+		}
+
+		USA_PhCW_whig_attack_bonus = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = NMB_colony_for_klan
+
+				targeted_modifier = { tag = TAG attack_bonus_against = 0.2 }
+		}
+
+		USA_PhCW_democrat_attack_bonus1 = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = NMB_colony_for_klan
+
+				targeted_modifier = { tag = TAG attack_bonus_against = 0.1 }
+				targeted_modifier = { tag = HUK attack_bonus_against = 0.1 }
+		}
+
+		USA_PhCW_democrat_attack_bonus2 = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = NMB_colony_for_klan
+
+				modifier = {
+					army_org = 2
+					heat_attrition_factor = -0.15
+					army_morale_factor = 0.1
+					army_attack_factor = 0.15
+				}
+		}
+		USA_expanded_OCI = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = NMB_colony_for_klan
+
+				modifier = {
+					decryption_factor = 0.05
+					war_support_weekly = 0.001
+				}
+		}
+		USA_paying_the_tagalogs = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = NMB_colony_for_klan
+
+				modifier = {
+					consumer_goods_factor = 0.05
+				}
+		}
+	}
+}

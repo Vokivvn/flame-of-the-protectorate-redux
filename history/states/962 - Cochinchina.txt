@@ -1,0 +1,28 @@
+state={
+	id=962
+	name="STATE_962"
+	
+	state_category = large_city
+
+	history={
+		owner = USA
+		victory_points = {
+			4401 3 
+		}
+		buildings = {
+			infrastructure = 4
+			4401 = {
+				naval_base = 4
+			}
+			4223 = {
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces={
+		7347 12232 7238 10261 4401 1396 1423 12133 7303 4284 7331 4341 12288 4223
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}

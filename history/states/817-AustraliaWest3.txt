@@ -1,0 +1,23 @@
+
+state={
+	id=817
+	name="STATE_817"
+	manpower = 72800
+	
+	state_category = rural
+
+	history={
+		victory_points = {
+			8152 1 
+		}
+		owner = WST
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = WST
+	}
+
+	provinces={
+		8155 8134 2133 12926 12912 12904 2201 12993 2177 2186 10473 7608 7579 1498 5170 10950 8152 5125 10971 4645 12323 1511 1540
+	}
+}

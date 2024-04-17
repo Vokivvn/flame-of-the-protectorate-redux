@@ -1,0 +1,237 @@
+﻿l_english:
+
+ ## Decisions ##
+ TUR_the_empires_tensions:0 "Concessions and Clashes"
+ TUR_the_empires_tensions_desc:0 "Republican Strength: [?TUR_Republican_Strength|%R0]\nCommittee of Union and Progress Strength: [?TUR_Republican_Strength|%R0]\n\nArmenian Strength: [?TUR_Armenian_Strength|%R0]\nKurdish Strength: [?TUR_Kurdish_Strength|%R0]\nArab Strength: [?TUR_Arab_Strength|%R0]\n"
+ 
+ # Tree #
+ TUR_the_sick_mans_woes:0 "The Sick Man's Woes"
+ TUR_the_sick_mans_woes_desc:0 ""
+
+ TUR_the_pashas_report:0 "The Pasha's Report"
+ TUR_the_pashas_report_desc:0 ""
+
+ TUR_meet_with_the_assembly:0 "Meet with the Assembly"
+ TUR_meet_with_the_assembly_desc:0 ""
+
+ TUR_begin_preparations_for_the_worst:0 "Begin Preparations for the Worst"
+ TUR_begin_preparations_for_the_worst_desc:0 ""
+
+ TUR_disarm_eastern_garrisons:0 "Disarm Eastern Garrisons"
+ TUR_disarm_eastern_garrisons_desc:0 ""
+
+ TUR_call_to_the_faithful:0 "Call to the Faithful"
+ TUR_call_to_the_faithful_desc:0 ""
+
+ TUR_nationalize_what_little_we_have:0 "Nationalize What Little We Have"
+ TUR_nationalize_what_little_we_have_desc:0 ""
+
+ TUR_plead_to_europe:0 "Plead to Europe"
+ TUR_plead_to_europe_desc:0 ""
+
+ TUR_allah_help_us:0 "Allah Help Us..."
+ TUR_allah_help_us_desc:0 ""
+
+ TUR_deal_with_the_seperatists:0 "Deal with the Seperatists"
+ TUR_deal_with_the_seperatists_desc:0 ""
+
+ TUR_target_the_atheist_rogues:0 "Target the Atheist Reogues"
+ TUR_target_the_atheist_rogues_desc:0 ""
+
+ TUR_reassure_the_loyal_minority:0 "Reassure the Loyal Minority"
+ TUR_reassure_the_loyal_minority_desc:0 ""
+
+ TUR_martial_law_in_damascus:0 "Martial Law in Damascus"
+ TUR_martial_law_in_damascus_desc:0 ""
+
+ TUR_crush_the_heretics:0 "Crush the Heretics"
+ TUR_crush_the_heretics_desc:0 ""
+
+ TUR_keep_an_eye_on_ibn:0 "Keep an Eye on Ibn"
+ TUR_keep_an_eye_on_ibn_desc:0 ""
+
+ TUR_break_tribal_unity:0 "Break Tribal Unity"
+ TUR_break_tribal_unity_desc:0 ""
+
+ TUR_deal_with_the_internal_enemies:0 "Deal with the Internal Enemies"
+ TUR_deal_with_the_internal_enemies_desc:0 ""
+
+ TUR_target_the_republicans:0 "Target the Republicans"
+ TUR_target_the_republicans_desc:0 ""
+
+ TUR_dissolve_the_national_assembly:0 "Dissolve the National Assembly"
+ TUR_dissolve_the_national_assembly_desc:0 ""
+
+ TUR_isolate_the_ghazi_pasha:0 "Isolate the Ghazi Pasha"
+ TUR_isolate_the_ghazi_pasha_desc:0 ""
+
+ TUR_focus_on_the_true_threat:0 "Focus on the True Threat"
+ TUR_focus_on_the_true_threat_desc:0 ""
+
+ TUR_shut_down_young_officer_clubs:0 "Shut Down Young Officer Clubs"
+ TUR_shut_down_young_officer_clubs_desc:0 ""
+
+ TUR_ssearch_the_darkness:0 "Search the Darkness"
+ TUR_ssearch_the_darkness_desc:0 ""
+
+ ##Party Names##
+ TUR_centralism_party:0 "OKF"
+ TUR_centralism_party_long:0 "Osmanlı Komünist Fırkası"
+ TUR_socialism_party:0 "FMC"
+ TUR_socialism_party_long:0 "Fedakâran-ı Millet Cemiyeti"
+ TUR_progressivism_party:0 "SDF"
+ TUR_progressivism_party_long:0 "Sosyal Demokrat Fırkası"
+ TUR_liberalism_party:0 "H-İ"
+ TUR_liberalism_party_long:0 "Hürriyet ve İhtilaf Fırkası"
+ TUR_conservatism_party:0 "İMF"
+ TUR_conservatism_party_long:0 "İttihad-ı Muhammedî Fırkası"
+ TUR_republicanism_party:0 "CDHF-C"
+ TUR_republicanism_party_long:0 "Cumhuriyetçi Devrimci Halk Fırkası-Cephesi"
+ TUR_authoritarianism_party:0 "SOF"
+ TUR_authoritarianism_party_long:0 "Selâmet-i Osmaniyye Fırkası"
+ TUR_ultranationalism_party:0 "İ-T"
+ TUR_ultranationalism_party_long:0 "İttihat ve Terakki Cemiyeti"
+
+ TRP_centralism_party:0 "TKF"
+ TRP_centralism_party_long:0 "Türkiye Kommünist Fırkası"
+ TRP_socialism_party:0 "SF"
+ TRP_socialism_party_long:0 "Sosyalist Fırka"
+ TRP_progressivism_party:0 "CDHF-C (Left Wing)"
+ TRP_progressivism_party_long:0 "Left Wing of CDHF-C"
+ TRP_liberalism_party:0 "CDHF-C (Center Wing)"
+ TRP_liberalism_party_long:0 "Center Wing of CDHF-C"
+ TRP_conservatism_party:0 "Reactionary Sympathizers"
+ TRP_conservatism_party_long:0 "Reactionary Sympathizers"
+ TRP_republicanism_party:0 "CDHF-C"
+ TRP_republicanism_party_long:0 "Cumhuriyetçi Devrimci Halk Fırkası-Cephesi"
+ TRP_authoritarianism_party:0 "Military Junta"
+ TRP_authoritarianism_party_long:0 "Military Junta"
+ TRP_ultranationalism_party:0 "İ-T"
+ TRP_ultranationalism_party_long:0 "İttihat ve Terakki Cemiyeti"
+
+ CUP_centralism_party:0 "Centralists"
+ CUP_centralism_party_long:0 "Centralists"
+ CUP_socialism_party:0 "Socialists"
+ CUP_socialism_party_long:0 "Socialists"
+ CUP_progressivism_party:0 "Progressives"
+ CUP_progressivism_party_long:0 "Progressives"
+ CUP_liberalism_party:0 "Liberals"
+ CUP_liberalism_party_long:0 "Liberals"
+ CUP_conservatism_party:0 "İ-T (Democrat Wing)"
+ CUP_conservatism_party_long:0 "Democrat Wing of İ-T"
+ CUP_republicanism_party:0 "Republican Sympathizers"
+ CUP_republicanism_party_long:0 "Republican Sympathizers"
+ CUP_authoritarianism_party:0 "Military Junta"
+ CUP_authoritarianism_party_long:0 "Military Junta"
+ CUP_ultranationalism_party:0 "İ-T"
+ CUP_ultranationalism_party_long:0 "İttihat ve Terakki Cemiyeti"
+
+ SYR_centralism_party:0 "Al-Ba'ath"
+ SYR_centralism_party_long:0 "Hizb Al-Ba'ath Al-Arabi Al-Ishtiraki"
+ SYR_socialism_party:0 "Al-Ishtiraki"
+ SYR_socialism_party_long:0 "Hizb Suriya Al-'Arabi Al-Ishtiraki"
+ SYR_progressivism_party:0 "Progressives"
+ SYR_progressivism_party_long:0 "Progressives"
+ SYR_liberalism_party:0 "Liberals"
+ SYR_liberalism_party_long:0 "Liberals"
+ SYR_conservatism_party:0 "Al-Mohafezeen"
+ SYR_conservatism_party_long:0 "Hizb Al-Mohafezeen"
+ SYR_republicanism_party:0 "Al-Jumhuri"
+ SYR_republicanism_party_long:0 "Hizb Al-Jumhuri Al-Suriya"
+ SYR_authoritarianism_party:0 "Hizb Suriya Al-'Arabi"
+ SYR_authoritarianism_party_long:0 "Hizb Suriya Al-'Arabi"
+ SYR_ultranationalism_party:0 "Ultranationalists"
+ SYR_ultranationalism_party_long:0 "Ultranationalists"
+
+ KUR_centralism_party:0 "PKK"
+ KUR_centralism_party_long:0 "Partiya Karkerên Kurdistan"
+ KUR_socialism_party:0 "PASOK"
+ KUR_socialism_party_long:0 "Partîya Sosyalîsta Kurdistan"
+ KUR_progressivism_party:0 "YNK"
+ KUR_progressivism_party_long:0 "Yekîtîya Niştimanîya Kurdistan"
+ KUR_liberalism_party:0 "PLK"
+ KUR_liberalism_party_long:0 "Partîya Lîberale Kurdistan"
+ KUR_conservatism_party:0 "KDP"
+ KUR_conservatism_party_long:0 "Komeleyê Jiyanêwê Kurdistan"
+ KUR_republicanism_party:0 "PCK"
+ KUR_republicanism_party_long:0 "Partîya Cumhuriyê Kurdistan"
+ KUR_authoritarianism_party:0 "Pêşmerge"
+ KUR_authoritarianism_party_long:0 "Pêşmerge"
+ KUR_ultranationalism_party:0 "BIK"
+ KUR_ultranationalism_party_long:0 "Bizutnawai Islami le Kurdistan"
+
+ ARM_centralism_party:0 "HKK"
+ ARM_centralism_party_long:0 "Hayastani Komunistakan Kusaktsutyun"
+ ARM_socialism_party:0 "Dashnak"
+ ARM_socialism_party_long:0 "Dashnaktsutyun"
+ ARM_progressivism_party:0 "Hentchak"
+ ARM_progressivism_party_long:0 "Hentchaksutyun"
+ ARM_liberalism_party:0 "RAK"
+ ARM_liberalism_party_long:0 "Ramgavar Azatakan Kusaktsutyun"
+ ARM_conservatism_party:0 "HK"
+ ARM_conservatism_party_long:0 "Hanrapetutyun Kusaktsutyun"
+ ARM_republicanism_party:0 "HHK"
+ ARM_republicanism_party_long:0 "Hayastani Hanrapetakan Kusaktsutyun"
+ ARM_authoritarianism_party:0 "Authoritarians"
+ ARM_authoritarianism_party_long:0 "Authoritarians"
+ ARM_ultranationalism_party:0 "Nemesis"
+ ARM_ultranationalism_party_long:0 "Nemesis"
+
+ BAG_centralism_party:0 "Centralists"
+ BAG_centralism_party_long:0 "Centralists"
+ BAG_socialism_party:0 "Socialists"
+ BAG_socialism_party_long:0 "Socialists"
+ BAG_progressivism_party:0 "Progressives"
+ BAG_progressivism_party_long:0 "Progressives"
+ BAG_liberalism_party:0 "Liberals"
+ BAG_liberalism_party_long:0 "Liberals"
+ BAG_conservatism_party:0 "Al-Mohafezeen"
+ BAG_conservatism_party_long:0 "Hizb Al-Mohafezeen"
+ BAG_republicanism_party:0 "Al-Jumhuri"
+ BAG_republicanism_party_long:0 "Hizb Al-Jumhuri Al-Iraqi"
+ BAG_authoritarianism_party:0 "House of Saud"
+ BAG_authoritarianism_party_long:0 "House of Saud"
+ BAG_ultranationalism_party:0 "House of Saud"
+ BAG_ultranationalism_party_long:0 "House of Saud"
+
+ ##Ideas##
+ TUR_the_mejidian_restorations:0 "Mejidian Restorations"
+ TUR_the_mejidian_restorations_desc:0 ""
+
+ TUR_the_house_of_osman:0 "House of Osman"
+ TUR_the_house_of_osman_desc:0 ""
+
+ TUR_the_caliphate:0 "Ottoman Caliphate"
+ TUR_the_caliphate_desc:0 ""
+
+ TUR_the_divided_society:0 "Divided Society"
+ TUR_the_divided_society_desc:0 ""
+
+##Events##
+global.2.t:0 "Crisis in the Orient!"
+global.2.d:0 "Today, the down spiral of events in the Ottoman Empire has reached its breaking point. Following the seizure of Izmir by rioters demanding an end to the monarchy, General Mustafa Kemal Pasha has declared the Republic of Turkey in Central Anatolia. To make matters worse, armed conflict has spread across the Empire, with the militias loyal to CUP seizing the eastern Asia Minor, which was followed by the nations of Syria, Kurdistan, Armenia and Baghdad declaring their own independence from Ottoman suzerainty. \n\nWith the Empire's heartland falling into civil war and the newborn nation states of the Middle East fighting each other for territory, war seems likely to be the only real ruler within the former domains of the Sublime Porte for the foreseeable future."
+global.2.a:0 "An empire shattered..."
+
+collapse.1.t:0 "An Invitation"
+collapse.1.d:0 "“My Ghazi Pasha...” I called out as I stepped up the stairs onto the balcony where Mustafa Kemal Pasha was out for a smoke, his blue eyes staring into the endless steppe of Anatolia. He turned his head over to face his old friend, and with a nod he acknowledged me. \n\n“We have received new reports from Izmir,” I took a deep breath, “the civil unrest is "out of control" and the imperial gendarme have proven unable to stop sporadic skirmishes between monarchists and our fellow republicans, with violence increasing by the hour.” I flipped the page from the file. “And from Adana in the East, reports indicate that paramilitaries loyal to the Committee are mobilizing. They have already seized the city and vicious conflicts between them and the Cilicians are already spreading like the wind.” I gulped in response to the sheer terror of the situation, I am ashamed to admit. “My Ghazi Pasha, I think civil war is inevitable...” \n\n“Fevzi Pasha...” He said, before taking a last breath from his cigarette. “We have cast our lot in with each other so far.” “We did indeed...” I agreed. “Will you be willing to venture one more step deeper into the unknown with me now?” His icy stare pierced right through my old eyes. “I am and I always will, my Ghazi Pasha.” “Then...” He turned his head to the steppe with a small smile on his face. “May you do the honor of writing down my invitation to the Great Turkish Nation and her eternal protector, the Turkish Army?..”"
+collapse.1.a:0 "The people are invited to protect the Republic that has been declared."
+
+collapse.2.t:0 "A Valley of Wolves"
+collapse.2.d:0 "Behind a makeshift barricade made out of a peddler’s cart and bags of flour sat Polat, hugging an ammunition box. The explosions, the gunshots, the screams, the blood... Adana, the city was burning before his eyes. The war was just like the stories his grandpa had told him, those he had listened to with a contemptuous smirk on his face. “A battlefield is the valley of wolves, son...” He used to say. \n\n“Hand me the ammo, boy!” he snapped back to reality upon hearing his squad leader’s booming voice. Polat helped him feed the bullets into the machine gun, and with the roar of a dragon the gun sprayed a burst of death into the Cilicians. Anything beyond their position was the Cilician neighborhoods, he remembered how he used to play soccer on their streets with other kids, how he stole oranges from Mr. Azarian’s garden, how once he smashed the stained glass window of St. Paul's Church accidentally with his soccer ball... \n\nHe snapped back to reality again, this time upon hearing the trampling of boots belonging to reinforcements. The reverse flag he saw, with the words “Allah, Motherland, Honor, Progress” written on it... It was Khalil Quds' personal standard, and to his great shock the man himself led the battalion. Polat ran to the Pasha, shaking on his way to him. “Sir, it is...” Polat was on the brink of tears. “It is a valley of wolves out there!” He shouted the horror of war, desperate for someone to hear. Quds Pasha did not even turn his head over to face him, he simply pulled out his revolver and said: \n\n“And we are the wolves.”"
+collapse.2.a:0 "Wolves are on the loose now."
+
+collapse.3.t:0 "All-Syrian Arab Council"
+collapse.3.d:0 "“...And as the greatest Muslim authority here, only I am worthy of leading this revolution.” the Grand Mufti of Jerusalem said to the All-Syrian Arab Council, with his turban risen high in pride. “You dare not leave out all our Alawite and Christian brothers here!” replied Ghazi bin Faisal, standing up in response. “As if a Hashemite would know what is better for us! Your kin in Hejaz are the lapdogs of Moscowite Imperialism!” yelled Al-Qawuqji Pasha. These men of great ambition kept arguing and bickering between themselves, until they heard the neighing of an Arabian horse approaching, and the sound of her rider quickly entering the tent. \n\n“What in Jethro’s beard is going on in here?!” It was Sultan Pasha Al-Atrash, his mustache trembling in rage. The Mufti turned to face the man with a depreciatory smirk on his face. “Oh there he is! We were simply discussing to determine our lead-” Sultan interrupted him bluntly, “As you sit your asses down here the people of Damascus are fighting for their liberation! Now is the time to act, not talk. Get your damned swords and follow me to the city!” He motioned for the people to get up, which they did as they found their leader. The Mufti was baffled, “No, listen to me my fellow men!.. Will... Will you really let this Druze savage to lead us?” In response, Sultan Pasha simply slapped the Mufti to the ground with the back of his hand. “Religion is for God, but fatherland is for us all.” was his the only words said after."
+collapse.3.a:0 "Syrians are united behind their leader."
+
+collapse.4.t:0 "A Day in Diyar-i Bekir"
+collapse.4.d:0 "“And I hereby declare the Federation of Kurdistan, free from any and all suzerainty but the will of the Kurdish people!” Barzani raised his left fist in triumph as the crowd cheered for him. “We are only in the beginning of our existence, yet our nation is under attack by all her neighbors!” Barzani continued. “May we take our rifles and ride our horses high against the enemy! May we die so our nation can live!” \n\nIn a mountain household, a Sheikh, an Agha, and a Landlord sat, discussing the matters of the land. “Barzani thinks he can unite the people behind him with nationalism, that fool...” said the landlord. “Most of them don’t even consider themselves as Kurds, just Muslims who happen to speak Kurdish.” the Sheikh caressed his beard and continued: “Allah forbid if they find out we are rebelling against the Caliph too...” “We are not really rebelling against him though are we?..” asked the Agha, he was clearly uncomfortable. “We united our people to fight against the Kuffar in the north and the rebels in the south, we are still under his holy shadow, serving him!” the Sheikh said, assuring the Agha. \n\n“You know who is the real unifer of all these Peşmerge and peasants living from Bitlis to Arbil?” The Agha was talking now. “Us, tribe leaders! They know no connection, no loyalty but to their kin! Now isn’t that right?” All three nodded their heads in agreement."
+collapse.4.a:0 "The people are fighting for Kurdistan"
+
+collapse.5.t:0 "Andranik's Speech"
+collapse.5.d:0 "“Fedayeen! My brothers, my faithful young lions! The battle is now beginning... We have set our hearts at this city. At first light we shall storm out! At first light we will regain what has been ours since the dawn of time! If this nation is to be reborn, It will start here, in this city, today! For it is not we who breathe, but the nation that breathes within us...” \n\nAs Andranik Pasha spoke zealously to the crowd of furious nationalists, a couple of the most powerful men within the Dashnak Party stood backstage smoking and drinking cheap Erzurum wine. “He’s going at it again, isn’t he?” General Kanayan smirked. “Old man Andranik always does...” said First Comrade Simon Vratsian after he took a breath from his pipe. “Simon, are you really comfortable with him giving these speeches, filled with,” Kanayan paused to pick the right word, “overly nationalist and reactionary themes?” “Comrade, we cannot hope to unite the people of Armenia behind us without using people like him and ideas like his as a stepping ladder. The Old Man is a soldier, and so are the people believing and embracing his ideas, but we are the leaders, the nation builders.” He downed his cup of wine and got up. “Come now, comrade, we have a city to take.”"
+collapse.5.a:0 "The people rise for their liberation!"
+
+collapse.6.t:0 "The King in the Desert Returns"
+collapse.6.d:0 "I was drinking my afternoon coffee when I heard the auspicious news from an orphan running barefoot on the dusty streets of Baghdad. “The King! The King in the Desert is here! Allahu Akbar!” he was calling out in bursting excitement. I couldn’t stand idle, I had to see this holy reunion! So I joined the crowd of people running to the outer gates of the city, climbing up the building walls and date trees to get a glimpse of him. \n\nI saw him, alhamdulillah, I saw him. The King was riding on his white she-camel, armed with nothing but his cane despite all the threats to his life... His hand risen in cold command, his sneer read from his wrinkled lip, with a simple gesture stopped the chanting of songs and the drumming of tambourines. From his cracking voice I heard these words: “I am Abdulaziz ibn Abdul Rahman ibn Faisal Al-Saud, in this time of turbulence I have been sent back to you. Now in the name of Allah, let us all unite against the Kuffar. Let us wage his holy jihad!” The crowd cheered in a solemn zeal, for now our purpose has been defined..."
+collapse.6.a:0 "The Green Standard flies over Baghdad now..."

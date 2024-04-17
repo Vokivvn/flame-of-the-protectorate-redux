@@ -1,0 +1,32 @@
+﻿capital = 679
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	authoritarianism = 20
+	ultranationalism = 10
+	progressivism = 10
+	liberalism = 20
+	conservatism = 40
+}
+
+create_country_leader = {
+	name = "'Abd al-Ilah"
+	desc = "POLITICS_ABDULAZIZ_DESC"
+	picture = "Portrait_Arabia_Abd_al_Ilah.dds"
+	expire = "1965.1.1"
+	ideology = conservatism_subtype
+	traits = {
+		#
+	}
+}
+
+add_ideas = {
+	SOV_russian_influence
+}

@@ -1,0 +1,175 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "humor"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height= 430 }
+		
+		iconType={
+			name ="sheet"
+			spriteType = "GFX_ENG_celt_fuck"
+			position = { x= -4	 y = 50 }
+		}
+		
+		instantTextBoxType = {
+			name ="WELSH_NATIONAL_FEDERATION"
+			position = { x = 1 y = 58 }
+			font = "hoi_18"
+			text = "ENG_WELSH_NF"
+			format = center
+			maxWidth = 243
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="WELSH_NATIONAL_tension"
+			position = { x = 1 y = 82 }
+			font = "hoi_18"
+			text = "ENG_WELSH_tension"
+			format = center
+			maxWidth = 243
+			maxHeight = 13
+		}
+		
+		instantTextBoxType = {
+			name ="WELSH_NATIONAL_Plaid_Cymru"
+			position = { x = 1 y = 101 }
+			font = "hoi_18"
+			text = "ENG_WELSH_Plaid_Cymru"
+			format = center
+			maxWidth = 123
+			maxHeight = 25
+		}
+		
+		instantTextBoxType = {
+			name ="WELSH_NATIONAL_Plaid_Cymru_promi"
+			position = { x = 1 y = 124 }
+			font = "hoi_18"
+			text = "ENG_WELSH_Plaid_Cymru_prom"
+			format = center
+			maxWidth = 123
+			maxHeight = 18
+		}
+		
+		instantTextBoxType = {
+			name ="WELSH_NATIONAL_Plaid_Cymru_stats"
+			position = { x = 1 y = 142 }
+			font = "hoi_18"
+			text = "ENG_WELSH_Plaid_Cymru_status"
+			format = center
+			maxWidth = 123
+			maxHeight = 18
+		}
+		
+		instantTextBoxType = {
+			name ="WELSH_NATIONAL_Welsh_Labour"
+			position = { x = 125 y = 101 }
+			font = "hoi_18"
+			text = "ENG_WELSH_Welsh_Labour"
+			format = center
+			maxWidth = 123
+			maxHeight = 25
+		}
+		
+		instantTextBoxType = {
+			name ="WELSH_NATIONAL_Welsh_Labour_promi"
+			position = { x = 125 y = 124 }
+			font = "hoi_18"
+			text = "ENG_WELSH_Welsh_Labour_prom"
+			format = center
+			maxWidth = 123
+			maxHeight = 18
+		}
+		
+		instantTextBoxType = {
+			name ="WELSH_NATIONAL_Welsh_Labour_stats"
+			position = { x = 125 y = 142 }
+			font = "hoi_18"
+			text = "ENG_WELSH_Welsh_Labour_status"
+			format = center
+			maxWidth = 123
+			maxHeight = 18
+		}
+		
+		instantTextBoxType = {
+			name ="I_HATE_sCOTTS"
+			position = { x = 248 y = 58 }
+			font = "hoi_18"
+			text = "ENG_NAVSR"
+			format = center
+			maxWidth = 243
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="I_HATE_sCOTTS_tension"
+			position = { x = 248 y = 82 }
+			font = "hoi_18"
+			text = "ENG_NAVSR_tension"
+			format = center
+			maxWidth = 243
+			maxHeight = 13
+		}
+		
+		instantTextBoxType = {
+			name ="I_HATE_sCOTTS_scottish_covenant"
+			position = { x = 248 y = 101 }
+			font = "hoi_18"
+			text = "ENG_NAVSR_Scott_Cov"
+			format = center
+			maxWidth = 123
+			maxHeight = 25
+		}
+		
+		instantTextBoxType = {
+			name ="I_HATE_sCOTTS_scottish_covenant_promi"
+			position = { x = 248 y = 124 }
+			font = "hoi_18"
+			text = "ENG_NAVSR_Scott_Cov_prom"
+			format = center
+			maxWidth = 123
+			maxHeight = 18
+		}
+		
+		instantTextBoxType = {
+			name ="I_HATE_sCOTTS_scottish_covenant_stats"
+			position = { x = 248 y = 142 }
+			font = "hoi_18"
+			text = "ENG_NAVSR_Scott_Cov_status"
+			format = center
+			maxWidth = 123
+			maxHeight = 18
+		}
+		
+		instantTextBoxType = {
+			name ="I_HATE_DemRep"
+			position = { x = 372 y = 101 }
+			font = "hoi_18"
+			text = "ENG_NAVSR_Scott_DemRep"
+			format = center
+			maxWidth = 123
+			maxHeight = 25
+		}
+		
+		instantTextBoxType = {
+			name ="I_HATE_sCOTTS_DemRep_promi"
+			position = { x = 372 y = 124 }
+			font = "hoi_18"
+			text = "ENG_NAVSR_Scott_DemRep_prom"
+			format = center
+			maxWidth = 123
+			maxHeight = 18
+		}
+		
+		instantTextBoxType = {
+			name ="I_HATE_sCOTTS_DemRep_stats"
+			position = { x = 372 y = 142 }
+			font = "hoi_18"
+			text = "ENG_NAVSR_Scott_DemRep_status"
+			format = center
+			maxWidth = 123
+			maxHeight = 18
+		}
+		
+	}
+}

@@ -1,0 +1,14 @@
+state={
+	id=804
+	name="STATE_804"
+	manpower = 31000
+	state_category = town
+	history={
+		owner = SOV
+		add_core_of = EGY
+	}
+
+	provinces={
+		12049
+	}
+}

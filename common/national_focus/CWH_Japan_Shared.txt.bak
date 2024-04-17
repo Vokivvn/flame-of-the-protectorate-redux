@@ -1,0 +1,12 @@
+shared_focus = { #placeholder
+	id =  SAF_white_funny
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	
+	x = 3
+	y = 0
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus SAF_white_funny"
+	}
+}

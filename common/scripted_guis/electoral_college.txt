@@ -1,0 +1,195 @@
+scripted_gui = {
+
+	USA_the_electoral_college = {
+		context_type = decision_category
+		window_name = "usa_electoral_map"
+		visible = {
+			tag = USA
+		}
+		
+		effects = {
+		}
+		
+		triggers = {
+		}
+		
+		properties = {
+			TOTP_ALABAMA = {
+				image = "[TOTP_alabama]"
+			}
+			TOTP_APPALATIA= {
+				image = "[TOTP_appalatia]"
+			}
+			TOTP_ARIZONA= {
+				image = "[TOTP_arizona]"
+			}
+			TOTP_CADDO= {
+				image = "[TOTP_caddo]"
+			}
+			TOTP_CALIFORNIA= {
+				image = "[TOTP_california]"
+			}
+			TOTP_CHEYENE= {
+				image = "[TOTP_cheyene]"
+			}
+			TOTP_CONN= {
+				image = "[TOTP_conn]"
+			}
+			TOTP_CUBA= {
+				image = "[TOTP_cuba]"
+			}
+			TOTP_DALLAS= {
+				image = "[TOTP_dallas]"
+			}
+			TOTP_DELWARE= {
+				image = "[TOTP_deleware]"
+			}
+			TOTP_FLORIDA= {
+				image = "[TOTP_florida]"
+			}
+			TOTP_GEORGIA= {
+				image = "[TOTP_georgia]"
+			}
+			TOTP_HAITI= {
+				image = "[TOTP_haiti]"
+			}
+			TOTP_HAMLIN= {
+				image = "[TOTP_hamlin]"
+			}
+			TOTP_ILLINOIS= {
+				image = "[TOTP_illinois]"
+			}
+			TOTP_IOWA= {
+				image = "[TOTP_iowa]"
+			}
+			TOTP_KANSAS= {
+				image = "[TOTP_kansas]"
+			}
+			TOTP_KENTUCKY= {
+				image = "[TOTP_kentucky]"
+			}
+			TOTP_LOUSIANA= {
+				image = "[TOTP_loussiana]"
+			}
+			TOTP_MAINE= {
+				image = "[TOTP_maine]"
+			}
+			TOTP_MARYLAND= {
+				image = "[TOTP_maryland]"
+			}
+			TOTP_MASSA= {
+				image = "[TOTP_massa]"
+			}
+			TOTP_MIAMI= {
+				image = "[TOTP_miami]"
+			}
+			TOTP_MICHIGAN= {
+				image = "[TOTP_michigan]"
+			}
+			TOTP_MINNESODA= {
+				image = "[TOTP_minnesoda]"
+			}
+			TOTP_MISSISSIPPI= {
+				image = "[TOTP_mississippi]"
+			}
+			TOTP_MISSOURI= {
+				image = "[TOTP_missouri]"
+			}
+			TOTP_NEBRASKA= {
+				image = "[TOTP_nebraska]"
+			}
+			TOTP_NEVADA= {
+				image = "[TOTP_nevada]"
+			}
+			TOTP_NEWHAMSHIRE= {
+				image = "[TOTP_new_hamshire]"
+			}
+			TOTP_NEWJERSEY= {
+				image = "[TOTP_new_jersey]"
+			}
+			TOTP_NEWMEXICO= {
+				image = "[TOTP_new_mexico]"
+			}
+			TOTP_NEWYORK= {
+				image = "[TOTP_new_york]"
+			}
+			TOTP_NORTHCAROLINA= {
+				image = "[TOTP_north_car]"
+			}
+			TOTP_OHIO= {
+				image = "[TOTP_ohio]"
+			}
+			TOTP_OKLAHOMA= {
+				image = "[TOTP_oklahoma]"
+			}
+			TOTP_OREGON= {
+				image = "[TOTP_oregon]"
+			}
+			TOTP_PENN= {
+				image = "[TOTP_penn]"
+			}
+			TOTP_POLK = {
+				image = "[TOTP_polk]"
+			}
+			TOTP_RHODEISLAND = {
+				image = "[TOTP_rhode_island]"
+			}
+			TOTP_SHOSHONE = {
+				image = "[TOTP_shoshone]"
+			}
+			TOTP_SOUTHCAROLINA = {
+				image = "[TOTP_south_car]"
+			}
+			TOTP_SUPERIOR = {
+				image = "[TOTP_superior]"
+			}
+			TOTP_TENNESEE = {
+				image = "[TOTP_tennessee]"
+			}
+			TOTP_TEXAS = {
+				image = "[TOTP_texas]"
+			}
+			TOTP_VERMONT = {
+				image = "[TOTP_vermont]"
+			}
+			TOTP_VIRGINIA = {
+				image = "[TOTP_virginia]"
+			}
+			TOTP_WESTFLORIDA = {
+				image = "[TOTP_w_florida]"
+			}
+			TOTP_WALKER = {
+				image = "[TOTP_walker]"
+			}
+			TOTP_WASHINGTON = {
+				image = "[TOTP_washington]"
+			}
+			TOTP_WISCONSIN = {
+				image = "[TOTP_wisconsin]"
+			}
+			TOTP_YUCTAN = {
+				image = "[TOTP_yuctan]"
+			}
+			TOTP_YUTIA = {
+				image = "[TOTP_yutia]"
+			}
+		}
+	}
+	US_var_display = {
+		window_name = us_popularities_container
+		parent_window_token = selected_state_view
+		context_type = selected_state_context
+		visible = {
+			ROOT = {
+				original_tag = USA
+				NOT = { has_country_flag = USA_var_display_hidden }
+			}
+			THIS = {
+				AND = {
+					owner = { tag = USA }
+					can_have_elections = yes
+				}
+			}
+		}
+	}
+}

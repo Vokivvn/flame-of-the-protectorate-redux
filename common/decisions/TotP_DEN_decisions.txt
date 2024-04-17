@@ -1,0 +1,158 @@
+NOR_norwegian_revolution = {
+	ENG_send_volunteers = {
+
+		icon = generic_ignite_civil_war
+
+		available = {
+			always = yes
+		}
+
+		cost = 40
+
+		ai_will_do = {
+			factor = 175
+		}
+
+		visible = {
+			OR = {
+				tag = ENG
+				tag = GER
+			}
+		}
+		days_re_enable = 20
+		complete_effect = {
+			NOR = { load_oob = "NOR_volunteers"}
+			add_manpower = -7500
+		}
+	}
+	ENG_send_vguns = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			always = yes
+		}
+
+		cost = 35
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		visible = {
+			OR = {
+				tag = ENG
+				tag = GER
+			}
+		}
+		days_re_enable = 30
+		complete_effect = {
+			send_equipment = {
+			    equipment = infantry_equipment
+			    amount = 300
+			    target = NOR
+			}
+		}
+	}
+	ENG_secure_the_railway = {
+
+		icon = generic_air
+
+		available = {
+			always = yes
+		}
+
+		cost = 50
+
+		ai_will_do = {
+			factor = 250
+		}
+
+		visible = {
+			tag = ENG
+			NOT = { NOR = { controls_state = 848 } } 
+		}
+		fire_only_once = yes
+		complete_effect = {
+			NOR = {
+				hidden_effect = {
+					if = {
+						limit = {
+							NOT { has_tech = paratroopers }
+						}
+						set_technology = {
+						    paratroopers = 1
+						}
+					}
+				}
+				add_equipment_to_stockpile = {
+				    type = transport_plane_equipment_1
+				    amount = 3
+				    producer = NOR
+				}
+				load_oob = "NOR_paratroopers"
+			}
+			add_manpower = -5000
+		}
+	}
+
+	RUS_take_control_of_finnmark = {
+
+		icon = generic_ignite_civil_war
+
+		available = {
+			always = yes
+		}
+
+		cost = 75
+
+		ai_will_do = {
+			factor = 150
+		}
+
+		visible = {
+			tag = SOV
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			declare_war_on = {
+				type = take_state
+				target = NOR
+				generator = { 882 }
+			}
+			set_global_flag = SOV_invasion_Finnmark
+		}
+	}
+	DEN_bomb_the_railways = {
+
+		icon = generic_ignite_civil_war
+
+		available = {
+			always = yes
+			848 = {
+				infrastructure > 1
+			}
+		}
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 150
+		}
+
+		visible = {
+			tag = DEN
+		}
+		days_re_enable = 7
+		complete_effect = {
+			848 = {
+				remove_building = {
+				    type = infrastructure
+				    level = 1
+				}
+			}	
+		}
+	}
+}

@@ -1,0 +1,39 @@
+ideas = {
+	country = {
+		ARA_Sultanate_Without_a_Sultan = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = ENG_the_protectorate
+
+			modifier = {
+				stability_factor = -0.25
+				war_support_factor = -0.25
+				political_power_factor = -0.05
+			}
+		}
+		ARA_Islamic_State = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = ENG_the_protectorate
+
+			modifier = {
+				drift_defence_factor = 0.1
+				war_support_factor = 0.1
+				political_power_gain = 0.2
+			}
+		}
+		ARA_Rohingya_Rakhine_Clashes = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = ENG_the_protectorate
+
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.05
+			}
+		}
+	}
+}

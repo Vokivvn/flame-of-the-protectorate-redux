@@ -1,0 +1,28 @@
+state={
+	id=988
+	name="STATE_988"
+	manpower = 157805
+	
+	state_category = large_town
+	
+	history={
+		owner = WST
+		add_core_of = CHI
+		add_claim_by = DEI
+		add_claim_by = INS
+		add_claim_by = HOL
+		victory_points = { 
+			9974 5 
+		}
+		buildings = {
+			infrastructure = 4
+			9974 = {
+				naval_base = 3
+			}
+		}
+	}
+	
+	provinces={
+		9974 
+	}
+}

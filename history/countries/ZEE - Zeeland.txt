@@ -1,0 +1,21 @@
+﻿capital = 877
+
+set_war_support = 0.4
+set_stability = 0.5
+
+set_politics = {
+	ruling_party = progressivism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	centralism = 12
+	socialism = 12
+	progressivism = 16
+	liberalism = 12
+	conservatism = 12
+	republicanism = 12
+	authoritarianism = 12
+	ultranationalism = 12
+}

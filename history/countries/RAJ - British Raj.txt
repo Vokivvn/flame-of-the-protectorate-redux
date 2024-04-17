@@ -1,0 +1,119 @@
+﻿capital = 439
+
+set_stability = 0.6
+set_war_support = 0.1
+OOB = "RAJ_1936"
+load_focus_tree = RAJ_Start
+
+activate_mission = RAJ_resolve_court_issues
+set_country_flag = RAJ_Cabinet_Jawaharlal_Nehru
+set_country_flag = RAJ_Cabinet_Vallabhbhai_Patel
+set_country_flag = RAJ_Cabinet_Asaf_Ali
+set_variable = { RAJ_Jawaharlal_Nehru_Support = 0.3 }
+set_variable = { RAJ_Vallabhbhai_Patel_Support = 0.8 }
+set_variable = { RAJ_Asaf_Ali_Support = 0.5 }
+set_variable = { RAJ_Popular_Support = 0.6 }
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	transport = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+	CAS1 = 1
+	early_fighter = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+
+set_politics = {
+	ruling_party = republicanism
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	centralism = 15
+	socialism = 12
+	progressivism = 12
+	liberalism = 6
+	conservatism = 12
+	republicanism = 36
+	authoritarianism = 7
+	ultranationalism = 0
+}
+
+create_country_leader = {
+	name = "Vallabhbhai Patel"
+	desc = "POLITICS_Vallabhbhai_Patel_DESC"
+	picture = "Portrait_Delhi_Vallabhbhai_Patel.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Subhas Chandra Bose"
+	desc = "POLITICS_Subhas_Chandra_Bose_DESC"
+	picture = "Portrait_Delhi_Subhas_Chandra_Bose.dds"
+	expire = "1965.1.1"
+	ideology = revolutionary_regime
+	traits = {
+	}
+}
+
+create_country_leader = { 
+	name = "Chakravarti Rajagopalachari"
+	desc = "POLITICS_Chakravarti_Rajagopalachari_DESC"
+	picture = "Portrait_Delhi_Chakravarti_Rajagopalachari.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {
+	}
+}
+
+create_country_leader = { # placeholder ig? Ali isnt planned to have a path
+	name = "Asaf Ali"
+	desc = "POLITICS_Asaf_Ali_DESC"
+	picture = "Portrait_RAJ_Asaf_Ali.dds"
+	expire = "1965.1.1"
+	ideology = social_liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Jawaharlal Nehru"
+	desc = "POLITICS_Jawaharlal_Nehru_DESC"
+	picture = "Portrait_Raj_Jawaharlal_Nehru.dds"
+	expire = "1965.1.1"
+	ideology = democratic_socialism
+	traits = {
+	}
+}
+
+add_ideas = {
+	RAJ_protege_of_the_east
+	RAJ_khan_flicts
+	RAJ_netajis_court
+	# LAWS
+	mixed
+}
+
+diplomatic_relation = {
+    country = NEP
+    relation = military_access
+    active = yes
+}
+
+diplomatic_relation = {
+    country = KAT
+    relation = military_access
+    active = yes
+}

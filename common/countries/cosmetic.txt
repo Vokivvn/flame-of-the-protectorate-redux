@@ -1,0 +1,94 @@
+LIT_VIC = {
+	color = rgb { 118 120 95 }
+	color_ui = rgb { 118 120 95 }
+}
+
+POL_VIC = {
+	color = rgb { 120 95 95 }
+	color_ui = rgb { 120 95 95 }
+}
+
+POL_UKRP = {
+	color = rgb { 113 141 168 }
+	color_ui = rgb { 113 141 168 }
+}
+
+LIT_UKRP = {
+	color = rgb { 71 99 125 }
+	color_ui = rgb { 71 99 125 }
+}
+
+BLR_UKRP = {
+	color = rgb { 99 111 122 }
+	color_ui = rgb { 99 111 122 }
+}
+
+SLO_free = {
+	color = rgb { 91 128 189 }
+	color_ui = rgb { 91 128 189 }
+}
+
+FRA_junta = {
+	color = rgb { 55 87 120 }
+	color_ui = rgb { 55 87 120 }
+}
+
+ITA_bordiga = {
+	color = rgb { 107 55 80 }
+	color_ui = rgb { 107 55 80 }
+}
+
+ITA_farinacci = {
+	color = rgb { 62 92 62 }
+	color_ui = rgb { 62 92 62 }
+}
+
+CZE_SLO = {
+	color = rgb { 116 101 133 }
+	color_ui = rgb { 116 101 133 }
+}
+
+SER_YUG = {
+	color = rgb { 20 110 128 }
+	color_ui = rgb { 20 110 128 }
+}
+
+CRO_YUG = {
+	color = rgb { 84 63 110 }
+	color_ui = rgb { 84 63 110 }
+}
+
+NMB_utopia = {
+	color = rgb { 94 61 61 }
+	color_ui = rgb { 94 61 61 }
+}
+
+CHI_REFORM = {
+	color = rgb { 173 107 107 }
+	color_ui = rgb { 173 107 107 }
+}
+
+CHI_USA = {
+	color = rgb { 78 107 107 }
+	color_ui = rgb { 78 107 107 }
+}
+
+CHI_TAIPING = {
+	color = rgb { 160 155 102 }
+	color_ui = rgb { 160 155 102 }
+}
+
+CHI_DIVINE = {
+	color = rgb { 122 121 106 }
+	color_ui = rgb { 122 121 106 }
+}
+
+LIT_RUS = {
+	color = rgb { 94 130 114 }
+	color_ui = rgb { 94 130 114 }
+}
+
+CHI_Koureich = {
+	color = rgb { 128 147 173 }
+	color_ui = rgb { 128 147 173 }
+}

@@ -1,0 +1,18 @@
+ENG_celt_crisis = {
+	visible_when_empty = yes
+	allowed = {
+		original_tag = ENG
+	}
+	visible_when_empty = yes
+	scripted_gui = humor_gui	
+
+	priority = 100
+}
+
+ENG_party_popularity = {
+	picture = GFX_decision_ENG_decisions_chamberlain_voting
+	visible_when_empty = yes
+	allowed = {
+		tag = ENG
+	}
+}

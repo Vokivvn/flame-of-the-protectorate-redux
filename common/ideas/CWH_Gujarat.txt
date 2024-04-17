@@ -1,0 +1,46 @@
+ideas = {
+	country = {
+		GUJ_Religious_Divide = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = GUJ_religious_divide
+
+			modifier = {
+				stability_factor = -0.15
+			}
+		}
+		GUJ_Treaties_With_Janjira = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = GUJ_treaties_with_that_other_group
+
+			modifier = {
+				weekly_manpower = -25
+				consumer_goods_factor = -0.05
+			}
+		}
+		GUJ_The_Gujarati_Pirates = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = GUJ_gujarat_pirates
+
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.15
+			}
+		}
+		GUJ_General_Strike = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = generic_strike
+
+			modifier = {
+				consumer_goods_factor = 0.25
+			}
+		}
+	}
+}

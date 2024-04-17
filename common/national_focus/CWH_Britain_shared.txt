@@ -1,0 +1,1113 @@
+######################
+## Intro Tree (New) ##
+######################
+
+shared_focus = {
+	id =  ENG_intro_chamberlains_last_year
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	
+	x = 7
+	y = 0
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_intro_chamberlains_last_year"
+	}
+}
+
+shared_focus = {
+	id =  ENG_intro_ulster_in_chains
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	
+	x = 0
+	y = 1
+
+	relative_position_id = ENG_intro_chamberlains_last_year
+	prerequisite = { focus = ENG_intro_chamberlains_last_year }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_intro_ulster_in_chains"
+	}
+}
+
+shared_focus = {
+	id =  ENG_intro_work_with_the_city_government
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	
+	x = -2
+	y = 2
+
+	relative_position_id = ENG_intro_chamberlains_last_year
+	prerequisite = { focus = ENG_intro_ulster_in_chains }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_intro_work_with_the_city_government"
+	}
+}
+
+shared_focus = {
+	id =  ENG_intro_to_the_farms
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	
+	x = 0
+	y = 2
+
+	relative_position_id = ENG_intro_chamberlains_last_year
+	prerequisite = { focus = ENG_intro_ulster_in_chains }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_intro_to_the_farms"
+	}
+}
+
+shared_focus = {
+	id =  ENG_intro_offer_the_lords_a_fair_deal
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	
+	x = 2
+	y = 2
+
+	relative_position_id = ENG_intro_chamberlains_last_year
+	prerequisite = { focus = ENG_intro_ulster_in_chains }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_intro_offer_the_lords_a_fair_deal"
+	}
+}
+
+shared_focus = {
+	id =  ENG_intro_the_third_land_reform_bill
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	
+	x = 0
+	y = 3
+
+	relative_position_id = ENG_intro_chamberlains_last_year
+	prerequisite = { focus = ENG_intro_work_with_the_city_government }
+	prerequisite = { focus = ENG_intro_to_the_farms }
+	prerequisite = { focus = ENG_intro_offer_the_lords_a_fair_deal }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_intro_the_third_land_reform_bill"
+	}
+}
+
+shared_focus = {
+	id =  ENG_intro_revitalization_of_the_empire
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	
+	x = -5
+	y = 1
+
+	relative_position_id = ENG_intro_chamberlains_last_year
+	prerequisite = { focus = ENG_intro_chamberlains_last_year }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_intro_revitalization_of_the_empire"
+	}
+}
+
+shared_focus = {
+	id =  ENG_intro_the_pyramid
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	
+	x = -5
+	y = 2
+
+	relative_position_id = ENG_intro_chamberlains_last_year
+	prerequisite = { focus = ENG_intro_revitalization_of_the_empire }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_intro_the_pyramid"
+	}
+}
+
+shared_focus = {
+	id =  ENG_intro_expand_lawrencian_extraction
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	
+	x = -5
+	y = 3
+
+	relative_position_id = ENG_intro_chamberlains_last_year
+	prerequisite = { focus = ENG_intro_the_pyramid }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_intro_expand_lawrencian_extraction"
+	}
+}
+
+shared_focus = {
+	id =  ENG_intro_free_the_conflict
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	
+	x = -7
+	y = 3
+
+	relative_position_id = ENG_intro_chamberlains_last_year
+	prerequisite = { focus = ENG_intro_the_pyramid }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_intro_free_the_conflict"
+	}
+}
+
+shared_focus = {
+	id =  ENG_intro_slims_burden
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	
+	x = -6
+	y = 4
+
+	relative_position_id = ENG_intro_chamberlains_last_year
+	prerequisite = { focus = ENG_intro_free_the_conflict }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_intro_slims_burden"
+	}
+}
+
+shared_focus = {
+	id =  ENG_intro_whatever_lines_mean
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	
+	x = -3
+	y = 3
+
+	relative_position_id = ENG_intro_chamberlains_last_year
+	prerequisite = { focus = ENG_intro_the_pyramid }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_intro_whatever_lines_mean"
+	}
+}
+
+shared_focus = {
+	id =  ENG_intro_loyalty_in_the_cape
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	
+	x = -4
+	y = 4
+
+	relative_position_id = ENG_intro_chamberlains_last_year
+	prerequisite = { focus = ENG_intro_whatever_lines_mean }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_intro_loyalty_in_the_cape"
+	}
+}
+
+shared_focus = {
+	id =  ENG_intro_an_oppertunity_in_poland
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	
+	x = 6
+	y = 1
+
+	relative_position_id = ENG_intro_chamberlains_last_year
+	prerequisite = { focus = ENG_intro_chamberlains_last_year }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_intro_an_oppertunity_in_poland"
+	}
+}
+
+shared_focus = {
+	id =  ENG_intro_a_message_to_warsaw
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	
+	x = 6
+	y = 2
+
+	relative_position_id = ENG_intro_chamberlains_last_year
+	prerequisite = { focus = ENG_intro_an_oppertunity_in_poland }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_intro_a_message_to_warsaw"
+	}
+}
+
+shared_focus = {
+	id =  ENG_intro_stomp_austrias_ambition
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	
+	x = 5
+	y = 3
+
+	relative_position_id = ENG_intro_chamberlains_last_year
+	prerequisite = { focus = ENG_intro_a_message_to_warsaw }
+
+	mutually_exclusive = { focus = ENG_intro_continue_the_fighting }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_intro_stomp_austrias_ambition"
+	}
+}
+
+shared_focus = {
+	id =  ENG_intro_british_boots_on_polish_shores
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	
+	x = 3
+	y = 4
+
+	relative_position_id = ENG_intro_chamberlains_last_year
+	prerequisite = { focus = ENG_intro_stomp_austrias_ambition }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_intro_british_boots_on_polish_shores"
+	}
+}
+
+shared_focus = {
+	id =  ENG_intro_hold_the_front
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	
+	x = 5
+	y = 4
+
+	relative_position_id = ENG_intro_chamberlains_last_year
+	prerequisite = { focus = ENG_intro_stomp_austrias_ambition }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_intro_hold_the_front"
+	}
+}
+
+shared_focus = {
+	id =  ENG_intro_continue_the_fighting
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	
+	x = 7
+	y = 3
+
+	relative_position_id = ENG_intro_chamberlains_last_year
+	prerequisite = { focus = ENG_intro_a_message_to_warsaw }
+
+	mutually_exclusive = { focus = ENG_intro_stomp_austrias_ambition }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_intro_continue_the_fighting"
+	}
+}
+
+shared_focus = {
+	id =  ENG_intro_a_war_of_persistence
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	
+	x = 7
+	y = 4
+
+	relative_position_id = ENG_intro_chamberlains_last_year
+	prerequisite = { focus = ENG_intro_continue_the_fighting }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_intro_a_war_of_persistence"
+	}
+}
+
+shared_focus = {
+	id =  ENG_intro_grab_what_we_can
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	
+	x = 9
+	y = 4
+
+	relative_position_id = ENG_intro_chamberlains_last_year
+	prerequisite = { focus = ENG_intro_continue_the_fighting }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_intro_grab_what_we_can"
+	}
+}
+
+shared_focus = {
+	id =  ENG_intro_a_return_to_glory
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	
+	x = 6
+	y = 5
+
+	relative_position_id = ENG_intro_chamberlains_last_year
+	prerequisite = { 
+		focus = ENG_intro_british_boots_on_polish_shores 
+		focus = ENG_intro_grab_what_we_can 
+	}
+	prerequisite = { 
+		focus = ENG_intro_a_war_of_persistence
+		focus = ENG_intro_hold_the_front
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_intro_a_return_to_glory"
+	}
+}
+
+######################
+## Intro Tree (Old) ##
+######################
+
+shared_focus = {
+	id =  ENG_chamberlains_last_year
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	
+	x = 3
+	y = 0
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_chamberlains_last_year"
+		country_event = { id = ENG.1 }
+	}
+}
+
+shared_focus = {
+	id =  ENG_groom_the_successor
+	icon = GFX_ENG_Anthony_Eden
+	cost = 4.00
+	
+	x = 0
+	y = 1
+	prerequisite = {
+		focus = ENG_chamberlains_last_year
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_groom_the_successor"
+		country_event = { id = ENG.2 }
+	}
+}
+
+shared_focus = {
+	id =  ENG_compromise_with_mosely
+	icon = GFX_ENG_Oswald_Mosely
+	cost = 4.00
+	
+	x = 2
+	y = 1
+	prerequisite = {
+		focus = ENG_chamberlains_last_year
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_compromise_with_mosely"
+		country_event = { id = ENG.4 }
+	}
+}
+
+shared_focus = {
+	id =  ENG_ease_in_stapledon
+	icon = GFX_ENG_Olaf_Stapledon
+	cost = 4.00
+	
+	x = 4
+	y = 1
+	prerequisite = {
+		focus = ENG_chamberlains_last_year
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_ease_in_stapledon"
+		country_event = { id = ENG.6 }
+	}
+}
+
+shared_focus = {
+	id =  ENG_success_in_samuel
+	icon = GFX_ENG_Herbert_Samuel
+	cost = 4.00
+	
+	x = 6
+	y = 1
+	prerequisite = {
+		focus = ENG_chamberlains_last_year
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_success_in_samuel"
+		country_event = { id = ENG.8 }
+	}
+}
+
+shared_focus = {
+	id =  ENG_quell_the_conservatives
+	icon = GFX_ENG_Conservative_Party
+	cost = 4.00
+	
+	x = 0
+	y = 2
+	prerequisite = {
+		focus = ENG_groom_the_successor
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_quell_the_conservatives"
+		country_event = { id = ENG.3 }
+	}
+}
+
+shared_focus = {
+	id =  ENG_reach_for_the_moderates
+	icon = GFX_ENG_Republican_Party
+	cost = 4.00
+	
+	x = 2
+	y = 2
+	prerequisite = {
+		focus = ENG_compromise_with_mosely
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_reach_for_the_moderates"
+		country_event = { id = ENG.5 }
+	}
+}
+
+shared_focus = {
+	id =  ENG_the_odd_johns_of_the_commonwealth
+	icon = GFX_ENG_Odd_Johns
+	cost = 4.00
+	
+	x = 4
+	y = 2
+	prerequisite = {
+		focus = ENG_ease_in_stapledon
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_the_odd_johns_of_the_commonwealth"
+		country_event = { id = ENG.7 }
+	}
+}
+
+shared_focus = {
+	id =  ENG_the_friendly_foe
+	icon = GFX_ENG_Liberal_Party
+	cost = 4.00
+	
+	x = 6
+	y = 2
+	prerequisite = {
+		focus = ENG_success_in_samuel
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_the_friendly_foe"
+		country_event = { id = ENG.9 }
+	}
+}
+
+shared_focus = {
+	id =  ENG_accidental_alienation
+	icon = GFX_ENG_Accidental_Allienation
+	cost = 4.00
+	
+	x = 3
+	y = 3
+	prerequisite = {
+		focus = ENG_quell_the_conservatives
+	}
+	prerequisite = {
+		focus = ENG_reach_for_the_moderates
+	}
+	prerequisite = {
+		focus = ENG_the_odd_johns_of_the_commonwealth
+	}
+	prerequisite = {
+		focus = ENG_the_friendly_foe
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_accidental_alienation"
+		country_event = { id = ENG.10 }
+	}
+}
+
+shared_focus = {
+	id =  ENG_solidify_the_moderates
+	icon = GFX_ENG_Solidify_moderates
+	cost = 4.00
+	
+	x = 2
+	y = 4
+	prerequisite = {
+		focus = ENG_accidental_alienation
+	}
+	mutually_exclusive = {
+		focus = ENG_mend_the_extremes
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_solidify_the_moderates"
+	}
+}
+
+shared_focus = {
+	id =  ENG_firm_policy
+	icon = GFX_SOV_protect_the_people
+	cost = 4.00
+	
+	x = 0
+	y = 5
+	prerequisite = {
+		focus = ENG_solidify_the_moderates
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_firm_policy"
+		country_event = { id = ENG.11 }
+	}
+}
+
+shared_focus = {
+	id =  ENG_the_fight_for_stability
+	icon = GFX_SOV_assure_stability
+	cost = 4.00
+	
+	x = 2
+	y = 5
+	prerequisite = {
+		focus = ENG_solidify_the_moderates
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_the_fight_for_stability"
+		country_event = { id = ENG.12 }
+	}
+}
+
+shared_focus = {
+	id =  ENG_political_peace
+	icon = GFX_SOV_unity
+	cost = 4.00
+	
+	x = 1
+	y = 6
+	prerequisite = {
+		focus = ENG_firm_policy
+	}
+	prerequisite = {
+		focus = ENG_the_fight_for_stability
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_political_peace"
+		add_political_power = 100
+		add_stability = 0.05
+		add_popularity = {
+			ideology = conservatism
+			popularity = 0.05
+		}
+
+		country_event = { id = ENG_election.1 days = 14 }
+	}
+}
+
+shared_focus = {
+	id =  ENG_mend_the_extremes
+	icon = GFX_ENG_Mend_the_Extremes
+	cost = 4.00
+	
+	x = 4
+	y = 4
+	prerequisite = {
+		focus = ENG_accidental_alienation
+	}
+	mutually_exclusive = {
+		focus = ENG_solidify_the_moderates
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_mend_the_extremes"
+	}
+}
+
+shared_focus = {
+	id =  ENG_gain_their_support
+	icon = GFX_ITA_throw_the_trial
+	cost = 4.00
+	
+	x = 4
+	y = 5
+	prerequisite = {
+		focus = ENG_mend_the_extremes
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_gain_their_support"
+		country_event = { id = ENG.13 }
+	}
+}
+
+shared_focus = {
+	id =  ENG_a_firm_separation
+	icon = GFX_ITA_deal_with_the_kickback
+	cost = 4.00
+	
+	x = 6
+	y = 5
+	prerequisite = {
+		focus = ENG_mend_the_extremes
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_a_firm_separation"
+		country_event = { id = ENG.14 }
+	}
+}
+
+shared_focus = {
+	id =  ENG_prevent_their_devilish_deeds
+	icon = GFX_ENG_Prevent_Devilish_Deeds
+	cost = 4.00
+	
+	x = 5
+	y = 6
+	prerequisite = {
+		focus = ENG_gain_their_support
+	}
+	prerequisite = {
+		focus = ENG_a_firm_separation
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_prevent_their_devilish_deeds"
+		add_popularity = {
+			ideology = progressivism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = republicanism
+			popularity = 0.05
+		}
+		add_political_power = 80
+		add_stability = 0.08
+
+		country_event = { id = ENG_election.1 days = 14 }
+	}
+}
+
+###################################################################################
+###################################################################################
+##########	PRIME MINISTER INTIAIL TREES	#######################################
+#1.Stapledon
+#2.Samuel
+#3.Mosely
+#4.Eden
+
+shared_focus = {
+	id = ENG_revolution_by_ballot_box
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 4.00
+	
+	x = 0
+	y = 0
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_revolution_by_ballot_box"
+		#"no comment"
+	}
+}
+
+shared_focus = {
+	id = ENG_beginnings_of_welfare
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 4.00
+	
+	relative_position_id = ENG_revolution_by_ballot_box
+	x = -1
+	y = 1
+
+	prerequisite = {
+		focus = ENG_revolution_by_ballot_box
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_beginnings_of_welfare"
+		#"no comment"
+	}
+}
+
+shared_focus = {
+	id = ENG_national_health_service
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 4.00
+	
+	relative_position_id = ENG_revolution_by_ballot_box
+	x = 1
+	y = 1
+
+	prerequisite = {
+		focus = ENG_revolution_by_ballot_box
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_national_health_service"
+		#"no comment"
+	}
+}
+
+shared_focus = {
+	id = ENG_stand_our_ground
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 4.00
+	
+	relative_position_id = ENG_revolution_by_ballot_box
+	x = -2
+	y = 2
+
+	prerequisite = {
+		focus = ENG_beginnings_of_welfare
+	}
+	prerequisite = {
+		focus = ENG_national_health_service
+	}
+	mutually_exclusive = {
+		focus = ENG_flirt_with_radicals
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_stand_our_ground"
+		#"no comment"
+	}
+}
+
+shared_focus = {
+	id = ENG_flirt_with_radicals
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 4.00
+	
+	relative_position_id = ENG_revolution_by_ballot_box
+	x = 2
+	y = 2
+
+	prerequisite = {
+		focus = ENG_beginnings_of_welfare
+	}
+	prerequisite = {
+		focus = ENG_national_health_service
+	}
+	mutually_exclusive = {
+		focus = ENG_stand_our_ground
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_flirt_with_radicals"
+		#"no comment"
+	}
+}
+
+shared_focus = {
+	id = ENG_cover_broader_ground
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 4.00
+	
+	relative_position_id = ENG_stand_our_ground
+	x = -2
+	y = 1
+
+	prerequisite = {
+		focus = ENG_stand_our_ground
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_cover_broader_ground"
+		#"no comment"
+	}
+}
+
+shared_focus = {
+	id = ENG_universal_social_credit
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 4.00
+	
+	relative_position_id = ENG_cover_broader_ground
+	x = 0
+	y = 1
+
+	prerequisite = {
+		focus = ENG_cover_broader_ground
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_universal_social_credit"
+		#"no comment"
+	}
+}
+
+shared_focus = {
+	id = ENG_civil_service_reform
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 4.00
+	
+	relative_position_id = ENG_stand_our_ground
+	x = 0
+	y = 1
+
+	prerequisite = {
+		focus = ENG_stand_our_ground
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_civil_service_reform"
+		#"no comment"
+	}
+}
+
+shared_focus = {
+	id = ENG_increased_political_accountability
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 4.00
+	
+	relative_position_id = ENG_civil_service_reform
+	x = 0
+	y = 1
+
+	prerequisite = {
+		focus = ENG_civil_service_reform
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_universal_social_credit"
+		#"no comment"
+	}
+}
+
+shared_focus = {
+	id = ENG_chain_the_colonies
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 4.00
+	
+	relative_position_id = ENG_stand_our_ground
+	x = 2
+	y = 1
+
+	prerequisite = {
+		focus = ENG_stand_our_ground
+		focus = ENG_flirt_with_radicals
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_chain_the_colonies"
+		#"no comment"
+	}
+}
+
+shared_focus = {
+	id = ENG_reach_out_to_native_leaders
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 4.00
+	
+	relative_position_id = ENG_chain_the_colonies
+	x = 0
+	y = 1
+
+	prerequisite = {
+		focus = ENG_chain_the_colonies
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_reach_out_to_native_leaders"
+		#"no comment"
+	}
+}
+
+shared_focus = {
+	id = ENG_impose_income_ceilings
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 4.00
+	
+	relative_position_id = ENG_flirt_with_radicals
+	x = 0
+	y = 1
+
+	prerequisite = {
+		focus = ENG_flirt_with_radicals
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_impose_income_ceilings"
+		#"no comment"
+	}
+}
+
+shared_focus = {
+	id = ENG_role_of_the_union
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 4.00
+	
+	relative_position_id = ENG_impose_income_ceilings
+	x = 0
+	y = 1
+
+	prerequisite = {
+		focus = ENG_impose_income_ceilings
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_role_of_the_union"
+		#"no comment"
+	}
+}
+
+shared_focus = {
+	id = ENG_ground_for_moral_economy
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 4.00
+	
+	relative_position_id = ENG_flirt_with_radicals
+	x = 0
+	y = 1
+
+	prerequisite = {
+		focus = ENG_flirt_with_radicals
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_ground_for_moral_economy"
+		#"no comment"
+	}
+}
+
+shared_focus = {
+	id = ENG_encourage_cooperatives
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 4.00
+	
+	relative_position_id = ENG_flirt_with_radicals
+	x = 0
+	y = 1
+
+	prerequisite = {
+		focus = ENG_flirt_with_radicals
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_encourage_cooperatives"
+		#"no comment"
+	}
+}
+
+shared_focus = {
+	id = ENG_new_era_of_morality
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 4.00
+	
+	relative_position_id = ENG_reach_out_to_native_leaders
+	x = -1
+	y = 1
+
+	prerequisite = {
+		focus = ENG_reach_out_to_native_leaders
+	}
+
+	prerequisite = {
+		focus = ENG_universal_social_credit
+		focus = ENG_encourage_cooperatives
+	}
+
+	prerequisite = {
+		focus = ENG_increased_political_accountability
+		focus = ENG_role_of_the_union
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_new_era_of_morality"
+		#"no comment"
+	}
+}
+
+shared_focus = {
+
+	id = ENG_workplace_democracy
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 4.00
+	
+	relative_position_id = ENG_reach_out_to_native_leaders
+	x = 1
+	y = 1
+
+	prerequisite = {
+		focus = ENG_reach_out_to_native_leaders
+	}
+
+	prerequisite = {
+		focus = ENG_universal_social_credit
+		focus = ENG_encourage_cooperatives
+	}
+
+	prerequisite = {
+		focus = ENG_increased_political_accountability
+		focus = ENG_role_of_the_union
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_workplace_democracy"
+		#"no comment"
+	}
+}
+
+shared_focus = {
+
+	id = ENG_end_unjust_expansion
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 4.00
+	
+	relative_position_id = ENG_new_era_of_morality
+	x = -1
+	y = 1
+
+	prerequisite = {
+		focus = ENG_new_era_of_morality
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_end_unjust_expansion"
+		#"no comment"
+	}
+}
+
+shared_focus = {
+
+	id = ENG_open_up_universities
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 4.00
+	
+	relative_position_id = ENG_new_era_of_morality
+	x = 1
+	y = 1
+
+	prerequisite = {
+		focus = ENG_new_era_of_morality
+		focus = ENG_workplace_democracy
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_open_up_universities"
+		#"no comment"
+	}
+}
+
+shared_focus = {
+
+	id = ENG_end_imperial_wars
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 4.00
+	
+	relative_position_id = ENG_workplace_democracy
+	x = 1
+	y = 1
+
+	prerequisite = {
+		focus = ENG_workplace_democracy
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ENG_end_imperial_wars"
+		#"no comment"
+	}
+}

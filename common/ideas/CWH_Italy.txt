@@ -1,0 +1,688 @@
+ideas = {
+	country = {
+	
+		ITA_years_of_the_sheep = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_years_of_the_sheep
+
+				modifier = {
+					political_power_gain = -0.15
+					min_export = 0.05 
+					ai_call_ally_desire_factor = 30
+					production_speed_infrastructure_factor = 0.1
+				}
+				targeted_modifier = { tag = FRA production_speed_infrastructure_factor = 0.1 } 
+		}
+		
+		ITA_offset_of_power = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_offset_powers
+
+				modifier = {
+					army_org_factor = 0.05 
+					conscription = 0.01 
+					consumer_goods_factor = -0.05
+					ai_focus_aggressive_factor = 0.1
+				}
+		}
+		
+		ITA_impending_war_of_independence = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					#enemy_partisan_effect = -0.1 
+					war_support_factor = 0.10 
+					army_morale_factor = 0.1 
+				}
+				targeted_modifier = { tag = AUS attack_bonus_against = 0.1 } 
+		}
+		
+		ITA_concessions_to_italy_1 = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					army_attack_factor = -0.75
+					army_core_defence_factor = -0.15
+					planning_speed = -0.25
+					army_org_factor = -0.50
+					recon_factor = -0.05
+					army_morale_factor = -0.25
+				}
+		}
+		ITA_concessions_to_italy_2 = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					army_attack_factor = -0.50
+					army_core_defence_factor = -0.15
+					planning_speed = -0.25
+					army_org_factor = -0.50
+					recon_factor = -0.05
+					army_morale_factor = -0.25
+				}
+		}
+		
+		ITA_clean_party = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					political_power_gain = 0.1
+					improve_relations_maintain_cost_factor = -0.25
+				}
+		}
+		ITA_the_people_know = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					political_power_gain = -0.1
+					improve_relations_maintain_cost_factor = 0.25
+					stability_weekly = -0.05
+				}
+		}
+		
+		ITA_the_people_know2 = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					political_power_gain = -0.05
+					improve_relations_maintain_cost_factor = 0.15
+					stability_weekly = -0.02
+				}
+		}
+		
+		ITA_the_people_know3 = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					political_power_gain = -0.025
+					improve_relations_maintain_cost_factor = 0.075
+					stability_weekly = -0.01
+				}
+		}
+		
+		ITA_the_people_know4 = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					political_power_gain = 0.15
+					stability_weekly = 0.01
+				}
+		}
+		
+		ITA_the_people_know4_5 = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					political_power_gain = 0.05
+					improve_relations_maintain_cost_factor = -0.15
+					stability_weekly = 0.01
+				}
+		}
+		
+		
+		ITA_anti_centralist_thought = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					centralism_acceptance = -100
+				}
+		}
+		ITA_theological_thought = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					political_power_gain = 0.15
+				}
+		}
+		ITA_anti_ultnat_thought = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					ultranationalism_acceptance = -100
+				}
+		}
+		
+		ITA_horseshoe_thought = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					ultranationalism_acceptance = -100
+					centralism_acceptance = -100
+					political_power_gain = 0.15
+					stability_factor = 0.10
+				}
+		}
+		
+		ITA_business_cooperation = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					production_speed_infrastructure_factor = 0.2
+				}
+		}
+		ITA_industry_aid = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					production_speed_arms_factory_factor = 0.1 
+					production_speed_industrial_complex_factor = 0.1 
+				}
+		}
+		ITA_anti_mafia_comission = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					consumer_goods_factor = -0.05
+					political_power_gain = 0.1
+				}
+		}
+		
+		ITA_wark_hawk = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					justify_war_goal_time = -0.25
+					ai_focus_aggressive_factor = 0.5 
+					war_support_factor = 0.10 
+				}
+		}
+		ITA_wark_hawk2 = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					justify_war_goal_time = -0.25
+					ai_focus_aggressive_factor = 0.5 
+					war_support_factor = 0.10 
+					conscription_factor = 0.15
+				}
+		}
+		
+		ita_rights_of_man = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					stability_weekly = 0.01
+					political_power_gain = 0.1
+				}
+		}
+		ita_rights_of_man2 = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					stability_weekly = 0.02
+					political_power_gain = 0.15
+				}
+		}
+		ita_autonomous_provinces = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					production_speed_infrastructure_factor = 0.1
+					min_export = -0.05
+				}
+		}
+		ita_autonomous_provinces2 = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					production_speed_infrastructure_factor = 0.2 
+					min_export = -0.1
+				}
+		}
+		ita_autonomous_provinces3 = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					production_speed_infrastructure_factor = 0.2 
+					min_export = -0.1
+					fuel_gain_factor_from_states = 0.1
+					weekly_manpower = 500
+				}
+		}
+		ita_profit_defense = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					consumer_goods_factor = -0.05 
+					production_speed_industrial_complex_factor = 0.1
+				}
+		}
+		ita_flames_of_rebellion = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					#resistance_tick_auto = -2
+					#enemy_partisan_effect = -0.1
+				}
+		}
+		ita_clean_functional_italy = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					stability_factor = 0.10
+					non_core_manpower = 0.02
+					army_defence_factor = 0.1 
+					surrender_limit = 0.2
+				}
+		}
+		
+		
+		
+		ita_reforms_decentralization = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					war_support_weekly = -0.05
+					surrender_limit = 0.2
+					political_power_factor = 0.15 
+				}
+		}
+		ita_reforms_decentralization2 = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					surrender_limit = 0.3
+					political_power_factor = 0.25
+					consumer_goods_factor = 0.03
+					production_factory_max_efficiency_factor = 0.1 
+				}
+		}
+		ita_faith_in_god = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					stability_factor = 0.10
+				}
+		}
+		ita_pope_leader = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					stability_factor = 0.05
+				}
+		}
+		ita_passive_culture = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					war_support_factor = -0.10
+					production_speed_bunker_factor = 0.3 
+					production_speed_coastal_bunker_factor = 0.3 
+				}
+		}
+		ita_catholic_education = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					stability_weekly = 0.01
+					research_speed_factor = 0.03
+				}
+		}
+		ita_secular_education = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					research_speed_factor = 0.05
+				}
+		}
+		ita_traditional_values = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					surrender_limit = 0.15
+				}
+		}
+		ita_progressive_society = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					conscription_factor = 0.1
+				}
+		}
+		ita_longevity_of_the_confederation = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = ITA_war_of_independence
+
+				modifier = {
+					global_building_slots_factor = 0.10
+					MONTHLY_POPULATION = 0.25
+					stability_factor = 0.10
+					army_morale_factor = 0.1 
+				}
+		}
+		########################### LAZERGAZ' WAR IDEAS
+		ita_mass_mobilization_1 = {
+
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = ITA_war_of_independence
+			modifier = {
+				conscription = 0.005
+			}
+		}
+		ita_mass_mobilization_2 = {
+
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = ITA_war_of_independence
+			modifier = {
+				conscription = 0.007
+				mobilization_speed = 0.1
+			}
+		}
+		ita_mass_mobilization_3 = {
+
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = ITA_war_of_independence
+			modifier = {
+				conscription = 0.01
+				mobilization_speed = 0.1
+				training_time_factor = -0.1
+			}
+		}
+		ita_gun_production = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = ITA_war_of_independence
+			equipment_bonus = { #Throws error
+				infantry_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
+		}
+		ita_military_research_effort = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = ITA_war_of_independence
+			research_bonus = { infantry_tech = 0.05 } #Throws error
+			research_bonus = { land_doctrine = 0.05 } #Throws error
+			research_bonus = { armor = 0.05 } #Throws error
+		}
+		ita_modern_intelligence = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = ITA_war_of_independence
+			modifier = {
+				decryption_factor = 0.1
+				encryption_factor = 0.1
+			}	
+		}
+	}
+}

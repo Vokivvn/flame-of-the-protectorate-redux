@@ -1,0 +1,31 @@
+
+state={
+	id=295
+	name="STATE_295" # Leopoldville
+	manpower = 3540948
+	
+	state_category = rural
+	
+	resources={
+		tungsten=2 # was: 2
+	}
+
+	history={
+		owner = DCG
+		add_core_of = DCG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			10968 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			5117 3 
+		}
+	}
+
+	provinces={
+		1731 2115 5117 7716 10858 10968 12896 12925 12945
+	}
+}

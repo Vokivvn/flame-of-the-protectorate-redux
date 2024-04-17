@@ -1,0 +1,26 @@
+﻿capital = 43
+OOB = "HUN_1936"
+set_research_slots = 3
+set_stability = 0.7
+set_war_support = 0.6
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1935.3.31"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	authoritarianism = 100
+}
+
+create_country_leader = {
+	name = "Gyula Károlyi"
+	desc = "POLITICS_Gyula_Károlyi_DESC"
+	picture = "Leader_HUN_Gyula_Károlyi.dds"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+	traits = {
+		#
+	}
+}

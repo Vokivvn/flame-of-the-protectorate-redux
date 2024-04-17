@@ -1,0 +1,113 @@
+CHI_shuzheng_increase = {
+	add_to_variable = { chi_shuzheng_power = 0.05 }
+	subtract_from_variable = { chi_kewen_power = 0.05 }
+	custom_effect_tooltip = CHI_shuzheng_increase_tt
+	clamp_variable = {
+		var = chi_shuzheng_power
+		min = 0
+		max = 1
+	}
+
+	clamp_variable = {
+		var = chi_kewen_power
+		min = 0
+		max = 1
+	}
+}
+
+CHI_shuzheng_minor_increase = {
+	add_to_variable = { chi_shuzheng_power = 0.03 }
+	subtract_from_variable = { chi_kewen_power = 0.03 }
+	custom_effect_tooltip = CHI_shuzheng_minor_increase_tt
+	clamp_variable = {
+		var = chi_shuzheng_power
+		min = 0
+		max = 1
+	}
+
+	clamp_variable = {
+		var = chi_kewen_power
+		min = 0
+		max = 1
+	}
+}
+
+CHI_shuzheng_major_increase = {
+	add_to_variable = { chi_shuzheng_power = 0.08 }
+	subtract_from_variable = { chi_kewen_power = 0.08 }
+	custom_effect_tooltip = CHI_shuzheng_major_increase_tt
+	clamp_variable = {
+		var = chi_shuzheng_power
+		min = 0
+		max = 1
+	}
+
+	clamp_variable = {
+		var = chi_kewen_power
+		min = 0
+		max = 1
+	}
+}
+
+CHI_kewen_increase = {
+	add_to_variable = { chi_kewen_power = 0.05 }
+	subtract_from_variable = { chi_shuzheng_power = 0.05 }
+	custom_effect_tooltip = CHI_kewen_increase_tt
+	clamp_variable = {
+		var = chi_shuzheng_power
+		min = 0
+		max = 1
+	}
+
+	clamp_variable = {
+		var = chi_kewen_power
+		min = 0
+		max = 1
+	}
+}
+
+CHI_kewen_minor_increase = {
+	add_to_variable = { chi_kewen_power = 0.03 }
+	subtract_from_variable = { chi_shuzheng_power = 0.03 }
+	custom_effect_tooltip = CHI_kewen_minor_increase_tt
+	clamp_variable = {
+		var = chi_shuzheng_power
+		min = 0
+		max = 1
+	}
+
+	clamp_variable = {
+		var = chi_kewen_power
+		min = 0
+		max = 1
+	}
+}
+
+CHI_kewen_major_increase = {
+	add_to_variable = { chi_kewen_power = 0.08 }
+	subtract_from_variable = { chi_shuzheng_power = 0.08 }
+	custom_effect_tooltip = CHI_kewen_major_increase_tt
+	clamp_variable = {
+		var = chi_shuzheng_power
+		min = 0
+		max = 1
+	}
+
+	clamp_variable = {
+		var = chi_kewen_power
+		min = 0
+		max = 1
+	}
+}
+
+CHI_recalculate_regime_stability = {
+	clear_variable = CHI_regime_health
+	set_temp_variable = { chi_ih_temp = CHI_institutional_health }
+	set_temp_variable = { chi_ps_temp = CHI_popular_support }
+	add_to_temp_variable = { chi_ih_temp = chi_ps_temp }
+	divide_temp_variable = { chi_ih_temp = 2 }
+	set_variable = { CHI_regime_health = chi_ih_temp }
+	multiply_variable = { CHI_regime_health = 100 }
+	round_variable = CHI_regime_health
+	divide_variable = { CHI_regime_health = 100 }
+}

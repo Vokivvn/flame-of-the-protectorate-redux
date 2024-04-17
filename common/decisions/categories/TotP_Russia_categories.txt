@@ -1,0 +1,35 @@
+SOV_debug_cat = {
+	visible_when_empty = yes
+	picture = GFX_decision_SOV_placeholder
+	visible = {
+		TAG = SOV
+		is_debug = yes
+	}
+	priority = {
+		base = 15
+	}
+}
+
+SOV_western_krai_cat = {
+	visible_when_empty = yes
+	picture = GFX_decision_SOV_placeholder
+	visible = {
+		TAG = SOV
+		has_country_flag = SOV_flag_our_western_krai_decisions_unlocked
+	}
+	priority = {
+		base = 14
+	}
+}
+
+SOV_classes_cat = {
+	visible_when_empty = yes
+	picture = GFX_decision_SOV_state_of_the_country
+	scripted_gui = SOV_classes_GUI
+	visible = {
+		TAG = SOV
+	}
+	priority = {
+		base = 13
+	}
+}

@@ -1,0 +1,254 @@
+ENG_celt_crisis = {
+	ENG_trigger_conflict = {
+		visible = {
+			tag = ENG
+		}
+		available = { always = yes }
+		fire_only_once = no
+		complete_effect = {
+			country_event = { id = celts.1 }
+			country_event = { id = celts.2 }
+			country_event = { id = celts.3 }
+		}
+	}
+	ENG_toggle_irish = {
+		visible = {
+			tag = ENG
+		}
+		available = { always = yes }
+		fire_only_once = no
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = {
+						var = ENG_irish_patriot_party
+						value = 0.25
+						compare = less_than_or_equals
+					}
+				}
+				set_variable = { ENG_irish_patriot_party = 0.5 } 
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = ENG_irish_patriot_party
+						value = 0.50
+						compare = less_than_or_equals
+					}
+					NOT = {
+						check_variable = {
+							var = ENG_irish_patriot_party
+							value = 0.25
+							compare = less_than_or_equals
+						}
+					}
+				}
+				set_variable = { ENG_irish_patriot_party = 0.75 } 
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = ENG_irish_patriot_party
+						value = 0.75
+						compare = less_than_or_equals
+					}
+					NOT = {
+						check_variable = {
+							var = ENG_irish_patriot_party
+							value = 0.50
+							compare = less_than_or_equals
+						}
+					}
+				}
+				set_variable = { ENG_irish_patriot_party = 1 } 
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = ENG_irish_patriot_party
+						value = 1
+						compare = less_than_or_equals
+					}
+					NOT = {
+						check_variable = {
+							var = ENG_irish_patriot_party
+							value = 0.75
+							compare = less_than_or_equals
+						}
+					}
+				}
+				set_variable = { ENG_irish_patriot_party = 0.25 } 
+			}
+		}
+	}
+	ENG_toggle_scots = {
+		visible = {
+			tag = ENG
+		}
+		available = { always = yes }
+		fire_only_once = no
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = {
+						var = ENG_NAVSR
+						value = 0.25
+						compare = less_than_or_equals
+					}
+				}
+				set_variable = { ENG_NAVSR = 0.5 } 
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = ENG_NAVSR
+						value = 0.50
+						compare = less_than_or_equals
+					}
+					NOT = {
+						check_variable = {
+							var = ENG_NAVSR
+							value = 0.25
+							compare = less_than_or_equals
+						}
+					}
+				}
+				set_variable = { ENG_NAVSR = 0.75 } 
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = ENG_NAVSR
+						value = 0.75
+						compare = less_than_or_equals
+					}
+					NOT = {
+						check_variable = {
+							var = ENG_NAVSR
+							value = 0.50
+							compare = less_than_or_equals
+						}
+					}
+				}
+				set_variable = { ENG_NAVSR = 1 } 
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = ENG_NAVSR
+						value = 1
+						compare = less_than_or_equals
+					}
+					NOT = {
+						check_variable = {
+							var = ENG_NAVSR
+							value = 0.75
+							compare = less_than_or_equals
+						}
+					}
+				}
+				set_variable = { ENG_NAVSR = 0.25 } 
+			}
+		}
+	}
+	ENG_toggle_welsh = {
+		visible = {
+			tag = ENG
+		}
+		available = { always = yes }
+		fire_only_once = no
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = {
+						var = ENG_welsh_national_federation
+						value = 0.25
+						compare = less_than_or_equals
+					}
+				}
+				set_variable = { ENG_welsh_national_federation = 0.5 } 
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = ENG_welsh_national_federation
+						value = 0.50
+						compare = less_than_or_equals
+					}
+					NOT = {
+						check_variable = {
+							var = ENG_welsh_national_federation
+							value = 0.25
+							compare = less_than_or_equals
+						}
+					}
+				}
+				set_variable = { ENG_welsh_national_federation = 0.75 } 
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = ENG_welsh_national_federation
+						value = 0.75
+						compare = less_than_or_equals
+					}
+					NOT = {
+						check_variable = {
+							var = ENG_welsh_national_federation
+							value = 0.50
+							compare = less_than_or_equals
+						}
+					}
+				}
+				set_variable = { ENG_welsh_national_federation = 1 } 
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = ENG_welsh_national_federation
+						value = 1
+						compare = less_than_or_equals
+					}
+					NOT = {
+						check_variable = {
+							var = ENG_welsh_national_federation
+							value = 0.75
+							compare = less_than_or_equals
+						}
+					}
+				}
+				set_variable = { ENG_welsh_national_federation = 0.25 } 
+			}
+		}
+	}
+}
+
+ENG_party_popularity = {
+	ENG_debug_conservatives_add = {
+		visible = {
+			tag = ENG
+		}
+		available = { always = yes }
+		fire_only_once = no
+		complete_effect = {
+			ENG_conservatives_gain_popularity = yes
+			ENG_progressives_gain_popularity = yes
+			ENG_republican_gain_popularity = yes
+			ENG_liberals_gain_popularity = yes
+		}
+	}
+
+	ENG_debug_conservatives_subtract = {
+		visible = {
+			tag = ENG
+		}
+		available = { always = yes }
+		fire_only_once = no
+		complete_effect = {
+			ENG_conservatives_lose_popularity = yes
+			ENG_progressives_lose_popularity = yes
+			ENG_republican_lose_popularity = yes
+			ENG_liberals_lose_popularity = yes
+		}
+	}
+}

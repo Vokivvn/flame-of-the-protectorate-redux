@@ -1,0 +1,30 @@
+
+state={
+	id=847
+	name="STATE_847"
+	manpower = 72111
+
+	state_category = large_town
+
+
+	history={
+		owner = CRO
+		victory_points = {
+			11564 1 
+		}
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+			11564 = {
+				naval_base = 1
+			}
+		}
+		add_claim_by = ITA 
+		add_core_of = CRO
+		add_claim_by = HUN
+	}
+
+	provinces={
+		11564 
+	}
+}

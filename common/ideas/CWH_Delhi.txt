@@ -1,0 +1,136 @@
+ideas = {
+	country = {
+		RAJ_protege_of_the_east = {
+			allowed = { always = no }
+			removal_cost = -1
+			
+			picture = RAJ_Protege_Of_The_East
+
+			modifier = {
+				research_speed_factor = 0.05 
+				army_org_factor = 0.15 
+				production_speed_bunker_factor = 0.25
+			}
+		}
+		RAJ_khan_flicts = {
+			allowed = { always = no }
+			removal_cost = -1
+			
+			picture = RAJ_Khanflicts
+
+			modifier = {
+				consumer_goods_factor = 0.30
+				production_speed_buildings_factor = -0.20
+				conscription_factor = -0.20
+			}
+		}
+		RAJ_khan_flicts_1 = {
+			allowed = { always = no }
+			removal_cost = -1
+			
+			picture = RAJ_Khanflicts
+
+			modifier = {
+				consumer_goods_factor = 0.20
+				production_speed_buildings_factor = -0.10
+				conscription_factor = -0.15
+			}
+		}
+		RAJ_khan_flicts_2 = {
+			allowed = { always = no }
+			removal_cost = -1
+			
+			picture = RAJ_Khanflicts
+
+			modifier = {
+				consumer_goods_factor = 0.10
+				production_speed_buildings_factor = -0.15
+				conscription_factor = -0.10
+			}
+		}
+		RAJ_netajis_court = {
+			allowed = { always = no }
+			removal_cost = -1
+			
+			picture = RAJ_Netaji_Court
+			traits = { RAJ_netajis_court_tt }
+			modifier = {
+				political_power_gain = 0.25
+			}
+		}
+		RAJ_netajis_court_1 = {
+			allowed = { always = no }
+			removal_cost = -1
+			
+			picture = RAJ_Netaji_Court
+			modifier = {
+				political_power_gain = 0.25
+			}
+		}
+		
+		RAJ_mechanizing_farming = {
+			allowed = { always = no }
+			removal_cost = -1
+			
+			picture = RAJ_Netaji_Court
+			modifier = {
+				MONTHLY_POPULATION = 0.2
+				min_export = -0.05 
+			}
+		}
+		
+		RAJ_militarized_lifestyle = {
+			allowed = { always = no }
+			removal_cost = -1
+			
+			picture = RAJ_Netaji_Court
+			modifier = {
+				mobilization_laws_cost_factor = -0.125
+				conscription_factor = 0.1 
+			}
+		}
+		
+		RAJ_little_recontruction_commitment = {
+			allowed = { always = no }
+			removal_cost = -1
+			
+			picture = RAJ_Khanflicts
+			modifier = {
+			}
+		}
+		
+		RAJ_minor_recontruction_commitment = {
+			allowed = { always = no }
+			removal_cost = -1
+			
+			picture = RAJ_Khanflicts
+			modifier = {
+				political_power_factor = -0.15
+				consumer_goods_factor = 0.25
+			}
+		}
+		
+		RAJ_heavy_recontruction_commitment = {
+			allowed = { always = no }
+			removal_cost = -1
+			
+			picture = RAJ_Khanflicts
+			modifier = {
+				political_power_factor = -0.20
+				consumer_goods_factor = 0.50
+			}
+		}
+		
+		RAJ_total_recontruction_commitment = {
+			allowed = { always = no }
+			removal_cost = -1
+			
+			picture = RAJ_Khanflicts
+			modifier = {
+				political_power_factor = -0.25
+				consumer_goods_factor = 0.75
+			}
+		}
+		
+	}
+}

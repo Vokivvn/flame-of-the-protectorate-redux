@@ -1,0 +1,29 @@
+﻿capital = 937
+
+set_stability = 1.00
+set_war_support = 0.0
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	centralism = 3
+	socialism = 10
+	progressivism = 24
+	republicanism = 8 
+	liberalism = 43
+	conservatism = 12
+}
+
+create_country_leader = {
+	name = "Mandate Council"
+	desc = "POLITICS_Mandate_Council_DESC"
+	picture = "LEADER_Council_NSI.dds"
+	expire = "1965.1.1"
+	ideology = conservatism_subtype
+	traits = {
+	}
+}

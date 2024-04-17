@@ -1,0 +1,29 @@
+
+state={
+	id=28
+	name="STATE_28" # Alsace-Lorraine
+	manpower = 1315600
+	
+	state_category = city
+	resources={
+		steel=59 # was: 236
+	}
+
+	history={
+		owner = FRA
+		victory_points = { 678 5 }
+		victory_points = { 9503 5 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			anti_air_building = 2
+			air_base = 2
+
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		678 1346 6529 9503 
+	}
+}

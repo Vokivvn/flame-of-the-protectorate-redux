@@ -1,0 +1,28 @@
+﻿capital = 821
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	authoritarianism = 100
+}
+
+create_country_leader = {
+	
+	name = "Arthur Mshiyeni kaDinuzulu"
+	picture = "gfx/leaders/ZUL/Portrait_Zulu_Arthur_Mshiyeni_kaDinuzulu.dds"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+	traits = {
+		#
+	}
+}

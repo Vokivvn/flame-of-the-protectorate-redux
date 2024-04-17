@@ -1,0 +1,25 @@
+guiTypes = {
+	containerWindowType = {
+		name = "country_ideology"
+		position = { x=0 y=0}
+		#position = { x=-606 y=78}
+		size = { width=550 height=396 }
+		clipping = yes
+		
+		instantTextboxType = {
+			name = "party"
+			position = { x = 97 y = 329 }
+			font = "hoi_16mbs"
+			text = "IDEOLOGY_GROUP"
+			fixedsize = yes
+			maxWidth = 155
+			maxHeight = 20
+		}
+		
+		#iconType={
+		#	name ="Dean_La"
+		#	spriteType = "GFX_Portrait_USA_Dean_Lamb"
+		#	position = { x = 9 y = 25 }
+		#}
+	}
+}

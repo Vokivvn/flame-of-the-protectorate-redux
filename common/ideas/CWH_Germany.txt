@@ -1,0 +1,61 @@
+ideas = {
+	country = {
+	
+		GER_frankfurt_constitution = {
+		
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				consumer_goods_factor = 0.1
+			}
+		}
+		
+		GER_the_old_haunt = {
+		
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				drift_defence_factor = -0.25
+			}
+		}
+		
+		GER_the_fifth_power = {
+		
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 0.05
+				trade_opinion_factor = 0.05
+			}
+		}
+		
+		GER_die_wacht_am_rhein = {
+	
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				war_support_factor = 0.10
+				stability_factor = -0.05
+			}
+			targeted_modifier = { tag = FRA attack_bonus_against = 0.1 }
+		}
+	}
+}

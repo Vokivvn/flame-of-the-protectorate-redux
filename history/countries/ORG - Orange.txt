@@ -1,0 +1,45 @@
+﻿capital = 825
+
+load_focus_tree = ORG_starting_out
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = ultranationalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	centralism = 20
+	ultranationalism = 80
+}
+
+create_country_leader = {
+	name = "Nicolaas Diederichs"
+	desc = "POLITICS_Nicolaas_Diederichs_DESC"
+	picture = "Portrait_Oranje_Nicolaas_Diederichs.dds"
+	picture = "Leader_ORG_Nicolaas_Diederichs.dds"
+	expire = "1965.1.1"
+	ideology = ultranationalism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Albert Nzula"
+	desc = "POLITICS_Albert_Nzula_DESC"
+	picture = "Leader_ORG_Albert_Nzula.dds"
+	expire = "1965.1.1"
+	ideology = centralism_subtype
+	traits = {
+		#
+	}
+}

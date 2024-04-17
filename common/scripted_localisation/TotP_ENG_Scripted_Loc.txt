@@ -1,0 +1,930 @@
+defined_text = {
+	name = ENG_conservative_popularity
+	text = {
+		trigger = {
+			check_variable = {
+				var = conservative_popularity
+				value = 2
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ENG_conservatives_very_unpopular
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = conservative_popularity
+				value = 4
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ENG_conservatives_unpopular
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = conservative_popularity
+				value = 6
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ENG_conservatives_neutral
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = conservative_popularity
+				value = 8
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ENG_conservatives_popular
+	}
+	text = {
+		trigger = {
+				check_variable = {
+				var = conservative_popularity
+				value = 8
+				compare = greater_than
+			}
+		}
+		localization_key = ENG_conservatives_very_popular
+	}
+}
+
+defined_text = {
+	name = ENG_republican_popularity
+	text = {
+		trigger = {
+			check_variable = {
+				var = republican_popularity
+				value = 2
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ENG_conservatives_very_unpopular
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = republican_popularity
+				value = 4
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ENG_conservatives_unpopular
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = republican_popularity
+				value = 6
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ENG_conservatives_neutral
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = republican_popularity
+				value = 8
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ENG_conservatives_popular
+	}
+	text = {
+		trigger = {
+				check_variable = {
+				var = republican_popularity
+				value = 8
+				compare = greater_than
+			}
+		}
+		localization_key = ENG_conservatives_very_popular
+	}
+}
+
+defined_text = {
+	name = ENG_progressive_popularity
+	text = {
+		trigger = {
+			check_variable = {
+				var = progressive_popularity
+				value = 2
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ENG_conservatives_very_unpopular
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = progressive_popularity
+				value = 4
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ENG_conservatives_unpopular
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = progressive_popularity
+				value = 6
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ENG_conservatives_neutral
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = progressive_popularity
+				value = 8
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ENG_conservatives_popular
+	}
+	text = {
+		trigger = {
+				check_variable = {
+				var = progressive_popularity
+				value = 8
+				compare = greater_than
+			}
+		}
+		localization_key = ENG_conservatives_very_popular
+	}
+}
+
+defined_text = {
+	name = ENG_liberals_popularity
+	text = {
+		trigger = {
+			check_variable = {
+				var = liberals_popularity
+				value = 2
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ENG_conservatives_very_unpopular
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = liberals_popularity
+				value = 4
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ENG_conservatives_unpopular
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = liberals_popularity
+				value = 6
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ENG_conservatives_neutral
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = liberals_popularity
+				value = 8
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ENG_conservatives_popular
+	}
+	text = {
+		trigger = {
+				check_variable = {
+				var = liberals_popularity
+				value = 8
+				compare = greater_than
+			}
+		}
+		localization_key = ENG_conservatives_very_popular
+	}
+}
+
+defined_text = {
+	name = ENG_irish_patriot_party_tension
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_irish_patriot_party
+				value = 0.25
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ENG_low
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_irish_patriot_party
+				value = 0.50
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_irish_patriot_party
+					value = 0.25
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_medium
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_irish_patriot_party
+				value = 0.75
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_irish_patriot_party
+					value = 0.50
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_high
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_irish_patriot_party
+				value = 1
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_irish_patriot_party
+					value = 0.75
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_very_high
+	}
+}
+
+defined_text = {
+	name = ENG_NAVSR_tension
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_NAVSR
+				value = 0.25
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ENG_low
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_NAVSR
+				value = 0.50
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_NAVSR
+					value = 0.25
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_medium
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_NAVSR
+				value = 0.75
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_NAVSR
+					value = 0.50
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_high
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_NAVSR
+				value = 1
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_NAVSR
+					value = 0.75
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_very_high
+	}
+}
+
+defined_text = {
+	name = ENG_welsh_national_federation_tension
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_welsh_national_federation
+				value = 0.25
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ENG_low
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_welsh_national_federation
+				value = 0.50
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_welsh_national_federation
+					value = 0.25
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_medium
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_welsh_national_federation
+				value = 0.75
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_welsh_national_federation
+					value = 0.50
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_high
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_welsh_national_federation
+				value = 1
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_welsh_national_federation
+					value = 0.75
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_very_high
+	}
+}
+
+defined_text = {
+	name = ENG_irish_cavaliers
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_irish_cavaliers_status
+				value = 0.25
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ENG_appeased
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_irish_cavaliers_status
+				value = 0.50
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_irish_cavaliers_status
+					value = 0.25
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_neutral
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_irish_cavaliers_status
+				value = 0.75
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_irish_cavaliers_status
+					value = 0.50
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_angered
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_irish_cavaliers_status
+				value = 1
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_irish_cavaliers_status
+					value = 0.75
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_outraged
+	}
+}
+
+defined_text = {
+	name = ENG_irish_irish_republican_brotherhood
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_irish_irish_republican_brotherhood_status
+				value = 0.25
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ENG_appeased
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_irish_irish_republican_brotherhood_status
+				value = 0.50
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_irish_irish_republican_brotherhood_status
+					value = 0.25
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_neutral
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_irish_irish_republican_brotherhood_status
+				value = 0.75
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_irish_irish_republican_brotherhood_status
+					value = 0.50
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_angered
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_irish_irish_republican_brotherhood_status
+				value = 1
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_irish_irish_republican_brotherhood_status
+					value = 0.75
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_outraged
+	}
+}
+
+defined_text = {
+	name = ENG_irish_irish_tuc
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_irish_irish_tuc_prominence
+				value = 0.25
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ENG_appeased
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_irish_irish_tuc_prominence
+				value = 0.50
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_irish_irish_tuc_prominence
+					value = 0.25
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_neutral
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_irish_irish_tuc_prominence
+				value = 0.75
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_irish_irish_tuc_prominence
+					value = 0.50
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_angered
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_irish_irish_tuc_prominence
+				value = 1
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_irish_irish_tuc_prominence
+					value = 0.75
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_outraged
+	}
+}
+
+defined_text = {
+	name = ENG_irish_irish_tuc
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_irish_irish_tuc_prominence
+				value = 0.25
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ENG_appeased
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_irish_irish_tuc_prominence
+				value = 0.50
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_irish_irish_tuc_prominence
+					value = 0.25
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_neutral
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_irish_irish_tuc_prominence
+				value = 0.75
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_irish_irish_tuc_prominence
+					value = 0.50
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_angered
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_irish_irish_tuc_prominence
+				value = 1
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_irish_irish_tuc_prominence
+					value = 0.75
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_outraged
+	}
+}
+
+defined_text = {
+	name = ENG_scottish_scottish_covenant
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_scottish_scottish_covenant_status
+				value = 0.25
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ENG_appeased
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_scottish_scottish_covenant_status
+				value = 0.50
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_scottish_scottish_covenant_status
+					value = 0.25
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_neutral
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_scottish_scottish_covenant_status
+				value = 0.75
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_scottish_scottish_covenant_status
+					value = 0.50
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_angered
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_scottish_scottish_covenant_status
+				value = 1
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_scottish_scottish_covenant_status
+					value = 0.75
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_outraged
+	}
+}
+
+defined_text = {
+	name = ENG_scottish_scottish_democratic_redemption_party
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_scottish_scottish_democratic_redemption_party_prominence
+				value = 0.25
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ENG_appeased
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_scottish_scottish_democratic_redemption_party_prominence
+				value = 0.50
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_scottish_scottish_democratic_redemption_party_prominence
+					value = 0.25
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_neutral
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_scottish_scottish_democratic_redemption_party_prominence
+				value = 0.75
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_scottish_scottish_democratic_redemption_party_prominence
+					value = 0.50
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_angered
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_scottish_scottish_democratic_redemption_party_prominence
+				value = 1
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_scottish_scottish_democratic_redemption_party_prominence
+					value = 0.75
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_outraged
+	}
+}
+
+defined_text = {
+	name = ENG_welsh_plaid_cymru
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_welsh_plaid_cymru_status
+				value = 0.25
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ENG_appeased
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_welsh_plaid_cymru_status
+				value = 0.50
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_welsh_plaid_cymru_status
+					value = 0.25
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_neutral
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_welsh_plaid_cymru_status
+				value = 0.75
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_welsh_plaid_cymru_status
+					value = 0.50
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_angered
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_welsh_plaid_cymru_status
+				value = 1
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_welsh_plaid_cymru_status
+					value = 0.75
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_outraged
+	}
+}
+
+defined_text = {
+	name = ENG_welsh_welsh_labour
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_welsh_welsh_labour_status
+				value = 0.25
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ENG_appeased
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_welsh_welsh_labour_status
+				value = 0.50
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_welsh_welsh_labour_status
+					value = 0.25
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_neutral
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_welsh_welsh_labour_status
+				value = 0.75
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_welsh_welsh_labour_status
+					value = 0.50
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_angered
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ENG_welsh_welsh_labour_status
+				value = 1
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ENG_welsh_welsh_labour_status
+					value = 0.75
+					compare = less_than_or_equals
+				}
+			}
+		}
+		localization_key = ENG_outraged
+	}
+}

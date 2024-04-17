@@ -1,0 +1,140 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "cabinet_and_support"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height= 430 }
+		
+		iconType={
+			name ="cabinet_member_1"
+			position = { x= 0	 y = 85 }
+			pdx_tooltip = "CAB_1_TRAITS"
+		}
+		
+		iconType={
+			name ="cabinet_member_1_outline"
+			spriteType = "GFX_filibuster_frame"
+			alwaystransparent = yes
+			position = { x= 0	 y = 85 }
+		}
+		
+		instantTextBoxType = {
+			name ="cabinet_member_1_name"
+			position = { x = 0 y = 35 }
+			font = "hoi_24header"
+			text = "[Get.RAJ_Cabinet_Spot_1]"
+			format = center
+			maxWidth = 156
+			maxHeight = 48
+		}
+		
+		instantTextBoxType = {
+			name ="cabinet_member_1_support"
+			position = { x = 0 y = 299 }
+			font = "hoi_24header"
+			text = "[Get.RAJ_Cabinet_Spot_1_support]"
+			format = center
+			maxWidth = 156
+			maxHeight = 48
+		}
+		
+		iconType={
+			name ="cabinet_member_2"
+			position = { x= 167	 y = 85 }
+			pdx_tooltip = "CAB_2_TRAITS"
+		}
+		
+		iconType={
+			name ="cabinet_member_2_outline"
+			spriteType = "GFX_filibuster_frame"
+			alwaystransparent = yes
+			position = { x= 167	 y = 85 }
+		}
+		
+		instantTextBoxType = {
+			name ="cabinet_member_2_name"
+			position = { x = 167 y = 35 }
+			font = "hoi_24header"
+			text = "[Get.RAJ_Cabinet_Spot_2]"
+			format = center
+			maxWidth = 156
+			maxHeight = 48
+		}
+		
+		instantTextBoxType = {
+			name ="cabinet_member_2_support"
+			position = { x = 167 y = 299 }
+			font = "hoi_24header"
+			text = "[Get.RAJ_Cabinet_Spot_2_support]"
+			format = center
+			maxWidth = 156
+			maxHeight = 48
+		}
+		
+		iconType={
+			name ="cabinet_member_3"
+			position = { x= 333	 y = 85 }
+			pdx_tooltip = "CAB_3_TRAITS"
+		}
+		
+		iconType={
+			name ="cabinet_member_3_outline"
+			spriteType = "GFX_filibuster_frame"
+			alwaystransparent = yes
+			position = { x= 333	 y = 85 }
+		}
+		
+		instantTextBoxType = {
+			name ="cabinet_member_3_name"
+			position = { x = 333 y = 35 }
+			font = "hoi_24header"
+			text = "[Get.RAJ_Cabinet_Spot_3]"
+			format = center
+			maxWidth = 156
+			maxHeight = 48
+		}
+		
+		instantTextBoxType = {
+			name ="cabinet_member_3_support"
+			position = { x = 333 y = 299 }
+			font = "hoi_24header"
+			text = "[Get.RAJ_Cabinet_Spot_3_support]"
+			format = center
+			maxWidth = 156
+			maxHeight = 48
+		}
+		
+		instantTextBoxType = {
+			name ="support_word"
+			position = { x = 0 y = 0 }
+			font = "hoi_26header"
+			text = "RAJ_support"
+			format = center
+			maxWidth = 489
+			maxHeight = 48
+		}
+		
+		instantTextBoxType = {
+			name ="pop_support_word"
+			position = { x = 0 y = 325 }
+			font = "hoi_26header"
+			text = "RAJ_Pop_support"
+			format = center
+			maxWidth = 489
+			maxHeight = 48
+		}
+		
+		iconType={
+			name ="pop_sup_measure"
+			position = { x = 35 y = 353 }
+			pdx_tooltip = "POPSUPPORT_LOC"
+		}
+		
+		iconType={
+			name ="pop_sup_bar"
+			spriteType = "GFX_RAJ_public_support_bar"
+			alwaystransparent = yes
+			position = { x = 35 y = 353 }
+		}
+	}
+}

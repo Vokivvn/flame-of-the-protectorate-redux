@@ -1,0 +1,160 @@
+ideas = {
+	country = {
+		FRA_memories_of_malet = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = FRA_memories_of_malet
+
+				modifier = {
+					stability_factor = 0.15
+					political_power_gain = -0.1
+					army_org_factor = -0.05
+				}
+		}
+		
+		FRA_the_red_spectre = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = FRA_red_spectre
+
+				modifier = {
+					centralism_acceptance = -50
+					socialism_acceptance = -50
+					production_factory_max_efficiency_factor = 0.05
+					consumer_goods_factor = -0.05 
+				}
+		}
+		
+		FRA_rival_nationalism_winning = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = FRA_GER_rival_nationalism3
+
+				modifier = {
+					war_support_factor = 0.15
+					#partisan_effect = 0.1
+					#enemy_partisan_effect = -0.1
+				}
+				targeted_modifier = { tag = GER attack_bonus_against = 0.15 }
+		}
+		
+		FRA_rival_nationalism_even = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = FRA_GER_rival_nationalism2
+
+				modifier = {
+					war_support_factor = 0.10
+					#partisan_effect = 0.1
+				}
+				targeted_modifier = { tag = GER attack_bonus_against = 0.1 }
+		}
+		
+		FRA_rival_nationalism_losing = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = FRA_GER_rival_nationalism1
+
+				modifier = {
+					#partisan_effect = -0.1
+					#enemy_partisan_effect = 0.1
+				}
+				targeted_modifier = { tag = GER attack_bonus_against = -0.1 }
+		}
+		
+		FRA_union_busters = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = FRA_red_spectre
+
+				modifier = {
+					production_factory_max_efficiency_factor = 0.1
+				}
+		}
+		
+		## FSR ##
+		
+		FSR_liberation = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = FRA_red_spectre
+
+				modifier = {
+					defense_bonus_against = 0.2
+					offensive_war_stability_factor = 0.2
+				}
+				targeted_modifier = {
+					tag = FRA
+					attack_bonus_against = 0.05
+				} 
+		}
+		
+		FSR_expanded_trade = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = FRA_red_spectre
+
+				modifier = {
+					trade_opinion_factor = 0.25 
+					local_resources_factor = 0.05
+				}
+		}
+		
+		FSR_we_must_prevail = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = FRA_red_spectre
+
+				modifier = {
+					surrender_limit = 0.2
+					army_core_attack_factor = 0.1
+					army_core_defence_factor = 0.1 
+				}
+		}
+	}
+}

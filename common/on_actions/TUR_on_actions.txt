@@ -1,0 +1,9 @@
+on_actions = {
+	on_startup = {
+    	    effect = {
+        	    TUR = {
+            	    country_event = { id = collapse.1 days = 300 }
+        	}
+    	}
+	}
+}

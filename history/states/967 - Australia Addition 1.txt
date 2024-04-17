@@ -1,0 +1,27 @@
+state={
+	id=967
+	name="STATE_967"
+
+	state_category = town
+
+	history={
+		owner = NZL
+		buildings = {
+			infrastructure = 4
+			7564 = {
+				naval_base = 2
+				coastal_bunker = 1
+			}
+		}
+		victory_points = {
+			7564 5 
+		}
+		add_core_of = NZL
+	}
+	
+	provinces={
+		2116 1570 5227 7592 12451 10458 10445 10430 7564 11006 4517 1472 7666 7651 12308 4502 4481 7522 7535 4546 4530
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}

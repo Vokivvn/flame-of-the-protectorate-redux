@@ -1,0 +1,169 @@
+shared_focus = {
+	id =  FSR_la_guerre_de_defense
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 2
+	y = 0
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FSR_la_guerre_de_defense"
+		add_ideas = FSR_liberation
+	}
+}
+
+shared_focus = {
+	id =  FSR_defendons_les_cities
+	icon = GFX_FRA_tolerate_the_socialists
+	cost = 4.00
+	
+	relative_position_id = FSR_la_guerre_de_defense
+    x = -1
+    y = 1
+ 
+	prerequisite = {
+		focus = FSR_la_guerre_de_defense
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FSR_defendons_les_cities"
+		add_offsite_building = { type = arms_factory level = 2 }
+	}
+}
+
+shared_focus = {
+	id =  FSR_destruction_des_routes
+	icon = GFX_FRA_tolerate_the_socialists
+	cost = 4.00
+	
+	relative_position_id = FSR_la_guerre_de_defense
+    x = -1
+    y = 2
+ 
+	prerequisite = {
+		focus = FSR_defendons_les_cities
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FSR_destruction_des_routes"
+		FRA = {
+			random_owned_controlled_state = {
+				damage_building = {
+					type = infrastructure
+					damage = 1
+				}
+			}
+			random_owned_controlled_state = {
+				damage_building = {
+					type = infrastructure
+					damage = 1
+				}
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id =  FSR_assassinat_des_provisions
+	icon = GFX_FRA_tolerate_the_socialists
+	cost = 4.00
+	
+	relative_position_id = FSR_la_guerre_de_defense
+    x = -1
+    y = 3
+ 
+	prerequisite = {
+		focus = FSR_destruction_des_routes
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FSR_assassinat_des_provisions"
+		FRA = {
+			add_stability = -0.1
+			add_political_power = -100
+			army_experience = -20
+		}
+	}
+}
+
+shared_focus = {
+	id =  FSR_mobilization_des_masses
+	icon = GFX_FRA_tolerate_the_socialists
+	cost = 4.00
+	
+	relative_position_id = FSR_la_guerre_de_defense
+    x = 1
+    y = 1
+ 
+	prerequisite = {
+		focus = FSR_la_guerre_de_defense
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FSR_mobilization_des_masses"
+		add_manpower = 30000
+		army_experience = 5
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 30000
+			producer = FRA
+		}
+	}
+}
+
+shared_focus = {
+	id =  FSR_importation_internationale
+	icon = GFX_FRA_tolerate_the_socialists
+	cost = 4.00
+	
+	relative_position_id = FSR_la_guerre_de_defense
+    x = 1
+    y = 2
+ 
+	prerequisite = {
+		focus = FSR_mobilization_des_masses
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FSR_importation_internationale"
+		add_ideas = FSR_expanded_trade
+	}
+}
+
+shared_focus = {
+	id =  FSR_doctrine_de_force
+	icon = GFX_FRA_tolerate_the_socialists
+	cost = 4.00
+	
+	relative_position_id = FSR_la_guerre_de_defense
+    x = 1
+    y = 3
+ 
+	prerequisite = {
+		focus = FSR_importation_internationale
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FSR_doctrine_de_force"
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = land_doctrine
+		}
+	}
+}
+
+shared_focus = {
+	id =  FSR_vive_la_vraie_republique
+	icon = GFX_FRA_tolerate_the_socialists
+	cost = 4.00
+	
+	relative_position_id = FSR_la_guerre_de_defense
+    x = 0
+    y = 4
+ 
+	prerequisite = {
+		focus = FSR_doctrine_de_force
+	}
+	prerequisite = {
+		focus = FSR_assassinat_des_provisions
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FSR_vive_la_vraie_republique"
+		add_ideas = FSR_we_must_prevail
+	}
+}

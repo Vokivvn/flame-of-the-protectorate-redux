@@ -1,0 +1,21 @@
+state={
+	id=870
+	name="STATE_870"
+	manpower=7200
+	state_category = small_island
+	
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 1
+			10321 = {
+				naval_base = 1
+
+			}
+		}
+
+	}
+	provinces={
+		10321
+	}
+}

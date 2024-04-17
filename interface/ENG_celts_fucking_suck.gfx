@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ENG_celt_fuck"
+		texturefile = "gfx/interface/celts_cris/ENG_celt_fuck.dds"
+	}
+}

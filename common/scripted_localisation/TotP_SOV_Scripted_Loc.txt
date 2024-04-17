@@ -1,0 +1,1368 @@
+
+defined_text = {
+	name = SOV_worker_support_percentage_loc
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_worker_support_percentage < 0.4 }
+				check_variable = { SOV_worker_support_percentage = 0.4 }
+			}
+		}
+		localization_key = SOV_worker_support_percentage_low
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { SOV_worker_support_percentage > 0.4 }
+				check_variable = { SOV_worker_support_percentage < 0.6 }
+			}
+		}
+		localization_key = SOV_worker_support_percentage_moderate
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_worker_support_percentage > 0.6 }
+				check_variable = { SOV_worker_support_percentage = 0.6 }
+			}
+		}
+		localization_key = SOV_worker_support_percentage_high
+	}
+}
+
+defined_text = {
+	name = SOV_worker_influence_percentage_loc
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_worker_influence_percentage < 0.4 }
+				check_variable = { SOV_worker_influence_percentage = 0.4 }
+			}
+		}
+		localization_key = SOV_worker_influence_percentage_low
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { SOV_worker_influence_percentage > 0.4 }
+				check_variable = { SOV_worker_influence_percentage < 0.6 }
+			}
+		}
+		localization_key = SOV_worker_influence_percentage_moderate
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_worker_influence_percentage > 0.6 }
+				check_variable = { SOV_worker_influence_percentage = 0.6 }
+			}
+		}
+		localization_key = SOV_worker_influence_percentage_high
+	}
+}
+
+defined_text = {
+	name = SOV_noble_support_percentage_loc
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_noble_support_percentage < 0.4 }
+				check_variable = { SOV_noble_support_percentage = 0.4 }
+			}
+		}
+		localization_key = SOV_noble_support_percentage_low
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { SOV_noble_support_percentage > 0.4 }
+				check_variable = { SOV_noble_support_percentage < 0.6 }
+			}
+		}
+		localization_key = SOV_noble_support_percentage_moderate
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_noble_support_percentage > 0.6 }
+				check_variable = { SOV_noble_support_percentage = 0.6 }
+			}
+		}
+		localization_key = SOV_noble_support_percentage_high
+	}
+}
+
+defined_text = {
+	name = SOV_noble_influence_percentage_loc
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_noble_influence_percentage < 0.4 }
+				check_variable = { SOV_noble_influence_percentage = 0.4 }
+			}
+		}
+		localization_key = SOV_noble_influence_percentage_low
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { SOV_noble_influence_percentage > 0.4 }
+				check_variable = { SOV_noble_influence_percentage < 0.6 }
+			}
+		}
+		localization_key = SOV_noble_influence_percentage_moderate
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_noble_influence_percentage > 0.6 }
+				check_variable = { SOV_noble_influence_percentage = 0.6 }
+			}
+		}
+		localization_key = SOV_noble_influence_percentage_high
+	}
+}
+
+defined_text = {
+	name = SOV_army_support_percentage_loc
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_army_support_percentage < 0.4 }
+				check_variable = { SOV_army_support_percentage = 0.4 }
+			}
+		}
+		localization_key = SOV_army_support_percentage_low
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { SOV_army_support_percentage > 0.4 }
+				check_variable = { SOV_army_support_percentage < 0.6 }
+			}
+		}
+		localization_key = SOV_army_support_percentage_moderate
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_army_support_percentage > 0.6 }
+				check_variable = { SOV_army_support_percentage = 0.6 }
+			}
+		}
+		localization_key = SOV_army_support_percentage_high
+	}
+}
+
+defined_text = {
+	name = SOV_army_influence_percentage_loc
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_army_influence_percentage < 0.4 }
+				check_variable = { SOV_army_influence_percentage = 0.4 }
+			}
+		}
+		localization_key = SOV_army_influence_percentage_low
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { SOV_army_influence_percentage > 0.4 }
+				check_variable = { SOV_army_influence_percentage < 0.6 }
+			}
+		}
+		localization_key = SOV_army_influence_percentage_moderate
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_army_influence_percentage > 0.6 }
+				check_variable = { SOV_army_influence_percentage = 0.6 }
+			}
+		}
+		localization_key = SOV_army_influence_percentage_high
+	}
+}
+
+defined_text = {
+	name = SOV_duma_support_percentage_loc
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_duma_support_percentage < 0.4 }
+				check_variable = { SOV_duma_support_percentage = 0.4 }
+			}
+		}
+		localization_key = SOV_duma_support_percentage_low
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { SOV_duma_support_percentage > 0.4 }
+				check_variable = { SOV_duma_support_percentage < 0.6 }
+			}
+		}
+		localization_key = SOV_duma_support_percentage_moderate
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_duma_support_percentage > 0.6 }
+				check_variable = { SOV_duma_support_percentage = 0.6 }
+			}
+		}
+		localization_key = SOV_duma_support_percentage_high
+	}
+}
+
+
+defined_text = {
+	name = SOV_duma_influence_percentage_loc
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_duma_influence_percentage < 0.4 }
+				check_variable = { SOV_duma_influence_percentage = 0.4 }
+			}
+		}
+		localization_key = SOV_duma_influence_percentage_low
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { SOV_duma_influence_percentage > 0.4 }
+				check_variable = { SOV_duma_influence_percentage < 0.6 }
+			}
+		}
+		localization_key = SOV_duma_influence_percentage_moderate
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_duma_influence_percentage > 0.6 }
+				check_variable = { SOV_duma_influence_percentage = 0.6 }
+			}
+		}
+		localization_key = SOV_duma_influence_percentage_high
+	}
+}
+
+### CLASSES GUI
+
+defined_text = {
+	name = SOV_worker_support_bar
+	text = {
+		trigger = {
+			check_variable = { SOV_worker_support_percentage > 0.9 }
+		}
+		localization_key = totp_SOV_worker_support_100
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_worker_support_percentage = 0.9 }
+				AND = {
+					check_variable = { SOV_worker_support_percentage > 0.8 }
+					check_variable = { SOV_worker_support_percentage < 0.9 }
+				}
+			}
+		}
+		localization_key = totp_SOV_worker_support_90
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_worker_support_percentage = 0.8 }
+				AND = {
+					check_variable = { SOV_worker_support_percentage > 0.7 }
+					check_variable = { SOV_worker_support_percentage < 0.8 }
+				}
+			}
+		}
+		localization_key = totp_SOV_worker_support_80
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_worker_support_percentage = 0.7 }
+				AND = {
+					check_variable = { SOV_worker_support_percentage > 0.6 }
+					check_variable = { SOV_worker_support_percentage < 0.7 }
+				}
+			}
+		}
+		localization_key = totp_SOV_worker_support_70
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_worker_support_percentage = 0.6 }
+				AND = {
+					check_variable = { SOV_worker_support_percentage > 0.5 }
+					check_variable = { SOV_worker_support_percentage < 0.6 }
+				}
+			}
+		}
+		localization_key = totp_SOV_worker_support_60
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_worker_support_percentage = 0.5 }
+				AND = {
+					check_variable = { SOV_worker_support_percentage > 0.4 }
+					check_variable = { SOV_worker_support_percentage < 0.5 }
+				}
+			}
+		}
+		localization_key = totp_SOV_worker_support_50
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_worker_support_percentage = 0.4 }
+				AND = {
+					check_variable = { SOV_worker_support_percentage > 0.3 }
+					check_variable = { SOV_worker_support_percentage < 0.4 }
+				}
+			}
+		}
+		localization_key = totp_SOV_worker_support_40
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_worker_support_percentage = 0.3 }
+				AND = {
+					check_variable = { SOV_worker_support_percentage > 0.2 }
+					check_variable = { SOV_worker_support_percentage < 0.3 }
+				}
+			}
+		}
+		localization_key = totp_SOV_worker_support_30
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_worker_support_percentage = 0.2 }
+				AND = {
+					check_variable = { SOV_worker_support_percentage > 0.1 }
+					check_variable = { SOV_worker_support_percentage < 0.2 }
+				}
+			}
+		}
+		localization_key = totp_SOV_worker_support_20
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_worker_support_percentage = 0.1 }
+				AND = {
+					check_variable = { SOV_worker_support_percentage > 0 }
+					check_variable = { SOV_worker_support_percentage < 0.1 }
+				}
+			}
+		}
+		localization_key = totp_SOV_worker_support_10
+	}
+	text = {
+		trigger = {
+			check_variable = { SOV_worker_support_percentage = 0 }
+		}
+		localization_key = totp_SOV_worker_support_0
+	}
+}
+
+
+defined_text = {
+	name = SOV_worker_influence_bar
+	text = {
+		trigger = {
+			check_variable = { SOV_worker_influence_percentage > 0.9 }
+		}
+		localization_key = totp_SOV_worker_influence_100
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_worker_influence_percentage = 0.9 }
+				AND = {
+					check_variable = { SOV_worker_influence_percentage > 0.8 }
+					check_variable = { SOV_worker_influence_percentage < 0.9 }
+				}
+			}
+		}
+		localization_key = totp_SOV_worker_influence_90
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_worker_influence_percentage = 0.8 }
+				AND = {
+					check_variable = { SOV_worker_influence_percentage > 0.7 }
+					check_variable = { SOV_worker_influence_percentage < 0.8 }
+				}
+			}
+		}
+		localization_key = totp_SOV_worker_influence_80
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_worker_influence_percentage = 0.7 }
+				AND = {
+					check_variable = { SOV_worker_influence_percentage > 0.6 }
+					check_variable = { SOV_worker_influence_percentage < 0.7 }
+				}
+			}
+		}
+		localization_key = totp_SOV_worker_influence_70
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_worker_influence_percentage = 0.6 }
+				AND = {
+					check_variable = { SOV_worker_influence_percentage > 0.5 }
+					check_variable = { SOV_worker_influence_percentage < 0.6 }
+				}
+			}
+		}
+		localization_key = totp_SOV_worker_influence_60
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_worker_influence_percentage = 0.5 }
+				AND = {
+					check_variable = { SOV_worker_influence_percentage > 0.4 }
+					check_variable = { SOV_worker_influence_percentage < 0.5 }
+				}
+			}
+		}
+		localization_key = totp_SOV_worker_influence_50
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_worker_influence_percentage = 0.4 }
+				AND = {
+					check_variable = { SOV_worker_influence_percentage > 0.3 }
+					check_variable = { SOV_worker_influence_percentage < 0.4 }
+				}
+			}
+		}
+		localization_key = totp_SOV_worker_influence_40
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_worker_influence_percentage = 0.3 }
+				AND = {
+					check_variable = { SOV_worker_influence_percentage > 0.2 }
+					check_variable = { SOV_worker_influence_percentage < 0.3 }
+				}
+			}
+		}
+		localization_key = totp_SOV_worker_influence_30
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_worker_influence_percentage = 0.2 }
+				AND = {
+					check_variable = { SOV_worker_influence_percentage > 0.1 }
+					check_variable = { SOV_worker_influence_percentage < 0.2 }
+				}
+			}
+		}
+		localization_key = totp_SOV_worker_influence_20
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_worker_influence_percentage = 0.1 }
+				AND = {
+					check_variable = { SOV_worker_influence_percentage > 0 }
+					check_variable = { SOV_worker_influence_percentage < 0.1 }
+				}
+			}
+		}
+		localization_key = totp_SOV_worker_influence_10
+	}
+	text = {
+		trigger = {
+			check_variable = { SOV_worker_influence_percentage = 0 }
+		}
+		localization_key = totp_SOV_worker_influence_0
+	}
+}
+
+defined_text = {
+	name = SOV_noble_support_bar
+	text = {
+		trigger = {
+			check_variable = { SOV_noble_support_percentage > 0.9 }
+		}
+		localization_key = totp_SOV_noble_support_100
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_noble_support_percentage = 0.9 }
+				AND = {
+					check_variable = { SOV_noble_support_percentage > 0.8 }
+					check_variable = { SOV_noble_support_percentage < 0.9 }
+				}
+			}
+		}
+		localization_key = totp_SOV_noble_support_90
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_noble_support_percentage = 0.8 }
+				AND = {
+					check_variable = { SOV_noble_support_percentage > 0.7 }
+					check_variable = { SOV_noble_support_percentage < 0.8 }
+				}
+			}
+		}
+		localization_key = totp_SOV_noble_support_80
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_noble_support_percentage = 0.7 }
+				AND = {
+					check_variable = { SOV_noble_support_percentage > 0.6 }
+					check_variable = { SOV_noble_support_percentage < 0.7 }
+				}
+			}
+		}
+		localization_key = totp_SOV_noble_support_70
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_noble_support_percentage = 0.6 }
+				AND = {
+					check_variable = { SOV_noble_support_percentage > 0.5 }
+					check_variable = { SOV_noble_support_percentage < 0.6 }
+				}
+			}
+		}
+		localization_key = totp_SOV_noble_support_60
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_noble_support_percentage = 0.5 }
+				AND = {
+					check_variable = { SOV_noble_support_percentage > 0.4 }
+					check_variable = { SOV_noble_support_percentage < 0.5 }
+				}
+			}
+		}
+		localization_key = totp_SOV_noble_support_50
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_noble_support_percentage = 0.4 }
+				AND = {
+					check_variable = { SOV_noble_support_percentage > 0.3 }
+					check_variable = { SOV_noble_support_percentage < 0.4 }
+				}
+			}
+		}
+		localization_key = totp_SOV_noble_support_40
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_noble_support_percentage = 0.3 }
+				AND = {
+					check_variable = { SOV_noble_support_percentage > 0.2 }
+					check_variable = { SOV_noble_support_percentage < 0.3 }
+				}
+			}
+		}
+		localization_key = totp_SOV_noble_support_30
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_noble_support_percentage = 0.2 }
+				AND = {
+					check_variable = { SOV_noble_support_percentage > 0.1 }
+					check_variable = { SOV_noble_support_percentage < 0.2 }
+				}
+			}
+		}
+		localization_key = totp_SOV_noble_support_20
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_noble_support_percentage = 0.1 }
+				AND = {
+					check_variable = { SOV_noble_support_percentage > 0 }
+					check_variable = { SOV_noble_support_percentage < 0.1 }
+				}
+			}
+		}
+		localization_key = totp_SOV_noble_support_10
+	}
+	text = {
+		trigger = {
+			check_variable = { SOV_noble_support_percentage = 0 }
+		}
+		localization_key = totp_SOV_noble_support_0
+	}
+}
+
+defined_text = {
+	name = SOV_noble_influence_bar
+	text = {
+		trigger = {
+			check_variable = { SOV_noble_influence_percentage > 0.9 }
+		}
+		localization_key = totp_SOV_noble_influence_100
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_noble_influence_percentage = 0.9 }
+				AND = {
+					check_variable = { SOV_noble_influence_percentage > 0.8 }
+					check_variable = { SOV_noble_influence_percentage < 0.9 }
+				}
+			}
+		}
+		localization_key = totp_SOV_noble_influence_90
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_noble_influence_percentage = 0.8 }
+				AND = {
+					check_variable = { SOV_noble_influence_percentage > 0.7 }
+					check_variable = { SOV_noble_influence_percentage < 0.8 }
+				}
+			}
+		}
+		localization_key = totp_SOV_noble_influence_80
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_noble_influence_percentage = 0.7 }
+				AND = {
+					check_variable = { SOV_noble_influence_percentage > 0.6 }
+					check_variable = { SOV_noble_influence_percentage < 0.7 }
+				}
+			}
+		}
+		localization_key = totp_SOV_noble_influence_70
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_noble_influence_percentage = 0.6 }
+				AND = {
+					check_variable = { SOV_noble_influence_percentage > 0.5 }
+					check_variable = { SOV_noble_influence_percentage < 0.6 }
+				}
+			}
+		}
+		localization_key = totp_SOV_noble_influence_60
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_noble_influence_percentage = 0.5 }
+				AND = {
+					check_variable = { SOV_noble_influence_percentage > 0.4 }
+					check_variable = { SOV_noble_influence_percentage < 0.5 }
+				}
+			}
+		}
+		localization_key = totp_SOV_noble_influence_50
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_noble_influence_percentage = 0.4 }
+				AND = {
+					check_variable = { SOV_noble_influence_percentage > 0.3 }
+					check_variable = { SOV_noble_influence_percentage < 0.4 }
+				}
+			}
+		}
+		localization_key = totp_SOV_noble_influence_40
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_noble_influence_percentage = 0.3 }
+				AND = {
+					check_variable = { SOV_noble_influence_percentage > 0.2 }
+					check_variable = { SOV_noble_influence_percentage < 0.3 }
+				}
+			}
+		}
+		localization_key = totp_SOV_noble_influence_30
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_noble_influence_percentage = 0.2 }
+				AND = {
+					check_variable = { SOV_noble_influence_percentage > 0.1 }
+					check_variable = { SOV_noble_influence_percentage < 0.2 }
+				}
+			}
+		}
+		localization_key = totp_SOV_noble_influence_20
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_noble_influence_percentage = 0.1 }
+				AND = {
+					check_variable = { SOV_noble_influence_percentage > 0 }
+					check_variable = { SOV_noble_influence_percentage < 0.1 }
+				}
+			}
+		}
+		localization_key = totp_SOV_noble_influence_10
+	}
+	text = {
+		trigger = {
+			check_variable = { SOV_noble_influence_percentage = 0 }
+		}
+		localization_key = totp_SOV_noble_influence_0
+	}
+}
+
+defined_text = {
+	name = SOV_army_support_bar
+	text = {
+		trigger = {
+			check_variable = { SOV_army_support_percentage > 0.9 }
+		}
+		localization_key = totp_SOV_army_support_100
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_army_support_percentage = 0.9 }
+				AND = {
+					check_variable = { SOV_army_support_percentage > 0.8 }
+					check_variable = { SOV_army_support_percentage < 0.9 }
+				}
+			}
+		}
+		localization_key = totp_SOV_army_support_90
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_army_support_percentage = 0.8 }
+				AND = {
+					check_variable = { SOV_army_support_percentage > 0.7 }
+					check_variable = { SOV_army_support_percentage < 0.8 }
+				}
+			}
+		}
+		localization_key = totp_SOV_army_support_80
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_army_support_percentage = 0.7 }
+				AND = {
+					check_variable = { SOV_army_support_percentage > 0.6 }
+					check_variable = { SOV_army_support_percentage < 0.7 }
+				}
+			}
+		}
+		localization_key = totp_SOV_army_support_70
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_army_support_percentage = 0.6 }
+				AND = {
+					check_variable = { SOV_army_support_percentage > 0.5 }
+					check_variable = { SOV_army_support_percentage < 0.6 }
+				}
+			}
+		}
+		localization_key = totp_SOV_army_support_60
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_army_support_percentage = 0.5 }
+				AND = {
+					check_variable = { SOV_army_support_percentage > 0.4 }
+					check_variable = { SOV_army_support_percentage < 0.5 }
+				}
+			}
+		}
+		localization_key = totp_SOV_army_support_50
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_army_support_percentage = 0.4 }
+				AND = {
+					check_variable = { SOV_army_support_percentage > 0.3 }
+					check_variable = { SOV_army_support_percentage < 0.4 }
+				}
+			}
+		}
+		localization_key = totp_SOV_army_support_40
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_army_support_percentage = 0.3 }
+				AND = {
+					check_variable = { SOV_army_support_percentage > 0.2 }
+					check_variable = { SOV_army_support_percentage < 0.3 }
+				}
+			}
+		}
+		localization_key = totp_SOV_army_support_30
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_army_support_percentage = 0.2 }
+				AND = {
+					check_variable = { SOV_army_support_percentage > 0.1 }
+					check_variable = { SOV_army_support_percentage < 0.2 }
+				}
+			}
+		}
+		localization_key = totp_SOV_army_support_20
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_army_support_percentage = 0.1 }
+				AND = {
+					check_variable = { SOV_army_support_percentage > 0 }
+					check_variable = { SOV_army_support_percentage < 0.1 }
+				}
+			}
+		}
+		localization_key = totp_SOV_army_support_10
+	}
+	text = {
+		trigger = {
+			check_variable = { SOV_army_support_percentage = 0 }
+		}
+		localization_key = totp_SOV_army_support_0
+	}
+}
+
+defined_text = {
+	name = SOV_army_influence_bar
+	text = {
+		trigger = {
+			check_variable = { SOV_army_influence_percentage > 0.9 }
+		}
+		localization_key = totp_SOV_army_influence_100
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_army_influence_percentage = 0.9 }
+				AND = {
+					check_variable = { SOV_army_influence_percentage > 0.8 }
+					check_variable = { SOV_army_influence_percentage < 0.9 }
+				}
+			}
+		}
+		localization_key = totp_SOV_army_influence_90
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_army_influence_percentage = 0.8 }
+				AND = {
+					check_variable = { SOV_army_influence_percentage > 0.7 }
+					check_variable = { SOV_army_influence_percentage < 0.8 }
+				}
+			}
+		}
+		localization_key = totp_SOV_army_influence_80
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_army_influence_percentage = 0.7 }
+				AND = {
+					check_variable = { SOV_army_influence_percentage > 0.6 }
+					check_variable = { SOV_army_influence_percentage < 0.7 }
+				}
+			}
+		}
+		localization_key = totp_SOV_army_influence_70
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_army_influence_percentage = 0.6 }
+				AND = {
+					check_variable = { SOV_army_influence_percentage > 0.5 }
+					check_variable = { SOV_army_influence_percentage < 0.6 }
+				}
+			}
+		}
+		localization_key = totp_SOV_army_influence_60
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_army_influence_percentage = 0.5 }
+				AND = {
+					check_variable = { SOV_army_influence_percentage > 0.4 }
+					check_variable = { SOV_army_influence_percentage < 0.5 }
+				}
+			}
+		}
+		localization_key = totp_SOV_army_influence_50
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_army_influence_percentage = 0.4 }
+				AND = {
+					check_variable = { SOV_army_influence_percentage > 0.3 }
+					check_variable = { SOV_army_influence_percentage < 0.4 }
+				}
+			}
+		}
+		localization_key = totp_SOV_army_influence_40
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_army_influence_percentage = 0.3 }
+				AND = {
+					check_variable = { SOV_army_influence_percentage > 0.2 }
+					check_variable = { SOV_army_influence_percentage < 0.3 }
+				}
+			}
+		}
+		localization_key = totp_SOV_army_influence_30
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_army_influence_percentage = 0.2 }
+				AND = {
+					check_variable = { SOV_army_influence_percentage > 0.1 }
+					check_variable = { SOV_army_influence_percentage < 0.2 }
+				}
+			}
+		}
+		localization_key = totp_SOV_army_influence_20
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_army_influence_percentage = 0.1 }
+				AND = {
+					check_variable = { SOV_army_influence_percentage > 0 }
+					check_variable = { SOV_army_influence_percentage < 0.1 }
+				}
+			}
+		}
+		localization_key = totp_SOV_army_influence_10
+	}
+	text = {
+		trigger = {
+			check_variable = { SOV_army_influence_percentage = 0 }
+		}
+		localization_key = totp_SOV_army_influence_0
+	}
+}
+
+defined_text = {
+	name = SOV_duma_support_bar
+	text = {
+		trigger = {
+			check_variable = { SOV_duma_support_percentage > 0.9 }
+		}
+		localization_key = totp_SOV_duma_support_100
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_duma_support_percentage = 0.9 }
+				AND = {
+					check_variable = { SOV_duma_support_percentage > 0.8 }
+					check_variable = { SOV_duma_support_percentage < 0.9 }
+				}
+			}
+		}
+		localization_key = totp_SOV_duma_support_90
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_duma_support_percentage = 0.8 }
+				AND = {
+					check_variable = { SOV_duma_support_percentage > 0.7 }
+					check_variable = { SOV_duma_support_percentage < 0.8 }
+				}
+			}
+		}
+		localization_key = totp_SOV_duma_support_80
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_duma_support_percentage = 0.7 }
+				AND = {
+					check_variable = { SOV_duma_support_percentage > 0.6 }
+					check_variable = { SOV_duma_support_percentage < 0.7 }
+				}
+			}
+		}
+		localization_key = totp_SOV_duma_support_70
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_duma_support_percentage = 0.6 }
+				AND = {
+					check_variable = { SOV_duma_support_percentage > 0.5 }
+					check_variable = { SOV_duma_support_percentage < 0.6 }
+				}
+			}
+		}
+		localization_key = totp_SOV_duma_support_60
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_duma_support_percentage = 0.5 }
+				AND = {
+					check_variable = { SOV_duma_support_percentage > 0.4 }
+					check_variable = { SOV_duma_support_percentage < 0.5 }
+				}
+			}
+		}
+		localization_key = totp_SOV_duma_support_50
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_duma_support_percentage = 0.4 }
+				AND = {
+					check_variable = { SOV_duma_support_percentage > 0.3 }
+					check_variable = { SOV_duma_support_percentage < 0.4 }
+				}
+			}
+		}
+		localization_key = totp_SOV_duma_support_40
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_duma_support_percentage = 0.3 }
+				AND = {
+					check_variable = { SOV_duma_support_percentage > 0.2 }
+					check_variable = { SOV_duma_support_percentage < 0.3 }
+				}
+			}
+		}
+		localization_key = totp_SOV_duma_support_30
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_duma_support_percentage = 0.2 }
+				AND = {
+					check_variable = { SOV_duma_support_percentage > 0.1 }
+					check_variable = { SOV_duma_support_percentage < 0.2 }
+				}
+			}
+		}
+		localization_key = totp_SOV_duma_support_20
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_duma_support_percentage = 0.1 }
+				AND = {
+					check_variable = { SOV_duma_support_percentage > 0 }
+					check_variable = { SOV_duma_support_percentage < 0.1 }
+				}
+			}
+		}
+		localization_key = totp_SOV_duma_support_10
+	}
+	text = {
+		trigger = {
+			check_variable = { SOV_duma_support_percentage = 0 }
+		}
+		localization_key = totp_SOV_duma_support_0
+	}
+}
+
+defined_text = {
+	name = SOV_duma_influence_bar
+	text = {
+		trigger = {
+			check_variable = { SOV_duma_influence_percentage > 0.9 }
+		}
+		localization_key = totp_SOV_duma_influence_100
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_duma_influence_percentage = 0.9 }
+				AND = {
+					check_variable = { SOV_duma_influence_percentage > 0.8 }
+					check_variable = { SOV_duma_influence_percentage < 0.9 }
+				}
+			}
+		}
+		localization_key = totp_SOV_duma_influence_90
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_duma_influence_percentage = 0.8 }
+				AND = {
+					check_variable = { SOV_duma_influence_percentage > 0.7 }
+					check_variable = { SOV_duma_influence_percentage < 0.8 }
+				}
+			}
+		}
+		localization_key = totp_SOV_duma_influence_80
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_duma_influence_percentage = 0.7 }
+				AND = {
+					check_variable = { SOV_duma_influence_percentage > 0.6 }
+					check_variable = { SOV_duma_influence_percentage < 0.7 }
+				}
+			}
+		}
+		localization_key = totp_SOV_duma_influence_70
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_duma_influence_percentage = 0.6 }
+				AND = {
+					check_variable = { SOV_duma_influence_percentage > 0.5 }
+					check_variable = { SOV_duma_influence_percentage < 0.6 }
+				}
+			}
+		}
+		localization_key = totp_SOV_duma_influence_60
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_duma_influence_percentage = 0.5 }
+				AND = {
+					check_variable = { SOV_duma_influence_percentage > 0.4 }
+					check_variable = { SOV_duma_influence_percentage < 0.5 }
+				}
+			}
+		}
+		localization_key = totp_SOV_duma_influence_50
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_duma_influence_percentage = 0.4 }
+				AND = {
+					check_variable = { SOV_duma_influence_percentage > 0.3 }
+					check_variable = { SOV_duma_influence_percentage < 0.4 }
+				}
+			}
+		}
+		localization_key = totp_SOV_duma_influence_40
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_duma_influence_percentage = 0.3 }
+				AND = {
+					check_variable = { SOV_duma_influence_percentage > 0.2 }
+					check_variable = { SOV_duma_influence_percentage < 0.3 }
+				}
+			}
+		}
+		localization_key = totp_SOV_duma_influence_30
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_duma_influence_percentage = 0.2 }
+				AND = {
+					check_variable = { SOV_duma_influence_percentage > 0.1 }
+					check_variable = { SOV_duma_influence_percentage < 0.2 }
+				}
+			}
+		}
+		localization_key = totp_SOV_duma_influence_20
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { SOV_duma_influence_percentage = 0.1 }
+				AND = {
+					check_variable = { SOV_duma_influence_percentage > 0 }
+					check_variable = { SOV_duma_influence_percentage < 0.1 }
+				}
+			}
+		}
+		localization_key = totp_SOV_duma_influence_10
+	}
+	text = {
+		trigger = {
+			check_variable = { SOV_duma_influence_percentage = 0 }
+		}
+		localization_key = totp_SOV_duma_influence_0
+	}
+}
+
+defined_text = {
+	name = SOV_classes_workers_decisions_name
+	text = {
+		trigger = {
+			NOT = { has_country_flag = SOV_classes_flag_workers_decisions_opened }
+		}
+		localization_key = SOV_classes_workers_decisions_open_open
+	}
+	text = {
+		trigger = {
+			has_country_flag = SOV_classes_flag_workers_decisions_opened
+		}
+		localization_key = SOV_classes_workers_decisions_open_hide
+	}
+}
+
+defined_text = {
+	name = SOV_classes_nobles_decisions_name
+	text = {
+		trigger = {
+			NOT = { has_country_flag = SOV_classes_flag_nobles_decisions_opened }
+		}
+		localization_key = SOV_classes_nobles_decisions_open_open
+	}
+	text = {
+		trigger = {
+			has_country_flag = SOV_classes_flag_nobles_decisions_opened
+		}
+		localization_key = SOV_classes_nobles_decisions_open_hide
+	}
+}
+
+defined_text = {
+	name = SOV_classes_army_decisions_name
+	text = {
+		trigger = {
+			NOT = { has_country_flag = SOV_classes_flag_army_decisions_opened }
+		}
+		localization_key = SOV_classes_army_decisions_open_open
+	}
+	text = {
+		trigger = {
+			has_country_flag = SOV_classes_flag_army_decisions_opened
+		}
+		localization_key = SOV_classes_army_decisions_open_hide
+	}
+}
+
+defined_text = {
+	name = SOV_classes_council_decisions_name
+	text = {
+		trigger = {
+			NOT = { has_country_flag = SOV_classes_flag_council_decisions_opened }
+		}
+		localization_key = SOV_classes_council_decisions_open_open
+	}
+	text = {
+		trigger = {
+			has_country_flag = SOV_classes_flag_council_decisions_opened
+		}
+		localization_key = SOV_classes_council_decisions_open_hide
+	}
+}
+
+defined_text = {
+	name = SOV_western_krai_michael_influence_loc
+	text = {
+		trigger = {
+			check_variable = {
+				var = SOV_western_krai_michael_influence
+				value = 0
+				compare = equals
+			} 
+		}
+		localization_key = SOV_western_krai_michael_influence_none
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = SOV_western_krai_michael_influence
+				value = 0.4
+				compare = less_than_or_equals
+			} 
+		}
+		localization_key = SOV_western_krai_michael_influence_low
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = SOV_western_krai_michael_influence
+				value = 0.6
+				compare = less_than_or_equals
+			} 
+		}
+		localization_key = SOV_western_krai_michael_influence_medium
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = SOV_western_krai_michael_influence
+				value = 0.6
+				compare = greater_than
+			} 
+		}
+		localization_key = SOV_western_krai_michael_influence_high
+	}
+}
+
+defined_text = {
+	name = SOV_western_krai_cat_desc_loc
+	text = {
+		trigger = {
+			LIT = { exists = yes }
+		}
+		localization_key = SOV_western_krai_cat_desc_michael
+	}
+	text = {
+		trigger = {
+			LIT = { exists = no }
+		}
+		localization_key = SOV_western_krai_cat_desc_normal
+	}
+}

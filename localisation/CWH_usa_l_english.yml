@@ -1,0 +1,1111 @@
+﻿l_english:
+
+ USA_centralism:0 "United States of America"
+ USA_centralism_DEF:0 "The United State of Americas"
+ USA_socialism:0 "United States of America"
+ USA_socialism_DEF:0 "The United States of America"
+ USA_progressivism:0 "United States of America"
+ USA_progressivism_DEF:0 "The United States of America"
+ USA_liberalism:0 "United States of America"
+ USA_liberalism_DEF:0 "The United States of America"
+ USA_conservatism:0 "United States of America"
+ USA_conservatism_DEF:0 "The United States of America"
+ USA_republicanism:0 "United States of America"
+ USA_republicanism_DEF:0 "The United States of America"
+ USA_authoritarianism:0 "United States of America"
+ USA_authoritarianism_DEF:0 "The United States of America"
+ USA_ultranationalism:0 "United States of America"
+ USA_ultranationalism_DEF:0 "The United States of America"
+ 
+ USA_centralism_ADJ:0 "American"
+ USA_socialism_ADJ:0 "American"
+ USA_progressivism_ADJ:0 "American"
+ USA_liberalism_ADJ:0 "American"
+ USA_conservatism_ADJ:0 "American"
+ USA_republicanism_ADJ:0 "American"
+ USA_authoritarianism_ADJ:0 "American"
+ USA_ultranationalism_ADJ:0 "American"
+
+ ## Ideas ##
+ 
+ USA_the_model_imperialist:0 "The Model Imperialist"
+ USA_the_model_imperialist_desc:0 "The eternal question among protégés of empires has withstood the test of time, no matter the power, no matters it’s reach or wealth, prosperity is fleeting and collapse imminent. Since the days of Rome, great men have wondered how to keep their state stable after their passing. America, a hotbed of intellectuals, has finally cracked the code, just by reviewing the failures of empires past.\n\nNo man will be content under the rule of dictatorship, the line barren for those eager to abandon their culture and watch their country burn. America is a republic who has seen tyranny and has come to despise it. Collaboration with the native people ensures the American empire will live on for centuries."
+ USA_the_hotbed_of_socialism:0 "The Hotbed of Socialism"
+ USA_the_hotbed_of_socialism_desc:0 "Few would expect a German to become the father of American politics, yet, since the arrival of Karl Marx in Texas, America has never been the same. Capitalizing on the divided state of American politics, Marx and his socialist ideology quickly picked up traction among disenfranchised voters, scooping up the radical wings of the major parties and by sheer force alone, joining their ranks as the Republican-Labor Party, a organization with the potential to cement their ideology as mainstream in America unless something is done about them..."
+ USA_faux_freedom:0 "Faux Freedom"
+ USA_faux_freedom_desc:0 "Land of the free, home of the brave. America wears the title like a magnificent suit of armor against attacks on it’s polices. Think America is undemocratic? Impossible in this America!\n\nBeneath the surface, however, a completely different America lay dormant, one where only those born lucky, into privilege, be that money or just the skin color viewed as correct by the government, can have a say in who shall lead the nation. The division of America has created numerous problems along the way, problems that persist till this day, dividing the three main parties on if they believe in liberty and justice for all or just for some."
+ 
+ USA_colonial_grant_master:0 "Colonial Grant Sent"
+ USA_colonial_grant_master_desc:0 ""
+ USA_colonial_grant_subject:0 "Colonial Grant Recieved"
+ USA_colonial_grant_subject_desc:0 ""
+ USA_May_Day_Strikes:0 "May Day Strikes"
+ USA_May_Day_Strikes_desc:0 ""
+ USA_May_Day_Strikes_2:0 "May Day Strikes"
+ USA_May_Day_Strikes_2_desc:0 ""
+ 
+ ## Leader Descriptions ##
+ POLITICS_ARCHIBALD_ROOSEVELT_DESC:0 "Archibald Roosevelt became president almost entirely on the virtue of his name, being the son of beloved president Theodore Roosevelt. "Teddy", as he was commonly known, was one of the greatest advocates for Pan-Americanism, granting statehood to Cuba and restoring the authority of the state of Haiti after decades of military rule due to an uprising. His construction of the Panama Canal in cooperation with Gran Colombia was a grand display of cooperation on the continent, and at the end of his term American dominance was all but unchallengeable. His domestic policy too was well-loved, with his progressive ideals bringing the support of millions of disenfranchised Americans.\n\nArchibald, who had been aiming to capitalize on his father's power for decades, was elected upon this legacy, but it soon became clear that he was not another Teddy. Archibald also advocated for a strong foreign policy, but his method was dominance through force rather than dominance through cooperation and deft maneuvering, causing many in the Americas to grumble and resent the overlord of the continent. His policy at home was nothing like his father's, being largely right-wing and opposing welfare and reform. America wondered whether electing another Roosevelt had been a mistake; even his own family often doubts him.\n\nIn a twist of fate, one of Archibald's greatest critics is another of his kin: Franklin Delano Roosevelt, the man who defied the odds and defeated his illness to become one of America's most influential men. Franklin's scathing critiques of Archibald and fights against him in all levels of government captivate the nation's citizens, and the "Roosevelt Rivalry" is one of the great political sagas of the modern age. Archibald is clearly losing, but will his distant cousin be able to capitalize on that and take his place, or will another challenger take advantage of their feud and assume the highest office of the nation?"
+ 
+ ## Parties ##
+  USA_centralism_party:0 "Socialist Revolutionary"
+  USA_centralism_party_long:0 "Socialist Revolutionary Party USA"
+  USA_socialism_party:0 "Republicans"
+  USA_socialism_party_long:0 "Republican-Labor Party"
+  USA_progressivism_party:0 "Progressives"
+  USA_progressivism_party_long:0 "Progressive Party"
+  USA_liberalism_party:0 "Whigs"
+  USA_liberalism_party_long:0 "Whig Party"
+  USA_conservatism_party:0 "Democrats"
+  USA_conservatism_party_long:0 "Democratic Party"
+  USA_republicanism_party:0 "America First"
+  USA_republicanism_party_long:0 "America First Party"
+  USA_authoritarianism_party:0 "Prohibition"
+  USA_authoritarianism_party_long:0 "Prohibition Party"
+  USA_ultranationalism_party:0 "National Union" # Gerald RK Smith
+  USA_ultranationalism_party_long:0 "National Union for Social Justice"
+  
+  ## Focuses ##
+  USA_archies_fireside_chat:0 "Archie's Fireside Chat"
+  USA_archies_fireside_chat_desc:0 ""
+  
+  USA_the_do_nothing_democrats:0 "The Do-Nothing Democrats"
+  USA_the_do_nothing_democrats_desc:0 ""
+  
+  USA_the_socialist_bunch:0 "The Socialist Bunch"
+  USA_the_socialist_bunch_desc:0 ""
+  
+  USA_the_success_of_our_party:0 "The Success of Our Party"
+  USA_the_success_of_our_party_desc:0 ""
+  
+  USA_creeping_on_calles:0 "Creeping On Calles"
+  USA_creeping_on_calles_desc:0 ""
+  
+  USA_found_the_OCI:0 "Found the OCI"
+  USA_found_the_OCI_desc:0 ""
+  
+  USA_funnel_weapons_to_rio_grande:0 "Funnel Weapons to Rio Grande"
+  USA_funnel_weapons_to_rio_grande_desc:0 ""
+  
+  USA_take_the_shot:0 "Take the Shot"
+  USA_take_the_shot_Desc:0 ""
+  USA_we_could_get_caught:0 "§YArchibal will find out what we have been planning§!."
+  USA_funny_gman:0 "§RPrepare for unforseen consequences.§!"
+  
+  USA_parallels_of_the_past:0 "Parallels to the Past"
+  USA_parallels_of_the_past_desc:0 ""
+  
+  USA_the_forgotten_americans:0 "The Forgotten Americans"
+  USA_the_forgotten_americans_desc:0 ""
+  
+  USA_the_st_louis_showdown:0 "The St. Louis Showdown"
+  USA_the_st_louis_showdown_desc:0 ""
+  USA_anti_union_legislation:0 "§YWe will send delegation to handle this crisis§!!"
+  
+  USA_the_colonial_assessment:0 "The Colonial Assessment"
+  USA_the_colonial_assessment_desc:0 ""
+  
+  USA_talk_with_the_governors:0 "Talk With the Governors"
+  USA_talk_with_the_governors_desc:0 ""
+  
+  USA_provide_the_grant:0 "Provide the Grant"
+  USA_provide_the_grant_desc:0 ""
+  
+  USA_brief_the_philipinnes_situation:0 "Brief the Philippines Situation"
+  USA_brief_the_philipinnes_situation_desc:0 ""
+  
+  USA_teddys_way_out:0 "Teddy's Way Out"
+  USA_teddys_way_out_desc:0 ""
+  
+  # May Day Chain
+  
+  MayDay1936.1.t:0 "sinky unions, GOALS: Overtime Pay and further Representation, The St. Lois Show Down- End These Strikes"
+  MayDay1936.1.d:0 ""
+  MayDay1936.1.a:0 "send democratic delegation"
+  MayDay1936.1.b:0 "send whig delegation"
+  MayDay1936.1.c:0 "send progressive delegation"
+  
+  MayDay1936.2.t:0 "Sending in a democratic representative, he's really hated."
+  MayDay1936.2.d:0 ""
+  MayDay1936.2.a:0 ""
+  
+  MayDay1936.3.t:0 "Sending in a whig representative, he's nothing special."
+  MayDay1936.3.d:0 ""
+  MayDay1936.3.a:0 ""
+  
+  MayDay1936.4.t:0 "Sending in a progressive dude, we don't even know if he's progressive or republican."
+  MayDay1936.4.d:0 ""
+  MayDay1936.4.a:0 ""
+  
+  MayDay1936.5.t:0 "An organizer stages lays down their platform"
+  MayDay1936.5.d:0 ""
+  MayDay1936.5.a:0 "Interesting"
+  
+  MayDay1936.6.t:0 "D: The Democratic Representative seems to understand their reasoning, concede or push?"
+  MayDay1936.6.d:0 ""
+  MayDay1936.6.a:0 "Push"
+  MayDay1936.6.b:0 "Concede"
+  
+  MayDay1936.7.t:0 "Send in the Police!"
+  MayDay1936.7.d:0 ""
+  MayDay1936.7.a:0 ""
+  
+  MayDay1936.8.t:0 "Failure: Republican Gain"
+  MayDay1936.8.d:0 ""
+  MayDay1936.8.a:0 ""
+  
+  MayDay1936.9.t:0 "W:The Whig Representative is willing to push for justice, how hard will they push? Moderation or Radical?"
+  MayDay1936.9.d:0 ""
+  MayDay1936.9.a:0 "Justice!"
+  MayDay1936.9.b:0 "Reformation!"
+  
+  MayDay1936.10.t:0 "The company responsible will meet punishment"
+  MayDay1936.10.d:0 ""
+  MayDay1936.10.a:0 ""
+  
+  MayDay1936.11.t:0 "Success: Whig or Dem Gain"
+  MayDay1936.11.d:0 ""
+  MayDay1936.11.a:0 ""
+  
+  MayDay1936.12.t:0 "P: Ofc the Prog dude likes them, how much is he gonna concede? This is worrying. Is he going to pledge for reform or make promises he cant keep?"
+  MayDay1936.12.d:0 ""
+  MayDay1936.12.a:0 "Yea, we'll do what we can."
+  MayDay1936.12.b:0 "Yoooo Marx was pretty poggers..."
+  
+  MayDay1936.13.t:0 "Representatives promise reform"
+  MayDay1936.13.d:0 ""
+  MayDay1936.13.a:0 ""
+  
+  MayDay1936.14.t:0 "Success: Whig or Proggressive Gain"
+  MayDay1936.14.d:0 ""
+  MayDay1936.14.a:0 ""
+  
+  MayDay1936.15.t:0 "Promises are made that can't be kept, a retraction is sent."
+  MayDay1936.15.d:0 ""
+  MayDay1936.15.a:0 ""
+  
+  MayDay1936.16.t:0 "Failure: Republican Gain"
+  MayDay1936.16.d:0 ""
+  MayDay1936.16.a:0 ""
+  
+  # Election 
+  
+  1936_American_Election.0.t:0 "The 1936 Presidential Election"
+  1936_American_Election.0.d:0 ""
+  1936_American_Election.0.a:0 "Vote! It's your responsibility as a citizen!"
+  
+  1936_American_Election.1.t:0 "Calvin Coolidge Wins the Election"
+  1936_American_Election.1.d:0 ""
+  1936_American_Election.1.a:0 ""
+  
+  1936_American_Election.2.t:0 "Allen Dulles Wins the Election"
+  1936_American_Election.2.d:0 ""
+  1936_American_Election.2.a:0 ""
+  
+  1936_American_Election.3.t:0 "Franklin Roosevelt Wins the Election"
+  1936_American_Election.3.d:0 ""
+  1936_American_Election.3.a:0 ""
+  
+  1936_American_Election.4.t:0 "Electoral Gridlock!"
+  1936_American_Election.4.d:0 ""
+  1936_American_Election.4.a:0 "Well, we'll see what the House thinks."
+  
+  1936_American_Election.5.t:0 "The Whigs Claim Majority In The Senate"
+  1936_American_Election.5.d:0 ""
+  1936_American_Election.5.a:0 ""
+  
+  1936_American_Election.6.t:0 "The Democrats Claim Majority In The Senate"
+  1936_American_Election.6.d:0 ""
+  1936_American_Election.6.a:0 ""
+  
+  1936_American_Election.7.t:0 "The Progressives Claim Majority In The Senate"
+  1936_American_Election.7.d:0 ""
+  1936_American_Election.7.a:0 ""
+  
+  1936_American_Election.8.t:0 "The Whigs Claim Majority In The House"
+  1936_American_Election.8.d:0 ""
+  1936_American_Election.8.a:0 ""
+  
+  1936_American_Election.9.t:0 "The Democrats Claim Majority In The House"
+  1936_American_Election.9.d:0 ""
+  1936_American_Election.9.a:0 ""
+  
+  1936_American_Election.10.t:0 "The Progressives Claim Majority In The House"
+  1936_American_Election.10.d:0 ""
+  1936_American_Election.10.a:0 ""
+  
+  1936_American_Election.11.t:0 "The Senate Resolves the Electoral Girdlock"
+  1936_American_Election.11.d:0 ""
+  1936_American_Election.11.a:0 ""
+  
+  USElection.1.t:0 "The Inauguration of Calvin Coolidge"
+  USElection.1.d:0 ""
+  USElection.1.a:0 ""
+  
+  USElection.2.t:0 "The Inauguration of Franklin Roosevelt"
+  USElection.2.d:0 ""
+  USElection.2.a:0 ""
+  
+  USElection.3.t:0 "The Inauguration of Allen Dulles"
+  USElection.3.d:0 ""
+  USElection.3.a:0 ""
+  
+ USA_the_phillipines_crisis_progressive:0 "The Philipines Crisis"
+ USA_the_phillipines_crisis_progressive_desc:0 "Progressive mode"
+ USA_negotiate_with_the_commonwealth:0 "Negotiatie with the Commonwealth"
+ USA_negotiate_with_the_commonwealth_desc:0 ""
+ USA_pacify_the_tagalogs:0 "Pacify the Tagalogs"
+ USA_pacify_the_tagalogs_desc:0 "funny"
+ USA_crush_the_hukbay:0 "Crush the Hukbay"
+ USA_crush_the_hukbay_desc:0 "even funnier"
+ USA_unify_the_nation:0 "Unify the Nation"
+ USA_unify_the_nation_desc:0 ""
+ USA_extend_the_olive_branch:0 "Extend the Olive Brance"
+ USA_extend_the_olive_branch_desc:0 ""
+ USA_the_phillipines_crisis_whigs:0 "The Philipines Crisis"
+ USA_the_phillipines_crisis_whigs_desc:0 "Bro this is whig af"
+ USA_hold_manila:0 "Hold Manila"
+ USA_hold_manila_desc:0 ""
+ USA_pay_off_american_lands:0 "Pay Off American Land"
+ USA_pay_off_american_lands_desc:0 ""
+ USA_fight_for_the_americans:0 "Fight for the Americans"
+ USA_fight_for_the_americans_desc:0 ""
+ USA_a_healthy_dose_of_democracy:0 "A Healthy Dose of Democracy"
+ USA_a_healthy_dose_of_democracy_desc:0 ""
+ USA_tear_the_opposition:0 "Tear the Opposition"
+ USA_tear_the_opposition_desc:0 ""
+ USA_any_peace_is_a_good_peace:0 "Any Peace is a Good Peace"
+ USA_any_peace_is_a_good_peace_desc:0 ""
+ USA_the_phillipines_crisis_democrats:0 "The Philipines Crisis"
+ USA_the_phillipines_crisis_democrats_desc:0 "democrat version"
+ USA_expand_oci_powers:0 "Expand OCI Powers"
+ USA_expand_oci_powers_desc:0 ""
+ USA_gain_back_our_ground:0 "Gain Back Our Ground"
+ USA_gain_back_our_ground_desc:0 ""
+ USA_break_their_bonds:0 "Break Their Bonds"
+ USA_break_their_bonds_desc:0 ""
+ USA_abandon_ship:0 "Abandon Ship"
+ USA_abandon_ship_desc:0 ""
+ USA_continue_the_push:0 "Continue the Push"
+ USA_continue_the_push_desc:0 ""
+ USA_call_on_the_reserves:0 "Call on the Reserves"
+ USA_call_on_the_reserves_desc:0 ""
+
+ USA_PhCW_whig_peace_tt:0 "Pull the Mandate out of the war, while keeping garrisons wherever we control."
+
+  ## COLONIES
+  # Namibia
+  POLITICS_Huey_Long_DESC:0 "Huey Long oppresses the people of his colony, but would not call himself a racist. He works deeply with the local Klan, but he is not a Klansman. He takes his orders straight from D.C. but is by no means a Yankee; yet he comes from the South but is often derogatorily called no true Southerner. The man demonstrably serves the cause of imperialism, but like many others he would claim that the American empire is unique, seperate from the exploitative and greedy realms of the European nations.\n\nHuey Long is one thing, and one thing only: ambitious.\n\nLong was born in a horribly impoverished region of Louisiana, as deep as the Deep South got. His family had just enough saved up to pack up their bags, get a ticket, and set up on a plot of land to call their own in the newly-acquired American South West Africa colony, and they made their way there like so many other lower-class white families from the South. It was here that Long became and adolescent and then a young adult. Unlike many of his young peers, Long never joined the Klan, which was rapidly becoming one of the most dominant forces in the region. However, he knew many who did, and had ties with people who would eventually rise to high ranks among the white-hooded knights. Long's interests were elsewhere, and he instead pursued politics, quickly rising in the ranks of the local colonial authority.\n\nLong finally got the highest position in the colony when president Archibald Roosevelt appointed him governor of the territory. He quickly went to work, using his contacts and skills to reform the colony. The Klan had grown so powerful that they rivaled the government in some areas; putting down their own law and making their own order. Instead of trying to shut them down to create a unified governing force, Long used his Klan contacts to integrate them into his colonial regime, having them serve as officials and most often law enforcement. Long has worked with cruel people and signed bloodstained contracts to get what he wants, and he is to be feared not because he is fanatical, but because he is adept and will stop at almost nothing for power." 
+  NMB_a_colony_for_the_klan:0 "Klan Colony"
+  NMB_a_colony_for_the_klan_desc:0 "Originally an ordinary settlement alike to any other African colony, American Southwest Africa's population witnessed a certain demographic grow. Many poor white southern families, losing opportunity at home and not wishing to lose their status above African Americans, emigrated to the colony in order to maintain their social hierarchy. Originally wreaking havoc upon the local order, the Klan has since been tamed and used for policing the region thanks to the compromising actions of Governor Long."
+  
+  NMB_centralism_party:0 "Leftist Anti-Colonial Groups"
+  NMB_centralism_party_long:0 "Leftist Anti-Colonial Groups"
+  NMB_socialism_party:0 "Leftist Anti-Colonial Groups"
+  NMB_socialism_party_long:0 "Leftist Anti-Colonial Groups"
+  NMB_progressivism_party:0 "Moderate Anti-Colonial Groups"
+  NMB_progressivism_party_long:0 "Moderate Anti-Colonial Groups"
+  NMB_liberalism_party:0 "Moderate Anti-Colonial Groups"
+  NMB_liberalism_party_long:0 "Moderate Anti-Colonial Groups"
+  NMB_conservatism_party:0 "Moderate Anti-Colonial Groups"
+  NMB_conservatism_party_long:0 "Moderate Anti-Colonial Groups"
+  NMB_republicanism_party:0 "Native Collaborators"
+  NMB_republicanism_party_long:0 "Native Collaborators"
+  NMB_authoritarianism_party:0 "Colonial Government"
+  NMB_authoritarianism_party_long:0 "Colonial Government"
+  NMB_ultranationalism_party:0 "Klan Authority"
+  NMB_ultranationalism_party_long:0 "Klan Authority"
+  
+  # West Africa
+  LIB_resource_deoposit_of_the_union:0 "Resource Deposit of The Union"
+  LIB_resource_deoposit_of_the_union_desc:0 ""
+  
+  LIB_centralism_party:0 "Leftist Anti-Colonial Groups"
+  LIB_centralism_party_long:0 "Leftist Anti-Colonial Groups"
+  LIB_socialism_party:0 "Leftist Anti-Colonial Groups"
+  LIB_socialism_party_long:0 "Leftist Anti-Colonial Groups"
+  LIB_progressivism_party:0 "Moderate Anti-Colonial Groups"
+  LIB_progressivism_party_long:0 "Moderate Anti-Colonial Groups"
+  LIB_liberalism_party:0 "Moderate Anti-Colonial Groups"
+  LIB_liberalism_party_long:0 "Moderate Anti-Colonial Groups"
+  LIB_conservatism_party:0 "Moderate Anti-Colonial Groups"
+  LIB_conservatism_party_long:0 "Moderate Anti-Colonial Groups"
+  LIB_republicanism_party:0 "Native Collaborators"
+  LIB_republicanism_party_long:0 "Native Collaborators"
+  LIB_authoritarianism_party:0 "Colonial Government"
+  LIB_authoritarianism_party_long:0 "Colonial Government"
+  LIB_ultranationalism_party:0 "Colonial Government"
+  LIB_ultranationalism_party_long:0 "Colonial Government"
+  
+  # Philippines
+  PHI_ignition_on_the_rise:0 "Ignition on the Rise"
+  PHI_ignition_on_the_rise_desc:0 ""
+  
+  PHI_centralism_party:0 "Hukbay"
+  PHI_centralism_party_long:0 "Hukbay"
+  PHI_socialism_party:0 "Hukbay"
+  PHI_socialism_party_long:0 "Hukbay"
+  PHI_progressivism_party:0 "Hukbay"
+  PHI_progressivism_party_long:0 "Hukbay"
+  PHI_liberalism_party:0 "Philippines National Front"
+  PHI_liberalism_party_long:0 "Philippines National Front"
+  PHI_conservatism_party:0 "Philippines National Front"
+  PHI_conservatism_party_long:0 "Philippines National Front"
+  PHI_republicanism_party:0 "KALIBAPI"
+  PHI_republicanism_party_long:0 "Kapisanan ng Paglilingkod sa Bagong Pilipinas"
+  PHI_authoritarianism_party:0 "Colonial Government"
+  PHI_authoritarianism_party_long:0 "Colonial Government"
+  PHI_ultranationalism_party:0 "Colonial Government"
+  PHI_ultranationalism_party_long:0 "Colonial Government"
+  
+  HUK_centralism_party:0 "Hukbay"
+  HUK_centralism_party_long:0 "Hukbay"
+  HUK_socialism_party:0 "Hukbay"
+  HUK_socialism_party_long:0 "Hukbay"
+  HUK_progressivism_party:0 "Hukbay"
+  HUK_progressivism_party_long:0 "Hukbay"
+  
+  TAG_republicanism_party:0 "KALIBAPI"
+  TAG_republicanism_party_long:0 "Kapisanan ng Paglilingkod sa Bagong Pilipinas"
+  
+  CPH_centralism_party:0 "Hukbay"
+  CPH_centralism_party_long:0 "Hukbay"
+  CPH_socialism_party:0 "Hukbay"
+  CPH_socialism_party_long:0 "Hukbay"
+  CPH_progressivism_party:0 "Hukbay"
+  CPH_progressivism_party_long:0 "Hukbay"
+  CPH_liberalism_party:0 "Philippines National Front"
+  CPH_liberalism_party_long:0 "Philippines National Front"
+  CPH_conservatism_party:0 "Philippines National Front"
+  CPH_conservatism_party_long:0 "Philippines National Front"
+  
+  ## Archie's Legacy
+  USA_archies_legacy:0 "The Legacy of Archibald Roosevelt"
+  USA_archies_legacy_desc:0 "President Archibald "Archie" Roosevelt proudly boasts one of the most prestigious titles in the world, one that, while humble compared to some titles such as Tsar or Lord Protector, strikes fear into the heart of America's enemies regardless. To be president of the United States is to be the lead role on the stage of international diplomacy. Yet for all of the president's power, domestic restraints will always ensure that the president will be grounded to the White House and at the beck and call of Congress. When the president turns his eyes to the world, he can rest assured knowing that he stands in the good graces of the Democratic Party.\n\nThe opposition, despite the brilliant political maneuvering of President Roosevelt, is still a relevant player in Congress. The Whig Party has rallied their fractured party around a fierce disdain for the status quo, something that President Roosevelt not only campaigns on, but embodies at large. To breathe new life into the president's mandate, Roosevelt has strapped on his boots and prepares to step out of the Oval Office and out into the nation to rally the people around his vision, around the American dream!\n\nPopularity among §YSplinter Whigs§!: [USA.USA_WHIGS_ON_ARCHIE]\n\nPopularity among §BDemocrats§!: [USA.USA_DEMOCRATS_ON_ARCHIE]"
+  USA_president_a_roosevelt:0 "Archibald Roosevelt is President."
+  USA_archie_doing_action:0 " Archie is not currently carrying out another task."
+  
+  USA_Dems_Archie_Very_Low:0 "§RVery Low§! ([?USA_Archie_Dem_Love|%R0])"
+  USA_Dems_Archie_Low:0 "§RLow§!( [?USA_Archie_Dem_Love|%R0])"
+  USA_Dems_Archie_Medium:0 "§YMedium§! ([?USA_Archie_Dem_Love|%Y0])"
+  USA_Dems_Archie_High:0 "§GHigh§! ([?USA_Archie_Dem_Love|%G0])"
+  USA_Dems_Archie_Very_High:0 "§GVery High§! ([?USA_Archie_Dem_Love|%G0])"
+  USA_Dems_Archie_Outstanding:0 "§GOutstanding§! ([?USA_Archie_Dem_Love|%G0])"
+  
+  USA_Whigs_Archie_Very_Low:0 "§RVery Low§! ([?USA_Archie_Whig_Love|%R0])"
+  USA_Whigs_Archie_Low:0 "§RLow§! ([?USA_Archie_Whig_Love|%R0])"
+  USA_Whigs_Archie_Medium:0 "§YMedium§! ([?USA_Archie_Whig_Love|%Y0])"
+  USA_Whigs_Archie_High:0 "§GHigh§! ([?USA_Archie_Whig_Love|%G0])"
+  USA_Whigs_Archie_Very_High:0 "§GVery High§! ([?USA_Archie_Whig_Love|%G0])"
+  USA_Whigs_Archie_Outstanding:0 "§GOutstanding§! ([?USA_Archie_Whig_Love|%G0])"
+  
+  USA_will_boost_dem_support_of_archie:0 "§BDemocrats will support Archie more.§!"
+  USA_will_boost_whig_support_of_archie:0 "§yWhigs will support Archie more.§!"
+  USA_dem_endorsement:0 "President Roosevelt will endorse §BAllen Dulles§!, the §BDemocratic§! candidate, for President."
+  USA_whig_endorsement:0 "President Roosevelt will endorse §yCalvin Coolidge§!, the §yWhig§! candidate, for President."
+  USA_no_endrosement:0 "President Roosevelt §Rwill refuse to endorse any candidate§! for President."
+  
+  USA_whig_moderate_gains:0 "Archie's endorsement will give the Whigs a §Ymoderate§! boost in the upcoming election."
+  USA_whig_high_gains:0 "Archie's endorsement will give the Whigs a §Ghigh§G! boost in the upcoming election."
+  USA_whig_very_high_gains:0 "Archie's endorsement will give the Whigs a §Gvery high§! boost in the upcoming election."
+  USA_progressive_high_gains:0 "Archie's endorsement has §Rhurt§! the Whig party, strengthening the Progressive Party in the next election."
+  USA_progressive_medium_gains:0 "Archie's endorsement has §Rdamaged§! the Whig party, strengthening the Progressive Party in the next election."
+  USA_dem_moderate_gains:0 "Archie's endorsement will give the Democrats a §Ymoderate§! boost in the upcoming election."
+  USA_dem_high_gains:0 "Archie's endorsement will give the Democrats a §Ghigh§G! boost in the upcoming election."
+  USA_dem_very_high_gains:0 "Archie's endorsement will give the Democrats a §Gvery high§! boost in the upcoming election."
+  USA_whig_high_gains_dem_suck:0 "Archie's endorsement has §Rhurt§! the Democratic party, strengthening the Whig Party in the next election."
+  USA_whig_medium_gains_dem_suck:0 "Archie's endorsement has §Rdamaged§! the Democratic party, strengthening the Whig Party in the next election."
+  USA_party_abandonments:0 "With no endorsement, the Whigs have seemingly been §Rabandoned§! for the upcoming election.
+  
+  USA_support_the_texans_toas:0 "Support the Texan-Taos Legacy"
+  USA_support_the_texans_toas_desc:0 ""
+  
+  USA_support_the_colonist_miners:0 "Support the Colonialist Miners"
+  USA_support_the_colonist_miners_desc:0 ""
+  
+  USA_meet_with_Patton:0 "Meet with Governor Patton"
+  USA_meet_with_Patton_desc:0 ""
+  
+  USA_phyc_op_strikers:0 "Encourage Scabs in the Strikes"
+  USA_phyc_op_strikers_desc:0 ""
+  
+  USA_decry_the_toas_fight:0 "Decry the Taos Skrimishes"
+  USA_decry_the_toas_fight_desc:0 ""
+  
+  USA_establish_carlsbad_national_park:0 "Establish Carlsbad National Park"
+  USA_establish_carlsbad_national_park_desc:0 ""
+  
+  USA_establish_everglades_national_park:0 "Establish Everglades National Park"
+  USA_establish_everglades_national_park_desc:0 ""
+  
+  USA_establish_great_smokey_mountains_national_park:0 "Establish Great Smokey Mountains National Park"
+  USA_establish_great_smokey_mountains_national_park_desc:0 ""
+  
+  USA_condemn_strikers:0 "Condemn the Strikers"
+  USA_condemn_strikers_desc:0 ""
+  
+  USA_Endorse_Allen_Dulles:0 "Endorse Allen Dulles"
+  USA_Endorse_Allen_Dulles_Desc:0 ""
+  
+  USA_Endorse_Calvin_Coolidge:0 "Endorse Calvin Coolidge"
+  USA_Endorse_Calvin_Coolidge_desc:0 ""
+  
+  USA_Refuse_To_Endorse:0 "Refuse To Endorse a Candidate"
+  USA_Refuse_To_Endorse_desc:0 ""
+  
+  ## Faux Freedom
+  USA_faux_freedom_decisions:0 "The American Integration"
+  USA_faux_freedom_decisions_desc:0 "All Men Are Created Equal.\n\nThe rights enshrined within the Constitution have set the international standard for human rights. All men who stand in the shadow of the stars and stripes know they are blessed with a commodity quickly running out of stock; freedom. The freedom to practice any religion one choses and to speak freely and openly without fear of persecution, but most importantly, to have the final say in who will take up the mantle of defender of the free world. These universal, inalienable, truths apply to all citizens of the America...with asterisks. The inhabitants of the land of the free share a state with the half-free, the separate but equal. The indivisible nation has torn itself apart at the seams at this contentious issue. The impassionate orations from the hallowed halls of Congress echo out into the nation, with the message of the Segregationists resonating best with democratic voters of the southern bloc. Standing in firm contrast to the status-quo message of the segregationists, those hearkening back to the core American value of liberty and justice for all, the Republican-Labor integrationists battle tooth and nail in all branches of government for an America proud of it's status as the melting pot. With both sides claimed, the Whig party tears itself apart from the inside among the bulwarks of the present policies and those seeking to bring equality to a nation. The current political gridlock is untenable, legislation must be drafted and swiftly voted upon to either keep the country on the path that has provided it with so much or to build on the foundation laid by the idealistic founding fathers.\n\n§GIntegrationist§! progress is [?USA_integrationist_progress|%G0]\n\n§RSegregationist§! progress is [?USA_segregation_progress|%G0]\n\nThe President is [get.USA_President_Civil_Rights_Status]\n\n[get.USA_segregation_discussion]"
+  
+  USA_example_1:0 "Test 1"
+  
+  USA_very_sympathetic_civil_rights:0 "§Yvery sympathetic to the Civil Rights movements§!.\n\n[get.USA_segregation_discussion]"
+  USA_sympathetic_civil_rights:0 "§Ysympathetic to the Civil Rights movements§!."
+  USA_impartial_civil_rights:0 "§Yimpartial to the Civil Rights movements§!."
+  USA_against_civil_rights:0 "§Yin opposition to those anarchic movements§!."
+  
+  USA_no_segregation_discussion:0 "Segregation discussion is §Rcurrently not allowed due to the gag rule§!."
+  USA_yes_segregation_discussion:0 "Segregation discussion is §Gallowed§!."
+  
+  USA_segregationist_gain:0 "§RSegregationists will gain progress due to this.§!\n"
+  USA_segregationist_gain_medium:0 "§RSegregationists will gain a decent amount of progress due to this.§!\n"
+  USA_segregationist_gain_large:0 "§RSegregationists will gain a lot progress due to this.§!\n"
+  USA_segregationist_loss:0 "§GSegregationists will lose progress due to this.§!\n"
+  USA_segregationist_loss_medium:0 "§GSegregationists will lose a decent amount of progress due to this.§!\n"
+  USA_segregationist_loss_large:0 "§GSegregationists will lose a lot progress due to this.§!\n"
+  
+  USA_integrationist_gain:0 "§GIntegrationists will gain progress due to this.§!\n"
+  USA_integrationist_gain_medium:0 "§GIntegrationists will gain a decent amount of progress due to this.§!\n"
+  USA_integrationist_gain_large:0 "§GIntegrationists will gain a lot progress due to this.§!\n"
+  USA_integrationist_loss:0 "§RIntegrationists will lose progress due to this.§!\n"
+  USA_integrationist_loss_medium:0 "§RIntegrationists will lose a decent amount of progress due to this.§!\n"
+  USA_integrationist_loss_large:0 "§RIntegrationists will lose a lot progress due to this.§!\n"
+  
+  USA_gag_rule_prog_alt:0 "§YShifts in integrationist progress are not possible due to the gag rule.§!"
+  
+  USA_gag_rule_lifted_TT:0 "§GThe gag rule will be lifted allowing for discussion on segregation.§!\n"
+  
+  ## Electoral College
+  USA_electoral_college:0 "The Electoral College"
+  USA_electoral_college_desc:0 "The first Tuesday of November, a day of jubilee for some, where proud patriots march out into the streets and vocalize their view of how the country should be managed. For others, the first Tuesday is a day to be dreaded, a day where after a long day of work a man comes home to hear a snake-tongued politician sell himself to his community. Regardless, on March fourth one man will bow out of the White House and one will enter, ready to pursue the agenda of his party. As the American people cast their ballots, one of four parties will see their vision for the nation come to fruition. Resonating with the traditionalist voters of America, the platform of the Democratic Party is the oldest in American politics, dating back to the foundation of the Democratic-Republican party from a joint effort between Thomas Jefferson and James Madison. During the Era of Good Feelings, where the Democratic-Republican party was the only political organization in the United States, the Democratic party's influence was immeasurable, which can still be seen to this day with the talking points of the party extending into the Whig party and the eventual Republican party, following the 1828 split between Andrew Jackson and James Monroe. The Era of Good Feelings ended abruptly with the rise of the Whig party, lead by Henry Clay. Taking a firm stance as the anti-slavery party, the Whigs distinguished themselves from the Democratic-Republicans during the 1850 election. The big tent of abolitionists making a home in the Whig party did not agree on all issues, despite their common goal. The election of 1896 saw the Whigs splinter off for good, with Theodore Roosevelt taking the left wing of the party with him to found the Progressive Party. The radical left of the Whig's did not find their home in the newly minted Progressive party, but rather in the newly reorganized Republican-Labor Party, rallying around the teachings of German-American thinker Karl Marx. As election day rolls around once again, time will only tell if the Democrats will maintain the status-quo, if the Whigs will further their abolitionist agenda, if Teddy's party can enact the wide reaching reform that builds the foundation of their party, or even if the Republican-Laborists can sweep the nation out from beneath the feet of the other three.\n\nThe §BDemocratic§! Party claimed [?USA_democrat_EV_display|Y0] electoral votes.\n\nThe §YWhig§! Party claimed [?USA_whig_EV_display|Y0] electoral votes.\n\nThe §GProgressive§! Party claimed [?USA_progressive_EV_display|Y0] electoral votes.\n\nThe §RRepublican-Labor§! Party claimed [?USA_socialist_EV_display|Y0] electoral votes."
+  
+  # Gains
+  USA_dem_gain_pacific_tt_decision:0 "§BDemocrats will gain [get.USA_DEM_measure] popularity within the Pacific States§!!"
+  USA_dem_gain_rockies_tt_decision:0 "§BDemocrats will gain [get.USA_DEM_measure] popularity within the Rockies§!!"
+  USA_dem_gain_plains_tt_decision:0 "§BDemocrats will gain [get.USA_DEM_measure] popularity within the Great Plains States§!!"
+  USA_dem_gain_midwest_tt_decision:0 "§BDemocrats will gain [get.USA_DEM_measure] popularity within the Midwest§!!"
+  USA_dem_gain_southwest_tt_decision:0 "§BDemocrats will gain [get.USA_DEM_measure] popularity within the Southwest§!!"
+  USA_dem_gain_new_england_tt_decision:0 "§BDemocrats will gain [get.USA_DEM_measure] popularity within New England§!!"
+  USA_dem_gain_ne_coast_tt_decision:0 "§BDemocrats will gain [get.USA_DEM_measure] popularity within the Northeast Coastal§!!"
+  USA_dem_gain_ce_coast_tt_decision:0 "§BDemocrats will gain [get.USA_DEM_measure] popularity within the Centraleast Coastal§!!"
+  USA_dem_gain_north_south_tt_decision:0 "§BDemocrats will gain [get.USA_DEM_measure] popularity within the Upper South§!!"
+  USA_dem_gain_deep_south_tt_decision:0 "§BDemocrats will gain [get.USA_DEM_measure] popularity within the Deep South§!!"
+  USA_dem_gain_cen_america_tt_decision:0 "§BDemocrats will gain [get.USA_DEM_measure] popularity within the Cental American States States§!!"
+  USA_dem_gain_carribean_tt_decision:0 "§BDemocrats will gain [get.USA_DEM_measure] popularity within the Carribean States§!!"
+  USA_prog_gain_pacific_tt_decision:0 "§eProgressives will gain [get.USA_PROG_measure] popularity within the Pacific States§!!"
+  USA_prog_gain_rockies_tt_decision:0 "§eProgressives will gain [get.USA_PROG_measure] popularity within the Rockies§!!"
+  USA_prog_gain_plains_tt_decision:0 "§eProgressives will gain [get.USA_PROG_measure] popularity within the Great Plains States§!!"
+  USA_prog_gain_midwest_tt_decision:0 "§eProgressives will gain [get.USA_PROG_measure] popularity within the Midwest§!!"
+  USA_prog_gain_southwest_tt_decision:0 "§eProgressives will gain [get.USA_PROG_measure] popularity within the Southwest§!!"
+  USA_prog_gain_new_england_tt_decision:0 "§eProgressives will gain [get.USA_PROG_measure] popularity within New England§!!"
+  USA_prog_gain_ne_coast_tt_decision:0 "§eProgressives will gain [get.USA_PROG_measure] popularity within the Northeast Coastal§!!"
+  USA_prog_gain_ce_coast_tt_decision:0 "§eProgressives will gain [get.USA_PROG_measure] popularity within the Centraleast Coastal§!!"
+  USA_prog_gain_north_south_tt_decision:0 "§eProgressives will gain [get.USA_PROG_measure] popularity within the Upper South§!!"
+  USA_prog_gain_deep_south_tt_decision:0 "§eProgressives will gain [get.USA_PROG_measure] popularity within the Deep South§!!"
+  USA_prog_gain_cen_america_tt_decision:0 "§eProgressives will gain [get.USA_PROG_measure] popularity within the Cental American States States§!!"
+  USA_prog_gain_carribean_tt_decision:0 "§eProgressives will gain [get.USA_PROG_measure] popularity within the Carribean States§!!"
+  USA_whig_gain_pacific_tt_decision:0 "§yWhigs will gain [get.USA_WHIG_measure] popularity within the Pacific States§!!"
+  USA_whig_gain_rockies_tt_decision:0 "§yWhigs will gain [get.USA_WHIG_measure] popularity within the Rockies§!!"
+  USA_whig_gain_plains_tt_decision:0 "§yWhigs will gain [get.USA_WHIG_measure] popularity within the Great Plains States§!!"
+  USA_whig_gain_midwest_tt_decision:0 "§yWhigs will gain [get.USA_WHIG_measure] popularity within the Midwest§!!"
+  USA_whig_gain_southwest_tt_decision:0 "§yWhigs will gain [get.USA_WHIG_measure] popularity within the Southwest§!!"
+  USA_whig_gain_new_england_tt_decision:0 "§yWhigs will gain [get.USA_WHIG_measure] popularity within New England§!!"
+  USA_whig_gain_ne_coast_tt_decision:0 "§yWhigs will gain [get.USA_WHIG_measure] popularity within the Northeast Coastal§!!"
+  USA_whig_gain_ce_coast_tt_decision:0 "§yWhigs will gain [get.USA_WHIG_measure] popularity within the Centraleast Coastal§!!"
+  USA_whig_gain_north_south_tt_decision:0 "§yWhigs will gain [get.USA_WHIG_measure] popularity within the Upper South§!!"
+  USA_whig_gain_deep_south_tt_decision:0 "§yWhigs will gain [get.USA_WHIG_measure] popularity within the Deep South§!!"
+  USA_whig_gain_cen_america_tt_decision:0 "§yWhigs will gain [get.USA_WHIG_measure] popularity within the Cental American States States§!!"
+  USA_whig_gain_carribean_tt_decision:0 "§yWhigs will gain [get.USA_WHIG_measure] popularity within the Carribean States§!!"
+  USA_republican_gain_pacific_tt_decision:0 "§rRepublicans will gain [get.USA_REPUBLICAN_measure] popularity within the Pacific States§!!"
+  USA_republican_gain_rockies_tt_decision:0 "§rRepublicans will gain [get.USA_REPUBLICAN_measure] popularity within the Rockies§!!"
+  USA_republican_gain_plains_tt_decision:0 "§rRepublicans will gain [get.USA_REPUBLICAN_measure] popularity within the Great Plains States§!!"
+  USA_republican_gain_midwest_tt_decision:0 "§rRepublicans will gain [get.USA_REPUBLICAN_measure] popularity within the Midwest§!!"
+  USA_republican_gain_southwest_tt_decision:0 "§rRepublicans will gain [get.USA_REPUBLICAN_measure] popularity within the Southwest§!!"
+  USA_republican_gain_new_england_tt_decision:0 "§rRepublicans will gain [get.USA_REPUBLICAN_measure] popularity within New England§!!"
+  USA_republican_gain_ne_coast_tt_decision:0 "§rRepublicans will gain [get.USA_REPUBLICAN_measure] popularity within the Northeast Coastal§!!"
+  USA_republican_gain_ce_coast_tt_decision:0 "§rRepublicans will gain [get.USA_REPUBLICAN_measure] popularity within the Centraleast Coastal§!!"
+  USA_republican_gain_north_south_tt_decision:0 "§rRepublicans will gain [get.USA_REPUBLICAN_measure] popularity within the Upper South§!!"
+  USA_republican_gain_deep_south_tt_decision:0 "§rRepublicans will gain [get.USA_REPUBLICAN_measure] popularity within the Deep South§!!"
+  USA_republican_gain_cen_america_tt_decision:0 "§rRepublicans will gain [get.USA_REPUBLICAN_measure] popularity within the Cental American States States§!!"
+  USA_republican_gain_carribean_tt_decision:0 "§rRepublicans will gain [get.USA_REPUBLICAN_measure] popularity within the Carribean States§!!"
+  USA_small:0 "a §Gsmall§! amount of"
+  USA_medium:0 "a §Gdecent§! amount of"
+  USA_high:0 "§Ga lot§! of"
+  
+  # Campaign
+  USA_election_campaign:0 "Campaign Season"
+  USA_election_campaign_desc:0 "§yWhigs§!: [?USA_WHIG_CAMPAIGN_POINTS]\n§BDemocrats§!: [?USA_DEMOCRAT_CAMPAIGN_POINTS]\n§eProgressives§!: [?USA_PROGRESSIVE_CAMPAIGN_POINTS]\n§rRepublican-Laborers§!: [?USA_REPUBLICAN_CAMPAIGN_POINTS]"
+  USA_show_large_options:0 "§LShow Large Campaign Options§!"
+  USA_show_medium_options:0 "§LShow Medium Campaign Options§!"
+  USA_show_small_options:0 "§LShow Small Campaign Options§!"
+  
+  USA_WHIG_campaign_in_pacific_large:0 "Heavy §yWhig§! Campaign in the Pacific"
+  USA_WHIG_campaign_in_pacific_medium:0 "Medium §yWhig§! Campaign in the Pacific"
+  USA_WHIG_campaign_in_pacific_small:0 "Small §yWhig§! Campaign in the Pacific"
+  USA_whigs_in_pacific_campaigning:0 "§yWhigs Campaigning in the Pacific§!"
+  
+  USA_WHIG_campaign_in_rockies_large:0 "Heavy §yWhig§! Campaign in the Rockies"
+  USA_WHIG_campaign_in_rockies_medium:0 "Medium §yWhig§! Campaign in the Rockies"
+  USA_WHIG_campaign_in_rockies_small:0 "Small §yWhig§! Campaign in the Rockies"
+  USA_whigs_in_rockies_campaigning:0 "§yWhigs Campaigning in the Rockies§!"
+  
+  USA_WHIG_campaign_in_plains_large:0 "Heavy §yWhig§! Campaign in the Plains"
+  USA_WHIG_campaign_in_plains_medium:0 "Medium §yWhig§! Campaign in the Plains"
+  USA_WHIG_campaign_in_plains_small:0 "Small §yWhig§! Campaign in the Plains"
+  USA_whigs_in_plains_campaigning:0 "§yWhigs Campaigning in the Plains§!"
+  
+  USA_WHIG_campaign_in_midwest_large:0 "Heavy §yWhig§! Campaign in the Midwest"
+  USA_WHIG_campaign_in_midwest_medium:0 "Medium §yWhig§! Campaign in the Midwest"
+  USA_WHIG_campaign_in_midwest_small:0 "Small §yWhig§! Campaign in the Midwest"
+  USA_whigs_in_midwest_campaigning:0 "§yWhigs Campaigning in the Midwest§!"
+  
+  USA_WHIG_campaign_in_southwest_large:0 "Heavy §yWhig§! Campaign in the Southwest"
+  USA_WHIG_campaign_in_southwest_medium:0 "Medium §yWhig§! Campaign in the Southwest"
+  USA_WHIG_campaign_in_southwest_small:0 "Small §yWhig§! Campaign in the Southwest"
+  USA_whigs_in_southwest_campaigning:0 "§yWhigs Campaigning in the Southwest§!"
+  
+  USA_WHIG_campaign_in_new_england_large:0 "Heavy §yWhig§! Campaign in New England"
+  USA_WHIG_campaign_in_new_england_medium:0 "Medium §yWhig§! Campaign in New England"
+  USA_WHIG_campaign_in_new_england_small:0 "Small §yWhig§! Campaign in New England"
+  USA_whigs_in_new_england_campaigning:0 "§yWhigs Campaigning in New England§!"
+  
+  USA_WHIG_campaign_in_ne_coast_large:0 "Heavy §yWhig§! Campaign in the Northeastern Coast"
+  USA_WHIG_campaign_in_ne_coast_medium:0 "Medium §yWhig§! Campaign in the Northeastern Coast"
+  USA_WHIG_campaign_in_ne_coast_small:0 "Small §yWhig§! Campaign in the Northeastern Coast"
+  USA_whigs_in_ne_coast_campaigning:0 "§yWhigs Campaigning in the Northeastern Coast§!"
+  
+  USA_WHIG_campaign_in_ce_coast_large:0 "Heavy §yWhig§! Campaign in the Centraleastern Coast"
+  USA_WHIG_campaign_in_ce_coast_medium:0 "Medium §yWhig§! Campaign in the Centraleastern Coast"
+  USA_WHIG_campaign_in_ce_coast_small:0 "Small §yWhig§! Campaign in the Centraleastern Coast"
+  USA_whigs_in_ce_coast_campaigning:0 "§yWhigs Campaigning in the Centraleastern Coast§!"
+  
+  USA_WHIG_campaign_in_north_south_large:0 "Heavy §yWhig§! Campaign in the Upper South"
+  USA_WHIG_campaign_in_north_south_medium:0 "Medium §yWhig§! Campaign in the Upper South"
+  USA_WHIG_campaign_in_north_south_small:0 "Small §yWhig§! Campaign in the Upper South"
+  USA_whigs_in_north_south_campaigning:0 "§yWhigs Campaigning in the Upper South§!"
+  
+  USA_WHIG_campaign_in_deep_south_large:0 "Heavy §yWhig§! Campaign in the Deep South"
+  USA_WHIG_campaign_in_deep_south_medium:0 "Medium §yWhig§! Campaign in the Deep South"
+  USA_WHIG_campaign_in_deep_south_small:0 "Small §yWhig§! Campaign in the Deep South"
+  USA_whigs_in_deep_south_campaigning:0 "§yWhigs Campaigning in the Deep South§!"
+  
+  USA_WHIG_campaign_in_cen_america_large:0 "Heavy §yWhig§! Campaign in Central America"
+  USA_WHIG_campaign_in_cen_america_medium:0 "Medium §yWhig§! Campaign in Central America"
+  USA_WHIG_campaign_in_cen_america_small:0 "Small §yWhig§! Campaign in Central America"
+  USA_whigs_in_cen_america_campaigning:0 "§yWhigs Campaigning in Central America§!"
+  
+  USA_WHIG_campaign_in_carribean_large:0 "Heavy §yWhig§! Campaign in the Carribean"
+  USA_WHIG_campaign_in_carribean_medium:0 "Medium §yWhig§! Campaign in the Carribean"
+  USA_WHIG_campaign_in_carribean_small:0 "Small §yWhig§! Campaign in the Carribean"
+  USA_whigs_in_carribean_campaigning:0 "§yWhigs Campaigning in the Carribean§!"
+  
+  USA_DEM_campaign_in_pacific_large:0 "Heavy §yWhig§! Campaign in the Pacific"
+  USA_DEM_campaign_in_pacific_medium:0 "Medium §yWhig§! Campaign in the Pacific"
+  USA_DEM_campaign_in_pacific_small:0 "Small §yWhig§! Campaign in the Pacific"
+  USA_dem_in_pacific_campaigning:0 "§BDemocrats Campaigning in the Pacific§!"
+  
+  USA_DEM_campaign_in_rockies_large:0 "Heavy §yWhig§! Campaign in the Rockies"
+  USA_DEM_campaign_in_rockies_medium:0 "Medium §yWhig§! Campaign in the Rockies"
+  USA_DEM_campaign_in_rockies_small:0 "Small §yWhig§! Campaign in the Rockies"
+  USA_dem_in_rockies_campaigning:0 "§BDemocrats Campaigning in the Rockies§!"
+  
+  USA_DEM_campaign_in_plains_large:0 "Heavy §yWhig§! Campaign in the Plains"
+  USA_DEM_campaign_in_plains_medium:0 "Medium §yWhig§! Campaign in the Plains"
+  USA_DEM_campaign_in_plains_small:0 "Small §yWhig§! Campaign in the Plains"
+  USA_dem_in_plains_campaigning:0 "§BDemocrats Campaigning in the Plains§!"
+  
+  USA_DEM_campaign_in_midwest_large:0 "Heavy §yWhig§! Campaign in the Midwest"
+  USA_DEM_campaign_in_midwest_medium:0 "Medium §yWhig§! Campaign in the Midwest"
+  USA_DEM_campaign_in_midwest_small:0 "Small §yWhig§! Campaign in the Midwest"
+  USA_dem_in_midwest_campaigning:0 "§BDemocrats Campaigning in the Midwest§!"
+  
+  USA_DEM_campaign_in_southwest_large:0 "Heavy §yWhig§! Campaign in the Southwest"
+  USA_DEM_campaign_in_southwest_medium:0 "Medium §yWhig§! Campaign in the Southwest"
+  USA_DEM_campaign_in_southwest_small:0 "Small §yWhig§! Campaign in the Southwest"
+  USA_dem_in_southwest_campaigning:0 "§BDemocrats Campaigning in the Southwest§!"
+  
+  USA_DEM_campaign_in_new_england_large:0 "Heavy §yWhig§! Campaign in New England"
+  USA_DEM_campaign_in_new_england_medium:0 "Medium §yWhig§! Campaign in New England"
+  USA_DEM_campaign_in_new_england_small:0 "Small §yWhig§! Campaign in New England"
+  USA_dem_in_new_england_campaigning:0 "§BDemocrats Campaigning in New England§!"
+  
+  USA_DEM_campaign_in_ne_coast_large:0 "Heavy §yWhig§! Campaign in the Northeastern Coast"
+  USA_DEM_campaign_in_ne_coast_medium:0 "Medium §yWhig§! Campaign in the Northeastern Coast"
+  USA_DEM_campaign_in_ne_coast_small:0 "Small §yWhig§! Campaign in the Northeastern Coast"
+  USA_dem_in_ne_coast_campaigning:0 "§BDemocrats Campaigning in the Northeastern Coast§!"
+  
+  USA_DEM_campaign_in_ce_coast_large:0 "Heavy §yWhig§! Campaign in the Centraleastern Coast"
+  USA_DEM_campaign_in_ce_coast_medium:0 "Medium §yWhig§! Campaign in the Centraleastern Coast"
+  USA_DEM_campaign_in_ce_coast_small:0 "Small §yWhig§! Campaign in the Centraleastern Coast"
+  USA_dem_in_ce_coast_campaigning:0 "§BDemocrats Campaigning in the Centraleastern Coast§!"
+  
+  USA_DEM_campaign_in_north_south_large:0 "Heavy §yWhig§! Campaign in the Upper South"
+  USA_DEM_campaign_in_north_south_medium:0 "Medium §yWhig§! Campaign in the Upper South"
+  USA_DEM_campaign_in_north_south_small:0 "Small §yWhig§! Campaign in the Upper South"
+  USA_dem_in_north_south_campaigning:0 "§BDemocrats Campaigning in the Upper South§!"
+  
+  USA_DEM_campaign_in_deep_south_large:0 "Heavy §yWhig§! Campaign in the Deep South"
+  USA_DEM_campaign_in_deep_south_medium:0 "Medium §yWhig§! Campaign in the Deep South"
+  USA_DEM_campaign_in_deep_south_small:0 "Small §yWhig§! Campaign in the Deep South"
+  USA_dem_in_deep_south_campaigning:0 "§BDemocrats Campaigning in the Deep South§!"
+  
+  USA_DEM_campaign_in_cen_america_large:0 "Heavy §yWhig§! Campaign in Central America"
+  USA_DEM_campaign_in_cen_america_medium:0 "Medium §yWhig§! Campaign in Central America"
+  USA_DEM_campaign_in_cen_america_small:0 "Small §yWhig§! Campaign in Central America"
+  USA_dem_in_cen_america_campaigning:0 "§BDemocrats Campaigning in Central America§!"
+  
+  USA_DEM_campaign_in_carribean_large:0 "Heavy §yWhig§! Campaign in the Carribean"
+  USA_DEM_campaign_in_carribean_medium:0 "Medium §yWhig§! Campaign in the Carribean"
+  USA_DEM_campaign_in_carribean_small:0 "Small §yWhig§! Campaign in the Carribean"
+  USA_dem_in_carribean_campaigning:0 "§BDemocrats Campaigning in the Carribean§!"
+  
+  USA_PROG_campaign_in_pacific_large:0 "Heavy §eProgressive§! Campaign in the Pacific"
+  USA_PROG_campaign_in_pacific_medium:0 "Medium §eProgressive§! Campaign in the Pacific"
+  USA_PROG_campaign_in_pacific_small:0 "Small §eProgressive§! Campaign in the Pacific"
+  USA_prog_in_pacific_campaigning:0 "§eProgressives Campaigning in the Pacific§!"
+  
+  USA_PROG_campaign_in_rockies_large:0 "Heavy §eProgressive§! Campaign in the Rockies"
+  USA_PROG_campaign_in_rockies_medium:0 "Medium §eProgressive§! Campaign in the Rockies"
+  USA_PROG_campaign_in_rockies_small:0 "Small §eProgressive§! Campaign in the Rockies"
+  USA_prog_in_rockies_campaigning:0 "§eProgressives Campaigning in the Rockies§!"
+  
+  USA_PROG_campaign_in_plains_large:0 "Heavy §eProgressive§! Campaign in the Plains"
+  USA_PROG_campaign_in_plains_medium:0 "Medium §eProgressive§! Campaign in the Plains"
+  USA_PROG_campaign_in_plains_small:0 "Small §eProgressive§! Campaign in the Plains"
+  USA_prog_in_plains_campaigning:0 "§eProgressives Campaigning in the Plains§!"
+  
+  USA_PROG_campaign_in_midwest_large:0 "Heavy §eProgressive§! Campaign in the Midwest"
+  USA_PROG_campaign_in_midwest_medium:0 "Medium §eProgressive§! Campaign in the Midwest"
+  USA_PROG_campaign_in_midwest_small:0 "Small §eProgressive§! Campaign in the Midwest"
+  USA_prog_in_midwest_campaigning:0 "§eProgressives Campaigning in the Midwest§!"
+  
+  USA_PROG_campaign_in_southwest_large:0 "Heavy §eProgressive§! Campaign in the Southwest"
+  USA_PROG_campaign_in_southwest_medium:0 "Medium §eProgressive§! Campaign in the Southwest"
+  USA_PROG_campaign_in_southwest_small:0 "Small §eProgressive§! Campaign in the Southwest"
+  USA_prog_in_southwest_campaigning:0 "§eProgressives Campaigning in the Southwest§!"
+  
+  USA_PROG_campaign_in_new_england_large:0 "Heavy §eProgressive§! Campaign in New England"
+  USA_PROG_campaign_in_new_england_medium:0 "Medium §eProgressive§! Campaign in New England"
+  USA_PROG_campaign_in_new_england_small:0 "Small §eProgressive§! Campaign in New England"
+  USA_prog_in_new_england_campaigning:0 "§eProgressives Campaigning in New England§!"
+  
+  USA_PROG_campaign_in_ne_coast_large:0 "Heavy §eProgressive§! Campaign in the Northeastern Coast"
+  USA_PROG_campaign_in_ne_coast_medium:0 "Medium §eProgressive§! Campaign in the Northeastern Coast"
+  USA_PROG_campaign_in_ne_coast_small:0 "Small §eProgressive§! Campaign in the Northeastern Coast"
+  USA_prog_in_ne_coast_campaigning:0 "§eProgressives Campaigning in the Northeastern Coast§!"
+  
+  USA_PROG_campaign_in_ce_coast_large:0 "Heavy §eProgressive§! Campaign in the Centraleastern Coast"
+  USA_PROG_campaign_in_ce_coast_medium:0 "Medium §eProgressive§! Campaign in the Centraleastern Coast"
+  USA_PROG_campaign_in_ce_coast_small:0 "Small §eProgressive§! Campaign in the Centraleastern Coast"
+  USA_prog_in_ce_coast_campaigning:0 "§eProgressives Campaigning in the Centraleastern Coast§!"
+  
+  USA_PROG_campaign_in_north_south_large:0 "Heavy §eProgressive§! Campaign in the Upper South"
+  USA_PROG_campaign_in_north_south_medium:0 "Medium §eProgressive§! Campaign in the Upper South"
+  USA_PROG_campaign_in_north_south_small:0 "Small §eProgressive§! Campaign in the Upper South"
+  USA_prog_in_north_south_campaigning:0 "§eProgressives Campaigning in the Upper South§!"
+  
+  USA_PROG_campaign_in_deep_south_large:0 "Heavy §eProgressive§! Campaign in the Deep South"
+  USA_PROG_campaign_in_deep_south_medium:0 "Medium §eProgressive§! Campaign in the Deep South"
+  USA_PROG_campaign_in_deep_south_small:0 "Small §eProgressive§! Campaign in the Deep South"
+  USA_prog_in_deep_south_campaigning:0 "§eProgressives Campaigning in the Deep South§!"
+  
+  USA_PROG_campaign_in_cen_america_large:0 "Heavy §eProgressive§! Campaign in Central America"
+  USA_PROG_campaign_in_cen_america_medium:0 "Medium §eProgressive§! Campaign in Central America"
+  USA_PROG_campaign_in_cen_america_small:0 "Small §eProgressive§! Campaign in Central America"
+  USA_prog_in_cen_america_campaigning:0 "§eProgressives Campaigning in Central America§!"
+  
+  USA_PROG_campaign_in_carribean_large:0 "Heavy §eProgressive§! Campaign in the Carribean"
+  USA_PROG_campaign_in_carribean_medium:0 "Medium §eProgressive§! Campaign in the Carribean"
+  USA_PROG_campaign_in_carribean_small:0 "Small §eProgressive§! Campaign in the Carribean"
+  USA_prog_in_carribean_campaigning:0 "§eProgressives Campaigning in the Carribean§!"
+  
+  USA_REPUBLICAN_campaign_in_pacific_large:0 "Heavy §rRepublican§! Campaign in the Pacific"
+  USA_REPUBLICAN_campaign_in_pacific_medium:0 "Medium §rRepublican§! Campaign in the Pacific"
+  USA_REPUBLICAN_campaign_in_pacific_small:0 "Small §rRepublican§! Campaign in the Pacific"
+  USA_republican_in_pacific_campaigning:0 "§rRepublicans Campaigning in the Pacific§!"
+  
+  USA_REPUBLICAN_campaign_in_rockies_large:0 "Heavy §rRepublican§! Campaign in the Rockies"
+  USA_REPUBLICAN_campaign_in_rockies_medium:0 "Medium §rRepublican§! Campaign in the Rockies"
+  USA_REPUBLICAN_campaign_in_rockies_small:0 "Small §rRepublican§! Campaign in the Rockies"
+  USA_republican_in_rockies_campaigning:0 "§rRepublicans Campaigning in the Rockies§!"
+  
+  USA_REPUBLICAN_campaign_in_plains_large:0 "Heavy §rRepublican§! Campaign in the Plains"
+  USA_REPUBLICAN_campaign_in_plains_medium:0 "Medium §rRepublican§! Campaign in the Plains"
+  USA_REPUBLICAN_campaign_in_plains_small:0 "Small §rRepublican§! Campaign in the Plains"
+  USA_republican_in_plains_campaigning:0 "§rRepublicans Campaigning in the Plains§!"
+  
+  USA_REPUBLICAN_campaign_in_midwest_large:0 "Heavy §rRepublican§! Campaign in the Midwest"
+  USA_REPUBLICAN_campaign_in_midwest_medium:0 "Medium §rRepublican§! Campaign in the Midwest"
+  USA_REPUBLICAN_campaign_in_midwest_small:0 "Small §rRepublican§! Campaign in the Midwest"
+  USA_republican_in_midwest_campaigning:0 "§rRepublicans Campaigning in the Midwest§!"
+  
+  USA_REPUBLICAN_campaign_in_southwest_large:0 "Heavy §rRepublican§! Campaign in the Southwest"
+  USA_REPUBLICAN_campaign_in_southwest_medium:0 "Medium §rRepublican§! Campaign in the Southwest"
+  USA_REPUBLICAN_campaign_in_southwest_small:0 "Small §rRepublican§! Campaign in the Southwest"
+  USA_republican_in_southwest_campaigning:0 "§rRepublicans Campaigning in the Southwest§!"
+  
+  USA_REPUBLICAN_campaign_in_new_england_large:0 "Heavy §rRepublican§! Campaign in New England"
+  USA_REPUBLICAN_campaign_in_new_england_medium:0 "Medium §rRepublican§! Campaign in New England"
+  USA_REPUBLICAN_campaign_in_new_england_small:0 "Small §rRepublican§! Campaign in New England"
+  USA_republican_in_new_england_campaigning:0 "§rRepublicans Campaigning in New England§!"
+  
+  USA_REPUBLICAN_campaign_in_ne_coast_large:0 "Heavy §rRepublican§! Campaign in the Northeastern Coast"
+  USA_REPUBLICAN_campaign_in_ne_coast_medium:0 "Medium §rRepublican§! Campaign in the Northeastern Coast"
+  USA_REPUBLICAN_campaign_in_ne_coast_small:0 "Small §rRepublican§! Campaign in the Northeastern Coast"
+  USA_republican_in_ne_coast_campaigning:0 "§rRepublicans Campaigning in the Northeastern Coast§!"
+  
+  USA_REPUBLICAN_campaign_in_ce_coast_large:0 "Heavy §rRepublican§! Campaign in the Centraleastern Coast"
+  USA_REPUBLICAN_campaign_in_ce_coast_medium:0 "Medium §rRepublican§! Campaign in the Centraleastern Coast"
+  USA_REPUBLICAN_campaign_in_ce_coast_small:0 "Small §rRepublican§! Campaign in the Centraleastern Coast"
+  USA_republican_in_ce_coast_campaigning:0 "§rRepublicans Campaigning in the Centraleastern Coast§!"
+  
+  USA_REPUBLICAN_campaign_in_north_south_large:0 "Heavy §rRepublican§! Campaign in the Upper South"
+  USA_REPUBLICAN_campaign_in_north_south_medium:0 "Medium §rRepublican§! Campaign in the Upper South"
+  USA_REPUBLICAN_campaign_in_north_south_small:0 "Small §rRepublican§! Campaign in the Upper South"
+  USA_republican_in_north_south_campaigning:0 "§rRepublicans Campaigning in the Upper South§!"
+  
+  USA_REPUBLICAN_campaign_in_deep_south_large:0 "Heavy §rRepublican§! Campaign in the Deep South"
+  USA_REPUBLICAN_campaign_in_deep_south_medium:0 "Medium §rRepublican§! Campaign in the Deep South"
+  USA_REPUBLICAN_campaign_in_deep_south_small:0 "Small §rRepublican§! Campaign in the Deep South"
+  USA_republican_in_deep_south_campaigning:0 "§rRepublicans Campaigning in the Deep South§!"
+  
+  USA_REPUBLICAN_campaign_in_cen_america_large:0 "Heavy §rRepublican§! Campaign in Central America"
+  USA_REPUBLICAN_campaign_in_cen_america_medium:0 "Medium §rRepublican§! Campaign in Central America"
+  USA_REPUBLICAN_campaign_in_cen_america_small:0 "Small §rRepublican§! Campaign in Central America"
+  USA_republican_in_cen_america_campaigning:0 "§rRepublicans Campaigning in Central America§!"
+  
+  USA_REPUBLICAN_campaign_in_carribean_large:0 "Heavy §rRepublican§! Campaign in the Carribean"
+  USA_REPUBLICAN_campaign_in_carribean_medium:0 "Medium §rRepublican§! Campaign in the Carribean"
+  USA_REPUBLICAN_campaign_in_carribean_small:0 "Small §rRepublican§! Campaign in the Carribean"
+  USA_republican_in_carribean_campaigning:0 "§rRepublicans Campaigning in the Carribean§!"
+  
+  USA_opposition_campaign:0 "Opposition Campaigns"
+  USA_Campaign_Opposition_tt:0 "§YOpposing Parties Will Select The Next Region They'll Camapign In.§!"
+  
+  # Gains
+  USA_dem_gain_pacific_tt:0 "§BDemocrats will gain popularity within the Pacific States§!!"
+  USA_dem_gain_rockies_tt:0 "§BDemocrats will gain popularity within the Rockies§!!"
+  USA_dem_gain_plains_tt:0 "§BDemocrats will gain popularity within the Great Plains States§!!"
+  USA_dem_gain_midwest_tt:0 "§BDemocrats will gain popularity within the Midwest§!!"
+  USA_dem_gain_southwest_tt:0 "§BDemocrats will gain popularity within the Southwest§!!"
+  USA_dem_gain_new_england_tt:0 "§BDemocrats will gain popularity within New England§!!"
+  USA_dem_gain_ne_coast_tt:0 "§BDemocrats will gain popularity within the Northeast Coastal§!!"
+  USA_dem_gain_ce_coast_tt:0 "§BDemocrats will gain popularity within the Centraleast Coastal§!!"
+  USA_dem_gain_north_south_tt:0 "§BDemocrats will gain popularity within the Upper South§!!"
+  USA_dem_gain_deep_south_tt:0 "§BDemocrats will gain popularity within the Deep South§!!"
+  USA_dem_gain_cen_america_tt:0 "§BDemocrats will gain popularity within the Cental American States States§!!"
+  USA_dem_gain_carribean_tt:0 "§BDemocrats will gain popularity within the Carribean States§!!"
+  USA_prog_gain_pacific_tt:0 "§eProgressives will gain popularity within the Pacific States§!!"
+  USA_prog_gain_rockies_tt:0 "§eProgressives will gain popularity within the Rockies§!!"
+  USA_prog_gain_plains_tt:0 "§eProgressives will gain popularity within the Great Plains States§!!"
+  USA_prog_gain_midwest_tt:0 "§eProgressives will gain popularity within the Midwest§!!"
+  USA_prog_gain_southwest_tt:0 "§eProgressives will gain popularity within the Southwest§!!"
+  USA_prog_gain_new_england_tt:0 "§eProgressives will gain popularity within New England§!!"
+  USA_prog_gain_ne_coast_tt:0 "§eProgressives will gain popularity within the Northeast Coastal§!!"
+  USA_prog_gain_ce_coast_tt:0 "§eProgressives will gain popularity within the Centraleast Coastal§!!"
+  USA_prog_gain_north_south_tt:0 "§eProgressives will gain popularity within the Upper South§!!"
+  USA_prog_gain_deep_south_tt:0 "§eProgressives will gain popularity within the Deep South§!!"
+  USA_prog_gain_cen_america_tt:0 "§eProgressives will gain popularity within the Cental American States States§!!"
+  USA_prog_gain_carribean_tt:0 "§eProgressives will gain popularity within the Carribean States§!!"
+  USA_whig_gain_pacific_tt:0 "§yWhigs will gain popularity within the Pacific States§!!"
+  USA_whig_gain_rockies_tt:0 "§yWhigs will gain popularity within the Rockies§!!"
+  USA_whig_gain_plains_tt:0 "§yWhigs will gain popularity within the Great Plains States§!!"
+  USA_whig_gain_midwest_tt:0 "§yWhigs will gain popularity within the Midwest§!!"
+  USA_whig_gain_southwest_tt:0 "§yWhigs will gain popularity within the Southwest§!!"
+  USA_whig_gain_new_england_tt:0 "§yWhigs will gain popularity within New England§!!"
+  USA_whig_gain_ne_coast_tt:0 "§yWhigs will gain popularity within the Northeast Coastal§!!"
+  USA_whig_gain_ce_coast_tt:0 "§yWhigs will gain popularity within the Centraleast Coastal§!!"
+  USA_whig_gain_north_south_tt:0 "§yWhigs will gain popularity within the Upper South§!!"
+  USA_whig_gain_deep_south_tt:0 "§yWhigs will gain popularity within the Deep South§!!"
+  USA_whig_gain_cen_america_tt:0 "§yWhigs will gain popularity within the Cental American States States§!!"
+  USA_whig_gain_carribean_tt:0 "§yWhigs will gain popularity within the Carribean States§!!"
+  USA_republican_gain_pacific_tt:0 "§rRepublicans will gain popularity within the Pacific States§!!"
+  USA_republican_gain_rockies_tt:0 "§rRepublicans will gain popularity within the Rockies§!!"
+  USA_republican_gain_plains_tt:0 "§rRepublicans will gain popularity within the Great Plains States§!!"
+  USA_republican_gain_midwest_tt:0 "§rRepublicans will gain popularity within the Midwest§!!"
+  USA_republican_gain_southwest_tt:0 "§rRepublicans will gain popularity within the Southwest§!!"
+  USA_republican_gain_new_england_tt:0 "§rRepublicans will gain popularity within New England§!!"
+  USA_republican_gain_ne_coast_tt:0 "§rRepublicans will gain popularity within the Northeast Coastal§!!"
+  USA_republican_gain_ce_coast_tt:0 "§rRepublicans will gain popularity within the Centraleast Coastal§!!"
+  USA_republican_gain_north_south_tt:0 "§rRepublicans will gain popularity within the Upper South§!!"
+  USA_republican_gain_deep_south_tt:0 "§rRepublicans will gain popularity within the Deep South§!!"
+  USA_republican_gain_cen_america_tt:0 "§rRepublicans will gain popularity within the Cental American States States§!!"
+  USA_republican_gain_carribean_tt:0 "§rRepublicans will gain popularity within the Carribean States§!!"
+  USA_whole_nation_whig_support_small_tt:0 "§yWhigs will gain a small amount of popularity across the§! §Gwhole nation§!!"
+  USA_whole_nation_whig_support_medium_tt:0 "§yWhigs will gain a medium amount of popularity across the§! §Gwhole nation§!!"
+  USA_whole_nation_whig_support_heavy_tt:0 "§yWhigs will gain a large amount of popularity across the§! §Gwhole nation§!!"
+  USA_whole_nation_dem_support_small_tt:0 "§BDemocrats will gain a small amount of popularity across the§! §Gwhole nation§!!"
+  USA_whole_nation_dem_support_medium_tt:0 "§BDemocrats will gain a medium amount of popularity across the§! §Gwhole nation§!!"
+  USA_whole_nation_dem_support_heavy_tt:0 "§BDemocrats will gain a large amount of popularity across the§! §Gwhole nation§!!"
+  USA_whole_nation_prog_support_small_tt:0 "§eProgressives will gain a small amount of popularity across the§! §Gwhole nation§!!"
+  USA_whole_nation_prog_support_medium_tt:0 "§eProgressives will gain a medium amount of popularity across the§! §Gwhole nation§!!"
+  USA_whole_nation_prog_support_heavy_tt:0 "§eProgressives will gain a large amount of popularity across the§! §Gwhole nation§!!"
+  USA_whole_nation_republican_support_small_tt:0 "§rRepublicans will gain a small amount of popularity across the§! §Gwhole nation§!!"
+  USA_whole_nation_republican_support_tt:0 "§rRepublicans will gain a medium amount of popularity across the§! §Gwhole nation§!!"
+  USA_whole_nation_republican_support_tt:0 "§rRepublicans will gain a large amount of popularity across the§! §Gwhole nation§!!"
+  
+  ## United States Congressional Branch ##
+  
+  SENATE_NAME_TEXT:0 "Senate"
+  PROGRESSIVE_CONTROL:0 "§eProgressives§!\n[?USA_PROGESSIVE_SENATOR_SEATS]" 
+  WHIG_CONTROL:0 "§yWhigs§!\n[?USA_WHIG_SENATOR_SEATS]" 
+  DEMOCRAT_CONTROL:0 "§BDemocrats§!\n[?USA_DEMOCRAT_SENATOR_SEATS]" 
+  REPUBLICAN_CONTROL:0 "§rRepublicans§!\n[?USA_REPUBLICAN_SENATOR_SEATS]" 
+  HOUSE_NAME_TEXT:0 "House"
+  PROGRESSIVE_CONTROL_HOUSE:0 "§eProgressives§!\n[?USA_PROGESSIVE_HOUSE_SEATS]" 
+  WHIG_CONTROL_HOUSE:0 "§yWhigs§!\n[?USA_WHIG_HOUSE_SEATS]" 
+  DEMOCRAT_CONTROL_HOUSE:0 "§BDemocrats§!\n[?USA_DEMOCRAT_HOUSE_SEATS]" 
+  REPUBLICAN_CONTROL_HOUSE:0 "§rRepublicans§!\n[?USA_REPUBLICAN_HOUSE_SEATS]" 
+  speaker_title:0 "House Speaker"
+  senate_leader:0 "Senate Leader"
+  vice_president:0 "Vice President"
+  
+  ## GUI/ Decisions
+  USA_filibuster:0 "Military Filibuster"
+  USA_filibuster_desc:0 "Perhaps the most famous filibuster of all time was William Walker, the man who conquered Nicaragua and eventually brought it into the fold of the United States. He is the prime example of the practice, which involves foreign adventurers using military power to conquer, invade, or usurp small nations. While this is often done with the support of or in the interests of a greater power, such as Walker bringing his fiefdom into the American fold, a filibuster by definition works for their own interests, and thus trusting them and backing their ventures can be risky business. Still, the rewards and excitement are enough to pique the interest of any opportunistic power."
+  # Names
+  USA_d_lamb_fili:0 "§YD. Lamb§!"
+  USA_t_oriely_fili:0 "§YT. O'Reilly§!"
+  USA_dreben_fili:0 "§YS. Dreben§!"
+  USA_no_one_fili:0 "§YW. Walker§!"
+  
+  USA_d_lamb_fili_full:0 "Dean Lamb"
+  USA_t_oriely_fili_full:0 "Tex O'Reily"
+  USA_dreben_fili_full:0 "Sam Dreben"
+  
+  # DOB
+  USA_d_lamb_DOB:0 "§Y25 Jan, 1886§!"
+  USA_t_oriely_DOB:0 "§Y15 Aug, 1880§!"
+  USA_dreben_DOB:0 "§Y1 Jun, 1878§!"
+  USA_no_one_DOB:0 "§Y8 May, 1824§!"
+  
+  # Loyalty
+  USA_d_lamb_loyal:0 "§RLow§!"
+  USA_t_oriely_loyal:0 "§YModerate§!"
+  USA_dreben_loyal:0 "§GHigh§!"
+  USA_no_one_loyal:0 "§GHigh§!"
+  
+  # Strength
+  USA_d_lamb_strength:0 "§YModerate§!"
+  USA_t_oriely_strength:0 "§YModerate§!"
+  USA_dreben_strength:0 "§GHigh§!"
+  USA_no_one_strength:0 "§GHigh§!"
+  
+  200_PP:0 "§Y200§! §GPolitical Power§!"
+  refund200:0 "§GRefund for§! §Y35§! §GPolitical Power§!"
+  150_PP:0 "§Y150§! §GPolitical Power§!"
+  refund150:0 "§RNo refunds§!"
+  100_PP:0 "§Y100§! §GPolitical Power§!"
+  refund100:0 "§GRefund for§! §Y25§! §GPolitical Power§!"
+  50_PP:0 "§Y50§! §GPolitical Power§!"
+  refund50:0 "§GRefund for§! §Y15§! §GPolitical Power§!"
+  
+  JAMAICACOUNTRY:0 "[JAM.GetNameDef]"
+  BOLIVIACOUNTRY:0 "[BOL.GetNameDef]"
+  GUATAMALACOUNTRY:0 "[GUA.GetNameDef]"
+  FILIBUSTERACTION:0 "§RFILIBUSTER IN ACTION§!"
+  
+  ## EVENTS ##
+  
+  fili.1.t:0 "[Get.SCRIPTED_LOC_NAME_FULL] Departs"
+  fili.1.d:0 "After months of preparation, [Get.SCRIPTED_LOC_NAME_FULL] has departed on their way to Jamaica. Joined by a large number of adventurers, mercenaries, and fortune seekers that have gathered to the cause under promise of fortune and power, a brief final speech was given to the coalesced crowd of onlookers and curious bystanders before the ships finished being boarded and the adventurers set sail, waving and hollering as they left. The civilians were left, hoping that these warriors knew what they were getting into.\n\nThe actual filibuster has yet to begin, as the convoy of adventurers and supplies will have to make several stops on the way to pick up more soldiers, get more supplies, and meet with contacts who can help with the quick takeover of the foreign nation. Before long, however, the host of [Get.SCRIPTED_LOC_NAME_FULL] will land on the beaches of Jamaica and start the beginning of the end to fly their flag over Kingston."
+  fili.1.a:0 "Bon Voyage!"
+  
+  fili.2.t:0 "The Adventurers Land"
+  fili.2.d:0 "Conflict draws near. The seaborne host of [Get.SCRIPTED_LOC_NAME_FULL] has come ashore in one of the main ports of Jamaica. Moving quickly, the soldiers of this force rapidly began unloading crates of weapons, ammo, and supplies, and [Get.SCRIPTED_LOC_NAME_FULL] held meetings with local contacts and collaborators who plan to fund and assist the daring venture. Locals are reportedly complaining of the swaggering attitudes and bossy orders of the foreign mercenaries, who are already acting like they run the place, which they may well soon.\n\nThe government of Jamaica is in a panic, with all attempts at negotiation and compromise having failed up to this point. With invaders now standing on their soil, they have reportedly begun to mobilize what resistance they can, preparing to drive back these foreigners from their shores and into the sea. Conflict is nigh, and the fate and independence of a nation lies at stake."
+  fili.2.a:0 "The pieces move into place..."
+  
+  fili.3.t:0 "The Filibuster Begins"
+  fili.3.d:0 "The time has come! In the early hours of the morning, adventurers under [Get.SCRIPTED_LOC_NAME_FULL] officially seized the port that they had already taken control of and declared the illegitimacy of the government of Jamaica. Securing key points and enlisting local government officials, [Get.SCRIPTED_LOC_NAME_FULL] was named Provisional President of Jamaica and was given full emergency powers to defeat the government in Kingston. [Get.SCRIPTED_LOC_NAME_FULL] gave a speech, assuring locals that they only intended to restore order and safety and that this was in their best interests. It is fair to say that most remain unconvinced.\n\nWithin hours, skirmishes erupted, soon escalating into full firefights and battles. The filibustering forces managed to take significant tracts of land before the armies of Jamaica managed to temporarily hold a line. However, this war is not over, and the filibuster will not end until [Get.SCRIPTED_LOC_NAME_FULL] dies, flees, or flies their flag over the ruins of Kingston."
+  fili.3.a:0 "How exciting!"
+  
+  fili.4.t:0 "The Filibuster Defeated"
+  fili.4.d:0 "The forces of [Get.SCRIPTED_LOC_NAME_FULL] lie defeated, sailing away from the beaches of Jamaica. Though their efforts were brutal and hard-fought, the venture was doomed from the start, with the rag-tag band of mercenaries and fortune-seekers standing no chance against the trained and well-armed military of a real nation. Though [Get.SCRIPTED_LOC_NAME_FULL] still claims the title of Provisional President of Jamaica and has announced their intent to regroup and try and keep pressing the claim, all investors in the venture are falling away rapidly, and it seems clear that the filibuster is lost. The legitimate government celebrates and has declared this a victory for fair government, and says that though the rebuilding and recovery will be hard, the nation shall rise above and hold this victory in its heart forever."
+  fili.4.a:0 "It wasn't meant to be."
+  
+  fili.5.t:0 "The Filibuster Succeeds!"
+  fili.5.d:0 "Surprising news from Jamaica, as the filibustering forces of [Get.SCRIPTED_LOC_NAME_FULL] have declared victory over the supposedly illegitimate local government. After a violent push into Kingston and a siege of the capitol building, the former president and the cabinet were forced to flee, with the tattered remnants raising a flag of surrender and negotiating a treaty to hand over the reins of government to [Get.SCRIPTED_LOC_NAME_FULL]. The filibusters are celebrating, raiding local bars and burning flags, replacing them with the design of their supposedly "provisional" government.\n\nPreparations are now underway to finalize the transition to the new governing force. Though the filibustering government is supposedly temporary, it is clear to all that the filibusters intend to solidify their grip and formalize their rule for a long time to come. Whether they will strike out on their own or follow the example of Walker and bend the knee to their benefactor is anyone's guess, though the more support they received, the more likely they are to return the favor."
+  fili.5.a:0 "The legacy of Walker continues."
+  
+  fili.6.t:0 "[Get.SCRIPTED_LOC_NAME_FULL] Departs"
+  fili.6.d:0 "After months of preparation, [Get.SCRIPTED_LOC_NAME_FULL] has departed on their way to Bolivia. Joined by a large number of adventurers, mercenaries, and fortune seekers that have gathered to the cause under promise of fortune and power, a brief final speech was given to the coalesced crowd of onlookers and curious bystanders before the ships finished being boarded and the adventurers set sail, waving and hollering as they left. The civilians were left, hoping that these warriors knew what they were getting into.\n\nThe actual filibuster has yet to begin, as the convoy of adventurers and supplies will have to make several stops on the way to pick up more soldiers, get more supplies, and meet with contacts who can help with the quick takeover of the foreign nation. Before long, however, the host of [Get.SCRIPTED_LOC_NAME_FULL] will land on the beaches of Bolivia and start the beginning of the end to fly their flag over La Paz."
+  fili.6.a:0 "Bon Voyage!"
+  
+  fili.7.t:0 "The Adventurers Land"
+  fili.7.d:0 "Conflict draws near. The seaborne host of [Get.SCRIPTED_LOC_NAME_FULL] has come ashore in one of the main ports of Bolivia. Moving quickly, the soldiers of this force rapidly began unloading crates of weapons, ammo, and supplies, and [Get.SCRIPTED_LOC_NAME_FULL] held meetings with local contacts and collaborators who plan to fund and assist the daring venture. Locals are reportedly complaining of the swaggering attitudes and bossy orders of the foreign mercenaries, who are already acting like they run the place, which they may well soon.\n\nThe government of Bolivia is in a panic, with all attempts at negotiation and compromise having failed up to this point. With invaders now standing on their soil, they have reportedly begun to mobilize what resistance they can, preparing to drive back these foreigners from their shores and into the sea. Conflict is nigh, and the fate and independence of a nation lies at stake."
+  fili.7.a:0 "The pieces move into place..."
+  
+  fili.8.t:0 "The Filibuster Begins"
+  fili.8.d:0 "The time has come! In the early hours of the morning, adventurers under [Get.SCRIPTED_LOC_NAME_FULL] officially seized the port that they had already taken control of and declared the illegitimacy of the government of Bolivia. Securing key points and enlisting local government officials, [Get.SCRIPTED_LOC_NAME_FULL] was named Provisional President of Bolivia and was given full emergency powers to defeat the government in La Paz. [Get.SCRIPTED_LOC_NAME_FULL] gave a speech, assuring locals that they only intended to restore order and safety and that this was in their best interests. It is fair to say that most remain unconvinced.\n\nWithin hours, skirmishes erupted, soon escalating into full firefights and battles. The filibustering forces managed to take significant tracts of land before the armies of Bolivia managed to temporarily hold a line. However, this war is not over, and the filibuster will not end until [Get.SCRIPTED_LOC_NAME_FULL] dies, flees, or flies their flag over the ruins of La Paz."
+  fili.8.a:0 "How exciting!"
+  
+  fili.9.t:0 "The Filibuster Defeated"
+  fili.9.d:0 "The forces of [Get.SCRIPTED_LOC_NAME_FULL] lie defeated, sailing away from the beaches of Bolivia. Though their efforts were brutal and hard-fought, the venture was doomed from the start, with the rag-tag band of mercenaries and fortune-seekers standing no chance against the trained and well-armed military of a real nation. Though [Get.SCRIPTED_LOC_NAME_FULL] still claims the title of Provisional President of Bolivia and has announced their intent to regroup and try and keep pressing the claim, all investors in the venture are falling away rapidly, and it seems clear that the filibuster is lost. The legitimate government celebrates and has declared this a victory for fair government, and says that though the rebuilding and recovery will be hard, the nation shall rise above and hold this victory in its heart forever."
+  fili.9.a:0 "It wasn't meant to be."
+  
+  fili.10.t:0 "The Filibuster Succeeds!"
+  fili.10.d:0 "Surprising news from Bolivia, as the filibustering forces of [Get.SCRIPTED_LOC_NAME_FULL] have declared victory over the supposedly illegitimate local government. After a violent push into La Paz and a siege of the capitol building, the former president and the cabinet were forced to flee, with the tattered remnants raising a flag of surrender and negotiating a treaty to hand over the reins of government to [Get.SCRIPTED_LOC_NAME_FULL]. The filibusters are celebrating, raiding local bars and burning flags, replacing them with the design of their supposedly "provisional" government.\n\nPreparations are now underway to finalize the transition to the new governing force. Though the filibustering government is supposedly temporary, it is clear to all that the filibusters intend to solidify their grip and formalize their rule for a long time to come. Whether they will strike out on their own or follow the example of Walker and bend the knee to their benefactor is anyone's guess, though the more support they received, the more likely they are to return the favor."
+  fili.10.a:0 "The legacy of Walker continues."
+  
+  fili.11.t:0 "[Get.SCRIPTED_LOC_NAME_FULL] Departs"
+  fili.11.d:0 "After months of preparation, [Get.SCRIPTED_LOC_NAME_FULL] has departed on their way to Guatemala. Joined by a large number of adventurers, mercenaries, and fortune seekers that have gathered to the cause under promise of fortune and power, a brief final speech was given to the coalesced crowd of onlookers and curious bystanders before the ships finished being boarded and the adventurers set sail, waving and hollering as they left. The civilians were left, hoping that these warriors knew what they were getting into.\n\nThe actual filibuster has yet to begin, as the convoy of adventurers and supplies will have to make several stops on the way to pick up more soldiers, get more supplies, and meet with contacts who can help with the quick takeover of the foreign nation. Before long, however, the host of [Get.SCRIPTED_LOC_NAME_FULL] will land on the beaches of Guatemala and start the beginning of the end to fly their flag over Guatemala City."
+  fili.11.a:0 "Bon Voyage!"
+  
+  fili.12.t:0 "The Adventurers Land"
+  fili.12.d:0 "Conflict draws near. The seaborne host of [Get.SCRIPTED_LOC_NAME_FULL] has come ashore in one of the main ports of Guatemala. Moving quickly, the soldiers of this force rapidly began unloading crates of weapons, ammo, and supplies, and [Get.SCRIPTED_LOC_NAME_FULL] held meetings with local contacts and collaborators who plan to fund and assist the daring venture. Locals are reportedly complaining of the swaggering attitudes and bossy orders of the foreign mercenaries, who are already acting like they run the place, which they may well soon.\n\nThe government of Guatemala is in a panic, with all attempts at negotiation and compromise having failed up to this point. With invaders now standing on their soil, they have reportedly begun to mobilize what resistance they can, preparing to drive back these foreigners from their shores and into the sea. Conflict is nigh, and the fate and independence of a nation lies at stake."
+  fili.12.a:0 "The pieces move into place..."
+  
+  fili.13.t:0 "The Filibuster Begins"
+  fili.13.d:0 "The time has come! In the early hours of the morning, adventurers under [Get.SCRIPTED_LOC_NAME_FULL] officially seized the port that they had already taken control of and declared the illegitimacy of the government of Guatemala. Securing key points and enlisting local government officials, [Get.SCRIPTED_LOC_NAME_FULL] was named Provisional President of Guatemala and was given full emergency powers to defeat the government in Guatemala City. [Get.SCRIPTED_LOC_NAME_FULL] gave a speech, assuring locals that they only intended to restore order and safety and that this was in their best interests. It is fair to say that most remain unconvinced.\n\nWithin hours, skirmishes erupted, soon escalating into full firefights and battles. The filibustering forces managed to take significant tracts of land before the armies of Guatemala managed to temporarily hold a line. However, this war is not over, and the filibuster will not end until [Get.SCRIPTED_LOC_NAME_FULL] dies, flees, or flies their flag over the ruins of Guatemala City."
+  fili.13.a:0 "How exciting!"
+  
+  fili.14.t:0 "The Filibuster Defeated"
+  fili.14.d:0 "The forces of [Get.SCRIPTED_LOC_NAME_FULL] lie defeated, sailing away from the beaches of Guatemala. Though their efforts were brutal and hard-fought, the venture was doomed from the start, with the rag-tag band of mercenaries and fortune-seekers standing no chance against the trained and well-armed military of a real nation. Though [Get.SCRIPTED_LOC_NAME_FULL] still claims the title of Provisional President of Guatemala and has announced their intent to regroup and try and keep pressing the claim, all investors in the venture are falling away rapidly, and it seems clear that the filibuster is lost. The legitimate government celebrates and has declared this a victory for fair government, and says that though the rebuilding and recovery will be hard, the nation shall rise above and hold this victory in its heart forever."
+  fili.14.a:0 "It wasn't meant to be."
+  
+  fili.15.t:0 "The Filibuster Succeeds!"
+  fili.15.d:0 "Surprising news from Guatemala, as the filibustering forces of [Get.SCRIPTED_LOC_NAME_FULL] have declared victory over the supposedly illegitimate local government. After a violent push into Guatemala City and a siege of the capitol building, the former president and the cabinet were forced to flee, with the tattered remnants raising a flag of surrender and negotiating a treaty to hand over the reins of government to [Get.SCRIPTED_LOC_NAME_FULL]. The filibusters are celebrating, raiding local bars and burning flags, replacing them with the design of their supposedly "provisional" government.\n\nPreparations are now underway to finalize the transition to the new governing force. Though the filibustering government is supposedly temporary, it is clear to all that the filibusters intend to solidify their grip and formalize their rule for a long time to come. Whether they will strike out on their own or follow the example of Walker and bend the knee to their benefactor is anyone's guess, though the more support they received, the more likely they are to return the favor."
+  fili.15.a:0 "The legacy of Walker continues."
+  
+  ## USA EVENTS ##
+  
+  USA.1.t:0 "President Roosevelt Adresses the Nation"
+  USA.1.d:0 "Joe fumbled with the dial of the radio, his own nerves combining with his father’s impatient glares resulting in him having a remarkably hard time getting it to the right station in time for the President’s address. Privately he wondered why his dad even cared to hear the man give another speech full of promises he would never manage to fulfill, but he also knew instinctively to not even attempt to push the matter. With one more triumphant turn of the dial, he finally hit the right station moments before the speech was to begin. Moving backwards quickly, he took a seat next to his dad and listened to the speech. \n\n"My fellow Americans, as your President and as a fellow citizen I am speaking to you today about the future of my administration for this last year of my term. We have accomplished much together, and I believe that if my father was still alive, he would eagerly congratulate me on a job well done. Despite this, I promise there will be no apathy on my part for advancing the Democratic legislative and foreign policy agenda through congress. I was elected to serve a term of four years, not three, after all.\" \n\nDespite his own pessimism, Joe felt a hope stirring within himself. Perhaps he had been wrong about this speech after all.  \n\n\"Before I get into the specifics of this agenda, I would like to take a moment to speak on the so-called "Roosevelt rivalry" in congress. My cousin and the cause he represents is one that would be reprehensible to my father, and I fully intend to ensure the Progressives are denied any chance to subvert the values my father so dearly loved. Speaking of congress, I must touch on the new faces within it as well. Calvin Coolidge, a man so many look towards for the future of this party, has integrity of character but not of spirit. My father would certainly find no time for his brand of politics, but instead would rather work with the good men in the Democrats. Allen Dulles in particular is clearly a man of great action and vigor...\" \n\nJoe sighed internally, wondering to himself how Archie had managed to do it once again."
+  USA.1.a:0 "He's not southern, idk why he said howdy"
+  
+  USA.2.t:0 "Assessing the Colonies"
+  USA.2.d:0 "All looks fine, we'll check with the governors tho"
+  USA.2.a:0 "All is calm."
+  
+  USA.3.t:0 "A Conversation with Governor Long"
+  USA.3.d:0 "Option A or B"
+  USA.3.a:0 "Invest in new techniques."
+  USA.3.b:0 "Hand the resources over to us."
+  
+  USA.4.t:0 "A Conversation with Governor Firestone"
+  USA.4.d:0 "Option A or B"
+  USA.4.a:0 "Invest in new techniques."
+  USA.4.b:0 "Hand the resources over to us."
+  
+  USA.5.t:0 "The Philipinnes is fucked"
+  USA.5.d:0 ""
+  USA.5.a:0 "This is not good"
+  
+  USA.6.t:0 "MacArthur Departs"
+  USA.6.d:0 "Teddy look out!"
+  USA.6.a:0 "Ave!"
+  
+  USA.7.t:0 "Calles and his clique in mexico"
+  USA.7.d:0 ""
+  USA.7.a:0 "Rio Grande is cooler"
+  
+  USA.8.t:0 "Founding of the OCI"
+  USA.8.d:0 ""
+  USA.8.a:0 "This will be useful"
+  
+  USA.9.t:0 "The Worst Case Scenario"
+  USA.9.d:0 "Fucking Calles"
+  USA.9.a:0 "This man is resiliant"
+  
+  USA.10.t:0 "Caught"
+  USA.10.d:0 "We've been hurt bad."
+  USA.10.a:0 "And what of the socialists?"
+  USA_we_got_caught:0 "§RThe Whig Party and Democratic Party have embarassed themselves infront of the entire nation§!."
+  
+  USA.11.t:0 ""
+  USA.11.d:0 "Archibald Meets with Dulles to discuss foreign threats bills"
+  USA.11.a:0 "The two hit it off, the bill has the presidents support"
+  USA.11.b:0 "Party first"
+  
+  USA.12.t:0 ""
+  USA.12.d:0 "Progressives protest a soldier being disqualified for recieving the medal of honor for being black"
+  USA.12.a:0 "Ignore the debaucle"
+  USA.12.b:0 "Shoo off those blasted socialists, they msut've sided with that communist!"
+  
+  USA.13.t:0 ""
+  USA.13.d:0 "Archie meets with Coolidge, passing of the torch"
+  USA.13.a:0 "Archie can't put up a facade and looks unhappy the whole time"
+  USA.13.b:0 "Archie enthusiastically puts the party first"
+  
+  USA.14.t:0 ""
+  USA.14.d:0 "Coolidge isn't a fan of segregation, but Archie is alright with it, should Archie try to sway the party in favor of segreagtion?"
+  USA.14.a:0 "(Changes to "President is opposed to the anarchic movement) YEs! The Whigs are for stability."
+  USA.14.b:0 "That is up to Coolidge"
+  USA_president_segregation_stance_change_neagtive:0 "Roosevelt will now make himself known as a segregationist."
+  
+  USA.15.t:0 "May Day Stikes!"
+  USA.15.d:0 "fuk you banker"
+  USA.15.a:0 ":("
+  
+  USA.16.t:0 ""
+  USA.16.d:0 "Dealing with strikers"
+  USA.16.a:0 "Find some scabs!"
+  
+  USA.17.t:0 ""
+  USA.17.d:0 "We've got some! Lets use them!"
+  USA.17.a:0 "Yay"
+  
+  USA.18.t:0 ""
+  USA.18.d:0 "This doesn't work, we need action!"
+  USA.18.a:0 "Concede to some Progressive Legislators"
+  USA.18.b:0 "No, no concessions to socialists!"
+  
+  USA.19.t:0 ""
+  USA.19.d:0 "Some fellas go back to work"
+  USA.19.a:0 "Yay"
+  
+  USA.20.t:0 ""
+  USA.20.d:0 "We're a sitting duck, the strike will blow over."
+  USA.20.a:0 "Boo"
+  
+  ArchieLegacy.1.t:0 "The Endorsement of Calvin Coolidge"
+  ArchieLegacy.1.d:0 "For the past several weeks, one question has dominated the news cycle - the question of President Archibald Roosevelt’s endorsement. Self-appointed presidential prognosticators spent ink on nearly every aspect of the pick - Would sitting out or endorsing Coolidge help the Whigs more? If Roosevelt were to pick Dulles, would that help or hurt Dulles? The President’s office was filled with an endless stream of interlocutors seeking to answer that question themselves, employing every conceivable tactic to persuade the President that their horse was the right horse. Through all of this, President Roosevelt kept his cards close to his chest, never revealing which way he was leaning.\n\nNow we know the answer. Despite his personal reservations, Roosevelt opted to maintain party unity and endorse Calvin Coolidge. Roosevelt’s endorsement has washed away much of the hesitation within the Whigs, and the party has rallied around Coolidge. While Roosevelt continues to be unpopular with the nation at large, this endorsement has shored up Coolidge’s position in an intensely divided field."
+  ArchieLegacy.1.a:0 "Maybe the Whig fall just got broken."
+  
+  ArchieLegacy.2.t:0 "The Endorsement of Calvin Coolidge"
+  ArchieLegacy.2.d:0 ""
+  ArchieLegacy.2.a:0 ""
+  
+  ArchieLegacy.3.t:0 "The Endorsement of Allen Dulles"
+  ArchieLegacy.3.d:0 "President Archibald Roosevelt expected to be re-nominated at the Whig convention. He really did. He figured that despite four years of being savaged by purists as "Whig in name only" and defied by the more radical Whig congressmen, the party would repay him for his ability to attract Democrats to the Whig party. Then the convention votes came in. When all was said and done, Roosevelt had lost to the wunderkind Calvin Coolidge. For the past several weeks, President Roosevelt retreated to the White House, as journalists fretted over his endorsement and the extremists celebrated the toppling. Calvin Coolidge tried to straddle both factions of the Whigs, conscious of both the forces that led to his nomination and the necessity of Roosevelt’s endorsement. Despite this, he wasn’t able to quiet the anti-Roosevelt forces in his wing of the party, and they continued to spit invective from party newspapers and congressional speeches. \n\nPresident Roosevelt chose to repay them in kind. Today, he announced his endorsement of Allen Dulles, the Democratic nominee for President. In his endorsement, he described Dulles as a “sensible moderate” who would “be able to work across the aisle and oppose the vigorous factionalism which has taken hold in both parties recently”.  While President Roosevelt was by no means popular, his loyal base of supporters will likely flock to Dulles, harming Coolidge’s already disadvantaged campaign. "
+  ArchieLegacy.3.a:0 "What goes around comes around, Calvin."
+  
+  ArchieLegacy.4.t:0 "The Endorsement of Allen Dulles"
+  ArchieLegacy.4.d:0 "Across the entirety of America, paper after paper was delivered to people who voted for all three of the major parties and the socialists. The names of the papers were different, the people who wrote articles were quite different, but one thing stayed the same: all proudly (or not so proudly) announced that the President had officially endorsed Allen Dulles to be his successor come November. \n\nThe news was... controversial, to say the least. For the Whigs, it was one more egregious error from a man who the entire political machine had invested much hope and capital into, and one more way for the Coolidge campaign to distance themselves from him. For the Progressives, it was the definitive moment to show once again the superiority of their Roosevelt over Teddy’s bumbling son. For the Democrats, the news was... awkward. True the President still carried some respect among the voters for his obvious sympathies towards their foreign, domestic, and \"Southern\" agendas, but at the same time, had Dulles and his campaign not been running on a platform of insinuating Coolidge would be little more than Archie’s second term? How could they reconcile that with the image of Dulles quietly thanking the man for the endorsement, after Archie had piled him high with compliments and recommendations for when he would finally take the Oval Office. What exactly was Dulles’ position on Archie and legacy truly? \n\nAcross the entirety of America and in particular the South, a most profound sense of confusion overtook some."
+  ArchieLegacy.4.a:0 "At least the photo will fit nicely in the textbooks."
+  
+  ArchieLegacy.5.t:0 ""
+  ArchieLegacy.5.d:0 ""
+  ArchieLegacy.5.a:0 ""
+  
+  
+  ## USA FLAVOR ##
+  
+  USA_flavor.1.t:0 "May Day"
+  USA_flavor.1.d:0 "Throughout the major cities of the country, workers are leaving their workplaces to honor solidarity. May 1st is the date declared by left-wing organizations and radical trade unions throughout the world as the celebration of everything proletarian- International Workers' Day. It was on this day 50 years ago when the St. Louis police department met the cries of striking workers calling for an eight hour day with the blaze of gunfire and the hangings of organizers, and ever since then the workers stand with each other on May 1st. These 'May Day' rallies are specifically notable for their large numbers of attendees who identify with the radical left-wing, typically socialists and anarchists .\n\nOn days like these, New York and Chicago's streets fill with thousands of workers, brandishing signs with socialist mottos and catchphrases written on them; and at the fringes of the protests are where the organizers lurk. This is where the socialist organizations and trade unions have set themselves up to hand out pamphlets, sell books, and speak to those interested in learning more about their causes. At the center of these groups is the Republican-Labor Party, America's own International Workingmen's Association-affiliated party who the majority of these protesting workers are most likely associated with. Although their election numbers have stagnated in the past number of years, they seem to be having a small revival amongst the workers of major cities- and their supporters seem to be more energized than ever."
+  USA_flavor.1.a:0 "Debout, les damnés de la terre..."
+  
+  USA_flavor.2.t:0 "The American Socialist"
+  USA_flavor.2.d:0 "While normally packing the streets in massive strike actions, tens of thousands of workers today instead pack the graveyard to witness the unveiling of the new tomb for German-American philosopher and Engelist theoretician Karl Marx that was commissioned by local trade unions. Buried alongside Marx in the massive 12-foot marble tombstone with a massive bust of Marx sitting is his wife Jenny and other members of his family. The ceremonial unveiling followed speeches from various Republican-Labor politicians, socialist figures, and trade union leaders.\n\nKarl Marx was born in Germany, where he joined the Young Hegelian and became an early radical socialist. The radical newspaper that he edited for, the Rhenish Newspaper (which also employed Friedrich Engels, although the two would only meet briefly), was banned by the government which prompted Marx and his family to flee; not to Paris or London or Belgium, but to the frontier of Texas. He would not stay long, however, soon moving to St. Louis to join with other German exiles. It was there where he began to write books regarding political economy and materialist philosophy as well as study the American working class. When the Frankfurt Parliament purged the radical left in Germany in 1849, most of them fled to the America as well, migrating to Chicago, New York, Texas, and St. Louis, and many of them met Karl Marx who organized them into the radical wing of the Whigs. Known as the father of socialism in the United States, Marx would create and lead the first American section of the International Workingmen's Association, now known as the modern Republican-Labor Party. His theoretical books regarding industrial unionism were also incredibly influential to the history of unionization in the United States and created the foundation for the socialist tendency that would eventually be known as Marxism-De Leonism.\n\nA man of significant historical legacy, Marx is praised by some and despised by others. He has been celebrated in art and literature (The character of 'Uncle Carl' in Mark Twain's famous novel the Adventures of Huckleberry Finn is suspected to be based off of Marx who briefly met Twain in). To others, he represents the march of the mob and socialism as well as the trembling of wealth and capitalism."
+  USA_flavor.2.a:0 "Workers of the World, Unite!"
+  
+  USA_flavor.3.t:0 "Family Business"
+  USA_flavor.3.d:0 "Stepping out of the crowded theater, it seemed as if the world had been engulfed in flames. The bright blinding lights of the cameras, the dazed and confused stumbling out of the darkness of the theater, the shouts of the paparazzi, the scene was chaos. "Mr. Walker! Mr. Walker over here! Brad Jones with the Journal! If you could just give a few insights to wh-"\n\n"No questions at this time, wanna hear my opinion? Read the Times." They never called him by his first name, it was always Mr. Walker this and Mr. Walker that. Even if he was honored to carry the same name as the late great William Walker, he was more than just his grandfather, he was a critic! He had a fine taste for film, something his politically charged relatives could understand. This wasn’t news to him, review after review, his relatives lambasted him for sullying the Walker name, but he knew his grandfather would approve, he mentioned to the young critic that he must always solider on, so others don’t have to.\n\n"Excuse me Ms. Chambers!" Little miss Chambers was always open to talk about cinema, whenever he got back to his apartment, odds are that there’d be a stout lady ready to rattle on for hours about whatever she’d just seen at the theater. There was no time for pleasant conversation today, unfortunately, the Times was expecting his review tonight.\n\nThe critic plopped his belongings on the couch and rushed to his typewriter. He sat frozen for sometime, his hands hovering above the keys. Finally, the critic found his angle and let his fingers glide across the typewriter. \n\n"This film is garbage. No no, this film is dogshit. What ‘The Orgins of Patriots: William Walker’ does wrong would take years to describe, from historical inaccuracies to a setting that looks as it was filmed in a Queens crackhouse, this film leaves much to be desired. It’s not all bad, there are some upsides. What it does right is leave me hoping for a sequel, if only so I can pick it apart all over again and collect my pay."\n\nThe critic leaned back in his chair, proud of his work, all that was left was to sign off. Typically, he signed with his initials, but the encounter at cinema played again and again in his mind. People will know his name. The critic leaned forward once more and made the review his own. "Douglas Walker" he signed."
+  USA_flavor.3.a:0 "How the mighty have fallen."
+
+
+ USA_pops_tooltip:0 "Cool US Debug Display\n\n§RRepublican-Labor Pop: [?This.US_socialist_popularity]§!\n§GProgressive Pop: [?This.US_progressive_popularity]§!\n§YWhig Pop: [?This.US_whig_popularity]§!\n§BDemocrat Pop: [?This.US_democrat_popularity]§!\nSenator 1: [?This.USA_senate_seat_1]\nSenator 2: [?This.USA_senate_seat_2]\n§RRepublican-Labor Reps: [?This.socialist_representatives]§!\n§GProgressive Reps: [?This.progressive_representatives]§!\n§YWhig Reps: [?This.whig_representatives]§!\n§BDemocrat Reps: [?This.democrat_representatives]§!\nElectoral Votes: [?This.electoral_votes]"
+ USA_numeral_zer:0 "0"
+ USA_numeral_one:0 "1"
+ USA_numeral_two:0 "2"
+ USA_numeral_thr:0 "3"

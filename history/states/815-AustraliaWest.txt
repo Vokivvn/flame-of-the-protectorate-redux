@@ -1,0 +1,20 @@
+
+state={
+	id=815
+	name="STATE_815"
+	manpower = 11100
+	
+	state_category = rural
+
+	history={
+		owner = WST
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = WST
+	}
+
+	provinces={
+		12948 2191 10969 12976 12990 12962 8200 10949 1526 10997 11011
+	}
+}

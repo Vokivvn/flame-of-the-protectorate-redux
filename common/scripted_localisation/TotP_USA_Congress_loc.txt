@@ -1,0 +1,3003 @@
+defined_text = {
+	name = SENATE_SEAT_1
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_1_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_1_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_1_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_1_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_2
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_2_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_2_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_2_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_2_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_3
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_3_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_3_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_3_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_3_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_4
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_4_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_4_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_4_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_4_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_5
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_5_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_5_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_5_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_5_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_6
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_6_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_6_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_6_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_6_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_7
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_7_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_7_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_7_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_7_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_8
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_8_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_8_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_8_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_8_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_9
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_9_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_9_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_9_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_9_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_11
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_11_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_11_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_11_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_11_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_12
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_12_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_12_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_12_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_12_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_13
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_13_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_13_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_13_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_13_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_14
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_14_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_14_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_14_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_14_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_15
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_15_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_15_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_15_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_15_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_16
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_16_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_16_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_16_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_16_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_17
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_17_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_17_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_17_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_17_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_18
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_18_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_18_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_18_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_18_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_19
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_19_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_19_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_19_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_19_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}	
+
+defined_text = {
+	name = SENATE_SEAT_10
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_10_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_10_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_10_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_10_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_20
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_20_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_20_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_20_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_20_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_21
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_21_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_21_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_21_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_21_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_22
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_22_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_22_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_22_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_22_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_23
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_23_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_23_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_23_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_23_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_24
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_24_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_24_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_24_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_24_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_25
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_25_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_25_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_25_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_25_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_26
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_26_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_26_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_26_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_26_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_27
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_27_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_27_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_27_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_27_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_28
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_28_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_28_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_28_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_28_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_29
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_29_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_29_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_29_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_29_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_30
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_30_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_30_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_30_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_30_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_31
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_31_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_31_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_31_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_31_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_32
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_32_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_32_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_32_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_32_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_33
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_33_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_33_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_33_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_33_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_34
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_34_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_34_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_34_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_34_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_35
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_35_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_35_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_35_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_35_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_36
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_36_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_36_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_36_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_36_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_37
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_37_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_37_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_37_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_37_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_38
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_38_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_38_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_38_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_38_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_39
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_39_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_39_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_39_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_39_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_40
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_40_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_40_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_40_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_40_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_41
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_41_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_41_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_41_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_41_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_42
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_42_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_42_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_42_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_42_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_43
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_43_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_43_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_43_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_43_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_44
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_44_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_44_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_44_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_44_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_45
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_45_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_45_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_45_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_45_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_46
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_46_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_46_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_46_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_46_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_47
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_47_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_47_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_47_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_47_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_48
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_48_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_48_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_48_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_48_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_49
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_49_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_49_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_49_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_49_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_50
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_50_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_50_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_50_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_50_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_51
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_51_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_51_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_51_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_51_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_52
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_52_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_52_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_52_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_52_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_53
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_53_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_53_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_53_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_53_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_54
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_54_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_54_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_54_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_54_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_55
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_55_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_55_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_55_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_55_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_56
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_56_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_56_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_56_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_56_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_57
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_57_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_57_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_57_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_57_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_58
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_58_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_58_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_58_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_58_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_59
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_59_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_59_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_59_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_59_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_60
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_60_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_60_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_60_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_60_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_61
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_61_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_61_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_61_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_61_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_62
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_62_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_62_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_62_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_62_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_63
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_63_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_63_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_63_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_63_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_64
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_64_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_64_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_64_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_64_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_65
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_65_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_65_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_65_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_65_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_66
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_66_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_66_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_66_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_66_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_67
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_67_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_67_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_67_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_67_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_68
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_68_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_68_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_68_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_68_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_69
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_69_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_69_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_69_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_69_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_70
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_70_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_70_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_70_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_70_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_71
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_71_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_71_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_71_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_71_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_72
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_72_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_72_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_72_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_72_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_73
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_73_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_73_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_73_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_73_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_74
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_74_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_74_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_74_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_74_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_75
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_75_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_75_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_75_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_75_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_76
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_76_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_76_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_76_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_76_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_77
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_77_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_77_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_77_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_77_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_78
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_78_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_78_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_78_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_78_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_79
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_79_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_79_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_79_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_79_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_80
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_80_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_80_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_80_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_80_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_81
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_81_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_81_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_81_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_81_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_82
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_82_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_82_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_82_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_82_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_83
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_83_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_83_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_83_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_83_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_84
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_84_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_84_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_84_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_84_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_85
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_85_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_85_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_85_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_85_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_86
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_86_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_86_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_86_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_86_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_87
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_87_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_87_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_87_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_87_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_88
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_88_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_88_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_88_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_88_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_89
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_89_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_89_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_89_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_89_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_90
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_90_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_90_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_90_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_90_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_91
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_91_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_91_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_91_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_91_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_92
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_92_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_92_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_92_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_92_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_93
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_93_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_93_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_93_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_93_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_94
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_94_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_94_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_94_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_94_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_95
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_95_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_95_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_95_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_95_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_96
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_96_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_96_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_96_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_96_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_97
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_97_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_97_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_97_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_97_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_98
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_98_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_98_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_98_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_98_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_99
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_99_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_99_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_99_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_99_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_100
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_100_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_100_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_100_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_100_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_101
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_101_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_101_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_101_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_101_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_102
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_102_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_102_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_102_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_102_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_103
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_103_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_103_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_103_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_103_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_104
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_104_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_104_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_104_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_104_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_105
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_105_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_105_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_105_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_105_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = SENATE_SEAT_106
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_106_VAR = 1 }
+		}
+		localization_key = GFX_USA_congress_Progressive
+	} 
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_106_VAR = 2 }
+		}
+		localization_key = GFX_USA_congress_Democrat
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_106_VAR = 3 }
+		}
+		localization_key = GFX_USA_congress_Whig
+	}
+	text = {
+		trigger = {
+			check_variable = { SENATE_SEAT_106_VAR = 4 }
+		}
+		localization_key = GFX_USA_congress_Republican
+	}
+}
+
+defined_text = {
+	name = CONGRESS_VICE_PRESIDENT
+	text = {
+		trigger = {
+			has_country_flag = USA_president_a_roosevelt
+		}
+		localization_key = GFX_USA_VP_Joseph_Robinson
+	} 
+}
+
+defined_text = {
+	name = CONGRESS_SPEAKER
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = USA_whig_congress_1932
+				has_country_flag = USA_whig_congress_1936
+			}
+		}
+		localization_key = GFX_USA_HS_John_Garner
+	} 
+}
+
+defined_text = {
+	name = CONGRESS_SENATE_LEADER
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = USA_progressive_senate_1932
+				has_country_flag = USA_progressive_senate_1936
+			}
+		}
+		localization_key = GFX_USA_SL_George_Norris
+	} 
+}

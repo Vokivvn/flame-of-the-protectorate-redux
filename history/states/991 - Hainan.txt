@@ -1,0 +1,26 @@
+state={
+	id=991
+	name="STATE_991"
+	manpower = 157805
+	
+	state_category = large_town
+	
+	history={
+		owner = ENG
+		add_core_of = CHI
+		add_claim_by = ENG
+		victory_points = { 
+			1070 5 
+		}
+		buildings = {
+			infrastructure = 4
+			1070 = {
+				naval_base = 3
+			}
+		}
+	}
+	
+	provinces={
+		1070 
+	}
+}

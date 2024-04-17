@@ -1,0 +1,21 @@
+state={
+	id=916
+	name="STATE_916"
+	provinces={
+		10181 1252 7231 10325 4236 12196 4323 7299
+	}
+	
+	history={
+		owner = INS
+		add_core_of = KTI
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			4323 3
+		}
+	}
+	manpower=912481
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,12 @@
+scripted_gui = {
+	country_ideology_name = {
+		context_type = player_context
+		
+		window_name = "country_ideology"
+		parent_window_token = politics_tab 
+		
+		visible = {
+            always = yes
+        }
+	}
+}

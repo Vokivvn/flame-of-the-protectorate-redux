@@ -1,0 +1,34 @@
+
+state={
+	id=484
+	name="STATE_484"
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			#1892 = {
+			#	naval_base = 2
+            #
+			#}
+			#12736 = {
+			#	naval_base = 1
+            #
+			#}
+
+		}
+		add_core_of = USA
+		#victory_points = {
+		#	12461 10 
+		#}
+
+	}
+
+	provinces={
+		801 3941 3975 4627 6958 6971 7466 7588 7646 9923 10441 11888 
+	}
+	manpower=108841
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

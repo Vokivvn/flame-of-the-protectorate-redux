@@ -1,0 +1,37 @@
+ideas = {
+	country = {
+		FEI_Autonomous_Company = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = FEI_Autonomous_Company
+
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.05
+			}
+		}
+		FEI_Reign_of_Gold = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = FEI_Reign_of_Gold
+
+			modifier = {
+				consumer_goods_factor = -0.15
+			}
+		}
+		FEI_Tamil_Upper_Class = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = FEI_Tamil_Upper_Class
+
+			modifier = {
+				drift_defence_factor = 0.1
+				war_support_factor = 0.1
+				political_power_gain = 0.2
+			}
+		}
+	}
+}

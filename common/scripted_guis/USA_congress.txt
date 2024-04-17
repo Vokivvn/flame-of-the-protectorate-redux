@@ -1,0 +1,676 @@
+scripted_gui = {
+
+	USA_congress_gui = {
+		context_type = player_context
+		window_name = "USA_congress_button"
+		parent_window_token = politics_tab
+		
+		visible = {
+			tag = USA
+		}
+		
+		effects = {
+			USA_button_icon_click = {
+				set_variable = { SENATE_SEAT_1_VAR = 1 }
+				set_variable = { SENATE_SEAT_2_VAR = 1 }
+				set_variable = { SENATE_SEAT_3_VAR = 1 }
+				set_variable = { SENATE_SEAT_4_VAR = 1 }
+				set_variable = { SENATE_SEAT_5_VAR = 1 }
+				set_variable = { SENATE_SEAT_6_VAR = 1 }
+				set_variable = { SENATE_SEAT_7_VAR = 1 }
+				set_variable = { SENATE_SEAT_8_VAR = 1 }
+				set_variable = { SENATE_SEAT_9_VAR = 1 }
+				set_variable = { SENATE_SEAT_10_VAR = 1 }
+				set_variable = { SENATE_SEAT_11_VAR = 1 }
+				set_variable = { SENATE_SEAT_12_VAR = 1 }
+				set_variable = { SENATE_SEAT_13_VAR = 1 }
+				set_variable = { SENATE_SEAT_14_VAR = 1 }
+				set_variable = { SENATE_SEAT_15_VAR = 1 }
+				set_variable = { SENATE_SEAT_16_VAR = 1 }
+				set_variable = { SENATE_SEAT_17_VAR = 1 }
+				set_variable = { SENATE_SEAT_18_VAR = 1 }
+				set_variable = { SENATE_SEAT_19_VAR = 1 }
+				set_variable = { SENATE_SEAT_20_VAR = 1 }
+				set_variable = { SENATE_SEAT_21_VAR = 1 }
+				set_variable = { SENATE_SEAT_22_VAR = 1 }
+				set_variable = { SENATE_SEAT_23_VAR = 1 }
+				set_variable = { SENATE_SEAT_24_VAR = 1 }
+				set_variable = { SENATE_SEAT_25_VAR = 1 }
+				set_variable = { SENATE_SEAT_26_VAR = 1 }
+				set_variable = { SENATE_SEAT_27_VAR = 1 }
+				set_variable = { SENATE_SEAT_28_VAR = 1 }
+				set_variable = { SENATE_SEAT_29_VAR = 1 } 
+				set_variable = { SENATE_SEAT_30_VAR = 1 }
+				set_variable = { SENATE_SEAT_31_VAR = 1 }
+				set_variable = { SENATE_SEAT_32_VAR = 1 }
+				set_variable = { SENATE_SEAT_33_VAR = 1 }
+				set_variable = { SENATE_SEAT_34_VAR = 1 }
+				set_variable = { SENATE_SEAT_35_VAR = 1 }
+				set_variable = { SENATE_SEAT_36_VAR = 1 }
+				set_variable = { SENATE_SEAT_37_VAR = 1 }
+				set_variable = { SENATE_SEAT_38_VAR = 1 }
+				set_variable = { SENATE_SEAT_39_VAR = 1 }
+				set_variable = { SENATE_SEAT_40_VAR = 1 }
+				set_variable = { SENATE_SEAT_41_VAR = 1 } 
+				set_variable = { SENATE_SEAT_42_VAR = 1 }
+				set_variable = { SENATE_SEAT_43_VAR = 1 }
+				set_variable = { SENATE_SEAT_44_VAR = 1 }
+				set_variable = { SENATE_SEAT_45_VAR = 1 }
+				set_variable = { SENATE_SEAT_46_VAR = 1 }
+				set_variable = { SENATE_SEAT_47_VAR = 1 }
+				set_variable = { SENATE_SEAT_48_VAR = 1 }
+				set_variable = { SENATE_SEAT_49_VAR = 1 }
+				set_variable = { SENATE_SEAT_50_VAR = 1 }
+				set_variable = { SENATE_SEAT_51_VAR = 1 }
+				set_variable = { SENATE_SEAT_52_VAR = 1 }
+				set_variable = { SENATE_SEAT_53_VAR = 1 }
+				set_variable = { SENATE_SEAT_54_VAR = 1 }
+				set_variable = { SENATE_SEAT_55_VAR = 1 }
+				set_variable = { SENATE_SEAT_56_VAR = 1 }
+				set_variable = { SENATE_SEAT_57_VAR = 1 }
+				set_variable = { SENATE_SEAT_58_VAR = 1 }
+				set_variable = { SENATE_SEAT_59_VAR = 1 }
+				set_variable = { SENATE_SEAT_60_VAR = 1 }
+				set_variable = { SENATE_SEAT_61_VAR = 1 }
+				set_variable = { SENATE_SEAT_62_VAR = 1 }
+				set_variable = { SENATE_SEAT_63_VAR = 1 }
+				set_variable = { SENATE_SEAT_64_VAR = 1 }
+				set_variable = { SENATE_SEAT_65_VAR = 1 }
+				set_variable = { SENATE_SEAT_66_VAR = 1 }
+				set_variable = { SENATE_SEAT_67_VAR = 1 }
+				set_variable = { SENATE_SEAT_68_VAR = 1 }
+				set_variable = { SENATE_SEAT_69_VAR = 1 }
+				set_variable = { SENATE_SEAT_70_VAR = 1 }
+				set_variable = { SENATE_SEAT_71_VAR = 1 }
+				set_variable = { SENATE_SEAT_72_VAR = 1 }
+				set_variable = { SENATE_SEAT_73_VAR = 1 }
+				set_variable = { SENATE_SEAT_74_VAR = 1 }
+				set_variable = { SENATE_SEAT_75_VAR = 1 }
+				set_variable = { SENATE_SEAT_76_VAR = 1 }
+				set_variable = { SENATE_SEAT_77_VAR = 1 }
+				set_variable = { SENATE_SEAT_78_VAR = 1 }
+				set_variable = { SENATE_SEAT_79_VAR = 1 }
+				set_variable = { SENATE_SEAT_80_VAR = 1 }
+				set_variable = { SENATE_SEAT_81_VAR = 1 }
+				set_variable = { SENATE_SEAT_82_VAR = 1 }
+				set_variable = { SENATE_SEAT_83_VAR = 1 }
+				set_variable = { SENATE_SEAT_84_VAR = 1 }
+				set_variable = { SENATE_SEAT_85_VAR = 1 }
+				set_variable = { SENATE_SEAT_86_VAR = 1 }
+				set_variable = { SENATE_SEAT_87_VAR = 1 }
+				set_variable = { SENATE_SEAT_88_VAR = 1 }
+				set_variable = { SENATE_SEAT_89_VAR = 1 }
+				set_variable = { SENATE_SEAT_90_VAR = 1 }
+				set_variable = { SENATE_SEAT_91_VAR = 1 }
+				set_variable = { SENATE_SEAT_92_VAR = 1 }
+				set_variable = { SENATE_SEAT_93_VAR = 1 }
+				set_variable = { SENATE_SEAT_94_VAR = 1 }
+				set_variable = { SENATE_SEAT_95_VAR = 1 }
+				set_variable = { SENATE_SEAT_96_VAR = 1 }
+				set_variable = { SENATE_SEAT_97_VAR = 1 }
+				set_variable = { SENATE_SEAT_98_VAR = 1 }
+				set_variable = { SENATE_SEAT_99_VAR = 1 }
+				set_variable = { SENATE_SEAT_100_VAR = 1 }
+				set_variable = { SENATE_SEAT_101_VAR = 1 }
+				set_variable = { SENATE_SEAT_102_VAR = 1 }
+				set_variable = { SENATE_SEAT_103_VAR = 1 }
+				set_variable = { SENATE_SEAT_104_VAR = 1 }
+				set_variable = { SENATE_SEAT_105_VAR = 1 }
+				set_variable = { SENATE_SEAT_106_VAR = 1 }
+				if = {
+					limit = {
+						has_country_flag = USA_open_congress_GUI
+					}
+					clr_country_flag = USA_open_congress_GUI
+					#USA_senate_gui_debug = yes
+				}
+				else_if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_open_congress_GUI
+						}
+					}
+					set_country_flag = USA_open_congress_GUI
+					#USA_senate_gui_debug = yes
+				}
+			}
+		}
+
+		properties = {
+			
+		}
+		
+	}
+	
+	TOTP_USA_congress_GUI_open = {
+		context_type = player_context
+		window_name = "TOTP_USA_congress_GUI"
+		parent_window_token = politics_tab
+
+		visible = {
+			has_country_flag = USA_open_congress_GUI
+			tag = USA
+		}
+		
+		effects = {
+			TOTP_button_for_negotiations_click = {
+				if = {
+					limit = {
+						has_country_flag = USA_negotiations_flag
+					}
+					clr_country_flag = USA_negotiations_flag
+				}
+				else_if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_negotiations_flag
+						}
+					}
+					set_country_flag = USA_negotiations_flag
+				}
+				add_political_power = 50
+			}
+		}
+		
+		properties = {
+			# House
+			TOTP_Democrat_House_Member_Set_10 = {
+				frame = USA_dem_slides_house10 
+			}
+			TOTP_Republican_House_Member_Set_1 = {
+				frame = USA_republican_slides_house
+			}
+			TOTP_Republican_House_Member_Set_2 = {
+				frame = USA_republican_slides_house2 
+			}
+			TOTP_Republican_House_Member_Set_3 = {
+				frame = USA_republican_slides_house3
+			}
+			TOTP_Republican_House_Member_Set_4 = {
+				frame = USA_republican_slides_house4
+			}
+			TOTP_Republican_House_Member_Set_5 = {
+				frame = USA_republican_slides_house5
+			}
+			TOTP_Republican_House_Member_Set_6 = {
+				frame = USA_republican_slides_house6
+			}
+			TOTP_Republican_House_Member_Set_7 = {
+				frame = USA_republican_slides_house7
+			}
+			TOTP_Republican_House_Member_Set_8 = {
+				frame = USA_republican_slides_house8
+			}
+			TOTP_Republican_House_Member_Set_9 = {
+				frame = USA_republican_slides_house9
+			}
+			TOTP_Republican_House_Member_Set_10 = {
+				frame = USA_republican_slides_house10 
+			}
+			TOTP_Whig_House_Member_Set_1 = {
+				frame = USA_whig_slides_house
+			}
+			TOTP_Whig_House_Member_Set_2 = {
+				frame = USA_whig_slides_house2 
+			}
+			TOTP_Whig_House_Member_Set_3 = {
+				frame = USA_whig_slides_house3
+			}
+			TOTP_Whig_House_Member_Set_4 = {
+				frame = USA_whig_slides_house4
+			}
+			TOTP_Whig_House_Member_Set_5 = {
+				frame = USA_whig_slides_house5
+			}
+			TOTP_Whig_House_Member_Set_6 = {
+				frame = USA_whig_slides_house6
+			}
+			TOTP_Whig_House_Member_Set_7 = {
+				frame = USA_whig_slides_house7
+			}
+			TOTP_Whig_House_Member_Set_8 = {
+				frame = USA_whig_slides_house8
+			}
+			TOTP_Whig_House_Member_Set_9 = {
+				frame = USA_whig_slides_house9
+			}
+			TOTP_Whig_House_Member_Set_10 = {
+				frame = USA_whig_slides_house10 
+			}
+			TOTP_Democrat_House_Member_Set_1 = {
+				frame = USA_dem_slides_house
+			}
+			TOTP_Democrat_House_Member_Set_2 = {
+				frame = USA_dem_slides_house2 
+			}
+			TOTP_Democrat_House_Member_Set_3 = {
+				frame = USA_dem_slides_house3
+			}
+			TOTP_Democrat_House_Member_Set_4 = {
+				frame = USA_dem_slides_house4
+			}
+			TOTP_Democrat_House_Member_Set_5 = {
+				frame = USA_dem_slides_house5
+			}
+			TOTP_Democrat_House_Member_Set_6 = {
+				frame = USA_dem_slides_house6
+			}
+			TOTP_Democrat_House_Member_Set_7 = {
+				frame = USA_dem_slides_house7
+			}
+			TOTP_Democrat_House_Member_Set_8 = {
+				frame = USA_dem_slides_house8
+			}
+			TOTP_Democrat_House_Member_Set_9 = {
+				frame = USA_dem_slides_house9
+			}
+			TOTP_Progressive_House_Member_Set_1 = {
+				frame = USA_prog_slides_house
+			}
+			TOTP_Progressive_House_Member_Set_2 = {
+				frame = USA_prog_slides_house2 
+			}
+			TOTP_Progressive_House_Member_Set_3 = {
+				frame = USA_prog_slides_house3
+			}
+			TOTP_Progressive_House_Member_Set_4 = {
+				frame = USA_prog_slides_house4
+			}
+			TOTP_Progressive_House_Member_Set_5 = {
+				frame = USA_prog_slides_house5
+			}
+			TOTP_Progressive_House_Member_Set_6 = {
+				frame = USA_prog_slides_house6
+			}
+			TOTP_Progressive_House_Member_Set_7 = {
+				frame = USA_prog_slides_house7
+			}
+			TOTP_Progressive_House_Member_Set_8 = {
+				frame = USA_prog_slides_house8
+			}
+			TOTP_Progressive_House_Member_Set_9 = {
+				frame = USA_prog_slides_house9
+			}
+			TOTP_Progressive_House_Member_Set_10 = {
+				frame = USA_prog_slides_house10 
+			}
+			# Senate
+			TOTP_Republican_Senator_Count = {
+				frame = USA_republican_slides
+			}
+			TOTP_Republican_Senator_Count2 = {
+				frame = USA_republican_slides2
+			}
+			TOTP_Whigs_Senator_Count = {
+				frame = USA_whig_slides
+			}
+			TOTP_Whigs_Senator_Count2 = {
+				frame = USA_whig_slides2
+			}
+			TOTP_Democrats_Senator_Count = {
+				frame = USA_dem_slides
+			}
+			TOTP_Democrats_Senator_Count2 = {
+				frame = USA_dem_slides2
+			}
+			TOTP_Progressive_Senator_Count = {
+				frame = USA_prog_slides 
+			}
+			TOTP_Progressive_Senator_Count2 = {
+				frame = USA_prog_slides2
+			}
+			TOTP_SENATOR_1 = {
+				image = "[SENATE_SEAT_1]"
+			}
+			TOTP_SENATOR_2 = {
+				image = "[SENATE_SEAT_2]"
+			}
+			TOTP_SENATOR_3 = {
+				image = "[SENATE_SEAT_3]"
+			}
+			TOTP_SENATOR_4 = {
+				image = "[SENATE_SEAT_4]"
+			}
+			TOTP_SENATOR_5 = {
+				image = "[SENATE_SEAT_5]"
+			}
+			TOTP_SENATOR_6 = {
+				image = "[SENATE_SEAT_6]"
+			}
+			TOTP_SENATOR_7 = {
+				image = "[SENATE_SEAT_7]"
+			}
+			TOTP_SENATOR_8 = {
+				image = "[SENATE_SEAT_8]"
+			}
+			TOTP_SENATOR_9 = {
+				image = "[SENATE_SEAT_9]"
+			}
+			TOTP_SENATOR_10 = {
+				image = "[SENATE_SEAT_10]"
+			}
+			TOTP_SENATOR_11 = {
+				image = "[SENATE_SEAT_11]"
+			}
+			TOTP_SENATOR_12 = {
+				image = "[SENATE_SEAT_12]"
+			}
+			TOTP_SENATOR_13 = {
+				image = "[SENATE_SEAT_13]"
+			}
+			TOTP_SENATOR_14 = {
+				image = "[SENATE_SEAT_14]"
+			}
+			TOTP_SENATOR_15 = {
+				image = "[SENATE_SEAT_15]"
+			}
+			TOTP_SENATOR_16 = {
+				image = "[SENATE_SEAT_16]"
+			}
+			TOTP_SENATOR_17 = {
+				image = "[SENATE_SEAT_17]"
+			}
+			TOTP_SENATOR_18 = {
+				image = "[SENATE_SEAT_18]"
+			}
+			TOTP_SENATOR_19 = {
+				image = "[SENATE_SEAT_19]"
+			}
+			TOTP_SENATOR_20 = {
+				image = "[SENATE_SEAT_20]"
+			}
+			TOTP_SENATOR_20 = {
+				image = "[SENATE_SEAT_20]"
+			}
+			TOTP_SENATOR_21 = {
+				image = "[SENATE_SEAT_21]"
+			}
+			TOTP_SENATOR_22 = {
+				image = "[SENATE_SEAT_22]"
+			}
+			TOTP_SENATOR_23 = {
+				image = "[SENATE_SEAT_23]"
+			}
+			TOTP_SENATOR_24 = {
+				image = "[SENATE_SEAT_24]"
+			}
+			TOTP_SENATOR_25 = {
+				image = "[SENATE_SEAT_25]"
+			}
+			TOTP_SENATOR_26 = {
+				image = "[SENATE_SEAT_26]"
+			}
+			TOTP_SENATOR_27 = {
+				image = "[SENATE_SEAT_27]"
+			}
+			TOTP_SENATOR_28 = {
+				image = "[SENATE_SEAT_28]"
+			}
+			TOTP_SENATOR_29 = {
+				image = "[SENATE_SEAT_29]"
+			}
+			TOTP_SENATOR_30 = {
+				image = "[SENATE_SEAT_30]"
+			}
+			TOTP_SENATOR_31 = {
+				image = "[SENATE_SEAT_31]"
+			}
+			TOTP_SENATOR_32 = {
+				image = "[SENATE_SEAT_32]"
+			}
+			TOTP_SENATOR_33 = {
+				image = "[SENATE_SEAT_33]"
+			}
+			TOTP_SENATOR_34 = {
+				image = "[SENATE_SEAT_34]"
+			}
+			TOTP_SENATOR_35 = {
+				image = "[SENATE_SEAT_35]"
+			}
+			TOTP_SENATOR_36 = {
+				image = "[SENATE_SEAT_36]"
+			}
+			TOTP_SENATOR_37 = {
+				image = "[SENATE_SEAT_37]"
+			}
+			TOTP_SENATOR_38 = {
+				image = "[SENATE_SEAT_38]"
+			}
+			TOTP_SENATOR_39 = {
+				image = "[SENATE_SEAT_39]"
+			}
+			TOTP_SENATOR_40 = {
+				image = "[SENATE_SEAT_40]"
+			}
+			TOTP_SENATOR_41 = {
+				image = "[SENATE_SEAT_41]"
+			}
+			TOTP_SENATOR_42 = {
+				image = "[SENATE_SEAT_42]"
+			}
+			TOTP_SENATOR_43 = {
+				image = "[SENATE_SEAT_43]"
+			}
+			TOTP_SENATOR_44 = {
+				image = "[SENATE_SEAT_44]"
+			}
+			TOTP_SENATOR_45 = {
+				image = "[SENATE_SEAT_45]"
+			}
+			TOTP_SENATOR_46 = {
+				image = "[SENATE_SEAT_46]"
+			}
+			TOTP_SENATOR_47 = {
+				image = "[SENATE_SEAT_47]"
+			}
+			TOTP_SENATOR_48 = {
+				image = "[SENATE_SEAT_48]"
+			}
+			TOTP_SENATOR_49 = {
+				image = "[SENATE_SEAT_49]"
+			}
+			TOTP_SENATOR_50 = {
+				image = "[SENATE_SEAT_50]"
+			}
+			TOTP_SENATOR_51 = {
+				image = "[SENATE_SEAT_51]"
+			}
+			TOTP_SENATOR_52 = {
+				image = "[SENATE_SEAT_52]"
+			}
+			TOTP_SENATOR_53 = {
+				image = "[SENATE_SEAT_53]"
+			}
+			TOTP_SENATOR_54 = {
+				image = "[SENATE_SEAT_54]"
+			}
+			TOTP_SENATOR_55 = {
+				image = "[SENATE_SEAT_55]"
+			}
+			TOTP_SENATOR_56 = {
+				image = "[SENATE_SEAT_56]"
+			}
+			TOTP_SENATOR_57 = {
+				image = "[SENATE_SEAT_57]"
+			}
+			TOTP_SENATOR_58 = {
+				image = "[SENATE_SEAT_58]"
+			}
+			TOTP_SENATOR_59 = {
+				image = "[SENATE_SEAT_59]"
+			}
+			TOTP_SENATOR_60 = {
+				image = "[SENATE_SEAT_60]"
+			}
+			TOTP_SENATOR_61 = {
+				image = "[SENATE_SEAT_61]"
+			}
+			TOTP_SENATOR_62 = {
+				image = "[SENATE_SEAT_62]"
+			}
+			TOTP_SENATOR_63 = {
+				image = "[SENATE_SEAT_63]"
+			}
+			TOTP_SENATOR_64 = {
+				image = "[SENATE_SEAT_64]"
+			}
+			TOTP_SENATOR_65 = {
+				image = "[SENATE_SEAT_65]"
+			}
+			TOTP_SENATOR_66 = {
+				image = "[SENATE_SEAT_66]"
+			}
+			TOTP_SENATOR_67 = {
+				image = "[SENATE_SEAT_67]"
+			}
+			TOTP_SENATOR_68 = {
+				image = "[SENATE_SEAT_68]"
+			}
+			TOTP_SENATOR_69 = {
+				image = "[SENATE_SEAT_69]"
+			}
+			TOTP_SENATOR_70 = {
+				image = "[SENATE_SEAT_70]"
+			}
+			TOTP_SENATOR_71 = {
+				image = "[SENATE_SEAT_71]"
+			}
+			TOTP_SENATOR_72 = {
+				image = "[SENATE_SEAT_72]"
+			}
+			TOTP_SENATOR_73 = {
+				image = "[SENATE_SEAT_73]"
+			}
+			TOTP_SENATOR_74 = {
+				image = "[SENATE_SEAT_74]"
+			}
+			TOTP_SENATOR_75 = {
+				image = "[SENATE_SEAT_75]"
+			}
+			TOTP_SENATOR_76 = {
+				image = "[SENATE_SEAT_76]"
+			}
+			TOTP_SENATOR_77 = {
+				image = "[SENATE_SEAT_77]"
+			}
+			TOTP_SENATOR_78 = {
+				image = "[SENATE_SEAT_78]"
+			}
+			TOTP_SENATOR_79 = {
+				image = "[SENATE_SEAT_79]"
+			}
+			TOTP_SENATOR_80 = {
+				image = "[SENATE_SEAT_80]"
+			}
+			TOTP_SENATOR_81 = {
+				image = "[SENATE_SEAT_81]"
+			}
+			TOTP_SENATOR_82 = {
+				image = "[SENATE_SEAT_82]"
+			}
+			TOTP_SENATOR_83 = {
+				image = "[SENATE_SEAT_83]"
+			}
+			TOTP_SENATOR_84 = {
+				image = "[SENATE_SEAT_84]"
+			}
+			TOTP_SENATOR_85 = {
+				image = "[SENATE_SEAT_85]"
+			}
+			TOTP_SENATOR_86 = {
+				image = "[SENATE_SEAT_86]"
+			}
+			TOTP_SENATOR_87 = {
+				image = "[SENATE_SEAT_87]"
+			}
+			TOTP_SENATOR_88 = {
+				image = "[SENATE_SEAT_88]"
+			}
+			TOTP_SENATOR_89 = {
+				image = "[SENATE_SEAT_89]"
+			}
+			TOTP_SENATOR_90 = {
+				image = "[SENATE_SEAT_90]"
+			}
+			TOTP_SENATOR_91 = {
+				image = "[SENATE_SEAT_91]"
+			}
+			TOTP_SENATOR_92 = {
+				image = "[SENATE_SEAT_92]"
+			}
+			TOTP_SENATOR_93 = {
+				image = "[SENATE_SEAT_93]"
+			}
+			TOTP_SENATOR_94 = {
+				image = "[SENATE_SEAT_94]"
+			}
+			TOTP_SENATOR_95 = {
+				image = "[SENATE_SEAT_95]"
+			}
+			TOTP_SENATOR_96 = {
+				image = "[SENATE_SEAT_96]"
+			}
+			TOTP_SENATOR_97 = {
+				image = "[SENATE_SEAT_97]"
+			}
+			TOTP_SENATOR_98 = {
+				image = "[SENATE_SEAT_98]"
+			}
+			TOTP_SENATOR_99 = {
+				image = "[SENATE_SEAT_99]"
+			}
+			TOTP_SENATOR_100 = {
+				image = "[SENATE_SEAT_100]"
+			}
+			TOTP_SENATOR_101 = {
+				image = "[SENATE_SEAT_101]"
+			}
+			TOTP_SENATOR_102 = {
+				image = "[SENATE_SEAT_102]"
+			}
+			TOTP_SENATOR_103 = {
+				image = "[SENATE_SEAT_103]"
+			}
+			TOTP_SENATOR_104 = {
+				image = "[SENATE_SEAT_104]"
+			}
+			TOTP_SENATOR_105 = {
+				image = "[SENATE_SEAT_105]"
+			}
+			TOTP_SENATOR_106 = {
+				image = "[SENATE_SEAT_106]"
+			}
+			house_speaker_persom = {
+				image = "[CONGRESS_SPEAKER]"
+			}
+			senate_leader_persom = {
+				image = "[CONGRESS_SENATE_LEADER]"
+			}
+			vice_president_person = {
+				image = "[CONGRESS_VICE_PRESIDENT]"
+			}
+		}
+		
+	}
+	
+	USA_negotiations_gui = {
+		context_type = player_context
+		window_name = "TOTP_USA_CONGRESS_NEGOTIATIONS"
+		#parent_window_token = politics_tab
+		
+		visible = {
+			tag = USA
+			has_country_flag = USA_negotiations_flag
+		}
+		
+		effects = {
+		}
+
+		properties = {
+			
+		}
+		
+	}
+	
+}
+

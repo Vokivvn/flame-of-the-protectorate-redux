@@ -1,0 +1,879 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_map_blank"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_USA_electoral_map.dds"
+	}
+	spriteType = {
+		name = "GFX_map_overlay"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_USA_electoral_map_overlay.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_alabama"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_alabama.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_appalatia"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_appalatia.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_arizona"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_arizona.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_caddo"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_caddo.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_california"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_california.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_cheyene"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_cheyene.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_conn"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_conn.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_cuba"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_cuba.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_dallas"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_dallas.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_deleware"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_deleware.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_florida"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_florida.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_georgia"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_georgia.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_haiti"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_haiti.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_hamlin"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_hamlin.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_illinois"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_illinois.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_iowa"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_iowa.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_kansas"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_kansas.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_kentucky"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_kentucky.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_long_island "
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_long_island .dds"
+	}
+	spriteType = {
+		name = "totp_DEM_loussiana"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_loussiana.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_maine"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_maine.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_maryland"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_maryland.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_massa"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_massa.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_miami"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_miami.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_michigan"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_michigan.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_minnesoda"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_minnesoda.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_mississippi"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_mississippi.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_missouri"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_missouri.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_nebraska"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_nebraska.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_nevada"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_nevada.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_new_hamshire"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_new_hamshire.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_new_jersey"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_new_jersey.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_new_mexico"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_new_mexico.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_new_york"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_new_york.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_north_car"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_north_car.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_ohio"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_ohio.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_oklahoma"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_oklahoma.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_oregon"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_oregon.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_penn"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_penn.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_polk"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_polk.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_rhode_island"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_rhode_island.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_shoshone"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_shoshone.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_south_car"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_south_car.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_superior"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_superior.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_tennessee"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_tennessee.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_texas"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_texas.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_vermont"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_vermont.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_virginia"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_virginia.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_w_florida"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_w_florida.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_walker"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_walker.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_washington"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_washington.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_wisconsin"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_wisconsin.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_yuctan"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_yuctan.dds"
+	}
+	spriteType = {
+		name = "totp_DEM_yutia"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_DEM_yutia.dds"
+	}
+	spriteType = {
+		name = "totp_PG_alabama"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_alabama.dds"
+	}
+	spriteType = {
+		name = "totp_PG_appalatia"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_appalatia.dds"
+	}
+	spriteType = {
+		name = "totp_PG_arizona"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_arizona.dds"
+	}
+	spriteType = {
+		name = "totp_PG_caddo"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_caddo.dds"
+	}
+	spriteType = {
+		name = "totp_PG_california"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_california.dds"
+	}
+	spriteType = {
+		name = "totp_PG_cheyene"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_cheyene.dds"
+	}
+	spriteType = {
+		name = "totp_PG_conn"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_conn.dds"
+	}
+	spriteType = {
+		name = "totp_PG_cuba"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_cuba.dds"
+	}
+	spriteType = {
+		name = "totp_PG_dallas"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_dallas.dds"
+	}
+	spriteType = {
+		name = "totp_PG_deleware"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_deleware.dds"
+	}
+	spriteType = {
+		name = "totp_PG_florida"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_florida.dds"
+	}
+	spriteType = {
+		name = "totp_PG_georgia"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_georgia.dds"
+	}
+	spriteType = {
+		name = "totp_PG_haiti"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_haiti.dds"
+	}
+	spriteType = {
+		name = "totp_PG_hamlin"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_hamlin.dds"
+	}
+	spriteType = {
+		name = "totp_PG_illinois"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_illinois.dds"
+	}
+	spriteType = {
+		name = "totp_PG_iowa"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_iowa.dds"
+	}
+	spriteType = {
+		name = "totp_PG_kansas"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_kansas.dds"
+	}
+	spriteType = {
+		name = "totp_PG_kentucky"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_kentucky.dds"
+	}
+	spriteType = {
+		name = "totp_PG_long_island "
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_long_island .dds"
+	}
+	spriteType = {
+		name = "totp_PG_loussiana"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_loussiana.dds"
+	}
+	spriteType = {
+		name = "totp_PG_maine"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_maine.dds"
+	}
+	spriteType = {
+		name = "totp_PG_maryland"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_maryland.dds"
+	}
+	spriteType = {
+		name = "totp_PG_massa"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_massa.dds"
+	}
+	spriteType = {
+		name = "totp_PG_miami"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_miami.dds"
+	}
+	spriteType = {
+		name = "totp_PG_michigan"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_michigan.dds"
+	}
+	spriteType = {
+		name = "totp_PG_minnesoda"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_minnesoda.dds"
+	}
+	spriteType = {
+		name = "totp_PG_mississippi"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_mississippi.dds"
+	}
+	spriteType = {
+		name = "totp_PG_missouri"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_missouri.dds"
+	}
+	spriteType = {
+		name = "totp_PG_nebraska"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_nebraska.dds"
+	}
+	spriteType = {
+		name = "totp_PG_nevada"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_nevada.dds"
+	}
+	spriteType = {
+		name = "totp_PG_new_hamshire"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_new_hamshire.dds"
+	}
+	spriteType = {
+		name = "totp_PG_new_jersey"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_new_jersey.dds"
+	}
+	spriteType = {
+		name = "totp_PG_new_mexico"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_new_mexico.dds"
+	}
+	spriteType = {
+		name = "totp_PG_new_york"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_new_york.dds"
+	}
+	spriteType = {
+		name = "totp_PG_north_car"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_north_car.dds"
+	}
+	spriteType = {
+		name = "totp_PG_ohio"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_ohio.dds"
+	}
+	spriteType = {
+		name = "totp_PG_oklahoma"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_oklahoma.dds"
+	}
+	spriteType = {
+		name = "totp_PG_oregon"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_oregon.dds"
+	}
+	spriteType = {
+		name = "totp_PG_penn"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_penn.dds"
+	}
+	spriteType = {
+		name = "totp_PG_polk"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_polk.dds"
+	}
+	spriteType = {
+		name = "totp_PG_rhode_island"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_rhode_island.dds"
+	}
+	spriteType = {
+		name = "totp_PG_shoshone"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_shoshone.dds"
+	}
+	spriteType = {
+		name = "totp_PG_south_car"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_south_car.dds"
+	}
+	spriteType = {
+		name = "totp_PG_superior"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_superior.dds"
+	}
+	spriteType = {
+		name = "totp_PG_tennessee"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_tennessee.dds"
+	}
+	spriteType = {
+		name = "totp_PG_texas"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_texas.dds"
+	}
+	spriteType = {
+		name = "totp_PG_vermont"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_vermont.dds"
+	}
+	spriteType = {
+		name = "totp_PG_virginia"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_virginia.dds"
+	}
+	spriteType = {
+		name = "totp_PG_w_florida"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_w_florida.dds"
+	}
+	spriteType = {
+		name = "totp_PG_walker"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_walker.dds"
+	}
+	spriteType = {
+		name = "totp_PG_washington"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_washington.dds"
+	}
+	spriteType = {
+		name = "totp_PG_wisconsin"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_wisconsin.dds"
+	}
+	spriteType = {
+		name = "totp_PG_yuctan"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_yuctan.dds"
+	}
+	spriteType = {
+		name = "totp_PG_yutia"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_PG_yutia.dds"
+	}
+	spriteType = {
+		name = "totp_SL_alabama"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_alabama.dds"
+	}
+	spriteType = {
+		name = "totp_SL_appalatia"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_appalatia.dds"
+	}
+	spriteType = {
+		name = "totp_SL_arizona"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_arizona.dds"
+	}
+	spriteType = {
+		name = "totp_SL_caddo"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_caddo.dds"
+	}
+	spriteType = {
+		name = "totp_SL_california"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_california.dds"
+	}
+	spriteType = {
+		name = "totp_SL_cheyene"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_cheyene.dds"
+	}
+	spriteType = {
+		name = "totp_SL_conn"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_conn.dds"
+	}
+	spriteType = {
+		name = "totp_SL_cuba"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_cuba.dds"
+	}
+	spriteType = {
+		name = "totp_SL_dallas"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_dallas.dds"
+	}
+	spriteType = {
+		name = "totp_SL_deleware"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_deleware.dds"
+	}
+	spriteType = {
+		name = "totp_SL_florida"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_florida.dds"
+	}
+	spriteType = {
+		name = "totp_SL_georgia"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_georgia.dds"
+	}
+	spriteType = {
+		name = "totp_SL_haiti"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_haiti.dds"
+	}
+	spriteType = {
+		name = "totp_SL_hamlin"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_hamlin.dds"
+	}
+	spriteType = {
+		name = "totp_SL_illinois"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_illinois.dds"
+	}
+	spriteType = {
+		name = "totp_SL_iowa"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_iowa.dds"
+	}
+	spriteType = {
+		name = "totp_SL_kansas"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_kansas.dds"
+	}
+	spriteType = {
+		name = "totp_SL_kentucky"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_kentucky.dds"
+	}
+	spriteType = {
+		name = "totp_SL_long_island "
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_long_island .dds"
+	}
+	spriteType = {
+		name = "totp_SL_loussiana"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_loussiana.dds"
+	}
+	spriteType = {
+		name = "totp_SL_maine"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_maine.dds"
+	}
+	spriteType = {
+		name = "totp_SL_maryland"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_maryland.dds"
+	}
+	spriteType = {
+		name = "totp_SL_massa"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_massa.dds"
+	}
+	spriteType = {
+		name = "totp_SL_miami"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_miami.dds"
+	}
+	spriteType = {
+		name = "totp_SL_michigan"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_michigan.dds"
+	}
+	spriteType = {
+		name = "totp_SL_minnesoda"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_minnesoda.dds"
+	}
+	spriteType = {
+		name = "totp_SL_mississippi"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_mississippi.dds"
+	}
+	spriteType = {
+		name = "totp_SL_missouri"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_missouri.dds"
+	}
+	spriteType = {
+		name = "totp_SL_nebraska"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_nebraska.dds"
+	}
+	spriteType = {
+		name = "totp_SL_nevada"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_nevada.dds"
+	}
+	spriteType = {
+		name = "totp_SL_new_hamshire"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_new_hamshire.dds"
+	}
+	spriteType = {
+		name = "totp_SL_new_jersey"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_new_jersey.dds"
+	}
+	spriteType = {
+		name = "totp_SL_new_mexico"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_new_mexico.dds"
+	}
+	spriteType = {
+		name = "totp_SL_new_york"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_new_york.dds"
+	}
+	spriteType = {
+		name = "totp_SL_north_car"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_north_car.dds"
+	}
+	spriteType = {
+		name = "totp_SL_ohio"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_ohio.dds"
+	}
+	spriteType = {
+		name = "totp_SL_oklahoma"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_oklahoma.dds"
+	}
+	spriteType = {
+		name = "totp_SL_oregon"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_oregon.dds"
+	}
+	spriteType = {
+		name = "totp_SL_penn"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_penn.dds"
+	}
+	spriteType = {
+		name = "totp_SL_polk"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_polk.dds"
+	}
+	spriteType = {
+		name = "totp_SL_rhode_island"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_rhode_island.dds"
+	}
+	spriteType = {
+		name = "totp_SL_shoshone"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_shoshone.dds"
+	}
+	spriteType = {
+		name = "totp_SL_south_car"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_south_car.dds"
+	}
+	spriteType = {
+		name = "totp_SL_superior"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_superior.dds"
+	}
+	spriteType = {
+		name = "totp_SL_tennessee"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_tennessee.dds"
+	}
+	spriteType = {
+		name = "totp_SL_texas"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_texas.dds"
+	}
+	spriteType = {
+		name = "totp_SL_vermont"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_vermont.dds"
+	}
+	spriteType = {
+		name = "totp_SL_virginia"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_virginia.dds"
+	}
+	spriteType = {
+		name = "totp_SL_w_florida"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_w_florida.dds"
+	}
+	spriteType = {
+		name = "totp_SL_walker"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_walker.dds"
+	}
+	spriteType = {
+		name = "totp_SL_washington"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_washington.dds"
+	}
+	spriteType = {
+		name = "totp_SL_wisconsin"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_wisconsin.dds"
+	}
+	spriteType = {
+		name = "totp_SL_yuctan"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_yuctan.dds"
+	}
+	spriteType = {
+		name = "totp_SL_yutia"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_SL_yutia.dds"
+	}
+	spriteType = {
+		name = "totp_WG_alabama"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_alabama.dds"
+	}
+	spriteType = {
+		name = "totp_WG_appalatia"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_appalatia.dds"
+	}
+	spriteType = {
+		name = "totp_WG_arizona"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_arizona.dds"
+	}
+	spriteType = {
+		name = "totp_WG_caddo"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_caddo.dds"
+	}
+	spriteType = {
+		name = "totp_WG_california"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_california.dds"
+	}
+	spriteType = {
+		name = "totp_WG_cheyene"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_cheyene.dds"
+	}
+	spriteType = {
+		name = "totp_WG_conn"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_conn.dds"
+	}
+	spriteType = {
+		name = "totp_WG_cuba"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_cuba.dds"
+	}
+	spriteType = {
+		name = "totp_WG_dallas"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_dallas.dds"
+	}
+	spriteType = {
+		name = "totp_WG_deleware"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_deleware.dds"
+	}
+	spriteType = {
+		name = "totp_WG_florida"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_florida.dds"
+	}
+	spriteType = {
+		name = "totp_WG_georgia"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_georgia.dds"
+	}
+	spriteType = {
+		name = "totp_WG_haiti"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_haiti.dds"
+	}
+	spriteType = {
+		name = "totp_WG_hamlin"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_hamlin.dds"
+	}
+	spriteType = {
+		name = "totp_WG_illinois"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_illinois.dds"
+	}
+	spriteType = {
+		name = "totp_WG_iowa"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_iowa.dds"
+	}
+	spriteType = {
+		name = "totp_WG_kansas"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_kansas.dds"
+	}
+	spriteType = {
+		name = "totp_WG_kentucky"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_kentucky.dds"
+	}
+	spriteType = {
+		name = "totp_WG_long_island "
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_long_island .dds"
+	}
+	spriteType = {
+		name = "totp_WG_loussiana"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_loussiana.dds"
+	}
+	spriteType = {
+		name = "totp_WG_maine"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_maine.dds"
+	}
+	spriteType = {
+		name = "totp_WG_maryland"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_maryland.dds"
+	}
+	spriteType = {
+		name = "totp_WG_massa"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_massa.dds"
+	}
+	spriteType = {
+		name = "totp_WG_miami"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_miami.dds"
+	}
+	spriteType = {
+		name = "totp_WG_michigan"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_michigan.dds"
+	}
+	spriteType = {
+		name = "totp_WG_minnesoda"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_minnesoda.dds"
+	}
+	spriteType = {
+		name = "totp_WG_mississippi"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_mississippi.dds"
+	}
+	spriteType = {
+		name = "totp_WG_missouri"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_missouri.dds"
+	}
+	spriteType = {
+		name = "totp_WG_nebraska"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_nebraska.dds"
+	}
+	spriteType = {
+		name = "totp_WG_nevada"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_nevada.dds"
+	}
+	spriteType = {
+		name = "totp_WG_new_hamshire"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_new_hamshire.dds"
+	}
+	spriteType = {
+		name = "totp_WG_new_jersey"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_new_jersey.dds"
+	}
+	spriteType = {
+		name = "totp_WG_new_mexico"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_new_mexico.dds"
+	}
+	spriteType = {
+		name = "totp_WG_new_york"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_new_york.dds"
+	}
+	spriteType = {
+		name = "totp_WG_north_car"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_north_car.dds"
+	}
+	spriteType = {
+		name = "totp_WG_ohio"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_ohio.dds"
+	}
+	spriteType = {
+		name = "totp_WG_oklahoma"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_oklahoma.dds"
+	}
+	spriteType = {
+		name = "totp_WG_oregon"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_oregon.dds"
+	}
+	spriteType = {
+		name = "totp_WG_penn"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_penn.dds"
+	}
+	spriteType = {
+		name = "totp_WG_polk"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_polk.dds"
+	}
+	spriteType = {
+		name = "totp_WG_rhode_island"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_rhode_island.dds"
+	}
+	spriteType = {
+		name = "totp_WG_shoshone"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_shoshone.dds"
+	}
+	spriteType = {
+		name = "totp_WG_south_car"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_south_car.dds"
+	}
+	spriteType = {
+		name = "totp_WG_superior"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_superior.dds"
+	}
+	spriteType = {
+		name = "totp_WG_tennessee"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_tennessee.dds"
+	}
+	spriteType = {
+		name = "totp_WG_texas"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_texas.dds"
+	}
+	spriteType = {
+		name = "totp_WG_vermont"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_vermont.dds"
+	}
+	spriteType = {
+		name = "totp_WG_virginia"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_virginia.dds"
+	}
+	spriteType = {
+		name = "totp_WG_w_florida"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_w_florida.dds"
+	}
+	spriteType = {
+		name = "totp_WG_walker"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_walker.dds"
+	}
+	spriteType = {
+		name = "totp_WG_washington"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_washington.dds"
+	}
+	spriteType = {
+		name = "totp_WG_wisconsin"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_wisconsin.dds"
+	}
+	spriteType = {
+		name = "totp_WG_yuctan"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_yuctan.dds"
+	}
+	spriteType = {
+		name = "totp_WG_yutia"
+		texturefile = "gfx/interface/TOTP_US_ELECTORAL_MAP/totp_WG_yutia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_us_pop_display_bg"
+		textureFile = "gfx/interface/TOTP_US_ELECTORAL_MAP/us_pop_display_bg.dds"
+	}
+}

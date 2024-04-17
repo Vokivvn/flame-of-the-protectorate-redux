@@ -1,0 +1,699 @@
+#   ██████╗ ███████╗██████╗ ███╗   ███╗ █████╗ ███╗   ██╗██╗   ██╗  #
+#  ██╔════╝ ██╔════╝██╔══██╗████╗ ████║██╔══██╗████╗  ██║╚██╗ ██╔╝  #
+#  ██║  ███╗█████╗  ██████╔╝██╔████╔██║███████║██╔██╗ ██║ ╚████╔╝   #
+#  ██║   ██║██╔══╝  ██╔══██╗██║╚██╔╝██║██╔══██║██║╚██╗██║  ╚██╔╝    #
+#  ╚██████╔╝███████╗██║  ██║██║ ╚═╝ ██║██║  ██║██║ ╚████║   ██║     #
+#   ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝     #
+#Shared Focuses
+
+########################
+# Germany Opening Tree #
+########################
+#Design: https://cdn.discordapp.com/attachments/628064968188624917/671584133847187475/eerstenationaldeutsch.png
+
+	## Opening
+		#Eerste Nationaldeutsche Wahl
+		shared_focus = {
+			id = GER_eerste_nationaldeutsche_wahl
+			icon = GFX_weed_master
+			cost = 5.00
+
+			x = 3
+			y = 0
+
+			completion_reward = {
+				log = "[GetDateText]: [Root.GetName]: Focus GER_eerste_nationaldeutsche_wahl"
+			}
+		}
+
+		#The Hand Dealt
+		shared_focus = {
+			id = GER_the_hand_dealt
+			icon = GFX_weed_master
+			cost = 5.00
+
+			prerequisite = { focus = GER_eerste_nationaldeutsche_wahl }
+			relative_position_id = GER_eerste_nationaldeutsche_wahl
+			x = 0
+			y = 1
+
+			completion_reward = {
+				log = "[GetDateText]: [Root.GetName]: Focus GER_the_hand_dealt"
+			}
+		}
+	#
+
+	## Radicals Subtree
+		#Handle The Radicals
+		shared_focus = {
+			id = GER_handle_the_radicals
+			icon = GFX_weed_master
+			cost = 5.00
+
+			prerequisite = { focus = GER_the_hand_dealt }
+			relative_position_id = GER_the_hand_dealt
+			x = -2
+			y = 1
+
+			completion_reward = {
+				log = "[GetDateText]: [Root.GetName]: Focus GER_handle_the_radicals"
+			}
+		}
+
+		#Cleaning House
+		shared_focus = {
+			id = GER_cleaning_house
+			icon = GFX_weed_master
+			cost = 5.00
+
+			prerequisite = { focus = GER_handle_the_radicals }
+			relative_position_id = GER_handle_the_radicals
+			x = 0
+			y = 1
+
+			completion_reward = {
+				log = "[GetDateText]: [Root.GetName]: Focus GER_cleaning_house"
+			}
+		}
+
+		#These Troubled Times
+		shared_focus = {
+			id = GER_these_troubled_times
+			icon = GFX_weed_master
+			cost = 5.00
+
+			prerequisite = { focus = GER_handle_the_radicals }
+			relative_position_id = GER_handle_the_radicals
+			x = -2
+			y = 1
+
+			completion_reward = {
+				log = "[GetDateText]: [Root.GetName]: Focus GER_these_troubled_times"
+			}
+		}
+
+		#The Southern Reaction
+		shared_focus = {
+			id = GER_the_southern_reaction
+			icon = GFX_weed_master
+			cost = 5.00
+
+			prerequisite = { focus = GER_these_troubled_times }
+			prerequisite = { focus = GER_cleaning_house }
+			relative_position_id = GER_cleaning_house
+			x = 0
+			y = 1
+
+			completion_reward = {
+				log = "[GetDateText]: [Root.GetName]: Focus GER_the_southern_reaction"
+			}
+		}
+	#
+
+	## Moderates Subtree
+		#Court the Moderates
+		shared_focus = {
+			id = GER_court_the_moderates
+			icon = GFX_weed_master
+			cost = 5.00
+
+			prerequisite = { focus = GER_the_hand_dealt }
+			relative_position_id = GER_the_hand_dealt
+			x = 0
+			y = 1
+
+			completion_reward = {
+				log = "[GetDateText]: [Root.GetName]: Focus GER_court_the_moderates"
+			}
+		}
+
+		#Pax Europa
+		shared_focus = {
+			id = GER_pax_europa
+			icon = GFX_weed_master
+			cost = 5.00
+
+			prerequisite = { focus = GER_court_the_moderates }
+			relative_position_id = GER_court_the_moderates
+			x = 0
+			y = 1
+
+			completion_reward = {
+				log = "[GetDateText]: [Root.GetName]: Focus GER_pax_europa"
+			}
+		}
+
+		#Patching the Holes
+		shared_focus = {
+			id = GER_patching_the_holes
+			icon = GFX_weed_master
+			cost = 5.00
+
+			prerequisite = { focus = GER_pax_europa }
+			relative_position_id = GER_pax_europa
+			x = 0
+			y = 1
+
+			completion_reward = {
+				log = "[GetDateText]: [Root.GetName]: Focus GER_patching_the_holes"
+			}
+		}
+	#
+
+	## Royalist Subtree
+		#Assure the Princes
+		shared_focus = {
+			id = GER_assure_the_princes
+			icon = GFX_weed_master
+			cost = 5.00
+
+			prerequisite = { focus = GER_the_hand_dealt }
+			relative_position_id = GER_the_hand_dealt
+			x = 2
+			y = 1
+
+			completion_reward = {
+				log = "[GetDateText]: [Root.GetName]: Focus GER_assure_the_princes"
+			}
+		}
+
+		#Spick and Span
+		shared_focus = {
+			id = GER_spick_and_span
+			icon = GFX_weed_master
+			cost = 5.00
+
+			prerequisite = { focus = GER_assure_the_princes }
+			relative_position_id = GER_assure_the_princes
+			x = 0
+			y = 1
+
+			completion_reward = {
+				log = "[GetDateText]: [Root.GetName]: Focus GER_spick_and_span"
+			}
+		}
+
+		#Expand Assurances
+		shared_focus = {
+			id = GER_expand_assurances
+			icon = GFX_weed_master
+			cost = 5.00
+
+			prerequisite = { focus = GER_assure_the_princes }
+			relative_position_id = GER_assure_the_princes
+			x = 2
+			y = 1
+
+			completion_reward = {
+				log = "[GetDateText]: [Root.GetName]: Focus GER_expand_assurances"
+			}
+		}
+
+		#The Haunt of Radicalism
+		shared_focus = {
+			id = GER_the_haunt_of_radicalism
+			icon = GFX_weed_master
+			cost = 5.00
+
+			prerequisite = { focus = GER_expand_assurances }
+			prerequisite = { focus = GER_spick_and_span }
+			relative_position_id = GER_spick_and_span
+			x = 0
+			y = 1
+
+			completion_reward = {
+				log = "[GetDateText]: [Root.GetName]: Focus GER_the_haunt_of_radicalism"
+			}
+		}
+	#
+
+	### Closing Subtree
+		#Roll the Die
+		shared_focus = {
+			id = GER_roll_the_die
+			icon = GFX_weed_master
+			cost = 5.00
+
+			prerequisite = { focus = GER_the_southern_reaction }
+			prerequisite = { focus = GER_patching_the_holes }
+			prerequisite = { focus = GER_the_haunt_of_radicalism }
+			relative_position_id = GER_patching_the_holes
+			x = 0
+			y = 1
+
+			completion_reward = {
+				log = "[GetDateText]: [Root.GetName]: Focus GER_roll_the_die"
+			}
+		}
+
+		## VPD-N Victory
+			#Du Rhein Bleibst Deutsch
+			shared_focus = {
+				id = GER_du_rhein_bleibst_deutsch
+				icon = GFX_weed_master
+				cost = 5.00
+
+				allow_branch = { has_country_flag = VPDN_Victory }
+
+				prerequisite = { focus = GER_roll_the_die }
+				relative_position_id = GER_roll_the_die
+				x = 0
+				y = 1
+
+				completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus GER_du_rhein_bleibst_deutsch"
+				}
+			}
+
+			#Germania Fordert
+			shared_focus = {
+				id = GER_germania_fordert
+				icon = GFX_weed_master
+				cost = 5.00
+
+				prerequisite = { focus = GER_du_rhein_bleibst_deutsch }
+				relative_position_id = GER_du_rhein_bleibst_deutsch
+				x = 0
+				y = 1
+
+				completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus GER_germania_fordert"
+				}
+			}
+		#
+
+		## SAPD Victory
+			#Die Verdammten
+			shared_focus = {
+				id = GER_die_verdammten
+				icon = GFX_weed_master
+				cost = 5.00
+
+				allow_branch = { has_country_flag = SAPD_Victory }
+
+				prerequisite = { focus = GER_roll_the_die }
+				relative_position_id = GER_roll_the_die
+				x = 0
+				y = 1
+
+				completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus GER_die_verdammten"
+				}
+			}
+
+			#The Specter Enters
+			shared_focus = {
+				id = GER_the_specter_enters
+				icon = GFX_weed_master
+				cost = 5.00
+
+				prerequisite = { focus = GER_die_verdammten }
+				relative_position_id = GER_die_verdammten
+				x = 0
+				y = 1
+
+				completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus GER_the_specter_enters"
+				}
+			}
+		#
+
+		## DAP Victory
+			#Freiheit Beckons
+			shared_focus = {
+				id = GER_freiheit_beckons
+				icon = GFX_weed_master
+				cost = 5.00
+
+				allow_branch = { has_country_flag = DAP_Victory }
+
+				prerequisite = { focus = GER_roll_the_die }
+				relative_position_id = GER_roll_the_die
+				x = 0
+				y = 1
+
+				completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus GER_freiheit_beckons"
+				}
+			}
+
+			#Gegen Reaktion, Imperialismus, und Kommunismus
+			shared_focus = {
+				id = GER_gegen_reaktion_imperialismus_und_kommunismus
+				icon = GFX_weed_master
+				cost = 5.00
+
+				prerequisite = { focus = GER_freiheit_beckons }
+				relative_position_id = GER_freiheit_beckons
+				x = 0
+				y = 1
+
+				completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus GER_gegen_reaktion_imperialismus_und_kommunismus"
+				}
+			}
+		#
+
+		## DEP Victory
+			#Einigkeit Reigns
+			shared_focus = {
+				id = GER_einigkeit_reigns
+				icon = GFX_weed_master
+				cost = 5.00
+
+				allow_branch = { has_country_flag = DEP_Victory }
+
+				prerequisite = { focus = GER_roll_the_die }
+				relative_position_id = GER_roll_the_die
+				x = 0
+				y = 1
+
+				completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus GER_einigkeit_reigns"
+				}
+			}
+
+			#The Tower
+			shared_focus = {
+				id = GER_the_tower
+				icon = GFX_weed_master
+				cost = 5.00
+
+				prerequisite = { focus = GER_einigkeit_reigns }
+				relative_position_id = GER_einigkeit_reigns
+				x = 0
+				y = 1
+
+				completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus GER_the_tower"
+				}
+			}
+		#
+
+		## DEP-R Victory
+			#Recht Commands
+			shared_focus = {
+				id = GER_recht_commands
+				icon = GFX_weed_master
+				cost = 5.00
+
+				allow_branch = { has_country_flag = DEPR_Victory }
+
+				prerequisite = { focus = GER_roll_the_die }
+				relative_position_id = GER_roll_the_die
+				x = 0
+				y = 1
+
+				completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus GER_recht_commands"
+				}
+			}
+
+			#Die Wacht Am Rhein
+			shared_focus = {
+				id = GER_die_wacht_am_rhein_DEPR
+				icon = GFX_weed_master
+				cost = 5.00
+
+				prerequisite = { focus = GER_recht_commands }
+				relative_position_id = GER_recht_commands
+				x = 0
+				y = 1
+
+				completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus GER_die_wacht_am_rhein_DEPR"
+				}
+			}
+		#
+
+		## VPD-C Victory
+			#Der Siegerkranz
+			shared_focus = {
+				id = GER_der_siegerkranz
+				icon = GFX_weed_master
+				cost = 5.00
+
+				allow_branch = { has_country_flag = VPDC_Victory }
+
+				prerequisite = { focus = GER_roll_the_die }
+				relative_position_id = GER_roll_the_die
+				x = 0
+				y = 1
+
+				completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus GER_der_siegerkranz"
+				}
+			}
+
+			#Gott Strafe Frankreich
+			shared_focus = {
+				id = GER_gott_strafe_frankreich
+				icon = GFX_weed_master
+				cost = 5.00
+
+				prerequisite = { focus = GER_der_siegerkranz }
+				relative_position_id = GER_der_siegerkranz
+				x = 0
+				y = 1
+
+				completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus GER_gott_strafe_frankreich"
+				}
+			}
+		#
+	#
+#
+
+###############################
+# Stresemann's Diplomacy Tree #
+###############################
+#Design:
+	#Stresemann's Diplomacy
+	shared_focus = {
+		id = GER_stresemanns_diplomacy
+		icon = GFX_weed_master
+		cost = 5.00
+
+		#relative_position_id = GER_the_political_sinkhole
+		x = 15
+		y = 0
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GER_stresemanns_diplomacy"
+			
+		}
+	}
+
+	## Commonwealth Conflict Subtree
+		#The Commonwealth Conflict
+		shared_focus = {
+			id = GER_the_commonwealth_conflict
+			icon = GFX_weed_master
+			cost = 5.00
+
+			prerequisite = { focus = GER_stresemanns_diplomacy }
+			relative_position_id = GER_stresemanns_diplomacy
+			x = -4
+			y = 1
+
+			completion_reward = {
+				log = "[GetDateText]: [Root.GetName]: Focus GER_the_commonwealth_conflict"
+				
+			}
+		}
+
+		#Take In Refugees
+		shared_focus = {
+			id = GER_take_in_refugees
+			icon = GFX_weed_master
+			cost = 5.00
+
+			prerequisite = { focus = GER_the_commonwealth_conflict }
+			relative_position_id = GER_the_commonwealth_conflict
+			x = -2
+			y = 1
+
+			completion_reward = {
+				log = "[GetDateText]: [Root.GetName]: Focus GER_take_in_refugees"
+				
+			}
+		}
+
+		#Arm the Poles
+		shared_focus = {
+			id = GER_arm_the_poles
+			icon = GFX_weed_master
+			cost = 5.00
+
+			prerequisite = { focus = GER_the_commonwealth_conflict }
+			relative_position_id = GER_the_commonwealth_conflict
+			x = 0
+			y = 1
+
+			completion_reward = {
+				log = "[GetDateText]: [Root.GetName]: Focus GER_arm_the_poles"
+				
+			}
+		}
+
+		#Sabotage on the Lithuanian Border
+		shared_focus = {
+			id = GER_sabotage_on_the_lithuanian_border
+			icon = GFX_weed_master
+			cost = 5.00
+
+			prerequisite = { focus = GER_the_commonwealth_conflict }
+			relative_position_id = GER_the_commonwealth_conflict
+			x = 2
+			y = 1
+
+			completion_reward = {
+				log = "[GetDateText]: [Root.GetName]: Focus GER_sabotage_on_the_lithuanian_border"
+				
+			}
+		}
+
+		#Negotiate for Territories
+		shared_focus = {
+			id = GER_negotiate_for_territories
+			icon = GFX_weed_master
+			cost = 5.00
+
+			prerequisite = { focus = GER_take_in_refugees }
+			prerequisite = { focus = GER_arm_the_poles }
+			prerequisite = { focus = GER_sabotage_on_the_lithuanian_border }
+			relative_position_id = GER_arm_the_poles
+			x = 0
+			y = 1
+
+			completion_reward = {
+				log = "[GetDateText]: [Root.GetName]: Focus GER_negotiate_for_territories"
+				
+			}
+		}
+	#
+
+	## Die Wacht am Rhein Subtree
+		#Die Wacht am Rhein
+		shared_focus = {
+			id = GER_die_wacht_am_rhein
+			icon = GFX_weed_master
+			cost = 5.00
+
+			prerequisite = { focus = GER_stresemanns_diplomacy }
+			relative_position_id = GER_stresemanns_diplomacy
+			x = 0
+			y = 1
+
+			completion_reward = {
+				log = "[GetDateText]: [Root.GetName]: Focus GER_die_wacht_am_rhein"
+				
+			}
+		}
+
+		#Protect Ruhr Industry
+		shared_focus = {
+			id = GER_protect_ruhr_industry
+			icon = GFX_weed_master
+			cost = 5.00
+
+			prerequisite = { focus = GER_die_wacht_am_rhein }
+			relative_position_id = GER_die_wacht_am_rhein
+			x = 0
+			y = 1
+
+			completion_reward = {
+				log = "[GetDateText]: [Root.GetName]: Focus GER_protect_ruhr_industry"
+				
+			}
+		}
+
+		#Fortify the French Border
+		shared_focus = {
+			id = GER_fortify_the_french_border
+			icon = GFX_weed_master
+			cost = 5.00
+
+			prerequisite = { focus = GER_protect_ruhr_industry }
+			relative_position_id = GER_protect_ruhr_industry
+			x = 0
+			y = 1
+
+			completion_reward = {
+				log = "[GetDateText]: [Root.GetName]: Focus GER_fortify_the_french_border"
+				
+			}
+		}
+	#
+
+	### Meet with Chamberlain Subtree ###
+		#Meet with Chamberlain
+		shared_focus = {
+			id = GER_meet_with_chamberlain
+			icon = GFX_weed_master
+			cost = 5.00
+
+			prerequisite = { focus = GER_stresemanns_diplomacy }
+			relative_position_id = GER_stresemanns_diplomacy
+			x = 3
+			y = 1
+
+			completion_reward = {
+				log = "[GetDateText]: [Root.GetName]: Focus GER_meet_with_chamberlain"
+				
+			}
+		}
+
+		#Intellectual Exchange
+		shared_focus = {
+			id = GER_intellectual_exchange
+			icon = GFX_weed_master
+			cost = 5.00
+
+			prerequisite = { focus = GER_meet_with_chamberlain }
+			relative_position_id = GER_meet_with_chamberlain
+			x = -1
+			y = 1
+
+			completion_reward = {
+				log = "[GetDateText]: [Root.GetName]: Focus GER_intellectual_exchange"
+				
+			}
+		}
+
+		#Ties with London Business
+		shared_focus = {
+			id = GER_ties_with_london_business
+			icon = GFX_weed_master
+			cost = 5.00
+
+			prerequisite = { focus = GER_meet_with_chamberlain }
+			relative_position_id = GER_meet_with_chamberlain
+			x = 1
+			y = 1
+
+			completion_reward = {
+				log = "[GetDateText]: [Root.GetName]: Focus GER_ties_with_london_business"
+				
+			}
+		}
+
+		#Worldwide Republican Movement
+		shared_focus = {
+			id = GER_worldwide_republican_movement
+			icon = GFX_weed_master
+			cost = 5.00
+
+			prerequisite = { focus = GER_intellectual_exchange }
+			prerequisite = { focus = GER_ties_with_london_business }
+			relative_position_id = GER_intellectual_exchange
+			x = 1
+			y = 1
+
+			completion_reward = {
+				log = "[GetDateText]: [Root.GetName]: Focus GER_worldwide_republican_movement"
+				
+			}
+		}
+	#
+#

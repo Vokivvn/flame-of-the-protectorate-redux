@@ -1,0 +1,23 @@
+RAJ_move_into_kathmandu = {
+	enable = {
+		original_tag = RAJ
+		country_exists = KAT
+	}
+	ai_strategy = {
+		type = protect
+		tag = KAT
+	}
+	abort_when_not_enabled = yes
+}
+
+RAJ_move_into_gorkha = {
+	enable = {
+		original_tag = RAJ
+		country_exists = NEP
+	}
+	ai_strategy = {
+		type = protect
+		tag = NEP
+	}
+	abort_when_not_enabled = yes
+}

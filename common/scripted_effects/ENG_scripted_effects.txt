@@ -1,0 +1,85 @@
+ENG_conservatives_gain_popularity = {
+	add_to_variable = { conservative_popularity = 1 }
+	custom_effect_tooltip = eng_conservative_boast
+}
+
+ENG_conservatives_lose_popularity = {
+	add_to_variable = { conservative_popularity = -1 }
+	custom_effect_tooltip = eng_conservative_malus
+}
+
+ENG_progressives_gain_popularity = {
+	add_to_variable = { progressive_popularity = 1 }
+	custom_effect_tooltip = eng_progressive_boast
+}
+
+ENG_progressives_lose_popularity = {
+	add_to_variable = { progressive_popularity = -1 }
+	custom_effect_tooltip = eng_progressive_malus
+}
+
+ENG_republican_gain_popularity = {
+	add_to_variable = { republican_popularity = 1 }
+	custom_effect_tooltip = eng_republican_boast
+}
+
+ENG_republican_lose_popularity = {
+	add_to_variable = { republican_popularity = -1 }
+	custom_effect_tooltip = eng_republican_malus
+}
+
+ENG_liberals_gain_popularity = {
+	add_to_variable = { liberals_popularity = 1 }
+	custom_effect_tooltip = eng_liberal_boast
+}
+
+ENG_liberals_lose_popularity = {
+	add_to_variable = { liberals_popularity = -1 }
+	custom_effect_tooltip = eng_liberal_malus
+}
+
+ENG_the_winner_is = {
+	if = { #Cuckservative victory
+		limit = {
+			AND = {
+				check_variable = { conservative_popularity > liberals_popularity }
+				check_variable = { conservative_popularity > progressive_popularity }
+				check_variable = { conservative_popularity > republican_popularity }
+			}
+		}
+		country_event = { id = ENG.15 days = 1 }
+	}
+
+	if = { #Libtard victory
+		limit = {
+			AND = {
+				check_variable = { conservative_popularity < liberals_popularity }
+				check_variable = { liberals_popularity > progressive_popularity }
+				check_variable = { liberals_popularity > republican_popularity }
+			}
+		}
+		country_event = { id = ENG.16 days = 1 }
+	}
+
+	if = { #Ew Mosley
+		limit = {
+			AND = {
+				check_variable = { conservative_popularity < republican_popularity }
+				check_variable = { republican_popularity > progressive_popularity }
+				check_variable = { liberals_popularity < republican_popularity }
+			}
+		}
+		country_event = { id = ENG.18 days = 1 }
+	}
+
+	if = { #AMAT
+		limit = {
+			AND = {
+				check_variable = { conservative_popularity < progressive_popularity }
+				check_variable = { republican_popularity < progressive_popularity }
+				check_variable = { liberals_popularity < progressive_popularity }
+			}
+		}
+		country_event = { id = ENG.17 days = 1 }
+	}
+}

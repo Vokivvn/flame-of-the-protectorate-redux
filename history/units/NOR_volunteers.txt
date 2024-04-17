@@ -1,0 +1,24 @@
+division_template = {
+	name = "Foreign Volunteers"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = { 
+		name =  "Foreign volunteers"
+		location = 122  # Bergen
+		division_template = "Foreign Volunteers"
+		start_experience_factor = 0.10
+	}
+	division = { 
+		name =  "Foreign volunteers"
+		location = 53  # Stavanger
+		division_template = "Foreign Volunteers"
+		start_experience_factor = 0.10
+	}
+	
+}	

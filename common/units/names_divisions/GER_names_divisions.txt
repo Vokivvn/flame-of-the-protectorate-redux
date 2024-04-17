@@ -1,0 +1,460 @@
+﻿
+### Reichsheer
+
+#Reichsinfanteriedivision
+GER_INF_01 = {
+	name = "Reichsheer Infantry Divisions"
+
+	for_countries = { GER }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Reichsinfanteriedivision"
+
+	ordered = {
+		1 = { "%d. Reichsinfanteriedivision" }
+		2 = { "%d. Reichsinfanteriedivision" }
+		3 = { "%d. Reichsinfanteriedivision" }
+		4 = { "%d. Reichsinfanteriedivision" }
+	}
+}
+
+#Reichswache
+GER_INF_02 = {
+	name = "Reichsheer Guards"
+
+	for_countries = { GER }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "Reichswache %d"
+
+	ordered = {
+		1 = { "Reichswache Gelsenkirchen" }
+		2 = { "Reichswache Berlin" }
+		3 = { "Reichswache Bremerhaven" }
+		4 = { "Reichswache Offenbach am Main" }
+		5 = { "Reichswache Oberhausen" }
+		6 = { "Reichswache Ulm" }
+		7 = { "Reichswache München" }
+		8 = { "Reichswache Dresden" }
+		9 = { "Reichswache Bochum" }
+		10 = { "Reichswache Halle" }
+		11 = { "Reichswache Lübeck" }
+		12 = { "Reichswache Münster" }
+		13 = { "Reichswache Bonn" }
+		14 = { "Reichswache Mülheim an der Ruhr" }
+		15 = { "Reichswache Leipzig" }
+		16 = { "Reichswache Recklinghausen" }
+		17 = { "Reichswache Hamm" }
+		18 = { "Reichswache Göttingen" }
+		19 = { "Reichswache Stuttgart" }
+		20 = { "Reichswache Mönchengladbach" }
+		21 = { "Reichswache Solingen" }
+		22 = { "Reichswache Siegen" }
+		23 = { "Reichswache Moers" }
+		24 = { "Reichswache Oldenburg" }
+		25 = { "Reichswache Frankfurt am Main" }
+		26 = { "Reichswache Jena" }
+		27 = { "Reichswache Chemnitz" }
+		28 = { "Reichswache Herne" }
+		29 = { "Reichswache Mannheim" }
+		30 = { "Reichswache Kassel" }
+		31 = { "Reichswache Gütersloh" }
+		32 = { "Reichswache Köln" }
+		33 = { "Reichswache Rostock" }
+		34 = { "Reichswache Würzburg" }
+		35 = { "Reichswache Cottbus" }
+		36 = { "Reichswache Koblenz" }
+		37 = { "Reichswache Ingolstadt" }
+		38 = { "Reichswache Pforzheim" }
+		39 = { "Reichswache Augsburg" }
+		40 = { "Reichswache Krefeld" }
+		41 = { "Reichswache Heidelberg" }
+		42 = { "Reichswache Ludwigshafen am Rhein" }
+		43 = { "Reichswache Saarbrücken" }
+		44 = { "Reichswache Bergisch Gladbach" }
+		45 = { "Reichswache Remscheid" }
+		46 = { "Reichswache Leverkusen" }
+		47 = { "Reichswache Salzgitter" }
+		48 = { "Reichswache Hagen" }
+		49 = { "Reichswache Osnabrück" }
+		50 = { "Reichswache Regensburg" }
+		51 = { "Reichswache Magdeburg" }
+		52 = { "Reichswache Darmstadt" }
+		53 = { "Reichswache Trier" }
+		54 = { "Reichswache Braunschweig" }
+		55 = { "Reichswache Erfurt" }
+		56 = { "Reichswache Kiel" }
+		57 = { "Reichswache Reutlingen" }
+		58 = { "Reichswache Hannover" }
+		59 = { "Reichswache Neuss" }
+		60 = { "Reichswache Heilbronn" }
+		61 = { "Reichswache Mainz" }
+		62 = { "Reichswache Erlangen" }
+		63 = { "Reichswache Paderborn" }
+		64 = { "Reichswache Duisburg" }
+		65 = { "Reichswache Wolfsburg" }
+		66 = { "Reichswache Potsdam" }
+		67 = { "Reichswache Bielefeld" }
+		68 = { "Reichswache Freiburg im Breisgau" }
+		69 = { "Reichswache Aachen" }
+		70 = { "Reichswache Hildesheim" }
+		71 = { "Reichswache Dortmund" }
+		72 = { "Reichswache Fürth" }
+		73 = { "Reichswache Bottrop" }
+		74 = { "Reichswache Karlsruhe" }
+		75 = { "Reichswache Düsseldorf" }
+		76 = { "Reichswache Hamburg" }
+		77 = { "Reichswache Wuppertal" }
+		78 = { "Reichswache Wiesbaden" }
+		79 = { "Reichswache Nürnberg" }
+		80 = { "Reichswache Essen" }
+		81 = { "Reichswache Bremen" }
+	}
+}
+
+#Reichsmilizdivision
+GER_MIL_01 = {
+	name = "Reichsheer Militia Divisions"
+
+	for_countries = { GER }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Reichsmilizdivision"
+
+	ordered = {
+		1 = { "%d. Reichsmilizdivision" }
+		2 = { "%d. Reichsmilizdivision" }
+	    3 = { "%d. Reichsmilizdivision" }
+	    4 = { "%d. Reichsmilizdivision" }
+	}
+}
+
+#Reichskavalleriedivision
+GER_CAV_01 = {
+	name = "Reichsheer Cavalry Divisions"
+
+	for_countries = { GER }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry"  }
+
+	fallback_name = "%d. Reichskavalleriedivision"
+
+	ordered = {
+		1 = { "%d. Reichskavalleriedivision" }
+		2 = { "%d. Reichskavalleriedivision" }
+		3 = { "%d. Reichskavalleriedivision" }
+		4 = { "%d. Reichskavalleriedivision" }
+	}
+}
+
+#Reichs Leichten Division
+GER_MOT_01 = {
+	name = "Reichsheer Light Divisions"
+
+	for_countries = { GER }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	fallback_name = "%d. Reichs Leichte-Division"
+
+	link_numbering_with = { GER_Inf_01 }
+
+	# Names with numbers (only one number per entry)
+	ordered = {
+		1 = { "%d. Reichs Leichte-Division" }
+		2 = { "%d. Reichs Leichte-Division" }
+		3 = { "%d. Reichs Leichte-Division" }
+		4 = { "%d. Reichs Leichte-Division" }
+	}
+}
+
+#Reichsinfanteriedivision (mot.)
+GER_MOT_02 = {
+	name = "Reichsheer Motorized Divisions"
+
+	for_countries = { GER }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	fallback_name = "%d. Reichsinfanteriedivision (mot.)" 
+
+	link_numbering_with = { GER_Inf_01 }
+
+	# Names with numbers (only one number per entry)
+	ordered = {
+		1 = { "%d. Reichsinfanteriedivision (mot.)" }
+		2 = { "%d. Reichsinfanteriedivision (mot.)" }
+		3 = { "%d. Reichsinfanteriedivision (mot.)" }
+		4 = { "%d. Reichsinfanteriedivision (mot.)" }
+	}
+}
+
+GER_MEC_01 = {
+	name = "Panzergrenadier Divisions"
+
+	for_countries = { GER }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized"  }
+
+	fallback_name = "%d. Panzergrenadier-Division"
+
+	link_numbering_with = { GER_Inf_01 }
+
+	# Names with numbers (only one number per entry)
+	ordered =
+	{
+		932 = { "Panzer-Grenadier-Division Großdeutschland" }
+		10 = { "%d. Panzer-Grenadier-Division" }
+		60 = { "Panzer-Grenadier-Division Feldherrnhalle" }
+		3 = { "%d. Panzer-Grenadier-Division" }
+		16 = { "%d. Panzer-Grenadier-Division" }
+		18 = { "%d. Panzer-Grenadier-Division" }
+		25 = { "%d. Panzer-Grenadier-Division" }
+		29 = { "%d. Panzer-Grenadier-Division" }
+		90 = { "%d. Panzer-Grenadier-Division" }
+		15 = { "%d. Panzer-Grenadier-Division" }
+		20 = { "%d. Panzer-Grenadier-Division" }
+		931 = { "Panzer-Grenadier-Division Brandenburg" }
+		933 = { "Fallschirm-Panzergrenadier-Division 2 Hermann Göring" }
+		936 = { "Führer-Begleit-Division" }
+		935 = { "Führer-Grenadier-Division" }
+		934 = { "Panzer-Grenadier-Division Kurmark" }
+		
+		# put all divisions titled "Panzergrenadier" in this list to avoid confusion, even though some (GD, Brandenburg, etc) were full Panzer Divisions in organization.
+		
+	}
+}
+
+GER_MNT_01 = {
+	name = "Mountain Divisions"
+
+	for_countries = { GER }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers"  }
+
+	fallback_name = "%d. Gebirgs-Division"
+
+	# Names with numbers (only one number per entry)
+	ordered =
+	{
+		2 = { "%d. Gebirgs-Division" }
+		3 = { "%d. Gebirgs-Division" }
+		1 = { "%d. Gebirgs-Division" }
+		6 = { "%d. Gebirgs-Division" }
+		4 = { "%d. Gebirgs-Division" }
+		5 = { "%d. Gebirgs-Division" }
+		7 = { "%d. Gebirgs-Division" }
+		188 = { "%d. Gebirgs-Division" }
+		937 = { "1. Ski-Jäger-Division" }
+		8 = { "%d. Gebirgs-Division" }
+	}
+}
+
+GER_MAR_01 = {
+	name = "Marine Divisions"
+
+	for_countries = { GER }
+
+	can_use = { always = yes }
+
+	division_types = { "marine"  }
+
+	fallback_name = "%d. Seelande-Division"
+
+	ordered = {
+		1 = { "%d. Seelande-Division" }
+		2 = { "%d. Seelande-Division" }
+		3 = { "%d. Seelande-Division" }
+		4 = { "%d. Seelande-Division" }
+		5 = { "%d. Seelande-Division" }
+	}
+}
+
+GER_PAR_01 = {
+	name = "Paratrooper Divisions"
+
+	for_countries = { GER }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper"  }
+
+	fallback_name = "%d. Fallschirmjäger-Division"
+
+	ordered = {
+		1 = { "%d. Fallschirmjäger-Division" }
+		2 = { "%d. Fallschirmjäger-Division" }
+		3 = { "%d. Fallschirmjäger-Division" }
+		4 = { "%d. Fallschirmjäger-Division" }
+		5 = { "%d. Fallschirmjäger-Division" }
+		6 = { "%d. Fallschirmjäger-Division" }
+		7 = { "%d. Fallschirmjäger-Division" }
+		8 = { "%d. Fallschirmjäger-Division" }
+		9 = { "%d. Fallschirmjäger-Division" }
+		10 = { "%d. Fallschirmjäger-Division" }
+		11 = { "%d. Fallschirmjäger-Division" }
+		20 = { "%d. Fallschirmjäger-Division" }
+	}
+}
+
+GER_GAR_01 = {
+	name = "Garrison Divisions"
+
+	for_countries = { GER }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry"  }
+
+	fallback_name = "%d. Sicherungs-Division"
+
+	link_numbering_with = { GER_Inf_01 }
+
+	ordered = {
+		539 = { "Divisionsstab z.b.V. 539" }
+		540 = { "Divisionsstab z.b.V. 540" }
+		442 = { "Divisionsstab z.b.V. 442" }
+		431 = { "Divisionsstab z.b.V. 431" }
+		429 = { "Divisionsstab z.b.V. 429" }
+		428 = { "Divisionsstab z.b.V. 428" }
+		430 = { "Divisionsstab z.b.V. 430" }
+		432 = { "Divisionsstab z.b.V. 432" }
+		207 = { "%d. Sicherungs-Division" }
+		213 = { "%d. Sicherungs-Division" }
+		221 = { "%d. Sicherungs-Division" }
+		281 = { "%d. Sicherungs-Division" }
+		285 = { "%d. Sicherungs-Division" }
+		286 = { "%d. Sicherungs-Division" }
+		403 = { "%d. Sicherungs-Division" }
+		444 = { "%d. Sicherungs-Division" }
+		454 = { "%d. Sicherungs-Division" }
+		230 = { "%d. Festungs-Infanterie-Division" } 
+		201 = { "%d. Sicherungs-Division" }
+		203 = { "%d. Sicherungs-Division" }
+		210 = { "%d. Festungs-Infanterie-Division" } 
+		325 = { "%d. Sicherungs-Division" }
+		391 = { "%d. Feldausbildungs-Division" }
+		390 = { "%d. Feldausbildungs-Division" }
+		381 = { "%d. Feldausbildungs-Division" }
+		382 = { "%d. Feldausbildungs-Division" }
+		388 = { "%d. Feldausbildungs-Division" }
+		154 = { "%d. Reserve-Division" }
+		26 = { "174. Reserve-Division" }
+		143 = { "%d. Reserve-Division" }
+		68 = { "141. Reserve-Division" }
+		151 = { "%d. Reserve-Division" }
+		189 = { "%d. Reserve-Division" }
+		363 = { "147. Reserve-Division" }
+		148 = { "%d. Reserve-Division" }
+		8 = { "157. Reserve-Division" }
+		16 = { "158. Reserve-Division" }
+		159 = { "%d. Reserve-Division" }
+		48 = { "171. Reserve-Division" }
+		42 = { "187. Reserve-Division" }
+		49 = { "191. Reserve-Division" }
+		70 = { "165. Reserve-Division" }
+		47 = { "156. Reserve-Division" }
+		182 = { "%d. Reserve-Division" }
+		153 = { "%d. Feldausbildungs-Division" }
+		173 = { "%d. Reserve-Division" }
+		188 = { "%d. Reserve-Gebirgs-Division" }
+		166 = { "%d. Reserve-Division" }
+		160 = { "%d. Reserve-Division" }
+		41 = { "%d. Festungs-Division" }
+		133 = { "%d. Festungs-Division" }
+		956 = { "Freiwilligen Stamm-Division" }
+		52 = { "%d. Sicherungs-Division" }
+		300 = { "Divisionsstab z.b.V. 300" }
+		331 = { "Divisionsstab z.b.V. 331" }
+		140 = { "Divisionsstab z.b.V. 140" }
+		604 = { "Division z.b.V. 604" }
+		601 = { "Division z.b.V. 601" }
+		602 = { "Division z.b.V. 602" }
+		603 = { "Division z.b.V. 603" }
+		155 = { "%d. Feldausbildungs-Division" }
+		605 = { "Division z.b.V. 605" }
+		606 = { "Division z.b.V. 606" }
+		607 = { "Division z.b.V. 607" }
+		608 = { "Division z.b.V. 608" }
+		950 = { "Festungs-Division Danzig" }
+		951 = { "Festungs-Division Frankfurt/Oder" }
+		952 = { "Festungs-Division Gotenhafen" }
+		954 = { "Festungs-Division Swinemünde" }
+		609 = { "Division z.b.V. 609" }
+		610 = { "Division z.b.V. 610" }
+		612 = { "Division z.b.V. 612" }
+		613 = { "Division z.b.V. 613" }
+		615 = { "Division z.b.V. 615" }
+		955 = { "Division z.b.V. (L)" }
+		616 = { "Division z.b.V. 616" }
+		617 = { "Division z.b.V. 617" }
+		618 = { "Division z.b.V. 618" }
+		402 = { "Ausbildungs-Division 402" }
+		404 = { "%d. Ersatz u. Ausbildungs-Division" }
+		464 = { "Ausbildungs-Division 464" }
+		158 = { "%d. Feldausbildungs-Division" }
+		953 = { "Festungs-Division Stettin" }
+		619 = { "Division z.b.V. 619" }
+	}
+}
+
+GER_ARM_01 = {
+	name = "Panzer Divisions"
+
+	for_countries = { GER }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	fallback_name = "%d. Panzer-Division"
+
+	# Names with numbers (only one number per entry)
+	ordered = {
+		1 = { "%d. Panzer-Division" }
+		2 = { "%d. Panzer-Division" }
+		3 = { "%d. Panzer-Division" }
+		4 = { "%d. Panzer-Division" }
+	}
+}
+
+GER_LTARM_01 = {
+	name = "Light Divisions"
+
+	for_countries = { GER }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" }
+
+	fallback_name = "%d. leichte-Division"
+	
+	link_numbering_with = { GER_Arm_01 }
+
+	# Names with numbers (only one number per entry)
+	ordered = {
+		1 = { "%d. leichte-Division" }
+		2 = { "%d. leichte-Division" }
+		3 = { "%d. leichte-Division" }
+		4 = { "%d. leichte-Division" }	
+	}
+}

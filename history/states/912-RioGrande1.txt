@@ -1,0 +1,21 @@
+state={
+	id=912
+	name="STATE_912"
+	provinces={
+		5015 13088 5021 2083 12721
+	}
+	
+	history={
+		owner = RIO
+		add_core_of = RIO
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			5015 5
+		}
+	}
+	manpower=417491
+	buildings_max_level_factor=1.000
+	state_category=town
+}

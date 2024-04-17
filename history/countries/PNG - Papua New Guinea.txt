@@ -1,0 +1,23 @@
+﻿capital = 523
+
+set_politics = {
+	ruling_party = republicanism
+	last_election = "1935.6.9"
+	election_frequency = 12
+	elections_allowed = yes # none after offset 1
+}
+
+set_popularities = {
+	republicanism = 100
+}
+
+create_country_leader = {
+	name = "Francis de Groot"
+	desc = "POLITICS_Francis_de_Groot_DESC"
+	picture = "Portrait_Lawrencia_Francis_de_Groot.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democracy
+	traits = {
+		#
+	}
+}

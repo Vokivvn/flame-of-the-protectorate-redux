@@ -1,0 +1,27 @@
+state={
+	id=980
+	name="STATE_980"
+
+	state_category = town
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = ETH
+		
+		victory_points = { 
+			7980 1.0 
+		}
+		victory_points = { 
+			5068 1
+		}
+	}
+	
+	provinces={
+		7980 12714 12757 4995 2063 12812 5068 12814 8094 1905
+	}
+	manpower= 1
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,304 @@
+﻿l_english:
+
+##ideas
+ FRA_memories_of_malet:0 "Memories of Malet"
+ FRA_memories_of_malet_desc:0 "The twenty-third of October, 1812, is remembered as one of the most miraculous and unlikely days in all of history. On that day, a republican general by the name of Claude François de Malet managed to escape captivity in Paris in a general's uniform. Quickly approaching the commander of the 10th Cohort of the French National Guard, Malet presented a wealth of documents showing that Napoleon had died in Russia and that this colonel was now a general. Shocked by the news and his sudden promotion, the commander agreed to assemble his cohort, and Malet was escorted to La Force prison. There, he freed several other republican generals, and ordered the arrest of several key members of Napoleonic rule in Paris. From here, the general and leader of the entire Paris garrison Pierre-Augustin Hulin was approached and forced to hand over control of the city. While Hulin attempted to defy Malet, he was eventually forced into submission. When another officer attempted to overpower Malet, the Republican prevailed, and his control over Paris was secured in one of history's most daring coups.\n\nThis was the beginning of the end of the Napoleonic wars. Malet managed to secure control over the rest of France proper after his maneuvers in Paris. Napoleon, upon hearing of this, immediately abandoned his disastrous war in Russia and attempted to return home in a desperate bid to regain control, but in one of history's greatest mysteries disappeared on the march back to France. Bourbonists who had supported Malet tried to use the opportunity to launch a countercoup, but with the radical republicans in Britain right nearby they never would have succeeded. Malet's coup established a true republic with the military in the front seat, with dozens of measures to prevent anything like Napoleon's rise ever again. Thanks to Malet, France is a republic, one dominated by generals and aristocrats but a republic nonetheless."
+ 
+ FRA_the_red_spectre:0 "The Red Spectre"
+ FRA_the_red_spectre_desc:0 "The French Left is unified only through defiance. Like leftist movements around the world, French socialists are fragmented and constantly conflicting, but unlike the norm they have managed to push past this and form something of a unified front. The reason, ironically enough, is the French government's massive efforts to suppress the left. While leftists are theoretically allowed to run, the aristocrats of the nation put every effort and dime towards stopping them, and it can be full-on dangerous to run when your opponent is the military itself. While this suppression does make it harder for leftists to participate in the government, it has also united them in a way few other leftist wings have, and when they fight back they fight back as one."
+    
+ FRA_rival_nationalism_winning:0 "Rival Nationalism - Higher Support"
+ FRA_rival_nationalism_winning_desc:0 "The Anglo-French rivalry may be one of history's longest and most famous, but it is no longer the driving force between the rival alliances that vie for European dominance. Instead, the greatest hatred lies between France and Germany, and the core of that mutual dislike is the Rhineland. Long occupied but finally officially awarded to France during Austria's attempts to engineer an ideal Europe, the Rhineland represents a great deal to both powers. To France, it is a reclaimed and integral territory, and one of its last and most important trophies from a time when it was Europe's greatest powers. To Germany, too, it is an integral part of its realm, but one that was unjustly robbed from it by thieving Frenchmen and machiavellian Austrians. These two national ideals are directly in opposition to each other, and it seems unlikely that the issue will be solved without another conflict."
+ 
+ FRA_rival_nationalism_even:0 "Rival Nationalism - Even Support"
+ FRA_rival_nationalism_even_desc:0 "The Anglo-French rivalry may be one of history's longest and most famous, but it is no longer the driving force between the rival alliances that vie for European dominance. Instead, the greatest hatred lies between France and Germany, and the core of that mutual dislike is the Rhineland. Long occupied but finally officially awarded to France during Austria's attempts to engineer an ideal Europe, the Rhineland represents a great deal to both powers. To France, it is a reclaimed and integral territory, and one of its last and most important trophies from a time when it was Europe's greatest powers. To Germany, too, it is an integral part of its realm, but one that was unjustly robbed from it by thieving Frenchmen and machiavellian Austrians. These two national ideals are directly in opposition to each other, and it seems unlikely that the issue will be solved without another conflict."
+ 
+ FRA_rival_nationalism_losing:0 "Rival Nationalism - Lower Suppor"
+ FRA_rival_nationalism_losing_desc:0 "The Anglo-French rivalry may be one of history's longest and most famous, but it is no longer the driving force between the rival alliances that vie for European dominance. Instead, the greatest hatred lies between France and Germany, and the core of that mutual dislike is the Rhineland. Long occupied but finally officially awarded to France during Austria's attempts to engineer an ideal Europe, the Rhineland represents a great deal to both powers. To France, it is a reclaimed and integral territory, and one of its last and most important trophies from a time when it was Europe's greatest powers. To Germany, too, it is an integral part of its realm, but one that was unjustly robbed from it by thieving Frenchmen and machiavellian Austrians. These two national ideals are directly in opposition to each other, and it seems unlikely that the issue will be solved without another conflict."
+ 
+
+ POLITICS_Maurice_Gamelin_DESC:0 "Ever since the Malet Coup and the establishment of the French Second Republic, the French people have been resigned to military dominance over their ballot. Though democratic at heart, the republic faces a multitude of issues regarding separate cliques in the military. Whether facing the call for true democracy, or a plea to end the facade and be a wide open military dictatorship, French politics finds itself centered around the President.\n\nPresident Maurice Gamelin grew up in a proud generation. The French nation’s recent domination over Europe was over, yet the memory lived on in the hearts of many. From a young age, Gamelin showed promise as a soldier, idolizing the continuation of the French nation’s pride. He entered military academia, as his father did, in 1891, and graduated in 1893 at the top of his class.\n\nFrom a successful career, Gamelin was catapulted into the world of politics, in which he gained notoriety with refusal to associate himself with any clique. This only amplified his popularity, gaining respect from even those not in his country.\n\nNow in the hotbed of the presidency, Gamelin seeks reform, not regime change. The separation of politics and military and a commitment to republican ideals is what Gamelin believes will bring out an even stronger French nation. Though one’s hands might get dirty in the process, it may all be worth it in the end."
+ POLITICS_Charles_de_Gaulle_DESC:0 "France's politics are a convoluted mess of military interests, archaic republican ideals, and the people's will. So often at odds with each other, it is very rare for a man to come along who can wrangle all these competing and even conflicting forces and turn them into a path forwards for the republic. Luckily for France, Charles de Gaulle is one of those men.\n\nDe Gaulle enlisted in the military at a time when many Frenchmen were calling for its downfall. Just a few years earlier, the Uneasy Peace had been established, and Germany's unification signalled an era of cooperation rather than the continent-spanning conflict all had anticipated. The military was seen as hawkish and having nearly dragged France into a devastating war, and the people were angry and calling for reform. No longer could the republic be dominated by military affairs, they cried. It was in this period that de Gaulle became an officer. Working his way through the ranks, he was soon a leading name in the military. However, he was not ignorant of the calls for reform; in fact, he was often with them. Despite his military career, de Gaulle wanted change; the military served the people's ideals, not dictated them, in his mind. However, he was still popular among the service, and so he won the election to the highest office in France handily.\n\nNow, with his reforms beginning to actually take place, his good will with the army is straining. Despite his efforts to unite the conflicting forces of France into a single forward force, he will soon have to choose where his loyalties lie. Is he truly a military man, or does he side with those who call for the military's influence to cease? The future of France itself may not be all that is at stake."
+ POLITICS_Edouard_Herriot_DESC:0 "Édouard Herriot is not a violent revolutionary. He has spent decades and decades trying in vain to work within France's biased political system, pushing for his ideals against all odds. Now, however, as the common worker of France finally takes back the means of production, Herriot sees no other choice but to lead the revolution.\n\nHerriot's career has been long and distinguished. Originally a well-respected teacher and scholar, Herriot won an election to be mayor of Lyon, and from there earned a reputation as the socialist respected by both the workers and the bourgeoisie. He would go on to add many other notches to his belt, as he was elected to be a delegate to the National Assembly, and then was invited to several governments as a token appeasement to the reds. However, despite that cooperation, he never gave up his ideals.\n\nWhen the revolution began in earnest, Herriot was saddened, but not surprised. He had seen firsthand how corrupt and biased the government was against the socialists, and it was only a matter of time before they took things into their own hands. Herriot's attitude was well-known, exemplified by the famous quote “Politics is like a race horse. A good jockey must know how to fall with the least possible damage.” Now, the horse had fallen, and so Herriot accepted the mantle of leading the revolution. The future of France lies in his hands."
+ POLITICS_Charles_Huntziger_DESC:0 "The name 'Chalres Huntziger' would, before coming to power, not be known to your average Frenchmen. However, at the reins, the story is completely different.\n\nGraduating from military academia in 1900, Huntziger immediately started serving his country in the colonies. Spending most of his time in Algeria, Huntziger was never too far from home, just the way he liked it. When the situation in Europe got especially tense upon the unification of Germany, Huntziger returned home, prepared for the worse. With such a response to a call to action, Huntziger’s name started gaining motion within the government. As time went on at home, Huntziger’s wit and undying love for his country saw him climb the ranks before finally being the relief to the Republic’s emergency.\n\nThe French nation’s situation has declined over the last years in the eyes of Huntziger. Such ignorance to let clear enemies of the state speak freely and organize was sheer irresponsibility, in his eyes, and Huntziger’s remedy is to tear it all down. Regime change is a dirty term, but through the composition of Huntziger, the future regime will never be replaced, standing the test of time."
+ 
+ ## parties
+ 
+  FRA_centralism_party:0 "PCF"
+  FRA_centralism_party_long:0 "Parti communiste français"
+  FRA_socialism_party:0 "SFIO"
+  FRA_socialism_party_long:0 "Section française de l'Internationale ouvrière"
+  FRA_progressivism_party:0 "PR"
+  FRA_progressivism_party_long:0 "Parti radical"
+  FRA_liberalism_party:0 "AD"
+  FRA_liberalism_party_long:0 "Alliance démocratique"
+  FRA_conservatism_party:0 "CR"
+  FRA_conservatism_party_long:0 "Centre républicain"
+  FRA_republicanism_party:0 "FR"
+  FRA_republicanism_party_long:0 "Fédération républicaine"
+  FRA_authoritarianism_party:0 "IAESP"
+  FRA_authoritarianism_party_long:0 "Indépendants d'action économique, sociale et paysanne"
+  FRA_ultranationalism_party:0 "PAPF"
+  FRA_ultranationalism_party_long:0 "Parti agraire et paysan français"
+  
+  FSR_centralism_party:0 "PT"
+  FSR_centralism_party_long:0 "Parti des Travailleurs"
+  FSR_socialism_party:0 "SFIO"
+  FSR_socialism_party_long:0 "Section française de l'Internationale ouvrière"
+  FSR_progressivism_party:0 "PR"
+  FSR_progressivism_party_long:0 "Parti radical"
+  FSR_liberalism_party:0 "AD"
+  FSR_liberalism_party_long:0 "Alliance démocratique"
+  FSR_conservatism_party:0 "CR"
+  FSR_conservatism_party_long:0 "Centre républicain"
+  FSR_republicanism_party:0 "FR"
+  FSR_republicanism_party_long:0 "Fédération républicaine"
+  FSR_authoritarianism_party:0 "IAESP"
+  FSR_authoritarianism_party_long:0 "Indépendants d'action économique, sociale et paysanne"
+  FSR_ultranationalism_party:0 "PAPF"
+  FSR_ultranationalism_party_long:0 "Parti agraire et paysan français"
+  
+  FSR_neosocialist_centralism_party:0 "SFIO-N"
+  FSR_neosocialist_centralism_party_long:0 "Section française de l'Internationale ouvrière-néosocialistes"
+  FSR_surrealist_centralism_party:0 "PCF-S"
+  FSR_surrealist_centralism_party_long:0 "Parti communiste français-surréalistes"
+  FSR_PCF_centralism_party:0 "PCF"
+  FSR_PCF_centralism_party_long:0 "Parti communiste français"
+  
+ ## tree
+ FRA_the_catalan_crisis:0 "The Catalan Crisis"
+ FRA_the_catalan_crisis_desc:0 ""
+ 
+ FRA_tolerate_the_socialists:0 "Tolerate the Socialists"
+ FRA_tolerate_the_socialists_desc:0 ""
+ 
+ FRA_remove_the_hawks:0 "Remove the Hawks"
+ FRA_remove_the_hawks_desc:0 ""
+ 
+ FRA_extend_the_olive_branch:0 "Extend the Olive Branch"
+ FRA_extend_the_olive_branch_desc:0 ""
+ 
+ FRA_solidify_the_grip:0 "Solidify the Grip"
+ FRA_solidify_the_grip_desc:0 ""
+ 
+ FRA_call_upon_the_people:0 "Call Upon the People"
+ FRA_call_upon_the_people_desc:0 ""
+ 
+ FRA_crush_the_reds:0 "Crush the Reds"
+ FRA_crush_the_reds_desc:0 ""
+ 
+ FRA_affairs_at_home:0 "Affairs At Home"
+ FRA_affairs_at_home_desc:0 ""
+ 
+ FRA_scare_the_spectre:0 "Scare the Spectre"
+ FRA_scare_the_spectre_desc:0 ""
+ 
+ FRA_supply_the_colonies:0 "Supply the Colonies"
+ FRA_supply_the_colonies_desc:0 ""
+ 
+ FRA_les_pied_noirs:0 "Les Pied Noirs"
+ FRA_les_pied_noirs_desc:0 ""
+ 
+ FRA_bolster_union_busters:0 "Bolster Union Busters"
+ FRA_bolster_union_busters_desc:0 ""
+ 
+ FRA_question_of_the_left:0 "The Question of the Left"
+ FRA_question_of_the_left_desc:0 ""
+ 
+ FRA_the_campaign:0 "The Campaign"
+ FRA_the_campaign_desc:0 ""
+
+#Herriot's Dem Tree 
+FRA_victory_for_people:0 "A Victory for the People"
+FRA_victory_for_people_desc:0 ""
+
+FRA_civilian_elysee:0 "A Civilian in the Elysée"
+FRA_civilian_elysee_desc:0 ""
+
+FRA_clear_way_reforms:0 "Clear the Way for Reforms"
+FRA_clear_way_reforms_desc:0 ""
+
+FRA_get_to_work:0 "Begin Our Work"
+FRA_get_to_work_desc:0 ""
+
+FRA_bolster_civilian_economy:0 "Bolster the Civilian Economy"
+FRA_bolster_civilian_economy_desc:0 ""
+
+FRA_expand_southern_ports:0 "Expand the Southern Ports"
+FRA_expand_southern_ports_desc:0 ""
+
+FRA_land_grants:0 "Land Grants"
+FRA_land_grants_desc:0 ""
+
+FRA_attract_tourism:0 "Attract Tourism"
+FRA_attract_tourism_desc:0 ""
+
+FRA_improve_food_industry:0 "Improve the Food Industry"
+FRA_improve_food_industry_desc:0 ""
+
+FRA_limit_military_intervention:0 "Limit Military Intervention"
+FRA_limit_military_intervention_desc:0 ""
+
+FRA_reduce_draft:0 "Reduce the Draft"
+FRA_reduce_draft_desc:0 ""
+
+FRA_empower_parliament:0 "Empower Parliament"
+FRA_empower_parliament_desc:0 ""
+
+FRA_new_rights_people:0 "New Rights for the People"
+FRA_new_rights_people_desc:0 ""
+
+FRA_clean_judiciary:0 "Clean the Judiciary"
+FRA_clean_judiciary_desc:0 ""
+
+FRA_ban_child_labour:0 "Ban Child Labour"
+FRA_ban_child_labour_desc:0 ""
+
+FRA_reduce_union_restrictions:0 "Reduce Union Restrictions"
+FRA_reduce_union_restrictions_desc:0 ""
+
+FRA_open_more_schools:0 "Open More Schools"
+FRA_open_more_schools_desc:0 ""
+
+FRA_introduce_penal_reform:0 "Introduce Penal Reform"
+FRA_introduce_penal_reform_desc:0 ""
+
+FRA_government_secured:0 "The Government Secured"
+#FRA_victory_for_people_desc:0 ""
+
+FRA_encourage_small_business:0 "Encourage Small Business"
+FRA_encourage_small_business_desc:0 ""
+
+FRA_eight_hour_work:0 "Establish the 8 Hour Work Day"
+FRA_eight_hour_work_desc:0 ""
+
+FRA_increase_minimum_wage:0 "Increase the Minimum Wage"
+FRA_increase_minimum_wage_desc:0 ""
+
+FRA_full_legal_divorce:0 "Fully Legalise Divorce"
+FRA_full_legal_divorce_desc:0 ""
+
+FRA_review_high_command:0 "Review the High Command"
+FRA_review_high_command_desc:0 ""
+
+FRA_summit_military:0 "Summit the Military to the Constitution"
+FRA_summit_military_desc:0 ""
+
+FRA_crush_political_violence:0 "Crush Political Violence"
+FRA_crush_political_violence_desc:0 ""
+
+FRA_the_new_france:0 "The New France"
+FRA_the_new_france_desc:0 ""
+
+FRA_review_foreign_affairs:0 "Review Our Foreign Affairs"
+FRA_review_foreign_affairs_desc:0 ""
+
+FRA_send_rome_aid:0 "Send Aid to Rome"
+FRA_send_rome_aid_desc:0 ""
+
+FRA_catalonia_focus_herriot:0 "[Root.FRA_Catalonia_Herriot]"
+FRA_catalonia_focus_herriot_desc:0 "[Root.FRA_Catalonia_Herriot_desc]"
+FRA_meet_catalonians:0 "Meet with the Catalonians"
+FRA_clean_barcelona:0 "Clean Barcelona"
+FRA_meet_catalonians_desc:0 ""
+FRA_clean_barcelona_desc:0 ""
+
+FRA_open_ire:0 "Open the IRE"
+FRA_open_ire_desc:0 ""
+
+FRA_increase_business_ties:0 "Increase Business Ties"
+FRA_increase_business_ties_desc:0 ""
+
+FRA_trip_washington:0 "A Trip to Washington DC"
+FRA_trip_washington_desc:0 ""
+
+FRA_end_clashes_africa:0 "End Border Clashes in Africa"
+FRA_end_clashes_africa_desc:0 ""
+
+FRA_india_focus_herriot:0 "[Root.FRA_Delhi_Herriot]"
+FRA_india_focus_herriot_desc:0 "[Root.FRA_Delhi_Herriot_desc]"
+FRA_delhi_question:0 "The Delhi Question"
+FRA_indian_beast:0 "The Indian Beast"
+FRA_indian_friend:0 "A Friend in India?"
+FRA_delhi_question_desc:0 ""
+FRA_indian_beast_desc:0 ""
+FRA_indian_friend_desc:0 ""
+
+FRA_world_power:0 "A World Power"
+FRA_world_power_desc:0 ""
+
+FRA_colonial_question:0 "The Colonial Question"
+FRA_colonial_question_desc:0 ""
+
+FRA_burma_focus_herriot:0 "[Root.FRA_Burma_Herriot]"
+FRA_burma_focus_herriot_desc:0 "[Root.FRA_Burma_Herriot_desc]"
+
+FRA_fei_focus_herriot:0 "[Root.FRA_fei_Herriot]"
+FRA_fei_focus_herriot_desc:0 "[Root.FRA_fei_Herriot_desc]"
+
+FRA_create_burma_department:0 "Create the Burma Department"
+FRA_create_burma_department_desc:0 ""
+
+FRA_letter_renault:0 "Send a Letter to Renault"
+FRA_letter_renault_desc:0 ""
+
+FRA_return_tonkin:0 "Return Tonkin"
+FRA_return_tonkin_desc:0 ""
+
+FRA_reinforce_hong_kong:0 "Reinforce Hong Kong"
+FRA_reinforce_hong_kong_desc:0 ""
+
+FRA_exand_wa_line:0 "Expand the West Africa Line"
+FRA_exand_wa_line_desc:0 ""
+
+FRA_urbanise_ea:0 "Urbanise Equatorial Africa"
+FRA_urbanise_ea_desc:0 ""
+
+FRA_hand_diego_suarez:0 "Hand Over Diego Suárez"
+FRA_hand_diego_suarez_desc:0 ""
+
+FRA_invest_algeria:0 "Invest in Algeria"
+FRA_invest_algeria_desc:0 ""
+
+FRA_colonial_question_decol:0 "The Colonial Question"
+FRA_colonial_question_decol_desc:0 ""
+
+FRA_evacuate_burma:0 "Evacuate Burma"
+FRA_evacuate_burma_desc:0 ""
+
+FRA_reinforce_pondicherry:0 "Reinforce Pondicherry"
+FRA_reinforce_pondicherry_desc:0 ""
+
+FRA_sovereign_vietnam:0 "A Sovereign Vietnam"
+FRA_sovereign_vietnam_desc:0 ""
+ 
+FRA_open_city:0 "The Open City"
+FRA_open_city_desc:0 ""
+
+FRA_liberty_desert:0 "Liberty in the Desert" 
+FRA_liberty_desert_desc:0 ""
+
+FRA_freedom_equator:0 "Freedom in the Equator"
+FRA_freedom_equator_desc:0 ""
+
+FRA_end_protectorate:0 "End the Merina Protectorate"
+FRA_end_protectorate_desc:0 ""
+
+ # Events
+ 
+ FSR.1.t:0 "The Paris Commune"
+ FSR.1.d:0 "The worst was supposed to be over. With the defeat of the socialists in the recent elections, the party was deemed by President Gamelin to be obsolete. Soon after, without so much as a speech addressing his defeat, Herriot left his residency in Lyon for Paris. For weeks he avoided the media, being dragged for his unsportsmanlike behavior.\n\nEventually, the tipping point was reached.\n\nWith news breaking of leaked government documents ordering the suppression of socialist voters, enough was enough. Herriot, in his first formal public appearance since the fateful election day, called for defiance of the government to protect and defend the liberties that the citizens deserved. Many radicals marched in the streets, calling for the removal of the illegitimate president, when met with resistance by the army, it became apparent that the President alone was not the issue. Soon, Paris, the heart of the nation, had fallen, and as the government fled, villages and militias rose up in support of the Commune in Paris. The nation is at war."
+ FSR.1.a:0 "Vive la République! (Play French Republic)"
+ FSR.1.b:0 "Vive la Commune! (Play French Socialist Republic)"
+ 
+ FSR.2.t:0 "The History of Revolution"
+ FSR.2.d:0 "Millenia ago, the old, dying, and corrupt administration in Rome oppressed the people of its rotting empire. Tyrants came and were stabbed by their successors, and the people languished as the state festered. However, this would not last. In Gaul, the tribes of common folk rose up and invaded, striking deep into the heart of the broken empire and breaking its reign forever. The people of Gaul were the vanguard of change.\n\nIn the 18th century, France was once again ruled by a rotting and corrupt autocracy, this time one from the very heart of the nation itself. The monarchy existed to leech off of the people and provides nothing but poor leadership in return. The people had enough once again and rose up in glorious revolution, and when one tyrant tried to replace the first he too was cast down by the Republic. Though Cromwell's revolution had been the first, Robespierre's was the one that inspired the rest of Europe to follow suit. Once again, France led the way.\n\nNow, France has yet again come together to throw off the chains of a corrupt and broken regime. The false democracy and lies of the old nation shall be swept away by a glorious People's Republic. As has always been the case in history, we must set an example for the rest of the peoples of Europe. France shall be first, and the world shall follow suit! Glory to the homeland of revolution!"
+ FSR.2.a:0 "History is cyclical."
+ 
+ FRA_CW.1.t:0 "A Test"
+ FRA_CW.1.d:0 ""Our government is no doubt in crisis, with their own meddling getting the best of them, they are facing the consequences of disrupting the democratic process."\n\nThe media is not the propaganda machine it once was. With the continued printing of excerpts ragging on the government, the morale of the French people will most certainly tank at some point. It would be nice to assure that the french people would be in support of the government, but President Gamelin has assured the public that there will be no suspension of personal liberties during this conflict and that there would be no future persecution of socialist voters. Unfortunately, this failed to quell the radicals leading to a failure to maintain a majority of the south and regions surrounding Paris.\n\nIn these desperate times we have relocated to Brest. President Gamelin has been able to maintain full control over the regions that have not succumbed to the militant reds, through this hardship, the President would like to believe the situation is turning up."
+ FRA_CW.1.a:0 "The worst is over, we will prevail."
+ 
+ FRA.15.t:0 "Late Resignation"
+ FRA.15.d:0 ""We are in crisis, sir. Paris is no longer in our hands and we continue to falter with every maneuver we attempt to pull. Not only do we need direct action, we need stronger leadership. It will benefit France, as it will the people. Though it pains me to state this, you must invite in Huntziger."\n\nAnother plea from another cabinet member. Eight times alone this week, Six different people had recommended the same thing. General Huntziger’s reign would effectively set the reforms of Gamelin back years, perhaps even ousting them all together. This would not stand. France had come this far and her peoples have yet to feel true liberty.\n\n"Sir, are you even listening?"\n\nGamelin must’ve aged three years alone this week. He looked worn as he rose up from his desk. The commander-in-chief could hardly stand straight. He cleared his throat and responded to the repeated annoyance.\n\n"I understand our situation better than anyone in this country. I was chosen by the people to not only defend our rights, but the people themselves. I will execute my position as I have in the past, and if it will get you and your other friends to keep your distance, go tell Huntziger that I don’t give a damn about what he has to say as he is not the president."\n\nThe door to the office creaked open, catching the attention of both the cabinet member and President Gamelin. It was Huntziger.\n\n"I believe I’ve heard enough.""
+ FRA.15.a:0 "Another Republic falls."

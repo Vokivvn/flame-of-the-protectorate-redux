@@ -1,0 +1,161 @@
+defined_text = {
+	name = FRI_Influence_Status
+	text = {
+		trigger = {
+			country_exists = FRI
+		}
+		localization_key = FRI_alive
+	}
+	text = {
+		trigger = {
+			NOT = {
+				country_exists = FRI
+			}
+		}
+		localization_key = FRI_dead
+	}
+}
+
+defined_text = {
+	name = GEL_Influence_Status
+	text = {
+		trigger = {
+			country_exists = GEL
+		}
+		localization_key = GEL_alive
+	}
+	text = {
+		trigger = {
+			NOT = {
+				country_exists = GEL
+			}
+		}
+		localization_key = GEL_dead
+	}
+}
+
+defined_text = {
+	name = BBT_Influence_Status
+	text = {
+		trigger = {
+			country_exists = BBT
+		}
+		localization_key = BBT_alive
+	}
+	text = {
+		trigger = {
+			NOT = {
+				country_exists = BBT
+			}
+		}
+		localization_key = BBT_dead
+	}
+}
+
+defined_text = {
+	name = LIM_Influence_Status
+	text = {
+		trigger = {
+			country_exists = LIM
+		}
+		localization_key = LIM_alive
+	}
+	text = {
+		trigger = {
+			NOT = {
+				country_exists = LIM
+			}
+		}
+		localization_key = LIM_dead
+	}
+}
+
+defined_text = {
+	name = EUP_Influence_Status
+	text = {
+		trigger = {
+			country_exists = EUP
+		}
+		localization_key = EUP_alive
+	}
+	text = {
+		trigger = {
+			NOT = {
+				country_exists = EUP
+			}
+		}
+		localization_key = EUP_dead
+	}
+}
+
+defined_text = {
+	name = ZEE_Influence_Status
+	text = {
+		trigger = {
+			country_exists = ZEE
+		}
+		localization_key = ZEE_alive
+	}
+	text = {
+		trigger = {
+			NOT = {
+				country_exists = ZEE
+			}
+		}
+		localization_key = ZEE_dead
+	}
+}
+
+defined_text = {
+	name = LUX_Influence_Status
+	text = {
+		trigger = {
+			country_exists = LUX
+		}
+		localization_key = LUX_alive
+	}
+	text = {
+		trigger = {
+			NOT = {
+				country_exists = LUX
+			}
+		}
+		localization_key = LUX_dead
+	}
+}
+
+defined_text = {
+	name = BEL_Influence_Status
+	text = {
+		trigger = {
+			country_exists = BEL
+		}
+		localization_key = BEL_alive
+	}
+	text = {
+		trigger = {
+			NOT = {
+				country_exists = BEL
+			}
+		}
+		localization_key = BEL_dead
+	}
+}
+
+defined_text = {
+	name = WAL_Influence_Status
+	text = {
+		trigger = {
+			country_exists = WAL
+		}
+		localization_key = WAL_alive
+	}
+	text = {
+		trigger = {
+			NOT = {
+				country_exists = WAL
+			}
+		}
+		localization_key = WAL_dead
+	}
+}

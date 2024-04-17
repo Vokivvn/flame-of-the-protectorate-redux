@@ -1,0 +1,26 @@
+
+state={
+	id=822
+	name="STATE_822"
+	manpower = 1600000
+	
+	state_category = pastoral
+	
+	resources={
+	}
+
+	history={
+		owner = RHO
+		add_core_of = RHO
+		victory_points = {
+			2151 5 
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		13217 12963 10525 1874 4851 2151 13250
+	}
+}

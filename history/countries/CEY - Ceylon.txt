@@ -1,0 +1,39 @@
+﻿capital = 422
+
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	basic_light_tank = 1
+}
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	centralism = 0
+	socialism = 0
+	progressivism = 0
+	liberalism = 35
+	conservatism = 50
+	authoritarianism = 15
+	ultranationalism = 0
+}
+
+create_country_leader = {
+	name = "G. G. Ponnambalam"
+	desc = "POLITICS_GG_PONNAMBALAM_DESC"
+	picture = "Portrait_Ceylon_GG_Ponnambalam.dds"
+	expire = "1965.1.1"
+	ideology = conservatism_subtype
+	traits = {
+		#
+	}
+}
+
+add_ideas = {
+	CEY_Tamil_Sinhala_Conflict
+	CEY_Long_Live_the_Revolution
+}

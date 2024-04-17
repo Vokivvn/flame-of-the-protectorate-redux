@@ -1,0 +1,6438 @@
+﻿add_namespace = USA
+
+country_event = { # Archibald's fireside chat, Happy New Year!
+	id = USA.1
+	title = USA.1.t
+	desc = USA.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USA.1.a
+	}
+}
+
+country_event = { # Assesing the colonies
+	id = USA.2
+	title = USA.2.t
+	desc = USA.2.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USA.2.a
+		
+	}
+}
+
+country_event = { # Talking with Long
+	id = USA.3
+	title = USA.3.t
+	desc = USA.3.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # New techniques, investing
+		name = USA.3.a
+		451 = {
+			add_state_modifier = {
+				modifier = {
+					local_resources = 2.0
+				}
+			}
+		}
+	}
+	option = { # Export to USA
+		name = USA.3.b
+		NMB = {
+			give_resource_rights = { receiver = USA state = 451 }
+		}
+	}
+}
+
+country_event = { # Talking with Firestone
+	id = USA.4
+	title = USA.4.t
+	desc = USA.4.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USA.4.a
+		add_tech_bonus = {
+			bonus = 0.75
+			uses = 2
+			category = synth_resources
+		}
+	}
+	option = { # Export to USA
+		name = USA.4.b
+		LIB = {
+			give_resource_rights = { receiver = USA state = 298 }
+		}
+	}
+}
+
+country_event = { # The Philipinnes is fucked
+	id = USA.5
+	title = USA.5.t
+	desc = USA.5.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USA.5.a
+		
+	}
+}
+
+country_event = { # Get Roosevelt out of there!
+	id = USA.6
+	title = USA.6.t
+	desc = USA.6.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USA.6.a
+		PHI = {
+			retire_country_leader = yes
+			create_country_leader = {
+				name = "Douglas MacArthur"
+				desc = "CALV_COOL_DESC"
+				picture = "Portrait_Philippines_Douglas_MacArthur.dds"
+				expire = "1965.1.1"
+				ideology = colonial_government
+				traits = {
+			
+				}
+			}
+			load_oob = USA_PHI_support
+		}
+		USA = {
+			remove_unit_leader = 1
+		}
+	}
+}
+
+country_event = { # Calles and Mexico
+	id = USA.7
+	title = USA.7.t
+	desc = USA.7.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USA.7.a
+		
+	}
+}
+
+country_event = { # The OCI and its purpose
+	id = USA.8
+	title = USA.8.t
+	desc = USA.8.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USA.8.a
+		
+	}
+}
+
+country_event = { # The plan is run by Archie
+	id = USA.91
+	title = USA.91.t
+	desc = USA.91.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # What the hell are you mad?? Call it off!
+		name = USA.91.a
+		add_to_variable = {
+			var = USA_Archie_Whig_Love
+			value = 0.07
+		}
+		custom_effect_tooltip = USA_will_boost_whig_support_of_archie
+	}
+	option = { # 
+		name = USA.91.b
+		hidden_effect = {
+			country_event = {
+				id = USA.9
+				days = 3
+			}
+		}
+		add_to_variable = {
+			var = USA_Archie_Dem_Love
+			value = 0.07
+		}
+		custom_effect_tooltip = USA_will_boost_dem_support_of_archie
+		custom_effect_tooltip = USA_funny_gman
+	}
+}
+
+country_event = { # Calles survives!
+	id = USA.9
+	title = USA.9.t
+	desc = USA.9.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USA.9.a
+		hidden_effect = {
+			country_event = {
+				id = USA.10
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { # Archie is corrupt and an awful person, Dulles was also there
+	id = USA.10
+	title = USA.10.t
+	desc = USA.10.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USA.10.a
+		custom_effect_tooltip = USA_we_got_caught
+		USA_whole_nation_republican_gain_medium = yes
+		USA_whole_nation_progressive_gain_medium = yes
+	}
+}
+
+country_event = { # Archibald Meets with Dulles to discuss foreign threats bills
+	id = USA.11
+	title = USA.11.t
+	desc = USA.11.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # The two hit it off, the bill has the presidents support
+		name = USA.11.a
+		add_to_variable = {
+			var = USA_Archie_Dem_Love
+			value = 0.07
+		}
+		custom_effect_tooltip = USA_will_boost_dem_support_of_archie
+	}
+	option = { # Party first
+		name = USA.11.b
+		add_to_variable = {
+			var = USA_Archie_Whig_Love
+			value = 0.07
+		}
+		custom_effect_tooltip = USA_will_boost_whig_support_of_archie
+	}
+}
+
+country_event = { # Progressives protest a soldier being disqualified for recieving the medal of honor for being black
+	id = USA.12
+	title = USA.12.t
+	desc = USA.12.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # Ignore the debaucle 
+		name = USA.12.a
+		add_to_variable = {
+			var = USA_Archie_Whig_Love
+			value = 0.07
+		}
+		custom_effect_tooltip = USA_will_boost_whig_support_of_archie
+	}
+	option = { # Shoo off those blasted socialists, they msut've sided with that communist!
+		name = USA.12.b
+		add_to_variable = {
+			var = USA_Archie_Dem_Love
+			value = 0.07
+		}
+		custom_effect_tooltip = USA_will_boost_dem_support_of_archie
+	}
+}
+
+country_event = { # Archie meets with Coolidge, passing of the torch
+	id = USA.13
+	title = USA.13.t
+	desc = USA.13.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # Archie can't put up a facade and looks unhappy the whole time
+		name = USA.13.a
+		add_to_variable = {
+			var = USA_Archie_Dem_Love
+			value = 0.07
+		}
+		custom_effect_tooltip = USA_will_boost_dem_support_of_archie
+	}
+	option = { # Archie enthusiastically puts the party first
+		name = USA.13.b
+		add_to_variable = {
+			var = USA_Archie_Whig_Love
+			value = 0.07
+		}
+		custom_effect_tooltip = USA_will_boost_whig_support_of_archie
+	}
+}
+
+country_event = { # Coolidge isn't a fan of segregation, but Archie is alright with it, should Archie try to sway the party in favor of segreagtion?
+	id = USA.14
+	title = USA.14.t
+	desc = USA.14.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # (Changes to "President is opposed to the anarchic movement) YEs! The Whigs are for stability.
+		name = USA.14.a
+		custom_effect_tooltip = USA_president_segregation_stance_change_neagtive
+		USA_add_segregationist_5 = yes
+		set_country_flag = USA_archie_awful
+	}
+	option = { # That is up to Coolidge
+		name = USA.14.b
+		USA_add_integrationist_3 = yes
+		add_to_variable = {
+			var = USA_Archie_Whig_Love
+			value = 0.07
+		}
+		custom_effect_tooltip = USA_will_boost_whig_support_of_archie
+	}
+}
+
+country_event = { # May Day strikes!
+	id = USA.15
+	title = USA.15.t
+	desc = USA.15.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # Dammit
+		name = USA.15.a
+		set_country_flag = USA_MAY_DAY_STRIKES_1936
+		add_timed_idea = {
+			idea = USA_May_Day_Strikes
+			days = 302
+		}
+	}
+}
+
+country_event = { # Dealing with strikers
+	id = USA.16
+	title = USA.16.t
+	desc = USA.16.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # Find some scabs!
+		name = USA.16.a
+		if = {
+			limit = {
+				has_idea = USA_May_Day_Strikes
+			}
+			hidden_effect = {
+				country_event = {
+					id = USA.17
+					days = 2
+				}
+			}
+		}
+	}
+}
+
+country_event = { # We've got some! Lets use them!
+	id = USA.17
+	title = USA.17.t
+	desc = USA.17.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # Yay
+		name = USA.17.a
+		if = {
+			limit = {
+				has_idea = USA_May_Day_Strikes
+			}
+			hidden_effect = {
+				country_event = {
+					id = USA.18
+					days = 2
+				}
+			}
+		}
+	}
+}
+
+country_event = { # This doesn't work, we need action!
+	id = USA.18
+	title = USA.18.t
+	desc = USA.18.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # Concede to some Progressive Legislators
+		name = USA.18.a
+		if = {
+			limit = {
+				has_idea = USA_May_Day_Strikes
+			}
+			hidden_effect = {
+				country_event = {
+					id = USA.19
+					days = 2
+				}
+			}
+		}
+	}
+	option = { # No, no concessions to socialists!
+		name = USA.18.b
+		if = {
+			limit = {
+				has_idea = USA_May_Day_Strikes
+			}
+			hidden_effect = {
+				country_event = {
+					id = USA.20
+					days = 2
+				}
+			}
+		}
+	}
+}
+
+country_event = { # Some fellas go back to work
+	id = USA.19
+	title = USA.19.t
+	desc = USA.19.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # Yay
+		name = USA.19.a
+		if = {
+			limit = {
+				has_idea = USA_May_Day_Strikes
+			}
+			remove_ideas = USA_May_Day_Strikes
+			add_timed_idea = {
+				idea = USA_May_Day_Strikes
+				days = 120
+			}
+		}
+	}
+}
+
+country_event = { # We're a sitting duck, the strike will blow over.
+	id = USA.20
+	title = USA.20.t
+	desc = USA.20.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # Boo
+		name = USA.20.a
+	}
+}
+
+country_event = { # DEBUG
+	id = USA.21
+	title = USA.21.t
+	desc = USA.21.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # Boo
+		name = "prog"
+		load_focus_tree = USA_phillipines_war_progressive
+	}
+
+	option = { # Boo
+		name = "whig"
+		load_focus_tree = USA_phillipines_war_whigs
+	}
+
+	option = { # Boo
+		name = "dem"
+		load_focus_tree = USA_phillipines_war_democrats
+	}
+}
+
+add_namespace = MayDay1936
+
+country_event = { # sinky unions, GOALS: Overtime Pay and further Representation, The St. Lois Show Down- End These Strikes
+	id = MayDay1936.1
+	title = MayDay1936.1.t
+	desc = MayDay1936.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # send democratic delegation
+		name = MayDay1936.1.a
+		hidden_effect = {
+			country_event = {
+				id = MayDay1936.2
+				days = 2
+			}
+			set_country_flag = USA_sent_dem_delegation
+		}
+	}
+	option = { # send whig delegation
+		name = MayDay1936.1.b
+		hidden_effect = {
+			country_event = {
+				id = MayDay1936.3
+				days = 2
+			}
+			set_country_flag = USA_sent_whig_delegation
+		}
+	}
+	option = { # send progressive delegation
+		name = MayDay1936.1.c
+		hidden_effect = {
+			country_event = {
+				id = MayDay1936.4
+				days = 2
+			}
+			set_country_flag = USA_sent_prog_delegation
+		}
+	}
+}
+
+country_event = { # Sending in a democratic representative, he's really hated.
+	id = MayDay1936.2
+	title = MayDay1936.2.t
+	desc = MayDay1936.2.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # 
+		name = MayDay1936.2.a
+		hidden_effect = {
+			country_event = {
+				id = MayDay1936.5
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = { # Sending in a whig representative, he's nothing special.
+	id = MayDay1936.3
+	title = MayDay1936.3.t
+	desc = MayDay1936.3.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # 
+		name = MayDay1936.3.a
+		hidden_effect = {
+			country_event = {
+				id = MayDay1936.5
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = { # Sending in a progressive dude, we don't even know if he's progressive or republican.
+	id = MayDay1936.4
+	title = MayDay1936.4.t
+	desc = MayDay1936.4.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # 
+		name = MayDay1936.4.a
+		hidden_effect = {
+			country_event = {
+				id = MayDay1936.5
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = { # An organizer stages lays down their platform
+	id = MayDay1936.5
+	title = MayDay1936.5.t
+	desc = MayDay1936.5.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # 
+		name = MayDay1936.5.a
+		hidden_effect = {
+			if = {
+				limit = {
+					has_country_flag = USA_sent_dem_delegation
+				}
+				hidden_effect = {
+					country_event = {
+						id = MayDay1936.6
+						days = 2
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					has_country_flag = USA_sent_whig_delegation
+				}
+				hidden_effect = {
+					country_event = {
+						id = MayDay1936.9
+						days = 2
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					has_country_flag = USA_sent_prog_delegation
+				}
+				hidden_effect = {
+					country_event = {
+						id = MayDay1936.12
+						days = 2
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = { # D: The Democratic Representative seems to understand their reasoning, concede or push?
+	id = MayDay1936.6
+	title = MayDay1936.6.t
+	desc = MayDay1936.6.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # Push
+		name = MayDay1936.6.a
+		hidden_effect = {
+			country_event = {
+				id = MayDay1936.7
+				days = 2
+			}
+		}
+	}
+	option = { # Concede
+		name = MayDay1936.6.b
+		hidden_effect = {
+			country_event = {
+				id = MayDay1936.10
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = { # Send in the Police!
+	id = MayDay1936.7
+	title = MayDay1936.7.t
+	desc = MayDay1936.7.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # Push
+		name = MayDay1936.7.a
+		hidden_effect = {
+			country_event = {
+				id = MayDay1936.8
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = { # Failure: Republican Gain
+	id = MayDay1936.8
+	title = MayDay1936.8.t
+	desc = MayDay1936.8.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # Push
+		name = MayDay1936.8.a
+		USA_whole_nation_republican_gain_small = yes
+	}
+}
+
+country_event = { # W:The Whig Representative is willing to push for justice, how hard will they push? Moderation or Radical?
+	id = MayDay1936.9
+	title = MayDay1936.9.t
+	desc = MayDay1936.9.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # Moderation
+		name = MayDay1936.9.a
+		hidden_effect = {
+			country_event = {
+				id = MayDay1936.10
+				days = 2
+			}
+		}
+	}
+	option = { # Radical
+		name = MayDay1936.9.b
+		hidden_effect = {
+			country_event = {
+				id = MayDay1936.13
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = { # The company responsible will meet punishment
+	id = MayDay1936.10
+	title = MayDay1936.10.t
+	desc = MayDay1936.10.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # Push
+		name = MayDay1936.10.a
+		hidden_effect = {
+			country_event = {
+				id = MayDay1936.11
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = { # Success: Whig or Dem Gain
+	id = MayDay1936.11
+	title = MayDay1936.11.t
+	desc = MayDay1936.11.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # Push
+		name = MayDay1936.11.a
+		if = {
+			limit = {
+				has_country_flag = USA_sent_dem_delegation
+			}
+			USA_whole_nation_democrat_gain_small = yes
+		}
+		else_if = {
+			limit = {
+				has_country_flag = USA_sent_whig_delegation
+			}
+			USA_whole_nation_whig_gain_small = yes
+		}
+		remove_ideas = USA_May_Day_Strikes
+	}
+}
+
+country_event = { # P: Ofc the Prog dude likes them, how much is he gonna concede? This is worrying. Is he going to pledge for reform or make promises he cant keep?
+	id = MayDay1936.12
+	title = MayDay1936.12.t
+	desc = MayDay1936.12.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # Reform!
+		name = MayDay1936.12.a
+		hidden_effect = {
+			country_event = {
+				id = MayDay1936.13
+				days = 2
+			}
+		}
+	}
+	option = { # Promises!
+		name = MayDay1936.12.b
+		hidden_effect = {
+			country_event = {
+				id = MayDay1936.15
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = { # Representatives promise reform
+	id = MayDay1936.13
+	title = MayDay1936.13.t
+	desc = MayDay1936.13.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # Push
+		name = MayDay1936.13.a
+		hidden_effect = {
+			country_event = {
+				id = MayDay1936.14
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = { # Success: Whig or Proggressive Gain
+	id = MayDay1936.14
+	title = MayDay1936.14.t
+	desc = MayDay1936.14.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # Push
+		name = MayDay1936.14.a
+		if = {
+			limit = {
+				has_country_flag = USA_sent_prog_delegation
+			}
+			USA_whole_nation_progressive_gain_medium = yes
+		}
+		else_if = {
+			limit = {
+				has_country_flag = USA_sent_whig_delegation
+			}
+			USA_whole_nation_whig_gain_small = yes
+		}
+		remove_ideas = USA_May_Day_Strikes
+	}
+}
+
+country_event = { # Promises are made that can't be kept, a retraction is sent.
+	id = MayDay1936.15
+	title = MayDay1936.15.t
+	desc = MayDay1936.15.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # Push
+		name = MayDay1936.15.a
+		hidden_effect = {
+			country_event = {
+				id = MayDay1936.16
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = { # Failure: Republican Gain
+	id = MayDay1936.16
+	title = MayDay1936.16.t
+	desc = MayDay1936.16.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # Push
+		name = MayDay1936.16.a
+		USA_whole_nation_republican_gain_small = yes
+	}
+}
+
+add_namespace = USA_PHI_Crisis
+
+country_event = { # Hukbay attempts to assasinate Theodore Roosevelt Jr.
+	id = USA_PHI_Crisis.1
+	title = USA_PHI_Crisis.1.t
+	desc = USA_PHI_Crisis.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_PHI_Crisis.1.a
+	}
+}
+
+country_event = { # MacArthur busts a Hukbay cell 
+	id = USA_PHI_Crisis.2
+	title = USA_PHI_Crisis.2.t
+	desc = USA_PHI_Crisis.2.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_PHI_Crisis.2.a
+	}
+}
+
+country_event = { # Hukbay rises up, the Mandate falls
+	id = USA_PHI_Crisis.3
+	title = USA_PHI_Crisis.3.t
+	desc = USA_PHI_Crisis.3.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			HUK = {
+				transfer_state = 623
+				set_province_controller = 10165
+				set_province_controller = 7275
+				set_province_controller = 7351
+				declare_war_on = {
+					target = PHI
+					type = civil_war
+				}
+				PHI = {
+					every_owned_state = {
+						add_core_of = HUK
+						add_core_of = CPH
+						add_core_of = TAG
+					}
+				}
+			}
+			country_event = {
+				id = USA_PHI_Crisis.4
+				days = 3
+			}
+		}
+	}
+	option = {
+		name = USA_PHI_Crisis.3.a
+		PHI = {
+			remove_ideas = PHI_ignition_on_the_rise
+		}
+	}
+}
+
+country_event = { # Tagalogs rise up!
+	id = USA_PHI_Crisis.4
+	title = USA_PHI_Crisis.4.t
+	desc = USA_PHI_Crisis.4.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			TAG = {
+				transfer_state = 624
+				set_province_controller = 7439
+				declare_war_on = {
+					target = PHI
+					type = civil_war
+				}
+				declare_war_on = {
+					target = HUK
+					type = civil_war
+				}
+			}
+			HUK = {
+				declare_war_on = {
+					target = TAG
+					type = civil_war
+				}
+			}
+			country_event = {
+				id = USA_PHI_Crisis.5
+				days = 3
+			}
+		}
+	}
+	option = {
+		name = USA_PHI_Crisis.4.a
+		
+	}
+}
+
+country_event = { # The Commonwealth of the Philipinnes is established!
+	id = USA_PHI_Crisis.5
+	title = USA_PHI_Crisis.5.t
+	desc = USA_PHI_Crisis.5.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			CPH = {
+				declare_war_on = {
+					target = PHI
+					type = civil_war
+				}
+				transfer_state = 625
+				transfer_state = 628
+				transfer_state = 627
+				set_province_controller = 1221
+				PHI = {
+					set_province_controller = 12118
+					set_province_controller = 12153
+					set_province_controller = 4241
+				}
+				declare_war_on = {
+					target = HUK
+					type = civil_war
+				}
+				declare_war_on = {
+					target = TAG
+					type = civil_war
+				}
+			}
+			HUK = {
+				declare_war_on = {
+					target = CPH
+					type = civil_war
+				}
+			}
+			TAG = {
+				declare_war_on = {
+					target = CPH
+					type = civil_war
+				}
+			}
+		}
+	}
+	option = {
+		name = USA_PHI_Crisis.5.a
+	}
+}
+
+country_event = { # Tagalogs claims victory!
+	id = USA_PHI_Crisis.6
+	title = USA_PHI_Crisis.6.t
+	desc = USA_PHI_Crisis.6.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_PHI_Crisis.6.a
+	}
+}
+
+country_event = { # Hukbay claims victory!
+	id = USA_PHI_Crisis.7
+	title = USA_PHI_Crisis.7.t
+	desc = USA_PHI_Crisis.7.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_PHI_Crisis.7.a
+	}
+}
+
+country_event = { # The Commonwealth of the Philippines claims victory!
+	id = USA_PHI_Crisis.8
+	title = USA_PHI_Crisis.8.t
+	desc = USA_PHI_Crisis.8.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_PHI_Crisis.8.a
+	}
+}
+
+country_event = { # The Mandate of the Philippines claims victory!
+	id = USA_PHI_Crisis.9
+	title = USA_PHI_Crisis.9.t
+	desc = USA_PHI_Crisis.9.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_PHI_Crisis.9.a
+	}
+}
+
+add_namespace = ArchieLegacy
+
+country_event = { # Endorsing Coolidge ( Whigs like Archie ) Whig Boost
+	id = ArchieLegacy.1
+	title = ArchieLegacy.1.t
+	desc = ArchieLegacy.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = ArchieLegacy.1.a
+		hidden_effect = {
+			if = { # Med Whig Love
+				limit = {
+					check_variable = {
+						var = USA_Archie_Whig_Love
+						value = 0.25
+						compare = greater_than_or_equals
+					}
+					NOT = {
+						check_variable = {
+							var = USA_Archie_Whig_Love
+							value = 0.50
+							compare = greater_than_or_equals
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_country_flag = USA_Archie_did_USA_support_the_texans_toas
+					}
+					if = {
+						limit = {
+							NOT = {
+								OR = {
+									has_country_flag = USA_Archie_did_USA_establish_carlsbad_national_park
+								}
+							}
+						}
+						USA_whig_gain_southwest = yes
+					}
+				}
+				if = {
+					limit = {
+						has_country_flag = USA_Archie_did_USA_support_the_colonist_miners
+					}
+					if = {
+						limit = {
+							NOT = {
+								OR = {
+									has_country_flag = USA_Archie_did_USA_establish_great_smokey_mountains_national_park
+									has_country_flag = USA_Archie_did_USA_establish_everglades_national_park
+								}
+							}
+						}
+						USA_whig_gain_deep_south = yes
+					}
+				}
+				if = {
+					limit = {
+						has_country_flag = USA_Archie_did_USA_meet_with_Patton
+					}
+					USA_whig_gain_pacific = yes
+				}
+				if = {
+					limit = {
+						has_country_flag = USA_Archie_did_USA_phyc_op_strikers
+					}
+					USA_republican_gain_midwest = yes
+				}
+				if = {
+					limit = {
+						has_country_flag = USA_Archie_did_USA_decry_the_toas_fight
+					}
+					USA_dem_gain_southwest = yes
+				}
+				if = {
+					limit = {
+						has_country_flag = USA_Archie_did_USA_establish_carlsbad_national_park
+					}
+					USA_prog_gain_southwest = yes
+						if = {
+							limit = {
+								NOT = {
+									OR = {
+										has_country_flag = USA_Archie_did_USA_support_the_texans_toas
+									}
+								}
+							}
+							USA_whig_gain_southwest = yes
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_establish_everglades_national_park
+						}
+						if = {
+							limit = {
+								NOT = {
+									OR = {
+										has_country_flag = USA_Archie_did_USA_support_the_colonist_miners
+										has_country_flag = USA_Archie_did_USA_establish_great_smokey_mountains_national_park
+									}
+								}
+							}
+							USA_whig_gain_deep_south = yes
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_establish_great_smokey_mountains_national_park
+						}
+						if = {
+							limit = {
+								NOT = {
+									OR = {
+										has_country_flag = USA_Archie_did_USA_support_the_colonist_miners
+										has_country_flag = USA_Archie_did_USA_establish_everglades_national_park
+									}
+								}
+							}
+							USA_whig_gain_deep_south = yes
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_condemn_strikers
+						}
+						USA_prog_gain_midwest = yes
+					}
+					USA_whole_nation_whig_gain_small = yes
+				}
+				if = { # High Whig Love
+					limit = {
+						check_variable = {
+							var = USA_Archie_Whig_Love
+							value = 0.50
+							compare = greater_than_or_equals
+						}
+						NOT = {
+							check_variable = {
+								var = USA_Archie_Whig_Love
+								value = 0.85
+								compare = greater_than_or_equals
+							}
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_support_the_texans_toas
+						}
+						if = {
+							limit = {
+								NOT = {
+									OR = {
+										has_country_flag = USA_Archie_did_USA_establish_carlsbad_national_park
+									}
+								}
+							}
+							USA_whig_gain_southwest = yes
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_support_the_colonist_miners
+						}
+						if = {
+							limit = {
+								NOT = {
+									OR = {
+										has_country_flag = USA_Archie_did_USA_establish_great_smokey_mountains_national_park
+										has_country_flag = USA_Archie_did_USA_establish_everglades_national_park
+									}
+								}
+							}
+							USA_whig_gain_deep_south = yes
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_meet_with_Patton
+						}
+						USA_whig_gain_pacific = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_phyc_op_strikers
+						}
+						USA_republican_gain_midwest = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_decry_the_toas_fight
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_establish_carlsbad_national_park
+						}
+						if = {
+							limit = {
+								NOT = {
+									OR = {
+										has_country_flag = USA_Archie_did_USA_support_the_texans_toas
+									}
+								}
+							}
+							USA_whig_gain_southwest = yes
+						}
+						
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_establish_everglades_national_park
+						}
+						if = {
+							limit = {
+								NOT = {
+									OR = {
+										has_country_flag = USA_Archie_did_USA_support_the_colonist_miners
+										has_country_flag = USA_Archie_did_USA_establish_great_smokey_mountains_national_park
+									}
+								}
+							}
+							USA_whig_gain_deep_south = yes
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_establish_great_smokey_mountains_national_park
+						}
+						if = {
+							limit = {
+								NOT = {
+									OR = {
+										has_country_flag = USA_Archie_did_USA_support_the_colonist_miners
+										has_country_flag = USA_Archie_did_USA_establish_everglades_national_park
+									}
+								}
+							}
+							USA_whig_gain_deep_south = yes
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_condemn_strikers
+						}
+					}
+					USA_whole_nation_whig_gain_small = yes
+				}
+				if = { # Very High Whig Love
+					limit = {
+						check_variable = {
+							var = USA_Archie_Whig_Love
+							value = 0.85
+							compare = greater_than_or_equals
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_support_the_texans_toas
+						}
+						if = {
+							limit = {
+								NOT = {
+									OR = {
+										has_country_flag = USA_Archie_did_USA_establish_carlsbad_national_park
+									}
+								}
+							}
+							USA_whig_gain_southwest = yes
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_support_the_colonist_miners
+						}
+						if = {
+							limit = {
+								NOT = {
+									OR = {
+										has_country_flag = USA_Archie_did_USA_establish_great_smokey_mountains_national_park
+										has_country_flag = USA_Archie_did_USA_establish_everglades_national_park
+									}
+								}
+							}
+							USA_whig_gain_deep_south = yes
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_meet_with_Patton
+						}
+						USA_whig_gain_pacific = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_phyc_op_strikers
+						}
+						USA_republican_gain_midwest = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_decry_the_toas_fight
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_establish_carlsbad_national_park
+						}
+						if = {
+							limit = {
+								NOT = {
+									OR = {
+										has_country_flag = USA_Archie_did_USA_support_the_texans_toas
+									}
+								}
+							}
+							USA_whig_gain_southwest = yes
+						}
+						
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_establish_everglades_national_park
+						}
+						if = {
+							limit = {
+								NOT = {
+									OR = {
+										has_country_flag = USA_Archie_did_USA_support_the_colonist_miners
+										has_country_flag = USA_Archie_did_USA_establish_great_smokey_mountains_national_park
+									}
+								}
+							}
+							USA_whig_gain_deep_south = yes
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_establish_great_smokey_mountains_national_park
+						}
+						if = {
+							limit = {
+								NOT = {
+									OR = {
+										has_country_flag = USA_Archie_did_USA_support_the_colonist_miners
+										has_country_flag = USA_Archie_did_USA_establish_everglades_national_park
+									}
+								}
+							}
+							USA_whig_gain_deep_south = yes
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_condemn_strikers
+						}
+					}
+					USA_whole_nation_whig_gain_medium = yes
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = USA_Archie_Whig_Love
+						value = 0.25
+						compare = greater_than_or_equals
+					}
+					NOT = {
+						check_variable = {
+							var = USA_Archie_Whig_Love
+							value = 0.50
+							compare = greater_than_or_equals
+						}
+					}
+				}
+				custom_effect_tooltip = USA_whig_moderate_gains
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_Archie_Whig_Love
+						value = 0.50
+						compare = greater_than_or_equals
+					}
+					NOT = {
+						check_variable = {
+							var = USA_Archie_Whig_Love
+							value = 0.85
+							compare = greater_than_or_equals
+						}
+					}
+				}
+				custom_effect_tooltip = USA_whig_high_gains
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_Archie_Whig_Love
+						value = 0.85
+						compare = greater_than_or_equals
+					}
+				}
+				custom_effect_tooltip = USA_whig_very_high_gains
+			}
+		}
+}
+
+country_event = { # Endorsing Coolidge ( Whigs hate Archie ) # Progressive Boost
+	id = ArchieLegacy.2
+	title = ArchieLegacy.2.t
+	desc = ArchieLegacy.2.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = ArchieLegacy.2.a
+		hidden_effect = {
+			if = { # Med Whig Love
+				limit = {
+					check_variable = {
+						var = USA_Archie_Whig_Love
+						value = 0.00
+						compare = greater_than_or_equals
+					}
+					NOT = {
+						check_variable = {
+							var = USA_Archie_Whig_Love
+							value = 0.15
+							compare = greater_than_or_equals
+						}
+					}
+				}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_support_the_texans_toas
+						}
+						if = {
+							limit = {
+								NOT = {
+									OR = {
+										has_country_flag = USA_Archie_did_USA_establish_carlsbad_national_park
+									}
+								}
+							}
+							USA_whig_gain_southwest = yes
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_support_the_colonist_miners
+						}
+						USA_prog_gain_deep_south = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_meet_with_Patton
+						}
+						USA_prog_gain_pacific = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_phyc_op_strikers
+						}
+						USA_republican_gain_midwest = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_decry_the_toas_fight
+						}
+						#USA_dem_gain_southwest = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_establish_carlsbad_national_park
+						}
+						if = {
+							limit = {
+								NOT = {
+									OR = {
+										has_country_flag = USA_Archie_did_USA_support_the_texans_toas
+									}
+								}
+							}
+							USA_whig_gain_southwest = yes
+						}
+						USA_prog_gain_southwest = yes
+						
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_establish_everglades_national_park
+						}
+						USA_prog_gain_deep_south = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_establish_great_smokey_mountains_national_park
+						}
+						USA_prog_gain_deep_south = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_condemn_strikers
+						}
+						USA_prog_gain_midwest = yes
+					}
+				}
+				if = { # High Whig Love
+					limit = {
+						check_variable = {
+							var = USA_Archie_Whig_Love
+							value = 0.15
+							compare = greater_than_or_equals
+						}
+						NOT = {
+							check_variable = {
+								var = USA_Archie_Whig_Love
+								value = 0.25
+								compare = greater_than_or_equals
+							}
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_support_the_texans_toas
+						}
+						USA_prog_gain_southwest = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_support_the_colonist_miners
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_meet_with_Patton
+						}
+						USA_prog_gain_pacific = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_phyc_op_strikers
+						}
+						USA_republican_gain_midwest = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_decry_the_toas_fight
+						}
+						USA_dem_gain_southwest = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_establish_carlsbad_national_park
+						}
+						USA_prog_gain_southwest = yes
+						
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_establish_everglades_national_park
+						}
+						USA_prog_gain_deep_south = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_establish_great_smokey_mountains_national_park
+						}
+						USA_prog_gain_deep_south = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_condemn_strikers
+						}
+						USA_prog_gain_midwest = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = USA_Archie_Whig_Love
+						value = 0.00
+						compare = greater_than_or_equals
+					}
+					NOT = {
+						check_variable = {
+							var = USA_Archie_Whig_Love
+							value = 0.15
+							compare = greater_than_or_equals
+						}
+					}
+				}
+				custom_effect_tooltip = USA_progressive_high_gains
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_Archie_Whig_Love
+						value = 0.15
+						compare = greater_than_or_equals
+					}
+					NOT = {
+						check_variable = {
+							var = USA_Archie_Whig_Love
+							value = 0.25
+							compare = greater_than_or_equals
+						}
+					}
+				}
+				custom_effect_tooltip = USA_progressive_medium_gains
+			}
+		}
+}
+
+country_event = { # Endorsing Dulles ( Dems like Archie ) # Dem Boost
+	id = ArchieLegacy.3
+	title = ArchieLegacy.3.t
+	desc = ArchieLegacy.3.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = ArchieLegacy.3.a
+		hidden_effect = {
+				if = { # Med Dem Love
+					limit = {
+						check_variable = {
+							var = USA_Archie_Dem_Love
+							value = 0.25
+							compare = greater_than_or_equals
+						}
+						NOT = {
+							check_variable = {
+								var = USA_Archie_Dem_Love
+								value = 0.50
+								compare = greater_than_or_equals
+							}
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_support_the_texans_toas
+						}
+						USA_dem_gain_southwest = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_support_the_colonist_miners
+						}
+						USA_dem_gain_deep_south = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_meet_with_Patton
+						}
+						USA_dem_gain_pacific = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_phyc_op_strikers
+						}
+						USA_republican_gain_midwest = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_decry_the_toas_fight
+						}
+						USA_dem_gain_southwest = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_establish_carlsbad_national_park
+						}
+						USA_dem_gain_southwest = yes
+						USA_prog_gain_southwest = yes
+						
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_establish_everglades_national_park
+						}
+						USA_dem_gain_deep_south = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_establish_great_smokey_mountains_national_park
+						}
+						USA_dem_gain_deep_south = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_condemn_strikers
+						}
+						USA_prog_gain_midwest = yes
+					}
+					USA_whole_nation_democrat_gain_small = yes
+				}
+				if = { # High Dem Love
+					limit = {
+						check_variable = {
+							var = USA_Archie_Dem_Love
+							value = 0.50
+							compare = greater_than_or_equals
+						}
+						NOT = {
+							check_variable = {
+								var = USA_Archie_Dem_Love
+								value = 0.85
+								compare = greater_than_or_equals
+							}
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_support_the_texans_toas
+						}
+						USA_dem_gain_southwest = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_support_the_colonist_miners
+						}
+						USA_dem_gain_deep_south = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_meet_with_Patton
+						}
+						USA_dem_gain_pacific = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_phyc_op_strikers
+						}
+						USA_republican_gain_midwest = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_decry_the_toas_fight
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_establish_carlsbad_national_park
+						}
+						USA_dem_gain_southwest = yes
+						
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_establish_everglades_national_park
+						}
+						USA_dem_gain_deep_south = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_establish_great_smokey_mountains_national_park
+						}
+						USA_dem_gain_deep_south = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_condemn_strikers
+						}
+					}
+					USA_whole_nation_democrat_gain_medium = yes
+				}
+				if = { # Very High Dem Love
+					limit = {
+						check_variable = {
+							var = USA_Archie_Dem_Love
+							value = 0.85
+							compare = greater_than_or_equals
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_support_the_texans_toas
+						}
+						USA_dem_gain_southwest = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_support_the_colonist_miners
+						}
+						USA_dem_gain_deep_south = yes
+						USA_dem_gain_deep_south = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_meet_with_Patton
+						}
+						USA_dem_gain_pacific = yes
+						USA_dem_gain_pacific = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_phyc_op_strikers
+						}
+						USA_republican_gain_midwest = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_decry_the_toas_fight
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_establish_carlsbad_national_park
+						}
+						USA_dem_gain_southwest = yes
+						
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_establish_everglades_national_park
+						}
+						USA_dem_gain_deep_south = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_establish_great_smokey_mountains_national_park
+						}
+						USA_dem_gain_deep_south = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_condemn_strikers
+						}
+						USA_dem_gain_deep_south = yes
+					}
+				}
+				USA_whole_nation_democrat_gain_heavy = yes
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = USA_Archie_Dem_Love
+						value = 0.25
+						compare = greater_than_or_equals
+					}
+					NOT = {
+						check_variable = {
+							var = USA_Archie_Dem_Love
+							value = 0.50
+							compare = greater_than_or_equals
+						}
+					}
+				}
+				custom_effect_tooltip = USA_dem_moderate_gains
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_Archie_Dem_Love
+						value = 0.50
+						compare = greater_than_or_equals
+					}
+					NOT = {
+						check_variable = {
+							var = USA_Archie_Dem_Love
+							value = 0.85
+							compare = greater_than_or_equals
+						}
+					}
+				}
+				custom_effect_tooltip = USA_dem_high_gains
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_Archie_Dem_Love
+						value = 0.85
+						compare = greater_than_or_equals
+					}
+				}
+				custom_effect_tooltip = USA_dem_very_high_gains
+			}
+	}
+}
+
+country_event = { # Endorsing Dulles ( Dems hate Archie ) # Dem Boost
+	id = ArchieLegacy.4
+	title = ArchieLegacy.4.t
+	desc = ArchieLegacy.4.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = ArchieLegacy.4.a
+		hidden_effect = {
+				if = { # Med Dem Love
+					limit = {
+						check_variable = {
+							var = USA_Archie_Dem_Love
+							value = 0.00
+							compare = greater_than_or_equals
+						}
+						NOT = {
+							check_variable = {
+								var = USA_Archie_Dem_Love
+								value = 0.15
+								compare = greater_than_or_equals
+							}
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_support_the_texans_toas
+						}
+						if = {
+							limit = {
+								NOT = {
+									OR = {
+										has_country_flag = USA_Archie_did_USA_establish_carlsbad_national_park
+									}
+								}
+							}
+							USA_whig_gain_southwest = yes
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_support_the_colonist_miners
+						}
+						if = {
+							limit = {
+								NOT = {
+									OR = {
+										has_country_flag = USA_Archie_did_USA_establish_great_smokey_mountains_national_park
+										has_country_flag = USA_Archie_did_USA_establish_everglades_national_park
+									}
+								}
+							}
+							USA_whig_gain_deep_south = yes
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_meet_with_Patton
+						}
+						USA_whig_gain_pacific = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_phyc_op_strikers
+						}
+						USA_republican_gain_midwest = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_decry_the_toas_fight
+						}
+						#USA_dem_gain_southwest = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_establish_carlsbad_national_park
+						}
+						if = {
+							limit = {
+								NOT = {
+									OR = {
+										has_country_flag = USA_Archie_did_USA_support_the_texans_toas
+									}
+								}
+							}
+							USA_whig_gain_southwest = yes
+						}
+						
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_establish_everglades_national_park
+						}
+						if = {
+							limit = {
+								NOT = {
+									OR = {
+										has_country_flag = USA_Archie_did_USA_support_the_colonist_miners
+										has_country_flag = USA_Archie_did_USA_establish_great_smokey_mountains_national_park
+									}
+								}
+							}
+							USA_whig_gain_deep_south = yes
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_establish_great_smokey_mountains_national_park
+						}
+						if = {
+							limit = {
+								NOT = {
+									OR = {
+										has_country_flag = USA_Archie_did_USA_support_the_colonist_miners
+										has_country_flag = USA_Archie_did_USA_establish_everglades_national_park
+									}
+								}
+							}
+							USA_whig_gain_deep_south = yes
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_condemn_strikers
+						}
+						USA_whig_gain_midwest = yes
+					}
+				}
+				if = { # High Dem Love
+					limit = {
+						check_variable = {
+							var = USA_Archie_Dem_Love
+							value = 0.15
+							compare = greater_than_or_equals
+						}
+						NOT = {
+							check_variable = {
+								var = USA_Archie_Dem_Love
+								value = 0.25
+								compare = greater_than_or_equals
+							}
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_support_the_texans_toas
+						}
+						if = {
+							limit = {
+								NOT = {
+									OR = {
+										has_country_flag = USA_Archie_did_USA_establish_carlsbad_national_park
+									}
+								}
+							}
+							USA_whig_gain_southwest = yes
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_support_the_colonist_miners
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_meet_with_Patton
+						}
+						USA_whig_gain_pacific = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_phyc_op_strikers
+						}
+						USA_republican_gain_midwest = yes
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_decry_the_toas_fight
+						}
+						if = {
+							limit = {
+								NOT = {
+									OR = {
+										has_country_flag = USA_Archie_did_USA_establish_carlsbad_national_park
+										has_country_flag = USA_Archie_did_USA_decry_the_toas_fight
+									}
+								}
+							}
+							USA_whig_gain_southwest = yes
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_establish_carlsbad_national_park
+						}
+						if = {
+							limit = {
+								NOT = {
+									OR = {
+										has_country_flag = USA_Archie_did_USA_decry_the_toas_fight
+									}
+								}
+							}
+							USA_whig_gain_southwest = yes
+						}
+						
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_establish_everglades_national_park
+						}
+						if = {
+							limit = {
+								NOT = {
+									OR = {
+										has_country_flag = USA_Archie_did_USA_support_the_colonist_miners
+										has_country_flag = USA_Archie_did_USA_establish_great_smokey_mountains_national_park
+									}
+								}
+							}
+							USA_whig_gain_deep_south = yes
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_establish_great_smokey_mountains_national_park
+						}
+						if = {
+							limit = {
+								NOT = {
+									OR = {
+										has_country_flag = USA_Archie_did_USA_support_the_colonist_miners
+										has_country_flag = USA_Archie_did_USA_establish_everglades_national_park
+									}
+								}
+							}
+							USA_whig_gain_deep_south = yes
+						}
+					}
+					if = {
+						limit = {
+							has_country_flag = USA_Archie_did_USA_condemn_strikers
+						}
+						USA_prog_gain_midwest = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = USA_Archie_Dem_Love
+						value = 0.00
+						compare = greater_than_or_equals
+					}
+					NOT = {
+						check_variable = {
+							var = USA_Archie_Dem_Love
+							value = 0.15
+							compare = greater_than_or_equals
+						}
+					}
+				}
+				custom_effect_tooltip = USA_whig_high_gains_dem_suck
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_Archie_Dem_Love
+						value = 0.15
+						compare = greater_than_or_equals
+					}
+					NOT = {
+						check_variable = {
+							var = USA_Archie_Dem_Love
+							value = 0.25
+							compare = greater_than_or_equals
+						}
+					}
+				}
+				custom_effect_tooltip = USA_whig_medium_gains_dem_suck
+			}
+	}
+}
+
+country_event = { # Endorsing No one # Progressive Boost
+	id = ArchieLegacy.5
+	title = ArchieLegacy.5.t
+	desc = ArchieLegacy.5.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = ArchieLegacy.5.a
+		hidden_effect = {
+			if = {
+				limit = {
+					has_country_flag = USA_Archie_did_USA_support_the_texans_toas
+				}
+				USA_dem_gain_southwest = yes
+			}
+			if = {
+				limit = {
+			has_country_flag = USA_Archie_did_USA_support_the_colonist_miners
+				}
+				USA_dem_gain_deep_south = yes
+			}
+			if = {
+				limit = {
+					has_country_flag = USA_Archie_did_USA_meet_with_Patton
+				}
+				USA_dem_gain_pacific = yes
+			}
+			if = {
+				limit = {
+					has_country_flag = USA_Archie_did_USA_phyc_op_strikers
+				}
+				USA_republican_gain_midwest = yes
+				USA_republican_gain_midwest = yes
+			}
+			if = {
+				limit = {
+					has_country_flag = USA_Archie_did_USA_decry_the_toas_fight
+				}
+				USA_prog_gain_southwest = yes
+			}
+			if = {
+				limit = {
+					has_country_flag = USA_Archie_did_USA_establish_carlsbad_national_park
+				}
+				USA_prog_gain_southwest = yes	
+			}
+			if = {
+				limit = {
+					has_country_flag = USA_Archie_did_USA_establish_everglades_national_park
+				}
+				USA_prog_gain_deep_south = yes
+			}
+			if = {
+				limit = {
+					has_country_flag = USA_Archie_did_USA_establish_great_smokey_mountains_national_park
+				}
+				USA_prog_gain_deep_south = yes
+			}
+			if = {
+				limit = {
+					has_country_flag = USA_Archie_did_USA_condemn_strikers
+				}
+				USA_prog_gain_deep_south = yes
+			}
+			USA_whole_nation_progressive_gain_small = yes
+		}
+		custom_effect_tooltip = USA_party_abandonments
+	}
+}
+
+add_namespace = USA_election_campaign
+
+country_event = { # Begin Campaign 1936 # fire June 1st
+	id = USA_election_campaign.0
+	title = USA_election_campaign.0.t
+	desc = USA_election_campaign.0.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = USA_election_campaign.0.a
+		set_country_flag = USA_election_season
+		set_country_flag = USA_show_small_options
+		clr_country_flag = USA_show_medium_options
+		clr_country_flag = USA_show_large_options
+		USA_opposing_parties_campaign = yes
+		activate_mission = USA_opposition_campaign
+		hidden_effect = {
+			country_event = {
+				id = USA_election_campaign.1
+				days = 136
+			}
+		}
+	}
+}
+
+country_event = { # End Campaign 1936 # fire Oct 15th
+	id = USA_election_campaign.1
+	title = USA_election_campaign.1.t
+	desc = USA_election_campaign.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = USA_election_campaign.1.a
+		clr_country_flag = USA_election_season
+		clr_country_flag = USA_show_small_options
+		clr_country_flag = USA_show_medium_options
+		clr_country_flag = USA_show_large_options
+	}
+}
+
+add_namespace = USAPresElection36
+
+# President
+
+country_event = { # Election 1936
+	id = USAPresElection36.0
+	title = USAPresElection36.0.t
+	desc = USAPresElection36.0.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = USAPresElection36.0.a
+		USA_1936_election = yes
+	}
+}
+
+country_event = { # Calvin Coolidge Wins!
+	id = USAPresElection36.1
+	title = USAPresElection36.1.t
+	desc = USAPresElection36.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = USAPresElection36.1.a
+		set_country_flag = USA_Coolidge_Chosen
+	}
+}
+
+country_event = { # Allen Dulles Wins!
+	id = USAPresElection36.2
+	title = USAPresElection36.2.t
+	desc = USAPresElection36.2.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = USAPresElection36.2.a
+		set_country_flag = USA_Dulles_Chosen
+	}
+}
+
+country_event = { # Franklin Roosevelt Wins!
+	id = USAPresElection36.3
+	title = USAPresElection36.3.t
+	desc = USAPresElection36.3.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = USAPresElection36.3.a
+		set_country_flag = USA_Roosevelt_Chosen
+	}
+}
+
+country_event = { # Electoral Gridlock!
+	id = USAPresElection36.4
+	title = USAPresElection36.4.t
+	desc = USAPresElection36.4.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = USAPresElection36.4.a
+		set_country_flag = USA_electoral_gridlock_1936
+		hidden_effect = {
+			country_event = {
+				id = USAPresElection36.11
+				days = 12
+			}
+		}
+	}
+}
+
+# Senate
+
+country_event = { # Whig Majority in Senate
+	id = USAPresElection36.5
+	title = USAPresElection36.5.t
+	desc = USAPresElection36.5.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = USAPresElection36.5.a
+	}
+}
+
+country_event = { # Democrat Majority in Senate
+	id = USAPresElection36.6
+	title = USAPresElection36.6.t
+	desc = USAPresElection36.6.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = USAPresElection36.6.a
+	}
+}
+
+country_event = { # Progressive Majority in Senate
+	id = USAPresElection36.7
+	title = USAPresElection36.7.t
+	desc = USAPresElection36.7.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = USAPresElection36.7.a
+	}
+}
+
+# house
+
+country_event = { # Whig Majority in house
+	id = USAPresElection36.8
+	title = USAPresElection36.8.t
+	desc = USAPresElection36.8.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = USAPresElection36.8.a
+	}
+}
+
+country_event = { # Democrat Majority in house
+	id = USAPresElection36.9
+	title = USAPresElection36.9.t
+	desc = USAPresElection36.9.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = USAPresElection36.9.a
+	}
+}
+
+country_event = { # Progressive Majority in house
+	id = USAPresElection36.10
+	title = USAPresElection36.10.t
+	desc = USAPresElection36.10.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = USAPresElection36.10.a
+	}
+}
+
+# Gridlock Resolve
+
+country_event = { # Progressive Majority in house
+	id = USAPresElection36.11
+	title = USAPresElection36.11.t
+	desc = USAPresElection36.11.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # 
+		name = USAPresElection36.11.a
+		trigger = {
+			check_variable = {
+				var = USA_whig_EV
+				value = 143
+				compare = greater_than_or_equals
+			}
+		}
+		set_country_flag = USA_Coolidge_Chosen
+	}
+	option = { # 
+		name = USAPresElection36.11.b
+		trigger = {
+			check_variable = {
+				var = USA_democrat_EV
+				value = 143
+				compare = greater_than_or_equals
+			}
+		}
+		set_country_flag = USA_Dulles_Chosen
+	}
+	option = { # 
+		name = USAPresElection36.11.c
+		trigger = {
+			check_variable = {
+				var = USA_progressive_EV
+				value = 143
+				compare = greater_than_or_equals
+			}
+		}
+		set_country_flag = USA_Roosevelt_Chosen
+	}
+}
+
+# Hidden Election Innaguration
+
+country_event = { # Innaguration
+	id = USAPresElection36.12
+	title = USAPresElection36.12.t
+	desc = USAPresElection36.12.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = yes
+	
+	option = { # 
+		name = USAPresElection36.11.a
+		if = {
+			limit = {
+				has_country_flag = USA_Coolidge_Chosen
+			}
+			country_event = {
+				id = USElection.1
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_flag = USA_Dulles_Chosen
+			}
+			country_event = {
+				id = USElection.3
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_flag = USA_Roosevelt_Chosen
+			}
+			country_event = {
+				id = USElection.2
+			}
+		}
+	}
+}
+
+add_namespace = USElection
+
+country_event = { #ELECTION DEBUGS
+	id = USElection.1
+	title = USElection.1.t
+	desc = USElection.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = USElection.1.a
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = liberalism
+		}
+		create_country_leader = {
+			name = "Calvin Coolidge"
+			desc = "CALV_COOL_DESC"
+			picture = "Portrait_USA_Calvin_Coolidge.dds"
+			expire = "1965.1.1"
+			ideology = classical_liberalism
+			traits = {
+		
+			}
+		}
+	}
+}
+
+country_event = { #ELECTION DEBUGS
+	id = USElection.2
+	title = USElection.2.t
+	desc = USElection.2.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = USElection.2.a
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = progressivism
+		}
+		create_country_leader = {
+			name = "Franklin Roosevelt"
+			desc = "CALV_COOL_DESC"
+			picture = "Portrait_USA_Franklin_Roosevelt.dds"
+			expire = "1965.1.1"
+			ideology = liberal_reformer
+			traits = {
+		
+			}
+		}
+	}
+}
+
+country_event = { #ELECTION DEBUGS
+	id = USElection.3
+	title = USElection.3.t
+	desc = USElection.3.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = USElection.3.a
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = conservatism
+		}
+		create_country_leader = {
+			name = "Allen Dulles"
+			desc = "CALV_COOL_DESC"
+			picture = "Portrait_USA_Allen_Dulles.dds"
+			expire = "1965.1.1"
+			ideology = fiscal_conservatism
+			traits = {
+		
+			}
+		}
+	}
+}
+
+country_event = { #ELECTION DEBUGS
+	id = USElection.4
+	title = USElection.4.t
+	desc = USElection.4.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = USElection.4.a
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = liberalism
+		}
+		create_country_leader = {
+			name = "Miriam Ferguson"
+			desc = "CALV_COOL_DESC"
+			picture = "Portrait_USA_Ma_Ferguson.dds"
+			expire = "1965.1.1"
+			ideology = social_liberalism
+			traits = {
+		
+			}
+		}
+	}
+}
+
+country_event = { #ELECTION DEBUGS
+	id = USElection.5
+	title = USElection.5.t
+	desc = USElection.5.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = USElection.5.a
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = progressivism
+		}
+		create_country_leader = {
+			name = "Henry Wallace"
+			desc = "CALV_COOL_DESC"
+			picture = "Portrait_USA_Henry_Wallace.dds"
+			expire = "1965.1.1"
+			ideology = social_democracy
+			traits = {
+		
+			}
+		}
+	}
+}
+
+country_event = { #ELECTION DEBUGS
+	id = USElection.6
+	title = USElection.6.t
+	desc = USElection.6.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = USElection.6.a
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = conservatism
+		}
+		create_country_leader = {
+			name = "Thomas Dewey"
+			desc = "CALV_COOL_DESC"
+			picture = "Portrait_USA_Thomas_Dewey.dds"
+			expire = "1965.1.1"
+			ideology = social_conservatism
+			traits = {
+		
+			}
+		}
+	}
+}
+
+country_event = { #ELECTION DEBUGS
+	id = USElection.7
+	title = USElection.7.t
+	desc = USElection.7.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = USElection.7.a
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = socialism
+		}
+		create_country_leader = {
+			name = "George Seldes"
+			desc = "CALV_COOL_DESC"
+			picture = "Portrait_USA_George_Seldes.dds"
+			expire = "1965.1.1"
+			ideology = de_leonism
+			traits = {
+		
+			}
+		}
+	}
+}
+
+country_event = { #ELECTION DEBUGS
+	id = USElection.8
+	title = USElection.8.t
+	desc = USElection.8.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = USElection.8.a
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = liberalism
+		}
+		create_country_leader = {
+			name = "Joseph O'Mahoney"
+			desc = "CALV_COOL_DESC"
+			picture = "Portait_USA_Joseph_C_OMahoney.dds"
+			expire = "1965.1.1"
+			ideology = social_liberalism
+			traits = {
+		
+			}
+		}
+	}
+}
+
+country_event = { #ELECTION DEBUGS
+	id = USElection.9
+	title = USElection.9.t
+	desc = USElection.9.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = USElection.9.a
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = progressivism
+		}
+		create_country_leader = {
+			name = "Robert La Follette"
+			desc = "CALV_COOL_DESC"
+			picture = "Portrait_USA_Robert_La_Follette.dds"
+			expire = "1965.1.1"
+			ideology = social_democracy
+			traits = {
+		
+			}
+		}
+	}
+}
+
+country_event = { #ELECTION DEBUGS
+	id = USElection.10
+	title = USElection.10.t
+	desc = USElection.10.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = USElection.10.a
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = conservatism
+		}
+		create_country_leader = {
+			name = "John Hoover"
+			desc = "CALV_COOL_DESC"
+			picture = "Portrait_USA_John_Hoover.dds"
+			expire = "1965.1.1"
+			ideology = fiscal_conservatism
+			traits = {
+		
+			}
+		}
+	}
+}
+
+country_event = { #ELECTION DEBUGS, demoKKKrats
+	id = USElection.1000
+	title = USElection.1000.t
+	desc = USElection.1000.desc
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = USElection.1000.a
+		every_owned_state = {
+			multiply_variable = { US_democrat_popularity = 10 }
+		}
+	}
+}
+
+add_namespace = USA_flavor
+
+country_event = { # Republican Labor Party - May Day 1936
+	id = USA_flavor.1
+	title = USA_flavor.1.t
+	desc = USA_flavor.1.d
+	picture = GFX_report_event_vote_republican
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_flavor.1.a
+	}
+}
+
+country_event = { # Marx pog
+	id = USA_flavor.2
+	title = USA_flavor.2.t
+	desc = USA_flavor.2.d
+	picture = GFX_report_event_marx_grave
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_flavor.2.a
+	}
+}
+
+country_event = { # Doug Walker
+	id = USA_flavor.3
+	title = USA_flavor.3.t
+	desc = USA_flavor.3.d
+	picture = GFX_report_event_movie_theater
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_flavor.3.a
+	}
+}
+
+add_namespace = NMB
+
+country_event = { # Utopia
+	id = NMB.1
+	title = NMB.1.t
+	desc = NMB.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = NMB.1.a
+		USA = {
+			set_autonomy = {
+				target = NMB
+				autonomy_state = autonomy_free
+			}
+		}
+		set_cosmetic_tag = NMB_utopia
+		set_politics = {
+			ruling_party = ultranationalism
+		}
+	}
+}
+
+add_namespace = USA_Hopeless
+
+country_event = { # Texas
+	id = USA_Hopeless.1
+	title = USA_Hopeless.1.t
+	desc = USA_Hopeless.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_Hopeless.1.a
+		TEX = {
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 375
+						}
+					}
+				}
+				transfer_state = 375
+				add_state_core = 375
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 789
+						}
+					}
+				}
+				transfer_state = 789
+				add_state_core = 789
+			}
+		}
+	}
+}
+
+country_event = { # California
+	id = USA_Hopeless.2
+	title = USA_Hopeless.2.t
+	desc = USA_Hopeless.2.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_Hopeless.2.a
+		CLF = {
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 378
+						}
+					}
+				}
+				transfer_state = 378
+				add_state_core = 378
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 379
+						}
+					}
+				}
+				transfer_state = 379
+				add_state_core = 379
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 380
+						}
+					}
+				}
+				transfer_state = 380
+				add_state_core = 380
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 376
+						}
+					}
+				}
+				transfer_state = 376
+				add_state_core = 376
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 377
+						}
+					}
+				}
+				transfer_state = 377
+				add_state_core = 377
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 788
+						}
+					}
+				}
+				transfer_state = 788
+				add_state_core = 788
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 946
+						}
+					}
+				}
+				transfer_state = 946
+				add_state_core = 946
+			}
+		}
+	}
+}
+
+country_event = { # New England
+	id = USA_Hopeless.3
+	title = USA_Hopeless.3.t
+	desc = USA_Hopeless.3.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_Hopeless.3.a
+		NEE = {
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 911
+						}
+					}
+				}
+				transfer_state = 911
+				add_state_core = 911
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 904
+						}
+					}
+				}
+				transfer_state = 904
+				add_state_core = 904
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 905
+						}
+					}
+				}
+				transfer_state = 905
+				add_state_core = 905
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 332
+						}
+					}
+				}
+				transfer_state = 332
+				add_state_core = 332
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 357
+						}
+					}
+				}
+				transfer_state = 357
+				add_state_core = 357
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 907
+						}
+					}
+				}
+				transfer_state = 907
+				add_state_core = 907
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 906
+						}
+					}
+				}
+				transfer_state = 906
+				add_state_core = 906
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 358
+						}
+					}
+				}
+				transfer_state = 358
+				add_state_core = 358
+			}
+		}
+	}
+}
+
+country_event = { # Socialist Blocc
+	id = USA_Hopeless.4
+	title = USA_Hopeless.4.t
+	desc = USA_Hopeless.4.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_Hopeless.4.a
+		SSA = {
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 373
+						}
+					}
+				}
+				transfer_state = 373
+				add_state_core = 373
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 395
+						}
+					}
+				}
+				transfer_state = 395
+				add_state_core = 395
+			}
+		}
+	}
+}
+
+country_event = { # Western Blocc
+	id = USA_Hopeless.5
+	title = USA_Hopeless.5.t
+	desc = USA_Hopeless.5.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_Hopeless.5.a
+		WES = {
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 739
+						}
+					}
+				}
+				transfer_state = 739
+				add_state_core = 739
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 473
+						}
+					}
+				}
+				transfer_state = 473
+				add_state_core = 473
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 740
+						}
+					}
+				}
+				transfer_state = 740
+				add_state_core = 740
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 386
+						}
+					}
+				}
+				transfer_state = 386
+				add_state_core = 386
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 385
+						}
+					}
+				}
+				transfer_state = 385
+				add_state_core = 385
+			}
+		}
+	}
+}
+
+country_event = { # Western Blocc
+	id = USA_Hopeless.6
+	title = USA_Hopeless.6.t
+	desc = USA_Hopeless.6.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_Hopeless.6.a
+		PES = {
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 387
+						}
+					}
+				}
+				transfer_state = 387
+				add_state_core = 387
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 381
+						}
+					}
+				}
+				transfer_state = 381
+				add_state_core = 381
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 390
+						}
+					}
+				}
+				transfer_state = 390
+				add_state_core = 390
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 389
+						}
+					}
+				}
+				transfer_state = 389
+				add_state_core = 389
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 391
+						}
+					}
+				}
+				transfer_state = 391
+				add_state_core = 391
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 392
+						}
+					}
+				}
+				transfer_state = 392
+				add_state_core = 392
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 394
+						}
+					}
+				}
+				transfer_state = 394
+				add_state_core = 394
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 384
+						}
+					}
+				}
+				transfer_state = 384
+				add_state_core = 384
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 383
+						}
+					}
+				}
+				transfer_state = 383
+				add_state_core = 383
+			}
+		}
+	}
+}
+
+country_event = { # Eastern Blocc
+	id = USA_Hopeless.7
+	title = USA_Hopeless.7.t
+	desc = USA_Hopeless.7.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_Hopeless.7.a
+		EES = {
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 366
+						}
+					}
+				}
+				transfer_state = 366
+				add_state_core = 366
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 365
+						}
+					}
+				}
+				transfer_state = 365
+				add_state_core = 365
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 364
+						}
+					}
+				}
+				transfer_state = 364
+				add_state_core = 364
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 363
+						}
+					}
+				}
+				transfer_state = 363
+				add_state_core = 363
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 388
+						}
+					}
+				}
+				transfer_state = 388
+				add_state_core = 388
+			}
+			if = {
+				limit = {
+					any_other_country = {
+						NOT = {
+							controls_state = 371
+						}
+					}
+				}
+				transfer_state = 371
+				add_state_core = 371
+			}
+		}
+	}
+}
+
+add_namespace = USA_e
+
+country_event = { #1936 prepare congress elections
+	id = USA_e.1
+	title = USA_e.1.t
+	desc = USA_e.1.desc
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_e.1.a
+		hidden_effect = {
+			US_prepare_class_X_elections = yes
+			USA_congress_election_nation = yes
+			set_variable = {US_current_senate_class = 1}
+			set_variable = {US_next_senate_class = 2}
+		}
+	}
+}
+
+country_event = { #1938 congress elections
+	id = USA_e.2
+	title = USA_e.2.t
+	desc = USA_e.2.desc
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_e.2.a
+		hidden_effect = {
+			US_prepare_class_X_elections = yes
+			USA_congress_election_nation = yes
+			set_variable = {US_current_senate_class = 2}
+			set_variable = {US_next_senate_class = 3}
+		}
+	}
+}
+
+country_event = { #1940 prepare congress elections
+	id = USA_e.3
+	title = USA_e.3.t
+	desc = USA_e.3.desc
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_e.3.a
+		hidden_effect = {
+			US_prepare_class_X_elections = yes
+			USA_congress_election_nation = yes
+			set_variable = {US_current_senate_class = 3}
+			set_variable = {US_next_senate_class = 1}
+		}
+	}
+}
+
+country_event = { #1942 congress elections
+	id = USA_e.4
+	title = USA_e.4.t
+	desc = USA_e.4.desc
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USA_e.4.a
+		hidden_effect = {
+			US_prepare_class_X_elections = yes
+			USA_congress_election_nation = yes
+			set_variable = {US_current_senate_class = 1}
+			set_variable = {US_next_senate_class = 2}
+		}
+	}
+}
+
+add_namespace = USACongress
+
+country_event = { # Make Seats
+	id = USACongress.1
+	title = USACongress.1.t
+	desc = USACongress.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USACongress.1.a
+		set_variable = { USA_PROGESSIVE_SENATOR_SEATS = 0 }
+		set_variable = { USA_DEMOCRAT_SENATOR_SEATS = 0 }
+		set_variable = { USA_WHIG_SENATOR_SEATS = 0 }
+		set_variable = { USA_REPUBLICAN_SENATOR_SEATS = 0 }
+		## SENATORS ##
+		set_variable = {
+			var = USA_PROGESSIVE_SENATOR_SEATS
+			value = 35
+		}
+		set_variable = {
+			var = USA_DEMOCRAT_SENATOR_SEATS 
+			value = 28
+		}
+		set_variable = {
+			var = USA_WHIG_SENATOR_SEATS
+			value = 34
+		}
+		set_variable = {
+			var = USA_REPUBLICAN_SENATOR_SEATS
+			value = 9
+		}
+		##############
+		clr_country_flag =  USA_DEBUG_remove_1_already_done
+		set_variable = { USA_prog_slides = USA_PROGESSIVE_SENATOR_SEATS }
+		set_variable = { USA_dem_slides = USA_DEMOCRAT_SENATOR_SEATS }
+		set_variable = { USA_whig_slides = USA_WHIG_SENATOR_SEATS }
+		set_variable = { USA_republican_slides = USA_REPUBLICAN_SENATOR_SEATS }
+		set_variable = { USA_prog_slides2 = 0 }
+		set_variable = { USA_dem_slides2 = 0 }
+		set_variable = { USA_whig_slides2 = 0 }
+		set_variable = { USA_republican_slides2 = 0 }
+		add_to_variable = { USA_prog_slides = 1 }
+		add_to_variable = { 
+			var = USA_dem_slides
+			value = USA_prog_slides
+		}
+		add_to_variable = {
+			var = USA_whig_slides
+			value = USA_dem_slides
+		}
+		add_to_variable = {
+			var = USA_republican_slides
+			value = USA_whig_slides
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = USA_prog_slides
+					value = 61
+					compare = less_than_or_equals
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = USA_prog_slides
+					value = 61
+					compare = greater_than
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = USA_DEBUG_remove_1_already_done
+					}
+				}
+				add_to_variable = {
+					var = USA_prog_slides
+					value = -60
+				}
+				set_country_flag =  USA_DEBUG_remove_1_already_done
+			}
+			else = {
+				add_to_variable = {
+					var = USA_prog_slides
+					value = -60
+				}
+			}
+			set_variable = { USA_prog_slides2 = USA_prog_slides }
+			add_to_variable = { USA_dem_slides = 1 }
+		}
+		
+		if = {
+			limit = {
+				check_variable = {
+					var = USA_dem_slides
+					value = 61
+					compare = less_than_or_equals
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = USA_dem_slides
+					value = 61
+					compare = greater_than
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = USA_DEBUG_remove_1_already_done
+					}
+				}
+				add_to_variable = {
+					var = USA_dem_slides
+					value = -60
+				}
+				set_country_flag =  USA_DEBUG_remove_1_already_done
+			}
+			else = {
+				add_to_variable = {
+					var = USA_dem_slides
+					value = -60
+				}
+			}
+			set_variable = { USA_dem_slides2 = USA_dem_slides }
+			#add_to_variable = { USA_whig_slides = 1 }
+		}
+		
+		if = {
+			limit = {
+				check_variable = {
+					var = USA_whig_slides
+					value = 61
+					compare = less_than_or_equals
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = USA_whig_slides
+					value = 61
+					compare = greater_than
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = USA_DEBUG_remove_1_already_done
+					}
+				}
+				add_to_variable = {
+					var = USA_whig_slides
+					value = -60
+				}
+				set_country_flag =  USA_DEBUG_remove_1_already_done
+			}
+			else = {
+				add_to_variable = {
+					var = USA_whig_slides
+					value = -60
+				}
+			}
+			set_variable = { USA_whig_slides2 = USA_whig_slides }
+			#add_to_variable = { USA_republican_slides = 1 }
+		}
+		
+		if = {
+			limit = {
+				check_variable = {
+					var = USA_republican_slides
+					value = 61
+					compare = less_than_or_equals
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = USA_republican_slides
+					value = 61
+					compare = greater_than
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = USA_DEBUG_remove_1_already_done
+					}
+				}
+				add_to_variable = {
+					var = USA_republican_slides
+					value = -60
+				}
+				set_country_flag =  USA_DEBUG_remove_1_already_done
+			}
+			else = {
+				add_to_variable = {
+					var = USA_republican_slides
+					value = -60
+				}
+			}
+			set_variable = { USA_republican_slides2 = USA_republican_slides }
+		}
+		
+	}
+}
+
+country_event = { # 
+	id = USACongress.2
+	title = USACongress.2.t
+	desc = USACongress.2.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USACongress.2.a
+		USA_senate_gui_debug = yes
+	}
+}
+
+country_event = { # house 
+	id = USACongress.3
+	title = USACongress.3.t
+	desc = USACongress.3.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = USACongress.3.a
+		set_variable = { USA_PROGESSIVE_HOUSE_SEATS = 0 }
+		set_variable = { USA_DEMOCRAT_HOUSE_SEATS = 0 }
+		set_variable = { USA_WHIG_HOUSE_SEATS = 0 }
+		set_variable = { USA_REPUBLICAN_HOUSE_SEATS = 0 }
+		## SENATORS ##
+		set_variable = {
+			var = USA_PROGESSIVE_HOUSE_SEATS
+			value = 133
+		}
+		set_variable = {
+			var = USA_DEMOCRAT_HOUSE_SEATS 
+			value = 96
+		}
+		set_variable = { 
+			var = USA_WHIG_HOUSE_SEATS
+			value = 231
+		}
+		set_variable = {
+			var = USA_REPUBLICAN_HOUSE_SEATS
+			value = 34
+		}
+		##############
+		clr_country_flag = USA_HOUSE_FLAG_1
+		clr_country_flag = USA_HOUSE_FLAG_2
+		clr_country_flag = USA_HOUSE_FLAG_3
+		clr_country_flag = USA_HOUSE_FLAG_4
+		clr_country_flag = USA_HOUSE_FLAG_5
+		clr_country_flag = USA_HOUSE_FLAG_6
+		clr_country_flag = USA_HOUSE_FLAG_7
+		clr_country_flag = USA_HOUSE_FLAG_8
+		set_variable = { USA_prog_slides_house = USA_PROGESSIVE_HOUSE_SEATS }
+		set_variable = { USA_dem_slides_house = USA_DEMOCRAT_HOUSE_SEATS }
+		set_variable = { USA_whig_slides_house = USA_WHIG_HOUSE_SEATS }
+		set_variable = { USA_republican_slides_house = USA_REPUBLICAN_HOUSE_SEATS }
+		set_variable = { USA_Null_Space = 0 }
+		set_variable = { USA_prog_slides_house2 = 0 }
+		set_variable = { USA_dem_slides_house2 = 0 }
+		set_variable = { USA_whig_slides_house2 = 0 }
+		set_variable = { USA_republican_slides_house2 = 0 }
+		set_variable = { USA_prog_slides_house3 = 0 }
+		set_variable = { USA_dem_slides_house3 = 0 }
+		set_variable = { USA_whig_slides_house3 = 0 }
+		set_variable = { USA_republican_slides_house3 = 0 }
+		set_variable = { USA_prog_slides_house4 = 0 }
+		set_variable = { USA_dem_slides_house4 = 0 }
+		set_variable = { USA_whig_slides_house4 = 0 }
+		set_variable = { USA_republican_slides_house4 = 0 }
+		set_variable = { USA_prog_slides_house5 = 0 }
+		set_variable = { USA_dem_slides_house5 = 0 }
+		set_variable = { USA_whig_slides_house5 = 0 }
+		set_variable = { USA_republican_slides_house5 = 0 }
+		set_variable = { USA_prog_slides_house6 = 0 }
+		set_variable = { USA_dem_slides_house6 = 0 }
+		set_variable = { USA_whig_slides_house6 = 0 }
+		set_variable = { USA_republican_slides_house6 = 0 }
+		set_variable = { USA_prog_slides_house7 = 0 }
+		set_variable = { USA_dem_slides_house7 = 0 }
+		set_variable = { USA_whig_slides_house7 = 0 }
+		set_variable = { USA_republican_slides_house7 = 0 }
+		set_variable = { USA_prog_slides_house8 = 0 }
+		set_variable = { USA_dem_slides_house8 = 0 }
+		set_variable = { USA_whig_slides_house8 = 0 }
+		set_variable = { USA_republican_slides_house8 = 0 }
+		set_variable = { USA_prog_slides_house9 = 0 }
+		set_variable = { USA_dem_slides_house9 = 0 }
+		set_variable = { USA_whig_slides_house9 = 0 }
+		set_variable = { USA_republican_slides_house9 = 0 }
+		set_variable = { USA_prog_slides_house10 = 0 }
+		set_variable = { USA_dem_slides_house10 = 0 }
+		set_variable = { USA_whig_slides_house10 = 0 }
+		set_variable = { USA_republican_slides_house10 = 0 }
+		add_to_variable = { USA_prog_slides_house = 1 }
+		#add_to_variable = { USA_dem_slides_house = 1 }
+		#add_to_variable = { USA_whig_slides_house = 1 }
+		#add_to_variable = { USA_republican_slides_house = 1 }
+		add_to_variable = { 
+			var = USA_dem_slides_house
+			value = USA_prog_slides_house
+		}
+		add_to_variable = {
+			var = USA_whig_slides_house
+			value = USA_dem_slides_house
+		}
+		add_to_variable = {
+			var = USA_republican_slides_house
+			value = USA_whig_slides_house
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = USA_prog_slides_house
+					value = 61
+					compare = less_than_or_equals
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = USA_prog_slides_house
+					value = 61
+					compare = greater_than
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = USA_prog_slides_house
+						value = 61
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_prog_slides_house
+							value = 122
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_prog_slides_house2 = USA_prog_slides_house }
+				set_variable = {
+					var = USA_prog_slides_house
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_PROGESSIVE_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_prog_slides_house2
+						value = -60
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_PROGESSIVE_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_prog_slides_house2
+						value = -61
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_1
+						}
+					}
+					#add_to_variable = { USA_dem_slides_house = 1 }
+					set_country_flag = USA_HOUSE_FLAG_1
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_1
+					}
+					
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_prog_slides_house
+						value = 122
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_prog_slides_house
+							value = 183
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_prog_slides_house3 = USA_prog_slides_house }
+				set_variable = {
+					var = USA_prog_slides_house
+					value = 61
+				}
+				set_variable = {
+					var = USA_prog_slides_house2
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_PROGESSIVE_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_prog_slides_house3
+						value = -120
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_PROGESSIVE_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_prog_slides_house3
+						value = -122
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_2
+						}
+					}
+					#add_to_variable = { USA_dem_slides_house = 2 }
+					set_country_flag = USA_HOUSE_FLAG_2
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_2
+					}
+					
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_prog_slides_house
+						value = 183
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_prog_slides_house
+							value = 244
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_prog_slides_house4 = USA_prog_slides_house }
+				set_variable = {
+					var = USA_prog_slides_house
+					value = 61
+				}
+				set_variable = {
+					var = USA_prog_slides_house2
+					value = 61
+				}
+				set_variable = {
+					var = USA_prog_slides_house3
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_PROGESSIVE_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_prog_slides_house4
+						value = -180
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_PROGESSIVE_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_prog_slides_house4
+						value = -183
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_3
+						}
+					}
+					#add_to_variable = { USA_dem_slides_house = 3 }
+					set_country_flag = USA_HOUSE_FLAG_3
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_3
+					}
+					
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_prog_slides_house
+						value = 244
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_prog_slides_house
+							value = 305
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_prog_slides_house5 = USA_prog_slides_house }
+				set_variable = {
+					var = USA_prog_slides_house
+					value = 61
+				}
+				set_variable = {
+					var = USA_prog_slides_house2
+					value = 61
+				}
+				set_variable = {
+					var = USA_prog_slides_house3
+					value = 61
+				}
+				set_variable = {
+					var = USA_prog_slides_house4
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_PROGESSIVE_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_prog_slides_house5
+						value = -240
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_PROGESSIVE_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_prog_slides_house5
+						value = -244
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_4
+						}
+					}
+					#add_to_variable = { USA_dem_slides_house = 4 }
+					set_country_flag = USA_HOUSE_FLAG_4
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_4
+					}
+					
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_prog_slides_house
+						value = 305
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_prog_slides_house
+							value = 366
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_prog_slides_house6 = USA_prog_slides_house }
+				set_variable = {
+					var = USA_prog_slides_house
+					value = 61
+				}
+				set_variable = {
+					var = USA_prog_slides_house2
+					value = 61
+				}
+				set_variable = {
+					var = USA_prog_slides_house3
+					value = 61
+				}
+				set_variable = {
+					var = USA_prog_slides_house4
+					value = 61
+				}
+				set_variable = {
+					var = USA_prog_slides_house5
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_PROGESSIVE_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_prog_slides_house6
+						value = -300
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_PROGESSIVE_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_prog_slides_house6
+						value = -305
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_5
+						}
+					}
+					#add_to_variable = { USA_dem_slides_house = 5 }
+					set_country_flag = USA_HOUSE_FLAG_5
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_5
+					}
+					
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_prog_slides_house
+						value = 366
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_prog_slides_house
+							value = 427
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_prog_slides_house7 = USA_prog_slides_house }
+				set_variable = {
+					var = USA_prog_slides_house
+					value = 61
+				}
+				set_variable = {
+					var = USA_prog_slides_house2
+					value = 61
+				}
+				set_variable = {
+					var = USA_prog_slides_house3
+					value = 61
+				}
+				set_variable = {
+					var = USA_prog_slides_house4
+					value = 61
+				}
+				set_variable = {
+					var = USA_prog_slides_house5
+					value = 61
+				}
+				set_variable = {
+					var = USA_prog_slides_house6
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_PROGESSIVE_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_prog_slides_house7
+						value = -360
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_PROGESSIVE_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_prog_slides_house7
+						value = -366
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_6
+						}
+					}
+					#add_to_variable = { USA_dem_slides_house = 6 }
+					set_country_flag = USA_HOUSE_FLAG_6
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_6
+					}
+					
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_prog_slides_house
+						value = 427
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_prog_slides_house
+							value = 488
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_prog_slides_house8 = USA_prog_slides_house }
+				set_variable = {
+					var = USA_prog_slides_house
+					value = 61
+				}
+				set_variable = {
+					var = USA_prog_slides_house2
+					value = 61
+				}
+				set_variable = {
+					var = USA_prog_slides_house3
+					value = 61
+				}
+				set_variable = {
+					var = USA_prog_slides_house4
+					value = 61
+				}
+				set_variable = {
+					var = USA_prog_slides_house5
+					value = 61
+				}
+				set_variable = {
+					var = USA_prog_slides_house6
+					value = 61
+				}
+				set_variable = {
+					var = USA_prog_slides_house7
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_PROGESSIVE_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_prog_slides_house8
+						value = -420
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_PROGESSIVE_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_prog_slides_house8
+						value = -427
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_7
+						}
+					}
+					#add_to_variable = { USA_dem_slides_house = 7 }
+					set_country_flag = USA_HOUSE_FLAG_7
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_7
+					}
+					
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_prog_slides_house
+						value = 488
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_prog_slides_house
+							value = 549
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_prog_slides_house9 = USA_prog_slides_house }
+				set_variable = {
+					var = USA_prog_slides_house
+					value = 61
+				}
+				set_variable = {
+					var = USA_prog_slides_house2
+					value = 61
+				}
+				set_variable = {
+					var = USA_prog_slides_house3
+					value = 61
+				}
+				set_variable = {
+					var = USA_prog_slides_house4
+					value = 61
+				}
+				set_variable = {
+					var = USA_prog_slides_house5
+					value = 61
+				}
+				set_variable = {
+					var = USA_prog_slides_house6
+					value = 61
+				}
+				set_variable = {
+					var = USA_prog_slides_house7
+					value = 61
+				}
+				set_variable = {
+					var = USA_prog_slides_house8
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_PROGESSIVE_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_prog_slides_house9
+						value = -480
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_PROGESSIVE_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_prog_slides_house9
+						value = -488
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_8
+						}
+					}
+					#add_to_variable = { USA_dem_slides_house = 8 }
+					set_country_flag = USA_HOUSE_FLAG_8
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_8
+					}
+					
+				}
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = USA_dem_slides_house
+					value = 61
+					compare = less_than_or_equals
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = USA_dem_slides_house
+					value = 61
+					compare = greater_than
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = USA_dem_slides_house
+						value = 61
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_dem_slides_house
+							value = 122
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_dem_slides_house2 = USA_dem_slides_house }
+				set_variable = {
+					var = USA_dem_slides_house
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_DEMOCRAT_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_dem_slides_house2
+						value = -60
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_DEMOCRAT_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_dem_slides_house2
+						value = -61
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_1
+						}
+					}
+					#add_to_variable = { USA_whig_slides_house = 1 }
+					set_country_flag = USA_HOUSE_FLAG_1
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_1
+					}
+					
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_dem_slides_house
+						value = 122
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_dem_slides_house
+							value = 183
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_dem_slides_house3 = USA_dem_slides_house }
+				set_variable = {
+					var = USA_dem_slides_house
+					value = 61
+				}
+				set_variable = {
+					var = USA_dem_slides_house2
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_DEMOCRAT_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_dem_slides_house3
+						value = -120
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_DEMOCRAT_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_dem_slides_house3
+						value = -122
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_2
+						}
+					}
+					#add_to_variable = { USA_whig_slides_house = 2 }
+					set_country_flag = USA_HOUSE_FLAG_2
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_2
+					}
+					
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_dem_slides_house
+						value = 183
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_dem_slides_house
+							value = 244
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_dem_slides_house4 = USA_dem_slides_house }
+				set_variable = {
+					var = USA_dem_slides_house
+					value = 61
+				}
+				set_variable = {
+					var = USA_dem_slides_house2
+					value = 61
+				}
+				set_variable = {
+					var = USA_dem_slides_house3
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_DEMOCRAT_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_dem_slides_house4
+						value = -180
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_DEMOCRAT_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_dem_slides_house4
+						value = -183
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_3
+						}
+					}
+					#add_to_variable = { USA_whig_slides_house = 3 }
+					set_country_flag = USA_HOUSE_FLAG_3
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_3
+					}
+					
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_dem_slides_house
+						value = 244
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_dem_slides_house
+							value = 305
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_dem_slides_house5 = USA_dem_slides_house }
+				set_variable = {
+					var = USA_dem_slides_house
+					value = 61
+				}
+				set_variable = {
+					var = USA_dem_slides_house2
+					value = 61
+				}
+				set_variable = {
+					var = USA_dem_slides_house3
+					value = 61
+				}
+				set_variable = {
+					var = USA_dem_slides_house4
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_DEMOCRAT_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_dem_slides_house5
+						value = -240
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_DEMOCRAT_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_dem_slides_house5
+						value = -244
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_4
+						}
+					}
+					#add_to_variable = { USA_whig_slides_house = 4 }
+					set_country_flag = USA_HOUSE_FLAG_4
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_4
+					}
+					
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_dem_slides_house
+						value = 305
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_dem_slides_house
+							value = 366
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_dem_slides_house6 = USA_dem_slides_house }
+				set_variable = {
+					var = USA_dem_slides_house
+					value = 61
+				}
+				set_variable = {
+					var = USA_dem_slides_house2
+					value = 61
+				}
+				set_variable = {
+					var = USA_dem_slides_house3
+					value = 61
+				}
+				set_variable = {
+					var = USA_dem_slides_house4
+					value = 61
+				}
+				set_variable = {
+					var = USA_dem_slides_house5
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_DEMOCRAT_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_dem_slides_house6
+						value = -300
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_DEMOCRAT_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_dem_slides_house6
+						value = -305
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_5
+						}
+					}
+					#add_to_variable = { USA_whig_slides_house = 5 }
+					set_country_flag = USA_HOUSE_FLAG_5
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_5
+					}
+					
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_dem_slides_house
+						value = 366
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_dem_slides_house
+							value = 427
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_dem_slides_house7 = USA_dem_slides_house }
+				set_variable = {
+					var = USA_dem_slides_house
+					value = 61
+				}
+				set_variable = {
+					var = USA_dem_slides_house2
+					value = 61
+				}
+				set_variable = {
+					var = USA_dem_slides_house3
+					value = 61
+				}
+				set_variable = {
+					var = USA_dem_slides_house4
+					value = 61
+				}
+				set_variable = {
+					var = USA_dem_slides_house5
+					value = 61
+				}
+				set_variable = {
+					var = USA_dem_slides_house6
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_DEMOCRAT_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_dem_slides_house7
+						value = -360
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_DEMOCRAT_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_dem_slides_house7
+						value = -366
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_6
+						}
+					}
+					#add_to_variable = { USA_whig_slides_house = 6 }
+					set_country_flag = USA_HOUSE_FLAG_6
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_6
+					}
+					
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_dem_slides_house
+						value = 427
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_dem_slides_house
+							value = 488
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_dem_slides_house8 = USA_dem_slides_house }
+				set_variable = {
+					var = USA_dem_slides_house
+					value = 61
+				}
+				set_variable = {
+					var = USA_dem_slides_house2
+					value = 61
+				}
+				set_variable = {
+					var = USA_dem_slides_house3
+					value = 61
+				}
+				set_variable = {
+					var = USA_dem_slides_house4
+					value = 61
+				}
+				set_variable = {
+					var = USA_dem_slides_house5
+					value = 61
+				}
+				set_variable = {
+					var = USA_dem_slides_house6
+					value = 61
+				}
+				set_variable = {
+					var = USA_dem_slides_house7
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_DEMOCRAT_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_dem_slides_house8
+						value = -420
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_DEMOCRAT_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_dem_slides_house8
+						value = -427
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_7
+						}
+					}
+					#add_to_variable = { USA_whig_slides_house = 7 }
+					set_country_flag = USA_HOUSE_FLAG_7
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_7
+					}
+					
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_dem_slides_house
+						value = 488
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_dem_slides_house
+							value = 549
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_dem_slides_house9 = USA_dem_slides_house }
+				set_variable = {
+					var = USA_dem_slides_house
+					value = 61
+				}
+				set_variable = {
+					var = USA_dem_slides_house2
+					value = 61
+				}
+				set_variable = {
+					var = USA_dem_slides_house3
+					value = 61
+				}
+				set_variable = {
+					var = USA_dem_slides_house4
+					value = 61
+				}
+				set_variable = {
+					var = USA_dem_slides_house5
+					value = 61
+				}
+				set_variable = {
+					var = USA_dem_slides_house6
+					value = 61
+				}
+				set_variable = {
+					var = USA_dem_slides_house7
+					value = 61
+				}
+				set_variable = {
+					var = USA_dem_slides_house8
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_DEMOCRAT_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_dem_slides_house9
+						value = -480
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_DEMOCRAT_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_dem_slides_house9
+						value = -488
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_8
+						}
+					}
+					#add_to_variable = { USA_whig_slides_house = 8 }
+					set_country_flag = USA_HOUSE_FLAG_8
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_8
+					}
+					
+				}
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = USA_whig_slides_house
+					value = 61
+					compare = less_than_or_equals
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = USA_whig_slides_house
+					value = 61
+					compare = greater_than
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = USA_whig_slides_house
+						value = 61
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_whig_slides_house
+							value = 122
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_whig_slides_house2 = USA_whig_slides_house }
+				set_variable = {
+					var = USA_whig_slides_house
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_WHIG_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_whig_slides_house2
+						value = -60
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_WHIG_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_whig_slides_house2
+						value = -61
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_1
+						}
+					}
+					#add_to_variable = { USA_republican_slides_house = 1 }
+					set_country_flag = USA_HOUSE_FLAG_1
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_1
+					}
+					
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_whig_slides_house
+						value = 122
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_whig_slides_house
+							value = 183
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_whig_slides_house3 = USA_whig_slides_house }
+				set_variable = {
+					var = USA_whig_slides_house
+					value = 61
+				}
+				set_variable = {
+					var = USA_whig_slides_house2
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_WHIG_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_whig_slides_house3
+						value = -120
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_WHIG_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_whig_slides_house3
+						value = -121
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_2
+						}
+					}
+					#add_to_variable = { USA_republican_slides_house = 2 }
+					set_country_flag = USA_HOUSE_FLAG_2
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_2
+					}
+					
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_whig_slides_house
+						value = 183
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_whig_slides_house
+							value = 244
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_whig_slides_house4 = USA_whig_slides_house }
+				set_variable = {
+					var = USA_whig_slides_house
+					value = 61
+				}
+				set_variable = {
+					var = USA_whig_slides_house2
+					value = 61
+				}
+				set_variable = {
+					var = USA_whig_slides_house3
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_WHIG_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_whig_slides_house4
+						value = -180
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_WHIG_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_whig_slides_house4
+						value = -183
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_3
+						}
+					}
+					#add_to_variable = { USA_republican_slides_house = 3 }
+					set_country_flag = USA_HOUSE_FLAG_3
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_3
+					}
+					
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_whig_slides_house
+						value = 244
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_whig_slides_house
+							value = 305
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_whig_slides_house5 = USA_whig_slides_house }
+				set_variable = {
+					var = USA_whig_slides_house
+					value = 61
+				}
+				set_variable = {
+					var = USA_whig_slides_house2
+					value = 61
+				}
+				set_variable = {
+					var = USA_whig_slides_house3
+					value = 61
+				}
+				set_variable = {
+					var = USA_whig_slides_house4
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_WHIG_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_whig_slides_house5
+						value = -240
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_WHIG_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_whig_slides_house5
+						value = -244
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_4
+						}
+					}
+					#add_to_variable = { USA_republican_slides_house = 4 }
+					set_country_flag = USA_HOUSE_FLAG_4
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_4
+					}
+					
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_whig_slides_house
+						value = 305
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_whig_slides_house
+							value = 366
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_whig_slides_house6 = USA_whig_slides_house }
+				set_variable = {
+					var = USA_whig_slides_house
+					value = 61
+				}
+				set_variable = {
+					var = USA_whig_slides_house2
+					value = 61
+				}
+				set_variable = {
+					var = USA_whig_slides_house3
+					value = 61
+				}
+				set_variable = {
+					var = USA_whig_slides_house4
+					value = 61
+				}
+				set_variable = {
+					var = USA_whig_slides_house5
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_WHIG_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_whig_slides_house6
+						value = -300
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_WHIG_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_whig_slides_house6
+						value = -305
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_5
+						}
+					}
+					#add_to_variable = { USA_republican_slides_house = 5 }
+					set_country_flag = USA_HOUSE_FLAG_5
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_5
+					}
+					
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_whig_slides_house
+						value = 366
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_whig_slides_house
+							value = 427
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_whig_slides_house7 = USA_whig_slides_house }
+				set_variable = {
+					var = USA_whig_slides_house
+					value = 61
+				}
+				set_variable = {
+					var = USA_whig_slides_house2
+					value = 61
+				}
+				set_variable = {
+					var = USA_whig_slides_house3
+					value = 61
+				}
+				set_variable = {
+					var = USA_whig_slides_house4
+					value = 61
+				}
+				set_variable = {
+					var = USA_whig_slides_house5
+					value = 61
+				}
+				set_variable = {
+					var = USA_whig_slides_house6
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_WHIG_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_whig_slides_house7
+						value = -360
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_WHIG_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_whig_slides_house7
+						value = -366
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_6
+						}
+					}
+					#add_to_variable = { USA_republican_slides_house = 6 }
+					set_country_flag = USA_HOUSE_FLAG_6
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_6
+					}
+					
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_whig_slides_house
+						value = 427
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_whig_slides_house
+							value = 488
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_whig_slides_house8 = USA_whig_slides_house }
+				set_variable = {
+					var = USA_whig_slides_house
+					value = 61
+				}
+				set_variable = {
+					var = USA_whig_slides_house2
+					value = 61
+				}
+				set_variable = {
+					var = USA_whig_slides_house3
+					value = 61
+				}
+				set_variable = {
+					var = USA_whig_slides_house4
+					value = 61
+				}
+				set_variable = {
+					var = USA_whig_slides_house5
+					value = 61
+				}
+				set_variable = {
+					var = USA_whig_slides_house6
+					value = 61
+				}
+				set_variable = {
+					var = USA_whig_slides_house7
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_WHIG_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_whig_slides_house8
+						value = -420
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_WHIG_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_whig_slides_house8
+						value = -427
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_7
+						}
+					}
+					#add_to_variable = { USA_republican_slides_house = 7 }
+					set_country_flag = USA_HOUSE_FLAG_7
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_7
+					}
+					
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_whig_slides_house
+						value = 488
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_whig_slides_house
+							value = 549
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_whig_slides_house9 = USA_whig_slides_house }
+				set_variable = {
+					var = USA_whig_slides_house
+					value = 61
+				}
+				set_variable = {
+					var = USA_whig_slides_house2
+					value = 61
+				}
+				set_variable = {
+					var = USA_whig_slides_house3
+					value = 61
+				}
+				set_variable = {
+					var = USA_whig_slides_house4
+					value = 61
+				}
+				set_variable = {
+					var = USA_whig_slides_house5
+					value = 61
+				}
+				set_variable = {
+					var = USA_whig_slides_house6
+					value = 61
+				}
+				set_variable = {
+					var = USA_whig_slides_house7
+					value = 61
+				}
+				set_variable = {
+					var = USA_whig_slides_house8
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_WHIG_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_whig_slides_house9
+						value = -480
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_WHIG_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_whig_slides_house9
+						value = -488
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_8
+						}
+					}
+					#add_to_variable = { USA_republican_slides_house = 8 }
+					set_country_flag = USA_HOUSE_FLAG_8
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_8
+					}
+					
+				}
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = USA_republican_slides_house
+					value = 61
+					compare = less_than_or_equals
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = USA_republican_slides_house
+					value = 61
+					compare = greater_than
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = USA_republican_slides_house
+						value = 61
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_republican_slides_house
+							value = 122
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_republican_slides_house2 = USA_republican_slides_house }
+				set_variable = {
+					var = USA_republican_slides_house
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_REPUBLICAN_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_republican_slides_house2
+						value = -60
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_REPUBLICAN_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_republican_slides_house2
+						value = -61
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_1
+						}
+					}
+					add_to_variable = { USA_Null_Space = 1 }
+					set_country_flag = USA_HOUSE_FLAG_1
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_1
+					}
+					
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_republican_slides_house
+						value = 122
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_republican_slides_house
+							value = 183
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_republican_slides_house3 = USA_republican_slides_house }
+				set_variable = {
+					var = USA_republican_slides_house
+					value = 61
+				}
+				set_variable = {
+					var = USA_republican_slides_house2
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_REPUBLICAN_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_republican_slides_house3
+						value = -120
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_REPUBLICAN_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_republican_slides_house3
+						value = -122
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_2
+						}
+					}
+					add_to_variable = { USA_Null_Space = 2 }
+					set_country_flag = USA_HOUSE_FLAG_2
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_2
+					}
+					
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_republican_slides_house
+						value = 183
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_republican_slides_house
+							value = 244
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_republican_slides_house4 = USA_republican_slides_house }
+				set_variable = {
+					var = USA_republican_slides_house
+					value = 61
+				}
+				set_variable = {
+					var = USA_republican_slides_house2
+					value = 61
+				}
+				set_variable = {
+					var = USA_republican_slides_house3
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_REPUBLICAN_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_republican_slides_house4
+						value = -180
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_REPUBLICAN_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_republican_slides_house4
+						value = -183
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_3
+						}
+					}
+					add_to_variable = { USA_Null_Space = 3 }
+					set_country_flag = USA_HOUSE_FLAG_3
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_3
+					}
+					
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_republican_slides_house
+						value = 244
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_republican_slides_house
+							value = 305
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_republican_slides_house5 = USA_republican_slides_house }
+				set_variable = {
+					var = USA_republican_slides_house
+					value = 61
+				}
+				set_variable = {
+					var = USA_republican_slides_house2
+					value = 61
+				}
+				set_variable = {
+					var = USA_republican_slides_house3
+					value = 61
+				}
+				set_variable = {
+					var = USA_republican_slides_house4
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_REPUBLICAN_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_republican_slides_house5
+						value = -240
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_REPUBLICAN_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_republican_slides_house5
+						value = -244
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_4
+						}
+					}
+					add_to_variable = { USA_Null_Space = 4 }
+					set_country_flag = USA_HOUSE_FLAG_4
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_4
+					}
+					
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_republican_slides_house
+						value = 305
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_republican_slides_house
+							value = 366
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_republican_slides_house6 = USA_republican_slides_house }
+				set_variable = {
+					var = USA_republican_slides_house
+					value = 61
+				}
+				set_variable = {
+					var = USA_republican_slides_house2
+					value = 61
+				}
+				set_variable = {
+					var = USA_republican_slides_house3
+					value = 61
+				}
+				set_variable = {
+					var = USA_republican_slides_house4
+					value = 61
+				}
+				set_variable = {
+					var = USA_republican_slides_house5
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_REPUBLICAN_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_republican_slides_house6
+						value = -300
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_REPUBLICAN_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_republican_slides_house6
+						value = -305
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_5
+						}
+					}
+					add_to_variable = { USA_Null_Space = 5 }
+					set_country_flag = USA_HOUSE_FLAG_5
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_5
+					}
+					
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_republican_slides_house
+						value = 366
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_republican_slides_house
+							value = 427
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_republican_slides_house7 = USA_republican_slides_house }
+				set_variable = {
+					var = USA_republican_slides_house
+					value = 61
+				}
+				set_variable = {
+					var = USA_republican_slides_house2
+					value = 61
+				}
+				set_variable = {
+					var = USA_republican_slides_house3
+					value = 61
+				}
+				set_variable = {
+					var = USA_republican_slides_house4
+					value = 61
+				}
+				set_variable = {
+					var = USA_republican_slides_house5
+					value = 61
+				}
+				set_variable = {
+					var = USA_republican_slides_house6
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_REPUBLICAN_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_republican_slides_house7
+						value = -360
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_REPUBLICAN_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_republican_slides_house7
+						value = -366
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_6
+						}
+					}
+					add_to_variable = { USA_Null_Space = 6 }
+					set_country_flag = USA_HOUSE_FLAG_6
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_6
+					}
+					
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_republican_slides_house
+						value = 427
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_republican_slides_house
+							value = 488
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_republican_slides_house8 = USA_republican_slides_house }
+				set_variable = {
+					var = USA_republican_slides_house
+					value = 61
+				}
+				set_variable = {
+					var = USA_republican_slides_house2
+					value = 61
+				}
+				set_variable = {
+					var = USA_republican_slides_house3
+					value = 61
+				}
+				set_variable = {
+					var = USA_republican_slides_house4
+					value = 61
+				}
+				set_variable = {
+					var = USA_republican_slides_house5
+					value = 61
+				}
+				set_variable = {
+					var = USA_republican_slides_house6
+					value = 61
+				}
+				set_variable = {
+					var = USA_republican_slides_house7
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_REPUBLICAN_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_republican_slides_house8
+						value = -420
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_REPUBLICAN_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_republican_slides_house8
+						value = -427
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_7
+						}
+					}
+					add_to_variable = { USA_Null_Space = 7 }
+					set_country_flag = USA_HOUSE_FLAG_7
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_7
+					}
+					
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = USA_republican_slides_house
+						value = 488
+						compare = greater_than
+					}
+					NOT = {
+						check_variable = {
+							var = USA_republican_slides_house
+							value = 549
+							compare = greater_than
+						}
+					}
+				}
+				set_variable = { USA_republican_slides_house9 = USA_republican_slides_house }
+				set_variable = {
+					var = USA_republican_slides_house
+					value = 61
+				}
+				set_variable = {
+					var = USA_republican_slides_house2
+					value = 61
+				}
+				set_variable = {
+					var = USA_republican_slides_house3
+					value = 61
+				}
+				set_variable = {
+					var = USA_republican_slides_house4
+					value = 61
+				}
+				set_variable = {
+					var = USA_republican_slides_house5
+					value = 61
+				}
+				set_variable = {
+					var = USA_republican_slides_house6
+					value = 61
+				}
+				set_variable = {
+					var = USA_republican_slides_house7
+					value = 61
+				}
+				set_variable = {
+					var = USA_republican_slides_house8
+					value = 61
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_REPUBLICAN_HOUSE_SEATS
+							value = 0
+							compare = greater_than
+						}
+					}
+					add_to_variable = {
+						var = USA_republican_slides_house9
+						value = -480
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_REPUBLICAN_HOUSE_SEATS
+							value = 0
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = {
+						var = USA_republican_slides_house9
+						value = -488
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = USA_HOUSE_FLAG_8
+						}
+					}
+					add_to_variable = { USA_Null_Space = 8 }
+					set_country_flag = USA_HOUSE_FLAG_8
+				}
+				else_if = {
+					limit = {
+						has_country_flag = USA_HOUSE_FLAG_8
+					}
+					
+				}
+			}
+		}
+		clamp_variable = {
+			var = USA_prog_slides_house9
+			min = 0
+			max = 15
+		}
+		clamp_variable = {
+			var = USA_dem_slides_house9
+			min = 0
+			max = 15
+		}
+		clamp_variable = {
+			var = USA_whig_slides_house9
+			min = 0
+			max = 15
+		}
+		clamp_variable = {
+			var = USA_republican_slides_house9
+			min = 0
+			max = 15
+		}
+	}
+}

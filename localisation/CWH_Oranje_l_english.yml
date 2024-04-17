@@ -1,0 +1,18 @@
+﻿l_english:
+ ## parties ##
+  ORG_centralism_party:0 "MOREM"
+  ORG_centralism_party_long:0 "Mokha Oa Repaboliki Ea Matsoalloa"
+  ORG_socialism_party:0 "-"
+  ORG_socialism_party_long:0 "-"
+  ORG_progressivism_party:0 "-"
+  ORG_progressivism_party_long:0 "-"
+  ORG_liberalism_party:0 "-"
+  ORG_liberalism_party_long:0 "-"
+  ORG_conservatism_party:0 "KP"
+  ORG_conservatism_party_long:0 "Konstitusionele Party"
+  ORG_republicanism_party:0 "OU"
+  ORG_republicanism_party_long:0 "Orangia Unie"
+  ORG_authoritarianism_party:0 "-"
+  ORG_authoritarianism_party_long:0 "-"
+  ORG_ultranationalism_party:0 "GOU"
+  ORG_ultranationalism_party_long:0 "Gesuiwer Orangia Unie"

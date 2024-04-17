@@ -1,0 +1,11 @@
+XXX_Influnce_Netherlands = {
+#	picture = GFX_ENG_decision_Parliament
+	allowed = {
+		has_country_flag = netherlands_influence
+		OR = {
+			tag = GER
+			tag = FRA 
+			tag = ENG
+		}
+	}
+}

@@ -1,0 +1,19 @@
+state={
+	id=951
+	name="STATE_951"
+	manpower = 0
+	
+	state_category = rural
+
+	history={
+		owner = KPZ
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = KPZ
+	}
+
+	provinces={
+		13372 5089 10797 13373
+	}
+}

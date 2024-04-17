@@ -1,0 +1,49 @@
+COG_great_african_game = {
+	great_african_game_time_remaining = {
+
+		icon = generic_civil_support
+		#cost = 0
+		available = {
+			AND = {
+				has_country_flag = Congo_Attending
+				has_global_flag = Congo_Great_Game
+			}
+		}
+
+		days_mission_timeout = 140
+
+		fire_only_once = no
+
+		activation = {
+			NOT = {
+				has_global_flag = Congo_Great_Game_Ended
+			}
+		}
+
+		visible = {
+			AND = {
+				has_country_flag = Congo_Attending
+				has_global_flag = Congo_Great_Game
+			}
+		}
+		
+		#allowed = {
+		#	AND = {
+		#		has_country_flag = Congo_Attending
+		#		has_global_flag = Congo_Great_Game
+		#	}
+		#}
+		
+		cancel_if_not_visible = yes
+
+		is_good = yes
+
+		complete_effect = {
+			custom_effect_tooltip = "test 1."
+		}
+
+		timeout_effect = {
+			custom_effect_tooltip = "test 2"
+		}
+	}
+}

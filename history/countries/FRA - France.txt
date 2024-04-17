@@ -1,0 +1,99 @@
+﻿capital = 845
+
+set_variable = { country_infamy = 11 } 
+OOB = "FRA_1936"
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.4
+
+load_focus_tree = FRA_Starting_Out
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = CAT
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = FEA
+		autonomous_state = autonomy_colonial_regime
+	}
+	set_autonomy = {
+		target = FNA
+		autonomous_state = autonomy_colonial_regime
+	}
+	set_autonomy = {
+		target = MAD
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = FEI
+		autonomous_state = autonomy_colonial_regime
+	}
+	else = {
+		puppet = CAT
+		puppet = FEA
+		puppet = FNA
+	}
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	tech_support = 1
+	tech_recon = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	motorised_infantry = 1
+}
+set_convoys = 300
+
+
+set_politics = {
+	ruling_party = republicanism
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	socialism = 24
+	centralism = 10
+	progressivism = 6
+	liberalism = 14
+	republicanism = 25
+	conservatism = 21
+}
+
+add_ideas = {
+	FRA_memories_of_malet
+	FRA_the_red_spectre
+	FRA_rival_nationalism_even
+	# law
+	industrial
+}
+
+create_faction = "Entente"
+add_to_faction = FRA
+add_to_faction = ITA
+add_to_faction = CAT
+add_to_faction = FEI
+add_to_faction = LBR
+add_to_faction = BRM
+add_to_faction = KAC
+add_to_faction = SHA
+add_to_faction = FEA
+add_to_faction = FNA
+
+create_country_leader = {
+	name = "Maurice Gamelin"
+	desc = "POLITICS_Maurice_Gamelin_DESC"
+	picture = "Portrait_FRA_Maurice_Gamelin.dds"
+	expire = "1965.1.1"
+	ideology = republicanism_subtype
+}

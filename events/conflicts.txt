@@ -1,0 +1,51 @@
+﻿add_namespace = conflicts
+
+country_event = {
+	id = conflicts.1
+	title = conflicts.1.t
+	desc = conflicts.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = {
+		name = conflicts.1.a
+		FRI = {
+			transfer_state = 36
+			add_state_core = 36
+		}
+		GEL = {
+			transfer_state = 878
+			add_state_core = 878
+		}
+		BBT = {
+			transfer_state = 35
+			add_state_core = 35
+		}
+		ZEE = {
+			transfer_state = 877
+			add_state_core = 877
+		}
+		LIM = {
+			transfer_state = 844
+			add_state_core = 844
+		}
+		WAL = {
+			transfer_state = 34
+			add_state_core = 34
+		}
+		BEL = {
+			transfer_state = 6
+			add_state_core = 6
+		}
+		FRA = {
+			set_country_flag = netherlands_influence
+		}
+		GER = {
+			set_country_flag = netherlands_influence
+		}
+		ENG = {
+			set_country_flag = netherlands_influence
+		}
+	}
+}

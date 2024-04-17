@@ -1,0 +1,15 @@
+focus_tree = {
+	id = ORG_starting_out
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ORG
+		}
+	}
+	default = no
+	shared_focus = ORG_Suspend_the_Volksraad
+	shared_focus = ORG_Purchase_the_Vooruitzicht_Farm
+	shared_focus = ORG_New_Military_Staff
+	continuous_focus_position = { x = 0 y = 4000 }
+}

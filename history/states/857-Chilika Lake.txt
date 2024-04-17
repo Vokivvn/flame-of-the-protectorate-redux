@@ -1,0 +1,14 @@
+state={
+	id=857
+	name="STATE_857"
+	provinces={
+		10116 12462 
+	}
+	history={
+		owner = DEN
+		add_core_of = RAJ
+	}
+	manpower=9010
+	state_category=enclave
+	buildings_max_level_factor=1.000
+}

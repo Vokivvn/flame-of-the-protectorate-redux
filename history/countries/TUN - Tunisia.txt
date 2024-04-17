@@ -1,0 +1,30 @@
+﻿capital = 458
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	centralism = 0
+	socialism = 0
+	progressivism = 6
+	liberalism = 11
+	conservatism = 62
+	republicanism = 0
+	authoritarianism = 21
+	ultranationalism = 0
+}
+
+create_country_leader = {
+	name = "Moncef Bay"
+	desc = "POLITICS_Moncef_Bay_DESC"
+	picture = "Portrait_TUN_Moncef_Bay.dds"
+	expire = "1953.3.1"
+	ideology = social_conservatism
+	traits = {
+		
+	}
+}

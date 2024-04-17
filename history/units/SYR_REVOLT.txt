@@ -1,0 +1,151 @@
+##Division Templates##
+
+division_template = {
+	name = "Rijal Qabayl"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Nasir"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Hurras Al-Suria"
+
+	regiments = {
+	infantry = { x = 0 y = 0 }
+	infantry = { x = 0 y = 1 }
+	infantry = { x = 0 y = 2 }
+	infantry = { x = 1 y = 0 }
+	infantry = { x = 1 y = 1 }
+	infantry = { x = 1 y = 2 }
+	artillery_brigade = { x = 2 y = 0 }
+	artillery_brigade = { x = 2 y = 1 }
+	artillery_brigade = { x = 2 y = 2 }
+	}
+}
+
+
+##Units##
+
+units ={
+	division = {
+	name = "Nasir"
+	location = "1088"
+	division_template = "Nasir"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Nasir"
+	location = "10087"
+	division_template = "Nasir"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Nasir"
+	location = "1056"
+	division_template = "Nasir"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Nasir"
+	location = "12442"
+	division_template = "Nasir"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Rijal Qabayl"
+	location = "7513"
+	division_template = "Rijal Qabayl"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Rijal Qabayl"
+	location = "3942"
+	division_template = "Rijal Qabayl"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Rijal Qabayl"
+	location = "1634"
+	division_template = "Rijal Qabayl"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Rijal Qabayl"
+	location = "2013"
+	division_template = "Rijal Qabayl"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Rijal Qabayl"
+	location = "12316"
+	division_template = "Rijal Qabayl"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Rijal Qabayl"
+	location = "10383"
+	division_template = "Rijal Qabayl"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Hurras Al-Suria"
+	location = "4111"
+	division_template = "Hurras Al-Suria"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Nasir"
+	location = "1015"
+	division_template = "Nasir"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Nasir"
+	location = "7151"
+	division_template = "Nasir"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Nasir"
+	location = "7170"
+	division_template = "Nasir"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Rijal Qabayl"
+	location = "1065"
+	division_template = "Rijal Qabayl"
+	start_experience_factor = 0.1
+	}
+}

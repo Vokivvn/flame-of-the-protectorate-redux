@@ -1,0 +1,26 @@
+state={
+	id=987
+	name="STATE_987"
+	manpower = 157805
+	
+	state_category = large_town
+	
+	history={
+		owner = USA
+		add_core_of = CHI
+		add_claim_by = USA
+		victory_points = {
+			10076 10
+		}
+		buildings = {
+			infrastructure = 4
+			10076 = {
+				naval_base = 3
+			}
+		}
+	}
+	
+	provinces={
+		10076 
+	}
+}

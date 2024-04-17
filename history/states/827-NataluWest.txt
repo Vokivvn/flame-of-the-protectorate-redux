@@ -1,0 +1,26 @@
+
+state={
+	id=827
+	name="STATE_827"
+	manpower = 11000
+	
+	state_category = pastoral
+	
+	resources={
+	}
+
+	history={
+		owner = NAT
+		victory_points = {
+			8178 1 
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = NAT
+	}
+
+	provinces={
+		8178
+	}
+}

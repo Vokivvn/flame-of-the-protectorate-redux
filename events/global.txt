@@ -1,0 +1,28 @@
+﻿add_namespace = global
+
+news_event = { # The US filibuster ends
+	id = global.1
+	title = global.1.t
+	desc = global.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = {
+		name = global.1.a
+	}
+}
+
+
+news_event = { # The Ottoman Collapse
+	id = global.2
+	title = global.2.t
+	desc = global.2.d
+	picture = GFX_news_event_ottoman_collapse
+
+	is_triggered_only = yes
+	
+	option = {
+		name = global.2.a
+	}
+}

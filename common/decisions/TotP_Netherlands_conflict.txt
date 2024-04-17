@@ -1,0 +1,717 @@
+XXX_Influnce_Netherlands = {
+	XXX_influence_FRI = {
+		visible = {
+			has_country_flag = netherlands_influence
+			OR = {
+				tag = GER
+				tag = FRA
+				tag = ENG
+			}
+			country_exists = FRI
+		}
+		available = { 
+			has_country_flag = netherlands_influence
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = no
+		cost = 25
+		days_re_enable = 15
+		complete_effect = {
+			if = { 
+				limit = {
+					tag = GER
+				}
+				add_to_variable = { GER_inflence_FRI = 1 }
+				add_to_variable = { country_infamy = 1 } 
+				custom_effect_tooltip = "INFAMY_UP1"
+			}
+			if = {
+				limit = {
+					tag = ENG
+				}
+				add_to_variable = { ENG_inflence_FRI = 1 }
+				add_to_variable = { country_infamy = 1 } 
+				custom_effect_tooltip = "INFAMY_UP1"
+			}
+			if = {
+				limit = {
+					tag = FRA
+				}
+				add_to_variable = { FRA_inflence_FRI = 1 }
+				add_to_variable = { country_infamy = 1 } 
+				custom_effect_tooltip = "INFAMY_UP1"
+			}
+		}
+	}
+	
+	XXX_influence_GEL = {
+		visible = {
+			has_country_flag = netherlands_influence
+			OR = {
+				tag = GER
+				tag = FRA
+				tag = ENG
+			}
+			country_exists = GEL
+		}
+		available = { 
+			has_country_flag = netherlands_influence
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = no
+		cost = 25
+		days_re_enable = 15
+		complete_effect = {
+			if = {
+				limit = {
+					tag = GER
+				}
+				add_to_variable = { GER_inflence_GEL = 1 }
+				add_to_variable = { country_infamy = 1 } 
+				custom_effect_tooltip = "INFAMY_UP1"
+			}
+			if = {
+				limit = {
+					tag = ENG
+				}
+				add_to_variable = { ENG_inflence_GEL = 1 }
+				add_to_variable = { country_infamy = 1 } 
+				custom_effect_tooltip = "INFAMY_UP1"
+			}
+			if = {
+				limit = {
+					tag = FRA
+				}
+				add_to_variable = { FRA_inflence_GEL = 1 }
+				add_to_variable = { country_infamy = 1 } 
+				custom_effect_tooltip = "INFAMY_UP1"
+			}
+		}
+	}
+	
+	XXX_influence_BBT = {
+		visible = {
+			has_country_flag = netherlands_influence
+			OR = {
+				tag = GER
+				tag = FRA
+				tag = ENG
+			}
+			country_exists = BBT
+		}
+		available = { 
+			has_country_flag = netherlands_influence
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = no
+		cost = 25
+		days_re_enable = 15
+		complete_effect = {
+			if = {
+				limit = {
+					tag = GER
+				}
+				add_to_variable = { GER_inflence_BBT = 1 }
+				add_to_variable = { country_infamy = 1 } 
+				custom_effect_tooltip = "INFAMY_UP1"
+			}
+			if = {
+				limit = {
+					tag = ENG
+				}
+				add_to_variable = { ENG_inflence_BBT = 1 }
+				add_to_variable = { country_infamy = 1 } 
+				custom_effect_tooltip = "INFAMY_UP1"
+			}
+			if = {
+				limit = {
+					tag = FRA
+				}
+				add_to_variable = { FRA_inflence_BBT = 1 }
+				add_to_variable = { country_infamy = 1 } 
+				custom_effect_tooltip = "INFAMY_UP1"
+			}
+		}
+	}
+	
+	XXX_influence_ZEE = {
+		visible = {
+			has_country_flag = netherlands_influence
+			OR = {
+				tag = GER
+				tag = FRA
+				tag = ENG
+			}
+			country_exists = ZEE
+		}
+		available = { 
+			has_country_flag = netherlands_influence
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = no
+		cost = 25
+		days_re_enable = 15
+		complete_effect = {
+			if = {
+				limit = {
+					tag = GER
+				}
+				add_to_variable = { GER_inflence_ZEE = 1 }
+				add_to_variable = { country_infamy = 1 } 
+				custom_effect_tooltip = "INFAMY_UP1"
+			}
+			if = {
+				limit = {
+					tag = ENG
+				}
+				add_to_variable = { ENG_inflence_ZEE = 1 }
+				add_to_variable = { country_infamy = 1 } 
+				custom_effect_tooltip = "INFAMY_UP1"
+			}
+			if = {
+				limit = {
+					tag = FRA
+				}
+				add_to_variable = { FRA_inflence_ZEE = 1 }
+				add_to_variable = { country_infamy = 1 } 
+				custom_effect_tooltip = "INFAMY_UP1"
+			}
+		}
+	}
+	
+	XXX_influence_LIM = {
+		visible = {
+			has_country_flag = netherlands_influence
+			OR = {
+				tag = GER
+				tag = FRA
+				tag = ENG
+			}
+			country_exists = LIM
+		}
+		available = { 
+			has_country_flag = netherlands_influence
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = no
+		cost = 25
+		days_re_enable = 15
+		complete_effect = {
+			if = {
+				limit = {
+					tag = GER
+				}
+				add_to_variable = { GER_inflence_LIM = 1 }
+				add_to_variable = { country_infamy = 1 } 
+				custom_effect_tooltip = "INFAMY_UP1"
+			}
+			if = {
+				limit = {
+					tag = ENG
+				}
+				add_to_variable = { ENG_inflence_LIM = 1 }
+				add_to_variable = { country_infamy = 1 } 
+				custom_effect_tooltip = "INFAMY_UP1"
+			}
+			if = {
+				limit = {
+					tag = FRA
+				}
+				add_to_variable = { FRA_inflence_LIM = 1 }
+				add_to_variable = { country_infamy = 1 } 
+				custom_effect_tooltip = "INFAMY_UP1"
+			}
+		}
+	}
+	
+	XXX_influence_BEL = {
+		visible = {
+			has_country_flag = netherlands_influence
+			OR = {
+				tag = GER
+				tag = FRA
+				tag = ENG
+			}
+			country_exists = BEL
+		}
+		available = { 
+			has_country_flag = netherlands_influence
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = no
+		cost = 25
+		days_re_enable = 15
+		complete_effect = {
+			if = {
+				limit = {
+					tag = GER
+				}
+				add_to_variable = { GER_inflence_BEL = 1 }
+				add_to_variable = { country_infamy = 1 } 
+				custom_effect_tooltip = "INFAMY_UP1"
+			}
+			if = {
+				limit = {
+					tag = ENG
+				}
+				add_to_variable = { ENG_inflence_BEL = 1 }
+				add_to_variable = { country_infamy = 1 } 
+				custom_effect_tooltip = "INFAMY_UP1"
+			}
+			if = {
+				limit = {
+					tag = FRA
+				}
+				add_to_variable = { FRA_inflence_BEL = 1 }
+				add_to_variable = { country_infamy = 1 } 
+				custom_effect_tooltip = "INFAMY_UP1"
+			}
+		}
+	}
+	
+	XXX_influence_WAL = {
+		visible = {
+			has_country_flag = netherlands_influence
+			OR = {
+				tag = GER
+				tag = FRA
+				tag = ENG
+			}
+			country_exists = WAL
+		}
+		available = { 
+			has_country_flag = netherlands_influence
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = no
+		cost = 25
+		days_re_enable = 15
+		complete_effect = {
+			if = {
+				limit = {
+					tag = GER
+				}
+				add_to_variable = { GER_inflence_WAL = 1 }
+				add_to_variable = { country_infamy = 1 } 
+				custom_effect_tooltip = "INFAMY_UP1"
+			}
+			if = {
+				limit = {
+					tag = ENG
+				}
+				add_to_variable = { ENG_inflence_WAL = 1 }
+				add_to_variable = { country_infamy = 1 } 
+				custom_effect_tooltip = "INFAMY_UP1"
+			}
+			if = {
+				limit = {
+					tag = FRA
+				}
+				add_to_variable = { FRA_inflence_WAL = 1 }
+				add_to_variable = { country_infamy = 1 } 
+				custom_effect_tooltip = "INFAMY_UP1"
+			}
+		}
+	}
+	
+	FRA_annex_LIM = {
+		visible = {
+			has_country_flag = netherlands_influence
+			tag = FRA
+			NOT = {
+				has_country_flag = LIM_annexed_france
+			}
+			country_exists = LIM
+		}
+		available = { 
+			has_country_flag = netherlands_influence
+			tag = FRA
+			check_variable = {
+				var = FRA_inflence_LIM
+				value = 3
+				compare = greater_than_or_equals
+			}
+			FRA = {
+				is_neighbor_of = LIM
+			}
+			NOT = {
+				OR = {
+					check_variable = { FRA_inflence_LIM < ENG_inflence_LIM }
+					check_variable = { FRA_inflence_LIM < GER_inflence_LIM }
+				}	
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		cost = 50
+		complete_effect = {
+			annex_country = {
+				target = LIM
+				transfer_troops = yes
+			}
+			add_to_variable = { country_infamy = 1 } 
+			custom_effect_tooltip = "INFAMY_UP1"
+			set_country_flag = LIM_annexed_france
+		}
+	}
+	
+	FRA_annex_ZEE = {
+		visible = {
+			has_country_flag = netherlands_influence
+			tag = FRA
+			NOT = {
+				has_country_flag = ZEE_annexed_france
+			}
+			country_exists = ZEE
+		}
+		available = { 
+			has_country_flag = netherlands_influence
+			tag = FRA
+			check_variable = {
+				var = FRA_inflence_ZEE
+				value = 3
+				compare = greater_than_or_equals
+			}
+			FRA = {
+				is_neighbor_of = ZEE
+			}
+			NOT = {
+				OR = {
+					check_variable = { FRA_inflence_ZEE < ENG_inflence_ZEE }
+					check_variable = { FRA_inflence_ZEE < GER_inflence_ZEE }
+				}	
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		cost = 50
+		complete_effect = {
+			annex_country = {
+				target = ZEE
+				transfer_troops = yes
+			}
+			add_to_variable = { country_infamy = 1 } 
+			custom_effect_tooltip = "INFAMY_UP1"
+			set_country_flag = ZEE_annexed_france
+		}
+	}
+	
+	FRA_annex_BBT = {
+		visible = {
+			has_country_flag = netherlands_influence
+			tag = FRA
+			NOT = {
+				has_country_flag = BBT_annexed_france
+			}
+			country_exists = BBT
+		}
+		available = { 
+			has_country_flag = netherlands_influence
+			tag = FRA
+			check_variable = {
+				var = FRA_inflence_BBT
+				value = 3
+				compare = greater_than_or_equals
+			}
+			FRA = {
+				is_neighbor_of = BBT
+			}
+			NOT = {
+				OR = {
+					check_variable = { FRA_inflence_BBT < ENG_inflence_BBT }
+					check_variable = { FRA_inflence_BBT < GER_inflence_BBT }
+				}	
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		cost = 50
+		complete_effect = {
+			annex_country = {
+				target = BBT
+				transfer_troops = yes
+			}
+			add_to_variable = { country_infamy = 1 } 
+			custom_effect_tooltip = "INFAMY_UP1"
+			set_country_flag = BBT_annexed_france
+		}
+	}
+	
+	FRA_annex_WAL = {
+		visible = {
+			has_country_flag = netherlands_influence
+			tag = FRA
+			NOT = {
+				has_country_flag = WAL_annexed_france
+			}
+			country_exists = WAL
+		}
+		available = { 
+			has_country_flag = netherlands_influence
+			tag = FRA
+			check_variable = {
+				var = FRA_inflence_WAL
+				value = 5
+				compare = greater_than_or_equals
+			}
+			FRA = {
+				is_neighbor_of = WAL
+			}
+			NOT = {
+				OR = {
+					check_variable = { FRA_inflence_WAL < ENG_inflence_WAL }
+					check_variable = { FRA_inflence_WAL < GER_inflence_WAL }
+				}	
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		cost = 75
+		complete_effect = {
+			annex_country = {
+				target = WAL
+				transfer_troops = yes
+			}
+			add_to_variable = { country_infamy = 3 } 
+			custom_effect_tooltip = "INFAMY_UP1"
+			set_country_flag = WAL_annexed_france
+		}
+	}
+	
+	FRA_annex_BEL = {
+		visible = {
+			has_country_flag = netherlands_influence
+			tag = FRA
+			NOT = {
+				has_country_flag = BEL_annexed_france
+			}
+			country_exists = BEL
+		}
+		available = { 
+			has_country_flag = netherlands_influence
+			tag = FRA
+			check_variable = {
+				var = FRA_inflence_BEL
+				value = 5
+				compare = greater_than_or_equals
+			}
+			FRA = {
+				is_neighbor_of = BEL
+			}
+			NOT = {
+				OR = {
+					check_variable = { FRA_inflence_BEL < ENG_inflence_BEL }
+					check_variable = { FRA_inflence_BEL < GER_inflence_BEL }
+				}	
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		cost = 75
+		complete_effect = {
+			annex_country = {
+				target = BEL
+				transfer_troops = yes
+			}
+			add_to_variable = { country_infamy = 3 } 
+			custom_effect_tooltip = "INFAMY_UP1"
+			set_country_flag = BEL_annexed_france
+		}
+	}
+	
+	GER_annex_FRI = {
+		visible = {
+			has_country_flag = netherlands_influence
+			tag = GER
+			NOT = {
+				has_country_flag = FRI_annexed_germany
+			}
+			country_exists = FRI
+		}
+		available = { 
+			has_country_flag = netherlands_influence
+			tag = GER
+			check_variable = {
+				var = GER_inflence_FRI
+				value = 3
+				compare = greater_than_or_equals
+			}
+			GER = {
+				is_neighbor_of = FRI
+			}
+			NOT = {
+				OR = {
+					check_variable = { GER_inflence_FRI < ENG_inflence_FRI }
+					check_variable = { GER_inflence_FRI < FRA_inflence_FRI }
+				}	
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		cost = 50
+		complete_effect = {
+			annex_country = {
+				target = FRI
+				transfer_troops = yes
+			}
+			add_to_variable = { country_infamy = 1 } 
+			custom_effect_tooltip = "INFAMY_UP1"
+			set_country_flag = FRI_annexed_germany
+		}
+	}
+	
+	GER_annex_GEL = {
+		visible = {
+			has_country_flag = netherlands_influence
+			tag = GER
+			NOT = {
+				has_country_flag = GEL_annexed_germany
+			}
+			country_exists = GEL
+		}
+		available = { 
+			has_country_flag = netherlands_influence
+			tag = GER
+			check_variable = {
+				var = GER_inflence_GEL
+				value = 3
+				compare = greater_than_or_equals
+			}
+			GER = {
+				is_neighbor_of = GEL
+			}
+			NOT = {
+				OR = {
+					check_variable = { GER_inflence_GEL < ENG_inflence_GEL }
+					check_variable = { GER_inflence_GEL < FRA_inflence_GEL }
+				}	
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		cost = 50
+		complete_effect = {
+			annex_country = {
+				target = GEL
+				transfer_troops = yes
+			}
+			add_to_variable = { country_infamy = 1 } 
+			custom_effect_tooltip = "INFAMY_UP1"
+			set_country_flag = GEL_annexed_germany
+		}
+	}
+	
+	GER_annex_BBT = {
+		visible = {
+			has_country_flag = netherlands_influence
+			tag = GER
+			NOT = {
+				has_country_flag = BBT_annexed_germany
+			}
+			country_exists = BBT
+		}
+		available = { 
+			has_country_flag = netherlands_influence
+			tag = GER
+			check_variable = {
+				var = GER_inflence_BBT
+				value = 3
+				compare = greater_than_or_equals
+			}
+			GER = {
+				is_neighbor_of = BBT
+			}
+			NOT = {
+				OR = {
+					check_variable = { GER_inflence_BBT < ENG_inflence_BBT }
+					check_variable = { GER_inflence_BBT < FRA_inflence_BBT }
+				}	
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		cost = 50
+		complete_effect = {
+			annex_country = {
+				target = BBT
+				transfer_troops = yes
+			}
+			add_to_variable = { country_infamy = 1 } 
+			custom_effect_tooltip = "INFAMY_UP1"
+			set_country_flag = BBT_annexed_germany
+		}
+	}
+	
+	GER_annex_BEL = {
+		visible = {
+			has_country_flag = netherlands_influence
+			tag = GER
+			NOT = {
+				has_country_flag = BEL_annexed_germany
+			}
+			country_exists = BEL
+		}
+		available = { 
+			has_country_flag = netherlands_influence
+			tag = GER
+			check_variable = {
+				var = GER_inflence_BEL
+				value = 3
+				compare = greater_than_or_equals
+			}
+			GER = {
+				is_neighbor_of = BEL
+			}
+			NOT = {
+				OR = {
+					check_variable = { GER_inflence_BEL < ENG_inflence_BEL }
+					check_variable = { GER_inflence_BEL < FRA_inflence_BEL }
+				}	
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		cost = 50
+		complete_effect = {
+			annex_country = {
+				target = BEL
+				transfer_troops = yes
+			}
+			add_to_variable = { country_infamy = 1 } 
+			custom_effect_tooltip = "INFAMY_UP1"
+			set_country_flag = BEL_annexed_germany
+		}
+	}
+}

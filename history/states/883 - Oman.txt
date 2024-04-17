@@ -1,0 +1,21 @@
+
+state={
+	id=883
+	name="STATE_883"
+	manpower = 92000
+	
+	state_category = rural
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1 
+		}
+		add_core_of = SAU
+	}
+
+	provinces={
+		13238 2059 13246 13248 13247 13245 13249 5049
+	}
+}

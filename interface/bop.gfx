@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_infamy"
+		texturefile = "gfx/interface/balnce_of_powers/infamy.dds"
+	}
+}

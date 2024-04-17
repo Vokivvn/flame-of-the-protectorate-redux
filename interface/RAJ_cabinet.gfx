@@ -1,0 +1,76 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_RAJ_public_support_0"
+		texturefile = "gfx/interface/RAJ_cabinet/GFX_RAJ_public_support_0.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_RAJ_public_support_10"
+		texturefile = "gfx/interface/RAJ_cabinet/GFX_RAJ_public_support_10.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_RAJ_public_support_20"
+		texturefile = "gfx/interface/RAJ_cabinet/GFX_RAJ_public_support_20.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_RAJ_public_support_30"
+		texturefile = "gfx/interface/RAJ_cabinet/GFX_RAJ_public_support_30.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_RAJ_public_support_40"
+		texturefile = "gfx/interface/RAJ_cabinet/GFX_RAJ_public_support_40.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_RAJ_public_support_50"
+		texturefile = "gfx/interface/RAJ_cabinet/GFX_RAJ_public_support_50.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_RAJ_public_support_60"
+		texturefile = "gfx/interface/RAJ_cabinet/GFX_RAJ_public_support_60.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_RAJ_public_support_70"
+		texturefile = "gfx/interface/RAJ_cabinet/GFX_RAJ_public_support_70.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_RAJ_public_support_80"
+		texturefile = "gfx/interface/RAJ_cabinet/GFX_RAJ_public_support_80.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_RAJ_public_support_90"
+		texturefile = "gfx/interface/RAJ_cabinet/GFX_RAJ_public_support_90.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_RAJ_public_support_100"
+		texturefile = "gfx/interface/RAJ_cabinet/GFX_RAJ_public_support_100.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_RAJ_public_support_bar"
+		texturefile = "gfx/interface/RAJ_cabinet/GFX_RAJ_public_support_bar.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Nehru"
+		texturefile = "gfx/interface/RAJ_cabinet/GFX_Nehru.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_patel"
+		texturefile = "gfx/interface/RAJ_cabinet/GFX_patel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Ali"
+		texturefile = "gfx/interface/RAJ_cabinet/GFX_Ali.dds"
+	}
+}

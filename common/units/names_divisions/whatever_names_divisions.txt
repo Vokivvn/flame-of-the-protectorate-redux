@@ -1,0 +1,515 @@
+﻿
+### because people can't read
+
+#austra
+GER_Inf_01 = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { AUS }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer" }
+	#}
+}
+
+GER_Arm_01 = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { AUS }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer 2" }
+	#}
+}
+
+GER_MOT_02 = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { AUS }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer 3" }
+	#}
+}
+
+GER_Mnt_01 = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { AUS }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer 4" }
+	#}
+}
+
+GER_Cav_01 = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { AUS }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer" }
+	#}
+}
+
+FRA_INF_01 = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { FRA }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer" }
+	#}
+}
+
+FRA_COL_01 = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { FRA }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer" }
+	#}
+}
+
+FRA_MOT_01 = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { FRA }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer" }
+	#}
+}
+
+FRA_MNT_01 = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { FRA }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer" }
+	#}
+}
+
+FRA_CAV_01 = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { FRA }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer" }
+	#}
+}
+
+FRA_MEC_01 = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { FRA }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer" }
+	#}
+}
+
+FRA_ARM_01 = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { FRA }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer" }
+	#}
+}
+
+ITA_INF_01 = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { ITA }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer" }
+	#}
+}
+
+ITA_MNT_01 = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { ITA }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer" }
+	#}
+}
+
+ITA_COL_01 = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { ITA }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer" }
+	#}
+}
+
+ITA_CAV_01 = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { ITA }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer" }
+	#}
+}
+
+ITA_CAV_02 = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { ITA }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer" }
+	#}
+}
+
+ETH_INF_01 = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { ETH }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer" }
+	#}
+}
+
+ETH_MNT_01 = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { ETH }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer" }
+	#}
+}
+
+KOR_INF_01 = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { KOR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer" }
+	#}
+}
+
+SIK_INF_01 = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { SIK }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer" }
+	#}
+}
+
+ALB_INF_01 = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { ALB }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer" }
+	#}
+}
+
+Hiri_i_Zotit = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { ALB }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer" }
+	#}
+}
+
+POL_infantry = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { POL }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer" }
+	#}
+}
+
+POL_cavalry = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { POL }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer" }
+	#}
+}
+
+LIT_infantry = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { LIT }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer" }
+	#}
+}
+
+LIT_cavalry = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { LIT }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer" }
+	#}
+}
+
+BLR_infantry = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { BLR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer" }
+	#}
+}
+
+BLR_cavalry = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { BLR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer" }
+	#}
+}
+
+UKR_infantry = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { UKR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer" }
+	#}
+}
+
+UKR_cavalry = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { UKR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer" }
+	#}
+}
+
+UKN_infantry = {
+	name = "Infantry Division Gamer"
+
+	for_countries = { UKN }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Infantry Division Gamer"
+
+	#ordered = {
+	#	1 = { "%d. Infantry Division Gamer" }
+	#}
+}

@@ -1,0 +1,21 @@
+state={
+	id=913
+	name="STATE_913"
+	provinces={
+		4307 4262 1289 10169 7311 10197 10153
+	}
+	
+	history={
+		owner = INS
+		add_core_of = BNG
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			10197 3
+		}
+	}
+	manpower=317492
+	buildings_max_level_factor=1.000
+	state_category=town
+}

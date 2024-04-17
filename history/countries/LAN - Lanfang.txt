@@ -1,0 +1,16 @@
+﻿capital = 880
+
+set_politics = {
+	ruling_party = progressivism
+	last_election = "1934.8.8"
+	election_frequency = 48
+	elections_allowed = yes # none after offset 1
+}
+
+set_popularities = {
+	liberalism = 21
+	conservatism = 17
+	authoritarianism = 11
+	progressivism = 42
+	socialism = 9
+}

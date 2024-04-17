@@ -1,0 +1,97 @@
+Economy_Calc_Income = {
+	## Losses
+	# Manpower
+	set_temp_variable = { Manpower_Nonconscripts = manpower_k }
+	divide_temp_variable = { Manpower_Nonconscripts = 10000 }
+	divide_temp_variable = { Manpower_Nonconscripts = 100 }
+	multiply_temp_variable = { Manpower_Nonconscripts = -0.1 }
+	
+	# Non Core States
+	set_temp_variable = { Non_Core_States = num_controlled_states }
+	subtract_from_temp_variable = { Non_Core_States = num_core_states }
+	multiply_temp_variable = { Non_Core_States = -0.02 }
+	
+	# Non Industrialized States
+	set_temp_variable = { Non_Industrial_States = 0 }
+	every_owned_state = {
+		limit = { infrastructure > 4 }
+		ROOT = {
+			add_to_temp_variable = { Non_Industrial_States = 1 }
+		}
+	}
+	multiply_temp_variable = { Non_Industrial_States = -0.03 }
+	
+	## Gains
+	# Puppet Nations
+	set_temp_variable = { Puppet_Nations = 0 }
+	set_temp_variable = { Puppet_Nations_item2 = 0 }
+	every_country = {
+		limit = { is_subject_of = ROOT }
+		ROOT = {
+			add_to_temp_variable = { Puppet_Nations = 1 }
+			add_to_temp_variable = { Puppet_Nations_item2 = 1 }
+		}
+	}
+	multiply_temp_variable = { Puppet_Nations = 0.05 }
+	multiply_temp_variable = { Puppet_Nations_item2 = -0.03 }
+	
+	# Ports
+	set_temp_variable = { Port_Number = 0 }
+	every_owned_state = { 
+		limit = { naval_base > 0 }
+		ROOT = {
+			add_to_temp_variable = { Port_Number = 1 }
+		}
+	}
+	divide_temp_variable = { Port_Number = 100 }
+	multiply_temp_variable = { Port_Number = 0.2 }
+	
+	#############
+	### TAXES ###
+	#############
+	set_temp_variable = { Upper_Class_Con = 50 }
+	set_temp_variable = { Upper_Class_Prv = -10 }
+	
+	set_temp_variable = { Middle_Class_Con = 55 }
+	
+	set_temp_variable = { Lower_Class_Con = 60 }
+	set_temp_variable = { Lower_Class_Prv = -20 }
+	
+	# Upper Tax
+	multiply_temp_variable = { Upper_Class_Con = UPPER_CLASS_TAX }
+	multiply_temp_variable = { Upper_Class_Prv = UPPER_CLASS_TAX }
+	
+	# Middle Tax
+	multiply_temp_variable = { Middle_Class_Con = MIDDLE_CLASS_TAX }
+	
+	# Lower Tax
+	multiply_temp_variable = { Lower_Class_Con = LOWER_CLASS_TAX }
+	multiply_temp_variable = { Lower_Class_Prv = LOWER_CLASS_TAX }
+	
+	### Final
+	## Compile Construction Income
+	# Losses
+	set_temp_variable = { TOTAL_CONSTRUCTION_INCOME = 0 }
+	add_to_temp_variable = { TOTAL_CONSTRUCTION_INCOME = Manpower_Nonconscripts }
+	add_to_temp_variable = { TOTAL_CONSTRUCTION_INCOME = Non_Core_States }
+	add_to_temp_variable = { TOTAL_CONSTRUCTION_INCOME = Non_Industrial_States }
+	# Gains
+	add_to_temp_variable = { TOTAL_CONSTRUCTION_INCOME = Puppet_Nations }
+	add_to_temp_variable = { TOTAL_CONSTRUCTION_INCOME = Port_Number }
+	# Tax
+	add_to_temp_variable = { TOTAL_CONSTRUCTION_INCOME = Upper_Class_Con }
+	add_to_temp_variable = { TOTAL_CONSTRUCTION_INCOME = Middle_Class_Con }
+	add_to_temp_variable = { TOTAL_CONSTRUCTION_INCOME = Lower_Class_Con }
+	
+	## Compile Private Income
+	set_temp_variable = { TOTAL_PRIVATE_INCOME = 0 }
+	# gains
+	add_to_temp_variable = { TOTAL_PRIVATE_INCOME = Puppet_Nations_item2 }
+	# tax
+	add_to_temp_variable = { TOTAL_PRIVATE_INCOME = Upper_Class_Prv }
+	add_to_temp_variable = { TOTAL_PRIVATE_INCOME = Lower_Class_Prv }
+	
+	# SET
+	set_variable = { TOTP_Country_Income_Base = TOTAL_CONSTRUCTION_INCOME }
+	set_variable = { TOTP_Construction_Income_Gain_Factories = TOTAL_PRIVATE_INCOME }
+}

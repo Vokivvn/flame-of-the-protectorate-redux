@@ -1,0 +1,29 @@
+
+state={
+	id=151
+	name="STATE_151"
+	manpower = 1854711
+	
+	
+	state_category = city
+	
+	resources={
+		
+	}
+	
+	history={
+		owner = TLE
+		victory_points = {
+			3660 10 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+		}
+		add_core_of = TLE
+	}
+
+	provinces={
+		661 3660   
+	}
+}

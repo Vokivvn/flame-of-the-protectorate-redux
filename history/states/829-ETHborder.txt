@@ -1,0 +1,23 @@
+
+state={
+	id=829
+	name="STATE_829"
+	manpower = 345000
+	
+	state_category = pastoral
+	
+	resources={
+	}
+
+	history={
+		owner = BEA
+		add_core_of = BEA
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		5160
+	}
+}

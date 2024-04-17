@@ -1,0 +1,58 @@
+leader_traits = {
+	incompetent = {
+		random = no
+		political_power_factor = -0.1
+		stability_factor = -0.10
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	hot_headed = {
+		random = no
+		political_power_factor = -0.1
+		drift_defence_factor = -0.25 
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	limited = {
+		random = no
+		political_power_factor = -0.1
+		mobilization_speed = -0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	unpopular = {
+		random = no
+		political_power_factor = -0.1
+		stability_weekly = -0.01
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	Romanus_Pontifex = {
+		random = no
+		drift_defence_factor = 0.25 
+		political_power_factor = 0.1
+		stability_weekly = 0.02
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	## ideas
+	JAP_seat_count_tt = { random = no }
+	JAP_coalition_no_tt = { random = no }
+	JAP_constant_disarray_tt = { random = no }
+	RAJ_netajis_court_tt = { random = no }
+}

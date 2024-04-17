@@ -1,0 +1,236 @@
+﻿add_namespace = RUS
+
+country_event = { #Ustryalov resigns
+	id = RUS.1
+	title = RUS.1.t
+	desc = RUS.1.desc
+	picture = GFX_report_event_SOV_stravinsky
+
+	is_triggered_only = yes
+	
+	option = {
+		name = RUS.1.a
+		
+	}
+}
+
+country_event = { #Letter of Integration--Lithuanian side
+	id = RUS.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event RUS.2"}
+	title = RUS.2.t
+	desc = RUS.2.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #ye
+		name = RUS.2.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			SOV = { 
+				check_variable = { SOV_western_krai_michael_influence > 0.4 }
+			}
+		}
+		SOV_western_krai_lithuania_folds = yes
+		SOV = {
+			country_event = { id = RUS.5 days = 1 }
+		}
+	}
+	option = {
+		name = RUS.2.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			SOV = {
+				check_variable = { 
+					var = SOV_western_krai_michael_influence
+					value = 0.4
+					compare = less_than_or_equals
+				}
+			}
+		}
+		SOV = { 
+			country_event = { id = RUS.6 days = 1 }
+		}
+	}
+}
+
+country_event = { #Letter Draft
+	id = RUS.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event RUS.3"}
+	title = RUS.3.t
+	desc = RUS.3.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = RUS.3.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = { #Russian Presence in Lithuania--Polish side
+	id = RUS.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event RUS.4"}
+	title = RUS.4.t
+	desc = RUS.4.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = RUS.4.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = { #Lithuania Folds!
+	id = RUS.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event RUS.5"}
+	title = RUS.5.t
+	desc = RUS.5.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = RUS.5.a
+		ai_chance = { factor = 1 }
+
+	}
+}
+
+country_event = { #Lithuania Refuses!
+	id = RUS.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event RUS.6"}
+	title = RUS.6.t
+	desc = RUS.6.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = RUS.6.a
+		ai_chance = { factor = 1 }
+		SOV = { 
+			declare_war_on = { target = LIT type = annex_everything }
+		}
+	}
+}
+
+country_event = { #Lithuania Capitulated, nice
+	id = RUS.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event RUS.7"}
+	title = RUS.7.t
+	desc = RUS.7.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = RUS.7.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = RUS.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event RUS.8"}
+	title = RUS.8.t
+	desc = RUS.8.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = RUS.8.a
+		ai_chance = { factor = 1 }
+		add_stability = 0.02
+	}
+}
+
+country_event = { #
+	id = RUS.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event RUS.9"}
+	title = RUS.9.t
+	desc = RUS.9.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = RUS.9.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #Russian Unity Parade
+	id = RUS.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event RUS.10"}
+	title = RUS.10.t
+	desc = RUS.10.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = RUS.10.a
+		ai_chance = { factor = 1 }
+		add_stability = 0.05
+		hidden_effect = {
+			country_event = { id = RUS.11 days = 2 }
+		}
+	}
+}
+
+country_event = { #Tsar Shot at the parade!
+	id = RUS.11
+	immediate = {log = "[GetDateText]: [Root.GetName]: event RUS.11"}
+	title = RUS.11.t
+	desc = RUS.11.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = RUS.11.a
+		ai_chance = { factor = 1 }
+		add_stability = -0.25
+		hidden_effect = {
+			country_event = { id = RUS.13 days = 15 }
+		}
+	}
+}
+
+country_event = { #The Passing of Nikolay
+	id = RUS.12
+	immediate = {log = "[GetDateText]: [Root.GetName]: event RUS.11"}
+	title = RUS.12.t
+	desc = RUS.12.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = RUS.12.a
+		ai_chance = { factor = 1 }
+		add_stability = -0.25
+		hidden_effect = {
+			country_event = { id = RUS.1 days = 2 }
+		}
+	}
+}
+

@@ -1,0 +1,541 @@
+SOV_debug_cat = {
+
+	SOV_debug_start_limbo = {
+		visible = { always = yes }
+		available = { always = yes }
+
+		days_remove = 0
+		days_re_enable = 0
+
+		remove_effect = { }
+		complete_effect = {
+			SOV_start_limbo = yes
+		}
+	}
+
+	SOV_debug_open_western_krai_decisions = {
+		visible = { always = yes }
+		available = { always = yes }
+
+		days_remove = 0
+		days_re_enable = 0
+
+		remove_effect = { }
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SOV_debug_open_western_krai_decisions"
+			complete_national_focus = SOV_our_western_krai
+		}
+	}
+}
+
+SOV_western_krai_cat = {
+
+	SOV_western_krai_letter_to_king_michael = {
+		visible = {
+			LIT = { exists = yes }
+		}
+
+		available = {
+			hidden_trigger = { 
+				NOT = { has_country_flag = SOV_flag_letter_to_michael_sent }
+			}
+		}
+
+		days_remove = 80
+		days_re_enable = 360
+
+		ai_will_do = { factor = 70 }
+
+		remove_effect = {
+			LIT = { 
+				country_event = { id = RUS.2 days = 1 }
+			}
+			clr_country_flag = SOV_flag_letter_to_michael_active
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SOV_western_krai_letter_to_king_michael"
+			set_country_flag = SOV_flag_letter_to_michael_active
+			country_event = { id = RUS.3 days = 1 }
+		}
+	}
+	
+	SOV_western_krai_arrange_meetings = {
+		visible = {
+			has_country_flag = SOV_flag_letter_to_michael_active
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = SOV_michael_decision_not_taken_tt
+				hidden_trigger = {
+					NOT = { has_country_flag = SOV_flag_michael_decision_active }
+				}
+			}
+		}
+
+		days_remove = 15
+		days_re_enable = 360
+
+		ai_will_do = { factor = 55 }
+
+		cost = 15
+
+		remove_effect = {
+			SOV_western_krai_increase_michael_influence_15 = yes
+			clr_country_flag = SOV_flag_michael_decision_active
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SOV_western_krai_arrange_meetings"
+			set_country_flag = SOV_flag_michael_decision_active
+		}
+	}
+
+	SOV_western_krai_send_diplomats = {
+		visible = {
+			has_country_flag = SOV_flag_letter_to_michael_active
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = SOV_michael_decision_not_taken_tt
+				hidden_trigger = {
+					NOT = { has_country_flag = SOV_flag_michael_decision_active }
+				}
+			}
+		}
+
+		days_remove = 15
+		days_re_enable = 360
+
+		ai_will_do = { factor = 50 }
+
+		cost = 10
+
+		remove_effect = {
+			SOV_western_krai_increase_michael_influence_20 = yes
+			clr_country_flag = SOV_flag_michael_decision_active
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SOV_western_krai_send_diplomats"
+			set_country_flag = SOV_flag_michael_decision_active
+		}
+	}
+
+	SOV_western_krai_sway_nobles = {
+		visible = {
+			has_country_flag = SOV_flag_letter_to_michael_active
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = SOV_michael_decision_not_taken_tt
+				hidden_trigger = {
+					NOT = { has_country_flag = SOV_flag_michael_decision_active }
+				}
+			}
+		}
+
+		days_remove = 15
+		days_re_enable = 360
+
+		ai_will_do = { factor = 60 }
+
+		cost = 15
+
+		remove_effect = {
+			SOV_western_krai_increase_michael_influence_15 = yes
+			clr_country_flag = SOV_flag_michael_decision_active
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SOV_western_krai_sway_nobles"
+			set_country_flag = SOV_flag_michael_decision_active
+		}
+	}
+
+	SOV_western_krai_promise_priviliges = {
+		visible = {
+			has_country_flag = SOV_flag_letter_to_michael_active
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = SOV_michael_decision_not_taken_tt
+				hidden_trigger = {
+					NOT = { has_country_flag = SOV_flag_michael_decision_active }
+				}
+			}
+		}
+
+		days_remove = 15
+		days_re_enable = 360
+
+		ai_will_do = { factor = 65 }
+
+		cost = 25
+
+		remove_effect = {
+			SOV_western_krai_increase_michael_influence_20 = yes
+			clr_country_flag = SOV_flag_michael_decision_active
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SOV_western_krai_promise_priviliges"
+			set_country_flag = SOV_flag_michael_decision_active
+		}
+	}
+
+	SOV_western_krai_catholic_concessions = {
+		visible = {
+			has_country_flag = SOV_flag_letter_to_michael_active
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = SOV_michael_decision_not_taken_tt
+				hidden_trigger = {
+					NOT = { has_country_flag = SOV_flag_michael_decision_active }
+				}
+			}
+		}
+
+		days_remove = 15
+		days_re_enable = 360
+
+		ai_will_do = { factor = 70 }
+
+		cost = 25
+
+		remove_effect = {
+			SOV_western_krai_increase_michael_influence_20 = yes
+			clr_country_flag = SOV_flag_michael_decision_active
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SOV_western_krai_catholic_concessions"
+			set_country_flag = SOV_flag_michael_decision_active
+		}
+	}
+	
+	SOV_western_krai_intervene_in_belarus = {
+		visible = {
+			BLR = { exists = yes }
+		}
+
+		available = {
+			
+		}
+
+		days_remove = 80
+		days_re_enable = 360
+
+		ai_will_do = { factor = 70 }
+
+		cost = 25
+
+		remove_effect = {
+			declare_war_on = { target = BLR type = annex_everything }
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SOV_western_krai_catholic_concessions"
+			set_country_flag = SOV_flag_michael_decision_active
+		}
+	}
+}
+
+SOV_classes_cat = {
+	
+	SOV_classes_workers_decisions_open = {
+		visible = {
+
+		}
+		available = {
+			hidden_trigger = { always = yes }
+		}
+
+		days_remove = 0
+		days_re_enable = 0
+
+		remove_effect = {
+
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SOV_classes_workers_decisions_open"
+			if = {
+				limit = {
+					NOT = {has_country_flag = SOV_classes_flag_workers_decisions_opened }
+				}
+				set_country_flag = SOV_classes_flag_workers_decisions_opened
+			}
+			else = {
+				clr_country_flag = SOV_classes_flag_workers_decisions_opened
+			}
+		}
+	}
+	
+	SOV_classes_nobles_decisions_open = {
+		visible = {
+	
+		}
+		available = {
+			hidden_trigger = { always = yes }
+		}
+	
+		days_remove = 0
+		days_re_enable = 0
+	
+		remove_effect = {
+	
+		}
+	
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SOV_classes_nobles_decisions_open"
+			if = {
+				limit = {
+					NOT = {has_country_flag = SOV_classes_flag_nobles_decisions_opened }
+				}
+				set_country_flag = SOV_classes_flag_nobles_decisions_opened
+			}
+			else = {
+				clr_country_flag = SOV_classes_flag_nobles_decisions_opened
+			}
+		}
+	}
+
+	SOV_classes_army_decisions_open = {
+		visible = {
+	
+		}
+		available = {
+			hidden_trigger = { always = yes }
+		}
+	
+		days_remove = 0
+		days_re_enable = 0
+	
+		remove_effect = {
+	
+		}
+	
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SOV_classes_army_decisions_open"
+			if = {
+				limit = {
+					NOT = {has_country_flag = SOV_classes_flag_army_decisions_opened }
+				}
+				set_country_flag = SOV_classes_flag_army_decisions_opened
+			}
+			else = {
+				clr_country_flag = SOV_classes_flag_army_decisions_opened
+			}
+		}
+	}
+
+	SOV_classes_council_decisions_open = {
+		visible = {
+	
+		}
+		available = {
+			hidden_trigger = { always = yes }
+		}
+	
+		days_remove = 0
+		days_re_enable = 0
+	
+		remove_effect = {
+	
+		}
+	
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SOV_classes_council_decisions_open"
+			if = {
+				limit = {
+					NOT = {has_country_flag = SOV_classes_flag_council_decisions_opened }
+				}
+				set_country_flag = SOV_classes_flag_council_decisions_opened
+			}
+			else = {
+				clr_country_flag = SOV_classes_flag_council_decisions_opened
+			}
+		}
+	}
+
+	SOV_classes_enact_mild_reforms = { 
+		visible = { 
+			AND = {
+				check_variable = { SOV_worker_support_percentage < 0.6 }
+				check_variable = { SOV_worker_influence_percentage > 0.2 }
+				has_country_flag = SOV_classes_flag_workers_decisions_opened
+			}
+		}
+		available = {
+			has_political_power > 24
+			has_stability > 0.3
+			custom_trigger_tooltip = {
+				tooltip = SOV_classes_decision_not_taken_tt
+				hidden_trigger = { 
+					NOT = { has_country_flag = SOV_flag_classes_decision_active }
+				}
+			}
+		}
+	
+		days_remove = 25
+		days_re_enable = 15
+	
+		cost = 25
+
+		remove_effect = {
+			SOV_classes_increase_worker_support_5 = yes
+			clr_country_flag = SOV_flag_classes_decision_active
+		}
+	
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SOV_classes_enact_mild_reforms"
+			set_country_flag = SOV_flag_classes_decision_active
+		}
+	}
+
+	SOV_classes_enact_extensive_reforms = { 
+		visible = { 
+			AND = {
+				check_variable = { SOV_worker_support_percentage < 0.6 }
+				has_country_flag = SOV_classes_flag_workers_decisions_opened
+			}
+		}
+		available = {
+			has_political_power > 49
+			has_stability > 0.4
+			custom_trigger_tooltip = {
+				tooltip = SOV_classes_decision_not_taken_tt
+				hidden_trigger = { 
+					NOT = { has_country_flag = SOV_flag_classes_decision_active }
+				}
+			}
+		}
+	
+		days_remove = 35
+		days_re_enable = 20
+	
+		cost = 50
+
+		remove_effect = {
+			SOV_classes_increase_worker_support_10 = yes
+			clr_country_flag = SOV_flag_classes_decision_active
+		}
+	
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SOV_classes_enact_extensive_reforms"
+			set_country_flag = SOV_flag_classes_decision_active
+		}
+	}
+
+	SOV_classes_promise_concessions = { 
+		visible = { 
+			AND = {
+				check_variable = { SOV_worker_influence_percentage > 0.3 }
+				has_country_flag = SOV_classes_flag_workers_decisions_opened
+			}
+		}
+		available = {
+			has_political_power > 34
+			has_stability > 0.2
+			custom_trigger_tooltip = {
+				tooltip = SOV_classes_decision_not_taken_tt
+				hidden_trigger = { 
+					NOT = { has_country_flag = SOV_flag_classes_decision_active }
+				}
+			}
+		}
+	
+		days_remove = 30
+		days_re_enable = 15
+	
+		cost = 35
+
+		remove_effect = {
+			SOV_classes_decrease_worker_influence_5 = yes
+			clr_country_flag = SOV_flag_classes_decision_active
+		}
+	
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SOV_classes_promise_concessions"
+			set_country_flag = SOV_flag_classes_decision_active
+		}
+	}
+	
+	SOV_classes_organize_banquets = { 
+		visible = { 
+			AND = {
+				check_variable = { SOV_noble_support_percentage < 0.8 }
+				has_country_flag = SOV_classes_flag_nobles_decisions_opened
+			}
+		}
+		available = {
+			has_political_power > 24
+			has_stability > 0.3
+			custom_trigger_tooltip = {
+				tooltip = SOV_classes_decision_not_taken_tt
+				hidden_trigger = { 
+					NOT = { has_country_flag = SOV_flag_classes_decision_active }
+				}
+			}
+		}
+	
+		days_remove = 25
+		days_re_enable = 15
+	
+		cost = 25
+
+		remove_effect = {
+			SOV_classes_increase_noble_support_5 = yes
+			clr_country_flag = SOV_flag_classes_decision_active
+		}
+	
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SOV_classes_organize_banquets"
+			set_country_flag = SOV_flag_classes_decision_active
+		}
+	}
+
+	SOV_classes_silence_workers = { 
+		visible = { 
+			AND = {
+				check_variable = { SOV_noble_support_percentage < 0.6 }
+				has_country_flag = SOV_classes_flag_nobles_decisions_opened
+			}
+		}
+		available = {
+			has_political_power > 49
+			has_stability > 0.5
+			custom_trigger_tooltip = {
+				tooltip = SOV_classes_decision_not_taken_tt
+				hidden_trigger = { 
+					NOT = { has_country_flag = SOV_flag_classes_decision_active }
+				}
+			}
+		}
+	
+		days_remove = 45
+		days_re_enable = 25
+	
+		cost = 50
+
+		remove_effect = {
+			SOV_classes_increase_noble_support_5 = yes
+			SOV_classes_decrease_noble_influence_5 = yes
+			SOV_classes_increase_worker_influence_5 = yes
+			clr_country_flag = SOV_flag_classes_decision_active
+		}
+	
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SOV_classes_organize_banquets"
+			set_country_flag = SOV_flag_classes_decision_active
+		}
+	}
+
+}

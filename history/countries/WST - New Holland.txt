@@ -1,0 +1,26 @@
+﻿capital = 522
+
+set_research_slots = 3
+set_stability = 0.75
+set_war_support = 0
+
+set_politics = {
+	ruling_party = liberalism
+	last_election = "1933.4.26"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	liberalism = 100
+}
+
+create_country_leader = {
+	name = "Gerrit Kersten"
+	desc = "POLITICS_Gerrit_Hendrik_Kersten_DESC"
+	picture = "Portrait_New_Holland_Gerrit_Hendrik_Kersten.dds"
+	expire = "1965.1.1"
+	ideology = classical_liberalism
+	traits = {
+		#
+	}
+}

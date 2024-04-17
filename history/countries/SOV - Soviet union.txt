@@ -1,0 +1,238 @@
+﻿capital = 219
+
+set_variable = { country_infamy = 13 } 
+
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.8
+
+# Variables
+set_variable = { SOV_worker_support_percentage = 0.3 } #SUPPORT--CONFIDENCE IN THE GOVERNMENT
+set_variable = { SOV_worker_influence_percentage = 0.45 } #INFLUENCE--DISCONTENT
+set_variable = { SOV_noble_support_percentage = 0.5 } 
+set_variable = { SOV_noble_influence_percentage = 0.1 }
+set_variable = { SOV_army_support_percentage = 0.6 }
+set_variable = { SOV_army_influence_percentage = 0.05 }
+set_variable = { SOV_duma_support_percentage = 0.8 }
+set_variable = { SOV_duma_influence_percentage = 0.05 }       
+#SOV_western_krai_michael_influence SET IN THE WESTERN KRAI FOCUS
+
+set_country_flag = SOV_flag_nikolai_iii_emperor
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	paratroopers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1  # PLACEHOLDER
+	#basic_heavy_tank = 1  # PLACEHOLDER
+	#basic_medium_tank = 1 # PLACEHOLDER
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	strategic_bomber1 = 1
+	naval_bomber1 = 1
+	mass_assault = 1
+	fleet_in_being = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		transport = 1
+	}
+}
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = SOM
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = ZAN
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = UKD
+		autonomous_state = autonomy_rus_dutchy
+	}
+	set_autonomy = {
+		target = TAU
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = PGG
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = BKH
+		autonomous_state = autonomy_rus_protectorate
+	}
+	set_autonomy = {
+		target = KHI
+		autonomous_state = autonomy_rus_protectorate
+	}
+	set_autonomy = {
+		target = KPZ
+		autonomous_state = autonomy_satellite
+	}
+	else = {
+		puppet = PER
+		puppet = SOM
+		puppet = ZAN
+		puppet = UKD
+		puppet = TAU
+		puppet = PGG
+		puppet = BKH
+		puppet = KHI
+		puppet = KPZ
+	}
+}
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1933.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	centralism = 16
+	authoritarianism = 9
+	progressivism = 12
+	liberalism = 14
+	socialism = 15
+	conservatism = 34
+}
+
+add_ideas = {
+	SOV_legacy_of_the_1903_interregnum
+	SOV_the_tsars_apathy
+	SOV_the_engelhardt_reformation
+	SOV_where_yermak_lays_his_gaze
+	# law
+	mixed
+}
+
+create_country_leader = {
+	name = "Nikolay Ustryalov"
+	desc = "POLITICS_NIKOLAY_USTRYALOV_DESC"
+	picture = "Portrait_Russia_Nikolay_Ustryalov.dds"
+	expire = "1953.3.1"
+	ideology = conservatism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Anatoly Lunacharsky"
+	desc = "POLITICS_ANATOLY_LUNACHARSKY_DESC"
+	picture = "Portrait_Russia_Anatoly_Lunacharsky.dds"
+	expire = "1953.3.1"
+	ideology = progressivism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Lev Kamenev"
+	desc = "POLITICS_LEV_KAMENEV_DESC"
+	picture = "Portrait_Russia_Lev_Kamenev.dds"
+	expire = "1953.3.1"
+	ideology = centralism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Alexey Nikitin"
+	desc = "POLITICS_ALEXEY_NIKITIN_DESC"
+	picture = "Portrait_Russia_ALEXEY_NIKITIN.dds"
+	expire = "1953.3.1"
+	ideology = socialism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Ivan Ilyin"
+	desc = "POLITICS_IVAN_ILYIN_DESC"
+	picture = "Portrait_Russia_Ivan_Ilyin.dds"
+	expire = "1953.3.1"
+	ideology = authoritarianism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Vasily Maklakov"
+	desc = "POLITICS_VASILY_MAKLAKOV_DESC"
+	picture = "Portrait_Russia_Vasily_Maklakov.dds"
+	expire = "1953.3.1"
+	ideology = liberalism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Boris Brasol"
+	desc = "POLITICS_BORIS_BRASOL_DESC"
+	picture = "Portrait_Russia_Boris_Brasol.dds"
+	expire = "1953.3.1"
+	ideology = ultranationalism_subtype
+	traits = {
+		
+	}
+}
+
+
+create_field_marshal = {
+	name = "Boris Engelhardt"
+	picture = "Portrait_Russia_Boris_Engelhardt.dds"
+	skill = 4
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_faction = "Imperial Concordat"
+add_to_faction = SOM
+add_to_faction = ZAN
+add_to_faction = KHI
+add_to_faction = BKH
+add_to_faction = UKD
+add_to_faction = TAU
+add_to_faction = PER
+add_to_faction = PGG
+add_to_faction = SAU
+add_to_faction = EGY
+add_to_faction = KPZ

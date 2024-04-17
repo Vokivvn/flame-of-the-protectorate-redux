@@ -1,0 +1,246 @@
+﻿l_english:
+ ##Description##
+ RAJ_TOTP_DESC:0 "With the Delhi Sultanate year by year, day by day being torn apart, embarrassed on the world stage, the many powers failed to acknowledge the people. With the collapse of the Sultanate and the Khan's defeat just weeks ago, a light was bestowed upon the citizens of the Indian state, a leader they may call their own. Standing up, the rugged regime plans to one day encompass the Indian subcontinent, liberating those still chocked by the boots of the imperialists. No matter what goliath the western powers may muster up, the will of the Indian people will forge the future of the nation. Jai Delhi! Jai Hind!"
+ 
+ ## Ideas ##
+ RAJ_protege_of_the_east:0 "Protégé of the East"
+ RAJ_protege_of_the_east_desc:0 "The decadent and weak rulers of the Delhi Sultanate which precedes us has long been a punching bag for the imperialists. Under the guiding hand of Subhas Chandra Bose, the people of Delhi will no longer stand for Western and foreign dominance over sons of the soil! Our ambitions are grand and righteous - the liberation of the Indian Subcontinent, and our Republic will be the bearer of that torch for the rest of the Indian and Oriental masses to follow."
+ RAJ_khan_flicts:0 "Khan-flicts"
+ RAJ_khan_flicts_desc:0 "The Delhi Revolution has left an undeniable mark on the history of the subcontinent - both material and non-material. While we have successfully united the warlords under one flag and sent the decadent Khans running with their tails between their legs, much has been lost in the process - especially in the means of structural and agricultural damage. Recovery from this conflict is an utmost priority for the Bose administration to stand on its feet again, lest we gather our national courage and will to launch our grand reunification of the subcontinent."
+ RAJ_khan_flicts_1:0 "Khan-flicts"
+ RAJ_khan_flicts_1_desc:0 "The Delhi Revolution has left an undeniable mark on the history of the subcontinent - both material and non-material. While we have successfully united the warlords under one flag and sent the decadent Khans running with their tails between their legs, much has been lost in the process - especially in the means of structural and agricultural damage. Recovery from this conflict is an utmost priority for the Bose administration to stand on its feet again, lest we gather our national courage and will to launch our grand reunification of the subcontinent."
+ RAJ_khan_flicts_2:0 "Khan-flicts"
+ RAJ_khan_flicts_2_desc:0 "The Delhi Revolution has left an undeniable mark on the history of the subcontinent - both material and non-material. While we have successfully united the warlords under one flag and sent the decadent Khans running with their tails between their legs, much has been lost in the process - especially in the means of structural and agricultural damage. Recovery from this conflict is an utmost priority for the Bose administration to stand on its feet again, lest we gather our national courage and will to launch our grand reunification of the subcontinent."
+ RAJ_netajis_court:0 "Bose's Court"
+ RAJ_netajis_court_desc:0 "Subhas Chandra Bose is a man of implacable will, and borderline indeterminate ideology. Though Bose claims to be a champion of democracy, but his policies say otherwise. While he has justified his strong hold over the Delhi Republic's administration as merely guiding the people under his tutelage until the nation is "ready for democracy", his court and cabinet aren't entirely convinced - mostly due to a singular question:\n\n"How long will the people require this tutelage?""
+ RAJ_netajis_court_1:0 "Bose's Court"
+ RAJ_netajis_court_1_desc:0 "Subhas Chandra Bose is a man of implacable will, and borderline indeterminate ideology. Though Bose claims to be a champion of democracy, but his policies say otherwise. While he has justified his strong hold over the Delhi Republic's administration as merely guiding the people under his tutelage until the nation is "ready for democracy", his court and cabinet aren't entirely convinced - mostly due to a singular question:\n\n"How long will the people require this tutelage?""
+ RAJ_netajis_court_tt:0 "Bi-Weekly Cabinet Support: §R-5%§!"
+ RAJ_mechanizing_farming:0 "Mechanized Farming"
+ RAJ_mechanizing_farming_desc:0 ""
+ RAJ_militarized_lifestyle:0 "Militarized Lifestyle"
+ RAJ_militarized_lifestyle_desc:0 ""
+ RAJ_little_recontruction_commitment:0 "Little Reconstruction Commitment"
+ RAJ_little_recontruction_commitment_desc:0 ""
+ RAJ_minor_recontruction_commitment:0 "Minor Reconstruction Commitment"
+ RAJ_minor_recontruction_commitment_desc:0 ""
+ RAJ_heavy_recontruction_commitment:0 "Heavy Reconstruction Commitment"
+ RAJ_heavy_recontruction_commitment_desc:0 ""
+ RAJ_total_recontruction_commitment:0 "Total Reconstruction Commitment"
+ RAJ_total_recontruction_commitment_desc:0 ""
+ 
+ ## Leader Descriptions ##
+ POLITICS_Subhas_Chandra_Bose_DESC:0 "In a land of millions, the odds of one man worming his way from the bottom to the top of the food chain seem slimmer than the restoration of the House of Stuart to the throne of Britain. To most, the odds alone are enough to quell the hopes of coming to power and simply resign themselves to go about their day. Subhas Chandra Bose could not sit idly by as so many of his fellow countrymen did, no, when Delhi called, Bose rushed to answer.\n\nThe Congress of 1918 was filled with the usual faces of Indian politics, even if they were different men, in the eyes of Bose, the Congress was not comprised of a unified opposition against the ruling establishment. Instead, the people of Delhi were subject to the grandest performance in all of Asia with the Khan as the director and lead role, acting as the humbled, enlightened, ruler of a people begging for his guidance. Even still, the story would be nothing without the villain, and so the director carefully selected the opposition to play the part of the foolish, power hungry, nay-sayers who wish to see Delhi tumble backwards to obscurity and exploitation by the western powers. While this would make a compelling play, Bose challenged the status-quo, ripping back the curtain. With his desire to bring fundamental change, Bose quickly rose through the ranks of the Congress, becoming it's president at twenty-five a decade prior.\n\nOnly a year into the Bose Congress, tragedy struck the subcontinent. A performance is like a chain, every part essential to make it keep it together. Rusty chains are quick to collapse and when the curtains drew on Yaqub Khan, the great play of Delhi did not come to a close, rather, things had only begun. The dawn of the second act was accompanied by 'Delhi conspiracy', a series of power plays by the Congress to subvert the young heir to Yaqub, Amanullah Khan, wherein Bose used his extensive pollical connections to seize power for himself, and by extension the Congress. Yet, his plot only brought blood. Shortly after the attempted coup, Amanullah Khan dissolved the Congress, shattering the unity Bose fostered and scattering it's senior members out to the wind to found a rival congress in Bengal as Amanullah returned the body to it's original role as nothing more than a supporting act. \n\nWith Delhi once again under the firm grip of Bose, his paternalistic democratic ideology leaves many doors open for the future of Delhi. In the end, it remains to be seen if the third act of the grand play will be the last to feature Chandra Bose or if the underdog will realize his goal to reshape the Indian subcontinent in his image, by ballot or bullet."
+ 
+ ## Parties ##
+ RAJ_centralism_party:0 "Samaajwadi party"
+ RAJ_centralism_party_long:0 "Samaajwadi party"
+ RAJ_socialism_party:0 "Kisaan Mazdoor Kraantikari Party"
+ RAJ_socialism_party_long:0 "Kisaan Mazdoor Kraantikari Party"
+ RAJ_progressivism_party:0 "Delhi Socialist Congress"
+ RAJ_progressivism_party_long:0 "Delhi Socialist Congress"
+ RAJ_liberalism_party:0 "Swatantra Satta Party"
+ RAJ_liberalism_party_long:0 "Swatantra Satta Party"
+ RAJ_conservatism_party:0 "Delhi National Congress"
+ RAJ_conservatism_party_long:0 "Delhi National Congress"
+ RAJ_republicanism_party:0 "Congress Subhash"
+ RAJ_republicanism_party_long:0 "Congress Subhash"
+ RAJ_absolutism_party:0 "Congress Patel"
+ RAJ_absolutism_party_long:0 "Congress Patel"
+ RAJ_ultranationalism_party:0 "Akhand Bharat Sangh"
+ RAJ_ultranationalism_party_long:0 "Akhand Bharat Sangh"
+  
+ ## Focuses ##
+ # Start Tree #
+ RAJ_Jai_Hind:0 "Jai Hind"
+ RAJ_Jai_Hind_desc:0 ""
+ 
+ RAJ_our_place_in_the_world:0 "Our Place in the World"
+ RAJ_our_place_in_the_world_desc:0 ""
+ 
+ RAJ_exporting_our_will:0 "Exporting Our Will"
+ RAJ_exporting_our_will_desc:0 ""
+ 
+ RAJ_the_sikh_situation:0 "The Sikh Situation"
+ RAJ_the_sikh_situation_desc:0 ""
+ 
+ RAJ_the_popular_choice:0 "The Popular Choice"
+ RAJ_the_popular_choice_desc:0 ""
+ 
+ RAJ_reign_in_the_sikh_government:0 "Reign in the Sikh Government"
+ RAJ_reign_in_the_sikh_government_desc:0 ""
+ 
+ RAJ_reversing_1814:0 "Reversing 1814"
+ RAJ_reversing_1814_desc:0 ""
+ 
+ RAJ_the_revolution_continues:0 "The Revolution Continues"
+ RAJ_the_revolution_continues_desc:0 ""
+ 
+ RAJ_conflict_diamonds:0 "Play Ball"
+ RAJ_conflict_diamonds_desc:0 ""
+ 
+ RAJ_private_meetings:0 "Private Meetings"
+ RAJ_private_meetings_desc:0 ""
+ 
+ RAJ_continuation_of_the_congress:0 "Continuation of the Congress"
+ RAJ_continuation_of_the_congress_desc:0 ""
+ 
+ RAJ_public_demonstrations:0 "Public Demonstrations"
+ RAJ_public_demonstrations_desc:0 ""
+ 
+ RAJ_end_the_tension:0 "End the Tension"
+ RAJ_end_the_tension_desc:0 ""
+ 
+ RAJ_pragmatist_plays:0 "Pragmatist Plays"
+ RAJ_pragmatist_plays_desc:0 ""
+ 
+ RAJ_reshuffle_the_cabinet:0 "Reshuffle the Cabinet"
+ RAJ_reshuffle_the_cabinet_desc:0 ""
+ 
+ RAJ_talk_with_patel:0 "Talk with Patel"
+ RAJ_talk_with_patel_desc:0 ""
+ 
+ RAJ_the_collapse_of_the_court:0 "The Collapse of the Court"
+ RAJ_the_collapse_of_the_court_desc:0 ""
+ 
+ RAJ_place_in_the_world_law_tt:0 "§GWe will gain an§! §WInternational Bill§! §Gregarding smugglers from Hyderabad§!."
+ RAJ_sikh_situation_law_tt:0 "§GWe will gain an§! §WInternational Bill§! §Gregarding defectors from the Sikh Empire§!."
+ RAJ_the_revolution_continues_law_tt:0 "§GWe will gain 1§! §WSocialist Bill§! §Gand 1§! §WGeneric Bill§!."
+ RAJ_private_meetings_law_tt:0 "§GWe will gain 2§! §WAuthoritarian Bills§! §Gregarding extending our grip on the nation§!."
+ RAJ_talk_with_patel_law_tt:0 "§GWe will gain an§! §WAuthoritarian Bill§! §Gregarding collecting firearms§!."
+ RAJ_nehru_will_be_removed_from_the_cabinet_tt:0 "§GNehru will be expelled from the cabinet§!."
+ 
+ # Recovery Tree #
+ 
+ RAJ_the_intensive_recovery_act:0 "The Intensive Recovery Act"
+ RAJ_the_intensive_recovery_act_desc:0 ""
+ 
+ RAJ_safety_of_the_people:0 "Safety of the People"
+ RAJ_safety_of_the_people_desc:0 ""
+ 
+ RAJ_subsidize_local_recoveries:0 "Subsidize Local Recoveries"
+ RAJ_subsidize_local_recoveries_desc:0 ""
+ 
+ RAJ_restore_order_to_battlegrounds:0 "Restore Order to Battlegrounds"
+ RAJ_restore_order_to_battlegrounds_desc:0 ""
+ 
+ RAJ_the_tiger_roars_once_more:0 "The Tiger Roars Once More"
+ RAJ_the_tiger_roars_once_more_desc:0 ""
+ 
+ RAJ_economy_of_clay:0 "Economy of Clay"
+ RAJ_economy_of_clay_desc:0 ""
+ 
+ RAJ_food_for_the_masses:0 "Food for the Masses"
+ RAJ_food_for_the_masses_desc:0 ""
+ 
+ RAJ_agricultural_research_facilities:0 "Agricultural Research Facilities"
+ RAJ_agricultural_research_facilities_desc:0 ""
+ 
+ RAJ_industry_for_the_future:0 "Industry for the Future"
+ RAJ_industry_for_the_future_desc:0 ""
+ 
+ RAJ_industrial_heartlands:0 "Industrial Heartlands"
+ RAJ_industrial_heartlands_desc:0 ""
+ 
+ RAJ_mechanization_of_farming:0 "Mechanization of Farming"
+ RAJ_mechanization_of_farming_desc:0 ""
+ 
+ RAJ_rebalance_agricultural_exports:0 "Re-Balance Agricultural Exports"
+ RAJ_rebalance_agricultural_exports_desc:0 ""
+ 
+ RAJ_might_for_our_people:0 "Might of Our People"
+ RAJ_might_for_our_people_desc:0 ""
+ 
+ RAJ_veteran_assistance_programs:0 "Veteran Assistance Programs"
+ RAJ_veteran_assistance_programs_desc:0 ""
+ 
+ RAJ_military_education_systems:0 "Military Education Systems"
+ RAJ_military_education_systems_desc:0 ""
+ 
+ RAJ_mandatory_military_attendance:0 "Mandatory Military Attendance"
+ RAJ_mandatory_military_attendance_desc:0 ""
+ 
+ RAJ_foreign_battalions:0 "Foreign Battalions"
+ RAJ_foreign_battalions_desc:0 ""
+ 
+ ## Decisions ##
+ 
+ RAJ_court:0 "The Delhi Legislator"
+ RAJ_court_desc:0 "Delhi, unfortunately, is a republic. With that, comes all the obligations of a republic. A state equipped to protect the people, extensive rights, but above all else, no unquestioned rulers. To keep the highest office in Delhi in check, the different cabinet positions often clash with the decisions of the president. As much as this system is designed to keep the country operating smoothly, in practice, the system clogs up the bureaucracy, turns societal change into a far greater challenge than it ought to be, and weakens the state in stagnation. While the cabinet is always there to help, it is sometimes necessary to remind them who they act at the behest of; the people. With the president's mandate, any obstruction to their prerogatives is an insult to the people. The cabinet must work with the president for the president works with the people, therefore working against the president is to work against the people themselves!"
+ RAJ_resolve_court_issues:0 "Remedy the Cabinet"
+ RAJ_cabinet_loss_5:0 "§REvery Cabinet Member will dislike Bose 5% more§!."
+ 
+ RAJ_Jawaharlal_Nehru:0 "§YJawaharlal\nNehru§!"
+ RAJ_Vallabhbhai_Patel:0 "§YVallabhbhai\nPatel§!"
+ RAJ_Asaf_Ali:0 "§YAsaf\nAli§!"
+ RAJ_Jawaharlal_Nehru_support:0 "[?RAJ_Jawaharlal_Nehru_Support|%Y0]"
+ RAJ_Vallabhbhai_Patel_support:0 "[?RAJ_Vallabhbhai_Patel_Support|%Y0]"
+ RAJ_Asaf_Ali_support:0 "[?RAJ_Asaf_Ali_Support|%Y0]"
+ RAJ_Jawaharlal_Nehru_Traits:0 "§YSocialist Minded and Democratizer§!\n\n§WWill always vote for Socialist laws\nRequires 80% support to vote on Authoritarian laws.§!"
+ RAJ_Vallabhbhai_Patel_Traits:0 "§YStrong Arm and Unifier§!\n\n§WWill always vote for Authoritarian laws\nRequires 80% to vote on Socialist laws.\nBuffs to recruitment laws while also granting +10% Popular Support.§!"
+ RAJ_Asaf_Ali_Traits:0 "§YDoor to the World and Middle Ground§!\n\n§WWill always vote for Pro-International laws\nWill vote for any law so long as he has over 50% support.§!"
+ 
+ RAJ_support:0 "§gCabinet Support of Current Administration§!"
+ RAJ_Pop_support:0 "§gPublic Support of Current Administration§!"
+ POPSUPPORT_LOC:0 "Popular Support: [?RAJ_Popular_Support|%Y0]"
+ CAB_1_TRAITS:0 "[Get.GUI_cabinet_member_1]"
+ CAB_2_TRAITS:0 "[Get.GUI_cabinet_member_2]" 
+ CAB_3_TRAITS:0 "[Get.GUI_cabinet_member_3]"
+ RAJ_public_support_up_5_tt:0 "§GPublic Support will rise by 5%§!"
+ RAJ_public_support_up_10_tt:0 "§GPublic Support will rise by 10%§!"
+ 
+ RAJ_has_cabinet_support:0 "Has at least 2 out of 3 cabinet members support the bill."
+ RAJ_low_popular_support:0 "Has at least 50% of the public support the bill."
+ RAJ_bill_process:0 "Is not currently working on passing something through the cabinet."
+ 
+ RAJ_funnel_smugglers_from_Hyderabad:0 "(§CI§!) Funnel Smugglers From Hyderabad"
+ RAJ_funnel_smugglers_from_Hyderabad_desc:0 ""
+ 
+ RAJ_encourage_sikh_defectors:0 "(§CI§!) Encourage Sikh Defectors"
+ RAJ_encourage_sikh_defectors_desc:0 ""
+ 
+ RAJ_control_the_media:0 "(§WA§!) Control the Media"
+ RAJ_control_the_media_desc:0 ""
+ 
+ RAJ_reuse_low_income_housing:0 "(§WA§!) Reuse Low Income Housing"
+ RAJ_reuse_low_income_housing_desc:0 ""
+ 
+ RAJ_seize_independant_armories:0 "(§WA§!) Seize Independent Armories"
+ RAJ_seize_independant_armories_desc:0 ""
+ 
+ RAJ_repurpose_noble_palaces:0 "(§RS§!) Repurpose Noble Palaces"
+ RAJ_repurpose_noble_palaces_desc:0 ""
+ 
+ RAJ_bread_lines_for_the_poor:0 "(§RS§!) Bread Lines for the Poor"
+ RAJ_bread_lines_for_the_poor_desc:0 ""
+ 
+ RAJ_nepal_dealing:0 "Annexation of the Nepali Kingdoms"
+ RAJ_nepal_dealing_desc:0 ""
+ 
+ RAJ_occupy_kathmandu:0 "Occupy Kathmandu"
+ RAJ_occupy_kathmandu_desc:0 ""
+ RAJ_occupation_of_kathmandu:0 "Occupation of Kathmandu"
+ RAJ_occupation_of_kathmandu_desc:0 ""
+ RAJ_occupy_kathmandu_done:0 "Action is being taken in Kathmandu"
+ 
+ RAJ_occupy_gorkha:0 "Occupy Gorkha"
+ RAJ_occupy_gorkha_desc:0 ""
+ RAJ_occupation_of_gorkha:0 "Occupation of Gorkha"
+ RAJ_occupation_of_gorkha_desc:0 ""
+ RAJ_occupy_gorkha_done:0 "Action is being taken in Gorkha"
+ 
+ RAJ_reconstruction:0 "Reconstruction"
+ RAJ_reconstruction_desc:0 ""
+ RAJ_reconstructing:0 "Committing to another reconstruction effort."
+ RAJ_will_not_allow_for_decisions:0 "§RTaking this focus will not allow for alternative methods to rebuilding§!."
+ RAJ_action_1:0 ""
+ RAJ_action_1_desc:0 ""
+ RAJ_action_2:0 ""
+ RAJ_action_2_desc:0 ""
+ RAJ_action_3:0 ""
+ RAJ_action_3_desc:0 ""
+ 
+ ## Events ##
+ delhi.1.t:0 "Of What's To Come"
+ delhi.1.desc:0 ""India should be a force to be reckoned with. Nations ought to fear sharing a border with the proud people of India. Yet, the subcontinent is not feared, revered, or even united." To the enchanted audience, Bose was the focal point, his composure calm and collected, but his voice a thunder, shaking the earth at it's core.\n\n"Instead, India has been rendered into the colonial shopping mall for even the middling powers of Europe to stop by and reap in a massive profit at the expense of the people! The Khan of Delhi made a very specific promise as ruler, to keep the Indian people safe but above all else, strong. The Khan failed on both fronts. As more and more of the subcontinent was sold off the to the French, Portuguese, and British, it became apparent to myself and my fellow congressmen that the Khan was not fulfilling his pledge to the people. To all of you here, I pose a question. If a shop owner sold you a relic witch he claimed warded off all threats, promising to keep you safe, to keep your family secure, at only the expense of a annual tax collection, I don't think I am alone in saying I'd make that purchase." Bose took pause, leaving the crowd before him hanging on to his words, following his story intently.\n\n"If I found the next day my house in shambles, the rugs burned, my vase shattered, and food stolen, I would march up to that salesman and offer him a question of his own, is this the best we can do?" Bose continued, "That is the very question we have asked the Khan, but now it is time to ask ourselves, is this the best we can do? Rendered nothing more than the playground of empires? Inside us all there is great potential, potential for glory, for a people united against foreign oppression, but also there lives the potential for failure lest we fall back into squabbling. It is my duty and the duty of everyone in this room to cast their differences aside for the greatest challenge we will face, to be the generation that returned Delhi to glory. The road ahead is long and perilous but still traversable. We will see the death of the empires, we will see freedom!" The room erupted into praise for the populist politician. Bose smiled out to the crowd, his strongman demeanor dropping for only just a second as he saw what he had always known, the battle for India would soon rage, one way or another, and he would stand atop the corpses of empires."
+ delhi.1.a:0 "Jai Delhi! Jai Hind!"

@@ -1,0 +1,313 @@
+defined_text = {
+	name = RAJ_Cabinet_Spot_1
+	text = {
+		trigger = {
+			has_country_flag = RAJ_Cabinet_Jawaharlal_Nehru
+		}
+		localization_key = RAJ_Jawaharlal_Nehru
+	}
+}
+
+defined_text = {
+	name = RAJ_Cabinet_Spot_2
+	text = {
+		trigger = {
+			has_country_flag = RAJ_Cabinet_Vallabhbhai_Patel
+		}
+		localization_key = RAJ_Vallabhbhai_Patel
+	}
+}
+
+defined_text = {
+	name = RAJ_Cabinet_Spot_3
+	text = {
+		trigger = {
+			has_country_flag = RAJ_Cabinet_Asaf_Ali
+		}
+		localization_key = RAJ_Asaf_Ali
+	}
+}
+
+defined_text = {
+	name = RAJ_Cabinet_Spot_1_support
+	text = {
+		trigger = {
+			has_country_flag = RAJ_Cabinet_Jawaharlal_Nehru
+		}
+		localization_key = RAJ_Jawaharlal_Nehru_support
+	}
+}
+
+defined_text = {
+	name = RAJ_Cabinet_Spot_2_support
+	text = {
+		trigger = {
+			has_country_flag = RAJ_Cabinet_Vallabhbhai_Patel
+		}
+		localization_key = RAJ_Vallabhbhai_Patel_support
+	}
+}
+
+defined_text = {
+	name = RAJ_Cabinet_Spot_3_support
+	text = {
+		trigger = {
+			has_country_flag = RAJ_Cabinet_Asaf_Ali
+		}
+		localization_key = RAJ_Asaf_Ali_support
+	}
+}
+
+defined_text = {
+	name = RAJ_Cabinet_Spot_1_portrait
+	text = {
+		trigger = {
+			has_country_flag = RAJ_Cabinet_Jawaharlal_Nehru
+		}
+		localization_key = GFX_Nehru
+	}
+}
+
+defined_text = {
+	name = RAJ_Cabinet_Spot_2_portrait
+	text = {
+		trigger = {
+			has_country_flag = RAJ_Cabinet_Vallabhbhai_Patel
+		}
+		localization_key = GFX_patel
+	}
+}
+
+defined_text = {
+	name = RAJ_Cabinet_Spot_3_portrait
+	text = {
+		trigger = {
+			has_country_flag = RAJ_Cabinet_Asaf_Ali
+		}
+		localization_key = GFX_Ali
+	}
+}
+
+defined_text = {
+	name = GUI_cabinet_member_1
+	text = {
+		trigger = {
+			has_country_flag = RAJ_Cabinet_Jawaharlal_Nehru
+		}
+		localization_key = RAJ_Jawaharlal_Nehru_Traits
+	}
+}
+
+defined_text = {
+	name = GUI_cabinet_member_2
+	text = {
+		trigger = {
+			has_country_flag = RAJ_Cabinet_Vallabhbhai_Patel
+		}
+		localization_key = RAJ_Vallabhbhai_Patel_Traits
+	}
+}
+
+defined_text = {
+	name = GUI_cabinet_member_3
+	text = {
+		trigger = {
+			has_country_flag = RAJ_Cabinet_Asaf_Ali
+		}
+		localization_key = RAJ_Asaf_Ali_Traits
+	}
+}
+
+defined_text = {
+	name = RAJ_public_support_bar
+	text = {
+		trigger = {
+			check_variable = {
+				var = RAJ_Popular_Support
+				value = 0
+				compare = greater_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = RAJ_Popular_Support
+					value = 0.10
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_RAJ_public_support_0
+	}
+	
+	text = {
+		trigger = {
+			check_variable = {
+				var = RAJ_Popular_Support
+				value = 0.10
+				compare = greater_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = RAJ_Popular_Support
+					value = 0.20
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_RAJ_public_support_10
+	}
+	
+	text = {
+		trigger = {
+			check_variable = {
+				var = RAJ_Popular_Support
+				value = 0.20
+				compare = greater_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = RAJ_Popular_Support
+					value = 0.30
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_RAJ_public_support_20
+	}
+	
+	text = {
+		trigger = {
+			check_variable = {
+				var = RAJ_Popular_Support
+				value = 0.30
+				compare = greater_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = RAJ_Popular_Support
+					value = 0.40
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_RAJ_public_support_30
+	}
+	
+	text = {
+		trigger = {
+			check_variable = {
+				var = RAJ_Popular_Support
+				value = 0.40
+				compare = greater_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = RAJ_Popular_Support
+					value = 0.50
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_RAJ_public_support_40
+	}
+	
+	text = {
+		trigger = {
+			check_variable = {
+				var = RAJ_Popular_Support
+				value = 0.50
+				compare = greater_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = RAJ_Popular_Support
+					value = 0.60
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_RAJ_public_support_50
+	}
+	
+	text = {
+		trigger = {
+			check_variable = {
+				var = RAJ_Popular_Support
+				value = 0.60
+				compare = greater_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = RAJ_Popular_Support
+					value = 0.70
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_RAJ_public_support_60
+	}
+	
+	text = {
+		trigger = {
+			check_variable = {
+				var = RAJ_Popular_Support
+				value = 0.70
+				compare = greater_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = RAJ_Popular_Support
+					value = 0.80
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_RAJ_public_support_70
+	}
+	
+	text = {
+		trigger = {
+			check_variable = {
+				var = RAJ_Popular_Support
+				value = 0.80
+				compare = greater_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = RAJ_Popular_Support
+					value = 0.90
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_RAJ_public_support_80
+	}
+	
+	text = {
+		trigger = {
+			check_variable = {
+				var = RAJ_Popular_Support
+				value = 0.90
+				compare = greater_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = RAJ_Popular_Support
+					value = 1
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = GFX_RAJ_public_support_90
+	}
+	
+	text = {
+		trigger = {
+			check_variable = {
+				var = RAJ_Popular_Support
+				value = 1
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = GFX_RAJ_public_support_100
+	}
+}

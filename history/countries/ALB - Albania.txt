@@ -1,0 +1,36 @@
+﻿capital = 44
+OOB = "ALB_1936"
+set_variable = { country_infamy = 0 } 
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	gwtank = 1
+}
+
+set_politics = {
+	ruling_party = ultranationalism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	ultranationalism = 100
+}
+
+set_convoys = 5
+
+create_country_leader = {
+	name = "Mefail Shehu"
+	desc = "POLITICS_Mefail_Shehu_DESC"
+	picture = "Portrait_ALB_Mefail_Shehu.dds"
+	expire = "1965.1.1"
+	ideology = ultranationalism_subtype
+	traits = {
+		#
+	}
+}

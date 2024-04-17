@@ -1,0 +1,16 @@
+TUR_the_empires_tensions = {
+
+	icon = decision_category_military_operation
+
+	picture = GFX_decision_TUR_tensions_in_the_empire
+
+	allowed = {
+		NOT = {
+			has_country_flag = TUR_orient_explodes
+		}
+	}
+	
+	visible = {
+		tag = TUR
+	}
+}

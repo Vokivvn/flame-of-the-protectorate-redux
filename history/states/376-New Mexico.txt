@@ -1,0 +1,26 @@
+
+state={
+	id=376
+	name="STATE_376"
+	resources={
+		oil=14.000
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = USA
+
+	}
+
+	provinces={
+		868 1972 7684 7999 9792 10645 10914 12552 
+	}
+	manpower=423316
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

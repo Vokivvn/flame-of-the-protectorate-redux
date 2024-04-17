@@ -1,0 +1,25 @@
+state={
+	id=908
+	name="STATE_908"
+	provinces={
+		13260 
+	}
+	
+	history={
+		owner = ZAN
+		add_core_of = ZAN
+		buildings = {
+			infrastructure = 3
+			13260 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			13260 5
+		}
+	}
+	
+	manpower=70000
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

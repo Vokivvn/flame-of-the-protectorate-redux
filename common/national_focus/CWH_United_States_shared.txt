@@ -1,0 +1,865 @@
+shared_focus = {
+	id = USA_archies_fireside_chat
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 3.50
+	
+	x = 4
+	y = 0
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_archies_fireside_chat"
+		country_event = {
+			id = USA.1
+			days = 1
+		}
+		add_political_power = 50
+	}
+}
+
+shared_focus = {
+	id = USA_the_do_nothing_democrats
+	icon = GFX_USA_democrats_1936
+	cost = 3.50
+	
+	x = 2
+	y = 1
+	prerequisite = {
+		focus = USA_archies_fireside_chat
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_the_do_nothing_democrats"
+		country_event = {
+			id = USA.11
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = USA_the_socialist_bunch
+	icon = GFX_USA_focus_Socialist_Bunch
+	cost = 3.50
+	
+	x = 4
+	y = 1
+	prerequisite = {
+		focus = USA_archies_fireside_chat
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_the_socialist_bunch"
+		country_event = {
+			id = USA.12
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = USA_the_success_of_our_party
+	icon = GFX_USA_focus_Success_of_our_Party
+	cost = 3.50
+	
+	x = 6
+	y = 1
+	prerequisite = {
+		focus = USA_archies_fireside_chat
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_the_success_of_our_party"
+		country_event = {
+			id = USA.13
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = USA_found_the_OCI
+	icon = GFX_USA_found_the_protoCIA
+	cost = 3.50
+	
+	x = 2
+	y = 2
+	
+	prerequisite = {
+		focus = USA_the_do_nothing_democrats
+	}
+	prerequisite = {
+		focus = USA_the_socialist_bunch
+	}
+	prerequisite = {
+		focus = USA_the_success_of_our_party
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_found_the_OCI"
+		country_event = {
+			id = USA.8
+			days = 1
+		}
+		361 = {
+			add_building_construction = {
+				type = bunker
+				level = 3
+				instant_build = yes
+				province = {
+					id = 9357
+				}
+			}
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 2
+		}
+	}
+}
+
+shared_focus = {
+	id = USA_creeping_on_calles
+	icon = GFX_USA_focus_Creeping_on_Calles
+	cost = 3.50
+	
+	x = 0
+	y = 3
+	prerequisite = {
+		focus = USA_found_the_OCI
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_creeping_on_calles"
+		country_event = {
+			id = USA.7
+			days = 1
+		}
+		add_war_support = 0.05
+	}
+}
+
+shared_focus = {
+	id = USA_funnel_weapons_to_rio_grande
+	icon = GFX_USA_focus_Funnel_Weapons_to_Rio_Grande
+	cost = 3.50
+	
+	x = 2
+	y = 3
+	prerequisite = {
+		focus = USA_found_the_OCI
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_funnel_weapons_to_rio_grande"
+		send_equipment = {
+			equipment = infantry_equipment
+			amount = 500
+			target = RIO
+		}
+		add_manpower = 1000
+	}
+}
+
+shared_focus = {
+	id = USA_take_the_shot
+	icon = GFX_USA_kill_calles
+	cost = 3.50
+	
+	x = 1
+	y = 4
+	prerequisite = {
+		focus = USA_creeping_on_calles
+	}
+	prerequisite = {
+		focus = USA_funnel_weapons_to_rio_grande
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_take_the_shot"
+		custom_effect_tooltip = USA_we_could_get_caught
+		hidden_effect = {
+			country_event = {
+				id = USA.91
+				days = 1
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = USA_parallels_of_the_past
+	icon = GFX_USA_focus_Parallels_to_the_Past
+	cost = 3.50
+	
+	x = 4
+	y = 2
+	prerequisite = {
+		focus = USA_the_do_nothing_democrats
+	}
+	prerequisite = {
+		focus = USA_the_socialist_bunch
+	}
+	prerequisite = {
+		focus = USA_the_success_of_our_party
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_parallels_of_the_past"
+		custom_effect_tooltip = USA_gag_rule_lifted_TT
+		set_country_flag = USA_gag_rule_lifted
+		USA_subtract_segregationist_10 = yes
+		USA_add_integrationist_3_no_gag = yes
+	}
+}
+
+shared_focus = {
+	id = USA_the_forgotten_americans
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 3.50
+	
+	x = 4
+	y = 3
+	prerequisite = {
+		focus = USA_parallels_of_the_past
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_the_forgotten_americans"
+		country_event = {
+			id = USA.14
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = USA_the_st_louis_showdown
+	icon = GFX_USA_generic_american_socialism
+	cost = 3.50
+	
+	x = 4
+	y = 4
+	prerequisite = {
+		focus = USA_the_forgotten_americans
+	}
+	available = {
+		has_idea = USA_May_Day_Strikes
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_the_st_louis_showdown"
+		if = {
+			limit = {
+				has_idea = USA_May_Day_Strikes
+			}
+			country_event = {
+				id = MayDay1936.1
+				days = 2
+			}
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_idea = USA_May_Day_Strikes
+				}
+			}
+			custom_effect_tooltip = USA_anti_union_legislation
+		}
+	}
+}
+
+shared_focus = {
+	id = USA_the_colonial_assessment
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 3.50
+	
+	x = 6
+	y = 2
+	prerequisite = {
+		focus = USA_the_do_nothing_democrats
+	}
+	prerequisite = {
+		focus = USA_the_socialist_bunch
+	}
+	prerequisite = {
+		focus = USA_the_success_of_our_party
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_the_colonial_assessment"
+		country_event = {
+			id = USA.2
+			days = 1
+		}
+		541 = {
+			add_manpower = 1000
+		}
+		298 = {
+			add_manpower = 1000
+		}
+	}
+}
+
+shared_focus = {
+	id = USA_talk_with_the_governors
+	icon = GFX_USA_talk_with_the_governors
+	cost = 3.50
+	
+	x = 6
+	y = 3
+	prerequisite = {
+		focus = USA_the_colonial_assessment
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_talk_with_the_governors"
+		country_event = {
+			id = USA.3
+			days = 1
+		}
+		country_event = {
+			id = USA.4
+			days = 4
+		}
+	}
+}
+
+shared_focus = {
+	id = USA_provide_the_grant
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 3.50
+	
+	x = 6
+	y = 4
+	prerequisite = {
+		focus = USA_talk_with_the_governors
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_provide_the_grant"
+		add_ideas = USA_colonial_grant_master
+		NMB = {
+			add_ideas = USA_colonial_grant_subject
+		}
+		LIB = {
+			add_ideas = USA_colonial_grant_subject
+		}
+	}
+}
+
+shared_focus = {
+	id = USA_brief_the_philipinnes_situation
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 3.50
+	
+	x = 8
+	y = 3
+	prerequisite = {
+		focus = USA_the_colonial_assessment
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_brief_the_philipinnes_situation"
+		country_event = {
+			id = USA.5
+			days = 1
+		}
+		send_equipment = {
+			equipment = infantry_equipment
+			amount = 500
+			target = PHI
+		}
+	}
+}
+
+shared_focus = {
+	id = USA_teddys_way_out
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 3.50
+	
+	x = 8
+	y = 4
+	prerequisite = {
+		focus = USA_brief_the_philipinnes_situation
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_teddys_way_out"
+		country_event = {
+			id = USA.6
+			days = 1
+		}
+	}
+}
+
+###########################################
+#Phillipine war tree
+#1. Progressives
+#2. Whigs
+#3. Democrats
+
+#1. Progressives phillipine tree#######################
+#######################################################
+shared_focus = {
+	id = USA_the_phillipines_crisis_progressive
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 3.50
+	
+	x = 0	
+	y = 0
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_the_phillipines_crisis_progressive"
+		PHI = { add_war_support = 0.05 }
+	}
+}
+
+shared_focus = {
+	id = USA_negotiate_with_the_commonwealth
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 3.50
+	
+	relative_position_id = USA_the_phillipines_crisis_progressive
+	x = 0
+	y = 1
+
+	prerequisite = {
+		focus = USA_the_phillipines_crisis_progressive
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_negotiate_with_the_commonwealth"
+		#no comment
+		PHI = { white_peace = CPH }
+	}
+}
+
+shared_focus = {
+	id = USA_pacify_the_tagalogs
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 3.50
+	
+	relative_position_id = USA_negotiate_with_the_commonwealth
+	x = -1
+	y = 1
+
+	prerequisite = {
+		focus = USA_negotiate_with_the_commonwealth
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_pacify_the_tagalogs"
+		PHI = {
+			if = {
+				limit = { NOT = { has_idea = USA_PhCW_prog_attack_bonusB}}
+				add_ideas = USA_PhCW_prog_attack_bonusA
+			}
+			else = { add_ideas = USA_PhCW_prog_attack_bonusC }
+		}	
+	}
+}
+
+shared_focus = {
+	id = USA_crush_the_hukbay
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 3.50
+	
+	relative_position_id = USA_negotiate_with_the_commonwealth
+	x = 1
+	y = 1
+
+	prerequisite = {
+		focus = USA_negotiate_with_the_commonwealth
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_crush_the_hukbay"
+		PHI = {
+			if = {
+				limit = { NOT = { has_idea = USA_PhCW_prog_attack_bonusA}}
+				add_ideas = USA_PhCW_prog_attack_bonusB
+			}
+			else = { add_ideas = USA_PhCW_prog_attack_bonusC }
+		}	
+	}
+}
+
+shared_focus = {
+	id = USA_unify_the_nation
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 3.50
+	
+	relative_position_id = USA_pacify_the_tagalogs
+	x = 1
+	y = 1
+
+	prerequisite = {
+		focus = USA_pacify_the_tagalogs
+	}
+	prerequisite = {
+		focus = USA_crush_the_hukbay
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_unify_the_nation"
+		#no comment
+		add_political_power = 25
+
+	}
+}
+
+shared_focus = {
+	id = USA_extend_the_olive_branch
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 3.50
+	
+	relative_position_id = USA_unify_the_nation
+	x = 0
+	y = 1
+
+	prerequisite = {
+		focus = USA_unify_the_nation
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_extend_the_olive_branch"
+		#"Invite the Phillipines Commonwealth to the Managua Pact"
+		add_to_faction = CPH
+	}
+}
+
+#2. Whigs ########################################################
+##################################################################
+shared_focus = {
+	id = USA_the_phillipines_crisis_whigs
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 3.50
+	
+	x = 0
+	y = 0
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_the_phillipines_crisis_whigs"
+		#no comment
+		PHI = { add_war_support = 0.05 }
+	}
+}
+
+shared_focus = {
+	id = USA_hold_manila
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 3.50
+	
+	relative_position_id = USA_the_phillipines_crisis_whigs
+	x = 0
+	y = 1
+
+	prerequisite = {
+		focus = USA_the_phillipines_crisis_whigs
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_hold_manila"
+		#"forts :)"
+		# manila id is 10265
+		327 = {
+			add_building_construction = {
+				type = bunker
+				level = 3
+				province = 10265 #manila
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = USA_pay_off_american_lands
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 3.50
+	
+	relative_position_id = USA_hold_manila
+	x = -1
+	y = 1
+
+	prerequisite = {
+		focus = USA_hold_manila
+	}
+	
+	mutually_exclusive = {
+		focus = USA_fight_for_the_americans
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_pay_off_american_lands"
+		#"Phillipines Commonwealth"
+		#"abandon the mandate but protect the Americans there"
+		PHI = {
+			white_peace = CPH
+		}
+		add_timed_idea = {
+			idea = USA_paying_the_tagalogs
+			days = 180
+		}
+	}
+}
+
+shared_focus = {
+	id = USA_fight_for_the_americans
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 3.50
+	
+	relative_position_id = USA_hold_manila
+	x = 1
+	y = 1
+
+	prerequisite = {
+		focus = USA_hold_manila
+	}
+
+	mutually_exclusive = {
+		focus = USA_pay_off_american_lands
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_fight_for_the_americans"
+		#"Phillipines Mandate"
+		#no comment
+		add_political_power = -25
+		send_equipment = {
+		    equipment = infantry_equipment
+		    amount = 250
+		    target = PHI
+		}
+	}
+}
+
+shared_focus = {
+	id = USA_a_healthy_dose_of_democracy
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 3.50
+	
+	relative_position_id = USA_pay_off_american_lands
+	x = 0
+	y = 1
+
+	prerequisite = {
+		focus = USA_pay_off_american_lands
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_a_healthy_dose_of_democracy"
+		#"attack bonus on tagalogs"
+		PHI = { add_ideas = USA_PhCW_whig_attack_bonus }
+	}
+}
+
+shared_focus = {
+	id = USA_tear_the_opposition
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 3.50
+	
+	relative_position_id = USA_fight_for_the_americans
+	x = 0
+	y = 1
+
+	prerequisite = {
+		focus = USA_fight_for_the_americans
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_a_healthy_dose_of_democracy"
+		#"destabilize the commonwealth"
+		CPH = {
+			add_stability = -0.05
+			add_war_support = -0.05
+			add_political_power = -25
+		}
+	}
+}
+
+shared_focus = {
+	id = USA_any_peace_is_a_good_peace
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 3.50
+	
+	relative_position_id = USA_a_healthy_dose_of_democracy
+	x = 1
+	y = 1
+
+	prerequisite = {
+		focus = USA_a_healthy_dose_of_democracy
+		focus = USA_tear_the_opposition
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_a_healthy_dose_of_democracy"
+		#"dip from the war if you support the mandate, you keep whatever land you held"
+		#CURRENTLY IT DISREGARDS THE CONDITIONAL HERE, IT ALWAYS WORKS THIS WAY
+		custom_effect_tooltip = USA_PhCW_whig_peace_tt
+		hidden_effect = {
+			PHI = {
+				every_controlled_state  = {
+					limit = {
+						NOT = { is_owned_by = GER }
+					}
+					set_state_owner = THIS
+				}
+			}
+		}
+	}
+}
+
+#3. Democrats ####################################################
+##################################################################
+
+shared_focus = {
+	id = USA_the_phillipines_crisis_democrats
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 3.50
+	
+	x = 0
+	y = 0
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_the_phillipines_crisis_democrats"
+		#no comment
+		PHI = { add_war_support = 0.05 }
+	}
+}
+
+shared_focus = {
+	id = USA_expand_oci_powers
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 3.50
+	
+	relative_position_id = USA_the_phillipines_crisis_democrats
+	x = -1
+	y = 1
+
+	prerequisite = {
+		focus = USA_the_phillipines_crisis_democrats
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_expand_oci_powers"
+		#no comment
+		add_timed_idea = {
+			idea = USA_expanded_OCI
+			days = 1000
+		}
+	}
+}
+
+shared_focus = {
+	id = USA_gain_back_our_ground
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 3.50
+	
+	relative_position_id = USA_the_phillipines_crisis_democrats
+	x = 1
+	y = 1
+
+	prerequisite = {
+		focus = USA_the_phillipines_crisis_democrats
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_gain_back_our_ground"
+		#"attack bonus on tagalogs and hukbay"
+		PHI = {add_ideas = USA_PhCW_democrat_attack_bonus1}
+	}
+}
+
+shared_focus = {
+	id = USA_break_their_bonds
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 3.50
+	
+	relative_position_id = USA_gain_back_our_ground
+	x = 0
+	y = 1
+
+	prerequisite = {
+		focus = USA_gain_back_our_ground
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_break_their_bonds"
+		#"new contendor in war, Muslim Philippines break the national front"
+	}
+}
+
+shared_focus = {
+	id = USA_abandon_ship
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 3.50
+	
+	relative_position_id = USA_break_their_bonds
+	x = -2
+	y = 1
+
+	prerequisite = {
+		focus = USA_break_their_bonds
+	}
+	
+	mutually_exclusive = {
+		focus = USA_continue_the_push
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_abandon_ship"
+		#"dip from the war if you havent won it yet"
+		#MANGO I DUNNO IF THIS EFFECT IS RIGHT
+		PHI = {
+			white_peace = CPH
+			white_peace = TAG
+			white_peace = HUK
+		}
+	}
+}
+
+shared_focus = {
+	id = USA_continue_the_push
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 1.00
+	
+	relative_position_id = USA_break_their_bonds
+	x = 0
+	y = 1
+
+	prerequisite = {
+		focus = USA_break_their_bonds
+	}
+
+	mutually_exclusive = {
+		focus = USA_abandon_ship
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_continue_the_push"
+		#"no comment"
+	}
+}
+
+shared_focus = {
+	id = USA_call_on_the_reserves
+	icon = GFX_USA_Archies_Fireside_Chats
+	cost = 3.50
+	
+	relative_position_id = USA_continue_the_push
+	x = 0
+	y = 1
+
+	prerequisite = {
+		focus = USA_continue_the_push
+	}
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus USA_call_on_the_reserves"
+		#"no comment"
+		PHI = { add_ideas = USA_PhCW_democrat_attack_bonus2 }
+		#MANGO ADD IN POPULARITY EFFECTS
+	}
+}

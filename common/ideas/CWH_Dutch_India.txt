@@ -1,0 +1,26 @@
+ideas = {
+	country = {
+		DEI_Republican_Remnant = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = DEI_republican_remnant
+
+			modifier = {
+				political_power_gain = 0.05
+				war_support_factor = 0.05
+			}
+		}
+		DEI_Deal_With_the_Devil = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = DEI_a_Deal_with_the_devil
+
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = -0.1
+			}
+		}
+	}
+}

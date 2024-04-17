@@ -1,0 +1,27 @@
+
+state={
+	id=542
+	name="STATE_542"
+	manpower = 234000
+	
+	state_category = wasteland
+	
+	resources={
+		chromium=90 # was: 168
+	}
+
+	history={
+		owner = BOT
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			8214 1
+		}
+		add_core_of = BOT
+	}
+
+	provinces={
+		1509 1580 5203 8214 12940 
+	}
+}

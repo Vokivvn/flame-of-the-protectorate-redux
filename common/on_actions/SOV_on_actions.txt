@@ -1,0 +1,9 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			SOV = {
+				country_event = { id = RUS.10 days = 580 } 
+			}
+		}
+	}
+}

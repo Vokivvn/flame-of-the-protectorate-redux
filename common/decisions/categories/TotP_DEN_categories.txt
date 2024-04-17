@@ -1,0 +1,21 @@
+NOR_norwegian_revolution = {
+
+	icon = decision_category_military_operation
+
+	picture = GFX_decision_cat_generic_scandinavia
+
+	allowed = {
+		OR = {
+			tag = ENG
+			tag = USA
+			tag = SOV
+			tag = GER
+			tag = FRA
+			tag = SWE
+		}
+	}
+	
+	visible = {
+		DEN = { has_war_with = NOR }
+	}
+}

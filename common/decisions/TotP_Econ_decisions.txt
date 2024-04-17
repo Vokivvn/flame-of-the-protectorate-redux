@@ -1,0 +1,960 @@
+TOTP_ECON = {
+	TOTP_test_1 = {
+		visible = {
+		}
+		available = { always = yes }
+		fire_only_once = no
+		complete_effect = {
+			activate_mission = TOTP_industry_decider
+		}
+	}
+	TOTP_test_2 = {
+		visible = {
+		}
+		available = { always = yes }
+		fire_only_once = no
+		complete_effect = {
+			activate_mission = TOTP_private_industry_construct_civillian_factory_1
+		}
+	}
+	TOTP_industry_decider = {
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = no
+		}
+		is_good = yes
+		days_mission_timeout = 1
+		timeout_effect = { 
+			set_temp_variable = { Private_Industry = num_of_civilian_factories }
+			if = {
+				limit = {
+					has_idea = industrial_bastion
+				}
+				multiply_temp_variable = { Private_Industry = 0.9 }
+			}
+			else_if = {
+				limit = {
+					has_idea = industrial
+				}
+				multiply_temp_variable = { Private_Industry = 0.7 }
+			}
+			else_if = {
+				limit = {
+					has_idea = mixed
+				}
+				multiply_temp_variable = { Private_Industry = 0.5 }
+			}
+			else_if = {
+				limit = {
+					has_idea = young_industrial
+				}
+				multiply_temp_variable = { Private_Industry = 0.2 }
+			}
+			else_if = {
+				limit = {
+					has_idea = barren
+				}
+				multiply_temp_variable = { Private_Industry = 0.1 }
+			}
+			else_if = {
+				limit = {
+					has_idea = planned
+				}
+				multiply_temp_variable = { Private_Industry = 0.0 }
+			}
+			set_temp_variable = { FACTORIES_IN_USE = ongoing_construction }
+			multiply_temp_variable = { FACTORIES_IN_USE = 25 }
+			subtract_from_temp_variable = { Private_Industry = FACTORIES_IN_USE }
+			set_variable = {
+				var = Private_Industry_FULL
+				value = Private_Industry
+			}
+			if = {
+				limit = {
+						check_variable = {
+							var = Private_Industry_FULL
+							value = 25
+							compare = greater_than_or_equals
+						}
+					}	
+					if = {
+						limit = {
+							random_owned_state = {
+								NOT = {
+									check_variable = {
+										var = infrastructure_level
+										value = 4
+										compare = less_than_or_equals
+									}
+								}
+							}
+						}
+						PREV = {
+							set_country_flag = has_building_in_progress
+							random_list = {
+								5 = {
+									activate_mission = TOTP_private_industry_expand_building_slot_1
+									set_country_flag = effect_1_picked
+									add_to_variable = { 
+										var = ongoing_construction 
+										value = 1 
+									}
+									modifier = {
+										factor = 0
+										has_country_flag = effect_1_picked
+									}
+								}
+								5 = {
+									activate_mission = TOTP_private_industry_expand_building_slot_2
+									set_country_flag = effect_2_picked
+									add_to_variable = { 
+										var = ongoing_construction 
+										value = 1 
+									}
+									modifier = {
+										factor = 0
+										has_country_flag = effect_2_picked
+									}
+								}
+								5 = {
+									activate_mission = TOTP_private_industry_expand_building_slot_3
+									set_country_flag = effect_3_picked
+									add_to_variable = { 
+										var = ongoing_construction 
+										value = 1 
+									}
+									modifier = {
+										factor = 0
+										has_country_flag = effect_3_picked
+									}
+								}
+								5 = {
+									activate_mission = TOTP_private_industry_expand_building_slot_4
+									set_country_flag = effect_4_picked
+									add_to_variable = { 
+										var = ongoing_construction 
+										value = 1 
+									}
+									modifier = {
+										factor = 0
+										has_country_flag = effect_4_picked
+									}
+								}
+								5 = {
+									activate_mission = TOTP_private_industry_construct_civillian_factory_1
+									set_country_flag = effect_5_picked
+									add_to_variable = { 
+										var = ongoing_construction 
+										value = 1 
+									}
+									modifier = {
+										factor = 0
+										has_country_flag = effect_5_picked
+									}
+								}
+								5 = {
+									activate_mission = TOTP_private_industry_construct_civillian_factory_2
+									set_country_flag = effect_6_picked
+									add_to_variable = { 
+										var = ongoing_construction 
+										value = 1 
+									}
+									modifier = {
+										factor = 0
+										has_country_flag = effect_6_picked
+									}
+								}
+								5 = {
+									activate_mission = TOTP_private_industry_construct_civillian_factory_3
+									set_country_flag = effect_7_picked
+									add_to_variable = { 
+										var = ongoing_construction 
+										value = 1 
+									}
+									modifier = {
+										factor = 0
+										has_country_flag = effect_7_picked
+									}
+								}
+								5 = {
+									activate_mission = TOTP_private_industry_construct_civillian_factory_4
+									set_country_flag = effect_8_picked
+									add_to_variable = { 
+										var = ongoing_construction 
+										value = 1 
+									}
+									modifier = {
+										factor = 0
+										has_country_flag = effect_8_picked
+									}
+								}
+								5 = {
+									activate_mission = TOTP_private_industry_expand_building_slot_5
+									set_country_flag = effect_9_picked
+									add_to_variable = { 
+										var = ongoing_construction 
+										value = 1 
+									}
+									modifier = {
+										factor = 0
+										has_country_flag = effect_9_picked
+									}
+								}
+								5 = {
+									activate_mission = TOTP_private_industry_expand_building_slot_6
+									set_country_flag = effect_10_picked
+									add_to_variable = { 
+										var = ongoing_construction 
+										value = 1 
+									}
+									modifier = {
+										factor = 0
+										has_country_flag = effect_10_picked
+									}
+								}
+								5 = {
+									activate_mission = TOTP_private_industry_expand_infrastrcuture_1
+									set_country_flag = effect_11_picked
+									add_to_variable = { 
+										var = ongoing_construction 
+										value = 1 
+									}
+									modifier = {
+										factor = 0
+										has_country_flag = effect_11_picked
+									}
+								}
+								5 = {
+									activate_mission = TOTP_private_industry_expand_infrastrcuture_2
+									set_country_flag = effect_12_picked
+									add_to_variable = { 
+										var = ongoing_construction 
+										value = 1 
+									}
+									modifier = {
+										factor = 0
+										has_country_flag = effect_12_picked
+									}
+								}
+								5 = {
+									activate_mission = TOTP_private_industry_expand_infrastrcuture_3
+									set_country_flag = effect_13_picked
+									add_to_variable = { 
+										var = ongoing_construction 
+										value = 1 
+									}
+									modifier = {
+										factor = 0
+										has_country_flag = effect_13_picked
+									}
+								}
+								5 = {
+									activate_mission = TOTP_private_industry_expand_infrastrcuture_4
+									set_country_flag = effect_14_picked
+									add_to_variable = { 
+										var = ongoing_construction 
+										value = 1 
+									}
+									modifier = {
+										factor = 0
+										has_country_flag = effect_14_picked
+									}
+								}
+								5 = {
+									activate_mission = TOTP_private_industry_expand_infrastrcuture_5
+									set_country_flag = effect_15_picked
+									add_to_variable = { 
+										var = ongoing_construction 
+										value = 1 
+									}
+									modifier = {
+										factor = 0
+										has_country_flag = effect_15_picked
+									}
+								}
+								5 = {
+									activate_mission = TOTP_private_industry_construct_military_factory_1
+									set_country_flag = effect_16_picked
+									add_to_variable = { 
+										var = ongoing_construction 
+										value = 1 
+									}
+									modifier = {
+										factor = 0
+										has_country_flag = effect_16_picked
+									}
+								}
+								5 = {
+									activate_mission = TOTP_private_industry_construct_military_factory_2
+									set_country_flag = effect_17_picked
+									add_to_variable = { 
+										var = ongoing_construction 
+										value = 1 
+									}
+									modifier = {
+										factor = 0
+										has_country_flag = effect_17_picked
+									}
+								}
+								5 = {
+									activate_mission = TOTP_private_industry_construct_military_factory_3
+									set_country_flag = effect_18_picked
+									add_to_variable = { 
+										var = ongoing_construction 
+										value = 1 
+									}
+									modifier = {
+										factor = 0
+										has_country_flag = effect_18_picked
+									}
+								}
+								5 = {
+									activate_mission = TOTP_private_industry_construct_dockyard_1
+									set_country_flag = effect_19_picked
+									add_to_variable = { 
+										var = ongoing_construction 
+										value = 1 
+									}
+									modifier = {
+										factor = 0
+										has_country_flag = effect_19_picked
+									}
+								}
+								5 = {
+									activate_mission = TOTP_private_industry_construct_dockyard_2
+									set_country_flag = effect_25_picked
+									add_to_variable = { 
+										var = ongoing_construction 
+										value = 1 
+									}
+									modifier = {
+										factor = 0
+										has_country_flag = effect_25_picked
+									}
+								}
+							}
+						}
+					}
+				activate_mission = TOTP_industry_decider
+			}
+		}
+	}
+	TOTP_private_industry_expand_building_slot_1 = {
+		allowed = {
+			always = no
+		}
+		available = {
+			always = no
+		}
+		is_good = yes
+		days_mission_timeout = 125
+		timeout_effect = {
+			random_owned_state = {
+				limit = { 
+					infrastructure > 4 
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			clr_country_flag = has_building_in_progress
+			clr_country_flag = effect_1_picked
+			add_to_variable = { 
+				var = ongoing_construction 
+				value = -1 
+			}
+		}
+	}
+	TOTP_private_industry_expand_building_slot_2 = {
+		allowed = {
+			always = no
+		}
+		available = {
+			always = no
+		}
+		is_good = yes
+		days_mission_timeout = 125
+		timeout_effect = {
+			random_owned_state = {
+				limit = { 
+					infrastructure > 4 
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			clr_country_flag = has_building_in_progress
+			clr_country_flag = effect_2_picked
+			add_to_variable = { 
+				var = ongoing_construction 
+				value = -1 
+			}
+		}
+	}
+	TOTP_private_industry_expand_building_slot_3 = {
+		allowed = {
+			always = no
+		}
+		available = {
+			always = no
+		}
+		is_good = yes
+		days_mission_timeout = 125
+		timeout_effect = {
+			random_owned_state = {
+				limit = { 
+					infrastructure > 4 
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			clr_country_flag = has_building_in_progress
+			clr_country_flag = effect_3_picked
+			add_to_variable = { 
+				var = ongoing_construction 
+				value = -1 
+			}
+		}
+	}
+	TOTP_private_industry_expand_building_slot_4 = {
+		allowed = {
+			always = no
+		}
+		available = {
+			always = no
+		}
+		is_good = yes
+		days_mission_timeout = 125
+		timeout_effect = {
+			random_owned_state = {
+				limit = { 
+					infrastructure > 4 
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			clr_country_flag = has_building_in_progress
+			clr_country_flag = effect_4_picked
+			add_to_variable = { 
+				var = ongoing_construction 
+				value = -1 
+			}
+		}
+	}
+	TOTP_private_industry_construct_civillian_factory_1 = {
+		allowed = {
+			always = no
+		}
+		available = {
+			always = no
+		}
+		is_good = yes
+		days_mission_timeout = 125
+		timeout_effect = {
+			random_owned_state = {
+				limit = { 
+					AND = {
+						infrastructure > 4 
+						free_building_slots = {	
+							building = industrial_complex
+							size = 1
+							include_locked = no
+						}
+					}
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = has_building_in_progress
+			clr_country_flag = effect_5_picked
+			add_to_variable = { 
+				var = ongoing_construction 
+				value = -1 
+			}
+		}
+	}
+	TOTP_private_industry_construct_civillian_factory_2 = {
+		allowed = {
+			always = no
+		}
+		available = {
+			always = no
+		}
+		is_good = yes
+		days_mission_timeout = 125
+		timeout_effect = {
+			random_owned_state = {
+				limit = { 
+					AND = {
+						infrastructure > 4 
+						free_building_slots = {	
+							building = industrial_complex
+							size = 1
+							include_locked = no
+						}
+					}
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = has_building_in_progress
+			clr_country_flag = effect_6_picked
+			add_to_variable = { 
+				var = ongoing_construction 
+				value = -1 
+			}
+		}
+	}
+	TOTP_private_industry_construct_civillian_factory_3 = {
+		allowed = {
+			always = no
+		}
+		available = {
+			always = no
+		}
+		is_good = yes
+		days_mission_timeout = 125
+		timeout_effect = {
+			random_owned_state = {
+				limit = { 
+					AND = {
+						infrastructure > 4 
+						free_building_slots = {	
+							building = industrial_complex
+							size = 1
+							include_locked = no
+						}
+					}
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = has_building_in_progress
+			clr_country_flag = effect_7_picked
+			add_to_variable = { 
+				var = ongoing_construction 
+				value = -1 
+			}
+		}
+	}
+	TOTP_private_industry_construct_civillian_factory_4 = {
+		allowed = {
+			always = no
+		}
+		available = {
+			always = no
+		}
+		is_good = yes
+		days_mission_timeout = 125
+		timeout_effect = {
+			random_owned_state = {
+				limit = { 
+					AND = {
+						infrastructure > 4 
+						free_building_slots = {	
+							building = industrial_complex
+							size = 1
+							include_locked = no
+						}
+					}
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = has_building_in_progress
+			clr_country_flag = effect_8_picked
+			add_to_variable = { 
+				var = ongoing_construction 
+				value = -1 
+			}
+		}
+	}
+	TOTP_private_industry_expand_building_slot_5 = {
+		allowed = {
+			always = no
+		}
+		available = {
+			always = no
+		}
+		is_good = yes
+		days_mission_timeout = 125
+		timeout_effect = {
+			random_owned_state = {
+				limit = { 
+					infrastructure > 4 
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			clr_country_flag = has_building_in_progress
+			clr_country_flag = effect_9_picked
+			add_to_variable = { 
+				var = ongoing_construction 
+				value = -1 
+			}
+		}
+	}
+	TOTP_private_industry_expand_building_slot_6 = {
+		allowed = {
+			always = no
+		}
+		available = {
+			always = no
+		}
+		is_good = yes
+		days_mission_timeout = 125
+		timeout_effect = {
+			random_owned_state = {
+				limit = { 
+					infrastructure > 4 
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			clr_country_flag = has_building_in_progress
+			clr_country_flag = effect_10_picked
+			add_to_variable = { 
+				var = ongoing_construction 
+				value = -1 
+			}
+		}
+	}
+	TOTP_private_industry_expand_infrastrcuture_1 = {
+		allowed = {
+			always = no
+		}
+		available = {
+			always = no
+		}
+		is_good = yes
+		days_mission_timeout = 125
+		timeout_effect = {
+			random_owned_state = {
+				limit = { 
+					AND = {
+						infrastructure > 3
+						infrastructure < 10
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = has_building_in_progress
+			clr_country_flag = effect_11_picked
+			add_to_variable = { 
+				var = ongoing_construction 
+				value = -1 
+			}
+		}
+	}
+	TOTP_private_industry_expand_infrastrcuture_2 = {
+		allowed = {
+			always = no
+		}
+		available = {
+			always = no
+		}
+		is_good = yes
+		days_mission_timeout = 125
+		timeout_effect = {
+			random_owned_state = {
+				limit = { 
+					AND = {
+						infrastructure > 3
+						infrastructure < 10
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = has_building_in_progress
+			clr_country_flag = effect_12_picked
+			add_to_variable = { 
+				var = ongoing_construction 
+				value = -1 
+			}
+		}
+	}
+	TOTP_private_industry_expand_infrastrcuture_3 = {
+		allowed = {
+			always = no
+		}
+		available = {
+			always = no
+		}
+		is_good = yes
+		days_mission_timeout = 125
+		timeout_effect = {
+			random_owned_state = {
+				limit = { 
+					AND = {
+						infrastructure > 3
+						infrastructure < 10
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = has_building_in_progress
+			clr_country_flag = effect_13_picked
+			add_to_variable = { 
+				var = ongoing_construction 
+				value = -1 
+			}
+		}
+	}
+	TOTP_private_industry_expand_infrastrcuture_4 = {
+		allowed = {
+			always = no
+		}
+		available = {
+			always = no
+		}
+		is_good = yes
+		days_mission_timeout = 125
+		timeout_effect = {
+			random_owned_state = {
+				limit = { 
+					AND = {
+						infrastructure > 3
+						infrastructure < 10
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = has_building_in_progress
+			clr_country_flag = effect_14_picked
+			add_to_variable = { 
+				var = ongoing_construction 
+				value = -1 
+			}
+		}
+	}
+	TOTP_private_industry_expand_infrastrcuture_5 = {
+		allowed = {
+			always = no
+		}
+		available = {
+			always = no
+		}
+		is_good = yes
+		days_mission_timeout = 125
+		timeout_effect = {
+			random_owned_state = {
+				limit = { 
+					AND = {
+						infrastructure > 3
+						infrastructure < 10
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = has_building_in_progress
+			clr_country_flag = effect_15_picked
+			add_to_variable = { 
+				var = ongoing_construction 
+				value = -1 
+			}
+		}
+	}
+	TOTP_private_industry_construct_military_factory_1 = {
+		allowed = {
+			always = no
+		}
+		available = {
+			always = no
+		}
+		is_good = yes
+		days_mission_timeout = 125
+		timeout_effect = {
+			random_owned_state = {
+				limit = { 
+					AND = {
+						infrastructure > 4 
+						free_building_slots = {	
+							building = arms_factory
+							size = 1
+							include_locked = no
+						}
+					}
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = has_building_in_progress
+			clr_country_flag = effect_16_picked
+			add_to_variable = { 
+				var = ongoing_construction 
+				value = -1 
+			}
+		}
+	}
+	TOTP_private_industry_construct_military_factory_2 = {
+		allowed = {
+			always = no
+		}
+		available = {
+			always = no
+		}
+		is_good = yes
+		days_mission_timeout = 125
+		timeout_effect = {
+			random_owned_state = {
+				limit = { 
+					AND = {
+						infrastructure > 4 
+						free_building_slots = {	
+							building = arms_factory
+							size = 1
+							include_locked = no
+						}
+					}
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = has_building_in_progress
+			clr_country_flag = effect_17_picked
+			add_to_variable = { 
+				var = ongoing_construction 
+				value = -1 
+			}
+		}
+	}
+	TOTP_private_industry_construct_military_factory_3 = {
+		allowed = {
+			always = no
+		}
+		available = {
+			always = no
+		}
+		is_good = yes
+		days_mission_timeout = 125
+		timeout_effect = {
+			random_owned_state = {
+				limit = { 
+					AND = {
+						infrastructure > 4 
+						free_building_slots = {	
+							building = arms_factory
+							size = 1
+							include_locked = no
+						}
+					}
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = has_building_in_progress
+			clr_country_flag = effect_18_picked
+			add_to_variable = { 
+				var = ongoing_construction 
+				value = -1 
+			}
+		}
+	}
+	TOTP_private_industry_construct_dockyard_1 = {
+		allowed = {
+			always = no
+		}
+		available = {
+			always = no
+		}
+		is_good = yes
+		days_mission_timeout = 125
+		timeout_effect = {
+			random_owned_state = {
+				limit = { 
+					AND = {
+						infrastructure > 4 
+						is_coastal = yes 
+						free_building_slots = {	
+							building = dockyard
+							size = 1
+							include_locked = no
+						}
+					}
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = has_building_in_progress
+			clr_country_flag = effect_19_picked
+			add_to_variable = { 
+				var = ongoing_construction 
+				value = -1 
+			}
+		}
+	}
+	TOTP_private_industry_construct_dockyard_2 = {
+		allowed = {
+			always = no
+		}
+		available = {
+			always = no
+		}
+		is_good = yes
+		days_mission_timeout = 125
+		timeout_effect = {
+			random_owned_state = {
+				limit = { 
+					AND = {
+						infrastructure > 4 
+						is_coastal = yes 
+						free_building_slots = {	
+							building = dockyard
+							size = 1
+							include_locked = no
+						}
+					}
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = has_building_in_progress
+			clr_country_flag = effect_25_picked
+			add_to_variable = { 
+				var = ongoing_construction 
+				value = -1 
+			}
+		}
+	}
+}

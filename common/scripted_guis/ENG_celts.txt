@@ -1,0 +1,16 @@
+scripted_gui = {
+
+	humor_gui = {
+		context_type = decision_category
+		window_name = "humor"
+		visible = {
+			tag = ENG
+		}
+		
+		effects = {
+		}
+		
+		triggers = {
+		}
+	}
+}

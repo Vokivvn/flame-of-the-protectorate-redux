@@ -1,0 +1,152 @@
+﻿capital = 2
+
+set_variable = { country_infamy = 9 } 
+OOB = "ITA_1936"
+set_research_slots = 4
+
+set_stability = 0.3
+set_war_support = 0.7
+
+load_focus_tree = ITA_Starting_Out
+
+set_country_flag = ITA_Lussu_alive
+set_country_flag = ITA_Farinacci_alive
+
+set_variable = {
+    var = ITA_nationalist_army_power
+    value = .12
+}
+
+set_variable = {
+    var = ITA_socialist_army_power
+    value = .28
+}
+
+set_variable = { ITA_army_division = .16 }
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	#basic_heavy_tank = 1  # PLACEHOLDER
+	#basic_medium_tank = 1 # PLACEHOLDER
+	early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+	CAS1 = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+
+set_convoys = 200
+
+set_politics = {
+	ruling_party = progressivism
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	centralism = 12
+	socialism = 5
+	progressivism = 32
+	liberalism = 18
+	conservatism = 25
+	ultranationalism = 8
+}
+
+add_ideas = {
+	ITA_years_of_the_sheep
+	ITA_offset_of_power
+	ITA_impending_war_of_independence
+	#laws
+	minescule_worker_protection
+	mixed
+}
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = LBA
+		autonomous_state = autonomy_satellite
+	}
+	else = {
+		puppet = LBA
+	}
+}
+
+create_country_leader = {
+	name = "Ferruccio Parri"
+	desc = "POLITICS_Ferruccio_Parri_DESC"
+	picture = "Leader_ITA_Ferruccio_Parri.dds"
+	expire = "1965.1.1"
+	ideology = democratic_socialism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Silvio Trentin"
+	desc = "POLITICS_Silvio_Trentin_DESC"
+	picture = "Leader_ITA_Silvio_Trentin.dds"
+	expire = "1965.1.1"
+	ideology = federalism
+	traits = {
+
+	}
+}
+create_country_leader = {
+	name = "Piero Malvestiti"
+	desc = "POLITICS_Piero_Malvestiti_DESC"
+	picture = "Leader_ITA_Piero_Malvestiti.dds"
+	expire = "1965.1.1"
+	ideology = christian_democracy
+	traits = {
+
+	}
+}
+create_country_leader = {
+	name = "Emilio Lussu"
+	desc = "POLITICS_Emilio_Lussu_DESC"
+	picture = "Portrait_Italy_Emilio_Lussu.dds"
+	expire = "1965.1.1"
+	ideology = utopian_socialism
+	traits = {
+
+	}
+}
+create_country_leader = {
+	name = "Roberto Farinacci"
+	desc = "POLITICS_Roberto_Farinacci_DESC"
+	picture = "Portrait_Italy_Roberto_Farinacci.dds"
+	expire = "1965.1.1"
+	ideology = national_syndicalism
+	traits = {
+
+	}
+}
+create_country_leader = {
+	name = "Ameado Bordiga"
+	desc = "POLITICS_Ameado_Bordiga_DESC"
+	picture = "Leader_ITA_Ameado_Bordiga.dds"
+	expire = "1965.1.1"
+	ideology = bordigism
+	traits = {
+
+	}
+}

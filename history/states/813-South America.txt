@@ -1,0 +1,20 @@
+
+state={
+	id=813
+	name="STATE_813"
+	manpower = 677200
+	
+	state_category = rural
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BRA
+	}
+
+	provinces={
+		4604 1585 4575
+	}
+}

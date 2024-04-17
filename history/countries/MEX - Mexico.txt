@@ -1,0 +1,33 @@
+﻿capital = 277
+
+set_convoys = 45
+set_stability = 0.2
+set_war_support = 0.1
+
+set_politics = {
+	ruling_party = republicanism
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	liberalism = 25
+	progressivism = 10
+	socialism = 10
+	authoritarianism = 2
+	conservatism = 3
+	republicanism = 30
+	ultranationalism = 5
+	centralism = 15
+}
+
+create_country_leader = {
+	name = "Plutarco Calles"
+	desc = "POLITICS_Plutarco_Calles_DESC"
+	picture = "Portrait_MEX_Plutarco_Calles_.dds"
+	expire = "1965.1.1"
+	ideology = republicanism_subtype
+	traits = {
+		
+	}
+}

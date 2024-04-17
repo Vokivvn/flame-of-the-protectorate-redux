@@ -1,0 +1,26 @@
+﻿capital = 559
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+create_country_leader = {
+	name = "Omar Mahamuud"
+	picture = "gfx/leaders/SOM/Portrait_Marjeerteen_Omar_Mahamuud.dds"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+	traits = {
+		#
+	}
+}
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	authoritarianism = 100
+}

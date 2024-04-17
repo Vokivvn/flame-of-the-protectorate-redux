@@ -1,0 +1,59 @@
+﻿capital = 142
+
+set_research_slots = 3
+
+add_ideas = {
+	limited_conscription
+}
+
+set_stability = 0.4
+set_war_support = 0.3
+
+set_convoys = 200
+
+set_politics = {
+	ruling_party = republicanism
+	last_election = "1933.10.16"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	republicanism = 100
+}
+create_country_leader = {
+	name = "Karl Meyer"
+	desc = "POLITICS_Karl_Meyer_DESC"
+	picture = "Leader_NOR_Karl_Meyer.dds"
+	expire = "1982.01.01"
+	ideology = republicanism_subtype
+	traits = {
+	}
+}
+create_field_marshal = {
+	name = "Jonas Lie"
+	desc = "POLITICS_JONAS_LIE_DESC"
+	picture = "Portrait_Norway_Jonas_Lie.dds"
+	#expire = "1978.3.9"
+	traits = {
+		harsh_leader
+		winter_expert
+	}
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Henrik Rogstad"
+	picture = "Portrait_Norway_Henrik_Rogstad.dds"
+	traits = {
+		infantry_officer
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}

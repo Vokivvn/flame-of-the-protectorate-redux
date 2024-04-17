@@ -1,0 +1,37 @@
+ideas = {
+	country = {
+		AFG_Modernisation_on_the_Horizon = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = ENG_the_protectorate
+
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.05
+			}
+		}
+		AFG_Bandit_Kings = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = ENG_the_protectorate
+
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.05
+				consumer_goods_factor = 0.05
+			}
+		}
+		AFG_The_Great_Game = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = ENG_the_protectorate
+
+			modifier = {
+				war_support_factor = -0.1
+			}
+		}
+	}
+}

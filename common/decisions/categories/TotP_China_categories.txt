@@ -1,0 +1,27 @@
+CHI_debug = {
+	visible_when_empty = yes
+	allowed = {
+		original_tag = CHI
+	}
+
+	priority = 0
+}
+
+
+CHI_political_machinations = {
+	visible_when_empty = yes
+	allowed = {
+		original_tag = CHI
+	}
+
+	priority = 100
+}
+
+CHI_government_health = {
+	visible_when_empty = yes
+	allowed = {
+		original_tag = CHI
+	}
+
+	priority = 100
+}

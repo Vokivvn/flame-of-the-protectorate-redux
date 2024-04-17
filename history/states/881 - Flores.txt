@@ -1,0 +1,29 @@
+
+state={
+	id=881
+	name="STATE_881"
+	manpower = 1223221
+	
+	state_category = large_town
+
+	history={
+		owner = LNK
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			10175 = {
+				naval_base = 1
+
+			}
+		}
+		victory_points = {
+			4301 3 
+		}
+		add_core_of = LNK
+	}
+
+	provinces={
+		12151 7321 4301 10175 1298
+	}
+}

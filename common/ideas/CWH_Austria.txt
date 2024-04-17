@@ -1,0 +1,416 @@
+ideas = {
+	country = {
+		AUS_the_father_of_europe = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = AUS_father_of_europe
+
+				modifier = {
+					stability_factor = 0.10 
+					max_command_power = 10 
+					consumer_goods_factor = -0.05
+				}
+		}
+		
+		AUS_the_nostalgic_empire = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = AUS_nostalgic_empire
+
+				modifier = {
+					non_core_manpower = 0.02 
+					army_core_defence_factor = 0.1 
+					planning_speed = -0.10 
+				}
+		}
+
+		AUS_the_revitalized_empire = {
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = AUS_nostalgic_empire
+
+			modifier = {
+				non_core_manpower = 0.05
+				army_core_defence_factor = 0.1 
+				army_core_attack_factor = 0.1
+				planning_speed = 0.10 
+			}
+		}
+		
+		AUS_right_unity = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = AUS_right_unity
+
+				modifier = {
+					stability_factor = -0.05
+					authoritarianism_drift = 0.01
+					ultranationalism_drift = 0.01
+				}
+		}
+		
+		AUS_the_time_for_liberation = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = AUS_time_to_reclaim
+
+				modifier = {
+					war_support_weekly = 0.01 
+				}
+
+				targeted_modifier = { tag = POL attack_bonus_against = 0.05 } 
+		}
+
+		AUS_the_time_for_liberation_1 = {
+	
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = AUS_time_to_reclaim
+
+			modifier = {
+				war_support_weekly = 0.01
+				army_morale_factor = 0.05
+			}
+			
+			targeted_modifier = { tag = POL attack_bonus_against = 0.10 } 
+		}
+		
+		AUS_overwhelming_resistance_3 = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = AUS_antifascist_resistance_3
+
+				modifier = {
+					weekly_manpower = -1000 
+					stability_factor = -0.25 
+					war_support_factor = -0.35 
+					offence = -0.25
+					defence = -0.25
+				}
+		}
+		
+		AUS_overwhelming_resistance_2 = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = AUS_antifascist_resistance_2
+
+				modifier = {
+					weekly_manpower = -500 
+					stability_factor = -0.10 
+					war_support_factor = -0.15 
+					offence = -0.15
+					defence = -0.15
+				}
+		}
+		
+		AUS_overwhelming_resistance_1 = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = AUS_antifascist_resistance_1
+
+				modifier = {
+					stability_factor = -0.05
+					war_support_factor = -0.075
+					defence = -0.05
+				}
+		}
+		
+		AUS_internal_struggles = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = AUS_internal_struggles
+
+				modifier = {
+					mobilization_speed = -0.5
+					surrender_limit = -0.5
+					political_power_factor = -0.50 
+					stability_factor = -0.15
+				}
+		}
+		
+		AUS_corporate_suits_among_us = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = AUS_corporate_suits_among_us
+
+				modifier = {
+					production_factory_max_efficiency_factor = -0.25
+					line_change_production_efficiency_factor = -0.25
+					consumer_goods_factor = 0.30
+					production_speed_buildings_factor = -0.3
+				}
+		}
+		
+		AUS_corporate_suits_among_us_make_it_good = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = AUS_corporate_suits_among_us
+
+				modifier = {
+				}
+		}
+		
+		AUS_corporate_suits_among_us_make_it_good_1 = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = AUS_corporate_suits_among_us
+
+				modifier = {
+					production_factory_max_efficiency_factor = 0.05
+					line_change_production_efficiency_factor = 0.05
+					consumer_goods_factor = -0.05
+					production_speed_buildings_factor = 0.05
+				}
+		}
+		
+		AUS_corporate_suits_among_us_make_it_good_2 = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = AUS_corporate_suits_among_us
+
+				modifier = {
+					production_factory_max_efficiency_factor = 0.10
+					line_change_production_efficiency_factor = 0.10
+					consumer_goods_factor = -0.10
+					production_speed_buildings_factor = 0.10
+				}
+		}
+		
+		AUS_corporate_suits_among_us_make_it_good_3 = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = AUS_corporate_suits_among_us
+
+				modifier = {
+					production_factory_max_efficiency_factor = 0.15
+					line_change_production_efficiency_factor = 0.15
+					consumer_goods_factor = -0.15
+					production_speed_buildings_factor = 0.15
+				}
+		}
+		
+		AUS_corporate_suits_among_us_make_it_good_4 = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = AUS_corporate_suits_among_us
+
+				modifier = {
+					production_factory_max_efficiency_factor = 0.20
+					line_change_production_efficiency_factor = 0.20
+					consumer_goods_factor = -0.20
+					production_speed_buildings_factor = 0.20
+				}
+		}
+		
+		AUS_corporate_suits_among_us_make_it_good_5 = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = AUS_corporate_suits_among_us
+
+				modifier = {
+					production_factory_max_efficiency_factor = 0.25
+					line_change_production_efficiency_factor = 0.25
+					consumer_goods_factor = -0.25
+					production_speed_buildings_factor = 0.25
+				}
+		}
+		
+		AUS_supressed_labour_movement = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = AUS_corporate_suits_among_us
+
+				modifier = {
+					line_change_production_efficiency_factor = -0.2
+					conscription = 0.05
+				}
+		}
+		
+		AUS_secret_police = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = AUS_corporate_suits_among_us
+
+				modifier = {
+					stability_weekly = 0.01
+					defense_bonus_against = 0.1
+					surrender_limit = 0.1
+					political_power_gain = 0.15
+				}
+		}
+		
+		AUS_secret_police_1 = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = AUS_corporate_suits_among_us
+
+				modifier = {
+					stability_weekly = 0.02
+					defense_bonus_against = 0.15
+					surrender_limit = 0.15
+					political_power_gain = 0.20
+				}
+		}
+		
+		AUS_legitimized_regime = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = AUS_corporate_suits_among_us
+
+				modifier = {
+					conscription = 0.05
+					war_support_weekly = 0.02
+				}
+		}
+		AUS_legitimized_regime_1 = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = AUS_corporate_suits_among_us
+
+				modifier = {
+					conscription = 0.10
+					war_support_weekly = 0.05
+				}
+		}
+		
+		AUS_global_redemption = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = AUS_corporate_suits_among_us
+
+				modifier = {
+					conscription_factor = 0.08
+					line_change_production_efficiency_factor = 0.15
+				}
+		}
+		
+		AUS_wien_tourism = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = AUS_corporate_suits_among_us
+
+				modifier = {
+					consumer_goods_factor = -0.05 
+					MONTHLY_POPULATION = 0.15
+				}
+		}
+	}
+}

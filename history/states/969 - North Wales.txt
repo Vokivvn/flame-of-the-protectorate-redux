@@ -1,0 +1,21 @@
+state={
+	id=969
+	name="STATE_969"
+
+	state_category = town
+
+	history={
+		owner = ENG
+		victory_points = { 6363 5 }
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = ENG
+	}
+	
+	provinces={
+		6363 9364
+	}
+	manpower=570299
+	buildings_max_level_factor=1.000
+}

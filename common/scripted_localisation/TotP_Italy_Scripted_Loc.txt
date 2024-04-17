@@ -1,0 +1,160 @@
+defined_text = {
+	name = ITA_LEFTIST_LEADER
+	text = {
+		trigger = {
+			ITA = {
+				NOT = {
+					has_country_flag = ITA_left_leader_dead
+				}
+				has_country_flag = ITA_Lussu_alive
+			}
+		}
+		localization_key = ITA_Lussu_Left_Leader
+	}
+	
+	text = {
+		trigger = {
+			ITA = {
+				NOT = {
+					has_country_flag = ITA_left_leader_dead
+				}
+			}
+		}
+		localization_key = ITA_Dead_Left_Leader
+	}
+}
+
+defined_text = {
+	name = ITA_RIGHTIST_LEADER
+	text = {
+		trigger = {
+			ITA = {
+				NOT = {
+					has_country_flag = ITA_left_leader_dead
+				}
+				has_country_flag = ITA_Farinacci_alive
+			}
+		}
+		localization_key = ITA_Farinacci_Right_Leader
+	}
+	
+	text = {
+		trigger = {
+			ITA = {
+				NOT = {
+					has_country_flag = ITA_left_leader_dead
+				}
+			}
+		}
+		localization_key = ITA_Dead_Right_Leader
+	}
+}
+
+defined_text = {
+	name = ITA_ARMY_IS_DIVIDED
+	text = {
+		trigger = {
+			check_variable = {
+				var = ITA_army_division
+				value = -.25
+				compare = less_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ITA_army_division
+					value = -.25
+					compare = greater_than
+				}
+			}
+		}
+		localization_key = ita_nationalist_heavy
+	}
+	
+	text = {
+		trigger = {
+			NOT = {
+				check_variable = {
+					var = ITA_army_division
+					value = -.25
+					compare = less_than_or_equals
+				}
+			}
+			NOT = {
+				check_variable = {
+					var = ITA_army_division
+					value = -.12
+					compare = greater_than
+				}
+			}
+			check_variable = {
+				var = ITA_army_division
+				value = -.12
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ita_nationalist_leaning
+	}
+	
+	text = {
+		trigger = {
+			NOT = {
+				check_variable = {
+					var = ITA_army_division
+					value = -.12
+					compare = less_than_or_equals
+				}
+			}
+			NOT = {
+				check_variable = {
+					var = ITA_army_division
+					value = .12
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = ita_balanced_division
+	}
+	
+	text = {
+		trigger = {
+			check_variable = {
+				var = ITA_army_division
+				value = .12
+				compare = greater_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ITA_army_division
+					value = .12
+					compare = less_than
+				}
+			}
+			NOT = {
+				check_variable = {
+					var = ITA_army_division
+					value = .25
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = ita_socialist_leaning
+	}
+	
+	text = {
+		trigger = {
+			check_variable = {
+				var = ITA_army_division
+				value = .25
+				compare = greater_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = ITA_army_division
+					value = .25
+					compare = less_than
+				}
+			}
+		}
+		localization_key = ita_socialist_heavy
+	}
+}

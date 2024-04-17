@@ -1,0 +1,22 @@
+state={
+	id=915
+	name="STATE_915"
+	provinces={
+		12243 7415 1404 2047 5226
+	}
+	
+	history={
+		owner = SRW
+		add_core_of = SRW
+		add_core_of = BUG
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			1404 2
+		}
+	}
+	manpower=177661
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,20 @@
+state={
+	id=931
+	name="STATE_931"
+	manpower = 1
+	
+	state_category = town
+
+	history={
+		add_core_of = DEN
+		owner = DEN
+		victory_points = {
+			317 10
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	
+	provinces={ 317 332 11251 11366 }
+}

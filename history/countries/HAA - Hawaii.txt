@@ -1,0 +1,53 @@
+﻿capital = 629
+
+set_politics = {
+	ruling_party = republicanism
+	last_election = "1934.8.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	republicanism = 100
+}
+
+create_country_leader = {
+	name = "George Patton"
+	desc = "POLITICS_George_Patton_DESC"
+	picture = "Portrait_HAA_George_Patton.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democracy
+	traits = {
+		
+	}
+}
+
+give_military_access = ENG
+give_military_access = USA
+give_military_access = JAP
+
+diplomatic_relation = {
+    country = JAP
+    relation = docking_rights
+    active = no
+}
+diplomatic_relation = {
+    country = USA
+    relation = docking_rights
+    active = no
+}
+diplomatic_relation = {
+    country = ENG
+    relation = docking_rights
+    active = no
+}
+
+USA = {
+	give_guarantee = HAA
+}
+ENG = {
+	give_guarantee = HAA
+}
+JAP = {
+	give_guarantee = HAA
+}

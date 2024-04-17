@@ -1,0 +1,47 @@
+﻿capital = 7
+
+set_variable = { country_infamy = 0 } 
+
+set_research_slots = 3
+set_stability = 0.75
+set_war_support = 0.8
+
+set_politics = {
+	ruling_party = ultranationalism
+	last_election = "1933.4.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	centralism = 4
+	socialism = 6
+	progressivism = 0 
+	liberalism = 11
+	conservatism = 5
+	republicanism = 0
+	authoritarianism = 0
+	ultranationalism = 74
+}
+
+add_ideas = {
+	HOL_memories_of_32
+	HOL_army_factionalism
+	HOL_divided_resistance
+	
+	# laws
+	mixed
+}
+
+set_convoys = 150
+set_stability = 0.75
+
+create_country_leader = {
+	name = "Anton Mussert"
+	desc = "POLITICS_Anton_Mussert_DESC"
+	picture = "Leader_HOL_Anton_Mussert.dds"
+	expire = "1965.1.1"
+	ideology = ultranationalism_subtype
+	traits = {
+		#
+	}
+}

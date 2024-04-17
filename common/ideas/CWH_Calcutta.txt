@@ -1,0 +1,36 @@
+ideas = {
+	country = {
+		CAL_International_Settlement = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = CAL_International_Settlement
+
+			modifier = {
+				stability_factor = 0.1
+				political_power_gain = 0.15
+			}
+		}
+		CAL_British_Domination = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = CAL_British_Domination
+
+			modifier = {
+				political_power_gain = -0.25
+			}
+		}
+		CAL_Peace_Between_Powers = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = CAL_Peace_Between_Powers
+
+			modifier = {
+				war_support_factor = -1
+				stability_factor = 0.25
+			}
+		}
+	}
+}

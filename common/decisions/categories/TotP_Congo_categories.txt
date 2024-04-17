@@ -1,0 +1,10 @@
+COG_great_african_game = {
+	picture = GFX_decision_ENG_decisions_chamberlain_voting
+	visible_when_empty = no
+	allowed = {
+		AND = {
+			has_country_flag = Congo_Attending
+			has_global_flag = Congo_Great_Game
+		}
+	}
+}

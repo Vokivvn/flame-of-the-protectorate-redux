@@ -1,0 +1,506 @@
+##### Division Templates #####
+division_template = {
+	name = "Division d'Infanterie"		
+	division_names_group = FRA_INF_01
+	# Represents: Division d'Infanterie (Series A and B), Div. d'Inf. de Forteresse
+	# Difference is their equipment
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 } 	# Heavy Arty Regiment had 2x 155mm battalions
+	}
+}
+division_template = {
+	name = "Division d'Infanterie Motorisée"	# Division d'Infanterie Motorisée
+	division_names_group = FRA_MOT_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon Group consisted of 26 ACs + motorcycles
+		artillery = { x = 0 y = 1 }  # Heavy Arty Regiment had 1x 155mm, 1x 105mm battalions
+	}
+}
+division_template = {
+	name = "Division d'Infanterie Alpine"	# Division d'Infanterie Alpine
+	division_names_group = FRA_MNT_01
+	# Note: trimmed to 3x Rgts w/ arty bn added, 1939
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }	# Regular mountain infantry (Infanterie Alpine)
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }	# Chasseurs Alpins (HOI3 elites)
+		mountaineers = { x = 2 y = 1 }	# Chasseurs Alpins (HOI3 elites)
+		mountaineers = { x = 2 y = 2 }	# Chasseurs Alpins (HOI3 elites)
+		mountaineers = { x = 3 y = 0 }	# Chasseurs Alpins (HOI3 elites)
+		mountaineers = { x = 3 y = 1 }	# Chasseurs Alpins (HOI3 elites)
+		mountaineers = { x = 3 y = 2 }	# Chasseurs Alpins (HOI3 elites)
+	}
+}
+division_template = {
+	name = "Division de Cavalerie" 	# Division de Cavalerie
+	division_names_group = FRA_CAV_01
+	# Note: Transformed to DLC, DLM divisions, 1936-39 
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon Group consisted of 64 ACs/scout cars
+	}
+}
+division_template = {
+	name = "Division Légère Mécanique" 		# Division Légère Mécanique
+	division_names_group = FRA_MEC_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }		# Bn. of Hotchkiss, then Souma (Med.) tanks
+		light_armor = { x = 0 y = 1 }		# Bn. of Hotchkiss tanks
+		motorized = { x = 1 y = 0 }			# Brigade of 2x Rgts., 2 Bns. each (later 1 Rgt. of 3x Bns.)
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon Group consisted of 42 ACs + motorcycles
+	}
+}
+division_template = {
+	name = "Brigade de Chars de Combat" 	# Brigade de Chars de Combat, independent armor brigades of 2x Rgts., 2 Bns. each
+	division_names_group = FRA_ARM_01
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+	}
+}
+
+## OOB ##
+
+units = {
+	division= {	# "8ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 9737
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "9ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 9737
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "10ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 9737
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "11ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 9737
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "12ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 9737
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "13ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 9737
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "14ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 9737
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "15ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = 5291
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "16ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = 9505
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "17ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 680
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "18ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 3652
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "19ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = 3652
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "20ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 817
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "21ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 698
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "22ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		}
+		location = 9625
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "23ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 23
+		}
+		location = 9609
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "24ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 24
+		}
+		location = 11611
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "25ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 25
+		}
+		location = 3655
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "26ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 26
+		}
+		location = 6681
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "27ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 27
+		}
+		location = 6648
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "28ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 28
+		}
+		location = 3626
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "29ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 29
+		}
+		location = 11869
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "30ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 30
+		}
+		location = 669
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "31ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 31
+		}
+		location = 3671
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "32ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 32
+		}
+		location = 3671
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "33ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 33
+		}
+		location = 9492
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "34ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 34
+		}
+		location = 6533
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "35ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 35
+		}
+		location = 9507
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "36ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 36
+		}
+		location = 9523
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "37ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 37
+		}
+		location = 9561
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "38ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 38
+		}
+		location = 3402
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "39ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 39
+		}
+		location = 11606
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "40ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 40
+		}
+		location = 6759
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "41ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 41
+		}
+		location = 929
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "42ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11702
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "43ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 43
+		}
+		location = 752
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "44ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 44
+		}
+		location = 6770
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "45ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 45
+		}
+		location = 11711
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "46ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 46
+		}
+		location = 11877
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {	# "47ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 47
+		}
+		location = 9898
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+}

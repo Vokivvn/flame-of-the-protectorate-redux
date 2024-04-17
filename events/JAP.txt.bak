@@ -1,0 +1,99 @@
+﻿add_namespace = jap
+
+country_event = { # Takashi resigns
+	id = jap.1
+	title = jap.1.t
+	desc = jap.1.desc
+	picture = GFX_report_event_khalistan_mehmet_duleep_singh
+
+	is_triggered_only = yes
+	
+	option = {
+		name = jap.1.a
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Imperial Diet"
+			desc = "POLITICS_Ernst_Thalmann_DESC"
+			picture = "Portrait_Germany_Ernst_Thalmann.dds"
+			expire = "1965.1.1"
+			ideology = liberalism_subtype
+			traits = {
+				#
+			}
+		}
+	}
+}
+
+country_event = { # 1936 general election
+	id = jap.2
+	title = jap.2.t
+	desc = jap.2.desc
+	picture = GFX_report_event_khalistan_mehmet_duleep_singh
+
+	is_triggered_only = yes
+	
+	option = {
+		name = jap.2.a
+		set_politics = {
+			ruling_party = conservatism
+		}
+		create_country_leader = {
+			name = "Machida Chūji"
+			desc = "POLITICS_BAMBA_SINGH_DESC"
+			picture = "Portrait_Khalistan_Bamba_Singh.dds"
+			expire = "1965.1.1"
+			ideology = conservatism_subtype
+			traits = {
+			}
+		}
+	}
+	option = { # though there may be aggressors, through cooperation everyone may come to gain something
+		name = JAP.2.b
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Suzuki Kisaburō"
+			desc = "POLITICS_Ernst_Thalmann_DESC"
+			picture = "Portrait_Germany_Ernst_Thalmann.dds"
+			expire = "1965.1.1"
+			ideology = liberalism_subtype
+			traits = {
+				#
+			}
+		}
+	}
+	option = { # though there may be aggressors, through cooperation everyone may come to gain something
+		name = JAP.2.c
+		create_country_leader = {
+			name = "Bamba Singh"
+			desc = "POLITICS_BAMBA_SINGH_DESC"
+			picture = "Portrait_Khalistan_Bamba_Singh.dds"
+			expire = "1965.1.1"
+			ideology = authoritarianism_subtype
+			traits = {
+			}
+		}
+	}
+}
+
+country_event = { # Bamba Singh Takes Over
+	id = jap.30
+	title = jap.30.t
+	desc = jap.30.desc
+	picture = GFX_report_event_khalistan_mehmet_duleep_singh
+
+	is_triggered_only = yes
+	
+	option = {
+		name = jap.30.a
+		create_country_leader = {
+			name = "Hideki Tojo"
+			desc = "POLITICS_BAMBA_SINGH_DESC"
+			picture = "Portrait_Khalistan_Bamba_Singh.dds"
+			expire = "1965.1.1"
+			ideology = authoritarianism_subtype
+			traits = {
+			}
+		}
+	}
+}
+

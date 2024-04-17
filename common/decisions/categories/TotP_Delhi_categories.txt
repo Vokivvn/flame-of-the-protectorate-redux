@@ -1,0 +1,66 @@
+RAJ_court = {
+
+	icon = decision_category_military_operation
+
+	picture = GFX_decisions_delhi_cabinet
+	allowed = {
+		tag = RAJ
+	}
+	visible = {
+		tag = RAJ
+	}
+	priority = 100
+	visible_when_empty = yes
+	scripted_gui = delhi_cabinet
+}
+
+RAJ_reconstruction = {
+
+	icon = decision_category_military_operation
+
+	picture = GFX_decision_TUR_tensions_in_the_empire
+	available = {
+		has_country_flag = RAJ_REBUILD
+	}
+	visible = {
+		has_country_flag = RAJ_REBUILD
+	}
+	priority = 99
+}
+
+RAJ_nepal_dealing = {
+
+	icon = decision_category_military_operation 
+
+	picture = GFX_decision_TUR_tensions_in_the_empire
+	available = {
+		has_country_flag = RAJ_NEPAL_FLAG
+	}
+	visible = {
+		has_country_flag = RAJ_NEPAL_FLAG
+	}
+	priority = 98
+}
+
+
+RAJ_nepal_dealing_ai = {
+
+	icon = decision_category_military_operation 
+
+	picture = GFX_decision_TUR_tensions_in_the_empire
+	available = {
+		AND = {
+			country_exists = NEP
+			country_exists = KAT
+		}
+		tag = RAJ
+	}
+	visible = {
+		AND = {
+			country_exists = NEP
+			country_exists = KAT
+		}
+		tag = RAJ
+	}
+	priority = 98
+}

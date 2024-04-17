@@ -1,0 +1,29 @@
+﻿capital = 480
+
+set_convoys = 45
+set_stability = 0.5
+set_war_support = 0.05
+
+set_politics = {
+	ruling_party = progressivism
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	liberalism = 30
+	progressivism = 40
+	authoritarianism = 15
+	conservatism = 15
+}
+
+create_country_leader = {
+	name = "Francisco Madero"
+	desc = "POLITICS_Roque_Garza_DESC"
+	picture = "Portrait_RIO_Francisco_González.dds"
+	expire = "1965.1.1"
+	ideology = progressivism_subtype
+	traits = {
+		
+	}
+}

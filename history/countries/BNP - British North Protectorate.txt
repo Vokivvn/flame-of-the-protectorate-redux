@@ -1,0 +1,18 @@
+﻿capital = 558
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	centralism = 0
+	socialism = 0
+	progressivism = 0
+	liberalism = 0
+	conservatism = 0
+	republicanism = 0
+	authoritarianism = 100
+	ultranationalism = 0
+}

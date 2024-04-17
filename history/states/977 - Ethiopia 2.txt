@@ -1,0 +1,20 @@
+state={
+	id=977
+	name="STATE_977"
+
+	state_category = town
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = ETH
+	}
+	
+	provinces={
+		7912 10734 8019
+	}
+	manpower= 1
+	buildings_max_level_factor=1.000
+}

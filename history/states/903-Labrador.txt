@@ -1,0 +1,22 @@
+state={
+	id=903
+	name="STATE_903"
+	provinces={
+		1785 4720 4787 7683 7810 10534 12503 13165 
+	}
+	
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 2
+			12503 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = CAN
+	}
+	
+	manpower=135531
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

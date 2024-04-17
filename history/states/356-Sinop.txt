@@ -1,0 +1,22 @@
+
+state={
+	id=356
+	name="STATE_356" # Kars
+	manpower = 304244
+	state_category = town
+
+	history={
+		owner = TUR
+		victory_points = {
+			10472 10
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = TUR
+	}
+
+	provinces={
+		7454 10403 789 10472
+	}
+}

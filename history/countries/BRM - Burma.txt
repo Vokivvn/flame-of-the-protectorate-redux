@@ -1,0 +1,54 @@
+﻿capital = 640
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	centralism = 0
+	socialism = 0
+	progressivism = 60
+	liberalism = 0
+	conservatism = 0
+	republicanism = 0
+	authoritarianism = 40
+	ultranationalism = 0
+}
+
+create_country_leader = {
+	name = "Nu"
+	desc = "POLITICS_NU_DESC"
+	picture = "Portrait_Burma_Nu.dds"
+	expire = "1965.1.1"
+	ideology = progressivism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Thibaw"
+	desc = "POLITICS_THIBAW_DESC"
+	picture = "Portrait_Burma_Thibaw.dds"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+	traits = {
+		#
+	}
+}
+
+add_ideas = {
+	BRM_Dobama_Asiayone
+	BRM_Bamar_Kingdom
+	BRM_French_Lip_Service
+}

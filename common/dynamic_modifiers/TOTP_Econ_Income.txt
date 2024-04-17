@@ -1,0 +1,5 @@
+TOTP_income_based = {
+	enable = {always = yes}
+	consumer_goods_factor = TOTP_Construction_Income_Gain_Factories
+	production_speed_buildings_factor = TOTP_Country_Income_Base
+}

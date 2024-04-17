@@ -1,0 +1,30 @@
+﻿capital = 160
+
+set_variable = { country_infamy = 0 } 
+
+set_research_slots = 3
+set_stability = 0.75
+set_war_support = 0.8
+
+set_politics = {
+	ruling_party = ultranationalism
+	last_election = "1933.4.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	ultranationalism = 100
+}
+
+set_stability = 0.75
+
+create_country_leader = {
+	name = "Franz Hofer"
+	desc = "POLITICS_Franz_Hofer_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = national_syndicalism
+	traits = {
+		#
+	}
+}

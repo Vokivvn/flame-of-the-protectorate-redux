@@ -1,0 +1,21 @@
+state={
+	id=819
+	name="STATE_819"
+
+	history={
+		owner = FEA
+		add_core_of = FEA
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		5054 2080 5036 
+	}
+	manpower=1349600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

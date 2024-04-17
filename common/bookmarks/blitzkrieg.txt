@@ -1,0 +1,168 @@
+bookmarks =  {
+	bookmark = {
+		name = "TOTP_NAME"
+		desc = "TOTP_DESC"
+		date = 1936.1.1.1
+		picture =  "GFX_select_date_1939"
+		default_country = "ENG"
+		default = yes
+
+		#MAJORS#
+		"ENG" = {
+			history = "ENG_TOTP_DESC"
+			ideology = conservatism
+			ideas = {
+				ENG_cromwells_legacy
+				ENG_all_alone
+				ENG_into_the_dark
+			}
+			focuses = {
+				
+			}
+		}
+		"GER" = {
+			history = "GER_TOTP_DESC"
+			ideology = liberalism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"FRA" = {
+			history = "FRA_TOTP_DESC"
+			ideology = conservatism
+			ideas = {
+				FRA_memories_of_malet
+				FRA_the_red_spectre
+				FRA_rival_nationalism_even
+			}
+			focuses = {
+			}
+		}
+		"ITA" = {
+			history = "ITA_TOTP_DESC"
+			ideology = progressivism
+			ideas = {
+				ITA_years_of_the_sheep
+				ITA_offset_of_power
+				ITA_impending_war_of_independence
+			}
+			focuses = {
+			}
+		}
+		"SOV" = {
+			history = "SOV_TOTP_DESC"
+			ideology = conservatism
+			ideas = {
+				SOV_legacy_of_the_1903_interregnum
+				SOV_the_tsars_apathy
+				SOV_the_engelhardt_reformation
+			}
+			focuses = {
+				SOV_my_empire_of_dirt
+				SOV_our_western_krai
+				SOV_cast_the_ballot
+			}
+		}
+		"AUS" = {
+			history = "AUS_TOTP_DESC"
+			ideology = conservatism
+			ideas = {
+				AUS_the_father_of_europe
+				AUS_the_nostalgic_empire
+				AUS_right_unity
+			}
+			focuses = {
+			
+			}
+		}
+		"USA" = {
+			history = "USA_TOTP_DESC"
+			ideology = liberalism
+			ideas = {
+				USA_the_model_imperialist
+				USA_the_hotbed_of_socialism
+				USA_faux_freedom
+			}
+			focuses = {
+				USA_the_do_nothing_democrats
+				USA_the_socialist_bunch
+				USA_the_success_of_our_party
+			}
+		}
+		"RAJ" = {
+			history = "RAJ_TOTP_DESC"
+			ideology = republicanism
+			ideas = {
+			}
+			focuses = {
+				
+			}
+		}
+	
+		
+		"SAF" = {
+			minor = yes
+			history = "SAF_TOTP_DESC"
+			ideology = republicanism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"ORG" = {
+			minor = yes
+			history = "ORG_TOTP_DESC"
+			ideology = ultranationalism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"TUR" = {
+			minor = yes
+			history = "TUR_TOTP_DESC"
+			ideology = liberalism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"CHI" = {
+			minor = yes
+			history = "CHI_TOTP_DESC"
+			ideology = authoritarianism
+			ideas = {
+				CHI_Legitimate_Government_of_China
+				CHI_Taiping_Memories
+				CHI_China_Violation
+			}
+			focuses = {
+
+			}
+		}
+		"JAP" = {
+			minor = yes
+			history = "JAP_TOTP_DESC"
+			ideology = conservatism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

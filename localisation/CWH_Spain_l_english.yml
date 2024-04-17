@@ -1,0 +1,20 @@
+﻿l_english:
+ 
+ SPR_centralism_party:0 "PCE"
+ SPR_centralism_party_long:0 "Partido Comunista de España"
+ SPR_socialism_party:0 "PSOE"
+ SPR_socialism_party_long:0 "Partido Socialista Obrero Español"
+ SPR_progressivism_party:0 "PRR"
+ SPR_progressivism_party_long:0 "Partido Republicano Radical"
+ SPR_liberalism_party:0 "PAE"
+ SPR_liberalism_party_long:0 "Partido Agrario Español"
+ SPR_conservatism_party:0 "RE"
+ SPR_conservatism_party_long:0 "Renovación Española"
+ SPR_republicanism_party:0 "PRR"
+ SPR_republicanism_party_long:0 "Partido Republicano Radical"
+ SPR_authoritarianism_party:0 "CEDA"
+ SPR_authoritarianism_party_long:0 "Confederación Española de Derechas Autónomas"
+ SPR_ultranationalism_party:0 "FE"
+ SPR_ultranationalism_party_long:0 "Falange Española"
+ 
+ 

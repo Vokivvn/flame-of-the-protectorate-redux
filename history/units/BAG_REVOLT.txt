@@ -1,0 +1,131 @@
+##Division Template##
+
+division_template = {
+	name = "Mujahideen Al-Fursan"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Mujahideen"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Al-Midfaeiat Al-Malakia"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+	}
+}
+
+
+##Units##
+
+units = {
+
+	division = {
+	name = "Mujahideen Al-Fursan"
+	location = "1631"
+	division_template = "Mujahideen Al-Fursan"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Mujahideen Al-Fursan"
+	location = "12413"
+	division_template = "Mujahideen Al-Fursan"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Mujahideen Al-Fursan"
+	location = "12372"
+	division_template = "Mujahideen Al-Fursan"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Mujahideen"
+	location = "1600"
+	division_template = "Mujahideen"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Mujahideen"
+	location = "10106"
+	division_template = "Mujahideen"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Mujahideen"
+	location = "8123"
+	division_template = "Mujahideen"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Mujahideen"
+	location = "10793"
+	division_template = "Mujahideen"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Al-Midfaeiat Al-Malakia"
+	location = "2097"
+	division_template = "Al-Midfaeiat Al-Malakia"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Mujahideen Al-Fursan"
+	location = "78"
+	division_template = "Mujahideen Al-Fursan"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Mujahideen Al-Fursan"
+	location = "10744"
+	division_template = "Mujahideen Al-Fursan"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Mujahideen"
+	location = "7994"
+	division_template = "Mujahideen"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Mujahideen"
+	location = "2004"
+	division_template = "Mujahideen"
+	start_experience_factor = 0.1
+	}
+}

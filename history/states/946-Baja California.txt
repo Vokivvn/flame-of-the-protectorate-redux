@@ -1,0 +1,20 @@
+state={
+	id=946
+	name="STATE_946"
+
+	state_category = rural
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		1892 1904 7964 8119 12461 12736 12859 13215 13216 
+	}
+	manpower=327182
+	buildings_max_level_factor=1.000
+}

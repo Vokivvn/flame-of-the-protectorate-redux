@@ -1,0 +1,29 @@
+state={
+	id=820
+	name="STATE_820"
+
+	history={
+		owner = PEA
+		add_core_of = PEA
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			191 1 
+		}
+		victory_points = {
+			1968 1
+		}
+		victory_points = {
+			1516 1
+		}
+	}
+
+	provinces={
+		4128 9986 1929 12907 12795 1968 1516 1817 4515 191 2024 7548 10025
+	}
+	manpower=2159300
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

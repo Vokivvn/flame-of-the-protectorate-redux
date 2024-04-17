@@ -1,0 +1,96 @@
+scripted_gui = {
+	germany_federalism = {
+		context_type = selected_state_context
+		
+		window_name = "germany_state_overview"
+		parent_window_token = selected_state_view 
+
+		visible = {
+			GER = {
+				owns_state = PREV
+			}
+		}
+		
+		triggers = {
+			GER_communism_state_visible = {
+				check_variable = { state_ideology = 1 }
+			}
+			
+			GER_socialism_state_visible = {
+				check_variable = { state_ideology = 2 }
+			}
+			
+			GER_progressive_state_visible = {
+				check_variable = { state_ideology = 3 }
+			}
+			
+			GER_liberalism_state_visible = {
+				check_variable = { state_ideology = 4 }
+			}
+			
+			GER_conservative_state_visible = {
+				check_variable = { state_ideology = 5 }
+			}
+			
+			GER_republican_state_visible = {
+				check_variable = { state_ideology = 6 }
+			}
+			
+			GER_authoritarian_state_visible = {
+				check_variable = { state_ideology = 7 }
+			}
+			
+			GER_ultranationalism_state_visible = {
+				check_variable = { state_ideology = 8 }
+			}
+			
+			GER_military_occupation_state_visible = {
+				check_variable = { state_ideology = 9 }
+			}
+			
+			GER_monarchy_state_visible = {
+				check_variable = { state_ideology = 10 }
+			}
+			
+			GER_communism_text_visible = {
+				check_variable = { state_ideology = 1 }
+			}
+			
+			GER_socialism_text_visible = {
+				check_variable = { state_ideology = 2 }
+			}
+			
+			GER_progressive_text_visible = {
+				check_variable = { state_ideology = 3 }
+			}
+			
+			GER_liberalism_text_visible = {
+				check_variable = { state_ideology = 4 }
+			}
+			
+			GER_conservative_text_visible = {
+				check_variable = { state_ideology = 5 }
+			}
+			
+			GER_republican_text_visible = {
+				check_variable = { state_ideology = 6 }
+			}
+			
+			GER_authoritarian_text_visible = {
+				check_variable = { state_ideology = 7 }
+			}
+			
+			GER_ultranationalism_text_visible = {
+				check_variable = { state_ideology = 8 }
+			}
+			
+			GER_military_occupation_text_visible = {
+				check_variable = { state_ideology = 9 }
+			}
+			
+			GER_monarchy_text_visible = {
+				check_variable = { state_ideology = 10 }
+			}
+		}
+	}
+}

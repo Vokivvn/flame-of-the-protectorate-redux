@@ -1,0 +1,30 @@
+﻿capital = 276
+
+set_research_slots = 3
+set_stability = 0.4
+set_war_support = 0.5
+set_convoys = 100
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	republicanism = 10
+	progressivism = 35
+	authoritarianism = 10
+	conservatism = 45
+}
+
+create_country_leader = {
+	name = "Richard Bennett"
+	desc = "POLITICS_Richard_Bennett_DESC"
+	picture = "Portrait_CAN_Richard_Bennett.dds"
+	expire = "1965.1.1"
+	ideology = conservatism_subtype
+	traits = {
+		
+	}
+}

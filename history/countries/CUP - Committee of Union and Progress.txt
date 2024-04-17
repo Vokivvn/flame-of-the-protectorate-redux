@@ -1,0 +1,32 @@
+﻿capital = 344
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = ultranationalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	centralism = 0
+	socialism = 0
+	progressivism = 0
+	liberalism = 0
+	conservatism = 11
+	republicanism = 13
+	authoritarianism = 16
+	ultranationalism = 60
+}
+
+
+create_country_leader = {
+	name = "Khalil Quds Pasha"
+	desc = "POLITICS_Khalil_Quds_DESC"
+	picture = "Leader_CUP_khalil_quds.dds"
+	expire = "1965.1.1"
+	ideology = Ultranationalism_subtype
+	traits = {
+		#
+	}
+}

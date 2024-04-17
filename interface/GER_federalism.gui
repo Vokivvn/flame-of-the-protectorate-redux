@@ -1,0 +1,190 @@
+guiTypes = {
+	containerWindowType = {
+		name = "germany_state_overview"
+		position = {x=382 y=87}
+		size = { width=780 height=496 }
+		
+		iconType={
+			name ="ideology_bg"
+			spriteType = "GFX_Ideology_Box_GUI"
+			position = {x=-327 y=117.5}
+		}
+		
+		instantTextboxType = {
+			name = "GER_communism_text"
+			position = {x=-329 y=120}
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "Centralist"
+			maxWidth = 95
+			maxHeight = 26
+			format = center
+		}
+		
+		instantTextboxType = {
+			name = "GER_socialism_text"
+			position = {x=-329 y=120}
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "Socialist"
+			maxWidth = 95
+			maxHeight = 26
+			format = center
+		}
+		
+		instantTextboxType = {
+			name = "GER_progressive_text"
+			position = {x=-329 y=120}
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "Progressive"
+			maxWidth = 95
+			maxHeight = 26
+			format = center
+		}
+		
+		instantTextboxType = {
+			name = "GER_liberalism_text"
+			position = {x=-329 y=120}
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "Liberal"
+			maxWidth = 95
+			maxHeight = 26
+			format = center
+		}
+		
+		instantTextboxType = {
+			name = "GER_conservative_text"
+			position = {x=-329 y=120}
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "Conservative"
+			maxWidth = 95
+			maxHeight = 26
+			format = center
+		}
+		
+		instantTextboxType = {
+			name = "GER_republican_text"
+			position = {x=-329 y=120}
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "Republican"
+			maxWidth = 95
+			maxHeight = 26
+			format = center
+		}
+		
+		instantTextboxType = {
+			name = "GER_authoritarian_text"
+			position = {x=-329 y=120}
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "Authoritarian"
+			maxWidth = 95
+			maxHeight = 26
+			format = center
+		}
+		
+		instantTextboxType = {
+			name = "GER_ultranationalism_text"
+			position = {x=-329 y=120}
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "Nationalist"
+			maxWidth = 95
+			maxHeight = 26
+			format = center
+		}
+		
+		instantTextboxType = {
+			name = "GER_military_occupation_text"
+			position = {x=-329 y=120}
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "Military Occ."
+			maxWidth = 95
+			maxHeight = 26
+			format = center
+		}
+		
+		instantTextboxType = {
+			name = "GER_monarchy_text"
+			position = {x=-329 y=120}
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "Monarchist"
+			maxWidth = 95
+			maxHeight = 26
+			format = center
+		}
+		
+		iconType={
+			name ="ideology_box"
+			spriteType = "GFX_3333_box"
+			position = {x=-361 y=114}
+		}
+		
+		iconType={
+			name ="GER_communism_state"
+			spriteType = "GFX_GGUI_Communist"
+			position = {x=-361 y=114}
+		}
+		
+		iconType={
+			name ="GER_socialism_state"
+			spriteType = "GFX_GGUI_Socialism"
+			position = {x=-361 y=114}
+		}
+		
+		iconType={
+			name ="GER_progressive_state"
+			spriteType = "GFX_GGUI_SocDem"
+			position = {x=-361 y=114}
+		}
+		
+		iconType={
+			name ="GER_liberalism_state"
+			spriteType = "GFX_GGUI_Liberalism"
+			position = {x=-361 y=114}
+		}
+		
+		iconType={
+			name ="GER_conservative_state"
+			spriteType = "GFX_GGUI_Conservative"
+			position = {x=-361 y=114}
+		}
+		
+		iconType={
+			name ="GER_republican_state"
+			spriteType = "GFX_GGUI_Republicanism"
+			position = {x=-361 y=114}
+		}
+		
+		iconType={
+			name ="GER_authoritarian_state"
+			spriteType = "GFX_GGUI_Auth"
+			position = {x=-361 y=114}
+		}
+		
+		iconType={
+			name ="GER_ultranationalism_state"
+			spriteType = "GFX_GGUI_UltNat"
+			position = {x=-361 y=114}
+		}
+		
+		iconType={
+			name ="GER_military_occupation_state"
+			spriteType = "GFX_GGUI_Military_Occupation"
+			position = {x=-361 y=114}
+		}
+		
+		iconType={
+			name ="GER_monarchy_state"
+			spriteType = "GFX_GGUI_Monarchy"
+			position = {x=-361 y=114}
+		}
+		
+	}
+}

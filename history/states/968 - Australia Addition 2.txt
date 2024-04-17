@@ -1,0 +1,20 @@
+state={
+	id=968
+	name="STATE_968"
+
+	state_category = town
+
+	history={
+		owner = WST
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = WST
+	}
+	
+	provinces={
+		10941 12949 5198 1557 12411 4560 7610 4632 10460 12424 10487 10475
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}

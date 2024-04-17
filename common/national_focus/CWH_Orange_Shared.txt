@@ -1,0 +1,842 @@
+shared_focus = {
+	id =  ORG_Suspend_the_Volksraad
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	
+	x = 5
+	y = 0
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Suspend_the_Volksraads"
+	}
+}
+
+shared_focus = {
+	id = ORG_Cement_the_Baasskap
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_Suspend_the_Volksraad
+	prerequisite = {
+		focus = ORG_Suspend_the_Volksraad
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Cement_the_Baasskap"
+	}
+}
+
+shared_focus = {
+	id = ORG_Attract_Boer_Immigration
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = -4
+	y = 1
+	relative_position_id = ORG_Cement_the_Baasskap
+	prerequisite = {
+		focus = ORG_Cement_the_Baasskap
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus Attract_Boer_Immigration"
+	}
+}
+
+shared_focus = {
+	id = ORG_Rebuild_the_Foreign_Ministry
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_Attract_Boer_Immigration
+	prerequisite = {
+		focus = ORG_Attract_Boer_Immigration
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Rebuild_the_Foreign_Ministry"
+	}
+}
+
+shared_focus = {
+	id = ORG_One_Volkstaat
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = -2
+	y = 1
+	relative_position_id = ORG_Rebuild_the_Foreign_Ministry
+	mutually_exclusive = {
+		focus = ORG_A_Temporary_Alliance
+	}	
+	prerequisite = {
+		focus = ORG_Rebuild_the_Foreign_Ministry
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_One_Volkstaat"
+	}
+}
+
+shared_focus = {
+	id = ORG_Invest_in_Borderlands
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_One_Volkstaat
+	prerequisite = {
+		focus = ORG_One_Volkstaat
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Invest_in_Borderlands"
+	}
+}
+
+shared_focus = {
+	id = ORG_Strongarm_the_Natlus_River_Colony
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_Invest_in_Borderlands
+	prerequisite = {
+		focus = ORG_Invest_in_Borderlands
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Strongarm_the_Natlus_River_Colony"
+	}
+}
+
+shared_focus = {
+	id = ORG_A_Temporary_Alliance
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_Rebuild_the_Foreign_Ministry
+	mutually_exclusive = {
+		focus = ORG_One_Volkstaat
+	}
+	prerequisite = {
+		focus = ORG_Rebuild_the_Foreign_Ministry
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_A_Temporary_Alliance"
+	}
+}
+
+shared_focus = {
+	id = ORG_A_Establish_Spheres_of_Influence
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 2
+	relative_position_id = ORG_A_Temporary_Alliance
+	prerequisite = {
+		focus = ORG_A_Temporary_Alliance
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_A_Establish_Spheres_of_Influence"
+	}
+}
+
+shared_focus = {
+	id = ORG_Strike_Griqualand
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = -1
+	y = 1
+	relative_position_id = ORG_A_Establish_Spheres_of_Influence
+	prerequisite = {
+		focus = ORG_A_Establish_Spheres_of_Influence
+		focus = ORG_Strongarm_the_Natlus_River_Colony
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Strike_Griqualand"
+	}
+}
+
+shared_focus = {
+	id = ORG_Arm_the_Guards
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_Cement_the_Baasskap
+	prerequisite = {
+		focus = ORG_Cement_the_Baasskap
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Arm_the_Guards"
+	}
+}
+
+shared_focus = {
+	id = ORG_Jobs_for_Settlers
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = -1
+	y = 1
+	relative_position_id = ORG_Arm_the_Guards
+	prerequisite = {
+		focus = ORG_Arm_the_Guards
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Jobs_for_Settlers"
+	}
+}
+
+shared_focus = {
+	id = ORG_Regional_Market_Dominance
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_Jobs_for_Settlers
+	prerequisite = {
+		focus = ORG_Jobs_for_Settlers
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Regional_Market_Dominance"
+	}
+}
+
+shared_focus = {
+	id = ORG_Jobs_for_Natives
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 1
+	y = 1
+	relative_position_id = ORG_Arm_the_Guards
+	prerequisite = {
+		focus = ORG_Arm_the_Guards
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Jobs_for_Natives"
+	}
+}
+
+shared_focus = {
+	id = ORG_Expand_Resource_Extraction
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_Jobs_for_Natives
+	prerequisite = {
+		focus = ORG_Jobs_for_Natives
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Expand_Resource_Extraction"
+	}
+}
+
+shared_focus = {
+	id = ORG_Redistricting
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = -1
+	y = 1
+	relative_position_id = ORG_Expand_Resource_Extraction
+	prerequisite = {
+		focus = ORG_Regional_Market_Dominance
+		focus = ORG_Expand_Resource_Extraction
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Expand_Resource_Extraction"
+	}
+}
+
+shared_focus = {
+	id = ORG_Unsuspend_the_Volksraad
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = -1
+	y = 1
+	relative_position_id = ORG_Redistricting
+	prerequisite = {
+		focus = ORG_Redistricting
+	}
+	mutually_exclusive = {
+		focus = ORG_Cult_of_Personality
+	}	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Unsuspend_the_Volksraad"
+	}
+}
+
+shared_focus = {
+	id = ORG_New_Farming_Standards
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_Unsuspend_the_Volksraad
+	prerequisite = {
+		focus = ORG_Unsuspend_the_Volksraad
+		focus = ORG_Cult_of_Personality
+	}
+	mutually_exclusive = {
+		focus = ORG_Expropriate_Native_Lands
+	}	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_New_Farming_Standards"
+	}
+}
+
+shared_focus = {
+	id = ORG_The_Smuts_Model
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_New_Farming_Standards
+	prerequisite = {
+		focus = ORG_New_Farming_Standards
+		focus = ORG_Expropriate_Native_Lands
+	}
+	mutually_exclusive = {
+		focus = ORG_Native_Reserves
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_The_Smuts_Model"
+	}
+}
+
+shared_focus = {
+	id = ORG_Cult_of_Personality
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 1
+	y = 1
+	relative_position_id = ORG_Redistricting
+	prerequisite = {
+		focus = ORG_Redistricting
+	}
+	mutually_exclusive = {
+		focus = ORG_Unsuspend_the_Volksraad
+	}	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Cult_of_Personality"
+	}
+}
+
+shared_focus = {
+	id = ORG_Expropriate_Native_Lands
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_Cult_of_Personality
+	mutually_exclusive = {
+		focus = ORG_New_Farming_Standards
+	}		
+	prerequisite = {
+		focus = ORG_Cult_of_Personality
+		focus = ORG_New_Farming_Standards
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Expropriate_Native_Lands"
+	}
+}
+
+shared_focus = {
+	id = ORG_Native_Reserves
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_Expropriate_Native_Lands
+	mutually_exclusive = {
+		focus = ORG_The_Smuts_Model
+	}
+	prerequisite = {
+		focus = ORG_Expropriate_Native_Lands
+		focus = ORG_New_Farming_Standards
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Native_Reserves"
+	}
+}
+
+shared_focus = {
+	id = ORG_Reign_of_Terror
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = -1
+	y = 1
+	relative_position_id = ORG_Native_Reserves
+	prerequisite = {
+		focus = ORG_Native_Reserves
+		focus = ORG_The_Smuts_Model
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Reign_of_Terror"
+	}
+}
+
+shared_focus = {
+	id = ORG_The_Cape_Question
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_Reign_of_Terror
+	prerequisite = {
+		focus = ORG_Reign_of_Terror
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_The_Cape_Question"
+	}
+}
+
+shared_focus = {
+	id = ORG_The_Duquesne_Spy_Ring
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 4
+	y = 1
+	relative_position_id = ORG_Cement_the_Baasskap
+	prerequisite = {
+		focus = ORG_Cement_the_Baasskap
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_The_Duquesne_Spy_Ring"
+	}
+}
+shared_focus = {
+	id = ORG_Contact_the_Longist_Government
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_The_Duquesne_Spy_Ring
+	prerequisite = {
+		focus = ORG_The_Duquesne_Spy_Ring
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Contact_the_Longist_Government"
+	}
+}
+
+shared_focus = {
+	id = ORG_Contact_the_British_Cape
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 2
+	y = 1
+	relative_position_id = ORG_The_Duquesne_Spy_Ring
+	prerequisite = {
+		focus = ORG_The_Duquesne_Spy_Ring
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Contact_the_Cape_Government"
+	}
+}
+
+shared_focus = {
+	id = ORG_Exploit_Bechuanal_Instability
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_Contact_the_Longist_Government
+	prerequisite = {
+		focus = ORG_Contact_the_Longist_Government
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Exploit_Bechuanal_Instability"
+	}
+}
+
+shared_focus = {
+	id = ORG_Cut_Off_the_Northern_Colonies
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_Contact_the_British_Cape
+	prerequisite = {
+		focus = ORG_Contact_the_British_Cape
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Cut_Off_the_Northern_Colonies"
+	}
+}
+
+shared_focus = {
+	id = ORG_Stage_Regional_Uproar
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = -1
+	y = 1
+	relative_position_id = ORG_Cut_Off_the_Northern_Colonies
+	prerequisite = {
+		focus = ORG_Cut_Off_the_Northern_Colonies
+	}
+	prerequisite = {
+		focus = ORG_Exploit_Bechuanal_Instability
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Cut_Off_the_Northern_Colonies"
+	}
+}
+
+shared_focus = {
+	id = ORG_Reroute_Supplies
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_Stage_Regional_Uproar
+	prerequisite = {
+		focus = ORG_Stage_Regional_Uproar
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Reroute_Supplies"
+	}
+}
+
+###Econ Shit
+
+shared_focus = {
+	id =  ORG_Purchase_the_Vooruitzicht_Farm
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	
+	x = 18
+	y = 0
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Purchase_the_Vooruitzicht_Farm"
+	}
+}
+
+shared_focus = {
+	id = ORG_University_of_the_Free_State
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = -2
+	y = 1
+	relative_position_id = ORG_Purchase_the_Vooruitzicht_Farm
+	prerequisite = {
+		focus = ORG_Purchase_the_Vooruitzicht_Farm
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_University_of_the_Free_State"
+	}
+}
+
+
+shared_focus = {
+	id = ORG_Collaborate_with_the_Broederbond
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_University_of_the_Free_State
+	prerequisite = {
+		focus = ORG_University_of_the_Free_State
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Collaborate_with_the_Broederbond"
+	}
+}
+
+shared_focus = {
+	id = ORG_Establish_the_Diamond_Standard
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_Purchase_the_Vooruitzicht_Farm
+	prerequisite = {
+		focus = ORG_Purchase_the_Vooruitzicht_Farm
+	}
+	mutually_exclusive = {
+		focus = ORG_Diamond_Military_Industry_Complex
+	}	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Establish_the_Diamond_Standard"
+	}
+}
+
+shared_focus = {
+	id = ORG_Organize_the_De_Beers_Group
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_Establish_the_Diamond_Standard
+	prerequisite = {
+		focus = ORG_Establish_the_Diamond_Standard
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Organize_the_De_Beers_Group"
+	}
+}
+
+shared_focus = {
+	id = ORG_Secure_Foreign_Investments
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_Organize_the_De_Beers_Group
+	prerequisite = {
+		focus = ORG_Organize_the_De_Beers_Group
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Secure_Foreign_Investments"
+	}
+}
+
+shared_focus = {
+	id = ORG_Fight_for_the_Wedding_Ring
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_Secure_Foreign_Investments
+	prerequisite = {
+		focus = ORG_Secure_Foreign_Investments
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Fight_for_the_Wedding_Ring"
+	}
+}
+
+shared_focus = {
+	id = ORG_Diamond_Military_Industry_Complex
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 3
+	y = 1
+	relative_position_id = ORG_Purchase_the_Vooruitzicht_Farm
+	prerequisite = {
+		focus = ORG_Purchase_the_Vooruitzicht_Farm
+	}
+	mutually_exclusive = {
+		focus = ORG_Establish_the_Diamond_Standard
+	}
+	mutually_exclusive = {
+		focus = ORG_Reinforce_the_Kommandos
+	}	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Militarized_Economy"
+	}
+}
+
+shared_focus = {
+	id = ORG_Fortify_Kimberley
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_Diamond_Military_Industry_Complex
+	prerequisite = {
+		focus = ORG_Diamond_Military_Industry_Complex
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Fortify_Kimberley"
+	}
+}
+
+shared_focus = {
+	id = ORG_Invite_the_Uitlanders
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_Fortify_Kimberley
+	prerequisite = {
+		focus = ORG_Fortify_Kimberley
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Invite_the_Uitlanders"
+	}
+}
+
+shared_focus = {
+	id = ORG_Purchase_License_for_the_Mauser
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_Invite_the_Uitlanders
+	prerequisite = {
+		focus = ORG_Invite_the_Uitlanders
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Invite_the_Uitlanders"
+	}
+}
+
+shared_focus = {
+	id =  ORG_New_Military_Staff
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	
+	x = 27
+	y = 0
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_New_Military_Staff"
+	}
+}
+
+shared_focus = {
+	id =  ORG_Reinforce_the_Kommandos
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = -3
+	y = 1
+	relative_position_id = ORG_New_Military_Staff
+	prerequisite = {
+		focus = ORG_New_Military_Staff
+	}
+	mutually_exclusive = {
+		focus = ORG_Diamond_Military_Industry_Complex
+	}
+	mutually_exclusive = {
+		focus = ORG_Integrate_the_Kommandos
+	}	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Reinforce_the_Kommandos"
+	}
+}
+
+shared_focus = {
+	id =  ORG_Reestablish_Commando_Laws
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_Reinforce_the_Kommandos
+	prerequisite = {
+		focus = ORG_Reinforce_the_Kommandos
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Reestablish_Commando_Laws"
+	}
+}
+
+shared_focus = {
+	id =  ORG_Auxiliary_Positions
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_Reestablish_Commando_Laws
+	prerequisite = {
+		focus = ORG_Reestablish_Commando_Laws
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Auxiliary_Positions"
+	}
+}
+
+shared_focus = {
+	id =  ORG_Community_Target_Shooting
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_Auxiliary_Positions
+	prerequisite = {
+		focus = ORG_Auxiliary_Positions
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Auxiliary_Positions"
+	}
+}
+
+shared_focus = {
+	id =  ORG_Integrate_the_Kommandos
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_New_Military_Staff
+	prerequisite = {
+		focus = ORG_New_Military_Staff
+	}
+	mutually_exclusive = {
+		focus = ORG_Reinforce_the_Kommandos
+	}	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Integrate_the_Kommandos"
+	}
+}
+
+shared_focus = {
+	id =  ORG_Payments_to_Military_Staff
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_Integrate_the_Kommandos
+	prerequisite = {
+		focus = ORG_Integrate_the_Kommandos
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Payments_to_Military_Staff"
+	}
+}
+
+shared_focus = {
+	id =  ORG_New_Training_Methods
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_Payments_to_Military_Staff
+	prerequisite = {
+		focus = ORG_Payments_to_Military_Staff
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_New_Training_Methods"
+	}
+}
+
+shared_focus = {
+	id =  ORG_Military_Colleges
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_New_Training_Methods
+	prerequisite = {
+		focus = ORG_New_Training_Methods
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Military_Colleges"
+	}
+}
+
+shared_focus = {
+	id =  ORG_Purchase_Weapons
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 2
+	y = 1
+	relative_position_id = ORG_New_Military_Staff
+	prerequisite = {
+		focus = ORG_New_Military_Staff
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Purchase_Weapons"
+	}
+}
+
+shared_focus = {
+	id =  ORG_Repurpose_Airplanes
+	icon = GFX_ENG_Neville_Chamberlain
+	cost = 4.00
+	x = 0
+	y = 1
+	relative_position_id = ORG_Purchase_Weapons
+	prerequisite = {
+		focus = ORG_Purchase_Weapons
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ORG_Repurpose_Airplanes"
+	}
+}

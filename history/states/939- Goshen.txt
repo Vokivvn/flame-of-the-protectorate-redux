@@ -1,0 +1,20 @@
+state={
+	id=939
+	name="STATE_939"
+	manpower = 24000
+	
+	state_category = rural
+
+	history={
+		add_core_of = BOT
+		owner = BOT
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			13288 1
+		}
+	}
+	
+	provinces={ 13288 }
+}

@@ -1,0 +1,66 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			POL = {
+				set_province_controller = 513
+				set_province_controller = 3256
+				set_province_controller = 3281
+				set_province_controller = 6460
+				set_province_controller = 6483
+				set_province_controller = 9274
+				set_province_controller = 9295
+				set_province_controller = 9425
+				set_province_controller = 9454
+				set_province_controller = 9558
+				set_province_controller = 11247
+				load_oob = "POL_1936"
+			}
+			LIT = {
+				set_province_controller = 279
+				set_province_controller = 560
+				set_province_controller = 3324
+				set_province_controller = 3496
+				set_province_controller = 3497
+				set_province_controller = 6416
+				set_province_controller = 6520
+				set_province_controller = 9493
+				set_province_controller = 9554
+				set_province_controller = 11430
+				set_province_controller = 11503
+				load_oob = "LIT_1936"
+			}
+			BLR = {
+				set_province_controller = 215
+				set_province_controller = 318
+				set_province_controller = 347
+				set_province_controller = 400
+				set_province_controller = 3203
+				set_province_controller = 3254
+				set_province_controller = 3507
+				set_province_controller = 9249
+				set_province_controller = 11274
+				set_province_controller = 11301
+				set_province_controller = 11329
+				set_province_controller = 13206
+				load_oob = "BLR_1936"
+			}
+			UKR = {
+				load_oob = "UKR_1936"
+			}
+			UKN = {
+				set_province_controller = 417
+				set_province_controller = 442
+				set_province_controller = 504
+				set_province_controller = 550
+				set_province_controller = 3410
+				set_province_controller = 3543
+				set_province_controller = 6429
+				set_province_controller = 6497
+				set_province_controller = 11398
+				set_province_controller = 11490
+				set_province_controller = 11514
+				load_oob = "UKN_1936"
+			}
+		}
+	}
+}

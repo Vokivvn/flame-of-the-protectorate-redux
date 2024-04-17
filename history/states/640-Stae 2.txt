@@ -1,0 +1,26 @@
+
+state={
+	id=640
+	name="STATE_640"
+
+	history={
+		owner = FEI
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+		}
+		victory_points = {
+			1492 1 
+		}
+		victory_points = {
+			4425 1 
+		}
+	}
+
+	provinces={
+		1492 4202 7034 7469 10386 10486 12335 12404 12449 12464 12492 
+	}
+	manpower=3944600
+	buildings_max_level_factor=1.000
+	state_category=town
+}

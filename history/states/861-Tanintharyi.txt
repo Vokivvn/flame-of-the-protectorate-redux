@@ -1,0 +1,15 @@
+state={
+	id=861
+	name="STATE_861"
+	provinces={
+		1315 1403 4408 7295 12125 12238 
+	}
+	history={
+		owner = USA
+		add_core_of = SIA
+		add_core_of = BRM
+	}
+	manpower=573831
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

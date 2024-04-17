@@ -1,0 +1,37 @@
+defined_text = {
+	name = CHI_national_assembly_favors
+	text = {
+		trigger = {
+			check_variable = { chi_shuzheng_power > chi_kewen_power }
+		}
+		localization_key = CHI_shuzheng_favored
+	}
+	text = {
+		trigger = {
+			check_variable = { chi_shuzheng_power < chi_kewen_power }
+		}
+		localization_key = CHI_kewen_favored
+	}
+}
+
+defined_text = {
+	name = CHI_eduard_secret_death
+	text = {
+		trigger = {
+			CHI = {
+				has_country_flag = CHI_kou_died
+			}
+		}
+		localization_key = CHI_kou_dead
+	}
+	text = {
+		trigger = {
+			NOT = {
+				CHI = {
+					has_country_flag = CHI_kou_died
+				}
+			}
+		}
+		localization_key = CHI_elections_have_occured
+	}
+}

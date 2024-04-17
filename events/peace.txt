@@ -1,0 +1,2999 @@
+﻿add_namespace = peace
+
+country_event = { # France
+	id = peace.1
+	title = peace.1.t
+	desc = peace.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = peace.1.a
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 29
+				}
+			}
+			FRA = {
+				transfer_state = 29
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 785
+				}
+			}
+			FRA = {
+				transfer_state = 785
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 18
+				}
+			}
+			FRA = {
+				transfer_state = 18
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 17
+				}
+			}
+			FRA = {
+				transfer_state = 17
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 20
+				}
+			}
+			FRA = {
+				transfer_state = 20
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 32
+				}
+			}
+			FRA = {
+				transfer_state = 32
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 833
+				}
+			}
+			FRA = {
+				transfer_state = 833
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 21
+				}
+			}
+			FRA = {
+				transfer_state = 21
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 22
+				}
+			}
+			FRA = {
+				transfer_state = 22
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 31
+				}
+			}
+			FRA = {
+				transfer_state = 31
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 19
+				}
+			}
+			FRA = {
+				transfer_state = 19
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 23
+				}
+			}
+			FRA = {
+				transfer_state = 23
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 30
+				}
+			}
+			FRA = {
+				transfer_state = 30
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 14
+				}
+			}
+			FRA = {
+				transfer_state = 14
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 15
+				}
+			}
+			FRA = {
+				transfer_state = 15
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 16
+				}
+			}
+			FRA = {
+				transfer_state = 16
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 845
+				}
+			}
+			puppet = FRA
+			FRA = {
+				transfer_state = 845
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 27
+				}
+			}
+			FRA = {
+				transfer_state = 27
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 26
+				}
+			}
+			FRA = {
+				transfer_state = 26
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 33
+				}
+			}
+			FRA = {
+				transfer_state = 33
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 25
+				}
+			}
+			FRA = {
+				transfer_state = 25
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 24
+				}
+			}
+			FRA = {
+				transfer_state = 24
+			}
+		}
+					
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 51
+				}
+				NOT = {
+					51 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					51 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			FRA = {
+				transfer_state = 51
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 42
+				}
+				NOT = {
+					42 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					42 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			FRA = {
+				transfer_state = 42
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 832
+				}
+				NOT = {
+					832 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					832 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			FRA = {
+				transfer_state = 832
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 843
+				}
+				NOT = {
+					843 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					843 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			FRA = {
+				transfer_state = 843
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 28
+				}
+				NOT = {
+					28 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					28 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			FRA = {
+				transfer_state = 28
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 1
+				}
+				NOT = {
+					1 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					1 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			FRA = {
+				transfer_state = 1
+			}
+		}
+	}
+	
+	option = { #Annexation
+		name = peace.1.b
+		
+	}
+}
+
+country_event = { # Britain
+	id = peace.2
+	title = peace.2.t
+	desc = peace.2.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = peace.2.a
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 126
+				}
+			}
+			puppet = ENG
+			ENG = {
+				transfer_state = 126
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 127
+				}
+			}
+			ENG = {
+				transfer_state = 127
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 123
+				}
+			}
+			ENG = {
+				transfer_state = 123
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 338
+				}
+			}
+			ENG = {
+				transfer_state = 338
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 125
+				}
+			}
+			ENG = {
+				transfer_state = 125
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 129
+				}
+			}
+			ENG = {
+				transfer_state = 129
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 128
+				}
+			}
+			ENG = {
+				transfer_state = 128
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 130
+				}
+			}
+			ENG = {
+				transfer_state = 130
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 132
+				}
+			}
+			ENG = {
+				transfer_state = 132
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 131
+				}
+			}
+			ENG = {
+				transfer_state = 131
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 122
+				}
+			}
+			ENG = {
+				transfer_state = 122
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 121
+				}
+			}
+			ENG = {
+				transfer_state = 121
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 133
+				}
+			}
+			ENG = {
+				transfer_state = 133
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 120
+				}
+			}
+			ENG = {
+				transfer_state = 120
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 136
+				}
+			}
+			ENG = {
+				transfer_state = 136
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 119
+				}
+			}
+			ENG = {
+				transfer_state = 119
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 134
+				}
+			}
+			ENG = {
+				transfer_state = 134
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 113
+				}
+			}
+			ENG = {
+				transfer_state = 113
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 135
+				}
+			}
+			ENG = {
+				transfer_state = 135
+			}
+		}
+	}
+	
+	option = { #Free The Celts
+		name = peace.2.b
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 126
+				}
+			}
+			puppet = ENG
+			ENG = {
+				transfer_state = 126
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 127
+				}
+			}
+			ENG = {
+				transfer_state = 127
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 123
+				}
+			}
+			ENG = {
+				transfer_state = 123
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 338
+				}
+			}
+			ENG = {
+				transfer_state = 338
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 125
+				}
+			}
+			ENG = {
+				transfer_state = 125
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 129
+				}
+			}
+			ENG = {
+				transfer_state = 129
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 128
+				}
+			}
+			ENG = {
+				transfer_state = 128
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 130
+				}
+			}
+			ENG = {
+				transfer_state = 130
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 132
+				}
+			}
+			ENG = {
+				transfer_state = 132
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 131
+				}
+			}
+			ENG = {
+				transfer_state = 131
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 122
+				}
+			}
+			puppet = WLS
+			WLS = {
+				transfer_state = 122
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 970
+				}
+			}
+			WLS = {
+				transfer_state = 970
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 969
+				}
+			}
+			WLS = {
+				transfer_state = 969
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 971
+				}
+			}
+			WLS = {
+				transfer_state = 971
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 121
+				}
+			}
+			puppet = SCO
+			SCO = {
+				transfer_state = 121
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 133
+				}
+			}
+			SCO = {
+				transfer_state = 133
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 120
+				}
+			}
+			SCO = {
+				transfer_state = 120
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 136
+				}
+			}
+			SCO = {
+				transfer_state = 136
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 973
+				}
+			}
+			SCO = {
+				transfer_state = 973
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 972
+				}
+			}
+			SCO = {
+				transfer_state = 972
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 119
+				}
+			}
+			puppet = IRE
+			IRE = {
+				transfer_state = 119
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 134
+				}
+			}
+			IRE = {
+				transfer_state = 134
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 113
+				}
+			}
+			IRE = {
+				transfer_state = 113
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 135
+				}
+			}
+			IRE = {
+				transfer_state = 135
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 974
+				}
+			}
+			IRE = {
+				transfer_state = 974
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 975
+				}
+			}
+			IRE = {
+				transfer_state = 975
+			}
+		}
+	}
+	
+	option = { #Annexation
+		name = peace.2.c
+		
+	}
+}
+
+country_event = { # Italy
+	id = peace.3
+	title = peace.3.t
+	desc = peace.3.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = peace.3.a
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 2
+				}
+			}
+			puppet = ITA
+			ITA = {
+				transfer_state = 2
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 159
+				}
+			}
+			ITA = {
+				transfer_state = 159
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 161
+				}
+			}
+			ITA = {
+				transfer_state = 161
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 791
+				}
+			}
+			ITA = {
+				transfer_state = 791
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 162
+				}
+			}
+			ITA = {
+				transfer_state = 162
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 157
+				}
+			}
+			ITA = {
+				transfer_state = 157
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 792
+				}
+			}
+			ITA = {
+				transfer_state = 792
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 117
+				}
+			}
+			ITA = {
+				transfer_state = 117
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 156
+				}
+			}
+			ITA = {
+				transfer_state = 156
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 115
+				}
+			}
+			ITA = {
+				transfer_state = 115
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 735
+				}
+				NOT = {
+					735 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					735 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			ITA = {
+				transfer_state = 735
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 834
+				}
+				NOT = {
+					834 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					834 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			ITA = {
+				transfer_state = 834
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 158
+				}
+				NOT = {
+					158 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					158 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			ITA = {
+				transfer_state = 158
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 114
+				}
+				NOT = {
+					114 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					114 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			ITA = {
+				transfer_state = 114
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 163
+				}
+				NOT = {
+					163 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					163 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			ITA = {
+				transfer_state = 163
+			}
+		}
+	}
+	
+	option = { #Annexation
+		name = peace.3.b
+		
+	}
+}
+
+country_event = { # Austria
+	id = peace.4
+	title = peace.4.t
+	desc = peace.4.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = peace.4.a
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 4
+				}
+			}
+			puppet = AUS
+			AUS = {
+				transfer_state = 4
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 152
+				}
+			}
+			AUS = {
+				transfer_state = 152
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 153
+				}
+			}
+			AUS = {
+				transfer_state = 153
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 39
+				}
+			}
+			AUS = {
+				transfer_state = 39
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 102
+				}
+			}
+			AUS = {
+				transfer_state = 102
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 69
+				}
+			}
+			AUS = {
+				transfer_state = 69
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 74
+				}
+			}
+			AUS = {
+				transfer_state = 74
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 9
+				}
+			}
+			AUS = {
+				transfer_state = 9
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 75
+				}
+			}
+			AUS = {
+				transfer_state = 75
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 846
+				}
+				NOT = {
+					846 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					846 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			AUS = {
+				transfer_state = 846
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 160
+				}
+				NOT = {
+					160 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					160 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			AUS = {
+				transfer_state = 160
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 736
+				}
+				NOT = {
+					736 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					736 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			AUS = {
+				transfer_state = 736
+			}
+		}
+	}
+	
+	option = { #Release Bohemia
+		name = peace.4.b
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 4
+				}
+			}
+			puppet = AUS
+			AUS = {
+				transfer_state = 4
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 152
+				}
+			}
+			AUS = {
+				transfer_state = 152
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 153
+				}
+			}
+			AUS = {
+				transfer_state = 153
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 39
+				}
+			}
+			AUS = {
+				transfer_state = 39
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 102
+				}
+			}
+			AUS = {
+				transfer_state = 102
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 846
+				}
+				NOT = {
+					846 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					846 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			AUS = {
+				transfer_state = 846
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 160
+				}
+				NOT = {
+					160 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					160 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			AUS = {
+				transfer_state = 160
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 736
+				}
+				NOT = {
+					736 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					736 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			AUS = {
+				transfer_state = 736
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 69
+				}
+			}
+			CZE = {
+				transfer_state = 69
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 74
+				}
+			}
+			CZE = {
+				transfer_state = 74
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 9
+				}
+			}
+			puppet = CZE
+			CZE = {
+				transfer_state = 9
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 75
+				}
+			}
+			CZE = {
+				transfer_state = 75
+			}
+		}
+	}
+	
+	option = { #Annexation
+		name = peace.4.c
+		
+	}
+}
+
+country_event = { # Germany
+	id = peace.5
+	title = peace.5.t
+	desc = peace.5.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = peace.5.a
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 59
+				}
+			}
+			puppet = GER
+			GER = {
+				transfer_state = 59
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 56
+				}
+			}
+			GER = {
+				transfer_state = 56
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 57
+				}
+			}
+			GER = {
+				transfer_state = 57
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 55
+				}
+			}
+			GER = {
+				transfer_state = 55
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 50
+				}
+			}
+			GER = {
+				transfer_state = 50
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 52
+				}
+			}
+			GER = {
+				transfer_state = 52
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 53
+				}
+			}
+			GER = {
+				transfer_state = 53
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 54
+				}
+			}
+			GER = {
+				transfer_state = 54
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 60
+				}
+			}
+			GER = {
+				transfer_state = 60
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 65
+				}
+			}
+			GER = {
+				transfer_state = 65
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 64
+				}
+			}
+			GER = {
+				transfer_state = 64
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 61
+				}
+			}
+			GER = {
+				transfer_state = 61
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 62
+				}
+			}
+			GER = {
+				transfer_state = 62
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 63
+				}
+			}
+			GER = {
+				transfer_state = 63
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 68
+				}
+			}
+			GER = {
+				transfer_state = 68
+			}
+		}
+	}
+	
+	option = { #Annexation
+		name = peace.5.b
+		
+	}
+}
+
+country_event = { # USA
+	id = peace.6
+	title = peace.6.t
+	desc = peace.6.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = peace.6.a
+		
+	}
+	
+	option = { #Annexation
+		name = peace.6.b
+		
+	}
+}
+
+country_event = { # Russia
+	id = peace.7
+	title = peace.7.t
+	desc = peace.7.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = peace.7.a
+		
+	}
+	
+	option = { #Annexation
+		name = peace.7.b
+		
+	}
+}
+
+country_event = { # Croatia
+	id = peace.8
+	title = peace.8.t
+	desc = peace.8.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = peace.8.a
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 109
+				}
+				NOT = {
+					109 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					109 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			puppet = CRO
+			CRO = {
+				transfer_state = 109
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 103
+				}
+				NOT = {
+					103 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					103 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			CRO = {
+				transfer_state = 103
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 847
+				}
+				NOT = {
+					847 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					847 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			CRO = {
+				transfer_state = 847
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 104
+				}
+				NOT = {
+					104 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					104 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			CRO = {
+				transfer_state = 104
+			}
+		}
+	}
+	
+	option = { #Bosnia aswell
+		name = peace.8.b
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 109
+				}
+				NOT = {
+					109 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					109 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			puppet = CRO
+			CRO = {
+				transfer_state = 109
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 103
+				}
+				NOT = {
+					103 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					103 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			CRO = {
+				transfer_state = 103
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 847
+				}
+				NOT = {
+					847 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					847 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			CRO = {
+				transfer_state = 847
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 104
+				}
+				NOT = {
+					104 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					104 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			puppet = BOS
+			BOS = {
+				transfer_state = 104
+			}
+		}
+	}
+	
+	option = { #Annexation
+		name = peace.8.c
+		
+	}
+}
+
+country_event = { # pOLANDA
+	id = peace.9
+	title = peace.9.t
+	desc = peace.9.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = peace.9.a
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 10
+				}
+				NOT = {
+					10 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					10 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			puppet = POL
+			POL = {
+				transfer_state = 10
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 88
+				}
+				NOT = {
+					88 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					88 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 88
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 66
+				}
+				NOT = {
+					66 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					66 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 66
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 86
+				}
+				NOT = {
+					86 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					86 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 86
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 68
+				}
+				NOT = {
+					68 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					68 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 68
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 63
+				}
+				NOT = {
+					63 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					63 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 63
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 188
+				}
+				NOT = {
+					188 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					188 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 188
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 86
+				}
+				NOT = {
+					86 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					86 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 86
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 85
+				}
+				NOT = {
+					85 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					85 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 85
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 5
+				}
+				NOT = {
+					5 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					5 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 5
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 763
+				}
+				NOT = {
+					763 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					763 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 763
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 98
+				}
+				NOT = {
+					98 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					98 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 98
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 87
+				}
+				NOT = {
+					87 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					87 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 87
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 92
+				}
+				NOT = {
+					92 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					92 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 92
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 762
+				}
+				NOT = {
+					762 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					762 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 762
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 67
+				}
+				NOT = {
+					67 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					67 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 67
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 90
+				}
+				NOT = {
+					90 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					90 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 90
+			}
+		}
+	}
+	
+	option = { #Trotsky Poland
+		name = peace.9.b
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 88
+				}
+				NOT = {
+					88 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					88 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 88
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 10
+				}
+				NOT = {
+					10 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					10 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			puppet = POL
+			POL = {
+				transfer_state = 10
+				set_cosmetic_tag = POL_UKRP
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 66
+				}
+				NOT = {
+					66 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					66 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 66
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 86
+				}
+				NOT = {
+					86 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					86 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 86
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 68
+				}
+				NOT = {
+					68 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					68 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 68
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 63
+				}
+				NOT = {
+					63 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					63 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 63
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 188
+				}
+				NOT = {
+					188 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					188 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 188
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 86
+				}
+				NOT = {
+					86 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					86 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 86
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 85
+				}
+				NOT = {
+					85 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					85 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 85
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 5
+				}
+				NOT = {
+					5 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					5 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 5
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 763
+				}
+				NOT = {
+					763 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					763 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 763
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 98
+				}
+				NOT = {
+					98 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					98 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 98
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 87
+				}
+				NOT = {
+					87 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					87 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 87
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 92
+				}
+				NOT = {
+					92 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					92 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 92
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 762
+				}
+				NOT = {
+					762 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					762 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 762
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 67
+				}
+				NOT = {
+					67 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					67 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 67
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 90
+				}
+				NOT = {
+					90 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					90 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			POL = {
+				transfer_state = 90
+			}
+		}
+	}
+	
+	option = { #Annexation
+		name = peace.9.c
+		
+	}
+}
+
+country_event = { # Lithuania
+	id = peace.10
+	title = peace.10.t
+	desc = peace.10.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = peace.10.a
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 11
+				}
+				NOT = {
+					11 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					11 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			puppet = LIT
+			LIT = {
+				transfer_state = 11
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 190
+				}
+				NOT = {
+					190 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					190 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			LIT = {
+				transfer_state = 190
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 189
+				}
+				NOT = {
+					189 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					189 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			LIT = {
+				transfer_state = 189
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 96
+				}
+				NOT = {
+					96 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					96 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			LIT = {
+				transfer_state = 96
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 784
+				}
+				NOT = {
+					784 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					784 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			LIT = {
+				transfer_state = 784
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 837
+				}
+				NOT = {
+					837 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					837 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			LIT = {
+				transfer_state = 837
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 97
+				}
+				NOT = {
+					97 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					97 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			LIT = {
+				transfer_state = 97
+			}
+		}
+	}
+	
+	option = { #Trotsky LITHUANIA
+		name = peace.10.b
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 11
+				}
+				NOT = {
+					11 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					11 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			puppet = LIT
+			LIT = {
+				transfer_state = 11
+				set_cosmetic_tag = LIT_UKRP
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 190
+				}
+				NOT = {
+					190 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					190 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			LIT = {
+				transfer_state = 190
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 189
+				}
+				NOT = {
+					189 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					189 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			LIT = {
+				transfer_state = 189
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 96
+				}
+				NOT = {
+					96 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					96 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			LIT = {
+				transfer_state = 96
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 784
+				}
+				NOT = {
+					784 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					784 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			LIT = {
+				transfer_state = 784
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 837
+				}
+				NOT = {
+					837 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					837 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			LIT = {
+				transfer_state = 837
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 97
+				}
+				NOT = {
+					97 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					97 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			LIT = {
+				transfer_state = 97
+			}
+		}
+	}
+	
+	option = { #Annexation
+		name = peace.10.c
+		
+	}
+}
+
+country_event = { # Belarus
+	id = peace.11
+	title = peace.11.t
+	desc = peace.11.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = peace.11.a
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 206
+				}
+				NOT = {
+					206 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					206 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			puppet = BLR
+			BLR = {
+				transfer_state = 206
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 204
+				}
+				NOT = {
+					204 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					204 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			BLR = {
+				transfer_state = 204
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 95
+				}
+				NOT = {
+					95 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					95 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			BLR = {
+				transfer_state = 95
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 94
+				}
+				NOT = {
+					94 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					94 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			BLR = {
+				transfer_state = 94
+			}
+		}
+	}
+	
+	option = { #Trotsky LITHUANIA
+		name = peace.11.b
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 206
+				}
+				NOT = {
+					206 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					206 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			puppet = BLR
+			BLR = {
+				transfer_state = 206
+				set_cosmetic_tag = BLR_UKRP
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 204
+				}
+				NOT = {
+					204 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					204 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			BLR = {
+				transfer_state = 204
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 95
+				}
+				NOT = {
+					95 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					95 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			BLR = {
+				transfer_state = 95
+			}
+		}
+		
+		if = {
+			limit = {
+				FROM = {
+					owns_state = 94
+				}
+				NOT = {
+					94 = {
+						is_claimed_by = FROM
+					}
+				}
+				NOT = {
+					94 = {
+						is_core_of = FROM
+					}
+				}
+			}
+			BLR = {
+				transfer_state = 94
+			}
+		}
+	}
+	
+	option = { #Annexation
+		name = peace.11.c
+		
+	}
+}

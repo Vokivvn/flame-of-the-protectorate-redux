@@ -1,0 +1,21 @@
+state={ #Hardangervidda
+	id=849
+	name="STATE_849"
+	manpower = 1928
+	
+	state_category = wasteland
+	impassable = yes
+
+	history={
+		
+		owner = DEN
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = DEN
+	}
+
+	provinces={
+		102 3059 3093 3129 3180 6114 6136 6184 6204 6216 9032 9170 11101 11198
+	}
+}

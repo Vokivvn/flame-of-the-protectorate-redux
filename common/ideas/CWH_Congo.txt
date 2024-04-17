@@ -1,0 +1,32 @@
+ideas = {
+	country = {
+	
+		DCG_freistaat = {
+		
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				# resource efficiency
+			}
+		}
+		
+		DCG_amero_dutch_investment = {
+		
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				min_export = 0.05
+				drift_defence_factor = -0.05
+			}
+		}
+	}
+}

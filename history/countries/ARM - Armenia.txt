@@ -1,0 +1,32 @@
+﻿capital = 230
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = socialism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	centralism = 20
+	socialism = 33
+	progressivism = 17
+	liberalism = 12
+	conservatism = 10
+	republicanism = 8
+	authoritarianism = 0
+	ultranationalism = 0
+}
+
+create_country_leader = {
+	name = "Simon Vratsian"
+	desc = "POLITICS_Simon_Vratsian_DESC"
+	picture = "Leader_ARM_Simon_Vratsian.dds"
+	expire = "1965.1.1"
+	ideology = socialism_subtype
+	traits = {
+		#
+	}
+}
+

@@ -1,0 +1,135 @@
+﻿capital = 282
+
+set_stability = 0.30
+set_war_support = 0.50
+
+set_research_slots = 4
+set_fuel_ratio = 1.0
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	motorised_infantry = 1
+	marines  = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1
+	#basic_heavy_tank = 1  # PLACEHOLDER
+	#basic_medium_tank = 1 # PLACEHOLDER
+	cv_early_fighter = 1
+	cv_CAS1 = 1
+	cv_naval_bomber1 = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	early_bomber = 1
+	CAS1 = 1
+	
+	trench_warfare = 1
+	base_strike = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	fuel_refining = 1
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_heavy_battery = 1
+		basic_medium_battery = 1
+		improved_ship_torpedo_launcher = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		mtg_transport = 1
+		coastal_defense_ships = 1
+		basic_secondary_battery = 1
+		basic_depth_charges = 1
+		basic_cruiser_armor_scheme = 1
+		cruiser_submarines = 1
+	}
+	#set_naval_oob = "JAP_1936_naval"
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+		basic_battleship = 1
+		early_battlecruiser = 1
+		early_carrier = 1
+		basic_carrier = 1
+		transport = 1
+	}
+	#set_naval_oob = "JAP_1936_naval_legacy"
+}
+
+set_convoys = 400
+
+set_politics = {
+	ruling_party = liberalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	authoritarianism = 18
+	republicanism = 21
+	conservatism = 10
+	liberalism = 32
+	progressivism = 9
+	socialism = 10
+}
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = KOR
+		autonomous_state = autonomy_colonial_regime
+		freedom_level = 0.2
+	}
+	else = {
+		puppet = KOR
+	}
+}
+
+create_country_leader = {
+	name = "Hara Takashi"
+	desc = "POLITICS_Hara_Takashi_DESC"
+	picture = "Portrait_Japan_Hara_Takashi.dds"
+	expire = "1989.1.1"
+	ideology = social_liberalism
+	traits = {
+	}
+}
+
+add_ideas = {
+	JAP_The_Second_Sengoku
+	JAP_The_Satsuma_Succession
+	JAP_Political_Chaos
+}

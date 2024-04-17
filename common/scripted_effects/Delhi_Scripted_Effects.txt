@@ -1,0 +1,71 @@
+RAJ_weekly_support_down_5 = {
+	if = {
+		limit = {
+			has_country_flag = RAJ_Cabinet_Jawaharlal_Nehru
+		}
+		add_to_variable = {
+			var = RAJ_Jawaharlal_Nehru_Support
+			value = -0.05
+		}
+		clamp_variable = {
+			var = RAJ_Jawaharlal_Nehru_Support
+			min = 0
+			max = 1
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = RAJ_Cabinet_Vallabhbhai_Patel
+		}
+		add_to_variable = {
+			var = RAJ_Vallabhbhai_Patel_Support
+			value = -0.05
+		}
+		clamp_variable = {
+			var = RAJ_Vallabhbhai_Patel_Support
+			min = 0
+			max = 1
+		}
+	}
+	if = {
+		limit = {
+			has_country_flag = RAJ_Cabinet_Asaf_Ali
+		}
+		add_to_variable = {
+			var = RAJ_Asaf_Ali_Support
+			value = -0.05
+		}
+		clamp_variable = {
+			var = RAJ_Asaf_Ali_Support
+			min = 0
+			max = 1
+		}
+	}
+	custom_effect_tooltip = RAJ_cabinet_loss_5
+}
+
+RAJ_public_support_up_5 = {
+	add_to_variable = {
+		var = RAJ_Popular_Support
+		value = 0.05
+	}
+	clamp_variable = {
+		var = RAJ_Popular_Support
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = RAJ_public_support_up_5_tt
+}
+
+RAJ_public_support_up_10 = {
+	add_to_variable = {
+		var = RAJ_Popular_Support
+		value = 0.10
+	}
+	clamp_variable = {
+		var = RAJ_Popular_Support
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = RAJ_public_support_up_10_tt
+}

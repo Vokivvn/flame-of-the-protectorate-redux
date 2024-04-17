@@ -1,0 +1,11 @@
+ITA_army_rivalry = {
+	icon = usa_congress
+	picture = GFX_ITA_decisions_Italian_army
+	allowed = {
+		original_tag = ITA
+	}
+	visible_when_empty = yes
+	scripted_gui = army_people_gui	
+
+	priority = 85
+}

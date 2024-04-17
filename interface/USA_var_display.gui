@@ -1,0 +1,20 @@
+guiTypes = {
+	containerWindowType = {
+		name = "us_popularities_container"
+		position = { x = 430 y = 80 }
+
+		iconType ={
+			name ="us_pop_display_bg"
+			spriteType = "GFX_us_pop_display_bg"
+			position = { x= 0 y = 0 }
+		}
+
+		instantTextboxType = {
+			name = "US_popularity_display_textbox"
+			position = { x = 5 y = 5 }
+			text = "USA_pops_tooltip"
+			format = left
+			maxWidth = 180
+		}
+	}
+}

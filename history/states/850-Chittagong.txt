@@ -1,0 +1,15 @@
+
+state={
+	id=850
+	name="STATE_850"
+	provinces={
+		1142 7179 9991 11968 12010 
+	}
+	history={
+		owner = ENG
+		add_core_of = RAJ
+	}
+	manpower=2318291
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,44 @@
+﻿capital = 298
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	centralism = 0
+	socialism = 0
+	progressivism = 0
+	liberalism = 0
+	conservatism = 0
+	republicanism = 0
+	authoritarianism = 100
+	ultranationalism = 0
+}
+
+add_ideas = {
+	LIB_resource_deoposit_of_the_union
+}
+
+create_country_leader = {
+	name = "Henry Ford"
+	desc = "POLITICS_HENRY_FORD_DESC"
+	picture = "Leader_LIB_Henry_Ford.dds"
+	expire = "1965.1.1"
+	ideology = colonial_government
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Harvey Firestone"
+	desc = "POLITICS_HENRY_FORD_DESC"
+	picture = "Leader_LIB_Harvey_Firestone.dds"
+	expire = "1938.2.7"
+	ideology = colonial_government
+	traits = {
+		#
+	}
+}

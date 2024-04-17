@@ -1,0 +1,35 @@
+ideas = {
+	country = {
+		BRM_Dobama_Asiayone = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = ENG_the_protectorate
+
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.15
+			}
+		}
+		BRM_Bamar_Kingdom = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = ENG_the_protectorate
+
+			modifier = {
+				political_power_gain = -0.03
+			}
+		}
+		BRM_French_Lip_Service = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = ENG_the_protectorate
+
+			modifier = {
+				political_power_gain = 0.05
+			}
+		}
+	}
+}

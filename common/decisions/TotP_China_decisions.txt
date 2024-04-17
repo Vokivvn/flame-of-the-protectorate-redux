@@ -1,0 +1,91 @@
+CHI_political_machinations = {
+	CHI_shuzheng_normal_test = {
+		visible = {
+			tag = CHI
+		}
+		available = { always = yes }
+		fire_only_once = no
+		complete_effect = {
+			CHI_shuzheng_increase = yes
+		}
+	}
+	CHI_shuzheng_minor_test = {
+		visible = {
+			tag = CHI
+		}
+		available = { always = yes }
+		fire_only_once = no
+		complete_effect = {
+			CHI_shuzheng_minor_increase = yes
+		}
+	}
+	CHI_shuzheng_major_test = {
+		visible = {
+			tag = CHI
+		}
+		available = { always = yes }
+		fire_only_once = no
+		complete_effect = {
+			CHI_shuzheng_major_increase = yes
+		}
+	}
+	CHI_kewen_normal_test = {
+		visible = {
+			tag = CHI
+		}
+		available = { always = yes }
+		fire_only_once = no
+		complete_effect = {
+			CHI_kewen_increase = yes
+		}
+	}
+	CHI_kewen_minor_test = {
+		visible = {
+			tag = CHI
+		}
+		available = { always = yes }
+		fire_only_once = no
+		complete_effect = {
+			CHI_kewen_minor_increase = yes
+		}
+	}
+	CHI_kewen_major_test = {
+		visible = {
+			tag = CHI
+		}
+		available = { always = yes }
+		fire_only_once = no
+		complete_effect = {
+			CHI_kewen_major_increase = yes
+		}
+	}
+}
+
+CHI_government_health = {
+	CHI_poke = {
+		visible = {
+			tag = CHI
+		}
+		available = { always = yes }
+		fire_only_once = no
+		complete_effect = {
+			subtract_from_variable = { CHI_institutional_health = .10 }
+			CHI_recalculate_regime_stability = yes
+		}
+	}
+}
+
+CHI_debug = {
+	CHI_debug_spawn_shanghai_government = {
+		visible = {
+			tag = CHI
+		}
+		available = { always = yes }
+		fire_only_once = no
+		complete_effect = {
+			SCI = {
+				transfer_state = 728
+			}
+		}
+	}
+}

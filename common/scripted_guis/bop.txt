@@ -1,0 +1,17 @@
+scripted_gui = {
+
+	infamy_gui = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "infamy_hoi4"
+
+		visible = {
+			THIS = {
+				NOT = {
+					is_puppet = yes
+				}
+			}
+		}
+	}
+	
+}

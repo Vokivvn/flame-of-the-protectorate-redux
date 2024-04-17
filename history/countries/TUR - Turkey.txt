@@ -1,0 +1,112 @@
+﻿capital = 341
+load_focus_tree = TUR_starting_out
+set_variable = { country_infamy = 2 } 
+
+set_variable = { TUR_Republican_Strength = 0.74 }
+set_variable = { TUR_CUP_Strength = 0.64 } 
+
+set_variable = { TUR_Armenian_Strength = 0.82 }
+set_variable = { TUR_Kurdish_Strength = 0.68 } 
+set_variable = { TUR_Arab_Strength = 0.52 }
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = liberalism
+	last_election = "1935.2.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	liberalism = 18
+	republicanism = 26
+	ultranationalism = 22
+	conservatism = 12
+	progressivism = 8
+	authoritarianism = 10
+	socialism = 4
+}
+
+add_ideas = {
+	TUR_the_mejidian_restorations
+	TUR_the_house_of_osman
+	TUR_the_caliphate
+	TUR_the_divided_society
+}
+
+create_country_leader = {
+	name = "Abdulmejid II"
+	desc = "POLITICS_Abdulmejid_II_DESC"
+	picture = "Leader_TUR_Sultan_Abdulmejid_II.dds"
+	expire = "1965.1.1"
+	ideology = liberalism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Mustafa Kemal Pasha"
+	desc = "POLITICS_Mustafa_Kemal_DESC"
+	picture = "Leader_TUR_Mustafa_Kemal.dds"
+	expire = "1965.1.1"
+	ideology = republicanism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Khalil Quds Pasha"
+	desc = "POLITICS_Khalil_Quds_DESC"
+	picture = "Leader_TUR_Khalil_Quds.dds"
+	expire = "1965.1.1"
+	ideology = Ultranationalism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Prince Ibrahim Tevfik"
+	desc = "POLITICS_Ibrahim_Tevfik_II_DESC"
+	picture = "Leader_TUR_Sultan_Ibrahim_Tevfik_II.dds"
+	expire = "1965.1.1"
+	ideology = conservatism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Prince Ahmed Nihad"
+	desc = "POLITICS_Ahmed_Nihad_IV_DESC"
+	picture = "Leader_TUR_Sultan_Ahmed_Nihad_IV.dds"
+	expire = "1965.1.1"
+	ideology = progressivism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Prince Omer Farouk"
+	desc = "POLITICS_Omer_Farouk_I_DESC"
+	picture = "Leader_TUR_Sultan_Omer_Farouk_I.dds"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Huseyin Hilmi Bey"
+	desc = "POLITICS_Huseyin_Hilmi_DESC"
+	picture = "Leader_TUR_Huseyin_Hilmi.dds"
+	expire = "1965.1.1"
+	ideology = Socialism_subtype
+	traits = {
+		#
+	}
+}

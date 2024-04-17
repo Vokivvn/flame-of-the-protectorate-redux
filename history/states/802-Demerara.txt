@@ -1,0 +1,25 @@
+state={
+	id=802
+	name="STATE_802"
+	manpower = 210000
+	state_category = pastoral
+	resources={ aluminium=64 }
+
+	history={
+		owner = GYA
+		add_core_of = GYA
+		victory_points = {
+			4982 1
+		}
+		buildings = {
+			infrastructure = 2
+			4982 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={
+		4982 8107
+	}
+}

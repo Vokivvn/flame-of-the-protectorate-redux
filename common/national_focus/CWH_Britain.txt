@@ -1,0 +1,85 @@
+focus_tree = {
+	id = ENG_Starting_Out
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ENG
+		}
+	}
+	default = no
+	shared_focus = ENG_intro_chamberlains_last_year
+}
+
+focus_tree = {
+	id = ENG_old_Starting_Out
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ENG
+		}
+	}
+	default = no
+	shared_focus = ENG_chamberlains_last_year
+}
+
+###################################################################################
+##########	PRIME MINISTER INTIAIL TREES	#######################################
+#1.Stapledon
+#2.Samuel
+#3.Mosely
+#4.Eden
+
+
+focus_tree = {
+	id = ENG_Stapledon_initial_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ENG
+		}
+	}
+	default = no
+	shared_focus = ENG_revolution_by_ballot_box
+}
+
+#focus_tree = {
+#	id = ENG_Samuel_initial_tree
+#	country = {
+#		factor = 0
+#		modifier = {
+#			add = 10
+#			tag = ENG
+#		}
+#	}
+#	default = no
+#	shared_focus = ENG_revolution_by_ballot_box
+#}
+#
+#focus_tree = {
+#	id = ENG_Mosely_initial_tree
+#	country = {
+#		factor = 0
+#		modifier = {
+#			add = 10
+#			tag = ENG
+#		}
+#	}
+#	default = no
+#	shared_focus = ENG_revolution_by_ballot_box
+#}
+#
+#focus_tree = {
+#	id = ENG_Eden_initial_tree
+#	country = {
+#		factor = 0
+#		modifier = {
+#			add = 10
+#			tag = ENG
+#		}
+#	}
+#	default = no
+#	shared_focus = ENG_revolution_by_ballot_box
+#}

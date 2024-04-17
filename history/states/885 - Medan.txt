@@ -1,0 +1,26 @@
+state={
+	id=885
+	name="STATE_885"
+	manpower = 1918710
+	
+	state_category = town
+
+	history={
+		owner = DLI
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		add_core_of = DLI
+
+		victory_points = {
+			4652 1 
+		}	
+	}
+
+	provinces={
+		4652 7673 12302
+	}
+}

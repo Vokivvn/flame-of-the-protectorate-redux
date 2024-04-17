@@ -1,0 +1,82 @@
+﻿capital = 4
+
+set_variable = { country_infamy = 13 } 
+OOB = "AUS_1936"
+load_focus_tree = AUS_Intro
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_engineers = 1
+	tech_support = 1		
+	tech_mountaineers = 1
+	early_fighter = 1
+	gwtank = 1
+	basic_light_tank = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+}
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	socialism = 0
+	republicanism = 0
+	progressivism = 0
+	liberalism = 0
+	conservatism = 40
+	authoritarianism = 36
+	ultranationalism = 24
+}
+
+add_ideas = {
+	AUS_the_father_of_europe
+	AUS_the_nostalgic_empire
+	AUS_right_unity
+	AUS_the_time_for_liberation
+	# LAWS
+	mixed
+}
+
+set_stability = 0.50
+
+create_country_leader = {
+	name = "Franz Ferdinand I"
+	desc = "POLITICS_Franz_Ferdinand_DESC"
+	picture = "Leader_AUS_Franz_Ferdinand_of_Austria.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Adolf Hitler"
+	desc = "POLITICS_Adolf_Hitler_DESC"
+	picture = "Leader_AUS_Adolf_Hitler.dds"
+	expire = "1965.1.1"
+	ideology = ethnic_nationalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Engelbert Dollfuss"
+	desc = "POLITICS_Engelbert_Dollfuss_DESC"
+	picture = "Leader_AUS_Engelbert_Dollfuss.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}

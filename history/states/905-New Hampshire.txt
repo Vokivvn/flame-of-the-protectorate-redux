@@ -1,0 +1,20 @@
+state={
+	id=905
+	name="STATE_905"
+	provinces={
+		733 3712 3715 10481 
+	}
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = USA
+	}
+	
+	manpower=481000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

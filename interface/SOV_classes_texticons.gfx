@@ -1,0 +1,22 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_SOV_workers_texticon"
+		textureFile = "gfx/texticons/SOV_workers_texticon.txt"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_SOV_nobles_texticon"
+		textureFile = "gfx/texticons/SOV_nobles_texticon.txt"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_SOV_army_texticon"
+		textureFile = "gfx/texticons/SOV_army_texticon.txt"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_SOV_council_texticon"
+		textureFile = "gfx/texticons/SOV_council_texticon.txt"
+		legacy_lazy_load = no
+	}
+}

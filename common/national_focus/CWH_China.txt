@@ -1,0 +1,28 @@
+focus_tree = {
+	id = CHI_starting_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CHI
+		}
+	}
+	default = no
+	shared_focus = CHI_President_Koo
+	continuous_focus_position = { x = 50 y = 2000}
+}
+
+focus_tree = {
+	id = CHI_koo_is_dead
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CHI
+		}
+	}
+	default = no
+	shared_focus = CHI_President_Koo
+	shared_focus = CHI_the_headless_chicken
+	continuous_focus_position = { x = 50 y = 2000}
+}

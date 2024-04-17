@@ -1,0 +1,2905 @@
+shared_focus = {
+	id =  FRA_the_catalan_crisis
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 4
+	y = 0
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_the_catalan_crisis"
+		country_event = {
+			id = FRA.10
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_tolerate_the_socialists
+	icon = GFX_FRA_tolerate_the_socialists
+	cost = 4.00
+	
+	x = 3
+	y = 1
+	prerequisite = {
+		focus = FRA_the_catalan_crisis
+	}
+	mutually_exclusive = {
+		focus = FRA_solidify_the_grip
+	}
+	available = {
+		always = no
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_tolerate_the_socialists"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_remove_the_hawks
+	icon = GFX_FRA_remove_the_hawks
+	cost = 4.00
+	
+	x = 3
+	y = 2
+	prerequisite = {
+		focus = FRA_tolerate_the_socialists
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_remove_the_hawks"
+		add_popularity = {
+			ideology = republicanism
+			popularity = -0.05
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_extend_the_olive_branch
+	icon = GFX_FRA_extend_the_olive_branch
+	cost = 4.00
+	
+	x = 3
+	y = 3
+	prerequisite = {
+		focus = FRA_remove_the_hawks
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_extend_the_olive_branch"
+		CAT = {
+			country_event = {
+				id = FRA.11
+				days = 1
+			}
+		}
+		add_political_power = 35
+	}
+}
+
+shared_focus = {
+	id =  FRA_solidify_the_grip
+	icon = GFX_FRA_solidify_the_grip
+	cost = 4.00
+	
+	x = 5
+	y = 1
+	prerequisite = {
+		focus = FRA_the_catalan_crisis
+	}
+	mutually_exclusive = {
+		focus = FRA_tolerate_the_socialists
+	}
+	available = {
+		always = no
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_tolerate_the_socialists"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_call_upon_the_people
+	icon = GFX_FRA_call_upon_the_people
+	cost = 4.00
+	
+	x = 5
+	y = 2
+	prerequisite = {
+		focus = FRA_solidify_the_grip
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_call_upon_the_people"
+		add_manpower = 30000
+		army_experience = 5
+	}
+}
+
+shared_focus = {
+	id =  FRA_crush_the_reds
+	icon = GFX_FRA_crush_the_reds
+	cost = 4.00
+	
+	x = 5
+	y = 3
+	prerequisite = {
+		focus = FRA_call_upon_the_people
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_crush_the_reds"
+		hidden_effect = {
+			set_autonomy = {
+				target = CAT
+				autonomy_state = autonomy_free
+			}
+			CAT = {
+				leave_faction = yes
+			}
+		}
+		declare_war_on = {
+			target = CAT
+			type = topple_government
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_affairs_at_home
+	icon = GFX_FRA_affairs_at_home
+	cost = 4.00
+	
+	x = 4
+	y = 4
+	prerequisite = {
+		focus = FRA_extend_the_olive_branch
+		focus = FRA_crush_the_reds
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_affairs_at_home"
+		country_event = {
+			id = FRA.12
+			days = 1
+		}
+	}
+}
+shared_focus = {
+	id =  FRA_scare_the_spectre
+	icon = GFX_FRA_scare_the_spectre
+	cost = 4.00
+	
+	x = 0
+	y = 5
+	prerequisite = {
+		focus = FRA_affairs_at_home
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_scare_the_spectre"
+		country_event = {
+			id = FRA.13
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_supply_the_colonies
+	icon = GFX_FRA_aid_the_colonies
+	cost = 4.00
+	
+	x = 2
+	y = 5
+	prerequisite = {
+		focus = FRA_affairs_at_home
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_supply_the_colonies"
+		459 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_les_pied_noirs
+	icon = GFX_FRA_les_pied_noirs
+	cost = 4.00
+	
+	x = 4
+	y = 5
+	prerequisite = {
+		focus = FRA_affairs_at_home
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_les_pied_noirs"
+		459 = {
+			add_manpower = 4000
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_bolster_union_busters
+	icon = GFX_FRA_union_busters
+	cost = 4.00
+	
+	x = 6
+	y = 5
+	prerequisite = {
+		focus = FRA_affairs_at_home
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_bolster_union_busters"
+		add_timed_idea = {
+			idea = FRA_union_busters
+			days = 180
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_question_of_the_left
+	icon = GFX_FRA_question_of_the_left
+	cost = 4.00
+	
+	x = 8
+	y = 5
+	prerequisite = {
+		focus = FRA_affairs_at_home
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_question_of_the_left"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_the_campaign
+	icon = GFX_FRA_the_campaign
+	cost = 1.00
+	
+	x = 4
+	y = 6
+	prerequisite = {
+		focus = FRA_scare_the_spectre
+	}
+	prerequisite = {
+		focus = FRA_supply_the_colonies
+	}
+	prerequisite = {
+		focus = FRA_les_pied_noirs
+	}
+	prerequisite = {
+		focus = FRA_bolster_union_busters
+	}
+	prerequisite = {
+		focus = FRA_question_of_the_left
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_the_campaign"
+		country_event = {
+			id = FRA.4
+			days = 1
+		}
+	}
+}
+
+## de gaulle
+
+shared_focus = {
+	id =  FRA_the_expected_outcome
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 5
+	y = 0
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_the_expected_outcome"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_challenge_instability
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 3
+	y = 1
+	prerequisite = {
+		focus = FRA_the_expected_outcome
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_challenge_instability"
+		country_event = {
+			id = FRA.22
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_parliamentary_power
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 0
+	y = 2
+	prerequisite = {
+		focus = FRA_challenge_instability
+	}
+	mutually_exclusive = {
+		focus = FRA_the_french_identity
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_parliamentary_power"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_a_passionate_population
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 0
+	y = 3
+	prerequisite = {
+		focus = FRA_parliamentary_power
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_a_passionate_population"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_the_french_identity
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 2
+	y = 2
+	prerequisite = {
+		focus = FRA_challenge_instability
+	}
+	mutually_exclusive = {
+		focus = FRA_parliamentary_power
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_the_french_identity"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_the_french_abroad
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 2
+	y = 3
+	prerequisite = {
+		focus = FRA_the_french_identity
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_the_french_abroad"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_overshadow_the_left
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 1
+	y = 4
+	prerequisite = {
+		focus = FRA_the_french_abroad
+		focus = FRA_a_passionate_population
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_overshadow_the_left"
+		country_event = {
+			id = FRA.23
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_a_stronger_state
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 5
+	y = 1
+	prerequisite = {
+		focus = FRA_the_expected_outcome
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_a_stronger_state"
+		country_event = {
+			id = FRA.24
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_the_executives_say
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 4
+	y = 2
+	prerequisite = {
+		focus = FRA_a_stronger_state
+	}
+	mutually_exclusive = {
+		focus = FRA_military_control
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_the_executives_say"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_override_injustice
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 4
+	y = 3
+	prerequisite = {
+		focus = FRA_the_executives_say
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_override_injustice"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_military_control
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 6
+	y = 2
+	prerequisite = {
+		focus = FRA_a_stronger_state
+	}
+	mutually_exclusive = {
+		focus = FRA_the_executives_say
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_military_control"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_traditional_methods
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 6
+	y = 3
+	prerequisite = {
+		focus = FRA_military_control
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_traditional_methods"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_stability_within
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 5
+	y = 4
+	prerequisite = {
+		focus = FRA_override_injustice
+		focus = FRA_traditional_methods
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_stability_within"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_influence_of_france
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 7
+	y = 1
+	prerequisite = {
+		focus = FRA_the_expected_outcome
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_influence_of_france"
+		country_event = {
+			id = FRA.25
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_a_fond_face
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 8
+	y = 2
+	prerequisite = {
+		focus = FRA_influence_of_france
+	}
+	mutually_exclusive = {
+		focus = FRA_the_same_ol
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_a_fond_face"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_reconsilitation_with_spain
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 8
+	y = 3
+	prerequisite = {
+		focus = FRA_a_fond_face
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_reconsilitation_with_spain"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_the_same_ol
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 10
+	y = 2
+	prerequisite = {
+		focus = FRA_influence_of_france
+	}
+	mutually_exclusive = {
+		focus = FRA_a_fond_face
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_the_same_ol"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_squeeze_the_lowlands
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 10
+	y = 3
+	prerequisite = {
+		focus = FRA_the_same_ol
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_squeeze_the_lowlands"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_ideals_of_the_revolution
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 9
+	y = 4
+	prerequisite = {
+		focus = FRA_reconsilitation_with_spain
+		focus = FRA_squeeze_the_lowlands
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_ideals_of_the_revolution"
+		country_event = {
+			id = FRA.26
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_the_referendum
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 5
+	y = 5
+	prerequisite = {
+		focus = FRA_overshadow_the_left
+	}
+	prerequisite = {
+		focus = FRA_stability_within
+	}
+	prerequisite = {
+		focus = FRA_ideals_of_the_revolution
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_the_referendum"
+		country_event = {
+			id = FRA.27
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_the_third_french_republic
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 5
+	y = 6
+	prerequisite = {
+		focus = FRA_the_referendum
+	}
+	available = {
+		always = no
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_the_third_french_republic"
+	}
+}
+
+shared_focus = {
+	id =  FRA_digrisme
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 3
+	y = 7
+	prerequisite = {
+		focus = FRA_the_third_french_republic
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_digrisme"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_dismantle_monopolies
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 1
+	y = 8
+	prerequisite = {
+		focus = FRA_digrisme
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_dismantle_monopolies"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_support_the_people
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 3
+	y = 8
+	prerequisite = {
+		focus = FRA_digrisme
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_support_the_people"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_true_democracy
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 5
+	y = 7
+	prerequisite = {
+		focus = FRA_the_third_french_republic
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_true_democracy"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_unleash_the_parties
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 5
+	y = 8
+	prerequisite = {
+		focus = FRA_true_democracy
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_unleash_the_parties"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_appease_the_military
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 7
+	y = 7
+	prerequisite = {
+		focus = FRA_the_third_french_republic
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_appease_the_military"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_budget_boosts
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 7
+	y = 8
+	prerequisite = {
+		focus = FRA_appease_the_military
+	}
+	mutually_exclusive = {
+		focus = FRA_outnumber_the_old
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_budget_boosts"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_outnumber_the_old
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 9
+	y = 8
+	prerequisite = {
+		focus = FRA_appease_the_military
+	}
+	mutually_exclusive = {
+		focus = FRA_budget_boosts
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_outnumber_the_old"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_a_l_etranger
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 11
+	y = 6
+	prerequisite = {
+		focus = FRA_the_referendum
+	}
+	available = {
+		always = no
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_a_l_etranger"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_en_afrique
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 11
+	y = 7
+	prerequisite = {
+		focus = FRA_a_l_etranger
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_en_afrique"
+		country_event = {
+			id = FRA.30
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_push_for_local_autonomy
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 11
+	y = 8
+	prerequisite = {
+		focus = FRA_en_afrique
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_push_for_local_autonomy"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_discuss_the_leadership
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 11
+	y = 9
+	prerequisite = {
+		focus = FRA_push_for_local_autonomy
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_discuss_the_leadership"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_condemn_the_aggressive
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 13
+	y = 8
+	prerequisite = {
+		focus = FRA_en_afrique
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_condemn_the_aggressive"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_bring_forward_those_behind
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 13
+	y = 9
+	prerequisite = {
+		focus = FRA_condemn_the_aggressive
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_bring_forward_those_behind"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_model_colony
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 12
+	y = 10
+	prerequisite = {
+		focus = FRA_discuss_the_leadership
+	}
+	prerequisite = {
+		focus = FRA_bring_forward_those_behind
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_model_colony"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_en_asie
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 17
+	y = 7
+	prerequisite = {
+		focus = FRA_a_l_etranger
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_en_asie"
+		country_event = {
+			id = FRA.31
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_fortify_hang_kiang
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 15
+	y = 8
+	prerequisite = {
+		focus = FRA_en_asie
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_fortify_hang_kiang"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_build_up_burma
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 17
+	y = 8
+	prerequisite = {
+		focus = FRA_en_asie
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_build_up_burma"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_colonial_reforms
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 17
+	y = 10
+	prerequisite = {
+		focus = FRA_build_up_burma
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_colonial_reforms"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_dioplomatie_inde
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 18
+	y = 9
+	prerequisite = {
+		focus = FRA_en_asie
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_dioplomatie_inde"
+		country_event = {
+			id = FRA.32
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_appease_delhi
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 18
+	y = 11
+	prerequisite = {
+		focus = FRA_dioplomatie_inde
+	}
+	mutually_exclusive = {
+		focus = FRA_devolution_in_india
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_appease_delhi"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_devolution_in_india
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 20
+	y = 11
+	prerequisite = {
+		focus = FRA_dioplomatie_inde
+	}
+	mutually_exclusive = {
+		focus = FRA_appease_delhi
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_devolution_in_india"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_en_la_terre
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 24
+	y = 7
+	prerequisite = {
+		focus = FRA_a_l_etranger
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_en_la_terre"
+		country_event = {
+			id = FRA.33
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_our_support_in_italy
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 22
+	y = 8
+	prerequisite = {
+		focus = FRA_en_la_terre
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_our_support_in_italy"
+		ITA = {
+			add_political_power = 65
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_joint_patrols
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 22
+	y = 9
+	prerequisite = {
+		focus = FRA_our_support_in_italy
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_joint_patrols"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_expand_the_entente
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 24
+	y = 8
+	prerequisite = {
+		focus = FRA_en_la_terre
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_expand_the_entente"
+		country_event = {
+			id = FRA.34
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_invite_sweden
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 24
+	y = 9
+	prerequisite = {
+		focus = FRA_en_la_terre
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_invite_sweden"
+		country_event = {
+			id = FRA.35
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_invite_denmark
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 24
+	y = 10
+	prerequisite = {
+		focus = FRA_invite_sweden
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_invite_denmark"
+		country_event = {
+			id = FRA.36
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_invite_hungary
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 26
+	y = 9
+	prerequisite = {
+		focus = FRA_en_la_terre
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_invite_hungary"
+		country_event = {
+			id = FRA.37
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_ties_with_russia
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 26
+	y = 10
+	prerequisite = {
+		focus = FRA_invite_hungary
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_ties_with_russia"
+		country_event = {
+			id = FRA.38
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_entente_research_committee
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 25
+	y = 11
+	prerequisite = {
+		focus = FRA_ties_with_russia
+	}
+	prerequisite = {
+		focus = FRA_invite_denmark
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_entente_research_committee"
+		country_event = {
+			id = FRA.39
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_over_the_atlantic
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 28
+	y = 9
+	prerequisite = {
+		focus = FRA_en_la_terre
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_over_the_atlantic"
+		country_event = {
+			id = FRA.39
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_a_similar_cause
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 28
+	y = 10
+	prerequisite = {
+		focus = FRA_over_the_atlantic
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_a_similar_cause"
+		country_event = {
+			id = FRA.40
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_invite_the_managua_pact
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 28
+	y = 11
+	prerequisite = {
+		focus = FRA_a_similar_cause
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_invite_the_managua_pact"
+		country_event = {
+			id = FRA.41
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_ready_the_troops
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 30
+	y = 9
+	prerequisite = {
+		focus = FRA_en_la_terre
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_ready_the_troops"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_pacify_protestors
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 32
+	y = 9
+	prerequisite = {
+		focus = FRA_en_la_terre
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_pacify_protestors"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_meet_with_parliament
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 34
+	y = 9
+	prerequisite = {
+		focus = FRA_en_la_terre
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_meet_with_parliament"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_watch_on_the_rhein
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 30
+	y = 10
+	prerequisite = {
+		focus = FRA_ready_the_troops
+	}
+	prerequisite = {
+		focus = FRA_pacify_protestors
+	}
+	prerequisite = {
+		focus = FRA_meet_with_parliament
+	}
+	available = {
+		date < 1938.01.01
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_watch_on_the_rhein"
+		create_wargoal = {
+			type = annex_everything
+			target = GER
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_our_own_balance
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 32
+	y = 10
+	prerequisite = {
+		focus = FRA_ready_the_troops
+	}
+	prerequisite = {
+		focus = FRA_pacify_protestors
+	}
+	prerequisite = {
+		focus = FRA_meet_with_parliament
+	}
+	available = {
+		date < 1938.01.01
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_our_own_balance"
+		create_wargoal = {
+			type = annex_everything
+			target = AUS
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_restart_the_rivalry
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 34
+	y = 10
+	prerequisite = {
+		focus = FRA_ready_the_troops
+	}
+	prerequisite = {
+		focus = FRA_pacify_protestors
+	}
+	prerequisite = {
+		focus = FRA_meet_with_parliament
+	}
+	available = {
+		date < 1938.01.01
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_restart_the_rivalry"
+		create_wargoal = {
+			type = annex_everything
+			target = ENG
+		}
+	}
+}
+
+## Huntziger
+
+shared_focus = {
+	id =  FRA_the_emergency
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 3
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_the_emergency"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_enact_martial_law
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 2
+	y = 1
+	prerequisite = {
+		focus = FRA_the_emergency
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_enact_martial_law"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_a_call_to_serve
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 2
+	y = 2
+	prerequisite = {
+		focus = FRA_enact_martial_law
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_a_call_to_serve"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_militarize_civilian_regions
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 2
+	y = 3
+	prerequisite = {
+		focus = FRA_a_call_to_serve
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_militarize_civilian_regions"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_discharge_political_opponents
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 4
+	y = 1
+	prerequisite = {
+		focus = FRA_the_emergency
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_discharge_political_opponents"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_flair_socialist_tensions
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 4
+	y = 2
+	prerequisite = {
+		focus = FRA_discharge_political_opponents
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_flair_socialist_tensions"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_the_thorn_in_the_side
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 4
+	y = 3
+	prerequisite = {
+		focus = FRA_flair_socialist_tensions
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_the_thorn_in_the_side"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_reconstruction
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 3
+	y = 4
+	prerequisite = {
+		focus = FRA_the_thorn_in_the_side
+	}
+	prerequisite = {
+		focus = FRA_militarize_civilian_regions
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_reconstruction"
+		
+	}
+}
+
+#####
+
+shared_focus = {
+	id =  FRA_the_coup
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 7
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_the_coup"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_ban_leftist_parties
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 6
+	y = 1
+	prerequisite = {
+		focus = FRA_the_coup
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_ban_leftist_parties"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_root_out_reformers
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 6
+	y = 2
+	prerequisite = {
+		focus = FRA_ban_leftist_parties
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_root_out_reformers"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_spectate_factories
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 6
+	y = 3
+	prerequisite = {
+		focus = FRA_root_out_reformers
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_spectate_factories"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_renewed_military_primacy
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 8
+	y = 1
+	prerequisite = {
+		focus = FRA_the_coup
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_renewed_military_primacy"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_fortress_france
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 8
+	y = 2
+	prerequisite = {
+		focus = FRA_renewed_military_primacy
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_fortress_france"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_military_based_education
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 8
+	y = 3
+	prerequisite = {
+		focus = FRA_fortress_france
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_military_based_education"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_a_new_day_in_france
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 7
+	y = 4
+	prerequisite = {
+		focus = FRA_military_based_education
+	}
+	prerequisite = {
+		focus = FRA_spectate_factories
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_reconstruction"
+		
+	}
+}
+
+## Authoritarian path
+
+shared_focus = {
+	id =  FRA_total_military_control
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 7
+	y = 5
+	prerequisite = {
+		focus = FRA_a_new_day_in_france
+		focus = FRA_reconstruction
+	}
+	mutually_exclusive = {
+		focus = FRA_populism_without_popularity
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_total_military_control"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_control_the_corportations
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 6
+	y = 6
+	prerequisite = {
+		focus = FRA_total_military_control
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_control_the_corportations"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_the_most_standard_equipment
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 8
+	y = 6
+	prerequisite = {
+		focus = FRA_total_military_control
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_the_most_standard_equipment"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_military_dominant_budget
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 7
+	y = 7
+	prerequisite = {
+		focus = FRA_control_the_corportations
+	}
+	prerequisite = {
+		focus = FRA_the_most_standard_equipment
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_military_dominant_budget"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_military_schools
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 6
+	y = 8
+	prerequisite = {
+		focus = FRA_military_dominant_budget
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_military_schools"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_no_draft_exemptions
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 8
+	y = 8
+	prerequisite = {
+		focus = FRA_military_dominant_budget
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_no_draft_exemptions"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_military_integration
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 7
+	y = 9
+	prerequisite = {
+		focus = FRA_military_schools
+	}
+	prerequisite = {
+		focus = FRA_no_draft_exemptions
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_corporate_society"
+		
+	}
+}
+
+## Republican path
+
+shared_focus = {
+	id =  FRA_populism_without_popularity
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 3
+	y = 5
+	prerequisite = {
+		focus = FRA_a_new_day_in_france
+		focus = FRA_reconstruction
+	}
+	mutually_exclusive = {
+		focus = FRA_total_military_control
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_populism_without_popularity"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_cut_corners
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 2
+	y = 6
+	prerequisite = {
+		focus = FRA_populism_without_popularity
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_cut_corners"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_modernize_rural_regions
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 4
+	y = 6
+	prerequisite = {
+		focus = FRA_populism_without_popularity
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_modernize_rural_regions"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_empower_the_france
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 3
+	y = 7
+	prerequisite = {
+		focus = FRA_cut_corners
+	}
+	prerequisite = {
+		focus = FRA_modernize_rural_regions
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_modernize_rural_regions"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_ban_unions
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 2
+	y = 8
+	prerequisite = {
+		focus = FRA_empower_the_france
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_ban_unions"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_welcome_to_the_jungle
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 4
+	y = 8
+	prerequisite = {
+		focus = FRA_empower_the_france
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_welcome_to_the_jungle"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_corporate_society
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 3
+	y = 9
+	prerequisite = {
+		focus = FRA_ban_unions
+	}
+	prerequisite = {
+		focus = FRA_welcome_to_the_jungle
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_corporate_society"
+		
+	}
+}
+
+## Napoleon
+
+shared_focus = {
+	id =  FRA_the_new_napoleon
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 5
+	y = 10
+	prerequisite = {
+		focus = FRA_corporate_society
+		focus = FRA_military_integration
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_the_new_napoleon"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_a_new_catalan_crisis
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 5
+	y = 11
+	prerequisite = {
+		focus = FRA_the_new_napoleon
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_a_new_catalan_crisis"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_italian_cooperation
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 4
+	y = 12
+	prerequisite = {
+		focus = FRA_a_new_catalan_crisis
+	}
+	mutually_exclusive = {
+		focus = FRA_coerce_the_mediterranean
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_italian_cooperation"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_colonial_reconquest
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 0
+	y = 13
+	prerequisite = {
+		focus = FRA_italian_cooperation
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_colonial_reconquest"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_the_blank_check
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 2
+	y = 13
+	prerequisite = {
+		focus = FRA_italian_cooperation
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_the_blank_check"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_reconnect_business_ties
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 4
+	y = 13
+	prerequisite = {
+		focus = FRA_italian_cooperation
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_reconnect_business_ties"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_the_new_entente
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 4
+	y = 14
+	prerequisite = {
+		focus = FRA_colonial_reconquest
+	}
+	prerequisite = {
+		focus = FRA_the_blank_check
+	}
+	prerequisite = {
+		focus = FRA_reconnect_business_ties
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_the_new_entente"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_coerce_the_mediterranean
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 6
+	y = 12
+	prerequisite = {
+		focus = FRA_a_new_catalan_crisis
+	}
+	mutually_exclusive = {
+		focus = FRA_italian_cooperation
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_italian_cooperation"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_bases_in_the_balearics
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 6
+	y = 13
+	prerequisite = {
+		focus = FRA_coerce_the_mediterranean
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_bases_in_the_balearics"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_embrace_mountaineers
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 8
+	y = 13
+	prerequisite = {
+		focus = FRA_coerce_the_mediterranean
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_embrace_mountaineers"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_special_marine_divisions
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 10
+	y = 13
+	prerequisite = {
+		focus = FRA_coerce_the_mediterranean
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_special_marine_divisions"
+		
+	}
+}
+
+shared_focus = {
+	id =  FRA_a_new_coalition
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 6
+	y = 14
+	prerequisite = {
+		focus = FRA_bases_in_the_balearics
+	}
+	prerequisite = {
+		focus = FRA_embrace_mountaineers
+	}
+	prerequisite = {
+		focus = FRA_special_marine_divisions
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_a_new_coalition"
+		create_wargoal = {
+			type = annex_everything
+			target = ITA
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_destroy_the_austrian_sphere
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 5
+	y = 15
+	prerequisite = {
+		focus = FRA_the_new_entente
+		focus = FRA_a_new_coalition
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_destroy_the_austrian_sphere"
+		create_wargoal = {
+			type = annex_everything
+			target = AUS
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_over_the_rhein_river
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 5
+	y = 16
+	prerequisite = {
+		focus = FRA_destroy_the_austrian_sphere
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_over_the_rhein_river"
+		create_wargoal = {
+			type = annex_everything
+			target = GER
+		}
+	}
+}
+
+shared_focus = {
+	id =  FRA_the_new_continental_system
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 4.00
+	
+	x = 5
+	y = 17
+	prerequisite = {
+		focus = FRA_over_the_rhein_river
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_the_new_continental_system"
+		create_wargoal = {
+			type = annex_everything
+			target = ENG
+		}
+	}
+}
+#####################Herriot's dem Tree 
+shared_focus = {
+	id =  FRA_victory_for_people
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 13
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_victory_for_people"
+	}
+}
+shared_focus = {
+	id =  FRA_civilian_elysee
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 12
+	y = 1
+	prerequisite = {
+		focus = FRA_victory_for_people
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_civilian_elysee"
+	}
+}
+shared_focus = {
+	id =  FRA_clear_way_reforms
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 14
+	y = 1
+	prerequisite = {
+		focus = FRA_victory_for_people
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_clear_way_reforms"
+	}
+}
+shared_focus = {
+	id =  FRA_get_to_work
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 13
+	y = 2
+	prerequisite = {
+		focus = FRA_civilian_elysee
+	}
+	prerequisite = {
+		focus = FRA_clear_way_reforms
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_get_to_work"
+	}
+}
+shared_focus = {
+	id =  FRA_bolster_civilian_economy
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 9
+	y = 3
+	prerequisite = {
+		focus = FRA_get_to_work
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_bolster_civilian_economy"
+	}
+}
+shared_focus = {
+	id =  FRA_expand_southern_ports
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 8
+	y = 4
+	prerequisite = {
+		focus = FRA_bolster_civilian_economy
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_expand_southern_ports"
+	}
+}
+shared_focus = {
+	id =  FRA_land_grants
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 10
+	y = 4
+	prerequisite = {
+		focus = FRA_bolster_civilian_economy
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_land_grants"
+	}
+}
+shared_focus = {
+	id =  FRA_attract_tourism
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 8
+	y = 5
+	prerequisite = {
+		focus = FRA_expand_southern_ports
+	}
+	prerequisite = {
+		focus = FRA_land_grants
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_attract_tourism"
+	}
+}
+shared_focus = {
+	id =  FRA_improve_food_industry
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 10
+	y = 5
+	prerequisite = {
+		focus = FRA_expand_southern_ports
+	}
+	prerequisite = {
+		focus = FRA_land_grants
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_attract_tourism"
+	}
+}
+shared_focus = {
+	id =  FRA_limit_military_intervention
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 13
+	y = 3
+	prerequisite = {
+		focus = FRA_get_to_work
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_limit_military_intervention"
+	}
+}
+shared_focus = {
+	id =  FRA_reduce_draft
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 12
+	y = 4
+	prerequisite = {
+		focus = FRA_limit_military_intervention
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_reduce_draft"
+	}
+}
+shared_focus = {
+	id =  FRA_empower_parliament
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 14
+	y = 4
+	prerequisite = {
+		focus = FRA_limit_military_intervention
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_empower_parliament"
+	}
+}
+shared_focus = {
+	id =  FRA_clean_judiciary
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 13
+	y = 5
+	prerequisite = {
+		focus = FRA_reduce_draft
+	}
+	prerequisite = {
+		focus = FRA_empower_parliament
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_clean_judiciary"
+	}
+}
+shared_focus = {
+	id =  FRA_new_rights_people
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 17
+	y = 3
+	prerequisite = {
+		focus = FRA_get_to_work
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_new_rights_people"
+	}
+}
+shared_focus = {
+	id =  FRA_ban_child_labour
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 16
+	y = 4
+	prerequisite = {
+		focus = FRA_new_rights_people
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_ban_child_labour"
+	}
+}
+shared_focus = {
+	id =  FRA_reduce_union_restrictions
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 18
+	y = 4
+	prerequisite = {
+		focus = FRA_new_rights_people
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_reduce_union_restrictions"
+	}
+}
+shared_focus = {
+	id =  FRA_open_more_schools
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 16
+	y = 5
+	prerequisite = {
+		focus = FRA_ban_child_labour
+	}
+	prerequisite = {
+		focus = FRA_reduce_union_restrictions
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_open_more_schools"
+	}
+}
+shared_focus = {
+	id =  FRA_introduce_penal_reform
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 18
+	y = 5
+	prerequisite = {
+		focus = FRA_ban_child_labour
+	}
+	prerequisite = {
+		focus = FRA_reduce_union_restrictions
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_introduce_penal_reform"
+	}
+}
+shared_focus = {
+	id =  FRA_government_secured
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 13
+	y = 6
+	prerequisite = {
+		focus = FRA_introduce_penal_reform
+	}
+	prerequisite = {
+		focus = FRA_open_more_schools
+	}
+	prerequisite = {
+		focus = FRA_clean_judiciary
+	}
+	prerequisite = {
+		focus = FRA_improve_food_industry
+	}
+	prerequisite = {
+		focus = FRA_attract_tourism
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_government_secured"
+	}
+}
+shared_focus = {
+	id =  FRA_encourage_small_business
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 10
+	y = 7
+	prerequisite = {
+		focus = FRA_government_secured
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_reduce_union_restrictions"
+	}
+}
+shared_focus = {
+	id =  FRA_eight_hour_work
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 12
+	y = 7
+	prerequisite = {
+		focus = FRA_government_secured
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_eight_hour_work"
+	}
+}
+shared_focus = {
+	id =  FRA_increase_minimum_wage
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 14
+	y = 7
+	prerequisite = {
+		focus = FRA_government_secured
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_increase_minimum_wage"
+	}
+}
+shared_focus = {
+	id =  FRA_full_legal_divorce
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 16
+	y = 7
+	prerequisite = {
+		focus = FRA_government_secured
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_full_legal_divorce"
+	}
+}
+shared_focus = {
+	id =  FRA_review_high_command
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 11
+	y = 8
+	prerequisite = {
+		focus = FRA_encourage_small_business
+	}
+	prerequisite = {
+		focus = FRA_eight_hour_work
+	}
+	prerequisite = {
+		focus = FRA_increase_minimum_wage
+	}
+	prerequisite = {
+		focus = FRA_full_legal_divorce
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_review_high_command"
+	}
+}
+shared_focus = {
+	id =  FRA_summit_military
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 13
+	y = 8
+	prerequisite = {
+		focus = FRA_encourage_small_business
+	}
+	prerequisite = {
+		focus = FRA_eight_hour_work
+	}
+	prerequisite = {
+		focus = FRA_increase_minimum_wage
+	}
+	prerequisite = {
+		focus = FRA_full_legal_divorce
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_summit_military"
+	}
+}
+shared_focus = {
+	id =  FRA_crush_political_violence
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 15
+	y = 8
+	prerequisite = {
+		focus = FRA_encourage_small_business
+	}
+	prerequisite = {
+		focus = FRA_eight_hour_work
+	}
+	prerequisite = {
+		focus = FRA_increase_minimum_wage
+	}
+	prerequisite = {
+		focus = FRA_full_legal_divorce
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_crush_political_violence"
+	}
+}
+shared_focus = {
+	id =  FRA_the_new_france
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 13
+	y = 9
+	prerequisite = {
+		focus = FRA_review_high_command
+	}
+	prerequisite = {
+		focus = FRA_summit_military
+	}
+	prerequisite = {
+		focus = FRA_crush_political_violence
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_the_new_france"
+	}
+}
+shared_focus = {
+	id =  FRA_review_foreign_affairs
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	prerequisite = { 
+		focus = FRA_get_to_work
+		}
+	x = 23
+	y = 3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_review_foreign_affairs"
+	}
+}
+shared_focus = {
+	id =  FRA_send_rome_aid
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 20
+	y = 4
+	prerequisite = {
+		focus = FRA_review_foreign_affairs
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_send_rome_aid"
+	}
+}
+shared_focus = {
+	id =  FRA_catalonia_focus_herriot
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 22
+	y = 4
+	prerequisite = {
+		focus = FRA_review_foreign_affairs
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_catalonia_focus_herriot"
+	}
+}
+shared_focus = {
+	id =  FRA_open_ire
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 24
+	y = 4
+	prerequisite = {
+		focus = FRA_review_foreign_affairs
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_open_ire"
+	}
+}
+shared_focus = {
+	id =  FRA_increase_business_ties
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 26
+	y = 4
+	prerequisite = {
+		focus = FRA_review_foreign_affairs
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_increase_business_ties"
+	}
+}
+shared_focus = {
+	id =  FRA_trip_washington
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 21
+	y = 5
+	prerequisite = {
+		focus = FRA_catalonia_focus_herriot
+	}
+	prerequisite = {
+		focus = FRA_open_ire
+	}
+	prerequisite = {
+		focus = FRA_increase_business_ties
+	}
+	prerequisite = {
+		focus = FRA_send_rome_aid
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_trip_washington"
+	}
+}
+shared_focus = {
+	id =  FRA_india_focus_herriot
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 23
+	y = 5
+	prerequisite = {
+		focus = FRA_catalonia_focus_herriot
+	}
+	prerequisite = {
+		focus = FRA_open_ire
+	}
+	prerequisite = {
+		focus = FRA_increase_business_ties
+	}
+	prerequisite = {
+		focus = FRA_send_rome_aid
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_india_focus_herriot"
+	}
+}
+shared_focus = {
+	id =  FRA_end_clashes_africa
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 25
+	y = 5
+	prerequisite = {
+		focus = FRA_catalonia_focus_herriot
+	}
+	prerequisite = {
+		focus = FRA_open_ire
+	}
+	prerequisite = {
+		focus = FRA_increase_business_ties
+	}
+	prerequisite = {
+		focus = FRA_send_rome_aid
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_end_clashes_africa"
+	}
+}
+shared_focus = {
+	id =  FRA_world_power
+	icon = GFX_FRA_extend_the_olive_branch
+	cost = 3.00
+	x = 23
+	y = 6
+	prerequisite = {
+		focus = FRA_trip_washington
+	}
+	prerequisite = {
+		focus = FRA_india_focus_herriot
+	}
+	prerequisite = {
+		focus = FRA_end_clashes_africa
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_world_power"
+	}
+}
+shared_focus = {
+	id =  FRA_colonial_question
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 3
+	y = 3
+	prerequisite = { 
+	focus = FRA_get_to_work
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_colonial_question"
+	}
+}
+shared_focus = {
+	id =  FRA_burma_focus_herriot 
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 0
+	y = 4
+	prerequisite = {
+		focus = FRA_colonial_question
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_burma_focus_herriot"
+	}
+}
+shared_focus = {
+	id =  FRA_fei_focus_herriot
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 2
+	y = 4
+	prerequisite = {
+		focus = FRA_colonial_question
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_fei_focus_herriot"
+	}
+}
+shared_focus = {
+	id =  FRA_return_tonkin 
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 4
+	y = 4
+	prerequisite = {
+		focus = FRA_colonial_question
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_return_tonkin"
+	}
+}
+shared_focus = {
+	id =  FRA_reinforce_hong_kong 
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 6
+	y = 4
+	prerequisite = {
+		focus = FRA_colonial_question
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_reinforce_hong_kong"
+	}
+}
+shared_focus = {
+	id =  FRA_exand_wa_line
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 1
+	y = 5
+	prerequisite = {
+		focus = FRA_burma_focus_herriot
+	}
+	prerequisite = {
+		focus = FRA_fei_focus_herriot
+	}
+	prerequisite = {
+		focus = FRA_return_tonkin
+	}
+	prerequisite = {
+		focus = FRA_reinforce_hong_kong
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_exand_wa_line"
+	}
+}
+shared_focus = {
+	id =  FRA_urbanise_ea
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 3
+	y = 5
+	prerequisite = {
+		focus = FRA_burma_focus_herriot
+	}
+	prerequisite = {
+		focus = FRA_fei_focus_herriot
+	}
+	prerequisite = {
+		focus = FRA_return_tonkin
+	}
+	prerequisite = {
+		focus = FRA_reinforce_hong_kong
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_urbanise_ea"
+	}
+}
+shared_focus = {
+	id =  FRA_hand_diego_suarez
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 5
+	y = 5
+	prerequisite = {
+		focus = FRA_burma_focus_herriot
+	}
+	prerequisite = {
+		focus = FRA_fei_focus_herriot
+	}
+	prerequisite = {
+		focus = FRA_return_tonkin
+	}
+	prerequisite = {
+		focus = FRA_reinforce_hong_kong
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_hand_diego_suarez"
+	}
+}
+shared_focus = {
+	id =  FRA_invest_algeria
+	icon = GFX_FRA_the_catalan_crisis
+	cost = 3.00
+	x = 3
+	y = 6
+	prerequisite = {
+		focus = FRA_exand_wa_line
+	}
+	prerequisite = {
+		focus = FRA_urbanise_ea
+	}
+	prerequisite = {
+		focus = FRA_hand_diego_suarez
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus FRA_invest_algeria"
+	}
+}

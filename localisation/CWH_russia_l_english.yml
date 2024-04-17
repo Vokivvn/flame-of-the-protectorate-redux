@@ -1,0 +1,287 @@
+﻿l_english:
+
+##Flags
+SOV_flag_nikolai_iii_emperor:0 "Nikolai III is Emperor"
+
+## Ideas
+
+SOV_russian_influence:0 "Russian Influence"
+    SOV_russian_influence_desc:0 "This nation is under the influence of [SOV.GetNameDef]. This means that the nation trades further and has closer relations with Russia than other foreign nations."
+
+SOV_legacy_of_the_1903_interregnum:0 "Legacy of the 1903 Interregnum"
+    SOV_legacy_of_the_1903_interregnum_desc:0 "An assassination. A depression. A coup.\n\nThese are only the largest grievances of the events of 1903, events which have and still continue to shape Russian politics and society to the present. When Tsar Nikolay Aleksandrovich met his untimely end by way of a bomb, coupists in the army spearheaded by Lavr Kornilov tried and failed to seize dictatorial power as the nation burned. The Black Marshal's defiance was repelled by an alliance between the Constitutionalists and numerous workers unions, who promptly rewarded his insubordination with an exile to Russia's holdings in Persia. In return for their loyalty, the state implemented token concessions to the unions, with the notable exception of allowing V.I. Lenin to return.\n\nAnd yet, nothing was enough. Neither the nobility nor the unions were sufficiently appeased with these reforms, and tensions seem to be reaching a boiling point. Three decades after the Interregnum, Russia towers at the height of its power, but now it nears the crossroads of history once more. Only time shall show if the center can hold any longer."
+
+SOV_the_tsars_apathy:0 "The Tsar's Apathy"
+    SOV_the_tsars_apathy_desc:0 "Where does one begin to describe the Tsar, the Emperor of All Russia, the embodiment of the state, commanded by and second to none other than the Lord Almighty? And where does one begin to describe the man himself, a velvet glove masked with an iron fist, a ruler without his crown? Make no mistake, whilst in theory Nikolay III as Tsar and Autocrat steers the ship of state, in practice all his power has been delegated to a cabinet in which he has no say. Tsarevich Alexey may harbor ambitions of his own, plotting to reverse the course of indifference and distress his father has long succumbed to - but for now, Nikolay is stranded in lonesome waters."
+
+SOV_the_engelhardt_reformation:0 "The Engelhardt Reformation"
+    SOV_the_engelhardt_reformation_desc:0 "In the years since the Interregnum, Boris Engelhardt's meteoric rise to heading the Imperial Armed Forces has been nothing short of an abrupt shift in doctrine. Constitutionalist, monarchist, and above all, devoted, Engelhardt has begun to set right what Marshal Kornilov had wronged, having since securing the support of the moderate and younger generations within the military. However, this base does not speak for the majority, as Engelhardt is a reformist sitting atop an army of traditionalists who will not stall to supplant him should he err. If Marshal Engelhardt wishes to maintain his position, implement meaningful reforms and avoid the fate of his predecessor, it would be tactful of him to pursue his agenda with caution."
+
+SOV_where_yermak_lays_his_gaze:0 "Where Yermak Lays His Gaze"
+    SOV_where_yermak_lays_his_gaze_desc:0 "Nearly four centuries ago, Yermak Timofeyvich triumphed over the Khanate of Sibir, commencing the conquest of the lands east of the Urals. Nearly four centuries later, Russia stands as a leviathan amongst empires. The mountains of the Caucasus, the Suez Canal of the south, the steppes of Middle Asia, the gold fields of Alyaska - these are but a few among the many lands of Russia. And all are under the domain of House Romanov. Whilst deeming Russia to be the grandest empire may be a falsity, to deny that it is not among the the greatest is a simply a travesty."
+
+
+## Decisions
+SOV_debug_cat:0 "the fox zone"
+SOV_debug_cat_desc:0 "debug RUSSIA empier"
+
+SOV_western_krai_cat:0 "Operation "Razrukha""
+SOV_western_krai_cat_desc:0 "[get.SOV_western_krai_cat_desc_loc]"
+    SOV_western_krai_cat_desc_michael:0 "The Western Territories Reclaimation Campaign, dubbed §yOperation "Razrukha"§! among our officers, is a war plan organized by the General Staff the purposes of which are as follows:\n§yI. Assert firm Russian foothold in Eastern Europe.\nII. Put an end to the Commonwealth War.\nIII. Integrate newly acquired regions into the Russian Empire.§!\n\nThe current level of influence we have over §yKing Michael of Lithuania§! is [get.SOV_western_krai_michael_influence_loc]."
+        SOV_western_krai_michael_influence_none:0 "§rnone§!"
+        SOV_western_krai_michael_influence_low:0 "§rminiscule§!"
+        SOV_western_krai_michael_influence_medium:0 "§ysufficient§!"
+        SOV_western_krai_michael_influence_high:0 "§roverwhelming§!"
+    SOV_western_krai_cat_desc_normal:0 "The Western Territories Reclaimation Campaign, dubbed §yOperation "Razrukha"§! among our officers, is a war plan organized by the General Staff the purposes of which are as follows:\n§yI. Assert firm Russian foothold in Eastern Europe.\nII. Put an end to the Commonwealth War.\nIII. Integrate newly acquired regions into the Russian Empire.§!"
+
+SOV_western_krai_letter_to_king_michael:0 "Send King Michael a Letter"
+SOV_western_krai_arrange_meetings:0 "Arrange Meetings"
+SOV_western_krai_send_diplomats:0 "Send Diplomats"
+SOV_western_krai_sway_nobles:0 "Sway Nobles"
+SOV_western_krai_promise_priviliges:0 "Promise Priviliges"
+SOV_western_krai_catholic_concessions:0 "Catholic Consessions"
+
+SOV_classes_cat:0 "Classes of the Empire"
+SOV_classes_desc:0 "The striking £SOV_workers_texticon  §rWorkers§!, the planning £SOV_nobles_texticon  §pNobles§!, the mighty £SOV_army_texticon  §eArmy§!, and the bustling £SOV_council_texticon  §yCouncil§!, while having different ideas and varying influence on the governmental issues, all have an incredibly important role in the development of the Russian Empire. Their §yConfidence in the Government§! and §yDiscontent§! are, naturally, important to keep in check."
+
+SOV_classes_workers_decisions_open:0 "[get.SOV_classes_workers_decisions_name]"
+    SOV_classes_workers_decisions_open_open:0 "Show Decisions to Deal with the £SOV_workers_texticon  §rWorkers§!."
+    SOV_classes_workers_decisions_open_hide:0 "Hide Decisions to Deal with the £SOV_workers_texticon  §rWorkers§!."
+SOV_classes_nobles_decisions_open:0 "[get.SOV_classes_nobles_decisions_name]"
+    SOV_classes_nobles_decisions_open_open:0 "Show Decisions to Deal with the £SOV_nobles_texticon  §pNobles§!."
+    SOV_classes_nobles_decisions_open_hide:0 "Hide Decisions to Deal with the £SOV_nobles_texticon  §pNobles§!."
+SOV_classes_army_decisions_open:0 "[get.SOV_classes_army_decisions_name]"
+    SOV_classes_army_decisions_open_open:0 "Show Decisions to Deal with the £SOV_army_texticon  §eArmy§!."
+    SOV_classes_army_decisions_open_hide:0 "Hide Decisions to Deal with the £SOV_army_texticon  §eArmy§!."
+SOV_classes_council_decisions_open:0 "[get.SOV_classes_council_decisions_name]"
+    SOV_classes_council_decisions_open_open:0 "Show Decisions to Deal with the £SOV_council_texticon  §yCouncil§!."
+    SOV_classes_council_decisions_open_hide:0 "Hide Decisions to Deal with the £SOV_council_texticon  §yCouncil§!."
+
+SOV_classes_decision_not_taken_tt:0 "Has not taken decisions to deal with the §yClasses§! already"
+SOV_michael_decision_not_taken_tt:0 "Has not taken decisions to increase influence over §yKing Michael of Lithuania§! already"
+
+SOV_classes_enact_mild_reforms:0 "Enact Mild Socio-Economic Reforms"
+SOV_classes_enact_extensive_reforms:0 "Enact Extensive Socio-Economic Reforms"
+SOV_classes_promise_concessions:0 "Promise Concessions"
+SOV_classes_organize_banquets:0 "Organize Blanquets"
+SOV_classes_silence_workers:0 "Silence Workers"
+
+SOV_worker_support_percentage_low:0 "[?SOV_worker_support_percentage|%r0]"
+SOV_worker_support_percentage_moderate:0 "[?SOV_worker_support_percentage|%y0]"
+SOV_worker_support_percentage_high:0 "[?SOV_worker_support_percentage|%e0]"
+
+SOV_worker_influence_percentage_low:0 "§elow§!"
+SOV_worker_influence_percentage_moderate:0 "§ymoderate§!"
+SOV_worker_influence_percentage_high:0 "§rhigh§!"
+
+SOV_noble_support_percentage_low:0 "[?SOV_noble_support_percentage|%r0]"
+SOV_noble_support_percentage_moderate:0 "[?SOV_noble_support_percentage|%y0]"
+SOV_noble_support_percentage_high:0 "[?SOV_noble_support_percentage|%e0]"
+
+SOV_noble_influence_percentage_low:0 "§elow§!"
+SOV_noble_influence_percentage_moderate:0 "§tmoderate§!"
+SOV_noble_influence_percentage_high:0 "§rhigh§!"
+
+SOV_army_support_percentage_low:0 "[?SOV_army_support_percentage|%r0]"
+SOV_army_support_percentage_moderate:0 "[?SOV_army_support_percentage|%y0]"
+SOV_army_support_percentage_high:0 "[?SOV_army_support_percentage|%e0]"
+
+SOV_army_influence_percentage_low:0 "§elow§!"
+SOV_army_influence_percentage_moderate:0 "§ymoderate§!"
+SOV_army_influence_percentage_high:0 "§rhigh§!"
+
+SOV_duma_support_percentage_low:0 "[?SOV_duma_support_percentage|%r0]"
+SOV_duma_support_percentage_moderate:0 "[?SOV_duma_support_percentage|%y0]"
+SOV_duma_support_percentage_high:0 "[?SOV_duma_support_percentage|%e0]"
+
+SOV_duma_influence_percentage_low:0 "§elow§!"
+SOV_duma_influence_percentage_moderate:0 "§ymoderate§!"
+SOV_duma_influence_percentage_high:0 "§rhigh§!"
+
+SOV_GUI_worker_support_tt:0 "£SOV_workers_texticon  §YWorker Confidence in the Government is at [get.SOV_worker_support_percentage_loc].§!"
+SOV_GUI_worker_influence_tt:0 "£SOV_workers_texticon  §YWorker Discontent is [get.SOV_worker_influence_percentage_loc].§!"
+SOV_GUI_noble_support_tt:0 "£SOV_nobles_texticon  §YNoble Confidence in the Government is at [get.SOV_noble_support_percentage_loc].§!"
+SOV_GUI_noble_influence_tt:0 "£SOV_nobles_texticon  §YNoble Discontent is [get.SOV_noble_influence_percentage_loc].§!"
+SOV_GUI_army_support_tt:0 "£SOV_army_texticon  §YArmy Confidence in the Government is at [get.SOV_army_support_percentage_loc].§!"
+SOV_GUI_army_influence_tt:0 "£SOV_army_texticon  §YArmy Discontent is [get.SOV_army_influence_percentage_loc].§!"
+SOV_GUI_duma_support_tt:0 "£SOV_council_texticon  §YCouncil Confidence in the Government is at [get.SOV_duma_support_percentage_loc].§!"
+SOV_GUI_duma_influence_tt:0 "£SOV_council_texticon  §YCouncil Discontent is [get.SOV_duma_influence_percentage_loc].§!"
+
+#Scripted Effects
+SOV_classes_workers_increase_support_low_tt:0 "This will §yslightly§! increase £SOV_workers_texticon  §rWorker§! Confidence in the Government."
+SOV_classes_workers_increase_support_medium_tt:0 "This will §ymoderately§! increase £SOV_workers_texticon  §rWorker§! Confidence in the Government."
+SOV_classes_workers_increase_support_high_tt:0 "This will §ystrongly§! increase £SOV_workers_texticon  §rWorker§! Confidence in the Government."
+SOV_classes_workers_decrease_support_low_tt:0 "This will §yslightly§! decrease £SOV_workers_texticon  §rWorker§! Confidence in the Government."
+SOV_classes_workers_decrease_support_medium_tt:0 "This will §ymoderately§! decrease £SOV_workers_texticon  §rWorker§! Confidence in the Government."
+SOV_classes_workers_decrease_support_high_tt:0 "This will §ystrongly§! decrease £SOV_workers_texticon  §rWorker§! Confidence in the Government."
+SOV_classes_workers_increase_influence_low_tt:0 "This will §yslightly§! increase £SOV_workers_texticon  §rWorker§! Discontent."
+SOV_classes_workers_increase_influence_medium_tt:0 "This will §ymoderately§! increase £SOV_workers_texticon  §rWorker§! Discontent."
+SOV_classes_workers_increase_influence_high_tt:0 "This will §ystrongly§! increase £SOV_workers_texticon  §rWorker§! Discontent."
+SOV_classes_workers_decrease_influence_low_tt:0 "This will §yslightly§! decrease £SOV_workers_texticon  §rWorker§! Discontent."
+SOV_classes_workers_decrease_influence_medium_tt:0 "This will §ymoderately§! decrease £SOV_workers_texticon  §rWorker§! Discontent."
+SOV_classes_workers_decrease_influence_high_tt:0 "This will §ystrongly§! decrease £SOV_workers_texticon  §rWorker§! Discontent."
+
+SOV_classes_nobles_increase_support_low_tt:0 "This will §yslightly§! increase £SOV_nobles_texticon  §pNoble§! Confidence in the Government."
+SOV_classes_nobles_increase_support_medium_tt:0 "This will §ymoderately§! increase £SOV_nobles_texticon  §pNoble§! Confidence in the Government."
+SOV_classes_nobles_increase_support_high_tt:0 "This will §ystrongly§! increase £SOV_nobles_texticon  §pNoble§! Confidence in the Government."
+SOV_classes_nobles_decrease_support_low_tt:0 "This will §yslightly§! decrease £SOV_nobles_texticon  §pNoble§! Confidence in the Government."
+SOV_classes_nobles_decrease_support_medium_tt:0 "This will §ymoderately§! decrease £SOV_nobles_texticon  §pNoble§! Confidence in the Government."
+SOV_classes_nobles_decrease_support_high_tt:0 "This will §ystrongly§! decrease £SOV_nobles_texticon  §pNoble§! Confidence in the Government."
+SOV_classes_nobles_increase_influence_low_tt:0 "This will §yslightly§! increase £SOV_nobles_texticon  §pNoble§! Discontent."
+SOV_classes_nobles_increase_influence_medium_tt:0 "This will §ymoderately§! increase £SOV_nobles_texticon  §pNoble§! Discontent."
+SOV_classes_nobles_increase_influence_high_tt:0 "This will §ystrongly§! increase £SOV_nobles_texticon  §pNoble§! Discontent."
+SOV_classes_nobles_decrease_influence_low_tt:0 "This will §yslightly§! decrease £SOV_nobles_texticon  §pNoble§! Discontent."
+SOV_classes_nobles_decrease_influence_medium_tt:0 "This will §ymoderately§! decrease £SOV_nobles_texticon  §pNoble§! Discontent."
+SOV_classes_nobles_decrease_influence_high_tt:0 "This will §ystrongly§! decrease £SOV_nobles_texticon  §pNoble§! Discontent."
+
+SOV_classes_army_increase_support_low_tt:0 "This will §yslightly§! increase £SOV_army_texticon  §eArmy§! Confidence in the Government."
+SOV_classes_army_increase_support_medium_tt:0 "This will §ymoderately§! increase £SOV_army_texticon  §eArmy§! Confidence in the Government."
+SOV_classes_army_increase_support_high_tt:0 "This will §ystrongly§! increase £SOV_army_texticon  §eArmy§! Confidence in the Government."
+SOV_classes_army_decrease_support_low_tt:0 "This will §yslightly§! decrease £SOV_army_texticon  §eArmy§! Confidence in the Government."
+SOV_classes_army_decrease_support_medium_tt:0 "This will §ymoderately§! decrease £SOV_army_texticon  §eArmy§! Confidence in the Government."
+SOV_classes_army_decrease_support_high_tt:0 "This will §ystrongly§! decrease £SOV_army_texticon  §eArmy§! Confidence in the Government."
+SOV_classes_army_increase_influence_low_tt:0 "This will §yslightly§! increase £SOV_army_texticon  §eArmy§! Discontent."
+SOV_classes_army_increase_influence_medium_tt:0 "This will §ymoderately§! increase £SOV_army_texticon  §eArmy§! Discontent."
+SOV_classes_army_increase_influence_high_tt:0 "This will §ystrongly§! increase £SOV_army_texticon  §eArmy§! Discontent."
+SOV_classes_army_decrease_influence_low_tt:0 "This will §yslightly§! decrease £SOV_army_texticon  §eArmy§! Discontent."
+SOV_classes_army_decrease_influence_medium_tt:0 "This will §ymoderately§! decrease £SOV_army_texticon  §eArmy§! Discontent."
+SOV_classes_army_decrease_influence_high_tt:0 "This will §ystrongly§! decrease £SOV_army_texticon  §eArmy§! Discontent."
+
+SOV_classes_council_increase_support_low_tt:0 "This will §yslightly§! increase £SOV_council_texticon  §yCouncil§! Confidence in the Government."
+SOV_classes_council_increase_support_medium_tt:0 "This will §ymoderately§! increase £SOV_council_texticon  §yCouncil§! Confidence in the Government."
+SOV_classes_council_increase_support_high_tt:0 "This will §ystrongly§! increase £SOV_council_texticon  §yCouncil§! Confidence in the Government."
+SOV_classes_council_decrease_support_low_tt:0 "This will §yslightly§! decrease £SOV_council_texticon  §yCouncil§! Confidence in the Government."
+SOV_classes_council_decrease_support_medium_tt:0 "This will §ymoderately§! decrease £SOV_council_texticon  §yCouncil§! Confidence in the Government."
+SOV_classes_council_decrease_support_high_tt:0 "This will §ystrongly§! decrease £SOV_council_texticon  §yCouncil§! Confidence in the Government."
+SOV_classes_council_increase_influence_low_tt:0 "This will §yslightly§! increase £SOV_council_texticon  §yCouncil§! Discontent."
+SOV_classes_council_increase_influence_medium_tt:0 "This will §ymoderately§! increase £SOV_council_texticon  §yCouncil§! Discontent."
+SOV_classes_council_increase_influence_high_tt:0 "This will §ystrongly§! increase £SOV_council_texticon  §yCouncil§! Discontent."
+SOV_classes_council_decrease_influence_low_tt:0 "This will §yslightly§! decrease £SOV_council_texticon  §yCouncil§! Discontent."
+SOV_classes_council_decrease_influence_medium_tt:0 "This will §ymoderately§! decrease £SOV_council_texticon  §yCouncil§! Discontent."
+SOV_classes_council_decrease_influence_high_tt:0 "This will §ystrongly§! decrease £SOV_council_texticon  §yCouncil§! Discontent."
+
+SOV_western_krai_increase_michael_influence_low:0 "This will §yslightly§! increase our influence over §yKing Michael of Lithuania§!."
+SOV_western_krai_increase_michael_influence_medium:0 "This will §ymoderately§! increase our influence over §yKing Michael of Lithuania§!."
+SOV_western_krai_increase_michael_influence_high:0 "This will §estrongly§! increase our influence over §yKing Michael of Lithuania§!."
+
+POLITICS_Nik_II_DESC:0 "Nikolai II has ruled Russia for over forty years, and he has almost nothing to show for it. This isn't to say that Russia has made no accomplishments during that time; it rules a colonial empire, it has crushed rebellions and conquered foes, and even seen a decent amount of political change, but these feats are always attributed to Nikolai's advisors, generals, and government. The Tsar himself is seen as weak or even ineffective, overshadowed by the other great men of Russia and especially all the illustrious Romanov emperors who came before him.\n\nTo many, this less-than-magnificent reign has come at the worst possible time for Russia. As it stands, the great Eurasian empire is the last bastion of monarchy: one by one, the other great powers have fallen to the rabble rule of republicanism. First Britain, then France, then the disunited realms of Italy and Germany brought together by revolutionary rule; even Austria has fallen to the wayside with its loss of Hungary and the Balkans and its feeble hold on the power it still has. Nikolai is old now, and Russia now has its last chance to respond. Will the heirs of Russia be the heirs of Nikolai, or will Russia's glory be inherited by the Duma?"
+POLITICS_Alexei_II_DESC:0 "Alexei II has fought his entire life just to stay alive. Not only does he now fight his own government and sometimes his own nation, he must fight his very body, which betrays him at every turn.\n\nAlexei was born with hemophilia, a condition that made his body unable to properly heal from cuts and bruises. He was kept sheltered in his childhood because of this, but even as a boy he had close brushes with death from even small cuts and bumps. He was saved from the brink during one of these incidents by the holy man and healer Grigori Rasputin, who became his close friend, advisor, and healer for the rest of his life. The influence of this soothsayer directly competed with the tutoring of one of his most important teachers, Aleksei Brusilov. Though Brusilov has died, his advice and gruff teaching have stuck with Alexei, often in direct opposition to the ideas whispered to him by Rasputin.\n\nAs he aged, the Tsar, now a young man, began to come into his own. Despite his physical fragility, the young prince was charming, assertive, attractive, and intelligent, to many contrasting his old and largely passive father. The Duma and the Monarchists both jockeyed for his favor, believing that he would be the one to lead Russia strongly into the new era, whether through reform or through consolidation of the Tsar's power. Now that he's at the reins, it is Alexei's choice."
+
+## Focus
+SOV_my_empire_of_dirt:0 "My Empire of Dirt"
+    SOV_my_empire_of_dirt_desc:0 ""
+
+SOV_a_crown_of_thorns:0 "A Crown of Thorns"
+    SOV_a_crown_of_thorns_desc:0 ""
+
+SOV_our_burdens:0 "Our Burdens"
+    SOV_our_burdens_desc:0 ""
+
+SOV_remember_our_promises:0 "Remember Our Promises"
+    SOV_remember_our_promises_desc:0 ""
+
+SOV_our_western_krai:0 "Our Western Krai"
+    SOV_our_western_krai_desc:0 ""
+
+SOV_putilovs_report:0 "Putilov's Report"
+    SOV_putilovs_report_desc:0 ""
+
+SOV_lord_save_russia:0 "Lord Save Russia"
+    SOV_lord_save_russia_desc:0 ""
+
+SOV_bring_her_peace:0 "...Bring Her Peace"
+    SOV_bring_her_peace_desc:0 ""
+
+SOV_the_land_of_contrasts:0 "The Land of Contrasts"
+    SOV_the_land_of_contrasts_desc:0 ""
+
+SOV_business_as_usual:0 "Business as Usual"
+    SOV_business_as_usual_desc:0 ""
+
+SOV_cast_the_ballot:0 "Cast the Ballot"
+    SOV_cast_the_ballot_desc:0 ""
+
+##Tooltips
+SOV_our_western_krai_tt:0 "Unlocks §yOperation "Razrukha"§! decisions."
+SOV_cast_the_ballot_tt:0 "§yThe State Council elections may begin.§!"
+
+
+## Parties
+SOV_centralism_party:0 "ObRDSP-R"
+SOV_centralism_party_long:0 "Noyabristy (Obyedenyonnaya Russkaya Demokraticheskaya Sotsialisticheskaya Partiya - Radikaly)"
+SOV_socialism_party:0 "ObRDSP-M"
+SOV_socialism_party_long:0 "Oktyabristy (Obyedenyonnaya Russkaya Demokraticheskaya Sotsialisticheskaya Partiya - Moderaty)"
+SOV_progressivism_party:0 "LDP"
+SOV_progressivism_party_long:0 "Liga Demokraticheskikh Progressivistov"
+SOV_liberalism_party:0 "LDSR"
+SOV_liberalism_party_long:0 "Liberal'no-Demokraticheskiy Soyuz Rossii"
+SOV_conservatism_party:0 "Imperkom"
+SOV_conservatism_party_long:0 "Imperskiy Gosudarst"
+SOV_republicanism_party:0 "-"
+SOV_republicanism_party_long:0 "-"
+SOV_authoritarianism_party:0 "SNR"
+SOV_authoritarianism_party_long:0 "Soyuz Nezavisimoy Rossii"
+SOV_ultranationalism_party:0 "VOD"
+SOV_ultranationalism_party_long:0 "Vserossiyskoye Osvoboditel'noye Dvizheniye"
+
+PER_authoritarianism_party:0 "DPI"
+PER_authoritarianism_party_long:0 "Democratic Party of Iran"
+
+KPZ_authoritarianism_party:0 "KhNPK"
+KPZ_authoritarianism_party_long:0 "Khuzhestanskaya Neftyanaya Promyshlennaya Kompaniya"
+
+## Puppets
+UKD_authoritarianism:0 "Novorossiyan General Governorate"
+UKD_authoritarianism_DEF:0 "Novorossiyan General Governorate"
+UKD_authoritarianism_ADJ:0 "Novorossiyan"
+
+PGG_authoritarianism:0 "Persian General Governorate"
+PGG_authoritarianism_DEF:0 "The General Governorate of Persia"
+PGG_authoritarianism_ADJ:0 "Russian"
+
+KPZ_authoritarianism:0 "Khuzhestan Promzona"
+KPZ_authoritarianism_DEF:0 "The Khuzhestan Industrial Zone"
+KPZ_authoritarianism_ADJ:0 "Russian"
+
+KHI_authoritarianism:0 "Khanate of Khiva"
+KHI_authoritarianism_DEF:0 "The Khanate of Khiva"
+KHI_authoritarianism_ADJ:0 "Khivan"
+
+BKH_authoritarianism:0 "Emirate of Bukhara"
+BKH_authoritarianism_DEF:0 "The Emirate of Bukhara"
+BKH_authoritarianism_ADJ:0 "Bukharan"
+
+LIT_RUS_conservatism:0 "Duchy of Lithuania"
+LIT_RUS_conservatism_DEF:0 "The Duchy of Lithuania"
+LIT_RUS_conservatism_ADJ:0 "Lithuanian"
+
+## Event
+RUS.1.t:0 "Nikolay Ustryalov Retires from Politics"
+RUS.1.desc:0 "so sad anyways welcome s t r a v i n s k y"
+RUS.1.a:0 "based"
+
+RUS.2.t:0 "Russian Letter of Integration"
+RUS.2.desc:0 ""
+RUS.2.a:0 "Hell ye"
+RUS.2.b:0 "Hell na"
+
+RUS.3.t:0 "The Letter Draft"
+RUS.3.desc:0 "For Michael to give into your demands you gotta press those decisions"
+RUS.3.a:0 "based"
+
+RUS.4.t:0 "Russian Presence in Lithuania!"
+RUS.4.desc:0 ""
+RUS.4.a:0 "fuck"
+
+RUS.5.t:0 "Lithuania Folds!"
+RUS.5.desc:0 ""
+RUS.5.a:0 "Glorious"
+
+RUS.6.t:0 "Lithuania Refuses!"
+RUS.6.desc:0 ""
+RUS.6.a:0 "rip ig"
+
+RUS.12.t:0 "The Passing of Nikolai"
+RUS.12.desc:0 ""
+RUS.12.a:0 "rip ig"
+

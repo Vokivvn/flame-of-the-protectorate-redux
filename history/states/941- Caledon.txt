@@ -1,0 +1,18 @@
+state={
+	id=941
+	name="STATE_941"
+	manpower = 1
+	
+	state_category = rural
+
+	history={
+		add_core_of = ORG
+		owner = ORG
+		buildings = {
+		}
+		#victory_points = {
+		#}
+	}
+	
+	provinces={ 13293 13294 13295 }
+}

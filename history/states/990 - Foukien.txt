@@ -1,0 +1,26 @@
+state={
+	id=990
+	name="STATE_990"
+	manpower = 157805
+	
+	state_category = large_town
+	
+	history={
+		owner = DEN
+		add_core_of = CHI
+		add_claim_by = DEN
+		victory_points = { 
+			7071 5 
+		}
+		buildings = {
+			infrastructure = 4
+			7071 = {
+				naval_base = 3
+			}
+		}
+	}
+	
+	provinces={
+		7071 
+	}
+}

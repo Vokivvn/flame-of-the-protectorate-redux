@@ -1,0 +1,61 @@
+DEN_take_norway = {
+	enable = {
+		tag = DEN
+		country_exists = NOR
+		has_war_with = NOR
+		NOR = {
+			has_government = republicanism
+		}
+	}
+
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "NOR"			
+		value = 1000000000000000000
+	}
+	ai_strategy = {
+		type = ignore
+		id = "NOR"
+		value = -1000
+	}
+	ai_strategy = {
+		type = ignore
+		id = "GER"
+		value = 2000000
+	}
+	ai_strategy = {
+		type = ignore
+		id = "SWE"
+		value = 50000
+	}
+	 ai_strategy = {
+		type = garrison
+		value = -1000
+	}
+}
+
+othernations_help_Norway = {
+	enable = {
+		OR = {
+			tag = ENG
+			tag = GER
+			tag = USA
+		}	
+			DEN = { has_war_with = NOR }
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = send_volunteers_desire       
+		id = "NOR"        
+		value = 500
+	}
+	ai_strategy = {
+		type = support
+		id = "NOR"			
+		value = 200
+	}
+}

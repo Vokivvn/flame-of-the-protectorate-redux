@@ -1,0 +1,28 @@
+﻿capital = 151
+
+set_variable = { country_infamy = 0 } 
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1935.10.27"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	conservatism = 100
+}
+
+set_stability = 0.85
+
+create_country_leader = {
+	name = "Giuseppe Motta"
+	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+	picture = "Portrait_Three_Leagues_Giuseppe_Motta.dds"
+	expire = "1965.1.1"
+	ideology = christian_democracy
+	traits = {
+		#
+	}
+}

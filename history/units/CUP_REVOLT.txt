@@ -1,0 +1,291 @@
+##Division Templates##
+
+division_template = {
+	name = "Kuvâ-yi Seyyâre"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Hucüm Tümeni"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Topçu Tümeni"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+	}
+}
+
+##Units##
+
+units = {
+	division = {
+	name = "Kuvâ-yi Seyyâre"
+	location = "869"
+	division_template = "Kuvâ-yi Seyyâre"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Seyyâre"
+	location = "9763"
+	division_template = "Kuvâ-yi Seyyâre"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Seyyâre"
+	location = "9830"
+	division_template = "Kuvâ-yi Seyyâre"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Seyyâre"
+	location = "6965"
+	division_template = "Kuvâ-yi Seyyâre"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Seyyâre"
+	location = "3950"
+	division_template = "Kuvâ-yi Seyyâre"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Seyyâre"
+	location = "3965"
+	division_template = "Kuvâ-yi Seyyâre"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Seyyâre"
+	location = "975"
+	division_template = "Kuvâ-yi Seyyâre"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Topçu Tümeni"
+	location = "4124"
+	division_template = "Topçu Tümeni"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Topçu Tümeni"
+	location = "7143"
+	division_template = "Topçu Tümeni"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Topçu Tümeni"
+	location = "10056"
+	division_template = "Topçu Tümeni"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Topçu Tümeni"
+	location = "6956"
+	division_template = "Topçu Tümeni"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Topçu Tümeni"
+	location = "11810"
+	division_template = "Topçu Tümeni"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Topçu Tümeni"
+	location = "3921"
+	division_template = "Topçu Tümeni"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Seyyâre"
+	location = "6813"
+	division_template = "Kuvâ-yi Seyyâre"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Seyyâre"
+	location = "7620"
+	division_template = "Kuvâ-yi Seyyâre"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Hucüm Tümeni"
+	location = "9912"
+	division_template = "Hucüm Tümeni"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Hucüm Tümeni"
+	location = "11746"
+	division_template = "Hucüm Tümeni"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Hucüm Tümeni"
+	location = "6950"
+	division_template = "Hucüm Tümeni"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Hucüm Tümeni"
+	location = "6919"
+	division_template = "Hucüm Tümeni"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Seyyâre"
+	location = "11753"
+	division_template = "Kuvâ-yi Seyyâre"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Seyyâre"
+	location = "3714"
+	division_template = "Kuvâ-yi Seyyâre"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Seyyâre"
+	location = "9932"
+	division_template = "Kuvâ-yi Seyyâre"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Hucüm Tümeni"
+	location = "9868"
+	division_template = "Hucüm Tümeni"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Topçu Tümeni"
+	location = "9954"
+	division_template = "Topçu Tümeni"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Topçu Tümeni"
+	location = "10399"
+	division_template = "Topçu Tümeni"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Topçu Tümeni"
+	location = "876"
+	division_template = "Topçu Tümeni"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Topçu Tümeni"
+	location = "11759"
+	division_template = "Topçu Tümeni"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Hucüm Tümeni"
+	location = "9823"
+	division_template = "Hucüm Tümeni"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Hucüm Tümeni"
+	location = "6883"
+	division_template = "Hucüm Tümeni"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Hucüm Tümeni"
+	location = "1606"
+	division_template = "Hucüm Tümeni"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Hucüm Tümeni"
+	location = "7671"
+	division_template = "Hucüm Tümeni"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Hucüm Tümeni"
+	location = "7140"
+	division_template = "Hucüm Tümeni"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Seyyâre"
+	location = "1072"
+	division_template = "Kuvâ-yi Seyyâre"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Seyyâre"
+	location = "12029"
+	division_template = "Kuvâ-yi Seyyâre"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Seyyâre"
+	location = "3979"
+	division_template = "Kuvâ-yi Seyyâre"
+	start_experience_factor = 0.1
+	}
+
+}

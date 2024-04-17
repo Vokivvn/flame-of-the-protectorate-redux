@@ -1,0 +1,38 @@
+﻿capital = 321
+
+set_research_slots = 2
+
+set_convoys = 25
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	centralism = 0
+	socialism = 0
+	progressivism = 0
+	liberalism = 0
+	conservatism = 0
+	authoritarianism = 100
+	ultranationalism = 0
+}
+
+create_country_leader = {
+	name = "José Augusto Alves Roçadas"
+	desc = "POLITICS_JOSE_AUGUSTO_ALVES_ROCADAS_DESC"
+	picture = "Portrait_Portuguese_East_Indies_Jose_Augusto_Alves_Rocadas.dds"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+	traits = {
+		#
+	}
+}
+
+#add_ideas = {
+#	PEI_Corporatist_Experiment
+#	PEI_By_the_Pope
+#	PEI_Countryside_Insurgencies
+#}

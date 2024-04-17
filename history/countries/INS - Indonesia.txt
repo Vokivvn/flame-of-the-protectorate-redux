@@ -1,0 +1,77 @@
+﻿capital = 335 #Jakarta
+
+set_research_slots = 2
+
+set_convoys = 25
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1935.11.27"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	authoritarianism = 100
+}
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = HSU
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = LNK
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = LAN
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = ACE
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = DLI
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = BAL
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = GWA
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = JMB
+		autonomous_state = autonomy_satellite
+	}
+	else = {
+		puppet = HSU
+		puppet = LAN
+		puppet = LNK
+		puppet = ACE
+		puppet = DLI
+		puppet = BAL
+		puppet = GWA
+		puppet = JMB
+	}
+}
+
+create_country_leader = {
+	name = "Gerardus Johannes Berenschot"
+	desc = "LEADER_DESC_Gerardus_Johannes_Berenschot"
+	picture = "Portrait_INS_Gerardus_Johannes_Berenschot.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		
+	}
+}
+

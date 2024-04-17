@@ -1,0 +1,310 @@
+﻿add_namespace = collapse
+
+country_event = { #Collapse begins - Republic
+	id = collapse.1
+	title = collapse.1.t
+	desc = collapse.1.d
+	picture = GFX_report_event_mustafa_kemal
+
+	is_triggered_only = yes
+	
+	option = {
+		name = collapse.1.a
+		TRP = {
+			transfer_state = 49
+			add_state_core = 49
+			transfer_state = 346
+			add_state_core = 346
+			transfer_state = 348
+			add_state_core = 348
+			transfer_state = 349
+			add_state_core = 349
+			transfer_state = 355
+			add_state_core = 355
+			transfer_state = 892
+			add_state_core = 892
+			set_province_controller = 6978
+			set_province_controller = 6995
+			set_province_controller = 3967
+			set_province_controller = 3982
+			set_province_controller = 6938
+			set_province_controller = 6920
+			set_province_controller = 4112
+			set_province_controller = 12013
+			set_province_controller = 12016
+			set_province_controller = 909
+			set_province_controller = 6877
+			set_province_controller = 6962
+			set_province_controller = 7130
+			load_oob = TRP_REVOLT
+			declare_war_on = {
+    			target = TUR
+    			type = annex_everything
+			}
+			TUR = { 
+				load_oob = TUR_REVOLT
+				country_event = collapse.2 #Committee spawns
+			}
+		}
+	}
+ }
+
+
+country_event = { #Committee spawns
+	id = collapse.2
+	title = collapse.2.t
+	desc = collapse.2.d
+	picture = GFX_report_event_CUP_soldiers
+
+	is_triggered_only = yes
+	
+	option = {
+		name = collapse.2.a
+		CUP = {
+			transfer_state = 344
+			add_state_core = 344
+			transfer_state = 677
+			add_state_core = 677
+			transfer_state = 893
+			add_state_core = 893
+			transfer_state = 350
+			add_state_core = 350
+			transfer_state = 354
+			add_state_core = 354
+			transfer_state = 895
+			set_province_controller = 6965
+			set_province_controller = 6919
+			set_province_controller = 3950
+			set_province_controller = 6950
+			set_province_controller = 3965
+			set_province_controller = 975
+			set_province_controller = 9763
+			set_province_controller = 9830
+			set_province_controller = 869
+			load_oob = CUP_REVOLT
+			declare_war_on = {
+    			target = TUR
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = TRP
+    			type = annex_everything
+			}
+			TUR = { 
+				country_event = collapse.3 #Syria spawns
+			}
+		}
+	}
+ }
+
+
+ country_event = { #Syria spawns
+	id = collapse.3
+	title = collapse.3.t
+	desc = collapse.3.d
+	picture = GFX_report_event_syrian_rebels
+
+	is_triggered_only = yes
+	
+	option = {
+		name = collapse.3.a
+		SYR = {
+			transfer_state = 553
+			add_state_core = 553
+			transfer_state = 554
+			add_state_core = 554
+			transfer_state = 455
+			add_state_core = 455
+			add_state_core = 454
+			transfer_state = 680
+			add_state_core = 680
+			set_province_controller = 3942
+			set_province_controller = 1056
+			set_province_controller = 1088
+			set_province_controller = 1015
+			load_oob = SYR_REVOLT
+			declare_war_on = {
+    			target = TUR
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = TRP
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = CUP
+    			type = annex_everything
+			}
+			TUR = { 
+				country_event = collapse.4 #Kurdistan spawns
+			}
+		}
+	}
+ }
+
+country_event = { #Kurdistan spawns
+	id = collapse.4
+	title = collapse.4.t
+	desc = collapse.4.d
+	picture = GFX_report_event_kurdish_leaders
+
+	is_triggered_only = yes
+	
+	option = {
+		name = collapse.4.a
+		KUR = {
+			transfer_state = 894
+			add_state_core = 894
+			transfer_state = 676
+			add_state_core = 676
+			transfer_state = 896
+			add_state_core = 896
+			transfer_state = 352
+			add_state_core = 352
+			add_state_core = 895
+			transfer_state = 897
+			add_state_core = 897
+			add_state_core = 353
+			set_province_controller = 10882
+			set_province_controller = 901
+			set_province_controller = 11871
+			set_province_controller = 11756
+			set_province_controller = 1634
+			set_province_controller = 7530
+			set_province_controller = 12318
+			load_oob = KUR_REVOLT
+			declare_war_on = {
+    			target = TUR
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = TRP
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = CUP
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = SYR
+    			type = annex_everything
+			}
+			TUR = { 
+				country_event = collapse.5 #Armenia spawns
+			}
+		}
+	}
+}
+
+
+country_event = { #Armenia spawns
+	id = collapse.5
+	title = collapse.5.t
+	desc = collapse.5.d
+	picture = GFX_report_event_armenian_fedayeen
+
+	is_triggered_only = yes
+	
+	option = {
+		name = collapse.5.a
+		ARM = {
+			transfer_state = 356
+			add_state_core = 356
+			transfer_state = 353
+			add_state_core = 353
+			add_state_core = 352
+			add_state_core = 895
+			set_province_controller = 9858
+			set_province_controller = 6935
+			set_province_controller = 864
+			set_province_controller = 9886
+			set_province_controller = 11880
+			set_province_controller = 7470
+			load_oob = ARM_REVOLT
+			declare_war_on = {
+    			target = TUR
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = TRP
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = CUP
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = SYR
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = KUR
+    			type = annex_everything
+			}
+			TUR = { 
+				country_event = collapse.6 #Iraq spawns
+			}
+		}
+	}
+}
+
+
+country_event = { #Iraq spawns
+	id = collapse.6
+	title = collapse.6.t
+	desc = collapse.6.d
+	picture = GFX_report_event_wahhabi_cavalry
+
+	is_triggered_only = yes
+	
+	option = {
+		name = collapse.6.a
+		BAG = {
+			transfer_state = 675
+			add_state_core = 675
+			add_state_core = 897
+			transfer_state = 291
+			add_state_core = 291
+			add_state_core = 345
+			add_state_core = 656
+			add_state_core = 676
+			set_province_controller = 12372
+			set_province_controller = 1600
+			set_province_controller = 10106
+			set_province_controller = 10793
+			set_province_controller = 8123
+			set_province_controller = 2004
+			set_province_controller = 7077
+			set_province_controller = 78
+			load_oob = BAG_REVOLT
+			declare_war_on = {
+    			target = TUR
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = TRP
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = CUP
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = SYR
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = KUR
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = ARM
+    			type = annex_everything
+			}
+		}
+		news_event = {
+			id = global.2
+			days = 1
+		}
+	}
+}

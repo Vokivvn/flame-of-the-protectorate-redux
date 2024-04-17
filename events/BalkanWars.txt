@@ -1,0 +1,261 @@
+﻿add_namespace = BKW
+
+country_event = { # Croatia: YO FUCK SERBIA
+	id = BKW.1
+	title = BKW.1.t
+	desc = BKW.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # 
+		name = BKW.1.a
+		declare_war_on = {
+			target = SER
+			type = annex_everything
+		}
+	}
+}
+
+country_event = { # Serbia wins
+	id = BKW.2
+	title = BKW.2.t
+	desc = BKW.2.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # 
+		name = BKW.2.a
+		SER = {
+			add_state_core = 109
+			add_state_core = 104
+			add_state_core = 103
+			add_state_core = 847
+			set_cosmetic_tag = SER_YUG
+			hidden_effect = {
+				country_event = { id = BKW.5 days = 120 }
+			}
+		}
+	}
+}
+
+country_event = { # Croatia wins
+	id = BKW.3
+	title = BKW.3.t
+	desc = BKW.3.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # 
+		name = BKW.3.a
+		CRO = {
+			add_state_core = 105
+			add_state_core = 836
+			add_state_core = 835
+			add_state_core = 764
+			add_state_core = 107
+			add_state_core = 108
+			set_capital = 107
+			set_cosmetic_tag = CRO_YUG
+			hidden_effect = {
+				country_event = { id = BKW.4 days = 120 }
+			}
+		}
+	}
+}
+
+country_event = { # Croatia: YO FUCK HUNGARY
+	id = BKW.4
+	title = BKW.4.t
+	desc = BKW.4.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # 
+		name = BKW.4.a
+		declare_war_on = {
+			target = HUN
+			type = annex_everything
+		}
+	}
+}
+
+country_event = { # Serbia: YO FUCK HUNGARY
+	id = BKW.5
+	title = BKW.5.t
+	desc = BKW.5.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # 
+		name = BKW.5.a
+		declare_war_on = {
+			target = HUN
+			type = annex_everything
+		}
+	}
+}
+
+country_event = { # Hungary wins!
+	id = BKW.6
+	title = BKW.6.t
+	desc = BKW.6.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # 
+		name = BKW.6.a
+		if = {
+			limit = {
+				has_war_with = SER
+			}
+			white_peace = SER
+		}
+		if = {
+			limit = {
+				has_war_with = CRO
+			}
+			white_peace = CRO
+		}
+		transfer_state = 764
+		transfer_state = 835
+		transfer_state = 109
+		transfer_state = 103
+		transfer_state = 847
+	}
+}
+
+country_event = { # Serbia wins!
+	id = BKW.7
+	title = BKW.7.t
+	desc = BKW.7.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # 
+		name = BKW.7.a
+		white_peace = HUN
+		transfer_state = 45
+		hidden_effect = {
+			country_event = { id = BKW.10 days = 120 }
+		}
+	}
+}
+
+country_event = { # Croatia wins!
+	id = BKW.8
+	title = BKW.8.t
+	desc = BKW.8.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # 
+		name = BKW.8.a
+		white_peace = HUN
+		transfer_state = 45
+		hidden_effect = {
+			country_event = { id = BKW.9 days = 120 }
+		}
+	}
+}
+
+country_event = { # Croatia: YO FUCK BULGARIA
+	id = BKW.9
+	title = BKW.9.t
+	desc = BKW.9.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # 
+		name = BKW.9.a
+		declare_war_on = {
+			target = BUL
+			type = annex_everything
+		}
+	}
+}
+
+country_event = { # Serbia: YO FUCK BULGARIA
+	id = BKW.10
+	title = BKW.10.t
+	desc = BKW.10.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # 
+		name = BKW.10.a
+		declare_war_on = {
+			target = BUL
+			type = annex_everything
+		}
+	}
+}
+
+country_event = { # Bulgaria wins!
+	id = BKW.11
+	title = BKW.11.t
+	desc = BKW.11.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # 
+		name = BKW.11.a
+		if = {
+			limit = {
+				has_war_with = SER
+			}
+			white_peace = SER
+		}
+		if = {
+			limit = {
+				has_war_with = CRO
+			}
+			white_peace = CRO
+		}
+		transfer_state = 108
+	}
+}
+
+country_event = { # Serbia wins!
+	id = BKW.12
+	title = BKW.12.t
+	desc = BKW.12.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # 
+		name = BKW.12.a
+		white_peace = BUL
+		transfer_state = 838
+		transfer_state = 106
+		transfer_state = 731
+	}
+}
+
+country_event = { # Croatia wins!
+	id = BKW.13
+	title = BKW.13.t
+	desc = BKW.13.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # 
+		name = BKW.13.a
+		white_peace = BUL
+		transfer_state = 838
+		transfer_state = 106
+		transfer_state = 731
+	}
+}

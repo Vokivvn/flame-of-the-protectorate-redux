@@ -1,0 +1,42 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "infamy_hoi4"
+		position = { x= 1000 y= 4 }	
+		
+		iconType={
+			name ="infamy_bg"
+			spriteType = "GFX_generic_box_smallest"
+			position = { x=0 y=1 }
+			pdx_tooltip = "INFAMY_TITLE"
+			pdx_tooltip_delayed = "INFAMY_DESC"
+		}
+		
+		iconType = {
+			name = "infamy_flags"
+			spriteType = "GFX_infamy"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "Infamy"
+			position = { x=7 y=4 }
+			scale = 0.65
+			pdx_tooltip = "INFAMY_TITLE"
+			pdx_tooltip_delayed = "INFAMY_DESC"
+		}
+		
+		instantTextBoxType = {
+			name ="infamy_text"
+			position = { x= 23 y = 4 }
+			font = "hoi_18mbs"
+			text = "[?country_infamy]"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			
+			pdx_tooltip = "INFAMY_TITLE"
+			pdx_tooltip_delayed = "INFAMY_DESC"
+		}
+	}
+	
+}

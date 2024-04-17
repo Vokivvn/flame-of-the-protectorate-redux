@@ -1,0 +1,246 @@
+﻿capital = 361
+
+set_research_slots = 4
+set_stability = 0.75
+set_war_support = 0
+# Leg
+set_country_flag = USA_president_a_roosevelt
+set_country_flag = USA_whig_congress_1932
+set_country_flag = USA_progressive_senate_1932
+set_variable = {
+    var = USA_Archie_Whig_Love
+    value = 0.15
+}
+set_variable = {
+    var = USA_Archie_Dem_Love
+    value = 0.30
+}
+# Seg
+set_variable = {
+    var = USA_segregation_progress
+    value = .87
+}
+set_variable = {
+    var = USA_integrationist_progress
+    value = .14
+}
+
+# Patton
+set_country_flag = USA_d_lamb
+set_variable = {
+    var = filicycle
+    value = 1
+}
+set_variable = {
+    var = countrycycle
+    value = 1
+}
+load_focus_tree = USA_Starting_Out
+country_event = { # 1936 Election
+	id = USA_election_campaign.0
+	days = 152
+}
+country_event = { # 1936 Election
+	id = USAPresElection36.0
+	days = 307
+}
+country_event = { # Innaguration
+	id = USAPresElection36.12
+	days = 428
+}
+country_event = { # Strikes
+	id = USA.15
+	days = 121
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	early_fighter = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	cv_CAS1 = 1
+	naval_bomber1 = 1
+	CAS1 = 1
+	early_bomber = 1
+	superior_firepower = 1
+	base_strike = 1
+	motorised_infantry = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	marines = 1
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		early_carrier = 1
+		basic_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_torpedo = 1
+		sonar = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		improved_secondary_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		mtg_transport = 1
+		improved_airplane_launcher = 1
+	}
+	#add_ideas = MTG_naval_treaty_adherent
+}
+
+create_faction = "Managua Pact"
+add_to_faction = USA
+add_to_faction = RIO
+add_to_faction = CAN
+add_to_faction = COL
+add_to_faction = MOR
+add_to_faction = RIF
+add_to_faction = SIA
+add_to_faction = LIB
+add_to_faction = NMB
+add_to_faction = PHI
+
+set_politics = {
+	ruling_party = liberalism
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	liberalism = 32 
+	progressivism = 29
+	socialism = 15
+	conservatism = 24
+}
+
+create_country_leader = {
+	name = "Archibald Roosevelt"
+	desc = "POLITICS_ARCHIBALD_ROOSEVELT_DESC"
+	picture = "Portrait_USA_Archie_Roosevelt.dds"
+	expire = "1965.1.1"
+	ideology = classical_liberalism
+	traits = {
+		
+	}
+}
+
+add_ideas = {
+	USA_the_model_imperialist
+	USA_the_hotbed_of_socialism
+	USA_faux_freedom
+	# laws
+	industrial_bastion
+}
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = MOR
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = RIF
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = SIA
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = NMB
+		autonomous_state = autonomy_colonial_regime
+	}
+	set_autonomy = {
+		target = LIB
+		autonomous_state = autonomy_colonial_regime
+	}
+	set_autonomy = {
+		target = PHI
+		autonomous_state = autonomy_colonial_regime
+	}
+	set_autonomy = {
+		target = GYA
+		autonomous_state = autonomy_colonial_regime
+	}
+	else = {
+		puppet = MOR
+		puppet = RIF
+		puppet = SIA
+		puppet = NMB
+		puppet = LIB
+		puppet = PHI
+		puppet = GYA
+	}
+}
+
+GYA = { # annoying, but necessary
+	set_politics = {
+		ruling_party = authoritarianism
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		centralism = 0
+		socialism = 0
+		progressivism = 0
+		liberalism = 0
+		conservatism = 0
+		republicanism = 0
+		authoritarianism = 94
+		ultranationalism = 6
+	}
+}
+
+create_field_marshal = {
+	name = "Douglas MacArthur"
+	picture = "Portrait_USA_Douglas_MacArthur.dds"
+	traits = { brilliant_strategist harsh_leader infantry_officer }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}

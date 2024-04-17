@@ -1,0 +1,22 @@
+state={
+	id=914
+	name="STATE_914"
+	provinces={
+		10184 1306 10240 12228 7358 4338 12186 10199 10143
+	}
+	
+	history={
+		owner = SRW
+		add_core_of = SRW
+		add_core_of = SLU
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			10184 5
+		}
+	}
+	manpower=1356696
+	buildings_max_level_factor=1.000
+	state_category=town
+}

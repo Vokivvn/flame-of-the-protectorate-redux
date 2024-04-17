@@ -1,0 +1,28 @@
+﻿capital = 822
+
+set_politics = {
+	ruling_party = republicanism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	centralism = 0
+	socialism = 0
+	progressivism = 0
+	liberalism = 0
+	conservatism = 0
+	republicanism = 100
+	authoritarianism = 0
+	ultranationalism = 0
+}
+
+create_country_leader = {
+	name = "Thomas Nangle"
+	picture = "Leader_RHO_Thomas_Nangle.dds"
+	desc = "POLITICS_Thomas_Nangle_DESC"
+	expire = "1965.1.1"
+	ideology = republicanism_subtype
+	traits = {
+	}
+}

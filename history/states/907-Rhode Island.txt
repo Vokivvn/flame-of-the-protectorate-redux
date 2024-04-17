@@ -1,0 +1,26 @@
+state={
+	id=907
+	name="STATE_907"
+	provinces={
+		11830 
+	}
+	
+	history={
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			11830 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			11830 5
+		}
+	}
+	
+	manpower=686931
+	buildings_max_level_factor=1.000
+	state_category=city
+}

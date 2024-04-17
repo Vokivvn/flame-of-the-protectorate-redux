@@ -1,0 +1,22 @@
+state={
+	id=687
+	name="STATE_687"
+	manpower = 99000
+	state_category = pastoral
+	resources={ aluminium=64 }
+
+	history={
+		victory_points = {
+			12716 1
+		}
+		add_core_of = COL
+		owner = COL
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	
+	provinces={
+		12716 13232 13233
+	}
+}

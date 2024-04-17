@@ -1,0 +1,40 @@
+ideas = {
+	country = {
+		SIA_The_King_and_Himself = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = ENG_the_protectorate
+
+			modifier = {
+				stability_factor = 0.15
+				political_power_gain = -0.25
+				autonomy_gain = -0.01
+			}
+		}
+		SIA_Siamese_Revanchism = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = ENG_the_protectorate
+
+			modifier = {
+				war_support_factor = 0.15
+				ai_call_ally_desire_factor = -1
+				ai_join_ally_desire_factor = -1
+			}
+		}
+		SIA_Anti_American_Movement = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = ENG_the_protectorate
+
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.15
+				autonomy_gain = 0.01
+			}
+		}
+	}
+}

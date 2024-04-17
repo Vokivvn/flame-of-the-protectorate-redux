@@ -1,0 +1,26 @@
+
+state={
+	id=818
+	name="STATE_818"
+	manpower = 1923400
+	
+	state_category = rural
+
+	history={
+		owner = TUN
+		add_core_of = TUN
+		victory_points = {
+			1160 5 
+		}
+		victory_points = {
+			1141 1 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		7081 1160 11953 1058 1141 9943 4970 5035 8077 8061 4903
+	}
+}

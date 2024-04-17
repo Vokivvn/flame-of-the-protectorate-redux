@@ -1,0 +1,16 @@
+scripted_gui = {
+
+	army_people_gui = {
+		context_type = decision_category
+		window_name = "army_people"
+		visible = {
+			tag = ITA
+		}
+		
+		effects = {
+		}
+		
+		triggers = {
+		}
+	}
+}

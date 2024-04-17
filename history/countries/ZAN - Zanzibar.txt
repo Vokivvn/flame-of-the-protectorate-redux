@@ -1,0 +1,23 @@
+﻿capital = 908
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1935.6.9"
+	election_frequency = 12
+	elections_allowed = no
+}
+set_popularities = {
+	authoritarianism = 100
+}
+
+create_country_leader = {
+	name = "Ali bin Hamud"
+	desc = "POLITICS_ALI_BIN_HAMUD_DESC"
+	picture = "Portrait_Zanzibar_Ali_bin_Hamud.dds"
+	expire = "1953.3.1"
+	ideology = authoritarianism_subtype
+	traits = {
+		
+	}
+}
+

@@ -1,0 +1,21 @@
+
+state={
+	id=790
+	name="STATE_790"
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = CAN
+
+	}
+
+	provinces={
+		490 1426 1712 3208 3691 3911 6740 7364 7813 10176 11682 11902 12147 13166 13181 13184 13196 
+	}
+	manpower=5361
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

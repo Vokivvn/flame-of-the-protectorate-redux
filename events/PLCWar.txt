@@ -1,0 +1,420 @@
+﻿add_namespace = PLC
+
+country_event = { # For Ukrain, end war with Poland and Lithuania
+	id = PLC.1
+	title = PLC.1.t
+	desc = PLC.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Okay
+		name = PLC.1.a
+		POL = {
+			country_event = { id = PLC.2 days = 2 }
+		}
+		LIT = {
+			country_event = { id = PLC.2 days = 2 }
+		}	
+	}
+	option = { # Trotsky only, no
+		name = PLC.1.b
+		
+	}
+}
+
+country_event = { # For Lithuania and Poland, end war with Ukrain
+	id = PLC.2
+	title = PLC.2.t
+	desc = PLC.2.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # yes
+		name = PLC.2.a
+		ai_chance = {
+			factor = 75
+		}
+		hidden_effect = {
+			white_peace = UKR
+			white_peace = UKN
+		}
+	}
+	option = { # no
+		name = PLC.2.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { # For Ukrain, end war with Belarus
+	id = PLC.3
+	title = PLC.3.t
+	desc = PLC.3.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Okay
+		name = PLC.3.a
+		ai_chance = {
+			factor = 75
+		}
+		BLR = {
+			country_event = { id = PLC.4 days = 2 }
+		}
+	}
+	option = { # Trotsky only, no
+		name = PLC.3.b
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { # For Belarus, end war with Ukrain
+	id = PLC.4
+	title = PLC.4.t
+	desc = PLC.4.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Okay
+		name = PLC.4.a
+		ai_chance = {
+			factor = 75
+		}
+		if = {
+			limit = {
+				tag = UKN
+			}
+			UKN = {
+				transfer_state = 194
+			}
+		}
+		if = {
+			limit = {
+				tag = UKR
+			}
+			UKR = {
+				transfer_state = 194
+			}
+		}
+		hidden_effect = {
+			white_peace = UKR
+			white_peace = UKN
+		}
+		UKR = {
+			country_event = { id = PLC.1 days = 2 }
+		}	
+		UKN = {
+			country_event = { id = PLC.1 days = 2 }	
+		}	
+	}
+	option = { # no
+		name = PLC.4.b
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { # For Belarus, end war with Ukrain
+	id = PLC.5
+	title = PLC.5.t
+	desc = PLC.5.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Okay
+		name = PLC.5.a
+		UKR = {
+			country_event = { id = PLC.6 days = 2 }
+		}
+		UKN = {
+			country_event = { id = PLC.6 days = 2 }
+		}
+	}
+}
+
+country_event = { # For Ukrain, end war with Belarus
+	id = PLC.6
+	title = PLC.6.t
+	desc = PLC.6.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Okay
+		name = PLC.6.a
+		ai_chance = {
+			factor = 75
+		}
+		hidden_effect = {
+			white_peace = BLR
+			BLR = {
+				set_state_owner = 194
+			}
+		}
+		country_event = { id = PLC.1 days = 2 }
+		BLR = {
+			country_event = { id = PLC.11 days = 2 }
+		}
+	}
+	option = { # no
+		name = PLC.6.b
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = { # For Austria, end war with Poland (fires for POL)
+	id = PLC.7
+	title = PLC.7.t
+	desc = PLC.7.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Okay
+		name = PLC.7.a
+		hidden_effect = {
+			white_peace = AUS
+		}
+		AUS = { 
+			country_event = { id = AUS.13 days = 3} 
+			country_event = { id = FASH_AUS.1 days = 8} 
+			remove_ideas = AUS_the_time_for_liberation_1
+		}
+	}
+}
+
+country_event = { # For Poland, end war with Austria (fires for AUS)
+	id = PLC.8
+	title = PLC.8.t
+	desc = PLC.8.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # Okay
+		name = PLC.8.a
+		hidden_effect = {
+			white_peace = POL
+		}
+		AUS = {
+			puppet = GAL
+			transfer_state = 66
+			transfer_state = 67
+			add_state_core = 66
+			add_state_core = 67
+			set_country_flag = AUS_galicia_victory_flag
+			country_event = { id = AUS.13 days = 3}
+			country_event = { id = MONARCH_AUS.1 days = 1}
+			remove_ideas = AUS_the_time_for_liberation_1
+		}	
+		GAL = {
+			transfer_state = 762
+			transfer_state = 88
+			add_state_core = 762
+			add_state_core = 88
+			white_peace = POL
+		}
+	}
+}
+
+country_event = { # For Poland, VICTORY!
+	id = PLC.9
+	title = PLC.9.t
+	desc = PLC.9.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Okay
+		name = PLC.9.a
+		set_cosmetic_tag = POL_VIC
+	}
+}
+
+country_event = { # For Lithuania, VICTORY!
+	id = PLC.10
+	title = PLC.10.t
+	desc = PLC.10.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Okay
+		name = PLC.10.a
+		set_cosmetic_tag = LIT_VIC
+		set_capital = 10
+	}
+}
+
+country_event = { # For Belarus, end war with Poland and Lithuania
+	id = PLC.11
+	title = PLC.11.t
+	desc = PLC.11.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # Okay
+		name = PLC.11.a
+		POL = {
+			country_event = { id = PLC.12 days = 2 }
+		}
+		LIT = {
+			country_event = { id = PLC.12 days = 2 }
+		}
+	}
+}
+
+country_event = { # For Lithuania and Poland, end war with Belarus
+	id = PLC.12
+	title = PLC.12.t
+	desc = PLC.12.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # yes
+		name = PLC.12.a
+		ai_chance = {
+			factor = 75
+		}
+		hidden_effect = {
+			white_peace = BLR
+		}
+	}
+	option = { # no
+		name = PLC.12.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+add_namespace = introeventsPLC
+
+country_event = { # Poland
+	id = introeventsPLC.1
+	title = introeventsPLC.1.t
+	desc = introeventsPLC.1.d
+	picture = GFX_report_event_warsaw
+
+	is_triggered_only = yes
+	
+	option = { # Okay
+		name = introeventsPLC.1.a
+		drop_cosmetic_tag = yes
+	}
+}
+
+country_event = { # Lithuania
+	id = introeventsPLC.2
+	title = introeventsPLC.2.t
+	desc = introeventsPLC.2.d
+	picture = GFX_report_event_wilno
+
+	is_triggered_only = yes
+	
+	option = { # Okay
+		name = introeventsPLC.2.a
+	}
+}
+
+country_event = { # Belarus
+	id = introeventsPLC.3
+	title = introeventsPLC.3.t
+	desc = introeventsPLC.3.d
+	picture = GFX_report_event_belarus
+
+	is_triggered_only = yes
+	
+	option = { # Okay
+		name = introeventsPLC.3.a
+	}
+}
+
+country_event = { # Het Ukraine
+	id = introeventsPLC.4
+	title = introeventsPLC.4.t
+	desc = introeventsPLC.4.d
+	picture = GFX_report_event_hetmen_ukraine
+
+	is_triggered_only = yes
+	
+	option = { # Okay
+		name = introeventsPLC.4.a
+	}
+}
+
+country_event = { # Trot Ukraine
+	id = introeventsPLC.5
+	title = introeventsPLC.5.t
+	desc = introeventsPLC.5.d
+	picture = GFX_report_event_kiev
+
+	is_triggered_only = yes
+	
+	option = { # Okay
+		name = introeventsPLC.5.a
+	}
+}
+
+add_namespace = UKR
+
+country_event = { # Ukraine
+	id = UKR.1
+	title = UKR.1.t
+	desc = UKR.1.d
+	picture = GFX_report_event_warsaw
+
+	is_triggered_only = yes
+	
+	option = { # Okay
+		name = UKR.1.a
+		drop_cosmetic_tag = yes
+	}
+}
+
+country_event = { # Ukraine
+	id = UKR.30
+	title = UKR.30.t
+	desc = UKR.30.d
+	picture = GFX_report_event_warsaw
+
+	is_triggered_only = yes
+	
+	option = { # Okay
+		name = UKR.30.a
+		UKR = {
+			set_cosmetic_tag = UKR_free_territory
+		}
+		set_politics = {
+			ruling_party = socialism
+		}
+		set_party_name = {
+			ideology = socialism
+			long_name = UKR_RPAU_socialism_party_long
+			name = UKR_RPAU_socialism_party
+		}
+				create_country_leader = {
+			name = "Nestor Makhno"
+			desc = "POLITICS_Nesto_Makhno_DESC"
+			picture = "ITA_Nestor_Makhno.dds"
+			expire = "1965.1.1"
+			ideology = anarchism
+			traits = {
+				#
+			}
+	}
+}

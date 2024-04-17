@@ -1,0 +1,12 @@
+on_actions = {
+	on_startup = {
+	    effect = {
+	    	ENG = {
+	    		set_variable = { var = conservative_popularity value = 7 }
+	    		set_variable = { var = republican_popularity value = 4 }
+	    		set_variable = { var = progressive_popularity value = 5 }
+	    		set_variable = { var = liberals_popularity value = 4 }
+	    	}
+		}
+	}
+}

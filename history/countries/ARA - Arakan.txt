@@ -1,0 +1,75 @@
+﻿capital = 867
+
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	basic_light_tank = 1
+}
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	centralism = 0
+	socialism = 10
+	progressivism = 0
+	liberalism = 0
+	conservatism = 25
+	authoritarianism = 65
+	republicanism = 0
+	ultranationalism = 0
+}
+
+create_country_leader = {
+	name = "Abdul bin Hussein"
+	desc = "POLITICS_ABDUL_BIN_HUSSEIN_DESC"
+	picture = "Portrait_Arakan_Ne_Win.dds"
+	expire = "1965.1.1"
+	ideology = centralism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Aung San"
+	desc = "POLITICS_AUNG_SAN_DESC"
+	picture = "Portrait_Burma_Aung_San.dds"
+	expire = "1965.1.1"
+	ideology = socialism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ottama"
+	desc = "POLITICS_OTTAMA_DESC"
+	picture = "Portrait_Arakan_Ottama.dds"
+	expire = "1965.1.1"
+	ideology = conservatism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Mir Kassem"
+	desc = "POLITICS_MIR_KASSEM_DESC"
+	picture = "Portrait_Arakan_Mir_Kassem.dds"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+	traits = {
+		#
+	}
+}
+
+add_ideas = {
+	ARA_Sultanate_Without_a_Sultan
+	ARA_Islamic_State
+	ARA_Rohingya_Rakhine_Clashes
+}

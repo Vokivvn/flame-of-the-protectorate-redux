@@ -1,0 +1,21 @@
+state=
+{
+	id=102
+	name="STATE_102"
+	manpower = 1144300
+	
+	state_category = large_town
+	
+	history =
+	{
+		owner = AUS
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = AUS
+		add_core_of = SLV
+	}
+	provinces= {
+		596 665 3654 9596 6672
+		}
+	}

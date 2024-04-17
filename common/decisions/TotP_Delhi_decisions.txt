@@ -1,0 +1,577 @@
+RAJ_court = {
+	RAJ_resolve_court_issues = {
+		allowed = {
+			tag = RAJ 
+		}
+		available = {
+			NOT = {
+				RAJ = {
+					has_ideas = RAJ_netajis_court
+				}
+			}
+		}
+		is_good = no
+		days_mission_timeout = 14
+		timeout_effect = {
+			RAJ_weekly_support_down_5 = yes
+			activate_mission = RAJ_resolve_court_issues
+		}
+	}
+	
+	## Actual bills
+	RAJ_funnel_smugglers_from_Hyderabad = {
+		visible = {
+			tag = RAJ
+			hidden_trigger = {
+				has_country_flag = RAJ_our_place_in_the_world_law
+			}
+		}
+		available = { 
+			tag = RAJ
+			RAJ_bill_has_cabinet_support_international = yes
+			RAJ_bill_has_pop_support = yes
+			NOT = {
+				has_country_flag = RAJ_bill_process
+			}
+			
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = RAJ_bill_process
+		}
+		days_remove = 14
+		remove_effect = {
+			clr_country_flag = RAJ_bill_process
+			give_resource_rights = { receiver = RAJ state = 427 }
+		}
+	}
+	
+	RAJ_encourage_sikh_defectors = {
+		visible = {
+			tag = RAJ
+			country_exists = SIE
+			hidden_trigger = {
+				has_country_flag = RAJ_the_sikh_situation_law
+			}
+		}
+		available = { 
+			tag = RAJ
+			RAJ_bill_has_cabinet_support_international = yes
+			RAJ_bill_has_pop_support = yes
+			NOT = {
+				has_country_flag = RAJ_bill_process
+			}
+			
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = RAJ_bill_process
+		}
+		days_remove = 14
+		remove_effect = {
+			clr_country_flag = RAJ_bill_process
+			add_manpower = 20000
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 10000
+				producer = SIE
+			}
+		}
+	}
+	
+	RAJ_control_the_media = {
+		visible = {
+			tag = RAJ
+			hidden_trigger = {
+				has_country_flag = RAJ_private_meetings_law
+			}
+		}
+		available = { 
+			tag = RAJ
+			RAJ_bill_has_cabinet_support_auth = yes
+			RAJ_bill_has_pop_support = yes
+			NOT = {
+				has_country_flag = RAJ_bill_process
+			}
+			
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = RAJ_bill_process
+		}
+		days_remove = 14
+		remove_effect = {
+			clr_country_flag = RAJ_bill_process
+			RAJ_public_support_up_10 = yes
+			add_stability = 0.03
+		}
+	}
+	
+	RAJ_reuse_low_income_housing = {
+		visible = {
+			tag = RAJ
+			hidden_trigger = {
+				has_country_flag = RAJ_private_meetings_law
+			}
+		}
+		available = { 
+			tag = RAJ
+			RAJ_bill_has_cabinet_support_auth = yes
+			RAJ_bill_has_pop_support = yes
+			NOT = {
+				has_country_flag = RAJ_bill_process
+			}
+			
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = RAJ_bill_process
+		}
+		days_remove = 14
+		remove_effect = {
+			clr_country_flag = RAJ_bill_process
+			864 = {
+				damage_building = {
+					type = infrastructure
+					damage = 4
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+	
+	RAJ_seize_independant_armories = {
+		visible = {
+			tag = RAJ
+			hidden_trigger = {
+				has_country_flag = RAJ_talk_with_patel_law
+			}
+		}
+		available = { 
+			tag = RAJ
+			RAJ_bill_has_cabinet_support_auth = yes
+			RAJ_bill_has_pop_support = yes
+			NOT = {
+				has_country_flag = RAJ_bill_process
+			}
+			
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = RAJ_bill_process
+		}
+		days_remove = 14
+		remove_effect = {
+			clr_country_flag = RAJ_bill_process
+			add_offsite_building = { type = arms_factory level = 2 }
+		}
+	}
+	
+	RAJ_repurpose_noble_palaces = {
+		visible = {
+			tag = RAJ
+			hidden_trigger = {
+				has_country_flag = RAJ_the_revolution_continues_law
+			}
+		}
+		available = { 
+			tag = RAJ
+			RAJ_bill_has_cabinet_support_soc = yes
+			RAJ_bill_has_pop_support = yes
+			NOT = {
+				has_country_flag = RAJ_bill_process
+			}
+			
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = RAJ_bill_process
+		}
+		days_remove = 14
+		remove_effect = {
+			clr_country_flag = RAJ_bill_process
+			add_offsite_building = { type = industrial_complex level = 2 }
+		}
+	}
+	
+	RAJ_bread_lines_for_the_poor = {
+		visible = {
+			tag = RAJ
+			hidden_trigger = {
+				has_country_flag = RAJ_the_revolution_continues_law
+			}
+		}
+		available = { 
+			tag = RAJ
+			RAJ_bill_has_cabinet_support_soc = yes
+			RAJ_bill_has_pop_support = yes
+			NOT = {
+				has_country_flag = RAJ_bill_process
+			}
+			
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = RAJ_bill_process
+		}
+		days_remove = 14
+		remove_effect = {
+			clr_country_flag = RAJ_bill_process
+			add_political_power = 25
+			RAJ_public_support_up_5 = yes
+		}
+	}
+}
+
+RAJ_nepal_dealing = {
+
+	RAJ_occupy_kathmandu = {
+		visible = {
+			tag = RAJ
+		}
+		available = { 
+			tag = RAJ
+			divisions_in_state = {
+				state = 899
+				size > 3
+			}
+			NOT = {
+				has_country_flag = RAJ_occupy_kathmandu_done
+			}
+		}
+		highlight_states = {
+			state = 899
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			activate_mission = RAJ_occupation_of_kathmandu
+			set_country_flag = RAJ_occupy_kathmandu_done
+		}
+	}
+	
+	RAJ_occupation_of_kathmandu = {
+		available = {
+			always = no
+		}
+
+		activation = {
+			always = no #Triggered from effect
+		}
+		
+		cancel_trigger = {
+			divisions_in_state = {
+				state = 899
+				size < 3
+			}
+		}
+		
+		is_good = yes
+		days_mission_timeout = 180
+		timeout_effect = {
+			transfer_state = 899
+			add_state_core = 899
+			KAT = {
+				remove_state_core = 899
+			}
+		}
+		complete_effect = {
+			clr_country_flag = RAJ_occupy_kathmandu_done
+		}
+	}
+	
+	RAJ_occupy_gorkha = {
+		visible = {
+			tag = RAJ
+		}
+		available = { 
+			tag = RAJ
+			divisions_in_state = {
+				state = 323
+				size > 3
+			}
+			NOT = {
+				has_country_flag = RAJ_occupy_gorkha_done
+			}
+		}
+		highlight_states = {
+			state = 323
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			activate_mission = RAJ_occupation_of_gorkha
+			set_country_flag = RAJ_occupy_gorkha_done
+			NEP = {
+				give_military_access = RAJ
+			}
+		}
+	}
+	
+	RAJ_occupation_of_gorkha = {
+		available = {
+			always = no
+		}
+
+		activation = {
+			always = no #Triggered from effect
+		}
+		
+		cancel_trigger = {
+			divisions_in_state = {
+				state = 323
+				size < 3
+			}
+		}
+		
+		is_good = yes
+		days_mission_timeout = 180
+		timeout_effect = {
+			transfer_state = 323
+			add_state_core = 323
+			NEP = {
+				remove_state_core = 323
+				remove_state_core = 899
+			}
+		}
+		complete_effect = {
+			clr_country_flag = RAJ_occupy_gorkha_done
+		}
+	}
+
+}
+
+RAJ_nepal_dealing_ai = {
+	
+	RAJ_gorkha_move = {
+		allowed = {
+			country_exists = NEP
+			original_tag = RAJ
+			is_ai = yes
+		}
+		available = {
+			owns_state = 323
+		}
+
+		activation = {
+			country_exists = NEP
+			tag = RAJ
+		}
+		
+		cancel_trigger = {
+			divisions_in_state = {
+				state = 323
+				size < 3
+			}
+		}
+		
+		is_good = yes
+		days_mission_timeout = 720
+		timeout_effect = {
+			
+		}
+		complete_effect = {
+			
+		}
+	}
+	
+		RAJ_kathmandu_move = {
+		allowed = {
+			country_exists = KAT
+			original_tag = RAJ
+			is_ai = yes
+		}
+		available = {
+			owns_state = 899
+		}
+
+		activation = {
+			country_exists = KAT
+			tag = RAJ
+		}
+		
+		cancel_trigger = {
+			divisions_in_state = {
+				state = 899
+				size < 3
+			}
+		}
+		
+		is_good = yes
+		days_mission_timeout = 720
+		timeout_effect = {
+			
+		}
+		complete_effect = {
+			
+		}
+	}
+}
+
+RAJ_reconstruction = {
+
+	RAJ_action_1 = {
+		visible = {
+			tag = RAJ
+		}
+		available = { 
+			tag = RAJ
+			NOT = {
+				has_completed_focus = RAJ_safety_of_the_people
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			set_country_flag = RAJ_reconstructing
+		}
+		days_remove = 14
+		remove_effect = {
+			clr_country_flag = RAJ_reconstructing
+			swap_ideas = {
+				remove_idea = RAJ_little_recontruction_commitment
+				add_idea = RAJ_minor_recontruction_commitment
+			}
+			modify_timed_idea = {
+				idea = RAJ_minor_recontruction_commitment
+				days = 300
+			}
+			430 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			431 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			898 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	RAJ_action_2 = {
+		visible = {
+			tag = RAJ
+		}
+		available = { 
+			tag = RAJ
+			has_idea = RAJ_minor_recontruction_commitment
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			set_country_flag = RAJ_reconstructing
+		}
+		days_remove = 14
+		remove_effect = {
+			clr_country_flag = RAJ_reconstructing
+			swap_ideas = {
+				remove_idea = RAJ_minor_recontruction_commitment
+				add_idea = RAJ_heavy_recontruction_commitment
+			}
+			modify_timed_idea = {
+				idea = RAJ_heavy_recontruction_commitment
+				days = 300
+			}
+			432 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			436 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	RAJ_action_3 = {
+		visible = {
+			tag = RAJ
+		}
+		available = { 
+			tag = RAJ
+			has_idea = RAJ_heavy_recontruction_commitment
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			set_country_flag = RAJ_reconstructing
+		}
+		days_remove = 14
+		remove_effect = {
+			clr_country_flag = RAJ_reconstructing
+			swap_ideas = {
+				remove_idea = RAJ_heavy_recontruction_commitment
+				add_idea = RAJ_total_recontruction_commitment
+			}
+			modify_timed_idea = {
+				idea = RAJ_total_recontruction_commitment
+				days = 300
+			}
+			439 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			853 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			433 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+}

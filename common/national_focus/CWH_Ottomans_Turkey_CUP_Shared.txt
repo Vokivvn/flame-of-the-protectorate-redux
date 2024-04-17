@@ -1,0 +1,377 @@
+shared_focus = {
+	id = TUR_the_sick_mans_woes
+	icon = GFX_TUR_Ottomans_Pog
+	cost = 2.00
+
+	x = 8
+	y = 0
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TUR_the_sick_mans_woes"
+	}
+}
+
+shared_focus = {
+	id = TUR_the_pashas_report
+	icon = GFX_TUR_Ottomans_Pog
+	cost = 2.00
+
+	x = -1
+	y = 1
+
+	relative_position_id = TUR_the_sick_mans_woes
+	prerequisite = { focus = TUR_the_sick_mans_woes }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TUR_the_pashas_report"
+	}
+}
+
+shared_focus = {
+	id = TUR_meet_with_the_assembly
+	icon = GFX_TUR_Ottomans_Pog
+	cost = 2.00
+
+	x = 1
+	y = 1
+
+	relative_position_id = TUR_the_sick_mans_woes
+	prerequisite = { focus = TUR_the_sick_mans_woes }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TUR_meet_with_the_assembly"
+	}
+}
+
+shared_focus = {
+	id = TUR_begin_preparations_for_the_worst
+	icon = GFX_TUR_Ottomans_Pog
+	cost = 2.00
+
+	x = 0
+	y = 2
+
+	relative_position_id = TUR_the_sick_mans_woes
+	prerequisite = { focus = TUR_the_pashas_report }
+	prerequisite = { focus = TUR_meet_with_the_assembly }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TUR_begin_preparations_for_the_worst"
+	}
+}
+
+shared_focus = {
+	id = TUR_disarm_eastern_garrisons
+	icon = GFX_TUR_Ottomans_Pog
+	cost = 2.00
+
+	x = -1
+	y = 3
+
+	relative_position_id = TUR_the_sick_mans_woes
+	prerequisite = { focus = TUR_begin_preparations_for_the_worst }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TUR_disarm_eastern_garrisons"
+	}
+}
+
+shared_focus = {
+	id = TUR_call_to_the_faithful
+	icon = GFX_TUR_Ottomans_Pog
+	cost = 2.00
+
+	x = -1
+	y = 4
+
+	relative_position_id = TUR_the_sick_mans_woes
+	prerequisite = { focus = TUR_disarm_eastern_garrisons }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TUR_call_to_the_faithful"
+	}
+}
+
+
+shared_focus = {
+	id = TUR_nationalize_what_little_we_have
+	icon = GFX_TUR_Ottomans_Pog
+	cost = 2.00
+
+	x = 1
+	y = 3
+
+	relative_position_id = TUR_the_sick_mans_woes
+	prerequisite = { focus = TUR_begin_preparations_for_the_worst }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TUR_nationalize_what_little_we_have"
+	}
+}
+
+shared_focus = {
+	id = TUR_plead_to_europe
+	icon = GFX_TUR_Ottomans_Pog
+	cost = 2.00
+
+	x = 1
+	y = 4
+
+	relative_position_id = TUR_the_sick_mans_woes
+	prerequisite = { focus = TUR_nationalize_what_little_we_have }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TUR_plead_to_europe"
+	}
+}
+
+shared_focus = {
+	id = TUR_allah_help_us
+	icon = GFX_TUR_Ottomans_Pog
+	cost = 2.00
+
+	x = 0
+	y = 5
+
+	relative_position_id = TUR_the_sick_mans_woes
+	prerequisite = { focus = TUR_call_to_the_faithful }
+	prerequisite = { focus = TUR_plead_to_europe }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TUR_allah_help_us"
+	}
+}
+
+shared_focus = {
+	id = TUR_deal_with_the_seperatists
+	icon = GFX_TUR_Ottomans_Pog
+	cost = 2.00
+
+	x = -3
+	y = 2
+
+	relative_position_id = TUR_the_sick_mans_woes
+	prerequisite = { focus = TUR_the_pashas_report }
+	prerequisite = { focus = TUR_meet_with_the_assembly }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TUR_deal_with_the_seperatists"
+	}
+}
+
+shared_focus = {
+	id = TUR_target_the_atheist_rogues
+	icon = GFX_TUR_Ottomans_Pog
+	cost = 2.00
+
+	x = -3
+	y = 3
+
+	relative_position_id = TUR_the_sick_mans_woes
+	prerequisite = { focus = TUR_deal_with_the_seperatists }
+
+	mutually_exclusive = { focus = TUR_crush_the_heretics }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TUR_target_the_atheist_rogues"
+	}
+}
+
+shared_focus = {
+	id = TUR_reassure_the_loyal_minority
+	icon = GFX_TUR_Ottomans_Pog
+	cost = 2.00
+
+	x = -3
+	y = 4
+
+	relative_position_id = TUR_the_sick_mans_woes
+	prerequisite = { focus = TUR_target_the_atheist_rogues }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TUR_reassure_the_loyal_minority"
+	}
+}
+
+shared_focus = {
+	id = TUR_martial_law_in_damascus
+	icon = GFX_TUR_Ottomans_Pog
+	cost = 2.00
+
+	x = -3
+	y = 5
+
+	relative_position_id = TUR_the_sick_mans_woes
+	prerequisite = { focus = TUR_reassure_the_loyal_minority }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TUR_martial_law_in_damascus"
+	}
+}
+
+shared_focus = {
+	id = TUR_crush_the_heretics
+	icon = GFX_TUR_Ottomans_Pog
+	cost = 2.00
+
+	x = -5
+	y = 3
+
+	relative_position_id = TUR_the_sick_mans_woes
+	prerequisite = { focus = TUR_deal_with_the_seperatists }
+
+	mutually_exclusive = { focus = TUR_target_the_atheist_rogues }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TUR_crush_the_heretics"
+	}
+}
+
+shared_focus = {
+	id = TUR_keep_an_eye_on_ibn
+	icon = GFX_TUR_Ottomans_Pog
+	cost = 2.00
+
+	x = -5
+	y = 4
+
+	relative_position_id = TUR_the_sick_mans_woes
+	prerequisite = { focus = TUR_crush_the_heretics }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TUR_keep_an_eye_on_ibn"
+	}
+}
+
+shared_focus = {
+	id = TUR_break_tribal_unity
+	icon = GFX_TUR_Ottomans_Pog
+	cost = 2.00
+
+	x = -5
+	y = 5
+
+	relative_position_id = TUR_the_sick_mans_woes
+	prerequisite = { focus = TUR_keep_an_eye_on_ibn }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TUR_break_tribal_unity"
+	}
+}
+
+shared_focus = {
+	id = TUR_deal_with_the_internal_enemies
+	icon = GFX_TUR_Ottomans_Pog
+	cost = 2.00
+
+	x = 3
+	y = 2
+
+	relative_position_id = TUR_the_sick_mans_woes
+	prerequisite = { focus = TUR_the_pashas_report }
+	prerequisite = { focus = TUR_meet_with_the_assembly }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TUR_deal_with_the_internal_enemies"
+	}
+}
+
+shared_focus = {
+	id = TUR_target_the_republicans
+	icon = GFX_TUR_Ottomans_Pog
+	cost = 2.00
+
+	x = 3
+	y = 3
+
+	relative_position_id = TUR_the_sick_mans_woes
+	prerequisite = { focus = TUR_deal_with_the_internal_enemies }
+
+	mutually_exclusive = { focus = TUR_focus_on_the_true_threat }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TUR_target_the_republicans"
+	}
+}
+
+shared_focus = {
+	id = TUR_dissolve_the_national_assembly
+	icon = GFX_TUR_Ottomans_Pog
+	cost = 2.00
+
+	x = 3
+	y = 4
+
+	relative_position_id = TUR_the_sick_mans_woes
+	prerequisite = { focus = TUR_target_the_republicans }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TUR_dissolve_the_national_assembly"
+	}
+}
+
+shared_focus = {
+	id = TUR_isolate_the_ghazi_pasha
+	icon = GFX_TUR_Ottomans_Pog
+	cost = 2.00
+
+	x = 3
+	y = 5
+
+	relative_position_id = TUR_the_sick_mans_woes
+	prerequisite = { focus = TUR_dissolve_the_national_assembly }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TUR_isolate_the_ghazi_pasha"
+	}
+}
+
+shared_focus = {
+	id = TUR_focus_on_the_true_threat
+	icon = GFX_TUR_Ottomans_Pog
+	cost = 2.00
+
+	x = 5
+	y = 3
+
+	relative_position_id = TUR_the_sick_mans_woes
+	prerequisite = { focus = TUR_deal_with_the_internal_enemies }
+
+	mutually_exclusive = { focus = TUR_target_the_republicans }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TUR_focus_on_the_true_threat"
+	}
+}
+
+shared_focus = {
+	id = TUR_shut_down_young_officer_clubs
+	icon = GFX_TUR_Ottomans_Pog
+	cost = 2.00
+
+	x = 5
+	y = 4
+
+	relative_position_id = TUR_the_sick_mans_woes
+	prerequisite = { focus = TUR_focus_on_the_true_threat }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TUR_shut_down_young_officer_clubs"
+	}
+}
+
+shared_focus = {
+	id = TUR_ssearch_the_darkness
+	icon = GFX_TUR_Ottomans_Pog
+	cost = 2.00
+
+	x = 5
+	y = 5
+
+	relative_position_id = TUR_the_sick_mans_woes
+	prerequisite = { focus = TUR_shut_down_young_officer_clubs }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus TUR_ssearch_the_darkness"
+	}
+}

@@ -1,0 +1,64 @@
+USA_election_campaign = {
+	icon = usa_congress
+	picture = GFX_decision_USA_electoral_college
+	allowed = {
+		original_tag = USA
+	}
+	visible = {
+		has_country_flag = USA_election_season
+	}
+
+	priority = 101
+}
+
+USA_electoral_college = {
+	icon = usa_congress
+	picture = GFX_decision_USA_electoral_college
+	allowed = {
+		original_tag = USA
+	}
+	visible_when_empty = yes
+	scripted_gui = USA_the_electoral_college	
+
+	priority = 100
+}
+
+USA_faux_freedom_decisions = {
+	icon = usa_congress
+	picture = GFX_decision_USA_segregation
+	allowed = {
+		original_tag = USA
+	}
+	visible = {
+		original_tag = USA
+	}
+	priority = 99
+}
+
+USA_archies_legacy = {
+	icon = usa_congress
+	picture = GFX_decisions_USA_Archie_grave
+	allowed = {
+		original_tag = USA
+	}
+	visible = {
+		original_tag = USA
+		has_country_flag = USA_president_a_roosevelt
+	}
+	priority = 98
+}
+
+USA_filibuster = {
+	icon = usa_congress
+	allowed = {
+		original_tag = USA
+	}
+	visible = {
+		original_tag = USA
+		has_government = republicanism
+	}
+	visible_when_empty = yes
+	scripted_gui = filibuster_gui	
+
+	priority = 98
+}

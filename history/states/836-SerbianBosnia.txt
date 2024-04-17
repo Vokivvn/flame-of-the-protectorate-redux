@@ -1,0 +1,30 @@
+
+state={
+	id=836
+	name="STATE_836"
+	manpower =1100000
+	
+	
+	state_category = town
+	
+	resources={
+		aluminium=3 # was: 10
+	}
+
+	history={
+		owner = SER
+		victory_points = {
+			11899 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+		}
+		add_core_of = SER
+	}
+
+	provinces={
+		9591 11574 606 11572 6799 11741 11899 982
+	}
+}

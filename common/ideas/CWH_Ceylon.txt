@@ -1,0 +1,26 @@
+ideas = {
+	country = {
+		CEY_Tamil_Sinhala_Conflict = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = ENG_the_protectorate
+
+			modifier = {
+				stability_factor = -0.1
+			}
+		}
+		CEY_Long_Live_the_Revolution = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = ENG_the_protectorate
+
+			modifier = {
+				war_support_factor = 0.05
+				political_power_gain = 0.05
+				stability_factor = -0.15
+			}
+		}
+	}
+}

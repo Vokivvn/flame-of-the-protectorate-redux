@@ -1,0 +1,358 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_SOV_classes_bars"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_bars.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_worker_support_100"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_worker_support_100.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_worker_support_90"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_worker_support_90.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_worker_support_80"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_worker_support_80.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_worker_support_70"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_worker_support_70.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_worker_support_60"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_worker_support_60.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_worker_support_50"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_worker_support_50.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_worker_support_40"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_worker_support_40.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_worker_support_30"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_worker_support_30.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_worker_support_20"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_worker_support_20.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_worker_support_10"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_worker_support_10.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_worker_support_0"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_worker_support_0.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_worker_influence_100"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_worker_influence_100.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_worker_influence_90"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_worker_influence_90.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_worker_influence_80"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_worker_influence_80.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_worker_influence_70"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_worker_influence_70.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_worker_influence_60"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_worker_influence_60.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_worker_influence_50"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_worker_influence_50.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_worker_influence_40"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_worker_influence_40.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_worker_influence_30"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_worker_influence_30.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_worker_influence_20"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_worker_influence_20.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_worker_influence_10"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_worker_influence_10.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_worker_influence_0"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_worker_influence_0.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_noble_support_100"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_noble_support_100.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_noble_support_90"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_noble_support_90.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_noble_support_80"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_noble_support_80.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_noble_support_70"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_noble_support_70.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_noble_support_60"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_noble_support_60.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_noble_support_50"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_noble_support_50.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_noble_support_40"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_noble_support_40.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_noble_support_30"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_noble_support_30.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_noble_support_20"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_noble_support_20.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_noble_support_10"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_noble_support_10.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_noble_support_0"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_noble_support_0.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_noble_influence_100"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_noble_influence_100.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_noble_influence_90"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_noble_influence_90.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_noble_influence_80"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_noble_influence_80.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_noble_influence_70"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_noble_influence_70.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_noble_influence_60"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_noble_influence_60.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_noble_influence_50"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_noble_influence_50.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_noble_influence_40"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_noble_influence_40.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_noble_influence_30"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_noble_influence_30.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_noble_influence_20"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_noble_influence_20.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_noble_influence_10"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_noble_influence_10.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_noble_influence_0"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_noble_influence_0.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_army_support_100"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_army_support_100.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_army_support_90"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_army_support_90.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_army_support_80"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_army_support_80.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_army_support_70"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_army_support_70.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_army_support_60"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_army_support_60.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_army_support_50"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_army_support_50.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_army_support_40"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_army_support_40.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_army_support_30"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_army_support_30.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_army_support_20"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_army_support_20.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_army_support_10"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_army_support_10.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_army_support_0"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_army_support_0.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_army_influence_100"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_army_influence_100.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_army_influence_90"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_army_influence_90.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_army_influence_80"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_army_influence_80.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_army_influence_70"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_army_influence_70.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_army_influence_60"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_army_influence_60.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_army_influence_50"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_army_influence_50.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_army_influence_40"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_army_influence_40.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_army_influence_30"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_army_influence_30.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_army_influence_20"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_army_influence_20.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_army_influence_10"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_army_influence_10.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_army_influence_0"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_army_influence_0.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_duma_support_100"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_duma_support_100.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_duma_support_90"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_duma_support_90.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_duma_support_80"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_duma_support_80.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_duma_support_70"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_duma_support_70.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_duma_support_60"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_duma_support_60.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_duma_support_50"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_duma_support_50.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_duma_support_40"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_duma_support_40.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_duma_support_30"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_duma_support_30.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_duma_support_20"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_duma_support_20.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_duma_support_10"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_duma_support_10.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_duma_support_0"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_duma_support_0.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_duma_influence_100"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_duma_influence_100.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_duma_influence_90"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_duma_influence_90.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_duma_influence_80"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_duma_influence_80.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_duma_influence_70"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_duma_influence_70.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_duma_influence_60"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_duma_influence_60.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_duma_influence_50"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_duma_influence_50.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_duma_influence_40"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_duma_influence_40.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_duma_influence_30"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_duma_influence_30.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_duma_influence_20"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_duma_influence_20.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_duma_influence_10"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_duma_influence_10.dds"
+	}
+	spriteType = {
+		name = "totp_SOV_duma_influence_0"
+		texturefile = "gfx/interface/Russia_GUI/totp_SOV_duma_influence_0.dds"
+	}
+}

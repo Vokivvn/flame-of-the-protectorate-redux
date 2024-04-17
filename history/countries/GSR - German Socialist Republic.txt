@@ -1,0 +1,23 @@
+﻿capital = 64
+
+set_politics = {
+	ruling_party = centralism
+	last_election = "1934.8.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	centralism = 100
+}
+
+create_country_leader = {
+	name = "Karl Liebknecht"
+	desc = "LEADER_DESC_Karl_Liebknecht"
+	picture = "Karl_Liebknecht.dds"
+	expire = "1965.1.1"
+	ideology = centralism_subtype
+	traits = {
+		
+	}
+}

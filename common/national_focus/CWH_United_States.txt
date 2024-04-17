@@ -1,0 +1,53 @@
+focus_tree = {
+	id = USA_Starting_Out
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = USA
+		}
+	}
+	default = no
+	shared_focus = USA_archies_fireside_chat
+}
+
+#######################################################################################
+#Phillipines War ######################################################################
+focus_tree = {
+	id = USA_phillipines_war_progressive
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = USA
+		}
+	}
+	default = no
+	shared_focus = USA_the_phillipines_crisis_progressive
+}
+focus_tree = {
+	id = USA_phillipines_war_whigs
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = USA
+		}
+	}
+	default = no
+	shared_focus = USA_the_phillipines_crisis_whigs
+}
+focus_tree = {
+	id = USA_phillipines_war_democrats
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = USA
+		}
+	}
+	default = no
+	shared_focus = USA_the_phillipines_crisis_democrats
+}
+#Phillipines War ######################################################################
+#######################################################################################

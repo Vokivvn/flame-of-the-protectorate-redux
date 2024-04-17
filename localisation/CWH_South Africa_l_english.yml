@@ -1,0 +1,18 @@
+﻿l_english:
+ ## parties ##
+  SAF_centralism_party:0 "KPSA"
+  SAF_centralism_party_long:0 "Kommunistiese Party van Suid-Afrika"
+  SAF_socialism_party:0 "AP"
+  SAF_socialism_party_long:0 "Arbeidersparty"
+  SAF_progressivism_party:0 "-"
+  SAF_progressivism_party_long:0 "-"
+  SAF_liberalism_party:0 "-"
+  SAF_liberalism_party_long:0 "-"
+  SAF_conservatism_party:0 "Progressiewes"
+  SAF_conservatism_party_long:0 "Progressiewe Vereniging"
+  SAF_republicanism_party:0 "Het Volk (Moderates)"
+  SAF_republicanism_party_long:0 "Het Volk (Moderate)"
+  SAF_authoritarianism_party:0 "Het Volk (Radicals)"
+  SAF_authoritarianism_party_long:0 "Het Volk (Radicals)"
+  SAF_ultranationalism_party:0 "VP"
+  SAF_ultranationalism_party_long:0 "Verlossingsparty"

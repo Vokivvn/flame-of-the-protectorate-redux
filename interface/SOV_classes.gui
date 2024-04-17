@@ -1,0 +1,99 @@
+guiTypes = {
+	
+	containerWindowType = { 
+		name = "SOV_classes"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height = 532 }
+
+		iconType = {
+			name = "worker_support_bar"
+			position = { x = 15 y = 1 }
+			pdx_tooltip = SOV_GUI_worker_support_tt
+		}
+
+		iconType = { 
+			name = "worker_influence_bar"
+			position = { x = 74 y = 1 }
+			pdx_tooltip = SOV_GUI_worker_influence_tt
+		}
+
+		iconType = {
+			name = "noble_support_bar"
+			position = { x = 140 y = 1 }
+			pdx_tooltip = SOV_GUI_noble_support_tt
+		}
+
+		iconType = { 
+			name = "noble_influence_bar"
+			position = { x = 199 y = 1 }
+			pdx_tooltip = SOV_GUI_noble_influence_tt
+		}
+
+		iconType = { 
+			name = "army_support_bar"
+			position = { x = 265 y = 1 }
+			pdx_tooltip = SOV_GUI_army_support_tt
+		}
+
+		iconType = { 
+			name = "army_influence_bar"
+			position = { x = 324 y = 1 }
+			pdx_tooltip = SOV_GUI_army_influence_tt
+		}
+
+		iconType = { 
+			name = "duma_support_bar"
+			position = { x = 390 y = 1 }
+			pdx_tooltip = SOV_GUI_duma_support_tt
+		}
+
+		iconType = { 
+			name = "duma_influence_bar"
+			position = { x = 449 y = 1 }
+			pdx_tooltip = SOV_GUI_duma_influence_tt
+		}
+
+		iconType = {
+			name = "classes_bars"
+			spriteType = "GFX_SOV_classes_bars"
+			alwaystransparent = yes
+			position = { x = 5 y = -20 }
+		}
+
+		instantTextBoxType = {
+			name = "classes_names_workers"
+			position = { x = 13 y = 410 }
+			text = "Workers"
+			font = hoi_36header
+		}
+
+		instantTextBoxType = {
+			name = "classes_names_nobles"
+			position = { x = 144 y = 410 }
+			text = "Nobles"
+			font = hoi_36header
+		}
+
+		instantTextBoxType = {
+			name = "classes_names_army"
+			position = { x = 283 y = 410 }
+			text = "Army"
+			font = hoi_36header
+		}
+
+		instantTextBoxType = {
+			name = "classes_names_navy"
+			position = { x = 390 y = 410 }
+			text = "Council"
+			font = hoi_36header
+		}
+
+		instantTextBoxType = {
+			name = "classes_description"
+			position = { x = 10 y = 450 }
+			maxWidth = 500
+			text = SOV_classes_desc
+			font = hoi_16mbs
+		}
+	}
+}

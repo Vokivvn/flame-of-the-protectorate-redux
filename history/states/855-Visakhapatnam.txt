@@ -1,0 +1,14 @@
+state={
+	id=855
+	name="STATE_855"
+	provinces={
+		7297 
+	}
+	history={
+		owner = DEN
+		add_core_of = RAJ
+	}
+	manpower=1081021
+	state_category=city
+	buildings_max_level_factor=1.000
+}

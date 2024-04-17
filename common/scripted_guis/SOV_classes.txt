@@ -1,0 +1,47 @@
+scripted_gui = {
+
+	SOV_classes_GUI = {
+		context_type = decision_category
+		window_name = "SOV_classes"
+		visible = {
+			TAG = SOV
+		}
+
+		effects = {
+			
+		}
+
+		triggers = {
+			
+		}
+
+		properties = {
+			worker_support_bar = {
+				image = "[SOV_worker_support_bar]"
+			}
+			worker_influence_bar = {
+				image = "[SOV_worker_influence_bar]"
+			}
+			noble_support_bar = {
+				image = "[SOV_noble_support_bar]"
+			}
+			noble_influence_bar = {
+				image = "[SOV_noble_influence_bar]"
+			}
+			army_support_bar = {
+				image = "[SOV_army_support_bar]"
+			}
+			army_influence_bar = {
+				image = "[SOV_army_influence_bar]"
+			}
+			duma_support_bar = {
+				image = "[SOV_duma_support_bar]"
+			}
+			duma_influence_bar = {
+				image = "[SOV_duma_influence_bar]"
+			}
+		}		
+	}
+
+
+}

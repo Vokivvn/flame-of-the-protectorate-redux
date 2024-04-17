@@ -1,0 +1,43 @@
+defined_text = {
+	name = country_ideology
+	text = {
+		trigger = {
+			ROOT = {
+				has_government = centralism 
+			}
+		}
+		localization_key = centralism
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				has_country_flag = TOTP_red_ultnats_gov
+			}
+		}
+		localization_key = red_ultnats
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				has_country_flag = TOTP_orthodox_marx_gov
+			}
+		}
+		localization_key = orthodox_marx
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				has_country_flag = TOTP_utopian_socialism_gov
+			}
+		}
+		localization_key = utopian_socialism
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				has_country_flag = TOTP_revisionism_gov
+			}
+		}
+		localization_key = revisionism
+	}
+}

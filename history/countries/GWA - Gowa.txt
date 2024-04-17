@@ -1,0 +1,23 @@
+﻿capital = 887
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1934.8.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	authoritarianism = 100
+}
+
+create_country_leader = {
+	name = "Muhammad Tahur Muhibuddin"
+	desc = "LEADER_DESC_Muhammad_Tahur"
+	picture = "Muhammad_Tahur_Muhibuddin.dds"
+	expire = "1965.1.1"
+	ideology = colonial_government
+	traits = {
+		
+	}
+}

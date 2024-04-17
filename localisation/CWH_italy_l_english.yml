@@ -1,0 +1,473 @@
+﻿l_english:
+
+ ##ideas
+ ITA_years_of_the_sheep:0 "Years of the Sheep"
+ ITA_years_of_the_sheep_desc:0 "Italy would not exist in its current form if it were not for France. Austria opposed unification and even to this day retains integral Italian land, and without assistance from a different power Italy may well have remained a shattered land of bickering kings and states. However, French help came at a price; the monarchical powers were abandoned as the revolutionary Roman Republic was to be the focal point of foreign support. Italy is in the shadow of French interests, and bows to her will in most foreign policy. Fortunately, this means that Italy is also under French protection and has French support in its endeavors. Still, many would like to see Italy rise up and shine on her own, a truly equal power rather than a mere ward."
+ 
+ ITA_offset_of_power:0 "Offsetting the Balance"
+ ITA_offset_of_power_desc:0 "The Balance of Powers was engineered by the Austrian Empire in order to maintain some form of peace in Europe and the world. Of course, that meant that it was geared towards Austrian ideals and interests, and thus directly against Italy. Italy holds the Balance of Powers in extremely low regard and is perhaps the most likely of any nation to disregard it when taking action. The proud nation shall not bow to a system directly designed to keep it down and to prevent it from reclaiming its territory and harming Austrian interests."
+
+ ITA_impending_war_of_independence:0 "Impending War of Independence"
+ ITA_impending_war_of_independence_desc:0 "The Austrian model of Europe, designed and manipulated throughout the late 18th and 19th centuries, was perhaps one of the worst attempts at engineering a long-term peace in history. It created major hotspots that could easily erupt into war, such as the award of the Rhineland to France and the holding of a broken status quo in the Polish-Lithuanian Commonwealth. However, one of the most blatant moves of self-interest was the greedy self-award of Venice, which was desperately desired by the newly-unified Italy. Ever since, Italy has been preparing a war to retake its unjustly stolen land, but Venice is no longer the only goal. Austrian influence must be fully dismantled from the core, and Austria shall never be allowed to have an empire again. Only this way will Italy and Europe be safe from their machiavellian manipulations."
+ 
+ ITA_clean_party:0 ""Clean" Party"
+ ITA_clean_party_desc:0 ""
+ ITA_the_people_know:0 "The People Know"
+ ITA_the_people_know_desc:0 ""
+ ITA_the_people_know2:0 "The People Know"
+ ITA_the_people_know2_desc:0 ""
+ ITA_the_people_know3:0 "The People Know"
+ ITA_the_people_know3_desc:0 ""
+ ITA_the_people_know4:0 "The People Know"
+ ITA_the_people_know4_desc:0 ""
+ ITA_the_people_know4_5:0 "The People Know"
+ ITA_the_people_know4_5_desc:0 ""
+ 
+ ITA_media_on_side:0 "Media On Side"
+ ITA_media_on_side_desc:0 ""
+ ITA_clean_government:0 "Clean Government"
+ ITA_clean_government_desc:0 ""
+
+ ita_mass_mobilization_1:0 "Beginning the Mobilization"
+ ita_mass_mobilization_1_desc:0 ""
+ ita_mass_mobilization_2:0 "Mobilization Underway"
+ ita_mass_mobilization_2_desc:0 ""
+ ita_mass_mobilization_3:0 "Finalizing the Mobilization"
+ ita_mass_mobilization_3_desc:0 ""
+ ita_gun_production:0 "Modernizing Gun Production"
+ ita_gun_production_desc:0 ""
+ ita_military_research_effort:0 "Military Research Effort"
+ ita_military_research_effort_desc:0 ""
+ 
+ ITA_concessions_to_italy_1:0 "Concessions to Italy"
+ ITA_concessions_to_italy_1_desc:0 ""
+ ITA_concessions_to_italy_2:0 "Concessions to Italy"
+ ITA_concessions_to_italy_2_desc:0 ""
+ 
+ 
+ ITA_Starting_Out:0 "Starting Out"
+ ITA_Parri:0 "Parri's Tree"
+ ITA_Trentin:0 "Trentin's Tree"
+ ITA_Malvestiti:0 "Malvestiti's Tree"
+ ITA_Austria:0 "The Austrian War"
+ 
+  ##leader desc
+  POLITICS_Ferruccio_Parri_DESC:0 "The life of Ferruccio Parri was initially unremarkable - a classically educated high school teacher and journalist born in a middle class Piedmontese family, Parri’s rise to prominence was swift and sudden when he managed to become editor of the prestigious Milanese newspaper Corriere della Sera. Supportive of the Partito d’Azione’s policies, Parri turned the newspaper into one of the most authoritative pro-government voices in the country. After serving in the military and being decorated for bravery, Parri entered politics in his local PdAz section, and soon was noticed by party leader and soon to be president Carlo Rosselli.\n\nAn indefatigable worker, known for barricading himself in his office for days among piles of documents, eating only bread and salami and sleeping in a hammock above his desk, Parri soon became a personal protege of Rosselli, becoming minister of the interior before being designated as the new presidential candidate for the PdAz. Parri’s first daunting task was attempting to get out of the economic slump Italy found itself mired in, yet his attempts are only now starting to slowly bear fruit.\n\nTimes to come may be uncertain for Italy - political opposition to the government has never been stronger, and creeping dissent is starting to spread among the Italian cities while demagoguery takes hold. Despite generally enjoying great respect from the armed forces due to his past as a veteran, worrying reports reached Parri about officers’ cliques starting to form in opposition to the government. If these and the other issues plaguing the country aren’t solved by Parri and his administration, Italy’s grand dream of republican liberty in the heart of reactionary Europe might be put in jeopardy."
+  
+  # Traits
+  Romanus_Pontifex:0 "Romanus Pontifex"
+  
+  ## Parties
+  ITA_centralism_party:0 "PCd'I"
+  ITA_centralism_party_long:0 "Partito Comunista d'Italia"
+  ITA_socialism_party:0 "PSI"
+  ITA_socialism_party_long:0 "Partito Socialista Italiano"
+  ITA_progressivism_party:0 "PdAz"
+  ITA_progressivism_party_long:0 "Partito d'Azione"
+  ITA_liberalism_party:0 "PDS"
+  ITA_liberalism_party_long:0 "Partito Democratico Sociale"
+  ITA_conservatism_party:0 "MG "
+  ITA_conservatism_party_long:0 "Movimento Guelfo"
+  ITA_republicanism_party:0 "PE-A"
+  ITA_republicanism_party_long:0 "Partito Economico-Agrario"
+  ITA_authoritarianism_party:0 "LN"
+  ITA_authoritarianism_party_long:0 "Lista Nazionale"
+  ITA_ultranationalism_party:0 "FAd'AR"
+  ITA_ultranationalism_party_long:0 "Fasci Autonomi d'Azione Rivoluzionaria"
+  
+  ITA_ANI_republicanism_party:0 "ANI"
+  ITA_ANI_republicanism_party_long:0 "Associazione Nazionalista Italiana"
+  
+  ITA_futurist_republicanism_party:0 "PPF"
+  ITA_futurist_republicanism_party_long:0 "Partito Politico Futurista"
+ 
+ ## Intro Focus
+ ITA_the_heirs_of_mazzini:0 "The Heirs of Mazzini"
+ ITA_the_heirs_of_mazzini_desc:0 ""
+ 
+ ITA_address_lussu:0 "Address Lussu"
+ ITA_address_lussu_desc:0 ""
+ 
+ ITA_divert_funds_to_the_army:0 "Divert Funds to the Army"
+ ITA_divert_funds_to_the_army_desc:0 ""
+ 
+ ITA_skirmish_with_austria:0 "Skirmish With Austria"
+ ITA_skirmish_with_austria_desc:0 ""
+ 
+ ITA_unity_and_jingo:0 "Unity and Jingo"
+ ITA_unity_and_jingo_desc:0 ""
+ 
+ ITA_blackmail_the_guelphists:0 "Blackmail the Guelphists"
+ ITA_blackmail_the_guelphists_desc:0 ""
+ 
+ ITA_the_horseshoe_theory:0 "The Horseshoe Theory"
+ ITA_the_horseshoe_theory_desc:0 ""
+ 
+ ITA_the_words_of_roseelli:0 "The Words of Rosselli"
+ ITA_the_words_of_roseelli_desc:0 ""
+ 
+ ITA_secure_the_party:0 "Secure the Party"
+ ITA_secure_the_party_desc:0 ""
+ 
+ ITA_change_the_narrative:0 "Change the Narrative"
+ ITA_change_the_narrative_desc:0 ""
+ 
+ ITA_meet_with_trentin:0 "Meet With Trentin"
+ ITA_meet_with_trentin_desc:0 ""
+ 
+ ITA_rely_on_the_coalition:0 "Rely on the Coalition"
+ ITA_rely_on_the_coalition_desc:0 ""
+ 
+ ITA_oust_the_amoral:0 "Oust the Amoral"
+ ITA_oust_the_amoral_desc:0 ""
+ 
+ ## Parri's Tree
+ ITA_the_survival_of_government:0 "The Survival Of Government"
+ ITA_the_survival_of_government_desc:0 ""
+ 
+ ITA_the_old_ideas:0 "The Old Ideas"
+ ITA_the_old_ideas_desc:0 ""
+ 
+ ITA_disgrace_radicals:0 "Disgrace The Radicals"
+ ITA_disgrace_radicals_desc:0 ""
+ 
+ ITA_oppose_the_centralists:0 "Oppose The Centralist"
+ ITA_oppose_the_centralists_desc:0 ""
+ 
+ ITA_oppose_the_athiests:0 "Oppose The Athiests"
+ ITA_oppose_the_athiests_desc:0 ""
+ 
+ ITA_against_ultranationalism:0 "Against Ultranationalism"
+ ITA_against_ultranationalism_desc:0 ""
+ 
+ ITA_dio_e_popolo:0 "Dio e Popolo"
+ ITA_dio_e_popolo_desc:0 ""
+ 
+ ITA_distance_from_france:0 "Distance From France"
+ ITA_distance_from_france_desc:0 ""
+ 
+ ITA_sufficient_industrial_benefits:0 "Sufficient Industrial Benefits"
+ ITA_sufficient_industrial_benefits_desc:0 ""
+ 
+ ITA_strengthen_the_entente:0 "Strengthen The Entente"
+ ITA_strengthen_the_entente_desc:0 ""
+ 
+ ITA_business_cooperation:0 "Business Cooperation"
+ ITA_business_cooperation_desc:0 ""
+ 
+ ITA_tackle_organized_crime:0 "Tackle Organized Crime"
+ ITA_tackle_organized_crime_desc:0 ""
+ 
+ ITA_the_antimafia_commission:0 "The Antimafia Commission"
+ ITA_the_antimafia_commission_desc:0 ""
+ 
+ ITA_concessions_to_liberals:0 "Concession To Liberals"
+ ITA_concessions_to_liberals_desc:0 ""
+ 
+ ITA_benefits_to_business:0 "Benefits To Business"
+ ITA_benefits_to_business_desc:0 ""
+ 
+ ITA_formalize_the_left:0 "Formalize The Left"
+ ITA_formalize_the_left_desc:0 ""
+ 
+ ITA_action_for_stability:0 "Action For Stability"
+ ITA_action_for_stability_desc:0 ""
+ 
+ ITA_a_stable_government:0 "A Stable Government"
+ ITA_a_stable_government_desc:0 ""
+ 
+ ITA_the_hawks_benefit:0 "The Hawks Benefit"
+ ITA_the_hawks_benefit_desc:0 ""
+ 
+ ITA_put_down_the_commune:0 "Put Down The SR"
+ ITA_put_down_the_commune_desc:0 ""
+ 
+ ITA_clip_croatia:0 "Clip Croatia"
+ ITA_clip_croatia_desc:0 ""
+ 
+ ITA_relieve_albania:0 "Relieve Albania"
+ ITA_relieve_albania_desc:0 ""
+ 
+ ITA_army_of_liberation:0 "Army Of Liberation"
+ ITA_army_of_liberation_desc:0 ""
+ 
+ ITA_speak_softly_and_carry_a_big_stick:0 "Speak Softly And Carry A Big Stick"
+ ITA_speak_softly_and_carry_a_big_stick_desc:0 ""
+ 
+ ITA_the_accomplishments_of_democracy:0 "The Accomplishments Of Democracy"
+ ITA_the_accomplishments_of_democracy_desc:0 ""
+ 
+ ## Trentin's Tre
+ ITA_freedom_and_justice:0 "Freedom and Justice"
+ ITA_freedom_and_justice_desc:0 ""
+ 
+ ITA_rights_of_man:0 "The Rights of Man"
+ ITA_rights_of_man_desc:0 ""
+ 
+ ITA_autonomous_provinces:0 "Autonomous Status"
+ ITA_autonomous_provinces_desc:0 ""
+ 
+ ITA_frederalisms_benefits:0 "Federalism's Benefits"
+ ITA_frederalisms_benefits_desc:0 ""
+ 
+ ITA_pluralism_upon_italy:0 "Pluralism Upon Italy"
+ ITA_pluralism_upon_italy_desc:0 ""
+ 
+ ITA_deal_with_the_people:0 "Deal With the Pope"
+ ITA_deal_with_the_people_desc:0 ""
+ 
+ ITA_the_mans_market:0 "The Man's Market"
+ ITA_the_mans_market_desc:0 ""
+ 
+ ITA_the_freer_the_market:0 "The Freer the Market"
+ ITA_the_freer_the_market_desc:0 ""
+ 
+ ITA_state_nation_federalism:0 "State Nation Federalism"
+ ITA_state_nation_federalism_desc:0 ""
+ 
+ ITA_colonial_grants:0 "Colonial Grants"
+ ITA_colonial_grants_desc:0 ""
+ 
+ ITA_subsidies_for_southern_industry:0 "Subsidies For Southern Industry"
+ ITA_subsidies_for_southern_industry_desc:0 ""
+ 
+ ITA_attract_immigration:0 "Attract Immigration"
+ ITA_attract_immigration_desc:0 ""
+ 
+ ITA_assurance_of_profit:0 "Assurance of Profit"
+ ITA_assurance_of_profit_desc:0 ""
+ 
+ ITA_counter_unitary_systems:0 "Counter Unitary Systems"
+ ITA_counter_unitary_systems_desc:0 ""
+ 
+ ITA_oppose_authoritarian_systems:0 "Oppose Authoritarian Systems"
+ ITA_oppose_authoritarian_systems_desc:0 ""
+ 
+ ITA_support_the_flames_of_rebellion:0 "Support the Flames of Rebellion"
+ ITA_support_the_flames_of_rebellion_desc:0 ""
+ 
+ ITA_a_clean_and_functional_italy:0 "A Clean and Functional Italy"
+ ITA_a_clean_and_functional_italy_desc:0 ""
+ 
+ ITA_claim_the_entente:0 "Claim the Entente"
+ ITA_claim_the_entente_desc:0 ""
+ 
+ ITA_invite_hungary:0 "Invite Hungary"
+ ITA_invite_hungary_desc:0 ""
+ 
+ ITA_invite_ukraine:0 "Invite Ukraine"
+ ITA_invite_ukraine_desc:0 ""
+ 
+ ITA_invite_greece:0 "Invite Greece"
+ ITA_invite_greece_desc:0 ""
+ 
+ ## Malvestiti's Tree
+ ITA_federalization_of_italy:0 "Federalization of Italy"
+ ITA_federalization_of_italy_desc:0 ""
+ 
+ ITA_immediate_decolonization:0 "Immediate Decolonization"
+ ITA_immediate_decolonization_desc:0 ""
+ 
+ ITA_the_world_stage:0 "The World Stage"
+ ITA_the_world_stage_desc:0 ""
+ 
+ ITA_leave_the_entente:0 "Leave The Entente"
+ ITA_leave_the_entente_desc:0 ""
+ 
+ ITA_negotiate_with_the_people:0 "Negotiate With the People"
+ ITA_negotiate_with_the_people_desc:0 ""
+ 
+ ITA_decentralization:0 "Decentralization"
+ ITA_decentralization_desc:0 ""
+ 
+ ITA_the_welfare_of_the_people:0 "The Welfare of the People"
+ ITA_the_welfare_of_the_people_desc:0 ""
+ 
+ ITA_jobs_for_the_men:0 "Jobs For the Men"
+ ITA_jobs_for_the_men_desc:0 ""
+ 
+ ITA_roads_for_the_families:0 "Roads For the Men"
+ ITA_roads_for_the_families_desc:0 ""
+ 
+ ITA_churhces_for_all:0 "Churches For All"
+ ITA_churhces_for_all_desc:0 ""
+ 
+ ITA_the_new_face_of_italy:0 "The New Face of Italy"
+ ITA_the_new_face_of_italy_desc:0 ""
+ 
+ ITA_crack_down_on_radicals:0 "Crackdown On Radicals"
+ ITA_crack_down_on_radicals_desc:0 ""
+ 
+ ITA_support_regional_movements:0 "Support Regional Movements"
+ ITA_support_regional_movements_desc:0 ""
+ 
+ ITA_faith_in_the_lord:0 "Faith In The Lord"
+ ITA_faith_in_the_lord_desc:0 ""
+ 
+ ITA_passive_culture:0 "Passive Culture"
+ ITA_passive_culture_desc:0 ""
+ 
+ ITA_support_the_balance_of_power:0 "Support the Balance of Power"
+ ITA_support_the_balance_of_power_desc:0 ""
+ 
+ ITA_a_new_constitution:0 "A New Constitution"
+ ITA_a_new_constitution_desc:0 ""
+ 
+ ITA_global_neutrality:0 "Global Neutrality"
+ ITA_global_neutrality_desc:0 ""
+ 
+ ITA_rejoin_the_entente:0 "Rejoin the Entente"
+ ITA_rejoin_the_entente_desc:0 ""
+ 
+ ITA_catholic_education:0 "Catholic Education"
+ ITA_catholic_education_desc:0 ""
+ 
+ ITA_secular_education:0 "Secular Education"
+ ITA_secular_education_desc:0 ""
+ 
+ ITA_traditional_values:0 "Traditional Values"
+ ITA_traditional_values_desc:0 ""
+ 
+ ITA_way_for_progress:0 "Way For Progress"
+ ITA_way_for_progress_desc:0 ""
+ 
+ ITA_for_the_longevity_of_the_italian_confederation:0 "Long Live The Italian Confederation"
+
+ #WARTREE
+ ITA_the_beast_above:0 "The Beast Above"
+ ITA_the_beast_above_desc:0 ""
+ ITA_mass_mobilization:0 "Mass Mobilization"
+ ITA_mass_mobilization_desc:0 ""
+ ITA_protection_of_the_coast:0 "Protection of the Coast"
+ ITA_protection_of_the_coast_desc:0 ""
+ ITA_the_gift_of_flight:0 "The Gift of Flight"
+ ITA_the_gift_of_flight_desc:0 ""
+ ITA_expand_research_facilities:0 "Expand Research Facilities"
+ ITA_expand_research_facilities_desc:0 ""
+ ITA_emergency_conversion:0 "Emergency Conversion"
+ ITA_emergency_conversion_desc:0 ""
+ ITA_modernize_armaments:0 "Modernize Armaments"
+ ITA_modernize_armaments_desc:0 ""
+ ITA_draft_the_people:0 "Draft the People"
+ ITA_draft_the_people_desc:0 ""
+ ITA_boots_on_the_ground:0 "Boots on the Ground"
+ ITA_boots_on_the_ground_desc:0 ""
+ ITA_modern_techniques:0 "Modern Techniques"
+ ITA_modern_techniques_desc:0 ""
+ ITA_brothers_in_arms:0 "Brothers in Arms"
+ ITA_brothers_in_arms_desc:0 ""
+ ITA_family_of_the_rebellion:0 "Family of the Rebellion"
+ ITA_family_of_the_rebellion_desc:0 ""
+ ITA_the_slavs:0 "The Slavs of the Empire"
+ ITA_the_slavs_desc:0 ""
+ ITA_arms_of_the_north:0 "Arms of the North"
+ ITA_arms_of_the_north_desc:0 ""
+ ITA_prime_the_poles:0 "Prime the Poles"
+ ITA_prime_the_poles_desc:0 ""
+ ITA_against_the_empire_of_evil:0 "Against the Empire of Evil"
+ ITA_against_the_empire_of_evil_desc:0 ""
+ ITA_invade_the_conquests:0 "Invade the Conquests"
+ ITA_invade_the_conquests_desc:0 ""
+ ITA_arm_the_underground:0 "Arm the Underground"
+ ITA_arm_the_underground_desc:0 ""
+ ITA_modern_intelligence:0 "Modern Intelligence"
+ ITA_modern_intelligence_desc:0 ""
+ ITA_the_new_europe:0 "A New Europe"
+ ITA_the_new_europe_desc:0 ""
+ ITA_light_the_fuse:0 "Light the Fuse"
+ ITA_light_the_fuse_desc:0 ""
+ 
+ 
+ ## Events
+ 
+ ITA.0.t:0 "The Italian Republic"
+ ITA.0.d:0 "In blood and fire, Italy was forged. Gone were the illusions of a helping hand from Savoia, and the Pope's ambition to take the reins of Italian hegemony lay shattered in the wake of French and Austrian intervention. The peoples of the Peninsula - from Piedmont to Sicily - marched to their destiny on a path ridden by corpses. Led by Mazzini and the other heroes of the Risorgimento, Italian unification was brought about by a series of local revolts, starting with the proclamation of the Roman Republic in 1848 and continuing with a series of bloody struggles against reaction, finally culminating in the Third War of Independence.\n\nHalted at the river Adige, the new Republic finally established itself as a rising power, breaking off the shackles of the Habsburgs and taking its place among the European greats. Thanks to its alliance with the French Republic, the Italian state prospered, taking its place as a counterweight to the Austrian Empire. With many Italian territories still under Austrian control and rising tensions in Europe, it seems inevitable that Italy might be very soon headed towards another catastrophic war - one which may finally seal the status of Italy as an European power, or doom Mazzini’s dream once and for all."
+ ITA.0.a:0 "Viva l’Italia!"
+ 
+ ITA.1.t:0 "The Action Party"
+ ITA.1.d:0 "Initially founded by Giuseppe Mazzini, father of the Italian Republic, all the way back in 1853, the Partito d’Azione or PdAz has always been the dominant force in Italian politics. Espousing a fiercely republican and liberal socialist ideology, the PdAz has expressed the vast majority of leaders of the Republic, starting from Mazzini himself and other protagonists of the Risorgimento like Felice Cavallotti, all the way to recent times with statesmen like Carlo Rosselli and now Ferruccio Parri.\n\nHowever, the strengths of the PdAz also soon proved to be its weaknesses. Its economic policies, combining protectionism with extensive welfare legislation, were only a mixed success in industrializing Italy, which in many ways still lags behind other European countries. As a result, its hold on Italian politics has grown weaker, and opposition has taken root in the parliament and ballots of the Republic. The first of these is the resurgent Federalist Party, who demand a freer economy and reduction of bureaucracy. Second is the Guelph movement, an amalgamation of Italian Catholics long alienated by PdAz's fiercely pro-secular stance. As troublesome times loom in Italy’s future, one has to wonder if the hegemony of the PdAz will survive for long."
+ ITA.1.a:0 "We must safeguard the spirit of the Risorgimento."
+ 
+ ITA.2.t:0 "A Meeting With Lussu"
+ ITA.2.d:0 ""
+ ITA.2.a:0 ""
+ 
+ ITA.3.t:0 ""
+ ITA.3.d:0 ""
+ ITA.3.a:0 ""
+ 
+ ITA.4.t:0 ""
+ ITA.4.d:0 ""
+ ITA.4.a:0 ""
+ 
+ ITA.5.t:0 ""
+ ITA.5.d:0 ""
+ ITA.5.a:0 ""
+ 
+ ITA_AUS.1.t:0 ""
+ ITA_AUS.1.d:0 ""
+ ITA_AUS.1.a:0 ""
+ 
+ ITA_AUS.2.t:0 "The Straw To Break Our Back"
+ ITA_AUS.2.d:0 ""
+ ITA_AUS.2.a:0 "How Awful"
+ 
+ ITA_AUS.3.t:0 ""
+ ITA_AUS.3.d:0 ""
+ ITA_AUS.3.a:0 ""
+ 
+ ITA_CONCESSIONS_TO_ITALY:0 "Concession to Italy"
+ 
+ ITA.6.t:0 "Mazzini's Nightmare"
+ ITA.6.d:0 ""
+ ITA.6.a:0 ""
+ 
+ ITA.7.t:0 "One Last Huzzah for Roseelli!"
+ ITA.7.d:0 ""
+ ITA.7.a:0 ""
+ 
+ ITA.8.t:0 "Parri and the People"
+ ITA.8.d:0 ""
+ ITA.8.a:0 ""
+ 
+ ITA.9.t:0 "Concessions to the Liberals"
+ ITA.9.d:0 ""
+ ITA.9.a:0 ""
+ 
+ ITA.10.t:0 "Severing Ties"
+ ITA.10.d:0 ""
+ ITA.10.a:0 ""
+ 
+ ## gui 
+ ITA_army_rivalry:0 "The Politicized Army"
+ ITA_army_rivalry_desc:0 "\n\n\n\n\n\n\nInitially forged from the armed forces of the Roman Republic, the Italian military has so far substantially proven loyal to the PdAz led government. However, the economic crisis and the perceived ineffectiveness of the government are giving rise to small cliques of young officials, who are increasingly calling for a return to their radical, chauvinistic interpretation of Mazzini’s vision."
+ 
+ ITA_Lussu_Left_Leader:0 "§YEmilio\nLussu§!"
+ ITA_Dead_Left_Leader:0 "§YThe Leftists Are Gone§!"
+ ITA_Farinacci_Right_Leader:0 "§YRoberto\nFarinacci§!"
+ ITA_Dead_Right_Leader:0 "§YThe Rightists Are Gone§!"
+ ITA_LEFT_ARMY:0 "§RSocialist\nFaction§!"
+ ITA_RIGHT_ARMY:0 "§gNationalist\nFaction§!"
+ ITA_LEFT_ORGANIZATION:0 "Socialist Organization: [?ITA_socialist_army_power|%G0]"
+ ITA_RIGHT_ORGANIZATION:0 "Nationalist Organization: [?ITA_nationalist_army_power|%G0]"
+ 
+ ita_socialist_heavy:0 "The Army has §Rdominant socialist mobilization§!."
+ ita_socialist_leaning:0 "The Army has §Rminor socialist mobilization§!."
+ ita_balanced_division:0 "The Army has §Ya near even split§!."
+ ita_nationalist_leaning:0 "The Army has §gminor nationalist mobilization§!."
+ ita_nationalist_heavy:0 "The Army has §gdominant nationalist mobilization§!."
+ 
+ ita_socialist_gain:0 "§RThe socialists will somewhat gain mobilization in the army.\n§!"
+ ita_socialist_gain_medium:0 "§RThe socialists will gain mobilization in the army.\n§!"
+ ita_socialist_gain_large:0 "§RThe socialists will gain a large amount of mobilization in the army.\n§!"
+ ita_socialist_loss:0 "§RThe socialists will somewhat lose mobilization in the army.\n§!"
+ ita_socialist_loss_medium:0 "§RThe socialists will lose mobilization in the army.\n§!"
+ ita_socialist_loss_large:0 "§RThe socialists will lose a large amount of mobilization in the army.\n§!"
+ 
+ ita_nationalist_gain:0 "§gThe nationalists will somewhat gain mobilization in the army.\n§!"
+ ita_nationalist_gain_medium:0 "§gThe nationalists will gain mobilization in the army.\n§!"
+ ita_nationalist_gain_large:0 "§gThe nationalists will gain a large amount of mobilization in the army.\n§!"
+ ita_nationalist_loss:0 "§gThe nationalists will somewhat lose mobilization in the army.\n§!"
+ ita_nationalist_loss_medium:0 "§gThe nationalists will lose mobilization in the army.\n§!"
+ ita_nationalist_loss_large:0 "§gThe nationalists will lose a large amount of mobilization in the army.\n§!"
+ 

@@ -1,0 +1,4992 @@
+defined_text = {
+	name = USA_WHIG_measure
+	text = {
+		trigger = {
+			has_country_flag = USA_small_whig_campaign
+		}
+		localization_key = USA_small
+	}
+	text = {
+		trigger = {
+			has_country_flag = USA_medium_whig_campaign
+		}
+		localization_key = USA_medium
+	}
+	text = {
+		trigger = {
+			has_country_flag = USA_high_whig_campaign
+		}
+		localization_key = USA_high
+	}
+}
+
+defined_text = {
+	name = USA_DEM_measure
+	text = {
+		trigger = {
+			has_country_flag = USA_small_dem_campaign
+		}
+		localization_key = USA_small
+	}
+	text = {
+		trigger = {
+			has_country_flag = USA_medium_dem_campaign
+		}
+		localization_key = USA_medium
+	}
+	text = {
+		trigger = {
+			has_country_flag = USA_high_dem_campaign
+		}
+		localization_key = USA_high
+	}
+}
+
+defined_text = {
+	name = USA_PROG_measure
+	text = {
+		trigger = {
+			has_country_flag = USA_small_prog_campaign
+		}
+		localization_key = USA_small
+	}
+	text = {
+		trigger = {
+			has_country_flag = USA_medium_prog_campaign
+		}
+		localization_key = USA_medium
+	}
+	text = {
+		trigger = {
+			has_country_flag = USA_high_prog_campaign
+		}
+		localization_key = USA_high
+	}
+}
+
+defined_text = {
+	name = USA_REPUBLICAN_measure
+	text = {
+		trigger = {
+			has_country_flag = USA_small_republican_campaign
+		}
+		localization_key = USA_small
+	}
+	text = {
+		trigger = {
+			has_country_flag = USA_medium_republican_campaign
+		}
+		localization_key = USA_medium
+	}
+	text = {
+		trigger = {
+			has_country_flag = USA_high_republican_campaign
+		}
+		localization_key = USA_high
+	}
+}
+
+defined_text = {
+	name = USA_DEMOCRATS_ON_ARCHIE
+	text = {
+		trigger = {
+			check_variable = {
+				var = USA_Archie_Dem_Love
+				value = 0.00
+				compare = greater_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = USA_Archie_Dem_Love
+					value = 0.15
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = USA_Dems_Archie_Very_Low
+	}
+	
+	text = {
+		trigger = {
+			check_variable = {
+				var = USA_Archie_Dem_Love
+				value = 0.15
+				compare = greater_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = USA_Archie_Dem_Love
+					value = 0.25
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = USA_Dems_Archie_Low
+	}
+	
+	text = {
+		trigger = {
+			check_variable = {
+				var = USA_Archie_Dem_Love
+				value = 0.25
+				compare = greater_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = USA_Archie_Dem_Love
+					value = 0.50
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = USA_Dems_Archie_Medium
+	}
+	
+	text = {
+		trigger = {
+			check_variable = {
+				var = USA_Archie_Dem_Love
+				value = 0.50
+				compare = greater_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = USA_Archie_Dem_Love
+					value = 0.75
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = USA_Dems_Archie_High
+	}
+	
+	text = {
+		trigger = {
+			check_variable = {
+				var = USA_Archie_Dem_Love
+				value = 0.75
+				compare = greater_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = USA_Archie_Dem_Love
+					value = 0.85
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = USA_Dems_Archie_Very_High
+	}
+	
+	text = {
+		trigger = {
+			check_variable = {
+				var = USA_Archie_Dem_Love
+				value = 0.85
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = USA_Dems_Archie_Outstanding
+	}
+}
+
+defined_text = {
+	name = USA_WHIGS_ON_ARCHIE
+	text = {
+		trigger = {
+			check_variable = {
+				var = USA_Archie_Whig_Love
+				value = 0.00
+				compare = greater_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = USA_Archie_Whig_Love
+					value = 0.15
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = USA_Whigs_Archie_Very_Low
+	}
+	
+	text = {
+		trigger = {
+			check_variable = {
+				var = USA_Archie_Whig_Love
+				value = 0.15
+				compare = greater_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = USA_Archie_Whig_Love
+					value = 0.25
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = USA_Whigs_Archie_Low
+	}
+	
+	text = {
+		trigger = {
+			check_variable = {
+				var = USA_Archie_Whig_Love
+				value = 0.25
+				compare = greater_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = USA_Archie_Whig_Love
+					value = 0.50
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = USA_Whigs_Archie_Medium
+	}
+	
+	text = {
+		trigger = {
+			check_variable = {
+				var = USA_Archie_Whig_Love
+				value = 0.50
+				compare = greater_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = USA_Archie_Whig_Love
+					value = 0.75
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = USA_Whigs_Archie_High
+	}
+	
+	text = {
+		trigger = {
+			check_variable = {
+				var = USA_Archie_Whig_Love
+				value = 0.75
+				compare = greater_than_or_equals
+			}
+			NOT = {
+				check_variable = {
+					var = USA_Archie_Whig_Love
+					value = 0.85
+					compare = greater_than_or_equals
+				}
+			}
+		}
+		localization_key = USA_Whigs_Archie_Very_High
+	}
+	
+	text = {
+		trigger = {
+			check_variable = {
+				var = USA_Archie_Whig_Love
+				value = 0.85
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = USA_Whigs_Archie_Outstanding
+	}
+}
+
+
+defined_text = {
+	name = USA_President_Civil_Rights_Status
+	text = {
+		trigger = {
+			has_government = socialism
+		}
+		localization_key = USA_very_sympathetic_civil_rights
+	}
+	text = {
+		trigger = {
+			has_government = progressivism
+		}
+		localization_key = USA_sympathetic_civil_rights
+	}
+	text = {
+		trigger = {
+			has_government = liberalism
+		}
+		localization_key = USA_impartial_civil_rights
+	}
+	text = {
+		trigger = {
+			has_government = liberalism
+			has_country_leader = {
+				name = "Archibald Roosevelt"
+				ruling_only = yes
+			}
+			has_country_flag = USA_archie_awful
+		}
+		localization_key = USA_impartial_civil_rights
+	}
+	text = {
+		trigger = {
+			has_government = conservatism
+		}
+		localization_key = USA_against_civil_rights
+	}
+}
+
+defined_text = {
+	name = USA_segregation_discussion
+	text = {
+		trigger = {
+			has_country_flag = USA_gag_rule_lifted
+		}
+		localization_key = USA_yes_segregation_discussion
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_country_flag = USA_gag_rule_lifted
+			}
+		}
+		localization_key = USA_no_segregation_discussion
+	}
+}
+
+defined_text = {
+	name = SCRIPTED_LOC_NAME
+	text = {
+		trigger = {
+			check_variable = { filicycle = 1 }
+		}
+		localization_key = USA_d_lamb_fili
+	}
+	text = {
+		trigger = {
+			check_variable = { filicycle = 2 }
+		}
+		localization_key = USA_t_oriely_fili
+	}
+	text = {
+		trigger = {
+			check_variable = { filicycle = 3 }
+		}
+		localization_key = USA_dreben_fili
+	}
+	text = {
+		trigger = {
+			NOT = {
+				OR = {
+					check_variable = { filicycle = 1 }
+					check_variable = { filicycle = 2 }
+					check_variable = { filicycle = 3 }
+				}
+			}
+		}
+		localization_key = USA_no_one_fili
+	}
+}
+
+defined_text = {
+	name = SCRIPTED_LOC_NAME_FULL
+	text = {
+		trigger = {
+			check_variable = { filicycle = 1 }
+		}
+		localization_key = USA_d_lamb_fili_full
+	}
+	text = {
+		trigger = {
+			check_variable = { filicycle = 2 }
+		}
+		localization_key = USA_t_oriely_fili_full
+	}
+	text = {
+		trigger = {
+			check_variable = { filicycle = 3 }
+		}
+		localization_key = USA_dreben_fili_full
+	}
+}
+
+defined_text = {
+	name = SCRIPTED_LOC_BIRTH
+	text = {
+		trigger = {
+			check_variable = { filicycle = 1 }
+		}
+		localization_key = USA_d_lamb_DOB
+	}
+	text = {
+		trigger = {
+			check_variable = { filicycle = 2 }
+		}
+		localization_key = USA_t_oriely_DOB
+	}
+	text = {
+		trigger = {
+			check_variable = { filicycle = 3 }
+		}
+		localization_key = USA_dreben_DOB
+	}
+	text = {
+		trigger = {
+			NOT = {
+				OR = {
+					check_variable = { filicycle = 1 }
+					check_variable = { filicycle = 2 }
+					check_variable = { filicycle = 3 }
+				}
+			}
+		}
+		localization_key = USA_no_one_DOB
+	}
+}
+
+defined_text = {
+	name = SCRIPTED_LOC_LOYALTY
+	text = {
+		trigger = {
+			check_variable = { filicycle = 1 }
+		}
+		localization_key = USA_d_lamb_loyal
+	}
+	text = {
+		trigger = {
+			check_variable = { filicycle = 2 }
+		}
+		localization_key = USA_t_oriely_loyal
+	}
+	text = {
+		trigger = {
+			check_variable = { filicycle = 3 }
+		}
+		localization_key = USA_dreben_loyal
+	}
+	text = {
+		trigger = {
+			NOT = {
+				OR = {
+					check_variable = { filicycle = 1 }
+					check_variable = { filicycle = 2 }
+					check_variable = { filicycle = 3 }
+				}
+			}
+		}
+		localization_key = USA_no_one_loyal
+	}
+}
+
+defined_text = {
+	name = SCRIPTED_LOC_STRENGTH
+	text = {
+		trigger = {
+			check_variable = { filicycle = 1 }
+		}
+		localization_key = USA_d_lamb_strength
+	}
+	text = {
+		trigger = {
+			check_variable = { filicycle = 2 }
+		}
+		localization_key = USA_t_oriely_strength
+	}
+	text = {
+		trigger = {
+			check_variable = { filicycle = 3 }
+		}
+		localization_key = USA_dreben_strength
+	}
+	text = {
+		trigger = {
+			NOT = {
+				OR = {
+					check_variable = { filicycle = 1 }
+					check_variable = { filicycle = 2 }
+					check_variable = { filicycle = 3 }
+				}
+			}
+		}
+		localization_key = USA_no_one_strength
+	}
+}
+
+#### BEWARE THOSE WHO ENTER: UNITED arizonaS ELECTORAL COLLEGE ####
+
+defined_text = {
+	name = TOTP_alabama
+	text = {
+		trigger = {
+			check_variable = {
+				var = 367.US_progressive_popularity
+				value = 367.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 367.US_progressive_popularity
+				value = 367.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 367.US_progressive_popularity
+				value = 367.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_alabama
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 367.US_democrat_popularity
+				value = 367.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 367.US_democrat_popularity
+				value = 367.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 367.US_democrat_popularity
+				value = 367.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_alabama
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 367.US_whig_popularity
+				value = 367.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 367.US_whig_popularity
+				value = 367.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 367.US_whig_popularity
+				value = 367.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_alabama
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 367.US_socialist_popularity
+				value = 367.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 367.US_socialist_popularity
+				value = 367.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 367.US_socialist_popularity
+				value = 367.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_alabama
+	}
+}
+
+defined_text = {
+	name = TOTP_appalatia
+	text = {
+		trigger = {
+			check_variable = {
+				var = 484.US_progressive_popularity
+				value = 484.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 484.US_progressive_popularity
+				value = 484.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 484.US_progressive_popularity
+				value = 484.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_appalatia
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 484.US_democrat_popularity
+				value = 484.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 484.US_democrat_popularity
+				value = 484.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 484.US_democrat_popularity
+				value = 484.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_appalatia
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 484.US_whig_popularity
+				value = 484.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 484.US_whig_popularity
+				value = 484.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 484.US_whig_popularity
+				value = 484.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_appalatia
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 484.US_socialist_popularity
+				value = 484.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 484.US_socialist_popularity
+				value = 484.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 484.US_socialist_popularity
+				value = 484.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_appalatia
+	}
+}
+
+defined_text = {
+	name = TOTP_arizona
+	text = {
+		trigger = {
+			check_variable = {
+				var = 377.US_progressive_popularity
+				value = 377.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 377.US_progressive_popularity
+				value = 377.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 377.US_progressive_popularity
+				value = 377.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_arizona
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 377.US_democrat_popularity
+				value = 377.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 377.US_democrat_popularity
+				value = 377.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 377.US_democrat_popularity
+				value = 377.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_arizona
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 377.US_whig_popularity
+				value = 377.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 377.US_whig_popularity
+				value = 377.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 377.US_whig_popularity
+				value = 377.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_arizona
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 377.US_socialist_popularity
+				value = 377.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 377.US_socialist_popularity
+				value = 377.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 377.US_socialist_popularity
+				value = 377.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_arizona
+	}
+}
+
+defined_text = {
+	name = TOTP_caddo
+	text = {
+		trigger = {
+			check_variable = {
+				var = 372.US_progressive_popularity
+				value = 372.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 372.US_progressive_popularity
+				value = 372.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 372.US_progressive_popularity
+				value = 372.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_caddo
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 372.US_democrat_popularity
+				value = 372.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 372.US_democrat_popularity
+				value = 372.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 372.US_democrat_popularity
+				value = 372.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_caddo
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 372.US_whig_popularity
+				value = 372.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 372.US_whig_popularity
+				value = 372.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 372.US_whig_popularity
+				value = 372.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_caddo
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 372.US_socialist_popularity
+				value = 372.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 372.US_socialist_popularity
+				value = 372.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 372.US_socialist_popularity
+				value = 372.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_caddo
+	}
+}
+
+defined_text = {
+	name = TOTP_california
+	text = {
+		trigger = {
+			check_variable = {
+				var = 378.US_progressive_popularity
+				value = 378.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 378.US_progressive_popularity
+				value = 378.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 378.US_progressive_popularity
+				value = 378.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_california
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 378.US_democrat_popularity
+				value = 378.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 378.US_democrat_popularity
+				value = 378.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 378.US_democrat_popularity
+				value = 378.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_california
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 378.US_whig_popularity
+				value = 378.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 378.US_whig_popularity
+				value = 378.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 378.US_whig_popularity
+				value = 378.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_california
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 378.US_socialist_popularity
+				value = 378.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 378.US_socialist_popularity
+				value = 378.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 378.US_socialist_popularity
+				value = 378.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_california
+	}
+}
+
+defined_text = {
+	name = TOTP_cheyene
+	text = {
+		trigger = {
+			check_variable = {
+				var = 390.US_progressive_popularity
+				value = 390.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 390.US_progressive_popularity
+				value = 390.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 390.US_progressive_popularity
+				value = 390.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_cheyene
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 390.US_democrat_popularity
+				value = 390.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 390.US_democrat_popularity
+				value = 390.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 390.US_democrat_popularity
+				value = 390.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_cheyene
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 390.US_whig_popularity
+				value = 390.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 390.US_whig_popularity
+				value = 390.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 390.US_whig_popularity
+				value = 390.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_cheyene
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 390.US_socialist_popularity
+				value = 390.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 390.US_socialist_popularity
+				value = 390.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 390.US_socialist_popularity
+				value = 390.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_cheyene
+	}
+}
+
+defined_text = {
+	name = TOTP_conn
+	text = {
+		trigger = {
+			check_variable = {
+				var = 906.US_progressive_popularity
+				value = 906.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 906.US_progressive_popularity
+				value = 906.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 906.US_progressive_popularity
+				value = 906.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_conn
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 906.US_democrat_popularity
+				value = 906.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 906.US_democrat_popularity
+				value = 906.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 906.US_democrat_popularity
+				value = 906.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_conn
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 906.US_whig_popularity
+				value = 906.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 906.US_whig_popularity
+				value = 906.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 906.US_whig_popularity
+				value = 906.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_conn
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 906.US_socialist_popularity
+				value = 906.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 906.US_socialist_popularity
+				value = 906.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 906.US_socialist_popularity
+				value = 906.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_conn
+	}
+}
+
+defined_text = {
+	name = TOTP_cuba
+	text = {
+		trigger = {
+			check_variable = {
+				var = 315.US_progressive_popularity
+				value = 315.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 315.US_progressive_popularity
+				value = 315.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 315.US_progressive_popularity
+				value = 315.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_cuba
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 315.US_democrat_popularity
+				value = 315.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 315.US_democrat_popularity
+				value = 315.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 315.US_democrat_popularity
+				value = 315.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_cuba
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 315.US_whig_popularity
+				value = 315.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 315.US_whig_popularity
+				value = 315.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 315.US_whig_popularity
+				value = 315.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_cuba
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 315.US_socialist_popularity
+				value = 315.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 315.US_socialist_popularity
+				value = 315.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 315.US_socialist_popularity
+				value = 315.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_cuba
+	}
+}
+
+defined_text = {
+	name = TOTP_dallas
+	text = {
+		trigger = {
+			check_variable = {
+				var = 788.US_progressive_popularity
+				value = 788.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 788.US_progressive_popularity
+				value = 788.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 788.US_progressive_popularity
+				value = 788.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_dallas
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 788.US_democrat_popularity
+				value = 788.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 788.US_democrat_popularity
+				value = 788.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 788.US_democrat_popularity
+				value = 788.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_dallas
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 788.US_whig_popularity
+				value = 788.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 788.US_whig_popularity
+				value = 788.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 788.US_whig_popularity
+				value = 788.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_dallas
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 788.US_socialist_popularity
+				value = 788.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 788.US_socialist_popularity
+				value = 788.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 788.US_socialist_popularity
+				value = 788.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_dallas
+	}
+}
+
+defined_text = {
+	name = TOTP_deleware
+	text = {
+		trigger = {
+			check_variable = {
+				var = 382.US_progressive_popularity
+				value = 382.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 382.US_progressive_popularity
+				value = 382.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 382.US_progressive_popularity
+				value = 382.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_deleware
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 382.US_democrat_popularity
+				value = 382.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 382.US_democrat_popularity
+				value = 382.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 382.US_democrat_popularity
+				value = 382.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_deleware
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 382.US_whig_popularity
+				value = 382.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 382.US_whig_popularity
+				value = 382.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 382.US_whig_popularity
+				value = 382.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_deleware
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 382.US_socialist_popularity
+				value = 382.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 382.US_socialist_popularity
+				value = 382.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 382.US_socialist_popularity
+				value = 382.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_deleware
+	}
+}
+
+defined_text = {
+	name = TOTP_florida
+	text = {
+		trigger = {
+			check_variable = {
+				var = 366.US_progressive_popularity
+				value = 366.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 366.US_progressive_popularity
+				value = 366.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 366.US_progressive_popularity
+				value = 366.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_florida
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 366.US_democrat_popularity
+				value = 366.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 366.US_democrat_popularity
+				value = 366.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 366.US_democrat_popularity
+				value = 366.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_florida
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 366.US_whig_popularity
+				value = 366.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 366.US_whig_popularity
+				value = 366.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 366.US_whig_popularity
+				value = 366.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_florida
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 366.US_socialist_popularity
+				value = 366.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 366.US_socialist_popularity
+				value = 366.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 366.US_socialist_popularity
+				value = 366.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_florida
+	}
+}
+
+defined_text = {
+	name = TOTP_georgia
+	text = {
+		trigger = {
+			check_variable = {
+				var = 365.US_progressive_popularity
+				value = 365.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 365.US_progressive_popularity
+				value = 365.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 365.US_progressive_popularity
+				value = 365.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_georgia
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 365.US_democrat_popularity
+				value = 365.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 365.US_democrat_popularity
+				value = 365.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 365.US_democrat_popularity
+				value = 365.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_georgia
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 365.US_whig_popularity
+				value = 365.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 365.US_whig_popularity
+				value = 365.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 365.US_whig_popularity
+				value = 365.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_georgia
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 365.US_socialist_popularity
+				value = 365.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 365.US_socialist_popularity
+				value = 365.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 365.US_socialist_popularity
+				value = 365.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_georgia
+	}
+}
+
+defined_text = {
+	name = TOTP_haiti
+	text = {
+		trigger = {
+			check_variable = {
+				var = 318.US_progressive_popularity
+				value = 318.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 318.US_progressive_popularity
+				value = 318.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 318.US_progressive_popularity
+				value = 318.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_haiti
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 318.US_democrat_popularity
+				value = 318.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 318.US_democrat_popularity
+				value = 318.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 318.US_democrat_popularity
+				value = 318.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_haiti
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 318.US_whig_popularity
+				value = 318.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 318.US_whig_popularity
+				value = 318.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 318.US_whig_popularity
+				value = 318.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_haiti
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 318.US_socialist_popularity
+				value = 318.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 318.US_socialist_popularity
+				value = 318.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 318.US_socialist_popularity
+				value = 318.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_haiti
+	}
+}
+
+defined_text = {
+	name = TOTP_hamlin
+	text = {
+		trigger = {
+			check_variable = {
+				var = 387.US_progressive_popularity
+				value = 387.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 387.US_progressive_popularity
+				value = 387.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 387.US_progressive_popularity
+				value = 387.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_hamlin
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 387.US_democrat_popularity
+				value = 387.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 387.US_democrat_popularity
+				value = 387.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 387.US_democrat_popularity
+				value = 387.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_hamlin
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 387.US_whig_popularity
+				value = 387.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 387.US_whig_popularity
+				value = 387.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 387.US_whig_popularity
+				value = 387.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_hamlin
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 387.US_socialist_popularity
+				value = 387.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 387.US_socialist_popularity
+				value = 387.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 387.US_socialist_popularity
+				value = 387.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_hamlin
+	}
+}
+
+defined_text = {
+	name = TOTP_illinois
+	text = {
+		trigger = {
+			check_variable = {
+				var = 395.US_progressive_popularity
+				value = 395.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 395.US_progressive_popularity
+				value = 395.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 395.US_progressive_popularity
+				value = 395.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_illinois
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 395.US_democrat_popularity
+				value = 395.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 395.US_democrat_popularity
+				value = 395.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 395.US_democrat_popularity
+				value = 395.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_illinois
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 395.US_whig_popularity
+				value = 395.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 395.US_whig_popularity
+				value = 395.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 395.US_whig_popularity
+				value = 395.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_illinois
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 395.US_socialist_popularity
+				value = 395.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 395.US_socialist_popularity
+				value = 395.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 395.US_socialist_popularity
+				value = 395.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_illinois
+	}
+}
+
+defined_text = {
+	name = TOTP_iowa
+	text = {
+		trigger = {
+			check_variable = {
+				var = 392.US_progressive_popularity
+				value = 392.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 392.US_progressive_popularity
+				value = 392.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 392.US_progressive_popularity
+				value = 392.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_iowa
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 392.US_democrat_popularity
+				value = 392.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 392.US_democrat_popularity
+				value = 392.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 392.US_democrat_popularity
+				value = 392.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_iowa
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 392.US_whig_popularity
+				value = 392.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 392.US_whig_popularity
+				value = 392.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 392.US_whig_popularity
+				value = 392.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_iowa
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 392.US_socialist_popularity
+				value = 392.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 392.US_socialist_popularity
+				value = 392.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 392.US_socialist_popularity
+				value = 392.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_iowa
+	}
+}
+
+defined_text = {
+	name = TOTP_kansas
+	text = {
+		trigger = {
+			check_variable = {
+				var = 383.US_progressive_popularity
+				value = 383.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 383.US_progressive_popularity
+				value = 383.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 383.US_progressive_popularity
+				value = 383.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_kansas
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 383.US_democrat_popularity
+				value = 383.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 383.US_democrat_popularity
+				value = 383.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 383.US_democrat_popularity
+				value = 383.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_kansas
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 383.US_whig_popularity
+				value = 383.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 383.US_whig_popularity
+				value = 383.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 383.US_whig_popularity
+				value = 383.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_kansas
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 383.US_socialist_popularity
+				value = 383.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 383.US_socialist_popularity
+				value = 383.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 383.US_socialist_popularity
+				value = 383.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_kansas
+	}
+}
+
+defined_text = {
+	name = TOTP_kentucky
+	text = {
+		trigger = {
+			check_variable = {
+				var = 369.US_progressive_popularity
+				value = 369.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 369.US_progressive_popularity
+				value = 369.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 369.US_progressive_popularity
+				value = 369.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_kentucky
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 369.US_democrat_popularity
+				value = 369.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 369.US_democrat_popularity
+				value = 369.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 369.US_democrat_popularity
+				value = 369.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_kentucky
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 369.US_whig_popularity
+				value = 369.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 369.US_whig_popularity
+				value = 369.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 369.US_whig_popularity
+				value = 369.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_kentucky
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 369.US_socialist_popularity
+				value = 369.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 369.US_socialist_popularity
+				value = 369.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 369.US_socialist_popularity
+				value = 369.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_kentucky
+	}
+}
+
+defined_text = {
+	name = TOTP_loussiana
+	text = {
+		trigger = {
+			check_variable = {
+				var = 371.US_progressive_popularity
+				value = 371.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 371.US_progressive_popularity
+				value = 371.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 371.US_progressive_popularity
+				value = 371.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_loussiana
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 371.US_democrat_popularity
+				value = 371.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 371.US_democrat_popularity
+				value = 371.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 371.US_democrat_popularity
+				value = 371.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_loussiana
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 371.US_whig_popularity
+				value = 371.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 371.US_whig_popularity
+				value = 371.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 371.US_whig_popularity
+				value = 371.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_loussiana
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 371.US_socialist_popularity
+				value = 371.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 371.US_socialist_popularity
+				value = 371.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 371.US_socialist_popularity
+				value = 371.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_loussiana
+	}
+}
+
+defined_text = {
+	name = TOTP_maine
+	text = {
+		trigger = {
+			check_variable = {
+				var = 904.US_progressive_popularity
+				value = 904.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 904.US_progressive_popularity
+				value = 904.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 904.US_progressive_popularity
+				value = 904.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_maine
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 904.US_democrat_popularity
+				value = 904.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 904.US_democrat_popularity
+				value = 904.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 904.US_democrat_popularity
+				value = 904.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_maine
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 904.US_whig_popularity
+				value = 904.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 904.US_whig_popularity
+				value = 904.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 904.US_whig_popularity
+				value = 904.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_maine
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 904.US_socialist_popularity
+				value = 904.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 904.US_socialist_popularity
+				value = 904.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 904.US_socialist_popularity
+				value = 904.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_maine
+	}
+}
+
+defined_text = {
+	name = TOTP_maryland
+	text = {
+		trigger = {
+			check_variable = {
+				var = 361.US_progressive_popularity
+				value = 361.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 361.US_progressive_popularity
+				value = 361.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 361.US_progressive_popularity
+				value = 361.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_maryland
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 361.US_democrat_popularity
+				value = 361.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 361.US_democrat_popularity
+				value = 361.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 361.US_democrat_popularity
+				value = 361.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_maryland
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 361.US_whig_popularity
+				value = 361.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 361.US_whig_popularity
+				value = 361.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 361.US_whig_popularity
+				value = 361.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_maryland
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 361.US_socialist_popularity
+				value = 361.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 361.US_socialist_popularity
+				value = 361.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 361.US_socialist_popularity
+				value = 361.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_maryland
+	}
+}
+
+defined_text = {
+	name = TOTP_massa
+	text = {
+		trigger = {
+			check_variable = {
+				var = 357.US_progressive_popularity
+				value = 357.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 357.US_progressive_popularity
+				value = 357.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 357.US_progressive_popularity
+				value = 357.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_massa
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 357.US_democrat_popularity
+				value = 357.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 357.US_democrat_popularity
+				value = 357.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 357.US_democrat_popularity
+				value = 357.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_massa
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 357.US_whig_popularity
+				value = 357.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 357.US_whig_popularity
+				value = 357.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 357.US_whig_popularity
+				value = 357.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_massa
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 357.US_socialist_popularity
+				value = 357.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 357.US_socialist_popularity
+				value = 357.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 357.US_socialist_popularity
+				value = 357.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_massa
+	}
+}
+
+defined_text = {
+	name = TOTP_miami
+	text = {
+		trigger = {
+			check_variable = {
+				var = 396.US_progressive_popularity
+				value = 396.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 396.US_progressive_popularity
+				value = 396.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 396.US_progressive_popularity
+				value = 396.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_miami
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 396.US_democrat_popularity
+				value = 396.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 396.US_democrat_popularity
+				value = 396.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 396.US_democrat_popularity
+				value = 396.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_miami
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 396.US_whig_popularity
+				value = 396.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 396.US_whig_popularity
+				value = 396.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 396.US_whig_popularity
+				value = 396.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_miami
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 396.US_socialist_popularity
+				value = 396.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 396.US_socialist_popularity
+				value = 396.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 396.US_socialist_popularity
+				value = 396.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_miami
+	}
+}
+
+defined_text = {
+	name = TOTP_michigan
+	text = {
+		trigger = {
+			check_variable = {
+				var = 393.US_progressive_popularity
+				value = 393.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 393.US_progressive_popularity
+				value = 393.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 393.US_progressive_popularity
+				value = 393.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_michigan
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 393.US_democrat_popularity
+				value = 393.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 393.US_democrat_popularity
+				value = 393.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 393.US_democrat_popularity
+				value = 393.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_michigan
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 393.US_whig_popularity
+				value = 393.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 393.US_whig_popularity
+				value = 393.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 393.US_whig_popularity
+				value = 393.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_michigan
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 393.US_socialist_popularity
+				value = 393.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 393.US_socialist_popularity
+				value = 393.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 393.US_socialist_popularity
+				value = 393.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_michigan
+	}
+}
+
+defined_text = {
+	name = TOTP_minnesoda
+	text = {
+		trigger = {
+			check_variable = {
+				var = 391.US_progressive_popularity
+				value = 391.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 391.US_progressive_popularity
+				value = 391.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 391.US_progressive_popularity
+				value = 391.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_minnesoda
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 391.US_democrat_popularity
+				value = 391.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 391.US_democrat_popularity
+				value = 391.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 391.US_democrat_popularity
+				value = 391.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_minnesoda
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 391.US_whig_popularity
+				value = 391.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 391.US_whig_popularity
+				value = 391.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 391.US_whig_popularity
+				value = 391.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_minnesoda
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 391.US_socialist_popularity
+				value = 391.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 391.US_socialist_popularity
+				value = 391.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 391.US_socialist_popularity
+				value = 391.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_minnesoda
+	}
+}
+
+defined_text = {
+	name = TOTP_mississippi
+	text = {
+		trigger = {
+			check_variable = {
+				var = 370.US_progressive_popularity
+				value = 370.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 370.US_progressive_popularity
+				value = 370.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 370.US_progressive_popularity
+				value = 370.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_mississippi
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 370.US_democrat_popularity
+				value = 370.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 370.US_democrat_popularity
+				value = 370.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 370.US_democrat_popularity
+				value = 370.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_mississippi
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 370.US_whig_popularity
+				value = 370.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 370.US_whig_popularity
+				value = 370.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 370.US_whig_popularity
+				value = 370.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_mississippi
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 370.US_socialist_popularity
+				value = 370.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 370.US_socialist_popularity
+				value = 370.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 370.US_socialist_popularity
+				value = 370.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_mississippi
+	}
+}
+
+defined_text = {
+	name = TOTP_missouri
+	text = {
+		trigger = {
+			check_variable = {
+				var = 373.US_progressive_popularity
+				value = 373.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 373.US_progressive_popularity
+				value = 373.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 373.US_progressive_popularity
+				value = 373.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_missouri
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 373.US_democrat_popularity
+				value = 373.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 373.US_democrat_popularity
+				value = 373.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 373.US_democrat_popularity
+				value = 373.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_missouri
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 373.US_whig_popularity
+				value = 373.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 373.US_whig_popularity
+				value = 373.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 373.US_whig_popularity
+				value = 373.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_missouri
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 373.US_socialist_popularity
+				value = 373.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 373.US_socialist_popularity
+				value = 373.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 373.US_socialist_popularity
+				value = 373.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_missouri
+	}
+}
+
+defined_text = {
+	name = TOTP_nebraska
+	text = {
+		trigger = {
+			check_variable = {
+				var = 384.US_progressive_popularity
+				value = 384.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 384.US_progressive_popularity
+				value = 384.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 384.US_progressive_popularity
+				value = 384.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_nebraska
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 384.US_democrat_popularity
+				value = 384.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 384.US_democrat_popularity
+				value = 384.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 384.US_democrat_popularity
+				value = 384.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_nebraska
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 384.US_whig_popularity
+				value = 384.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 384.US_whig_popularity
+				value = 384.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 384.US_whig_popularity
+				value = 384.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_nebraska
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 384.US_socialist_popularity
+				value = 384.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 384.US_socialist_popularity
+				value = 384.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 384.US_socialist_popularity
+				value = 384.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_nebraska
+	}
+}
+
+defined_text = {
+	name = TOTP_nevada
+	text = {
+		trigger = {
+			check_variable = {
+				var = 379.US_progressive_popularity
+				value = 379.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 379.US_progressive_popularity
+				value = 379.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 379.US_progressive_popularity
+				value = 379.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_nevada
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 379.US_democrat_popularity
+				value = 379.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 379.US_democrat_popularity
+				value = 379.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 379.US_democrat_popularity
+				value = 379.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_nevada
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 379.US_whig_popularity
+				value = 379.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 379.US_whig_popularity
+				value = 379.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 379.US_whig_popularity
+				value = 379.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_nevada
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 379.US_socialist_popularity
+				value = 379.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 379.US_socialist_popularity
+				value = 379.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 379.US_socialist_popularity
+				value = 379.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_nevada
+	}
+}
+
+defined_text = {
+	name = TOTP_new_hamshire
+	text = {
+		trigger = {
+			check_variable = {
+				var = 905.US_progressive_popularity
+				value = 905.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 905.US_progressive_popularity
+				value = 905.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 905.US_progressive_popularity
+				value = 905.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_new_hamshire
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 905.US_democrat_popularity
+				value = 905.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 905.US_democrat_popularity
+				value = 905.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 905.US_democrat_popularity
+				value = 905.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_new_hamshire
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 905.US_whig_popularity
+				value = 905.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 905.US_whig_popularity
+				value = 905.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 905.US_whig_popularity
+				value = 905.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_new_hamshire
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 905.US_socialist_popularity
+				value = 905.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 905.US_socialist_popularity
+				value = 905.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 905.US_socialist_popularity
+				value = 905.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_new_hamshire
+	}
+}
+
+defined_text = {
+	name = TOTP_new_jersey
+	text = {
+		trigger = {
+			check_variable = {
+				var = 359.US_progressive_popularity
+				value = 359.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 359.US_progressive_popularity
+				value = 359.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 359.US_progressive_popularity
+				value = 359.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_new_jersey
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 359.US_democrat_popularity
+				value = 359.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 359.US_democrat_popularity
+				value = 359.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 359.US_democrat_popularity
+				value = 359.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_new_jersey
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 359.US_whig_popularity
+				value = 359.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 359.US_whig_popularity
+				value = 359.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 359.US_whig_popularity
+				value = 359.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_new_jersey
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 359.US_socialist_popularity
+				value = 359.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 359.US_socialist_popularity
+				value = 359.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 359.US_socialist_popularity
+				value = 359.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_new_jersey
+	}
+}
+
+defined_text = {
+	name = TOTP_new_mexico
+	text = {
+		trigger = {
+			check_variable = {
+				var = 376.US_progressive_popularity
+				value = 376.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 376.US_progressive_popularity
+				value = 376.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 376.US_progressive_popularity
+				value = 376.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_new_mexico
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 376.US_democrat_popularity
+				value = 376.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 376.US_democrat_popularity
+				value = 376.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 376.US_democrat_popularity
+				value = 376.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_new_mexico
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 376.US_whig_popularity
+				value = 376.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 376.US_whig_popularity
+				value = 376.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 376.US_whig_popularity
+				value = 376.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_new_mexico
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 376.US_socialist_popularity
+				value = 376.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 376.US_socialist_popularity
+				value = 376.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 376.US_socialist_popularity
+				value = 376.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_new_mexico
+	}
+}
+
+defined_text = {
+	name = TOTP_new_york
+	text = {
+		trigger = {
+			check_variable = {
+				var = 358.US_progressive_popularity
+				value = 358.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 358.US_progressive_popularity
+				value = 358.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 358.US_progressive_popularity
+				value = 358.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_new_york
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 358.US_democrat_popularity
+				value = 358.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 358.US_democrat_popularity
+				value = 358.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 358.US_democrat_popularity
+				value = 358.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_new_york
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 358.US_whig_popularity
+				value = 358.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 358.US_whig_popularity
+				value = 358.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 358.US_whig_popularity
+				value = 358.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_new_york
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 358.US_socialist_popularity
+				value = 358.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 358.US_socialist_popularity
+				value = 358.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 358.US_socialist_popularity
+				value = 358.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_new_york
+	}
+}
+
+defined_text = {
+	name = TOTP_north_car
+	text = {
+		trigger = {
+			check_variable = {
+				var = 363.US_progressive_popularity
+				value = 363.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 363.US_progressive_popularity
+				value = 363.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 363.US_progressive_popularity
+				value = 363.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_north_car
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 363.US_democrat_popularity
+				value = 363.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 363.US_democrat_popularity
+				value = 363.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 363.US_democrat_popularity
+				value = 363.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_north_car
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 363.US_whig_popularity
+				value = 363.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 363.US_whig_popularity
+				value = 363.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 363.US_whig_popularity
+				value = 363.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_north_car
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 363.US_socialist_popularity
+				value = 363.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 363.US_socialist_popularity
+				value = 363.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 363.US_socialist_popularity
+				value = 363.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_north_car
+	}
+}
+
+defined_text = {
+	name = TOTP_ohio
+	text = {
+		trigger = {
+			check_variable = {
+				var = 261.US_progressive_popularity
+				value = 261.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 261.US_progressive_popularity
+				value = 261.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 261.US_progressive_popularity
+				value = 261.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_ohio
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 261.US_democrat_popularity
+				value = 261.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 261.US_democrat_popularity
+				value = 261.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 261.US_democrat_popularity
+				value = 261.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_ohio
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 261.US_whig_popularity
+				value = 261.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 261.US_whig_popularity
+				value = 261.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 261.US_whig_popularity
+				value = 261.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_ohio
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 261.US_socialist_popularity
+				value = 261.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 261.US_socialist_popularity
+				value = 261.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 261.US_socialist_popularity
+				value = 261.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_ohio
+	}
+}
+
+defined_text = {
+	name = TOTP_oklahoma
+	text = {
+		trigger = {
+			check_variable = {
+				var = 374.US_progressive_popularity
+				value = 374.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 374.US_progressive_popularity
+				value = 374.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 374.US_progressive_popularity
+				value = 374.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_oklahoma
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 374.US_democrat_popularity
+				value = 374.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 374.US_democrat_popularity
+				value = 374.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 374.US_democrat_popularity
+				value = 374.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_oklahoma
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 374.US_whig_popularity
+				value = 374.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 374.US_whig_popularity
+				value = 374.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 374.US_whig_popularity
+				value = 374.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_oklahoma
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 374.US_socialist_popularity
+				value = 374.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 374.US_socialist_popularity
+				value = 374.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 374.US_socialist_popularity
+				value = 374.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_oklahoma
+	}
+}
+
+defined_text = {
+	name = TOTP_oregon
+	text = {
+		trigger = {
+			check_variable = {
+				var = 385.US_progressive_popularity
+				value = 385.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 385.US_progressive_popularity
+				value = 385.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 385.US_progressive_popularity
+				value = 385.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_oregon
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 385.US_democrat_popularity
+				value = 385.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 385.US_democrat_popularity
+				value = 385.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 385.US_democrat_popularity
+				value = 385.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_oregon
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 385.US_whig_popularity
+				value = 385.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 385.US_whig_popularity
+				value = 385.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 385.US_whig_popularity
+				value = 385.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_oregon
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 385.US_socialist_popularity
+				value = 385.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 385.US_socialist_popularity
+				value = 385.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 385.US_socialist_popularity
+				value = 385.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_oregon
+	}
+}
+
+defined_text = {
+	name = TOTP_penn
+	text = {
+		trigger = {
+			check_variable = {
+				var = 360.US_progressive_popularity
+				value = 360.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 360.US_progressive_popularity
+				value = 360.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 360.US_progressive_popularity
+				value = 360.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_penn
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 360.US_democrat_popularity
+				value = 360.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 360.US_democrat_popularity
+				value = 360.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 360.US_democrat_popularity
+				value = 360.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_penn
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 360.US_whig_popularity
+				value = 360.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 360.US_whig_popularity
+				value = 360.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 360.US_whig_popularity
+				value = 360.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_penn
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 360.US_socialist_popularity
+				value = 360.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 360.US_socialist_popularity
+				value = 360.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 360.US_socialist_popularity
+				value = 360.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_penn
+	}
+}
+
+defined_text = {
+	name = TOTP_rhode_island
+	text = {
+		trigger = {
+			check_variable = {
+				var = 907.US_progressive_popularity
+				value = 907.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 907.US_progressive_popularity
+				value = 907.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 907.US_progressive_popularity
+				value = 907.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_rhode_island
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 907.US_democrat_popularity
+				value = 907.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 907.US_democrat_popularity
+				value = 907.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 907.US_democrat_popularity
+				value = 907.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_rhode_island
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 907.US_whig_popularity
+				value = 907.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 907.US_whig_popularity
+				value = 907.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 907.US_whig_popularity
+				value = 907.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_rhode_island
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 907.US_socialist_popularity
+				value = 907.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 907.US_socialist_popularity
+				value = 907.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 907.US_socialist_popularity
+				value = 907.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_rhode_island
+	}
+}
+
+defined_text = {
+	name = TOTP_shoshone
+	text = {
+		trigger = {
+			check_variable = {
+				var = 381.US_progressive_popularity
+				value = 381.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 381.US_progressive_popularity
+				value = 381.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 381.US_progressive_popularity
+				value = 381.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_shoshone
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 381.US_democrat_popularity
+				value = 381.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 381.US_democrat_popularity
+				value = 381.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 381.US_democrat_popularity
+				value = 381.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_shoshone
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 381.US_whig_popularity
+				value = 381.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 381.US_whig_popularity
+				value = 381.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 381.US_whig_popularity
+				value = 381.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_shoshone
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 381.US_socialist_popularity
+				value = 381.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 381.US_socialist_popularity
+				value = 381.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 381.US_socialist_popularity
+				value = 381.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_shoshone
+	}
+}
+
+defined_text = {
+	name = TOTP_south_car
+	text = {
+		trigger = {
+			check_variable = {
+				var = 364.US_progressive_popularity
+				value = 364.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 364.US_progressive_popularity
+				value = 364.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 364.US_progressive_popularity
+				value = 364.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_south_car
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 364.US_democrat_popularity
+				value = 364.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 364.US_democrat_popularity
+				value = 364.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 364.US_democrat_popularity
+				value = 364.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_south_car
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 364.US_whig_popularity
+				value = 364.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 364.US_whig_popularity
+				value = 364.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 364.US_whig_popularity
+				value = 364.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_south_car
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 364.US_socialist_popularity
+				value = 364.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 364.US_socialist_popularity
+				value = 364.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 364.US_socialist_popularity
+				value = 364.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_south_car
+	}
+}
+
+defined_text = {
+	name = TOTP_superior
+	text = {
+		trigger = {
+			check_variable = {
+				var = 389.US_progressive_popularity
+				value = 389.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 389.US_progressive_popularity
+				value = 389.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 389.US_progressive_popularity
+				value = 389.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_superior
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 389.US_democrat_popularity
+				value = 389.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 389.US_democrat_popularity
+				value = 389.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 389.US_democrat_popularity
+				value = 389.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_superior
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 389.US_whig_popularity
+				value = 389.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 389.US_whig_popularity
+				value = 389.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 389.US_whig_popularity
+				value = 389.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_superior
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 389.US_socialist_popularity
+				value = 389.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 389.US_socialist_popularity
+				value = 389.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 389.US_socialist_popularity
+				value = 389.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_superior
+	}
+}
+
+defined_text = {
+	name = TOTP_tennessee
+	text = {
+		trigger = {
+			check_variable = {
+				var = 368.US_progressive_popularity
+				value = 368.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 368.US_progressive_popularity
+				value = 368.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 368.US_progressive_popularity
+				value = 368.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_tennessee
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 368.US_democrat_popularity
+				value = 368.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 368.US_democrat_popularity
+				value = 368.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 368.US_democrat_popularity
+				value = 368.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_tennessee
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 368.US_whig_popularity
+				value = 368.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 368.US_whig_popularity
+				value = 368.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 368.US_whig_popularity
+				value = 368.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_tennessee
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 368.US_socialist_popularity
+				value = 368.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 368.US_socialist_popularity
+				value = 368.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 368.US_socialist_popularity
+				value = 368.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_tennessee
+	}
+}
+
+defined_text = {
+	name = TOTP_texas
+	text = {
+		trigger = {
+			check_variable = {
+				var = 375.US_progressive_popularity
+				value = 375.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 375.US_progressive_popularity
+				value = 375.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 375.US_progressive_popularity
+				value = 375.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_texas
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 375.US_democrat_popularity
+				value = 375.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 375.US_democrat_popularity
+				value = 375.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 375.US_democrat_popularity
+				value = 375.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_texas
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 375.US_whig_popularity
+				value = 375.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 375.US_whig_popularity
+				value = 375.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 375.US_whig_popularity
+				value = 375.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_texas
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 375.US_socialist_popularity
+				value = 375.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 375.US_socialist_popularity
+				value = 375.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 375.US_socialist_popularity
+				value = 375.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_texas
+	}
+}
+
+defined_text = {
+	name = TOTP_vermont
+	text = {
+		trigger = {
+			check_variable = {
+				var = 332.US_progressive_popularity
+				value = 332.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 332.US_progressive_popularity
+				value = 332.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 332.US_progressive_popularity
+				value = 332.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_vermont
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 332.US_democrat_popularity
+				value = 332.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 332.US_democrat_popularity
+				value = 332.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 332.US_democrat_popularity
+				value = 332.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_vermont
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 332.US_whig_popularity
+				value = 332.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 332.US_whig_popularity
+				value = 332.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 332.US_whig_popularity
+				value = 332.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_vermont
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 332.US_socialist_popularity
+				value = 332.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 332.US_socialist_popularity
+				value = 332.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 332.US_socialist_popularity
+				value = 332.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_vermont
+	}
+}
+
+defined_text = {
+	name = TOTP_virginia
+	text = {
+		trigger = {
+			check_variable = {
+				var = 362.US_progressive_popularity
+				value = 362.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 362.US_progressive_popularity
+				value = 362.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 362.US_progressive_popularity
+				value = 362.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_virginia
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 362.US_democrat_popularity
+				value = 362.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 362.US_democrat_popularity
+				value = 362.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 362.US_democrat_popularity
+				value = 362.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_virginia
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 362.US_whig_popularity
+				value = 362.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 362.US_whig_popularity
+				value = 362.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 362.US_whig_popularity
+				value = 362.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_virginia
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 362.US_socialist_popularity
+				value = 362.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 362.US_socialist_popularity
+				value = 362.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 362.US_socialist_popularity
+				value = 362.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_virginia
+	}
+}
+
+defined_text = {
+	name = TOTP_w_florida
+	text = {
+		trigger = {
+			check_variable = {
+				var = 388.US_progressive_popularity
+				value = 388.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 388.US_progressive_popularity
+				value = 388.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 388.US_progressive_popularity
+				value = 388.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_w_florida
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 388.US_democrat_popularity
+				value = 388.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 388.US_democrat_popularity
+				value = 388.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 388.US_democrat_popularity
+				value = 388.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_w_florida
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 388.US_whig_popularity
+				value = 388.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 388.US_whig_popularity
+				value = 388.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 388.US_whig_popularity
+				value = 388.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_w_florida
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 388.US_socialist_popularity
+				value = 388.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 388.US_socialist_popularity
+				value = 388.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 388.US_socialist_popularity
+				value = 388.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_w_florida
+	}
+}
+
+defined_text = {
+	name = TOTP_walker
+	text = {
+		trigger = {
+			check_variable = {
+				var = 317.US_progressive_popularity
+				value = 317.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 317.US_progressive_popularity
+				value = 317.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 317.US_progressive_popularity
+				value = 317.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_walker
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 317.US_democrat_popularity
+				value = 317.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 317.US_democrat_popularity
+				value = 317.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 317.US_democrat_popularity
+				value = 317.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_walker
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 317.US_whig_popularity
+				value = 317.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 317.US_whig_popularity
+				value = 317.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 317.US_whig_popularity
+				value = 317.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_walker
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 317.US_socialist_popularity
+				value = 317.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 317.US_socialist_popularity
+				value = 317.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 317.US_socialist_popularity
+				value = 317.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_walker
+	}
+}
+
+defined_text = {
+	name = TOTP_washington
+	text = {
+		trigger = {
+			check_variable = {
+				var = 386.US_progressive_popularity
+				value = 386.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 386.US_progressive_popularity
+				value = 386.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 386.US_progressive_popularity
+				value = 386.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_washington
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 386.US_democrat_popularity
+				value = 386.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 386.US_democrat_popularity
+				value = 386.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 386.US_democrat_popularity
+				value = 386.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_washington
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 386.US_whig_popularity
+				value = 386.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 386.US_whig_popularity
+				value = 386.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 386.US_whig_popularity
+				value = 386.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_washington
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 386.US_socialist_popularity
+				value = 386.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 386.US_socialist_popularity
+				value = 386.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 386.US_socialist_popularity
+				value = 386.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_washington
+	}
+}
+
+defined_text = {
+	name = TOTP_wisconsin
+	text = {
+		trigger = {
+			check_variable = {
+				var = 394.US_progressive_popularity
+				value = 394.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 394.US_progressive_popularity
+				value = 394.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 394.US_progressive_popularity
+				value = 394.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_wisconsin
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 394.US_democrat_popularity
+				value = 394.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 394.US_democrat_popularity
+				value = 394.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 394.US_democrat_popularity
+				value = 394.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_wisconsin
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 394.US_whig_popularity
+				value = 394.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 394.US_whig_popularity
+				value = 394.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 394.US_whig_popularity
+				value = 394.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_wisconsin
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 394.US_socialist_popularity
+				value = 394.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 394.US_socialist_popularity
+				value = 394.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 394.US_socialist_popularity
+				value = 394.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_wisconsin
+	}
+}
+
+defined_text = {
+	name = TOTP_yuctan
+	text = {
+		trigger = {
+			check_variable = {
+				var = 474.US_progressive_popularity
+				value = 474.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 474.US_progressive_popularity
+				value = 474.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 474.US_progressive_popularity
+				value = 474.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_yuctan
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 474.US_democrat_popularity
+				value = 474.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 474.US_democrat_popularity
+				value = 474.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 474.US_democrat_popularity
+				value = 474.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_yuctan
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 474.US_whig_popularity
+				value = 474.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 474.US_whig_popularity
+				value = 474.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 474.US_whig_popularity
+				value = 474.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_yuctan
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 474.US_socialist_popularity
+				value = 474.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 474.US_socialist_popularity
+				value = 474.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 474.US_socialist_popularity
+				value = 474.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_yuctan
+	}
+}
+
+defined_text = {
+	name = TOTP_yutia
+	text = {
+		trigger = {
+			check_variable = {
+				var = 380.US_progressive_popularity
+				value = 380.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 380.US_progressive_popularity
+				value = 380.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 380.US_progressive_popularity
+				value = 380.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_yutia
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 380.US_democrat_popularity
+				value = 380.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 380.US_democrat_popularity
+				value = 380.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 380.US_democrat_popularity
+				value = 380.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_yutia
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 380.US_whig_popularity
+				value = 380.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 380.US_whig_popularity
+				value = 380.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 380.US_whig_popularity
+				value = 380.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_yutia
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 380.US_socialist_popularity
+				value = 380.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 380.US_socialist_popularity
+				value = 380.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 380.US_socialist_popularity
+				value = 380.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_yutia
+	}
+}
+
+defined_text = {
+	name = TOTP_polk
+	text = {
+		trigger = {
+			check_variable = {
+				var = 473.US_progressive_popularity
+				value = 473.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 473.US_progressive_popularity
+				value = 473.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 473.US_progressive_popularity
+				value = 473.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_PG_polk
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 473.US_democrat_popularity
+				value = 473.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 473.US_democrat_popularity
+				value = 473.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 473.US_democrat_popularity
+				value = 473.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_DEM_polk
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 473.US_whig_popularity
+				value = 473.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 473.US_whig_popularity
+				value = 473.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 473.US_whig_popularity
+				value = 473.US_socialist_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_WG_polk
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = 473.US_socialist_popularity
+				value = 473.US_progressive_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 473.US_socialist_popularity
+				value = 473.US_whig_popularity
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = 473.US_socialist_popularity
+				value = 473.US_democrat_popularity
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = totp_SL_polk
+	}
+}
+
+defined_text = {
+    name = US_Get_Seat_Up
+    text = {
+        trigger = {
+            OR = {
+                AND = {
+                    has_state_flag = senate_election_class_pair_1_2
+                    check_variable = { USA.US_current_senate_class = 1 }
+                }
+                AND = {
+                    has_state_flag = senate_election_class_pair_1_3
+                    check_variable = { USA.US_current_senate_class = 1 }
+                }
+                AND = {
+                    has_state_flag = senate_election_class_pair_2_3
+                    check_variable = { USA.US_current_senate_class = 2 }
+                }
+            }
+        }
+        localization_key = "1"
+    }
+    text = {
+        localization_key = "2"
+    }
+}
+

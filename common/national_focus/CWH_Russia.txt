@@ -1,0 +1,13 @@
+focus_tree = {
+	id = SOV_intro_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+	default = no
+	shared_focus = SOV_my_empire_of_dirt
+	continuous_focus_position = { x = 1650 y = 100 }
+}

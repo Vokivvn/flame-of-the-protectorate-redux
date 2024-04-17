@@ -1,0 +1,309 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "filibuster_leader_selection"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height= 320 }
+		
+		iconType={
+			name ="no_leader"
+			spriteType = "GFX_no_leader"
+			position = { x= 10	 y = 40	}
+		}
+		
+		iconType={
+			name ="Dean_La"
+			spriteType = "GFX_Portrait_USA_Dean_Lamb"
+			position = { x= 10	 y = 40	}
+		}
+		
+		iconType={
+			name ="Tex_OR"
+			spriteType = "GFX_Portrait_USA_Tex_ORiely"
+			position = { x= 10	 y = 40	}
+		}
+		
+		iconType={
+			name ="Sam_Dr"
+			spriteType = "GFX_Portrait_USA_Sam_Dreben"
+			position = { x= 10	 y = 40	}
+		}
+		
+		iconType={
+			name ="leader_outline"
+			spriteType = "GFX_filibuster_frame"
+			position = { x= 10	 y = 40	}
+		}
+		
+		instantTextBoxType = {
+			name ="filibuster_title"
+			position = { x = 10 y = 10 }
+			font = "hoi_24header"
+			text = "Filibusterer"
+			maxHeight = 28
+		}
+		
+		instantTextBoxType = {
+			name ="name_slot"
+			position = { x = 170 y = 33	}
+			font = "hoi_24header"
+			text = "Name"
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="filibuster_name"
+			position = { x = 170 y = 56	}
+			font = "hoi_24header"
+			text = "[Root.SCRIPTED_LOC_NAME]"
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="birth_slot"
+			position = { x = 170 y = 90	}
+			font = "hoi_24header"
+			text = "Date Of Birth"
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="filibuster_DOB"
+			position = { x = 170 y = 113 }
+			font = "hoi_24header"
+			text = "[Root.SCRIPTED_LOC_BIRTH]"
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="loyalty_slot"
+			position = { x = 170 y = 147 }
+			font = "hoi_24header"
+			text = "Loyalty"
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="filibuster_LOYALTY"
+			position = { x = 170 y = 170 }
+			font = "hoi_24header"
+			text = "[Root.SCRIPTED_LOC_LOYALTY]"
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="strength_slot"
+			position = { x = 170 y = 204 }
+			font = "hoi_24header"
+			text = "Strength"
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="filibuster_strength"
+			position = { x = 170 y = 227 }
+			font = "hoi_24header"
+			text = "[Root.SCRIPTED_LOC_STRENGTH]"
+			maxHeight = 24
+		}
+		
+		buttonType ={
+			name ="reverse_button"
+			spriteType = "GFX_leftarrow"
+			position = { x= 10	 y = 254 }
+		}
+		
+		buttonType ={
+			name ="no_send_button"
+			spriteType = "GFX_grey_button"
+			position = { x= 42	 y = 250 }
+			pdx_tooltip = "150_PP"
+			pdx_tooltip_delayed = "refund150"
+		}
+		
+		buttonType ={
+			name ="send_button"
+			spriteType = "GFX_filibutton"
+			position = { x= 42	 y = 250 }
+			pdx_tooltip = "150_PP"
+			pdx_tooltip_delayed = "refund150"
+		}
+		
+		instantTextBoxType = {
+			name ="send_word"
+			position = { x= 80	 y = 254 }
+			font = "hoi_24header"
+			text = "SEND"
+			alwaystransparent = yes
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="in_action_word"
+			position = { x= 143	 y = 290 }
+			font = "hoi_24header"
+			text = "FILIBUSTERACTION"
+			maxWidth = 230
+		}
+		
+		iconType ={
+			name ="send_politial_power"
+			quadTextureSprite = "GFX_pol_power_icon"
+			position = { x= 48	 y = 254 }
+			alwaystransparent = yes
+		}
+		
+		buttonType ={
+			name ="forward_button"
+			spriteType = "GFX_rightarrow"
+			position = { x= 163	 y = 254 }
+		}
+		
+		# nation
+		
+		iconType ={
+			name ="JAM_country_flag"
+			quadTextureSprite = "GFX_shield_medium"
+			position = { x= 370	 y = 40 }
+			pdx_tooltip = "JAMAICACOUNTRY"
+		}
+		
+		iconType ={
+			name ="BOL_country_flag"
+			quadTextureSprite = "GFX_shield_medium"
+			position = { x= 370	 y = 40 }
+			pdx_tooltip = "BOLIVIACOUNTRY"
+		}
+		
+		iconType ={
+			name ="GUA_country_flag"
+			quadTextureSprite = "GFX_shield_medium"
+			position = { x= 370	 y = 40 }
+			pdx_tooltip = "GUATAMALACOUNTRY"
+		}
+		
+		iconType ={
+			name ="country_flag_frame"
+			spriteType = "GFX_large_flag_frame"
+			position = { x= 366	 y = 40 }
+			alwaystransparent = yes
+		}
+		
+		buttonType ={
+			name ="reverse_button_flag"
+			spriteType = "GFX_leftarrow"
+			pdx_tooltip = "INFAMY_TITLE"
+			pdx_tooltip_delayed = "INFAMY_DESC"
+			position = { x= 370	 y = 100 }
+		}
+		
+		buttonType ={
+			name ="forward_button_flag"
+			spriteType = "GFX_rightarrow"
+			pdx_tooltip = "INFAMY_TITLE"
+			pdx_tooltip_delayed = "INFAMY_DESC"
+			position = { x= 422	 y = 100 }
+		}
+		
+		instantTextBoxType = {
+			name ="country_title"
+			position = { x = 370 y = 10 }
+			font = "hoi_24header"
+			text = "Country"
+			maxHeight = 28
+		}
+		
+		# aid
+		
+		buttonType ={
+			name ="no_top_aid_button"
+			spriteType = "GFX_grey_button"
+			position = { x= 336	 y = 168 }
+			pdx_tooltip = "200_PP"
+		}
+		buttonType ={
+			name ="no_med_aid_button"
+			spriteType = "GFX_grey_button"
+			position = { x= 336	 y = 209 }
+			pdx_tooltip = "100_PP"
+		}
+		buttonType ={
+			name ="no_low_aid_button"
+			spriteType = "GFX_grey_button"
+			position = { x= 336	 y = 250 }
+			pdx_tooltip = "50_PP"
+		}
+		
+		buttonType ={
+			name ="top_aid_button"
+			spriteType = "GFX_filibutton"
+			position = { x= 336	 y = 168 }
+			pdx_tooltip = "200_PP"
+			pdx_tooltip_delayed = "refund200"
+		}
+		buttonType ={
+			name ="med_aid_button"
+			spriteType = "GFX_yellow_button"
+			position = { x= 336	 y = 209 }
+			pdx_tooltip = "100_PP"
+			pdx_tooltip_delayed = "refund100"
+		}
+		buttonType ={
+			name ="low_aid_button"
+			spriteType = "GFX_red_button"
+			position = { x= 336	 y = 250 }
+			pdx_tooltip = "50_PP"
+			pdx_tooltip_delayed = "refund50"
+		}
+		
+		iconType ={
+			name ="top_politial_power"
+			quadTextureSprite = "GFX_pol_power_icon"
+			position = { x= 342	 y = 172 }
+			alwaystransparent = yes
+		}
+		
+		iconType ={
+			name ="med_politial_power"
+			quadTextureSprite = "GFX_pol_power_icon"
+			position = { x= 342	 y = 213 }
+			alwaystransparent = yes
+		}
+		
+		iconType ={
+			name ="low_politial_power"
+			quadTextureSprite = "GFX_pol_power_icon"
+			position = { x= 342	 y = 254 }
+			alwaystransparent = yes
+		}
+		
+		instantTextBoxType = {
+			name ="high_word"
+			position = { x= 367	 y = 172 }
+			font = "hoi_24header"
+			text = "Commit"
+			alwaystransparent = yes
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="med_word"
+			position = { x= 367	 y = 213 }
+			font = "hoi_24header"
+			text = "Support"
+			alwaystransparent = yes
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="low_word"
+			position = { x= 367	 y = 254 }
+			font = "hoi_24header"
+			text = "No Aid"
+			alwaystransparent = yes
+			maxHeight = 24
+		}
+		
+	}
+	
+}

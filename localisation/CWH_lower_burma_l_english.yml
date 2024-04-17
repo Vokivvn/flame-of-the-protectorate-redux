@@ -1,0 +1,14 @@
+﻿l_english:
+ 
+ ##Leader Descriptions##
+ POLITICS_JEAN_DECOUX_DESC:0 ""
+ 
+ ##Parties##
+  LBR_centralism_party:0 "Thakins - Left Wing"
+  LBR_centralism_party_long:0 "Dobama Asiayone - Left Wing"
+  LBR_socialism_party:0 "Thakins - Centre Wing"
+  LBR_socialism_party_long:0 "Dobama Asiayone - Centre Wing"
+  LBR_republicanism_party:0 "Thakins - Right Wing"
+  LBR_republicanism_party_long:0 "Dobama Asiayone - Right Wing"
+  LBR_authoritarianism_party:0 "ABB"
+  LBR_authoritarianism_party_long:0 "Administration de la Bassu-Birmanie"

@@ -1,0 +1,69 @@
+﻿add_namespace = newswar
+
+news_event = { #austrian invasion of poland
+	id = newswar.1
+	title = newswar.1.t
+	desc = newswar.1.desc
+	picture = GFX_news_event_nuke
+
+	major = yes
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = newswar.1.a
+	}
+}
+
+news_event = { #slovak national uprising
+	id = newswar.2
+	title = newswar.2.t
+	desc = newswar.2.desc
+	picture = GFX_news_event_nuke
+
+	major = yes
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = newswar.2.a
+	}
+}
+
+news_event = { #The Vaal River War
+	id = newswar.3
+	title = newswar.3.t
+	desc = newswar.3.desc
+	picture = GFX_news_event_nuke
+
+	major = yes
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = newswar.3.a
+	}
+}
+
+news_event = { #French Civil War
+	id = newswar.4
+	title = newswar.4.t
+	desc = newswar.4.desc
+	picture = GFX_news_event_french_civil_war
+
+	major = yes
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = newswar.4.a
+	}
+}

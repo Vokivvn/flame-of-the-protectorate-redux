@@ -1,0 +1,24 @@
+state={
+	id=891
+	name="STATE_891"
+	manpower = 223214
+	
+	state_category = large_town
+	resources={
+	}
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			6864 1
+		}
+		add_core_of = TUR
+	}
+
+	provinces={
+		6864 9887
+	}
+}

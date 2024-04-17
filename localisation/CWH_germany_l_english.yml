@@ -1,0 +1,179 @@
+﻿l_english:
+ ## Parties ##
+  GER_centralism_party:0 "KPD"
+  GER_centralism_party_long:0 "Kommunistische Partei Deutschlands"
+  GER_socialism_party:0 "USPD"
+  GER_socialism_party_long:0 "Unabhängige Sozialdemokratische Partei Deutschlands"
+  GER_progressivism_party:0 "SPD"
+  GER_progressivism_party_long:0 "Sozialdemokratische Partei Deutschlands"
+  GER_liberalism_party:0 "DVP"
+  GER_liberalism_party_long:0 "Deutsche Volkspartei"
+  GER_conservatism_party:0 "Z"
+  GER_conservatism_party_long:0 "Zentrum"
+  GER_republicanism_party:0 "DDP"
+  GER_republicanism_party_long:0 "Deutsche Demokratische Partei"
+  GER_authoritarianism_party:0 "DNVP"
+  GER_authoritarianism_party_long:0 "Deutschnationale Volkspartei"
+  GER_ultranationalism_party:0 "DNVP"
+  GER_ultranationalism_party_long:0 "Deutschnationale Volkspartei"
+  
+ ## Ideas ##
+ GER_late_to_the_party:0 "Late to the Party"
+ GER_late_to_the_party_desc:0 ""
+ 
+ GER_undetermined_destiny:0 "Undetermined Destiny"
+ GER_undetermined_destiny_desc:0 ""
+ 
+ GER_rapid_industrialisation:0 "Rapid Industrialisation"
+ GER_rapid_industrialisation_desc:0 ""
+ 
+ GER_rival_nationalism_winning:0 "Rival Nationalism - Higher Support"
+ GER_rival_nationalism_winning_desc:0 ""
+    
+ GER_rival_nationalism_even:0 "Rival Nationalism - Even Support"
+ GER_rival_nationalism_even_desc:0 ""
+    
+ GER_rival_nationalism_losing:0 "Rival Nationalism - Lower Suppor"
+ GER_rival_nationalism_losing_desc:0 ""
+ 
+ ## Leader Descriptions ##
+  
+ ## Focuses ##
+  ########################
+  # Germany Opening Tree #
+  ########################
+  #Design: https://cdn.discordapp.com/attachments/628064968188624917/671584133847187475/eerstenationaldeutsch.png
+  ## Opening
+  GER_eerste_nationaldeutsche_wahl: "Eerste Nationaldeutsche Wahl"
+  GER_eerste_nationaldeutsche_wahl_desc: ""
+  
+  GER_the_hand_dealt: "The Hand Dealt"
+  GER_the_hand_dealt_desc: ""
+  
+  ## Radicals Subtree
+  GER_handle_the_radicals: "Handle The Radicals"
+  GER_handle_the_radicals_desc: ""
+  
+  GER_cleaning_house: "Cleaning House"
+  GER_cleaning_house_desc: ""
+  
+  GER_these_troubled_times: "These Troubled Times"
+  GER_these_troubled_times_desc: ""
+  
+  GER_the_southern_reaction: "The Southern Reaction"
+  GER_the_southern_reaction_desc: ""
+  
+  ## Moderates Subtree
+  GER_court_the_moderates: "Court the Moderates"
+  GER_court_the_moderates_desc: ""
+  
+  GER_pax_europa: "Pax Europa"
+  GER_pax_europa_desc: ""
+  
+  GER_patching_the_holes: "Patching the Holes"
+  GER_patching_the_holes_desc: ""
+  
+  ## Royalist Subtree
+  GER_assure_the_princes: "Assure the Princes"
+  GER_assure_the_princes_desc: ""
+  
+  GER_spick_and_span: "Spick and Span"
+  GER_spick_and_span_desc: ""
+  
+  GER_expand_assurances: "Expand Assurances"
+  GER_expand_assurances_desc: ""
+  
+  GER_the_haunt_of_radicalism: "The Haunt of Radicalism"
+  GER_the_haunt_of_radicalism_desc: ""
+  
+  ### Closing Subtree
+  GER_roll_the_die: "Roll the Die"
+  GER_roll_the_die_desc: ""
+  
+  ## VPD-N Victory
+  GER_du_rhein_bleibst_deutsch: "Du Rhein Bleibst Deutsch"
+  GER_du_rhein_bleibst_deutsch_desc: ""
+  
+  GER_germania_fordert: "Germania Fordert"
+  GER_germania_fordert_desc: ""
+  
+  ## SAPD Victory
+  GER_die_verdammten: "Die Verdammten"
+  GER_die_verdammten_desc: ""
+  
+  GER_the_specter_enters: "The Specter Enters"
+  GER_the_specter_enters_desc: ""
+  
+  ## DAP Victory
+  GER_freiheit_beckons: "Freiheit Beckons"
+  GER_freiheit_beckons_desc: ""
+  
+  GER_gegen_reaktion_imperialismus_und_kommunismus: "Gegen Reaktion, Imperialismus, und Kommunismus"
+  GER_gegen_reaktion_imperialismus_und_kommunismus_desc: ""
+  
+  ## DEP Victory
+  GER_einigkeit_reigns: "Einigkeit Reigns"
+  GER_einigkeit_reigns_desc: ""
+  
+  GER_the_tower: "The Tower"
+  GER_the_tower_desc: ""
+  
+  ## DEP-R Victory
+  GER_recht_commands: "Recht Commands"
+  GER_recht_commands_desc: ""
+  
+  #GER_die_wacht_am_rhein: "Die Wacht Am Rhein"
+  #GER_die_wacht_am_rhein_desc: ""
+  
+  ## VPD-C Victory
+  GER_der_siegerkranz: "Der Siegerkranz"
+  GER_der_siegerkranz_desc: ""
+  
+  GER_gott_strafe_frankreich: "Gott Strafe Frankreich"
+  GER_gott_strafe_frankreich_desc: ""
+
+  ###############################
+  # Stresemann's Diplomacy Tree #
+  ###############################
+
+  GER_stresemanns_diplomacy: "Stresemann's Diplomacy"
+  GER_stresemanns_diplomacy_desc: "placeholder"
+
+  ### Commonwealth Conflict Subtree ###
+  GER_the_commonwealth_conflict: "The Commonwealth Conflict"
+  GER_the_commonwealth_conflict_desc: "placeholder"
+
+  GER_take_in_refugees: "Take In Refugees"
+  GER_take_in_refugees_desc: "placeholder"
+
+  GER_arm_the_poles: "Arm the Poles"
+  GER_arm_the_poles_desc: "placeholder"
+
+  GER_sabotage_on_the_lithuanian_border: "Sabotage on the Lithuanian Border"
+  GER_sabotage_on_the_lithuanian_border_desc: "placeholder"
+
+  GER_negotiate_for_territories: "Negotiate for Territories"
+  GER_negotiate_for_territories_desc: "placeholder"
+
+  ### Die Wacht am Rhein Subtree ###
+  GER_die_wacht_am_rhein: "Die Wacht am Rhein"
+  GER_die_wacht_am_rhein_desc: "placeholder"
+
+  GER_protect_ruhr_industry: "Protect Ruhr Industry"
+  GER_protect_ruhr_industry_desc: "placeholder"
+
+  GER_fortify_the_french_border: "Fortify the French Border"
+  GER_fortify_the_french_border_desc: "placeholder"
+
+  ### Meet with Chamberlain Subtree ###
+  GER_meet_with_chamberlain: "Meet with Chamberlain"
+  GER_meet_with_chamberlain_desc: "placeholder"
+
+  GER_intellectual_exchange: "Intellectual Exchange"
+  GER_intellectual_exchange_desc: "placeholder"
+
+  GER_ties_with_london_business: "Ties with London Business"
+  GER_ties_with_london_business_desc: "placeholder"
+
+  GER_worldwide_republican_movement: "Worldwide Republican Movement"
+  GER_worldwide_republican_movement_desc: "placeholder"

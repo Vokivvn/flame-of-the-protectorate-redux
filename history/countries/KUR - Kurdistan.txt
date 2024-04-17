@@ -1,0 +1,33 @@
+﻿capital = 894
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	centralism = 0
+	socialism = 0
+	progressivism = 13
+	liberalism = 17
+	conservatism = 33
+	republicanism = 5
+	authoritarianism = 27
+	ultranationalism = 5
+}
+
+create_country_leader = {
+	name = "Molla Mustafa Barzani"
+	desc = "POLITICS_Mustafa_Barzani_DESC"
+	picture = "Leader_KUR_Mustafa_Barzani.dds"
+	expire = "1965.1.1"
+	ideology = conservatism_subtype
+	traits = {
+		#
+	}
+}
+
+

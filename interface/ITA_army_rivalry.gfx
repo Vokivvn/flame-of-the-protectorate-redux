@@ -1,0 +1,14 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Lussu"
+		texturefile = "gfx/interface/army_rivals/Portrait_Italy_Emilio_Lussu.dds"
+	}
+	spriteType = {
+		name = "GFX_Farinacci"
+		texturefile = "gfx/interface/army_rivals/Portrait_Italy_Roberto_Farinacci.dds"
+	}
+	spriteType = {
+		name = "GFX_ITA_Italian_Coat_of_Arms"
+		texturefile = "gfx/interface/army_rivals/GFX_ITA_Italian_Coat_of_Arms.dds"
+	}
+}

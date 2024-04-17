@@ -1,0 +1,14 @@
+focus_tree = {
+	id = RAJ_Start
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RAJ
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 0 y = 4000 }
+	shared_focus = RAJ_Jai_Hind
+	shared_focus = RAJ_the_intensive_recovery_act
+}

@@ -1,0 +1,104 @@
+﻿add_namespace = DEN
+
+country_event = {
+	id = DEN.1
+	title = DEN.1.t
+	desc = DEN.1.d
+	picture = GFX_report_event_norwegian_independence
+
+	is_triggered_only = yes
+	
+	option = {
+		name = DEN.1.a
+		NOR = {
+			transfer_state = 110
+			add_state_core = 110
+			transfer_state = 142
+			add_state_core = 142
+			transfer_state = 143
+			add_state_core = 143
+			transfer_state = 144
+			add_state_core = 144
+			transfer_state = 848
+			add_state_core = 848
+			transfer_state = 849
+			transfer_state = 882
+			add_state_core = 849
+			add_state_core = 842
+			add_state_core = 882
+			load_oob = "NOR_1936"
+		}
+		country_event = { id = DEN.3 days = 1}
+	}
+}
+
+country_event = { #Move Danish Troops out of way
+	id = DEN.2
+	title = DEN.2.t
+	desc = DEN.2.d
+	picture = GFX_report_event_norwegian_independence
+
+	is_triggered_only = yes
+	
+	option = {
+		name = DEN.2.a
+		110 = {
+			set_demilitarized_zone = yes
+		}
+		142 = {
+			set_demilitarized_zone = yes
+		}
+		143 = {
+			set_demilitarized_zone = yes
+		}
+		144 = {
+			set_demilitarized_zone = yes
+		}
+		848 = {
+			set_demilitarized_zone = yes
+		}
+		882 = {
+			set_demilitarized_zone = yes
+		}
+		country_event = { id = DEN.1 days = 1}
+
+	}
+	
+}
+
+country_event = { #war
+	id = DEN.3
+	title = DEN.3.t
+	desc = DEN.3.d
+	picture = GFX_report_event_norwegian_independence
+
+	is_triggered_only = yes
+	
+	option = {
+		name = DEN.3.a
+		declare_war_on = {
+		    target = NOR
+		    type = annex_everything
+		}
+		load_oob = "DEN_ruge"
+		set_global_flag = NOR_norwegian_revolution
+		#hidden_effect = {
+		#	ENG = {country_event = { id = DEN. days = 37}} #supply ship captured
+		#}
+	}
+}
+
+country_event = { #war
+	id = DEN.4
+	title = DEN.4.t
+	desc = DEN.4.desc
+	picture = GFX_report_event_norwegian_independence
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = DEN.4.a
+		white_peace = DEN
+	}
+}

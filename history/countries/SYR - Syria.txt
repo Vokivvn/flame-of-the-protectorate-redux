@@ -1,0 +1,31 @@
+﻿capital = 554
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	centralism = 12
+	socialism = 10
+	progressivism = 0
+	liberalism = 0
+	conservatism = 11
+	republicanism = 15
+	authoritarianism = 52
+	ultranationalism = 0
+}
+
+create_country_leader = {
+	name = "Sultan Pasha Al-Atrash"
+	desc = "POLITICS_Sultan_Alatrash_DESC"
+	picture = "Leader_SYR_Sultan_Alatrash.dds"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+	traits = {
+		#
+	}
+}

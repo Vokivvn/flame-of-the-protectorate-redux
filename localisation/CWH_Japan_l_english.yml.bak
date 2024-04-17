@@ -1,0 +1,31 @@
+﻿l_english:
+ ## parties ##
+  JAP_centralism_party:0 "Nihon Kyōsan-tō"
+  JAP_centralism_party_long:0 "Nihon Kyōsan-tō"
+  JAP_socialism_party:0 "Shakai Taishuutou"
+  JAP_socialism_party_long:0 "Shakai Taishuutou"
+  JAP_progressivism_party:0 "Minkai"
+  JAP_progressivism_party_long:0 "Minkai"
+  JAP_liberalism_party:0 "Seiyuukai"
+  JAP_liberalism_party_long:0 "Seiyuukai"
+  JAP_conservatism_party:0 "Minseitou"
+  JAP_conservatism_party_long:0 "Minseitou"
+  JAP_republicanism_party:0 "Minkai"
+  JAP_republicanism_party_long:0 "Minkai"
+  JAP_authoritarianism_party:0 "Seiyuuhonto"
+  JAP_authoritarianism_party_long:0 "Seiyuuhonto"
+  JAP_ultranationalism_party:0 "Honryu Uyoku"
+  JAP_ultranationalism_party_long:0 "Honryu Uyoku"
+  
+ ## ideas ##
+  JAP_The_Second_Sengoku:0 "The Second Sengoku"
+  JAP_The_Second_Sengoku_desc:0 "A new upheaval comes to Nihon, not too unlike the first that capitulated the archipelago into chaos four centuries ago. The civil conflict and strife during the first Sengoku period tampered off when the loyalist forces of Toyotomi were resoundingly defeated during the battle of Tennōji. A new battle rages today, not on blood-soaked battlegrounds, but between hushed meetings in smoke filled rooms. The battle for Japan has been isolated to the Imperial Diet where each domain is represented by a man of noble status. While this has brought temporary peace to the cities, backstabbing and maneuvering between special interest groups will make any change a challenge."
+  JAP_seat_count_tt:0 "§RReforming seat count within the diet is impossible§!."
+  
+  JAP_The_Satsuma_Succession:0 "The Satsuma Succession"
+  JAP_The_Satsuma_Succession_desc:0 "No man in Japan can truly know what ideas circulate in the mind of Duke Saionji Kinmochi. Whether the people are aware or not, most happenings in the nation can be attributed to an aging duke, high atop his palace with all the cards in his hands. From his position at the top of the party ladder, Saionji calls all of the shots, executing his vision for Japan with his political allies, mere puppets on strings. Whilst the general population may be content viewing the duke's puppet shows, the movers and shakers of Dohi, particularly Kazushige Ugaki, have taken note of the political omnipotence of Saionji. Kazushige has taken to the diet, publicly questioning the strength of duke's sway over the feudal system. ""
+  JAP_coalition_no_tt:0 "§RForming coalitions is impossible§!."
+  
+  JAP_Political_Chaos:0 "Political Chaos"
+  JAP_Political_Chaos_desc:0 "As they saying goes, "Keep your friends close and your enemies closer." Unfortunately, stock in the former dwindles day by day as more defect to the latter due to the polarization of Japanese politics. The traditional enemies, the adherent supporters of a tolerant republic and the opportunistic generals of the Teikoku Rikugun, have formed a temporary alliance of circumstance to capitalize on the failures of the state. No coalition is stable, no friendship permeant, the most the government can be offered is lip service from the yes-man within the Diet."
+  JAP_constant_disarray_tt:0 "§ROur politics will be stuck in constant disarray§!."

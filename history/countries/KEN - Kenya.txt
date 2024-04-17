@@ -1,0 +1,13 @@
+﻿capital = 547
+
+set_politics = {
+	ruling_party = republicanism
+	last_election = "1935.6.9"
+	election_frequency = 12
+	elections_allowed = yes # none after offset 1
+}
+set_popularities = {
+	republicanism = 100
+}
+
+

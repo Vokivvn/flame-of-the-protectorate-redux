@@ -1,0 +1,40 @@
+
+state={
+	id=540
+	name="STATE_540"
+	manpower = 3225000
+	
+	state_category = rural
+	resources={
+		rubber=1 # was: 1
+	}
+	history={
+		owner = BWA
+		buildings = {
+			infrastructure = 2
+			8248 ={
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			8248 2
+		}
+		victory_points = {
+			10966 1
+		}
+		victory_points = {
+			12958 1
+		}
+		victory_points = {
+			12985 1
+		}
+		victory_points = {
+			8219 1
+		}
+		add_core_of = BWA
+	}
+
+	provinces={
+		2126 4735 5158 8138 8202 8219 8248 10966 12391 12958 12981 12985 12921 8136 10978 
+	}
+}

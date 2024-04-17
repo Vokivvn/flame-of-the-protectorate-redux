@@ -1,0 +1,213 @@
+﻿capital = 126
+
+set_variable = { country_infamy = 10 } 
+
+set_variable = { ENG_irish_patriot_party = 0.95 } 
+	set_variable = { ENG_irish_cavaliers_prominence = 0.52 } 
+	set_variable = { ENG_irish_cavaliers_status = 0.20 } 
+	set_variable = { ENG_irish_irish_republican_brotherhood_prominence = 0.26 } 
+	set_variable = { ENG_irish_irish_republican_brotherhood_status = 0.20 } 
+	set_variable = { ENG_irish_irish_tuc_prominence = 0.22 } 
+	set_variable = { ENG_irish_irish_tuc_status = 0.20 } 
+	
+set_variable = { ENG_NAVSR = 0.65 } 
+	set_variable = { ENG_scottish_scottish_covenant_prominence = 0.68 } 
+	set_variable = { ENG_scottish_scottish_covenant_status = 0.20 } 
+	set_variable = { ENG_scottish_scottish_democratic_redemption_party_prominence = 0.32 } 
+	set_variable = { ENG_scottish_scottish_democratic_redemption_party_status = 0.20 } 
+
+set_variable = { ENG_welsh_national_federation = 0.20 } 
+	set_variable = { ENG_welsh_plaid_cymru_prominence = 0.27 } 
+	set_variable = { ENG_welsh_plaid_cymru_status = 0.20 } 
+	set_variable = { ENG_welsh_welsh_labour_prominence = 0.73 } 
+	set_variable = { ENG_welsh_welsh_labour_status = 0.20 } 
+
+
+set_research_slots = 4
+
+set_stability = 0.6
+set_war_support = 0.3
+
+load_focus_tree = ENG_Starting_Out
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	#improved_light_tank = 1  # PLACEHOLDER
+	#basic_heavy_tank = 1  # PLACEHOLDER
+	#basic_medium_tank = 1 # PLACEHOLDER
+	early_fighter = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	naval_bomber1 = 1
+	early_bomber = 1
+	CAS1 = 1
+	
+	trench_warfare = 1
+
+	
+	fleet_in_being = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+
+# DIPLOMACY
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = MAL
+		autonomous_state = autonomy_colonial_regime
+	}
+	set_autonomy = {
+		target = PCN
+		autonomous_state = autonomy_colonial_regime
+		freedom_level = 0.2
+	}
+	set_autonomy = { # patagona
+		target = PAT
+		autonomous_state = autonomy_colonial_regime
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = PNG
+		autonomous_state = autonomy_colonial_regime
+		freedom_level = 0.2
+	}
+	set_autonomy = { # hobyo
+		target = HOB
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.2
+	}
+	set_autonomy = { # kenya
+		target = KEN
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.2
+	}
+	set_autonomy = { # bechuanaland
+		target = BOT
+		autonomous_state = autonomy_colonial_regime
+		freedom_level = 0.2
+	}
+	set_autonomy = { # rhodesia
+		target = RHO
+		autonomous_state = autonomy_colonial_regime
+		freedom_level = 0.2
+	}
+	set_autonomy = { # cape colony
+		target = CPC
+		autonomous_state = autonomy_colonial_regime
+		freedom_level = 0.2
+	}
+	set_autonomy = { # east africa
+		target = BEA
+		autonomous_state = autonomy_colonial_regime
+		freedom_level = 0.2
+	}
+	set_autonomy = { # nigeria
+		target = BNP
+		autonomous_state = autonomy_colonial_regime
+		freedom_level = 0.2
+	}
+	set_autonomy = { # gujarat
+		target = GUJ
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.2
+	}
+	set_autonomy = { # sarawak
+		target = SRW
+		autonomous_state = autonomy_satellite
+		freedom_level = 0.2
+	}
+	set_autonomy = { # malet
+		target = NZL
+		autonomous_state = autonomy_satellite
+	}
+	else = {
+		puppet = MAL
+	}
+}
+
+create_faction = "Republican Commonwealth"
+add_to_faction = NZL
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1932.03.14"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	republicanism = 24
+	progressivism = 21
+	conservatism = 36
+	liberalism = 19
+}
+
+create_country_leader = {
+	name = "Neville Chamberlain"
+	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+	picture = "Leader_ENG_Neville_Chamberlain.dds"
+	expire = "1965.1.1"
+	ideology = conservatism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Olaf Stapledon"
+	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+	picture = "Portrait_England_Olaf_Stapledon.dds"
+	expire = "1965.1.1"
+	ideology = progressivism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Oswald Mosley"
+	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+	picture = "Portrait_Britain_Oswald_Mosely.dds"
+	expire = "1965.1.1"
+	ideology = republicanism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Herbert Samuel"
+	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+	picture = "Portrait_Britain_Herbert_Samuel.dds"
+	expire = "1965.1.1"
+	ideology = liberalism_subtype
+	traits = {
+		
+	}
+}
+
+add_ideas = {
+	ENG_cromwells_legacy
+	ENG_all_alone
+	ENG_into_the_dark
+	# law
+	industrial
+}

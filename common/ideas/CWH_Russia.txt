@@ -1,0 +1,210 @@
+ideas = {
+	country = {
+	
+		SOV_the_aristocratic_arena = {	
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = SOV_area_of_battle
+
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.15
+				authoritarianism_drift = -0.01
+			}
+		}
+		
+		SOV_oversees_scraps = {
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = SOV_empire_of_scraps
+
+			modifier = {
+				stability_factor = 0.10
+				non_core_manpower = 0.05
+				#resistance_tick_auto = -2 
+			}
+		}
+		
+		SOV_eyes_to_the_west = {	
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = SOV_westward
+
+			modifier = {
+				ai_badass_factor = 0.05
+				ai_focus_aggressive_factor = 0.5
+				#mobilization_laws_cost_factor = -0.10
+				conscription = 0.05
+				army_attack_factor = 0.05
+			}
+		}
+		
+		SOV_Open_the_Coffers_idea = {	
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = SOV_westward
+
+			modifier = {
+				industrial_capacity_factory = 0.15
+				consumer_goods_factor = -0.20
+				line_change_production_efficiency_factor = 0.10
+			}
+		}
+
+		SOV_Chip_Away_the_Aristocracy_idea = {	
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = SOV_westward
+
+			modifier = {
+				authoritarianism_drift = -0.02
+				production_speed_buildings_factor = 0.25
+			}
+		}
+
+		SOV_Liberation_of_the_People_idea = {	
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = SOV_westward
+
+			modifier = {
+				non_core_manpower = 0.02
+			}
+		}
+
+		SOV_Land_For_the_Empire_idea = {	
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = SOV_westward
+
+			modifier = {
+				political_power_gain = -0.50
+				army_attack_factor = 0.25
+			}
+		}
+
+		SOV_The_Righteous_Acts_idea = {	
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = SOV_westward
+
+			modifier = {
+				stability_factor = 0.10
+				conservatism_drift = 0.01
+				republicanism_drift = 0.01
+			}
+		}
+		
+		SOV_russian_influence = {	
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = SOV_russian_influence
+
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = -0.15
+				consumer_goods_factor = 0.05
+			}
+		}
+		
+		SOV_legacy_of_the_1903_interregnum = {	
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = SOV_legacy_of_the_1903_interregnum
+
+			modifier = {
+				political_power_gain = -0.5
+				stability_factor = -0.5
+				command_power_gain = -0.5
+			}
+		}
+		
+		SOV_the_tsars_apathy = {	
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = SOV_the_tsars_apathy
+
+			modifier = {
+				political_power_gain = -0.1
+				drift_defence_factor = -0.25
+			}
+		}
+		
+		SOV_the_engelhardt_reformation = {	
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = SOV_the_engelhardt_reformation
+
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				mobilization_speed = 0.05
+				experience_gain_army = 0.05
+			}
+		}
+		
+		SOV_where_yermak_lays_his_gaze = {	
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = SOV_where_yermak_lays_his_gaze
+
+			modifier = {
+				stability_factor = 0.05
+				surrender_limit = 0.1
+				production_speed_infrastructure_factor = 0.1
+			}
+		}
+	}
+}

@@ -1,0 +1,56 @@
+focus_tree = {
+	id = AUS_Intro
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AUS
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 1800 }
+	shared_focus = AUS_Shattered_Lands
+}
+
+focus_tree = {
+	id = AUS_Monarchism
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AUS
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 1800 }
+	shared_focus = AUS_fiat_iustitia_et_pereat_mundus
+	shared_focus = AUS_our_past_is_our_future
+}
+
+focus_tree = {
+	id = AUS_Monarchism_Expansion
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AUS
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 1800 }
+	shared_focus = AUS_our_past_is_our_future
+}
+
+focus_tree = {
+	id = AUS_Austrofascism
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AUS
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 1800 }
+	shared_focus = AUS_ascension_of_the_standestaat
+}

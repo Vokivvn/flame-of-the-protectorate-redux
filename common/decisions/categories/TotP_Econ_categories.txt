@@ -1,0 +1,7 @@
+TOTP_ECON = {
+	visible = {
+		always = no
+	}
+	
+	priority = 100
+}

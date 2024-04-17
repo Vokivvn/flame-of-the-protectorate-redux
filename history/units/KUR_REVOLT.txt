@@ -1,0 +1,169 @@
+##Division Templates##
+
+division_template = {
+	name = "Pêşmerge"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Eşîrên"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Çiyan"
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+}
+
+
+##Units##
+
+units = {
+	division = {
+	name = "Pêşmerge"
+	location = "1463"
+	division_template = "Pêşmerge"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Pêşmerge"
+	location = "12476"
+	division_template = "Pêşmerge"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Pêşmerge"
+	location = "12318"
+	division_template = "Pêşmerge"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Pêşmerge"
+	location = "7470"
+	division_template = "Pêşmerge"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Pêşmerge"
+	location = "11880"
+	division_template = "Pêşmerge"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Pêşmerge"
+	location = "10497"
+	division_template = "Pêşmerge"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Eşîrên"
+	location = "11739"
+	division_template = "Eşîrên"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Eşîrên"
+	location = "12416"
+	division_template = "Eşîrên"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Eşîrên"
+	location = "11871"
+	division_template = "Eşîrên"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Eşîrên"
+	location = "1578"
+	division_template = "Eşîrên"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Eşîrên"
+	location = "10882"
+	division_template = "Eşîrên"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Eşîrên"
+	location = "901"
+	division_template = "Eşîrên"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Pêşmerge"
+	location = "1938"
+	division_template = "Pêşmerge"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Pêşmerge"
+	location = "10804"
+	division_template = "Pêşmerge"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Pêşmerge"
+	location = "10811"
+	division_template = "Pêşmerge"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Pêşmerge"
+	location = "3916"
+	division_template = "Pêşmerge"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Çiyan"
+	location = "6826"
+	division_template = "Çiyan"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Çiyan"
+	location = "4512"
+	division_template = "Çiyan"
+	start_experience_factor = 0.1
+	}
+}

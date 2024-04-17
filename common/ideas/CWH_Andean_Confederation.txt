@@ -1,0 +1,47 @@
+ideas = {
+	country = {
+	
+		PRU_renacimiento = {
+	
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 0.15
+				army_org_factor = 0.2
+			}
+		}
+		
+		PRU_devastation = {
+	
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.5
+				stability_factor = -0.1
+				war_support_factor = -0.5
+			}
+		}
+		
+		PRU_federalista_insurgency = {
+	
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_weekly = -0.01
+				conscription_factor = -0.2
+			}
+		}
+	}
+}

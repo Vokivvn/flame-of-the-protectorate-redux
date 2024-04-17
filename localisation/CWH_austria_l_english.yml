@@ -1,0 +1,316 @@
+﻿l_english:
+
+ ##ideas
+
+ AUS_the_father_of_europe:0 "The Father of Europe"
+ AUS_the_father_of_europe_desc:0 "There was a time when Austria was arguably the greatest power in Europe, and thus the world. Austria did not have a massive military, nor the greatest holdings, but instead was the puppetmaster of the continent, brokering treaties and making deals in order to bring the rest of the world into their fold. Europe's borders were drawn and agreed to in the imperial halls, and sometimes drunkards' taverns, of Vienna, and the work of von Metternich defines European diplomacy to this day. There were many who believed that Austria was on its way to unite Europe and then perhaps the world, but all that momentum crashed with the loss of Hungary and the Balkans. However, a tiny spark remains, a spark that could reignite the willpower of Austria."
+    
+ AUS_the_nostalgic_empire:0 "The Nostalgic Empire"
+ AUS_the_nostalgic_empire_desc:0 "A mighty empire, stretching from the Southern Alps to the Transylvanian Alps. Two thrones, two ancient and proud nations, one Kaiser and one Empire. All this was lost when Hungary rejected the might destiny of the dual bond and broke free, leaving their fate shattered. Still, that dream lives on in Austria, and a nostalgia for what was could turn to a determination to reach what should be."
+    
+ AUS_right_unity:0 "Right Unity"
+ AUS_right_unity_desc:0 "The Fascist movement in Austria has quickly come to be one of the most important forces in the nation. Based on nationalism, irredentism, revanchism, and taking inspiration from Neo-Cromwellian movements in Britain, the Fascists are a new and radical type of far-right party. The two leading Fascist figures, Engelbert Dolfuss and Adolf Hitler, often duel and have different ideas of what their movement really means, but they agree enough to work together and maintain a large coalition. Furthermore, while the movement is staunchly republican, they hold many nationalist ideals in common with the monarchy, and so for now tacitly support the Emperor. However, if the Kaiser wants to keep their support, he will have to take successful and decisive action to show Austria's might."
+    
+ AUS_the_time_for_liberation:0 "The Time For Liberation"
+ AUS_the_time_for_liberation_desc:0 "The soldiers are ready and the bicolor flies high! The army of Austria is ready to reclaim the imperial glory by taking Silesia as soon as the orders are given. Much hinges on this invasion, and the Kaiser's legitimacy could be lost should it fail."
+
+ AUS_the_time_for_liberation_1:0 "The Time For Liberation"
+ AUS_the_time_for_liberation_1_desc:0 "The soldiers are ready and the bicolor flies high! The army of Austria is ready to reclaim the imperial glory by taking Silesia as soon as the orders are given. Much hinges on this invasion, and the Kaiser's legitimacy could be lost should it fail."
+
+ AUS_the_revitalized_empire:0 "The Revitalized Empire"
+ AUS_the_revitalized_empire_desc:0 ""
+ 
+ AUS_overwhelming_resistance_3:0 "Overwhelming Resistance"
+ AUS_overwhelming_resistance_3_desc:0 ""
+ AUS_overwhelming_resistance_2:0 "Powerful Resistance"
+ AUS_overwhelming_resistance_2_desc:0 ""
+ AUS_overwhelming_resistance_1:0 "Suppressed Resistance"
+ AUS_overwhelming_resistance_1_desc:0 ""
+ 
+ AUS_internal_struggles:0 "Government Infighting"
+ AUS_internal_struggles_desc:0 ""
+ 
+ AUS_corporate_suits_among_us:0 "Corporate Suits Among Us"
+ AUS_corporate_suits_among_us_desc:0 ""
+
+ POLITICS_Franz_Ferdinand_DESC:0 "Franz Ferdinand was never meant to rule the Empire. The succession simply happened to fall to him after the suicide of his cousin and the death of his father, pleasing Kaiser Franz Joseph I not one bit. Franz Joseph did everything he could to sabotage Franz Ferdinand, making him renounce his childrens' right to the throne and forcing him to keep his beloved wife away from the public eye. Franz Ferdinand would have had enough trouble ruling a scarred and disillusioned Austria without these crippling blows, and with them it was nigh-impossible. Still, he has managed to rule for two decades since his uncle's death, not an ignorably easy task for a monarch.\n\nHowever, Austria may finally be at its tipping point. Franz Ferdinand is an uncharismatic and unpopular monarch, and he faces much opposition. If he wants any chance of keeping his throne and preserving the ancient traditions of the Austrian Empire, he will have to take drastic action and regain some of the lost glory of Kaisers past."
+
+ ##focuses
+ AUS_Shattered_Lands:0 "Shattered Lands"
+ AUS_Shattered_Lands_desc:0 ""
+
+ AUS_Push_Polish_Claims:0 "Push Polish Claims"
+ AUS_Push_Polish_Claims_desc:0 ""
+
+ AUS_Boost_Morale:0 "Boost Army Morale"
+ AUS_Boost_Morale_desc:0 ""
+
+ AUS_By_Imperial_Decree:0 "By Imperial Decree"
+ AUS_By_Imperial_Decree_desc:0 ""
+
+ AUS_Reclaim_Galicia_Lodomeria:0 "Relclaim Polish Territory"
+ AUS_Reclaim_Galicia_Lodomeria_desc:0 ""
+
+ AUS_Bank_On_Success:0 "The Bicolor Over Krakau"
+ AUS_Bank_On_Success_desc:0 ""
+
+ AUS_Pacify_Slovakia:0 "Pacify Slovakia"
+ AUS_Pacify_Slovakia_desc:0 ""
+
+ AUS_Integrate_Polish_Lands:0 "Reintegrate Polish Lands"
+ AUS_Integrate_Polish_Lands_desc:0 ""
+
+ AUS_Balkan_Focus:0 "A Shift To The Balkans"
+ AUS_Balkan_Focus_desc:0 ""
+
+ AUS_Deal_With_The_Devil:0 "A Deal With The Devil"
+ AUS_Deal_With_The_Devil_desc:0 ""
+
+ AUS_Skirmish_With_Croatia:0 "Test Broz's Regime"
+ AUS_Skirmish_With_Croatia_desc:0 ""
+
+ AUS_Imperial_Ambitions_Continue:0 "Uatum Ruina Imperii"
+ AUS_Imperial_Ambitions_Continue_desc:0 ""
+
+ AUS_Imperial_Identity:0 "Imperial Identity"
+ AUS_Imperial_Identity_desc:0 ""
+
+ AUS_Fate_Of_The_Emperor:0 "Fate of the Emperor"
+ AUS_Fate_Of_The_Emperor_desc:0 ""
+
+ AUS_Abolish_The_Monarchy:0 "Abolish the Monarchy"
+ AUS_Abolish_The_Monarchy_desc:0 ""
+
+ AUS_The_Reality_Of_The_Right:0 "The Reality of the Right"
+ AUS_The_Reality_Of_The_Right_desc:0 ""
+
+ AUS_Strength_In_Disunity:0 "Strength in Disunity"
+ AUS_Strength_In_Disunity_desc:0 ""
+
+ AUS_A_New_Austria:0 "A New Austria"
+ AUS_A_New_Austria_desc:0 ""
+
+ AUS_The_German_Identity:0 "The German Identity"
+ AUS_The_German_Identity_desc:0 ""
+
+ AUS_Purge_The_Opposition:0 "Purge the Opposition"
+ AUS_Purge_The_Opposition_desc:0 ""
+
+ AUS_Eliminate_The_Protestors:0 "Eliminate the Royalists"
+ AUS_Eliminate_The_Protestors_desc:0 ""
+
+ AUS_The_Brown_Terror:0 "The Brown Terror"
+ AUS_The_Brown_Terror_desc:0 ""
+
+ AUS_A_Fateful_Reign:0 "A Fateful Reign"
+ AUS_A_Fateful_Reign_desc:0 ""
+
+ AUS_The_Austrian_Identity:0 "The Austrian Identity"
+ AUS_The_Austrian_Identity_desc:0 ""
+
+ AUS_A_Reign_Of_Normalcy:0 "A Reign of Normalcy"
+ AUS_A_Reign_Of_Normalcy_desc:0 ""
+
+ AUS_Catholic_Traditions:0 "Catholic Traditions"
+ AUS_Catholic_Traditions_desc:0 ""
+
+ AUS_Front_Of_The_Forefathers:0 "Front of the Forefathers"
+ AUS_Front_Of_The_Forefathers_desc:0 ""
+
+ ## Parties ##
+ AUS_centralism_party:0 "KPÖ"
+ AUS_centralism_party_long:0 "Kommunistische Partei Österreichs"
+ AUS_socialism_party:0 "SDAPÖ"
+ AUS_socialism_party_long:0 "Sozialdemokratische Arbeiterpartei Österreichs"
+ AUS_progressivism_party:0 "BDS"
+ AUS_progressivism_party_long:0 "Bund Demokratischer Sozialisten"
+ AUS_liberalism_party:0 "D"
+ AUS_liberalism_party_long:0 "Demokraten"
+ AUS_conservatism_party:0 "CP"
+ AUS_conservatism_party_long:0 "Christlichsoziale Partei"
+ AUS_republicanism_party:0 "GDVP"
+ AUS_republicanism_party_long:0 "Großdeutsche Volkspartei"
+ AUS_authoritarianism_party:0 "Lanbund"
+ AUS_authoritarianism_party_long:0 "Lanbund"
+ AUS_ultranationalism_party:0 "Heimwehr"
+ AUS_ultranationalism_party_long:0 "Heimwehr"
+
+ # AustroFascists
+ 
+ AUS_ascension_of_the_standestaat:0 "Ascension of the Ständestaat"
+ AUS_ascension_of_the_standestaat_desc:0 ""
+ 
+ AUS_the_ailments_that_plague_society:0 "The Ailments That Plague Society"
+ AUS_the_ailments_that_plague_society_desc:0 ""
+ 
+ AUS_united_under_the_flag:0 "United Under the Flag"
+ AUS_united_under_the_flag_desc:0 ""
+ 
+ AUS_tackle_the_labour_movement:0 "Tackle the Labour Movement"
+ AUS_tackle_the_labour_movement_desc:0 ""
+ 
+ AUS_reshape_unions:0 "Reshape Unions"
+ AUS_reshape_unions_desc:0 ""
+ 
+ AUS_class_cooperation:0 "Class Cooperation"
+ AUS_class_cooperation_desc:0 ""
+ 
+ AUS_enforce_tripartism:0 "Enforce Tripartism"
+ AUS_enforce_tripartism_desc:0 ""
+ 
+ AUS_wien_ventures:0 "Wien Ventures"
+ AUS_wien_ventures_desc:0 ""
+ 
+ AUS_mass_arests:0 "Mass Arrests"
+ AUS_mass_arests_desc:0 ""
+ 
+ AUS_absorb_the_heimwehr:0 "Absorb the Heimwehr"
+ AUS_absorb_the_heimwehr_desc:0 ""
+ 
+ AUS_establish_the_one_party_state:0 "Establish the One Party State"
+ AUS_establish_the_one_party_state_desc:0 ""
+ 
+ AUS_contact_the_church:0 "Contact the Church"
+ AUS_contact_the_church_desc:0 ""
+ 
+ AUS_meet_with_bavarian_officials:0 "Meet With Bavarian Officials"
+ AUS_meet_with_bavarian_officials_desc:0 ""
+ 
+ AUS_internal_investments:0 "Internal Investments"
+ AUS_internal_investments_desc:0 ""
+ 
+ AUS_global_redemption:0 "Global Redemption"
+ AUS_global_redemption_desc:0 ""
+ 
+ AUS_wien_and_the_world:0 "Wien and the World"
+ AUS_wien_and_the_world_desc:0 ""
+ 
+ AUS_absorb_the_czech_government:0 "Absorb the Czech Government"
+ AUS_absorb_the_czech_government_desc:0 ""
+ 
+ AUS_prags_peak_outside:0 "Prag's Peak Outside"
+ AUS_prags_peak_outside_desc:0 ""
+ 
+ AUS_crush_regional_nationalism:0 "Crush Regional Nationalism"
+ AUS_crush_regional_nationalism_desc:0 ""
+ 
+ AUS_the_other_face_of_austria:0 "The Other Face of Austria"
+ AUS_the_other_face_of_austria_desc:0 ""
+ 
+ AUS_demand_the_dalmatian_coast:0 "Demand the Dalmatian Coast"
+ AUS_demand_the_dalmatian_coast_desc:0 ""
+ 
+ AUS_establish_the_venetian_economic_zone:0 "Establish the Venetian Economic Zone"
+ AUS_establish_the_venetian_economic_zone_desc:0 ""
+ 
+ AUS_control_the_venetian_market:0 "Control the Venetian Market"
+ AUS_control_the_venetian_market_desc:0 ""
+ 
+ AUS_summit_with_hungary:0 "Summit With Hungary"
+ AUS_summit_with_hungary_desc:0 ""
+ 
+ AUS_a_bridge_too_far:0 "A Bridge Too Far"
+ AUS_a_bridge_too_far_desc:0 ""
+ 
+ AUS_leave_the_demon_to_his_demons:0 ""
+ AUS_leave_the_demon_to_his_demons_desc:0 ""
+ 
+ AUS_yield_to_their_demands:0 "Yield To Their Demands"
+ AUS_yield_to_their_demands_desc:0 ""
+ 
+ AUS_the_blank_check:0 "The Blank Check"
+ AUS_the_blank_check_desc:0 ""
+
+ #events
+ AUS.0.t:0 "An Introduction To Austria"
+ AUS.0.desc:0 "pog"
+ AUS.0.a:0 "ok"
+
+ AUS.1.t:0 "Our Shattered Lands"
+ AUS.1.desc:0 "pog"
+ AUS.1.a:0 "ok"
+
+ AUS.2.t:0 "Franz Ferdinand's Decree"
+ AUS.2.desc:0 "POG"
+ AUS.2.a:0 "ok"
+
+ AUS.3.t:0 "Pacification of Slovakia"
+ AUS.3.desc:0 "pog"
+ AUS.3.a:0 "uh oh"
+
+ AUS.4.t:0 "The Kaiser's Balkan Ambitions"
+ AUS.4.desc:0 "poggers wait uh oh"
+ AUS.4.a:0 "let me off f.f.'s rollercoaster'"
+
+ AUS.5.t:0 "Diplomatic Mission To Hungary - 1"
+ AUS.5.desc:0 "realpolitik"
+ AUS.5.a:0 "pog mode activated"
+
+ AUS.6.t:0 "Diplomatic Mission To Hungary - 2"
+ AUS.6.desc:0 "realpolitik"
+ AUS.6.a:0 "YES"
+ AUS.6.b:0 "NO!"
+
+ AUS.7.t:0 "Diplomatic Mission To Hungary - 3"
+ AUS.7.desc:0 "realpolitik"
+ AUS.7.a:0 "aggressive"
+ AUS.7.b:0 "balanced"
+ AUS.7.c:0 "passive"
+
+ AUS.8.t:0 "Diplomatic Mission To Hungary - 4"
+ AUS.8.desc:0 "You failed"
+ AUS.8.a:0 "Damn"
+
+ AUS.11.t:0 "Diplomatic Mission To Hungary - 4"
+ AUS.11.desc:0 "You failed"
+ AUS.11.a:0 "Yes"
+ AUS.11.b:0 "No"
+
+ AUS.12.t:0 "Hungary Accepts Terms"
+ AUS.12.desc:0 "We have given them good terms that they liked"
+ AUS.12.a:0 "ok"
+
+ AUS.13.t:0 "A General Joins Our Ranks"
+ AUS.13.desc:0 "Kurt Daluege joins now, because he realised he loves fascism"
+ AUS.13.a:0 "ok"
+
+ AUS.14.t:0 "The Fate of the Kaiser"
+ AUS.14.desc:0 "The Empire is no more, but its Emperor remains a thorn in the side of the new administration. Debate has been raging over what should be done with Franz Ferdinand and his family. A prominent member of the Pan-Germanists, Rudolf Hess, has been riling up support and calling for the Emperor to be publically shot and his family kept imprisoned until they can be trusted. However, Dolfuss will have none of it. In a speech to the Faschistischer Übergangsrat von Österreich, the Transitional Fascist Council of Austria, the Lord Protector said that while the Emperor was a traitor, the monarchy had been an ancient tradition of the proud nation, and it must be respected while Austria transitions to a new state dedicated to upholding the Austrian Identity. The Kaiser is old and his children lost any claim decades ago and thus pose no threat, and so he and his family should be allowed to leave peacefully and live in exile.\n\nThis was the first major decision of the Transitional Fascist Council, and thus whoever came on top would shape the course of the new government and how it would be led. The debate raged for hours and then days, but finally a decision had to be made."
+ AUS.14.a:0 "Hess convinced the council to have the Kaiser executed."
+ AUS.14.b:0 "Dolfuss used his authority to send the Kaiser into exile."
+
+ AUS.15.t:0 "The Wiener-constitution"
+ AUS.15.desc:0 "No king\n\nOne ruler to rule them all\nno parliament\n\nfascism is the new shit"
+ AUS.15.a:0 "Damn"
+
+ AUSslovakia.1.t:0 "Slovakia Breaks Away"
+ AUSslovakia.1.desc:0 "pog"
+ AUSslovakia.1.a:0 "what do jews"
+
+ AUSslovakia.2.t:0 "Invasion of Slovakia"
+ AUSslovakia.2.desc:0 "pog"
+ AUSslovakia.2.a:0 "ok"
+ 
+ FASH_AUS.1.t:0 "The Final Nail"
+ FASH_AUS.1.desc:0 "In the late hours of the evening, the 1st Imperial-Royal Landwehr Infantry Regiment returned home from Silesia, weary, tired, and defeated. Before the sun had even risen the next morning, their rifles were aimed at the Hofburg. They and their officers had defected to Fascist command, with the defeat in Poland being the final straw. After a tense standoff and very limited exchange of gunfire, the Kaiser and his family surrendered and were imprisoned in the Geheime Ratstube of the Leopoldine Wing, formerly where the Privy Council would meet. It was in this room where Franz Ferdinand had once renounced all claims to the throne for his descendants, and around midnight he was forced to give up his empire, this time not only renouncing the throne for himself but also declaring the crown to be defunct and the Empire to be no more.\n\nEngelbert Dolfuss has taken control of the nation and taken the title of Herr Beschützer, or Lord Protector, in homage to another mighty figure who overthrew the monarchy in the name of faith and nation, Oliver Cromwell. Dolfuss has declared the start of a new era for Austria, one in which the Austrian identity is preserved and Catholicism and the Church are paramount. Unfortunately for him, many in his own Fascist movement have been angered by this, and the Pan-Germanists under Adolf Hitler have made it very clear that they have a different and more ambitious goal, one which embraces the German identity over the Austrian."
+ FASH_AUS.1.a:0 "The end of an era."
+ 
+ MONARCH_AUS.1.t:0 "Victory in Poland"
+ MONARCH_AUS.1.desc:0 "Victory is ours! The soldiers of the Austrian empire march proudly through Krakow, and the bicolor flies high all across Silesia and Galicia. Though they were extremely reluctant, the Poles had no choice but to surrender and grant us the territories, as they have far too many other problems to deal with. However, the noble feats and heroic might of our army should not be underplayed, and this great achievement is truly a triumph to be remembered in our empire for centuries to come.\n\nWith Kaiser Franz Ferdinand I's last-ditch effort to reclaim imperial glory successful, we can finally take a breath of fresh air. Even the fascists are joyously cheering the name of our Emperor, and those who still aren't convinced can put their complaints aside and stop being so troublesome, at least for now. This was a much-needed win for our empire, and now that it is ours, we can finally begin to move forwards."
+ MONARCH_AUS.1.a:0 "Long live the Kaiser! Long live Austria!"
+
+ #flags
+ AUS_galicia_victory_flag:0 "Victory in Galicia assured!"
+ AUS_galicia_loss_flag:0 "Defeat in Galicia cemented!"
+
+ #opinion modifiers
+ AUS_balkan_shift_in_diplomacy:0 "Aggressive Balkan Diplomacy"
+ AUS_hungary_spited:0 "Hungarian Outrage"
+
+ #COSMETIC TAG - NEW EMPIRE
+ AUS_new_empire_conservatism:0 "Austrian Empire"
+ AUS_new_empire_conservatism_DEF:0 "The Austrian Empire"
+ AUS_new_empire_conservatism_ADJ:0 "Austrian"
+ AUS_new_empire_authoritarianism:0 "Austrian Empire"
+ AUS_new_empire_authoritarianism_DEF:0 "The Austrian Empire"
+ AUS_new_empire_authoritarianism_ADJ:0 "Austrian"

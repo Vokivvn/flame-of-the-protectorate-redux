@@ -1,0 +1,51 @@
+﻿capital = 275
+
+load_focus_tree = SAF_starting_out
+
+set_stability = 0.6
+set_war_support = 0.8
+
+set_politics = {
+	ruling_party = republicanism
+	last_election = "1935.11.27"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	republicanism = 70
+	authoritarianism = 20
+	socialism = 10
+}
+
+create_country_leader = {
+	name = "Jan Smuts"
+	desc = "POLITICS_Jan_Smuts_DESC"
+	picture = "Leader_South_Africa_Jan_Smuts.dds"
+	expire = "1965.1.1"
+	ideology = republicanism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Daniel François Malan"
+	desc = "POLITICS_Daniel_Francois_Malan_DESC"
+	picture = "Leader_SAF_Daniel_Francois_Malan.dds"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Rasmus Piet Erasmus"
+	desc = "POLITICS_Rasmus_Piet_Erasmus_DESC"
+	picture = "Leader_SAF_Rasmus_Piet_Erasmus.dds"
+	expire = "1965.1.1"
+	ideology = socialism_subtype
+	traits = {
+		#
+	}
+}

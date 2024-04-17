@@ -1,0 +1,60 @@
+﻿capital = 428
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	centralism = 0
+	socialism = 0
+	progressivism = 0
+	liberalism = 0
+	conservatism = 35
+	republicanism = 0
+	authoritarianism = 65
+	ultranationalism = 0
+}
+
+create_country_leader = {
+	name = "Morarji Desai"
+	desc = "POLITICS_MORARJI_DESAI_DESC"
+	picture = "Portrait_Gujarat_Morarji_Desai.dds"
+	expire = "1965.1.1"
+	ideology = conservatism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Sayajirao Gaekwad III"
+	desc = "POLITICS_SAYAJIRAO_GAEKWAD_III_DESC"
+	picture = "Portrait_Gujarat_Sayajirao_Gaekwad_III.dds"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+	traits = {
+		#
+	}
+}
+
+add_ideas = {
+	GUJ_Religious_Divide
+	GUJ_Treaties_With_Janjira
+	GUJ_The_Gujarati_Pirates
+}
+
+add_timed_idea = {
+	idea = GUJ_General_Strike
+	days = 100
+}

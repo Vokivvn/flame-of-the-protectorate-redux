@@ -1,0 +1,57 @@
+ideas = {
+	country = {
+	
+		HOL_memories_of_32 = {
+		
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = HOL_memories_of_32
+
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = 0.15
+				ultranationalism_drift = 0.05
+			}
+		}
+		
+		HOL_army_factionalism = {
+		
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = HOL_army_factionalism
+
+			modifier = {
+				stability_factor = -0.25
+				army_org_factor = -0.05
+			}
+		}
+		
+		HOL_divided_resistance = {
+		
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = HOL_divided_resistance
+
+			modifier = {
+				political_power_gain = 0.25
+				stability_factor = 0.15
+				centralism_acceptance = -25
+				socialism_acceptance = -25
+				liberalism_acceptance = -25
+				conservatism_acceptance = -25
+			}
+		}
+	}
+}

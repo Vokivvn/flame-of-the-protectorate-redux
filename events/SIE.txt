@@ -1,0 +1,204 @@
+﻿add_namespace = sie
+
+country_event = { # The Maharaja's Stroke
+	id = sie.1
+	title = sie.1.t
+	desc = sie.1.desc
+	picture = GFX_report_event_khalistan_mehmet_duleep_singh
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sie.1.a
+		hidden_effect = {
+			country_event = {
+				id = sie.2
+				days = 5
+			}
+		}
+	}
+}
+
+country_event = { # Bamba Singh Takes Over
+	id = sie.2
+	title = sie.2.t
+	desc = sie.2.desc
+	picture = GFX_report_event_khalistan_mehmet_duleep_singh
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sie.2.a
+		create_country_leader = {
+			name = "Bamba Singh"
+			desc = "POLITICS_BAMBA_SINGH_DESC"
+			picture = "Portrait_Khalistan_Bamba_Singh.dds"
+			expire = "1965.1.1"
+			ideology = authoritarianism_subtype
+			traits = {
+			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = sie.3
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = { # Riots in the Streets
+	id = sie.3
+	title = sie.3.t
+	desc = sie.3.desc
+	picture = GFX_report_event_khalistan_mehmet_duleep_singh
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sie.3.a
+		hidden_effect = {
+			RAJ = {
+				country_event = {
+					id = delhi.15
+				}
+			}
+			#SOV = {
+			#	##EVENT HERE##
+			#}
+		}
+	}
+}
+
+country_event = { # The Palace Siege
+	id = sie.4
+	title = sie.4.t
+	desc = sie.4.desc
+	picture = GFX_report_event_khalistan_mehmet_duleep_singh
+
+	is_triggered_only = yes
+	
+	option = { #Singh is successful
+		name = sie.4.a
+		hidden_effect = {
+			set_politics = {
+				ruling_party = socialism
+				last_election = "1936.1.1"
+				election_frequency = 48
+				elections_allowed = no
+			}
+		}
+	}
+	option = { #Singh is unsuccessful
+		name = sie.4.b
+		add_stability = -0.25
+	}
+}
+
+country_event = { # The Lahore Revolution
+	id = sie.5
+	title = sie.5.t
+	desc = sie.5.desc
+	picture = GFX_report_event_khalistan_mehmet_duleep_singh
+
+	is_triggered_only = yes
+	
+	option = { #Singh is successful
+		name = sie.5.a
+		hidden_effect = {
+			set_politics = {
+				ruling_party = centralism
+				last_election = "1936.1.1"
+				election_frequency = 48
+				elections_allowed = no
+			}
+		}
+	}
+	option = { #Singh is unsuccessful
+		name = sie.5.b
+		add_stability = -0.25
+	}
+}
+
+country_event = { # Delhi Demands We Abolish the Monarchy
+	id = sie.6
+	title = sie.6.t
+	desc = sie.6.desc
+	picture = GFX_report_event_khalistan_mehmet_duleep_singh
+
+	is_triggered_only = yes
+	
+	option = { #Yes
+		name = sie.6.a
+		RAJ = {
+			country_event = {
+				id = delhi.21
+				hours = 7
+			}
+		}
+		hidden_effect = {
+			set_politics = {
+				ruling_party = progressivism
+				last_election = "1936.1.1"
+				election_frequency = 48
+				elections_allowed = no
+			}
+			set_cosmetic_tag = SIE_republic
+		}
+	}
+	option = { #No
+		name = sie.6.b
+		RAJ = {
+			country_event = {
+				id = delhi.22
+				hours = 7
+			}
+		}
+	}
+}
+
+country_event = { # Civil War! (Anarchists)
+	id = sie.7
+	title = sie.7.t
+	desc = sie.7.desc
+	picture = GFX_report_event_khalistan_mehmet_duleep_singh
+	immediate = {
+#		hidden_effect = {
+#			ADD SHIT WHEN I CAN EDIT STATES AGAIN		
+#		}
+	}
+
+	is_triggered_only = yes
+	
+	option = { #Mother Anarchy loves her sons!
+		name = sie.7.a
+		#TAG TO ANARCHISTS, DOW EMPIRE
+	}
+	option = { #Jaikara!
+		name = sie.7.b
+		#DOW ANARCHISTS
+	}
+}
+
+country_event = { # Civil War! (Communists)
+	id = sie.8
+	title = sie.8.t
+	desc = sie.8.desc
+	picture = GFX_report_event_khalistan_mehmet_duleep_singh
+	immediate = {
+#		hidden_effect = {
+#			ADD SHIT WHEN I CAN EDIT STATES AGAIN		
+#		}
+	}
+
+	is_triggered_only = yes
+	
+	option = { #Homeland or death!
+		name = sie.8.a
+		#TAG TO COMMUNISTS, DOW EMPIRE
+	}
+	option = { #Jaikara!
+		name = sie.8.b
+		#DOW COMMUNISTS
+	}
+}

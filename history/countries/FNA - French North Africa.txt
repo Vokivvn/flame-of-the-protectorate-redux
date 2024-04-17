@@ -1,0 +1,26 @@
+﻿capital = 272
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	centralism = 0
+	socialism = 0
+	progressivism = 0
+	liberalism = 0
+	conservatism = 0
+	republicanism = 0
+	authoritarianism = 100
+	ultranationalism = 0
+}
+
+create_country_leader = {
+	name = "Jean de Lattre de Tassigny"
+	desc = "POLITICS_Jean_de_Lattre_de_Tassigny_DESC"
+	picture = "Portrait_FNA_Jean_de_Lattre_de_Tassigny.dds"
+	expire = "1965.1.1"
+	ideology = colonial_government
+}

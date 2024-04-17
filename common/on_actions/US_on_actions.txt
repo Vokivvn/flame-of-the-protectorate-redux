@@ -1,0 +1,76 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			USA = {
+				if = {
+					limit = {
+						is_ai = yes
+					}
+					random_list = {
+						10 = {
+							country_event = {
+								id = ArchieLegacy.5
+								days = 215
+							}
+						}
+						15 = {
+							country_event = {
+								id = ArchieLegacy.4
+								days = 215
+							}
+						}
+						30 = {
+							country_event = {
+								id = ArchieLegacy.3
+								days = 215
+							}
+						}
+						15 = {
+							country_event = {
+								id = ArchieLegacy.2
+								days = 215
+							}
+						}
+						30 = {
+							country_event = {
+								id = ArchieLegacy.1
+								days = 215
+							}
+						}
+					}
+				}	
+				USA_election_initialize_popularities = yes
+				USA_get_EV_count = yes
+				USA_calculate_election_points = yes
+				USA_congress_election_in_state = yes
+				USA_senate_gui_debug = yes
+				USA_house_debug_gui = yes
+				#1936 elections
+				#president election
+				country_event = { id = USA_e.1 days = 210 } #election day, idk never elected before
+
+				#1938 elections
+				#congress elections
+				country_event = { id = USA_e.2 days = 510 } #election day, idk never elected before
+
+				#1940 elections
+				#president election
+				#congress elections
+				country_event = { id = USA_e.3 days = 810 } #election day, idk never elected before
+
+				#1942 elections
+				#president election
+				#congress elections
+				country_event = { id = USA_e.4 days = 1110 } #election day, idk never elected before
+
+				#1944 elections
+				#president election
+				#congress elections
+				country_event = { id = USA_e.5 days = 1410 } #election day, idk never elected before
+
+				#1946 elections
+				#congress elections
+			}
+		}
+	}
+}

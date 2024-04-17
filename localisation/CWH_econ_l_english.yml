@@ -1,0 +1,22 @@
+﻿l_english:
+ TOTP_ECON:0 "Economy"
+ TOTP_ECON_desc:0 ""
+ 
+ TOTP_Pog:0 "Meaningless"
+ 
+ ## Laws
+ 
+ industrial_bastion:0 "Industrial Bastion"
+ industrial_bastion_desc:0 ""
+ industrial:0 "Industrialized Economy"
+ industrial_desc:0 ""
+ mixed:0 "Mixed Economy"
+ mixed_desc:0 ""
+ young_industrial:0 "Young Industrialized Economy"
+ young_industrial_desc:0 ""
+ barren:0 "Barren Economy"
+ barren_desc:0 ""
+ planned:0 "Planned Economy"
+ planned_desc:0 ""
+ 
+ TOTP_private_industry_construct_civillian_factory_1:0 "Civillian Factory Construction in [GetID.GetName]"

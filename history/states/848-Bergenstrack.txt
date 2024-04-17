@@ -1,0 +1,26 @@
+state={ #Bergensrail
+	id=848
+	name="STATE_848"
+	manpower = 5928
+	
+	state_category = wasteland
+
+	history={
+		
+		owner = DEN
+		buildings = {
+			infrastructure = 3
+			9047 = {
+				bunker = 2
+			}
+		}
+		add_core_of = DEN
+		victory_points = {
+			27 1
+		}
+	}
+
+	provinces={
+		9103 144 27 11037 9047
+	}
+}

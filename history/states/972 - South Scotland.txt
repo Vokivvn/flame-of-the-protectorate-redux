@@ -1,0 +1,20 @@
+state={
+	id=972
+	name="STATE_972"
+
+	state_category = town
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = ENG
+	}
+	
+	provinces={
+		6350 9350 11218 9314 11378
+	}
+	manpower= 1
+	buildings_max_level_factor=1.000
+}

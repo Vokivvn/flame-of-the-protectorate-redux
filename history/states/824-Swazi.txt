@@ -1,0 +1,26 @@
+
+state={
+	id=824
+	name="STATE_824"
+	manpower = 202000
+	
+	state_category = pastoral
+	
+	resources={
+	}
+
+	history={
+		owner = SWA
+		victory_points = {
+			7900 2 
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = SWA
+	}
+
+	provinces={
+		7900
+	}
+}

@@ -1,0 +1,183 @@
+#defined_text = {
+#	name = FRA_Catalonia_Herriot
+#	text = {
+#		trigger = {
+#			OR = { 
+#				NOT = { 
+#					AND = { 
+#						has_completed_focus = FRA_tolerate_the_socialists
+#						has_completed_focus = FRA_solidify_the_grip
+#					}
+#				}
+#				has_completed_focus = FRA_tolerate_the_socialists
+#			}
+#		}
+#		localization_key = FRA_meet_catalonians
+#	}
+#	text = {
+#		trigger = {
+#			has_completed_focus = FRA_solidify_the_grip
+#		}
+#		localization_key = FRA_clean_barcelona
+#	}
+#}
+#defined_text = {
+#	name = FRA_Catalonia_Herriot_desc
+#	text = {
+#		trigger = {
+#			has_completed_focus = FRA_tolerate_the_socialists
+#		}
+#		localization_key = FRA_meet_catalonians_desc
+#	}
+#	text = {
+#		trigger = {
+#			has_completed_focus = FRA_solidify_the_grip
+#		}
+#		localization_key = FRA_clean_barcelona_desc
+#	}
+#}
+#defined_text = {
+#	name = FRA_Delhi_Herriot
+#	text = {
+#		trigger = {
+#			NOT = { 
+#				AND = { 
+#					has_country_flag = FRA_fei_status_quo_flag
+#					has_country_flag = FRA_fei_abandoned_flag
+#				}
+#			}
+#		}
+#		localization_key = FRA_delhi_question
+#	}
+#	text = {
+#		trigger = {
+#			has_country_flag = FRA_fei_status_quo_flag
+#		}
+#		localization_key = FRA_indian_beast
+#	}
+#	text = {
+#		trigger = {
+#			has_country_flag = FRA_fei_abandoned_flag
+#		}
+#		localization_key = FRA_indian_friend
+#	}
+#}
+#defined_text = {
+#	name = FRA_Delhi_Herriot_desc
+#	text = {
+#		trigger = {
+#			NOT = {
+#				AND = { 
+#					has_country_flag = FRA_fei_status_quo_flag
+#					has_country_flag = FRA_fei_abandoned_flag
+#				}
+#			}
+#		}
+#		localization_key = FRA_delhi_question_desc
+#	}
+#	text = {
+#		trigger = {
+#			has_country_flag = FRA_fei_status_quo_flag
+#		}
+#		localization_key = FRA_indian_beast_desc
+#	}
+#	text = {
+#		trigger = {
+#			has_country_flag = FRA_fei_abandoned_flag
+#		}
+#		localization_key = FRA_indian_friend_desc
+#	}
+#}
+#defined_text = {
+#	name = FRA_Burma_Herriot
+#	text = {
+#		trigger = {
+#			has_country_flag = FRA_colonial_reform_flag
+#		}
+#		localization_key = FRA_create_burma_department
+#	}
+#	text = {
+#		trigger = {
+#			has_country_flag = FRA_decol_flag
+#		}
+#		localization_key = FRA_evacuate_burma
+#	}
+#}
+#defined_text = {
+#	name = FRA_Burma_Herriot_desc
+#	text = {
+#		trigger = {
+#			NOT = { 
+#				AND = { 
+#					has_country_flag = FRA_decol_flag
+#					has_country_flag = FRA_colonial_reform_flag
+#				}
+#			}
+#		}
+#		localization_key = FRA_create_burma_department_desc
+#	}
+#	text = {
+#		trigger = {
+#			has_country_flag = FRA_colonial_reform_flag
+#		}
+#		localization_key = FRA_create_burma_department_desc
+#	}
+#	text = {
+#		trigger = {
+#			has_country_flag = FRA_decol_flag
+#		}
+#		localization_key = FRA_evacuate_burma_desc
+#	}
+#}
+#defined_text = {
+#	name = FRA_fei_Herriot
+#	text = {
+#		trigger = {
+#			NOT = { 
+#				AND = { 
+#					has_country_flag = FRA_decol_flag
+#					has_country_flag = FRA_colonial_reform_flag
+#				}
+#			}
+#		}
+#		localization_key = FRA_letter_renault
+#	}
+#	text = {
+#		trigger = {
+#			has_country_flag = FRA_colonial_reform_flag
+#		}
+#		localization_key = FRA_letter_renault
+#	}
+#	text = {
+#		trigger = {
+#			has_country_flag = FRA_decol_flag
+#		}
+#		localization_key = FRA_reinforce_pondicherry
+#	}
+#}
+#defined_text = {
+#	name = FRA_fei_Herriot_desc
+#	text = {
+#		trigger = {
+#			NOT = { 
+#				AND = { 
+#					has_country_flag = FRA_decol_flag
+#					has_country_flag = FRA_colonial_reform_flag
+#				}
+#			}
+#		}
+#		localization_key = FRA_letter_renault_desc
+#	}
+#	text = {
+#		trigger = {
+#			has_country_flag = FRA_colonial_reform_flag
+#		}
+#		localization_key = FRA_letter_renault_desc
+#	}
+#	text = {
+#		trigger = {
+#			has_country_flag = FRA_decol_flag
+#		}
+#		localization_key = FRA_reinforce_pondicherry_desc
+#	}
+#}

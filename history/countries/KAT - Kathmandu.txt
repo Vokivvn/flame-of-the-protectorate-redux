@@ -1,0 +1,36 @@
+﻿capital = 899
+
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	basic_light_tank = 1
+}
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	centralism = 0
+	socialism = 0
+	progressivism = 0
+	liberalism = 0
+	conservatism = 0
+	authoritarianism = 100
+	republicanism = 0
+	ultranationalism = 0
+}
+
+create_country_leader = {
+	name = "Mohammad Sarwar Ali Khan"
+	desc = "POLITICS_MOHAMMAD_SARWAR_ALI_KHAN_DESC"
+	picture = "Portrait_Kathmandu_Mohammad_Sarwar_Ali_Khan.dds"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+	traits = {
+		#
+	}
+}

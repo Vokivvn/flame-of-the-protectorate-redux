@@ -1,0 +1,596 @@
+﻿add_namespace = IDEO
+
+country_event = { #
+	id = IDEO.1
+	title = IDEO.1.t
+	desc = IDEO.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.1.a
+		set_politics = {
+			ruling_party = centralism
+		}
+		set_country_leader_ideology = centralism_subtype
+	}
+}
+
+country_event = { #
+	id = IDEO.2
+	title = IDEO.2.t
+	desc = IDEO.2.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.2.a
+		set_politics = {
+			ruling_party = centralism
+		}
+		set_country_leader_ideology = blanquism
+	}
+}
+
+country_event = { #
+	id = IDEO.3
+	title = IDEO.3.t
+	desc = IDEO.3.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.3.a
+		set_politics = {
+			ruling_party = centralism
+		}
+		set_country_leader_ideology = social_nationalism
+	}
+}
+
+country_event = { #
+	id = IDEO.4
+	title = IDEO.4.t
+	desc = IDEO.4.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.4.a
+		set_politics = {
+			ruling_party = centralism
+		}
+		set_country_leader_ideology = bordigism
+	}
+}
+
+country_event = { #
+	id = IDEO.5
+	title = IDEO.5.t
+	desc = IDEO.5.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.5.a
+		set_politics = {
+			ruling_party = centralism
+		}
+		set_country_leader_ideology = leninism
+	}
+}
+
+country_event = { #
+	id = IDEO.6
+	title = IDEO.6.t
+	desc = IDEO.6.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.6.a
+		set_politics = {
+			ruling_party = socialism
+		}
+		set_country_leader_ideology = socialism_subtype
+	}
+}
+
+country_event = { #
+	id = IDEO.7
+	title = IDEO.7.t
+	desc = IDEO.7.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.7.a
+		set_politics = {
+			ruling_party = socialism
+		}
+		set_country_leader_ideology = de_leonism
+	}
+}
+
+country_event = { #
+	id = IDEO.8
+	title = IDEO.8.t
+	desc = IDEO.8.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.8.a
+		set_politics = {
+			ruling_party = socialism
+		}
+		set_country_leader_ideology = engelism
+	}
+}
+
+country_event = { #
+	id = IDEO.9
+	title = IDEO.9.t
+	desc = IDEO.9.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.9.a
+		set_politics = {
+			ruling_party = socialism
+		}
+		set_country_leader_ideology = anarchism
+	}
+}
+
+country_event = { #
+	id = IDEO.10
+	title = IDEO.10.t
+	desc = IDEO.10.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.10.a
+		set_politics = {
+			ruling_party = socialism
+		}
+		set_country_leader_ideology = utopian_socialism
+	}
+}
+
+country_event = { #
+	id = IDEO.11
+	title = IDEO.11.t
+	desc = IDEO.11.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.11.a
+		set_politics = {
+			ruling_party = progressivism
+		}
+		set_country_leader_ideology = progressivism_subtype
+	}
+}
+
+country_event = { #
+	id = IDEO.12
+	title = IDEO.12.t
+	desc = IDEO.12.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.12.a
+		set_politics = {
+			ruling_party = progressivism
+		}
+		set_country_leader_ideology = social_democracy
+	}
+}
+
+country_event = { #
+	id = IDEO.13
+	title = IDEO.13.t
+	desc = IDEO.13.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.13.a
+		set_politics = {
+			ruling_party = progressivism
+		}
+		set_country_leader_ideology = democratic_socialism
+	}
+}
+
+country_event = { #
+	id = IDEO.14
+	title = IDEO.14.t
+	desc = IDEO.14.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.14.a
+		set_politics = {
+			ruling_party = progressivism
+		}
+		set_country_leader_ideology = liberal_reformer
+	}
+}
+
+country_event = { #
+	id = IDEO.15
+	title = IDEO.15.t
+	desc = IDEO.15.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.15.a
+		set_politics = {
+			ruling_party = liberalism
+		}
+		set_country_leader_ideology = liberalism_subtype
+	}
+}
+
+country_event = { #
+	id = IDEO.16
+	title = IDEO.16.t
+	desc = IDEO.16.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.16.a
+		set_politics = {
+			ruling_party = liberalism
+		}
+		set_country_leader_ideology = classical_liberalism
+	}
+}
+
+country_event = { #
+	id = IDEO.17
+	title = IDEO.17.t
+	desc = IDEO.17.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.17.a
+		set_politics = {
+			ruling_party = liberalism
+		}
+		set_country_leader_ideology = social_liberalism
+	}
+}
+
+country_event = { #
+	id = IDEO.18
+	title = IDEO.18.t
+	desc = IDEO.18.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.18.a
+		set_politics = {
+			ruling_party = liberalism
+		}
+		set_country_leader_ideology = federalism
+	}
+}
+
+country_event = { #
+	id = IDEO.19
+	title = IDEO.19.t
+	desc = IDEO.19.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.19.a
+		set_politics = {
+			ruling_party = conservatism
+		}
+		set_country_leader_ideology = conservatism_subtype
+	}
+}
+
+country_event = { #
+	id = IDEO.20
+	title = IDEO.20.t
+	desc = IDEO.20.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.20.a
+		set_politics = {
+			ruling_party = conservatism
+		}
+		set_country_leader_ideology = fiscal_conservatism
+	}
+}
+
+country_event = { #
+	id = IDEO.21
+	title = IDEO.21.t
+	desc = IDEO.21.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.21.a
+		set_politics = {
+			ruling_party = conservatism
+		}
+		set_country_leader_ideology = social_conservatism
+	}
+}
+
+country_event = { #
+	id = IDEO.22
+	title = IDEO.22.t
+	desc = IDEO.22.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.22.a
+		set_politics = {
+			ruling_party = conservatism
+		}
+		set_country_leader_ideology = christian_democracy
+	}
+}
+
+country_event = { #
+	id = IDEO.23
+	title = IDEO.23.t
+	desc = IDEO.23.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.23.a
+		set_politics = {
+			ruling_party = republicanism
+		}
+		set_country_leader_ideology = republicanism_subtype
+	}
+}
+
+country_event = { #
+	id = IDEO.24
+	title = IDEO.24.t
+	desc = IDEO.24.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.24.a
+		set_politics = {
+			ruling_party = republicanism
+		}
+		set_country_leader_ideology = revolutionary_regime
+	}
+}
+
+country_event = { #
+	id = IDEO.25
+	title = IDEO.25.t
+	desc = IDEO.25.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.25.a
+		set_politics = {
+			ruling_party = republicanism
+		}
+		set_country_leader_ideology = authoritarian_democracy
+	}
+}
+
+country_event = { #
+	id = IDEO.26
+	title = IDEO.26.t
+	desc = IDEO.26.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.26.a
+		set_politics = {
+			ruling_party = republicanism
+		}
+		set_country_leader_ideology = democracy_of_the_few
+	}
+}
+
+country_event = { #
+	id = IDEO.27
+	title = IDEO.27.t
+	desc = IDEO.27.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.27.a
+		set_politics = {
+			ruling_party = authoritarianism
+		}
+		set_country_leader_ideology = authoritarianism_subtype
+	}
+}
+
+country_event = { #
+	id = IDEO.28
+	title = IDEO.28.t
+	desc = IDEO.28.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.28.a
+		set_politics = {
+			ruling_party = authoritarianism
+		}
+		set_country_leader_ideology = colonial_government
+	}
+}
+
+country_event = { #
+	id = IDEO.29
+	title = IDEO.29.t
+	desc = IDEO.29.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.29.a
+		set_politics = {
+			ruling_party = authoritarianism
+		}
+		set_country_leader_ideology = despotism
+	}
+}
+
+country_event = { #
+	id = IDEO.30
+	title = IDEO.30.t
+	desc = IDEO.30.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.30.a
+		set_politics = {
+			ruling_party = authoritarianism
+		}
+		set_country_leader_ideology = absolutism
+	}
+}
+
+country_event = { #
+	id = IDEO.31
+	title = IDEO.31.t
+	desc = IDEO.31.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.31.a
+		set_politics = {
+			ruling_party = ultranationalism
+		}
+		set_country_leader_ideology = ultranationalism_subtype
+	}
+}
+
+country_event = { #
+	id = IDEO.32
+	title = IDEO.32.t
+	desc = IDEO.32.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.32.a
+		set_politics = {
+			ruling_party = ultranationalism
+		}
+		set_country_leader_ideology = corporatism
+	}
+}
+
+country_event = { #
+	id = IDEO.33
+	title = IDEO.33.t
+	desc = IDEO.33.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.33.a
+		set_politics = {
+			ruling_party = ultranationalism
+		}
+		set_country_leader_ideology = ethnic_nationalism
+	}
+}
+
+country_event = { #
+	id = IDEO.34
+	title = IDEO.34.t
+	desc = IDEO.34.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.34.a
+		set_politics = {
+			ruling_party = ultranationalism
+		}
+		set_country_leader_ideology = national_syndicalism
+	}
+}
+
+country_event = { #
+	id = IDEO.35
+	title = IDEO.35.t
+	desc = IDEO.35.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = IDEO.35.a
+		set_politics = {
+			ruling_party = socialism
+		}
+		set_country_leader_ideology = liberal_socialism
+	}
+}

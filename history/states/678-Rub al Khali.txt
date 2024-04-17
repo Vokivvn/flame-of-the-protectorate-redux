@@ -1,0 +1,20 @@
+
+state={
+	id=678
+	name="STATE_678"
+	manpower=42
+	state_category = wasteland
+	impassable = yes
+	
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = SAU
+	}
+
+	provinces={
+		5081 8030 8118 10870 12768 2018 4924 4976 12894 13240 13241 13239 13242 13244 12740 13243
+	}
+}

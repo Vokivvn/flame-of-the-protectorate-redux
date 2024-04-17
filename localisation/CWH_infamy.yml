@@ -1,0 +1,6 @@
+﻿ l_english:
+ 
+ INFAMY_TITLE:0 "§YBalance of Powers§!\n\nInfamy: §Y[?country_infamy]§!\n\nImposed by the Austrians following the Malet Coup of 1812, the modern balance of powers was established to prevent endless cycles of bloodshed within Europe. Any threat to this system would most likely be dealt with through conflict to contain the tyrant."
+ INFAMY_DESC:0 "§YInfamy§! is the measure at which the country is held accountable for their actions. Whether it be through §Yconquest§!, §Ydiplomatic failures§!, or §Yinstability§!, your country will become infamous. The consequences will be dealt with force and could lead to the demise of your nation."
+ 
+ INFAMY_UP1:0 "§RInfamy will go up by 1§!"

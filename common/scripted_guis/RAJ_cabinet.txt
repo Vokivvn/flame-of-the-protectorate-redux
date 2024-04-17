@@ -1,0 +1,31 @@
+scripted_gui = {
+
+	delhi_cabinet = {
+		context_type = decision_category
+		window_name = "cabinet_and_support"
+		visible = {
+			tag = RAJ
+		}
+		
+		effects = {
+		}
+		
+		triggers = {
+		}
+		
+		properties = {
+			cabinet_member_1 = {
+				image = "[RAJ_Cabinet_Spot_1_portrait]"
+			}
+			cabinet_member_2 = {
+				image = "[RAJ_Cabinet_Spot_2_portrait]"
+			}
+			cabinet_member_3 = {
+				image = "[RAJ_Cabinet_Spot_3_portrait]"
+			}
+			pop_sup_measure = {
+				image = "[RAJ_public_support_bar]"
+			}
+		}
+	}
+}

@@ -1,0 +1,70 @@
+focus_tree = {
+	id = ITA_Starting_Out
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 0 y = 4000 }
+	shared_focus = ITA_the_heirs_of_mazzini
+}
+
+focus_tree = {
+	id = ITA_Parri
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 0 y = 4000 }
+	shared_focus = ITA_the_survival_of_government
+}
+
+focus_tree = {
+	id = ITA_Trentin
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 0 y = 4000 }
+	shared_focus = ITA_freedom_and_justice
+}
+
+focus_tree = {
+	id = ITA_Malvestiti
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 0 y = 4000 }
+	shared_focus = ITA_federalization_of_italy
+}
+
+focus_tree = {
+	id = ITA_Austria
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 0 y = 4000 }
+	shared_focus = ITA_the_beast_above
+}
+

@@ -1,0 +1,2485 @@
+#intro tree
+shared_focus = {
+	id =  AUS_Shattered_Lands
+	icon = GFX_AUS_Shattered_Lands
+	cost = 4.00
+	
+	x = 6
+	y = 0
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
+		country_event = {
+			id = AUS.1
+		}
+	}
+}
+shared_focus = {
+	id =  AUS_Push_Polish_Claims
+	icon = GFX_AUS_Push_Polish_Claims
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_Shattered_Lands
+	}
+	
+	x = 4
+	y = 1
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Push_Polish_Claims"
+		66 = {
+			add_claim_by = AUS
+		}
+		67 = {
+			add_claim_by = AUS
+		}
+		762 = {
+			add_claim_by = AUS
+		}
+		72 = {
+			add_claim_by = AUS
+		}
+		88 = {
+			add_claim_by = AUS
+		}
+		80 = {
+			add_claim_by = AUS
+		}
+		89 = {
+			add_claim_by = AUS
+		}
+		91 = {
+			add_claim_by = AUS
+		}
+	}
+}
+shared_focus = {
+	id =  AUS_Boost_Morale
+	icon = GFX_AUS_Boost_Army_Morale
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_Shattered_Lands
+	}
+	
+	x = 6
+	y = 1
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Boost Morale"
+		swap_ideas = {
+			remove_idea = AUS_the_time_for_liberation
+			add_idea = AUS_the_time_for_liberation_1
+		}
+	}
+}
+shared_focus = {
+	id =  AUS_By_Imperial_Decree
+	icon = GFX_AUS_By_Imperial_Decree
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_Shattered_Lands
+	}
+	
+	x = 8
+	y = 1
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_By_Imperial_Decree"
+		country_event = {
+			id = AUS.2
+		}
+	}
+}
+shared_focus = {
+	id =  AUS_Reclaim_Galicia_Lodomeria
+	icon = GFX_AUS_Polish_War
+	cost = 2.00
+
+	prerequisite = {
+		focus = AUS_Push_Polish_Claims
+	}
+	prerequisite = {
+		focus = AUS_Boost_Morale
+	}
+	prerequisite = {
+		focus = AUS_By_Imperial_Decree
+	}
+	
+	x = 6
+	y = 2
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Reclaim_Galicia_Lodomeria"
+		declare_war_on = {
+			target = POL
+			type = take_claimed_state
+		}
+		hidden_effect = {
+			news_event = {
+				id = newswar.1
+				hours = 12
+			}
+		}
+	}
+}
+shared_focus = {
+	id =  AUS_Bank_On_Success
+	icon = GFX_AUS_Bicolor_Over_Krakow
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_Reclaim_Galicia_Lodomeria
+	}
+
+	available = {
+		has_country_flag = AUS_galicia_victory_flag
+	}
+
+	bypass = {
+		has_country_flag = AUS_galicia_victory_flag
+	}
+
+	mutually_exclusive = {
+		focus = AUS_Imperial_Identity
+	}
+	
+	x = 5
+	y = 3
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Bank_On_Success"
+	}
+}
+shared_focus = {
+	id =  AUS_Pacify_Slovakia
+	icon = GFX_AUS_pacify_slovakia
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_Bank_On_Success
+	}
+	
+	x = 3
+	y = 4
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Pacify_Slovakia"
+		country_event = {
+			id = AUS.3
+			hours = 12
+		}
+	}
+}
+shared_focus = {
+	id =  AUS_Integrate_Polish_Lands
+	icon = GFX_AUS_reinegrate_polish_land
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_Bank_On_Success
+	}
+	available = {
+		has_country_flag = AUS_galicia_victory_flag
+	}
+	x = 5
+	y = 4
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Integrate_Polish_Lands"
+		AUS = {
+			add_state_core = 66
+			add_state_core = 67
+			add_state_core = 762
+			remove_state_claim = 80
+			remove_state_claim = 88
+			remove_state_claim = 89
+			remove_state_claim = 91
+			remove_state_claim = 72
+		}
+		GAL = {
+			add_state_core = 80
+			add_state_core = 88
+			add_state_core = 89
+			add_state_core = 91
+			add_state_core = 72
+		}
+		set_province_name = {
+			id = 9570
+			name = "Breslau"
+		}
+		set_province_name = {
+			id = 9511
+			name = "Oppeln"
+		}
+		set_province_name = {
+			id = 11467
+			name = "Gleiwitz"
+		}
+		set_province_name = {
+			id = 6464
+			name = "Kattowitz"
+		}
+	}
+}
+shared_focus = {
+	id =  AUS_Balkan_Focus
+	icon = GFX_AUS_Balkan_Direction
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_Pacify_Slovakia
+	}
+	prerequisite = {
+		focus = AUS_Integrate_Polish_Lands
+	}
+	
+	x = 3
+	y = 5
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Balkan_Focus"
+		country_event = {
+			id = AUS.4
+			hours = 12
+		}
+		hidden_effect = {
+			reverse_add_opinion_modifier = {
+				target = HUN
+				modifier = AUS_balkan_shift_in_diplomacy
+			}
+			reverse_add_opinion_modifier = {
+				target = CRO
+				modifier = AUS_balkan_shift_in_diplomacy
+			}
+			reverse_add_opinion_modifier = {
+				target = SER
+				modifier = AUS_balkan_shift_in_diplomacy
+			}
+			reverse_add_opinion_modifier = {
+				target = ITA
+				modifier = AUS_balkan_shift_in_diplomacy
+			}
+			reverse_add_opinion_modifier = {
+				target = TRA
+				modifier = AUS_balkan_shift_in_diplomacy
+			}
+			reverse_add_opinion_modifier = {
+				target = ROM
+				modifier = AUS_balkan_shift_in_diplomacy
+			}
+			reverse_add_opinion_modifier = {
+				target = BUL
+				modifier = AUS_balkan_shift_in_diplomacy
+			}
+			reverse_add_opinion_modifier = {
+				target = ALB
+				modifier = AUS_balkan_shift_in_diplomacy
+			}
+			reverse_add_opinion_modifier = {
+				target = GRE
+				modifier = AUS_balkan_shift_in_diplomacy
+			}
+			reverse_add_opinion_modifier = {
+				target = TUR
+				modifier = AUS_balkan_shift_in_diplomacy
+			}
+		}
+	}
+}
+shared_focus = {
+	id =  AUS_Deal_With_The_Devil
+	icon = GFX_AUS_deal_with_the_devil
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_Balkan_Focus
+	}
+	
+	x = 3
+	y = 6
+	
+	completion_reward = { #dealing with Hungary
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Deal_With_The_Devil"
+		country_event = {
+			id = AUS.5
+			days = 2
+		}
+	}
+}
+shared_focus = {
+	id =  AUS_Skirmish_With_Croatia
+	icon = GFX_AUS_test_titos_regime
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_Deal_With_The_Devil
+	}
+	
+	x = 3
+	y = 7
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Skirmish_With_Croatia"
+		start_border_war = {
+			change_state_after_war = yes
+			attacker = {
+				state = 102
+				num_provinces = 2
+				on_win = AUS_borderwar_CRO.1
+				on_lose = AUS_borderwar_CRO.2
+				on_cancel = AUS_borderwar_CRO.3
+			}
+						
+			defender = {
+				state = 847
+				num_provinces = 1
+				on_win = AUS_borderwar_CRO.4
+				on_lose = AUS_borderwar_CRO.5
+				on_cancel = AUS_borderwar_CRO.6
+			}
+		}
+		set_border_war_data = {
+			attacker = 102
+			defender = 847
+			defender_modifier = 0.05
+			combat_width = 80
+		}
+		add_to_variable = {
+			var = country_infamy
+			value = 1
+		}
+	}
+}
+shared_focus = {
+	id =  AUS_Imperial_Ambitions_Continue #Uatum Ruina Imperii
+	icon = GFX_AUS_saved_from_fate
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_Skirmish_With_Croatia
+	}
+	
+	x = 3
+	y = 8
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Imperial_Ambitions_Continue"
+		swap_ideas = {
+			remove_idea = AUS_the_nostalgic_empire
+			add_idea = AUS_the_revitalized_empire
+		}
+		hidden_effect = {
+			set_cosmetic_tag = AUS_new_empire
+		}
+	}
+}
+############################################################
+# FASCIST PATH
+shared_focus = {
+	id =  AUS_Imperial_Identity
+	icon = GFX_AUS_Our_Imperial_Identity
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_Reclaim_Galicia_Lodomeria
+	}
+
+	mutually_exclusive = {
+		focus = AUS_Bank_On_Success
+	}
+	
+	available = {
+		has_country_flag = AUS_lost_poland_war
+	}
+	
+	x = 7
+	y = 3
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Imperial_Identity"
+	}
+}
+shared_focus = {
+	id =  AUS_Fate_Of_The_Emperor
+	icon = GFX_AUS_Fate_of_the_king
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_Imperial_Identity
+	}
+	
+	x = 7
+	y = 4
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Fate_Of_The_Emperor"
+		country_event = { id = AUS.14 days = 1}
+	}
+}
+shared_focus = { #get rekt karlboos
+	id =  AUS_Abolish_The_Monarchy
+	icon = GFX_AUS_Abolish_the_Monarchy
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_Fate_Of_The_Emperor
+	}
+	
+	x = 7
+	y = 5
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Abolish_The_Monarchy"
+		country_event = { id = AUS.15 days = 1}
+	}
+}
+shared_focus = {
+	id =  AUS_The_Reality_Of_The_Right
+	icon = GFX_AUS_Reality_of_the_Right
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_Imperial_Identity
+	}
+	
+	x = 9
+	y = 4
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_The_Reality_Of_The_Right"
+	}
+}
+shared_focus = {
+	id =  AUS_Strength_In_Disunity
+	icon = GFX_AUS_strength_in_disunity
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_The_Reality_Of_The_Right
+	}
+	
+	x = 9
+	y = 5
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Strength_In_Disunity"
+
+	}
+}
+shared_focus = {
+	id =  AUS_A_New_Austria
+	icon = GFX_AUS_A_New_Austria
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_Abolish_The_Monarchy
+	}
+	prerequisite = {
+		focus = AUS_Strength_In_Disunity
+	}
+	
+	x = 8
+	y = 6
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_A_New_Austria"
+		#fasc general staff
+		add_popularity = {
+			ideology = conservatism
+			popularity = -0.15
+		}
+	}
+}
+shared_focus = {
+	id =  AUS_The_German_Identity
+	icon = GFX_AUS_the_german_identity
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_A_New_Austria
+	}
+
+	mutually_exclusive = {
+		focus = AUS_The_Austrian_Identity
+	}
+	
+	x = 7
+	y = 7
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_The_German_Identity"
+		set_politics = {
+			ruling_party = ultranationalism
+
+		}
+		add_popularity = {
+			ideology = ultranationalism
+			popularity = 0.1
+		}
+	}
+}
+shared_focus = {
+	id =  AUS_Purge_The_Opposition
+	icon = GFX_AUS_brown_terror
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_The_German_Identity
+	}
+	
+	x = 7
+	y = 8
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Purge_The_Opposition"
+		add_manpower = -20312
+		add_political_power = -50
+		add_popularity = {
+			ideology = progressivism
+			popularity = -0.05
+		}
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = -0.05
+		}
+	}
+}
+shared_focus = {
+	id =  AUS_Eliminate_The_Protestors
+	icon = GFX_AUS_purge_monarchists
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_Purge_The_Opposition
+	}
+	
+	x = 5
+	y = 9
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Eliminate_The_Protestors"
+		add_popularity = {
+			ideology = conservatism
+			popularity = -0.10
+		}
+		country_event = { id = AUS.16 days = 1 }
+	}
+}
+shared_focus = {
+	id =  AUS_The_Brown_Terror
+	icon = GFX_AUS_The_Brown_Terror
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_Purge_The_Opposition
+	}
+	
+	x = 7
+	y = 9
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_The_Brown_Terror"
+		add_manpower = -10524
+	}
+}
+shared_focus = {
+	id =  AUS_A_Fateful_Reign
+	icon = GFX_AUS_fateful_reign
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_Eliminate_The_Protestors
+	}
+	prerequisite = {
+		focus = AUS_The_Brown_Terror
+	}
+	
+	x = 6
+	y = 10
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_A_Fateful_Reign"
+		#
+	}
+}
+shared_focus = {
+	id =  AUS_The_Austrian_Identity
+	icon = GFX_AUS_the_asutrian_identity
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_A_New_Austria
+	}
+
+	mutually_exclusive = {
+		focus = AUS_The_German_Identity
+	}
+	
+	x = 9
+	y = 7
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_The_Austrian_Identity"
+		set_politics = {
+			ruling_party = authoritarianism
+		}
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.1
+		}
+	}
+}
+shared_focus = {
+	id =  AUS_A_Reign_Of_Normalcy
+	icon = GFX_AUS_Reign_of_Normalcy
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_The_Austrian_Identity
+	}
+	
+	x = 9
+	y = 8
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_A_Reign_Of_Normalcy"
+		add_political_power = 50
+	}
+}
+shared_focus = {
+	id =  AUS_Catholic_Traditions
+	icon = GFX_AUS_Catholic_Tradition
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_The_Austrian_Identity
+	}
+	
+	x = 11
+	y = 8
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Catholic_Traditions"
+		add_stability = 0.05
+	}
+}
+shared_focus = {
+	id =  AUS_Front_Of_The_Forefathers
+	icon = GFX_AUS_front_of_our_forefathers
+	cost = 4.00
+
+	prerequisite = {
+		focus = AUS_A_Reign_Of_Normalcy
+	}
+	prerequisite = {
+		focus = AUS_Catholic_Traditions
+	}
+	
+	x = 10
+	y = 9
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Front_Of_The_Forefathers"
+	}
+}
+
+
+#######
+## BASED TRAD PEOPLE !!!
+#######
+
+shared_focus = {
+	id =  AUS_ascension_of_the_standestaat
+	icon = GFX_AUS_leave_the_demon_to_his_demons
+	cost = 4.00
+	
+	x = 5
+	y = 0
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_ascension_of_the_standestaat"
+	}
+}
+
+shared_focus = {
+	id =  AUS_the_ailments_that_plague_society
+	icon = GFX_AUS_leave_the_demon_to_his_demons
+	cost = 4.00
+	
+	prerequisite = {
+		focus = AUS_ascension_of_the_standestaat
+	}
+	
+	relative_position_id = AUS_ascension_of_the_standestaat
+    x = -3
+    y = 1
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_the_ailments_that_plague_society"
+		swap_ideas = {
+			remove_idea = AUS_corporate_suits_among_us
+			add_idea = AUS_corporate_suits_among_us_make_it_good
+		}
+	}
+}
+
+shared_focus = {
+	id =  AUS_united_under_the_flag
+	icon = GFX_AUS_leave_the_demon_to_his_demons
+	cost = 4.00
+	
+	prerequisite = {
+		focus = AUS_the_ailments_that_plague_society
+	}
+	
+	relative_position_id = AUS_ascension_of_the_standestaat
+    x = -5
+    y = 2
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_united_under_the_flag"
+		add_war_support = 0.10
+		add_political_power = 65
+	}
+}
+
+shared_focus = {
+	id =  AUS_tackle_the_labour_movement
+	icon = GFX_AUS_leave_the_demon_to_his_demons
+	cost = 4.00
+	
+	prerequisite = {
+		focus = AUS_the_ailments_that_plague_society
+	}
+	
+	relative_position_id = AUS_ascension_of_the_standestaat
+    x = -3
+    y = 2
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_tackle_the_labour_movement"
+		add_popularity = {
+			ideology = progressivism
+			popularity = -0.15
+		}
+		add_timed_idea = {
+			idea = AUS_supressed_labour_movement
+			days = 180
+		}
+	}
+}
+
+shared_focus = {
+	id =  AUS_reshape_unions
+	icon = GFX_AUS_leave_the_demon_to_his_demons
+	cost = 4.00
+	
+	prerequisite = {
+		focus = AUS_the_ailments_that_plague_society
+	}
+	
+	relative_position_id = AUS_ascension_of_the_standestaat
+    x = -1
+    y = 2
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_reshape_unions"
+		country_event = {
+			id = FASH_AUS.3
+			days = 3
+		}
+		swap_ideas = {
+			remove_idea = AUS_corporate_suits_among_us_make_it_good
+			add_idea = AUS_corporate_suits_among_us_make_it_good_1
+		}
+	}
+}
+
+shared_focus = {
+	id =  AUS_class_cooperation
+	icon = GFX_AUS_leave_the_demon_to_his_demons
+	cost = 4.00
+	
+	prerequisite = {
+		focus = AUS_united_under_the_flag
+	}
+	prerequisite = {
+		focus = AUS_tackle_the_labour_movement
+	}
+	prerequisite = {
+		focus = AUS_reshape_unions
+	}
+	
+	relative_position_id = AUS_ascension_of_the_standestaat
+    x = -4
+    y = 3
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_class_cooperation"
+		if = {
+			limit = {
+				has_idea = AUS_corporate_suits_among_us_make_it_good_1
+			}
+			swap_ideas = {
+				remove_idea = AUS_corporate_suits_among_us_make_it_good_1
+				add_idea = AUS_corporate_suits_among_us_make_it_good_2
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = AUS_corporate_suits_among_us_make_it_good_2
+			}
+			swap_ideas = {
+				remove_idea = AUS_corporate_suits_among_us_make_it_good_2
+				add_idea = AUS_corporate_suits_among_us_make_it_good_3
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id =  AUS_enforce_tripartism
+	icon = GFX_AUS_leave_the_demon_to_his_demons
+	cost = 4.00
+	
+	prerequisite = {
+		focus = AUS_united_under_the_flag
+	}
+	prerequisite = {
+		focus = AUS_tackle_the_labour_movement
+	}
+	prerequisite = {
+		focus = AUS_reshape_unions
+	}
+	
+	relative_position_id = AUS_ascension_of_the_standestaat
+    x = -2
+    y = 3
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_enforce_tripartism"
+		if = {
+			limit = {
+				has_idea = AUS_corporate_suits_among_us_make_it_good_1
+			}
+			swap_ideas = {
+				remove_idea = AUS_corporate_suits_among_us_make_it_good_1
+				add_idea = AUS_corporate_suits_among_us_make_it_good_2
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = AUS_corporate_suits_among_us_make_it_good_2
+			}
+			swap_ideas = {
+				remove_idea = AUS_corporate_suits_among_us_make_it_good_2
+				add_idea = AUS_corporate_suits_among_us_make_it_good_3
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id =  AUS_wien_ventures
+	icon = GFX_AUS_leave_the_demon_to_his_demons
+	cost = 4.00
+	
+	prerequisite = {
+		focus = AUS_ascension_of_the_standestaat
+	}
+	
+	relative_position_id = AUS_ascension_of_the_standestaat
+    x = 3
+    y = 1
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_wien_ventures"
+		add_ideas = AUS_secret_police
+	}
+}
+
+shared_focus = {
+	id =  AUS_mass_arests
+	icon = GFX_AUS_leave_the_demon_to_his_demons
+	cost = 4.00
+	
+	prerequisite = {
+		focus = AUS_the_ailments_that_plague_society
+	}
+	
+	relative_position_id = AUS_ascension_of_the_standestaat
+    x = 1
+    y = 2
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_mass_arests"
+		if = {
+			limit = {
+				has_idea = AUS_overwhelming_resistance_3
+			}
+			swap_ideas = {
+				remove_idea = AUS_overwhelming_resistance_3
+				add_idea = AUS_overwhelming_resistance_2
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = AUS_overwhelming_resistance_2
+			}
+			swap_ideas = {
+				remove_idea = AUS_overwhelming_resistance_2
+				add_idea = AUS_overwhelming_resistance_1
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = AUS_overwhelming_resistance_1
+			}
+			remove_ideas = AUS_overwhelming_resistance_1
+		}
+	}
+}
+
+shared_focus = {
+	id =  AUS_absorb_the_heimwehr
+	icon = GFX_AUS_leave_the_demon_to_his_demons
+	cost = 4.00
+	
+	prerequisite = {
+		focus = AUS_the_ailments_that_plague_society
+	}
+	
+	relative_position_id = AUS_ascension_of_the_standestaat
+    x = 3
+    y = 2
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_absorb_the_heimwehr"
+		swap_ideas = {
+			remove_idea = AUS_secret_police
+			add_idea = AUS_secret_police_1
+		}
+	}
+}
+
+shared_focus = {
+	id =  AUS_establish_the_one_party_state
+	icon = GFX_AUS_leave_the_demon_to_his_demons
+	cost = 4.00
+	
+	prerequisite = {
+		focus = AUS_the_ailments_that_plague_society
+	}
+	
+	relative_position_id = AUS_ascension_of_the_standestaat
+    x = 5
+    y = 2
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_establish_the_one_party_state"
+		remove_ideas = AUS_internal_struggles
+	}
+}
+
+shared_focus = {
+	id =  AUS_contact_the_church
+	icon = GFX_AUS_leave_the_demon_to_his_demons
+	cost = 4.00
+	
+	prerequisite = {
+		focus = AUS_mass_arests
+	}
+	prerequisite = {
+		focus = AUS_absorb_the_heimwehr
+	}
+	prerequisite = {
+		focus = AUS_establish_the_one_party_state
+	}
+	
+	relative_position_id = AUS_ascension_of_the_standestaat
+    x = 2
+    y = 3
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_contact_the_church"
+		hidden_effect = {
+			ITA = {
+				country_event = {
+					id = FASH_AUS.5
+					days = 2
+				}
+			}
+		}
+		country_event = {
+			id = FASH_AUS.4
+			days = 1
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_idea = AUS_legitimized_regime
+				}
+			}
+			add_ideas = AUS_legitimized_regime
+		}
+		else_if = {
+			limit = {
+				has_idea = AUS_legitimized_regime
+			}
+			swap_ideas = {
+				remove_idea = AUS_legitimized_regime
+				add_idea = AUS_legitimized_regime_1
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id =  AUS_meet_with_bavarian_officials
+	icon = GFX_AUS_leave_the_demon_to_his_demons
+	cost = 4.00
+	
+	prerequisite = {
+		focus = AUS_mass_arests
+	}
+	prerequisite = {
+		focus = AUS_absorb_the_heimwehr
+	}
+	prerequisite = {
+		focus = AUS_establish_the_one_party_state
+	}
+	
+	relative_position_id = AUS_ascension_of_the_standestaat
+    x = 4
+    y = 3
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_meet_with_bavarian_officials"
+		hidden_effect = {
+			ITA = {
+				country_event = {
+					id = FASH_AUS.7
+					days = 2
+				}
+			}
+		}
+		country_event = {
+			id = FASH_AUS.6
+			days = 1
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_idea = AUS_legitimized_regime
+				}
+			}
+			add_ideas = AUS_legitimized_regime
+		}
+		else_if = {
+			limit = {
+				has_idea = AUS_legitimized_regime
+			}
+			swap_ideas = {
+				remove_idea = AUS_legitimized_regime
+				add_idea = AUS_legitimized_regime_1
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id =  AUS_internal_investments
+	icon = GFX_AUS_leave_the_demon_to_his_demons
+	cost = 4.00
+	
+	prerequisite = {
+		focus = AUS_class_cooperation
+	}
+	prerequisite = {
+		focus = AUS_enforce_tripartism
+	}
+	prerequisite = {
+		focus = AUS_contact_the_church
+	}
+	prerequisite = {
+		focus = AUS_meet_with_bavarian_officials
+	}
+	
+	relative_position_id = AUS_ascension_of_the_standestaat
+    x = 0
+    y = 4
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_internal_investments"
+		swap_ideas = {
+			remove_idea = AUS_corporate_suits_among_us_make_it_good_3
+			add_idea = AUS_corporate_suits_among_us_make_it_good_4
+		}
+		hidden_effect = {
+			set_politics = {
+				ruling_party = ultranationalism
+			}
+			kill_country_leader = yes
+			add_popularity = {
+				ideology = ultranationalism
+				popularity = 0.2
+			}
+			create_country_leader = {
+				name = "Engelbert Dollfuss"
+				desc = "POLITICS_Engelbert_Dollfuss_DESC"
+				picture = "Leader_AUS_Engelbert_Dollfuss.dds"
+				expire = "1965.1.1"
+				ideology = corporatism
+				traits = {
+					#
+				}
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id =  AUS_global_redemption
+	icon = GFX_AUS_leave_the_demon_to_his_demons
+	cost = 4.00
+	
+	prerequisite = {
+		focus = AUS_internal_investments
+	}
+	mutually_exclusive = {
+		focus = AUS_wien_and_the_world
+	}
+	relative_position_id = AUS_ascension_of_the_standestaat
+    x = -4
+    y = 5
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_global_redemption"
+		add_ideas = AUS_global_redemption
+	}
+}
+
+shared_focus = {
+	id =  AUS_wien_and_the_world
+	icon = GFX_AUS_leave_the_demon_to_his_demons
+	cost = 4.00
+	
+	prerequisite = {
+		focus = AUS_internal_investments
+	}
+	mutually_exclusive = {
+		focus = AUS_global_redemption
+	}
+	relative_position_id = AUS_ascension_of_the_standestaat
+    x = -2
+    y = 5
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_wien_and_the_world"
+		add_ideas = AUS_wien_tourism
+	}
+}
+
+shared_focus = {
+	id =  AUS_absorb_the_czech_government
+	icon = GFX_AUS_leave_the_demon_to_his_demons
+	cost = 4.00
+	
+	prerequisite = {
+		focus = AUS_wien_and_the_world
+		focus = AUS_global_redemption
+	}
+	mutually_exclusive = {
+		focus = AUS_prags_peak_outside
+	}
+	relative_position_id = AUS_ascension_of_the_standestaat
+    x = -4
+    y = 6
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_absorb_the_czech_government"
+		if = {
+			limit = {
+				has_idea = AUS_overwhelming_resistance_3
+			}
+			swap_ideas = {
+				remove_idea = AUS_overwhelming_resistance_3
+				add_idea = AUS_overwhelming_resistance_2
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = AUS_overwhelming_resistance_2
+			}
+			swap_ideas = {
+				remove_idea = AUS_overwhelming_resistance_2
+				add_idea = AUS_overwhelming_resistance_1
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = AUS_overwhelming_resistance_1
+			}
+			remove_ideas = AUS_overwhelming_resistance_1
+		}
+	}
+}
+
+shared_focus = {
+	id =  AUS_prags_peak_outside
+	icon = GFX_AUS_leave_the_demon_to_his_demons
+	cost = 4.00
+	
+	prerequisite = {
+		focus = AUS_wien_and_the_world
+		focus = AUS_global_redemption
+	}
+	mutually_exclusive = {
+		focus = AUS_absorb_the_czech_government
+	}
+	relative_position_id = AUS_ascension_of_the_standestaat
+    x = -2
+    y = 6
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_prags_peak_outside"
+		add_manpower = 3000
+		9 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 2
+		}
+	}
+}
+
+shared_focus = {
+	id =  AUS_crush_regional_nationalism
+	icon = GFX_AUS_leave_the_demon_to_his_demons
+	cost = 4.00
+	
+	prerequisite = {
+		focus = AUS_absorb_the_czech_government
+	}
+	relative_position_id = AUS_ascension_of_the_standestaat
+    x = -4
+    y = 7
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_crush_regional_nationalism"
+		if = {
+			limit = {
+				has_idea = AUS_overwhelming_resistance_3
+			}
+			swap_ideas = {
+				remove_idea = AUS_overwhelming_resistance_3
+				add_idea = AUS_overwhelming_resistance_2
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = AUS_overwhelming_resistance_2
+			}
+			swap_ideas = {
+				remove_idea = AUS_overwhelming_resistance_2
+				add_idea = AUS_overwhelming_resistance_1
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = AUS_overwhelming_resistance_1
+			}
+			remove_ideas = AUS_overwhelming_resistance_1
+		}
+		hidden_effect = {
+			AUS = {
+				country_event = {
+					id = FASH_AUS.8
+					days = 30
+				}
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id =  AUS_the_other_face_of_austria
+	icon = GFX_AUS_leave_the_demon_to_his_demons
+	cost = 4.00
+	
+	prerequisite = {
+		focus = AUS_prags_peak_outside
+	}
+	relative_position_id = AUS_ascension_of_the_standestaat
+    x = -2
+    y = 7
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_the_other_face_of_austria"
+		swap_ideas = {
+			remove_idea = AUS_corporate_suits_among_us_make_it_good_4
+			add_idea = AUS_corporate_suits_among_us_make_it_good_5
+		}
+	}
+}
+
+shared_focus = {
+	id =  AUS_demand_the_dalmatian_coast
+	icon = GFX_AUS_leave_the_demon_to_his_demons
+	cost = 4.00
+	
+	prerequisite = {
+		focus = AUS_internal_investments
+	}
+	available = {
+		OR = {
+			if = {
+				limit = {
+					OR = {
+						SER = {
+							owns_state = 103
+						}
+						CRO = {
+							owns_state = 103
+						}
+					}
+				}
+				SER = {
+					NOT = {
+						has_war_with = CRO
+					}
+				}
+				CRO = {
+					NOT = {
+						has_war_with = SER
+					}
+				}
+			}
+		}
+	}
+	relative_position_id = AUS_ascension_of_the_standestaat
+    x = 0
+    y = 5
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_demand_the_dalmatian_coast"
+		if = {
+			limit = {
+				SER = {
+					owns_state = 103
+				}
+			}
+			SER = {
+				country_event = {
+					id = FASH_AUS.12
+					days = 2
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				CRO = {
+					owns_state = 103
+				}
+			}
+			CRO = {
+				country_event = {
+					id = FASH_AUS.12
+					days = 2
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				ITA = {
+					owns_state = 103
+				}
+			}
+			ITA = {
+				country_event = {
+					id = FASH_AUS.12
+					days = 2
+				}
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id =  AUS_establish_the_venetian_economic_zone
+	icon = GFX_AUS_leave_the_demon_to_his_demons
+	cost = 4.00
+	
+	prerequisite = {
+		focus = AUS_demand_the_dalmatian_coast
+	}
+	available = {
+		owns_state = 103
+		owns_state = 847
+	}
+	relative_position_id = AUS_ascension_of_the_standestaat
+    x = 0
+    y = 6
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_establish_the_venetian_economic_zone"
+		country_event = {
+			id = FASH_AUS.15
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  AUS_control_the_venetian_market
+	icon = GFX_AUS_leave_the_demon_to_his_demons
+	cost = 4.00
+	
+	prerequisite = {
+		focus = AUS_establish_the_venetian_economic_zone
+	}
+	relative_position_id = AUS_ascension_of_the_standestaat
+    x = 0
+    y = 7
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_establish_the_venetian_economic_zone"
+		
+	}
+}
+
+shared_focus = {
+	id =  AUS_summit_with_hungary
+	icon = GFX_AUS_leave_the_demon_to_his_demons
+	cost = 4.00
+	
+	prerequisite = {
+		focus = AUS_internal_investments
+	}
+	relative_position_id = AUS_ascension_of_the_standestaat
+    x = 2
+    y = 5
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_summit_with_hungary"
+	}
+}
+
+shared_focus = {
+	id =  AUS_a_bridge_too_far
+	icon = GFX_AUS_leave_the_demon_to_his_demons
+	cost = 4.00
+	
+	prerequisite = {
+		focus = AUS_summit_with_hungary
+	}
+	mutually_exclusive = {
+		focus = AUS_yield_to_their_demands
+	}
+	relative_position_id = AUS_ascension_of_the_standestaat
+    x = 2
+    y = 6
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_a_bridge_too_far"
+	}
+}
+
+shared_focus = {
+	id =  AUS_leave_the_demon_to_his_demons
+	icon = GFX_AUS_leave_the_demon_to_his_demons
+	cost = 4.00
+	
+	prerequisite = {
+		focus = AUS_a_bridge_too_far
+	}
+	relative_position_id = AUS_ascension_of_the_standestaat
+    x = 2
+    y = 7
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_leave_the_demon_to_his_demons"
+		hidden_effect = {
+			country_event = {
+				id = FASH_AUS.16
+				days = 2
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id =  AUS_yield_to_their_demands
+	icon = GFX_AUS_leave_the_demon_to_his_demons
+	cost = 4.00
+	
+	prerequisite = {
+		focus = AUS_summit_with_hungary
+	}
+	mutually_exclusive = {
+		focus = AUS_a_bridge_too_far
+	}
+	relative_position_id = AUS_ascension_of_the_standestaat
+    x = 4
+    y = 6
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_yield_to_their_demands"
+	}
+}
+
+shared_focus = {
+	id =  AUS_the_blank_check
+	icon = GFX_AUS_leave_the_demon_to_his_demons
+	cost = 4.00
+	
+	prerequisite = {
+		focus = AUS_yield_to_their_demands
+	}
+	relative_position_id = AUS_ascension_of_the_standestaat
+    x = 4
+    y = 7
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_the_blank_check"
+		hidden_effect = {
+			country_event = {
+				id = FASH_AUS.16
+				days = 2
+			}
+		}
+	}
+}
+## Monarchism
+
+shared_focus = {
+	id = AUS_fiat_iustitia_et_pereat_mundus
+	icon = GFX_USA_kill_calles
+	cost = 2
+	x = 14
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_fiat_iustitia_et_pereat_mundus"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_a_call_from_vienna
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_fiat_iustitia_et_pereat_mundus
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_a_call_from_vienna"
+		
+	}
+}
+
+# Dems
+
+shared_focus = {
+	id = AUS_an_old_country_with_new_ideas
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_a_call_from_vienna
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = -8
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_an_old_country_with_new_ideas"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_the_leftist_question
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_an_old_country_with_new_ideas
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = -10
+	y = 3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_the_leftist_question"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_the_influence_of_the_underground
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_the_leftist_question
+	}
+	mutually_exclusive = {
+		focus = AUS_surrounded_by_radicals
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = -14
+	y = 4
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_the_influence_of_the_underground"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_dead_man_walking
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_the_influence_of_the_underground
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = -14
+	y = 5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_dead_man_walking"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_surrounded_by_radicals
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_the_leftist_question
+	}
+	mutually_exclusive = {
+		focus = AUS_the_influence_of_the_underground
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = -12
+	y = 4
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_surrounded_by_radicals"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_criminalize_unions
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_surrounded_by_radicals
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = -12
+	y = 5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_criminalize_unions"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_for_a_healthy_opposition
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_the_leftist_question
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = -10
+	y = 4
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_for_a_healthy_opposition"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_the_expansion_of_rights
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_an_old_country_with_new_ideas
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = -8
+	y = 3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_the_expansion_of_rights"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_the_question_of_womens_sufferage
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_the_expansion_of_rights
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = -8
+	y = 4
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_the_question_of_womens_sufferage"
+		
+	}
+}
+
+
+shared_focus = {
+	id = AUS_of_the_old_guard
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_an_old_country_with_new_ideas
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = -6
+	y = 3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_of_the_old_guard"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_elbridge_gerry_comes_to_austria
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_the_expansion_of_rights
+	}
+	mutually_exclusive = {
+		focus = AUS_political_blacklistings
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = -6
+	y = 4
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_elbridge_gerry_comes_to_austria"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_political_blacklistings
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_the_expansion_of_rights
+	}
+	mutually_exclusive = {
+		focus = AUS_elbridge_gerry_comes_to_austria
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = -4
+	y = 4
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_political_blacklistings"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_the_election_of_19XX
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_for_a_healthy_opposition
+	}
+	prerequisite = {
+		focus = AUS_the_question_of_womens_sufferage
+	}
+	prerequisite = {
+		focus = AUS_criminalize_unions
+		focus = AUS_dead_man_walking
+	}
+	prerequisite = {
+		focus = AUS_political_blacklistings
+		focus = AUS_elbridge_gerry_comes_to_austria
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = -8
+	y = 6
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_the_election_of_19XX"
+		
+	}
+}
+
+# Expansionism
+
+shared_focus = {
+	id = AUS_the_necessity_of_land
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_a_call_from_vienna
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = 0
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_the_necessity_of_land"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_summit_in_the_war_room
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_the_necessity_of_land
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = -2
+	y = 3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_summit_in_the_war_room"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_enact_martial_law
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_the_necessity_of_land
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = 0
+	y = 3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_enact_martial_law"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_root_out_resistance
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_summit_in_the_war_room
+	}
+	prerequisite = {
+		focus = AUS_enact_martial_law
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = -1
+	y = 4
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_root_out_resistance"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_disappear_the_liberals
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_root_out_resistance
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = -1
+	y = 5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_disappear_the_liberals"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_push_matternich_aside
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_the_necessity_of_land
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = 2
+	y = 3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_push_matternich_aside"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_the_show_must_go_on
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_push_matternich_aside
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = 2
+	y = 4
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_the_show_must_go_on"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_look_down_south
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_the_show_must_go_on
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = 2
+	y = 5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_look_down_south"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_draw_spheres_of_influence
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_look_down_south
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = 2
+	y = 6
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_draw_spheres_of_influence"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_the_sons_of_matternich
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_the_show_must_go_on
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = 4
+	y = 5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_the_sons_of_matternich"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_a_fine_game_of_chess
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_the_sons_of_matternich
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = 4
+	y = 6
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_a_fine_game_of_chess"
+		
+	}
+}
+
+# Monarchy Normal
+
+shared_focus = {
+	id = AUS_a_return_to_tradition
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_a_call_from_vienna
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = 8
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_a_return_to_tradition"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_centralize_power
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_a_return_to_tradition
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = 7
+	y = 3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_centralize_power"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_an_austrian_court
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_a_return_to_tradition
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = 9
+	y = 3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_an_austrian_court"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_integrate_the_hawks
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_centralize_power
+	}
+	prerequisite = {
+		focus = AUS_an_austrian_court
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = 6
+	y = 4
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_integrate_the_hawks"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_with_the_high_society
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_centralize_power
+	}
+	prerequisite = {
+		focus = AUS_an_austrian_court
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = 8
+	y = 4
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_with_the_high_society"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_turn_to_the_church
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_centralize_power
+	}
+	prerequisite = {
+		focus = AUS_an_austrian_court
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = 10
+	y = 4
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_turn_to_the_church"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_an_appeal_to_all
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_integrate_the_hawks
+	}
+	prerequisite = {
+		focus = AUS_with_the_high_society
+	}
+	prerequisite = {
+		focus = AUS_turn_to_the_church
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = 8
+	y = 5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_an_appeal_to_all"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_for_the_people_of_austria
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_an_appeal_to_all
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = 6
+	y = 6
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_for_the_people_of_austria"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_for_the_labourers_of_the_workforce
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_an_appeal_to_all
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = 8
+	y = 6
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_for_the_labourers_of_the_workforce"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_for_the_nobles_of_the_realm
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_an_appeal_to_all
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = 10
+	y = 6
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_for_the_nobles_of_the_realm"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_i_am_your_king
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_for_the_people_of_austria
+	}
+	prerequisite = {
+		focus = AUS_for_the_labourers_of_the_workforce
+	}
+	prerequisite = {
+		focus = AUS_for_the_nobles_of_the_realm
+	}
+	relative_position_id = AUS_fiat_iustitia_et_pereat_mundus
+	x = 8
+	y = 7
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_i_am_your_king"
+		
+	}
+}
+
+## Monarchism Expansion
+
+shared_focus = {
+	id = AUS_our_past_is_our_future
+	icon = GFX_USA_kill_calles
+	cost = 2
+	x = 14
+	y = 7
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_our_past_is_our_future"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_the_hungarian_connection
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_our_past_is_our_future
+	}
+	relative_position_id = AUS_our_past_is_our_future
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_the_hungarian_connection"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_contact_monarchist_officials
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_the_hungarian_connection
+	}
+	mutually_exclusive = {
+		focus = AUS_rally_their_peoples
+	}
+	relative_position_id = AUS_our_past_is_our_future
+	x = -1
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_contact_monarchist_officials"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_rally_their_peoples
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_the_hungarian_connection
+	}
+	mutually_exclusive = {
+		focus = AUS_contact_monarchist_officials
+	}
+	relative_position_id = AUS_our_past_is_our_future
+	x = 1
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_rally_their_peoples"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_spark_the_fuse
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_contact_monarchist_officials
+		focus = AUS_rally_their_peoples
+	}
+	relative_position_id = AUS_our_past_is_our_future
+	x = 0
+	y = 3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_spark_the_fuse"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_the_loyal_monarchists
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_spark_the_fuse
+	}
+	mutually_exclusive = {
+		focus = AUS_the_military_administration
+	}
+	relative_position_id = AUS_our_past_is_our_future
+	x = -1
+	y = 4
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_the_loyal_monarchists"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_the_military_administration
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_spark_the_fuse
+	}
+	mutually_exclusive = {
+		focus = AUS_the_loyal_monarchists
+	}
+	relative_position_id = AUS_our_past_is_our_future
+	x = 1
+	y = 4
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_the_military_administration"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_the_slavic_problem
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_the_loyal_monarchists
+		focus = AUS_the_military_administration
+	}
+	relative_position_id = AUS_our_past_is_our_future
+	x = -1
+	y = 5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_the_slavic_problem"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_the_transylvania_crisis
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_the_loyal_monarchists
+		focus = AUS_the_military_administration
+	}
+	relative_position_id = AUS_our_past_is_our_future
+	x = 1
+	y = 5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_the_transylvania_crisis"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_for_a_better_future
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_the_slavic_problem
+	}
+	prerequisite = {
+		focus = AUS_the_transylvania_crisis
+	}
+	mutually_exclusive = {
+		focus = AUS_the_empire_reborn
+	}
+	mutually_exclusive = {
+		focus = AUS_the_people_in_need
+	}
+	relative_position_id = AUS_our_past_is_our_future
+	x = -2
+	y = 6
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_for_a_better_future"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_the_confederations_dawn
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_for_a_better_future
+	}
+	relative_position_id = AUS_our_past_is_our_future
+	x = -2
+	y = 7
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_the_confederations_dawn"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_the_empire_reborn
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_the_slavic_problem
+	}
+	prerequisite = {
+		focus = AUS_the_transylvania_crisis
+	}
+	mutually_exclusive = {
+		focus = AUS_for_a_better_future
+	}
+	mutually_exclusive = {
+		focus = AUS_the_people_in_need
+	}
+	relative_position_id = AUS_our_past_is_our_future
+	x = 0
+	y = 6
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_the_empire_reborn"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_the_crowns_control
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_the_empire_reborn
+	}
+	relative_position_id = AUS_our_past_is_our_future
+	x = 0
+	y = 7
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_the_crowns_control"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_the_people_in_need
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_the_slavic_problem
+	}
+	prerequisite = {
+		focus = AUS_the_transylvania_crisis
+	}
+	mutually_exclusive = {
+		focus = AUS_for_a_better_future
+	}
+	mutually_exclusive = {
+		focus = AUS_the_empire_reborn
+	}
+	relative_position_id = AUS_our_past_is_our_future
+	x = 2
+	y = 6
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_the_people_in_need"
+		
+	}
+}
+
+shared_focus = {
+	id = AUS_the_german_target
+	icon = GFX_USA_kill_calles
+	cost = 2
+	prerequisite = {
+		focus = AUS_the_people_in_need
+	}
+	relative_position_id = AUS_our_past_is_our_future
+	x = 2
+	y = 7
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AUS_the_german_target"
+		
+	}
+}

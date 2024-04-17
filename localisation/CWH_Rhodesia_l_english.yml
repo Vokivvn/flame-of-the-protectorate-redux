@@ -1,0 +1,18 @@
+﻿l_english:
+ ## parties ##
+  RHO_centralism_party:0 "-"
+  RHO_centralism_party_long:0 "-"
+  RHO_socialism_party:0 "-"
+  RHO_socialism_party_long:0 "-"
+  RHO_progressivism_party:0 "Labour"
+  RHO_progressivism_party_long:0 "Rhodesia Labour Party"
+  RHO_liberalism_party:0 "United (Left-wing)"
+  RHO_liberalism_party_long:0 "United Rhodesia Party (Left-wing)"
+  RHO_conservatism_party:0 "United Rhodesia Party (Right-wing)United (Left-wing)"
+  RHO_conservatism_party_long:0 "United Rhodesia Party (Right-wing"
+  RHO_republicanism_party:0 "Reform"
+  RHO_republicanism_party_long:0 "Reform Party"
+  RHO_authoritarianism_party:0 "-"
+  RHO_authoritarianism_party_long:0 "-"
+  RHO_ultranationalism_party:0 "-"
+  RHO_ultranationalism_party_long:0 "-"

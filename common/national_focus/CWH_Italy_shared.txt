@@ -1,0 +1,2666 @@
+shared_focus = {
+	id =  ITA_the_heirs_of_mazzini
+	icon = GFX_ITA_Heirs_of_Mazzini
+	cost = 4.00
+	
+	x = 4
+	y = 0
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_the_heirs_of_mazzini"
+		country_event = {
+			id = ITA.1
+			days = 1
+		}
+		add_ideas = ITA_clean_party
+		hidden_effect = {
+			remove_ideas = ITA_clean_party
+			add_ideas = ITA_the_people_know
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_address_lussu
+	icon = GFX_ITA_Speak_With_Lussu
+	cost = 4.00
+	prerequisite = {
+		focus = ITA_the_heirs_of_mazzini
+	}
+	x = 2
+	y = 1
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_address_lussu"
+		country_event = {
+			id = ITA.2
+			days = 1
+		}
+		add_manpower = 3000
+		ITA_add_socialist_5 = yes
+	}
+}
+
+shared_focus = {
+	id =  ITA_divert_funds_to_the_army
+	icon = GFX_ITA_Divert_Funds_To_The_Army
+	cost = 4.00
+	prerequisite = {
+		focus = ITA_address_lussu
+	}
+	x = 2
+	y = 2
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_divert_funds_to_the_army"
+		add_offsite_building = { type = arms_factory level = 2 }
+		ITA_subtract_nationalist_3 = yes
+	}
+}
+
+shared_focus = {
+	id =  ITA_skirmish_with_austria
+	icon = GFX_ITA_Skirmish_with_Austria
+	cost = 4.00
+	prerequisite = {
+		focus = ITA_the_heirs_of_mazzini
+	}
+	x = 4
+	y = 1
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_skirmish_with_austria"
+		start_border_war = {
+			change_state_after_war = no
+			attacker = {
+				state = 159
+				num_provinces = 2
+				on_win = ITA.3
+				on_lose = ITA.4
+				on_cancel = ITA.5
+			}
+						
+			defender = {
+				state = 846
+				num_provinces = 1
+				on_win = ITA_AUS.1
+				on_lose = ITA_AUS.2
+				on_cancel = ITA_AUS.3
+			}
+		}
+		set_border_war_data = {
+			attacker = 159
+			defender = 846
+			defender_modifier = -0.50
+			combat_width = 80
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_unity_and_jingo
+	icon = GFX_ITA_Unity_and_Jingo
+	cost = 4.00
+	prerequisite = {
+		focus = ITA_skirmish_with_austria
+	}
+	x = 4
+	y = 2
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_unity_and_jingo"
+		add_war_support = 0.05
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 300
+			producer = ITA
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_blackmail_the_guelphists
+	icon = GFX_ITA_Blackmail_the_Guelphists
+	cost = 4.00
+	prerequisite = {
+		focus = ITA_the_heirs_of_mazzini
+	}
+	x = 6
+	y = 1
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_blackmail_the_guelphists"
+		country_event = {
+			id = ITA.6
+			days = 1
+		}
+		swap_ideas = {
+			remove_idea = ITA_the_people_know
+			add_idea = ITA_the_people_know2
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_the_horseshoe_theory
+	icon = GFX_ITA_The_Horse_Shoe_Theory
+	cost = 4.00
+	prerequisite = {
+		focus = ITA_blackmail_the_guelphists
+	}
+	x = 6
+	y = 2
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_the_horseshoe_theory"
+		add_popularity = {
+			ideology = ultranationalism
+			popularity = -0.03
+		}
+		add_popularity = {
+			ideology = centralism
+			popularity = -0.03
+		}
+		swap_ideas = {
+			remove_idea = ITA_the_people_know2
+			add_idea = ITA_the_people_know3
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_the_words_of_roseelli
+	icon = GFX_ITA_The_Words_Of_Rosselli
+	cost = 4.00
+	prerequisite = {
+		focus = ITA_divert_funds_to_the_army
+	}
+	prerequisite = {
+		focus = ITA_unity_and_jingo
+	}
+	prerequisite = {
+		focus = ITA_the_horseshoe_theory
+	}
+	x = 0
+	y = 3
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_the_words_of_roseelli"
+		country_event = {
+			id = ITA.7
+			days = 1
+		}
+		ITA_add_socialist_3 = yes
+	}
+}
+shared_focus = {
+	id =  ITA_secure_the_party
+	icon = GFX_ITA_Secure_the_party
+	cost = 4.00
+	prerequisite = {
+		focus = ITA_divert_funds_to_the_army
+	}
+	prerequisite = {
+		focus = ITA_unity_and_jingo
+	}
+	prerequisite = {
+		focus = ITA_the_horseshoe_theory
+	}
+	mutually_exclusive = {
+		focus = ITA_rely_on_the_coalition
+	}
+	x = 2
+	y = 3
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_secure_the_party"
+		add_popularity = {
+			ideology = progressivism
+			popularity = 0.07
+		}
+		add_political_power = 65
+	}
+}
+shared_focus = {
+	id =  ITA_change_the_narrative
+	icon = GFX_ITA_Change_the_Narritive
+	cost = 4.00
+	prerequisite = {
+		focus = ITA_the_words_of_roseelli
+	}
+	prerequisite = {
+		focus = ITA_secure_the_party
+	}
+	x = 2
+	y = 4
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_change_the_narrative"
+		country_event = {
+			id = ITA.8
+			days = 1
+		}
+		swap_ideas = {
+			remove_idea = ITA_the_people_know3
+			add_idea = ITA_the_people_know4
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_meet_with_trentin
+	icon = GFX_ITA_meet_with_trentin
+	cost = 4.00
+	prerequisite = {
+		focus = ITA_divert_funds_to_the_army
+	}
+	prerequisite = {
+		focus = ITA_unity_and_jingo
+	}
+	prerequisite = {
+		focus = ITA_the_horseshoe_theory
+	}
+	x = 8
+	y = 3
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_meet_with_trentin"
+		country_event = {
+			id = ITA.9
+			days = 1
+		}
+		ITA_subtract_socialist_3 = yes
+		ITA_subtract_nationalist_3 = yes
+	}
+}
+shared_focus = {
+	id =  ITA_rely_on_the_coalition
+	icon = GFX_ITA_Rely_on_the_Coalition
+	cost = 4.00
+	prerequisite = {
+		focus = ITA_divert_funds_to_the_army
+	}
+	prerequisite = {
+		focus = ITA_unity_and_jingo
+	}
+	prerequisite = {
+		focus = ITA_the_horseshoe_theory
+	}
+	mutually_exclusive = {
+		focus = ITA_secure_the_party
+	}
+	x = 6
+	y = 3
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_rely_on_the_coalition"
+		add_stability = 0.03
+		add_popularity = {
+			ideology = liberalism
+			popularity = 0.03
+		}
+		add_popularity = {
+			ideology = progressivism
+			popularity = 0.03
+		}
+	}
+}
+shared_focus = {
+	id =  ITA_oust_the_amoral
+	icon = GFX_ITA_Oust_the_Amoral
+	cost = 4.00
+	prerequisite = {
+		focus = ITA_meet_with_trentin
+	}
+	prerequisite = {
+		focus = ITA_rely_on_the_coalition
+	}
+	x = 6
+	y = 4
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_oust_the_amoral"
+		country_event = {
+			id = ITA.10
+			days = 1
+		}
+		swap_ideas = {
+			remove_idea = ITA_the_people_know3
+			add_idea = ITA_the_people_know4_5
+		}
+	}
+}
+
+## PARRI SUCCESS ##
+
+shared_focus = {
+	id =  ITA_the_survival_of_government
+	icon = GFX_focus_usa_attack_italy
+	cost = 5.00
+	
+	x = 4
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_the_survival_of_government"
+		add_political_power = 100
+	}
+}
+
+
+shared_focus = {
+	id =  ITA_the_old_ideas
+	icon = GFX_focus_usa_attack_italy
+	cost = 5.00
+	
+	x = 4
+	y = 1
+	prerequisite = {
+		focus = ITA_the_survival_of_government
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_the_old_ideas"
+		add_ideas = counter_revolutionary_laws
+	}
+}
+
+shared_focus = {
+	id =  ITA_disgrace_radicals
+	icon = GFX_focus_usa_attack_italy
+	cost = 5.00
+	
+	x = 4
+	y = 2
+	prerequisite = {
+		focus = ITA_the_old_ideas
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_disgrace_radicals"
+		add_popularity = {
+			ideology = conservatism
+			popularity = -0.03
+		}
+		add_popularity = {
+			ideology = republicanism
+			popularity = -0.03
+		}
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = -0.03
+		}
+		add_popularity = {
+			ideology = ultranationalism
+			popularity = -0.03
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_oppose_the_centralists
+	icon = GFX_focus_usa_attack_italy
+	cost = 5.00
+	
+	x = 2
+	y = 3
+	prerequisite = {
+		focus = ITA_disgrace_radicals
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_oppose_the_centralists"
+		add_ideas = ITA_anti_centralist_thought
+	}
+}
+
+shared_focus = {
+	id =  ITA_oppose_the_athiests
+	icon = GFX_focus_usa_attack_italy
+	cost = 5.00
+	
+	x = 4
+	y = 3
+	prerequisite = {
+		focus = ITA_disgrace_radicals
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_oppose_the_athiests"
+		add_ideas = ITA_theological_thought
+	}
+}
+
+shared_focus = {
+	id =  ITA_against_ultranationalism
+	icon = GFX_focus_usa_attack_italy
+	cost = 5.00
+	
+	x = 6
+	y = 3
+	prerequisite = {
+		focus = ITA_disgrace_radicals
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_against_ultranationalism"
+		add_ideas = ITA_anti_ultnat_thought
+	}
+}
+
+shared_focus = {
+	id =  ITA_dio_e_popolo
+	icon = GFX_focus_usa_attack_italy
+	cost = 5.00
+	
+	x = 4
+	y = 4
+	prerequisite = {
+		focus = ITA_oppose_the_centralists
+	}
+	prerequisite = {
+		focus = ITA_oppose_the_athiests
+	}
+	prerequisite = {
+		focus = ITA_against_ultranationalism
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_dio_e_popolo"
+		remove_ideas = {
+			ITA_anti_centralist_thought
+			ITA_theological_thought
+			ITA_anti_ultnat_thought
+		}
+		add_ideas = ITA_horseshoe_thought
+		country_event = {
+			id = ITA.13
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_distance_from_france
+	icon = GFX_focus_usa_attack_italy
+	cost = 5.00
+	
+	x = 0
+	y = 5
+	prerequisite = {
+		focus = ITA_dio_e_popolo
+	}
+	mutually_exclusive = {
+		focus = ITA_strengthen_the_entente
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_distance_from_france"
+		leave_faction = yes
+		FRA = {
+		add_opinion_modifier = {
+			target = ITA
+			modifier = faction_traitor
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_sufficient_industrial_benefits
+	icon = GFX_focus_usa_attack_italy
+	cost = 5.00
+	
+	x = 0
+	y = 6
+	prerequisite = {
+		focus = ITA_distance_from_france
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_distance_from_france"
+		add_ideas = ITA_industry_aid
+	}
+}
+
+shared_focus = {
+	id =  ITA_strengthen_the_entente
+	icon = GFX_focus_usa_attack_italy
+	cost = 5.00
+	
+	x = 2
+	y = 5
+	prerequisite = {
+		focus = ITA_dio_e_popolo
+	}
+	mutually_exclusive = {
+		focus = ITA_distance_from_france
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_strengthen_the_entente"
+		if = {
+			limit = {
+				country_exists = FRA
+				NOT = {
+					country_exists = FSR
+				}
+			}
+				give_guarantee = FRA
+			FRA = {
+				give_guarantee = ITA
+			}
+		}
+		if = {
+			limit = {
+			NOT = {
+				country_exists = FRA
+				}
+			}
+			diplomatic_relation = {
+				country = FSR
+				relation = non_aggression_pact
+				active = yes
+			}
+			FSR = {
+				diplomatic_relation = {
+				country = ITA
+				relation = non_aggression_pact
+				active = yes
+				}
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_business_cooperation
+	icon = GFX_focus_usa_attack_italy
+	cost = 5.00
+	
+	x = 2
+	y = 6
+	prerequisite = {
+		focus = ITA_strengthen_the_entente
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_business_cooperation"
+		if = {
+			limit = {
+				NOT = {
+				country_exists = FRA
+				}
+				country_exists = FSR
+			}
+			FSR = {
+				country_event = {
+				id = ITA.11
+				days = 1
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+				country_exists = FSR
+				}
+				country_exists = FRA
+			}
+			FRA = {
+				country_event = {
+				id = ITA.11
+				days = 1
+				}
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_tackle_organized_crime
+	icon = GFX_focus_usa_attack_italy
+	cost = 5.00
+	
+	x = 4
+	y = 5
+	prerequisite = {
+		focus = ITA_dio_e_popolo
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_tackle_organized_crime"
+		country_event = {
+			id = ITA.12
+			days = 1
+		}
+		add_political_power = 75
+		177 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}		
+		}
+		156 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}		
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_the_antimafia_commission
+	icon = GFX_focus_usa_attack_italy
+	cost = 5.00
+	
+	x = 4
+	y = 6
+	prerequisite = {
+		focus = ITA_tackle_organized_crime
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_the_antimafia_commission"
+		add_ideas = ITA_anti_mafia_comission
+	}
+}
+
+shared_focus = {
+	id =  ITA_concessions_to_liberals
+	icon = GFX_focus_usa_attack_italy
+	cost = 5.00
+	
+	x = 6
+	y = 5
+	prerequisite = {
+		focus = ITA_dio_e_popolo
+	}
+	mutually_exclusive = {
+		focus = ITA_formalize_the_left
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_concessions_to_liberals"
+		add_popularity = {
+			ideology = liberalism
+			popularity = 0.03
+		}
+		add_stability = 0.05
+	}
+}
+
+shared_focus = {
+	id =  ITA_benefits_to_business
+	icon = GFX_focus_usa_attack_italy
+	cost = 5.00
+	
+	x = 6
+	y = 6
+	prerequisite = {
+		focus = ITA_concessions_to_liberals
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_benefits_to_business"
+		add_ideas = partial_economic_mobilisation
+	}
+}
+
+shared_focus = {
+	id =  ITA_formalize_the_left
+	icon = GFX_focus_usa_attack_italy
+	cost = 5.00
+	
+	x = 8
+	y = 5
+	prerequisite = {
+		focus = ITA_dio_e_popolo
+	}
+	mutually_exclusive = {
+		focus = ITA_concessions_to_liberals
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_formalize_the_left"
+		add_popularity = {
+			ideology = progressivism
+			popularity = 0.05
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_action_for_stability
+	icon = GFX_focus_usa_attack_italy
+	cost = 5.00
+	
+	x = 8
+	y = 6
+	prerequisite = {
+		focus = ITA_formalize_the_left
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_action_for_stability"
+		add_ideas = anti_corruption_laws
+	}
+}
+
+shared_focus = {
+	id =  ITA_a_stable_government
+	icon = GFX_focus_usa_attack_italy
+	cost = 5.00
+	
+	x = 4
+	y = 7
+	prerequisite = {
+		focus = ITA_sufficient_industrial_benefits
+		focus = ITA_business_cooperation
+	}
+	prerequisite = {
+		focus = ITA_the_antimafia_commission
+	}
+	prerequisite = {
+		focus = ITA_benefits_to_business
+		focus = ITA_action_for_stability
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_a_stable_government"
+		add_manpower = 10000
+		add_stability = 0.5
+		add_research_slot = 1
+	}
+}
+
+shared_focus = {
+	id =  ITA_the_hawks_benefit
+	icon = GFX_focus_usa_attack_italy
+	cost = 5.00
+	
+	x = 4
+	y = 8
+	prerequisite = {
+		focus = ITA_a_stable_government
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_the_hawks_benefit"
+		add_ideas = ITA_wark_hawk
+		add_named_threat = { 
+			threat = 5 
+			name = "Italian Hawks."
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_put_down_the_commune
+	icon = GFX_focus_usa_attack_italy
+	cost = 5.00
+	
+	x = 2
+	y = 9
+	prerequisite = {
+		focus = ITA_the_hawks_benefit
+	}
+	bypass = {
+        NOT = {
+			country_exists = FSR
+		}
+    }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_put_down_the_commune"
+		if = {
+			limit = {
+				NOT = {
+				country_exists = FRA
+				}
+				country_exists = FSR
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = FSR
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_clip_croatia
+	icon = GFX_focus_usa_attack_italy
+	cost = 5.00
+	
+	x = 4
+	y = 9
+	prerequisite = {
+		focus = ITA_the_hawks_benefit
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_clip_croatia"
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = CRO
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_relieve_albania
+	icon = GFX_focus_usa_attack_italy
+	cost = 5.00
+	
+	x = 6
+	y = 9
+	prerequisite = {
+		focus = ITA_the_hawks_benefit
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_relieve_albania"
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = ALB
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_army_of_liberation
+	icon = GFX_focus_usa_attack_italy
+	cost = 5.00
+	
+	x = 4
+	y = 10
+	prerequisite = {
+		focus = ITA_put_down_the_commune
+	}
+	prerequisite = {
+		focus = ITA_clip_croatia
+	}
+	prerequisite = {
+		focus = ITA_relieve_albania
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_army_of_liberation"
+		swap_ideas = {
+			remove_idea = ITA_wark_hawk
+			add_idea = ITA_wark_hawk2
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_speak_softly_and_carry_a_big_stick
+	icon = GFX_focus_usa_attack_italy
+	cost = 5.00
+	
+	x = 4
+	y = 11
+	prerequisite = {
+		focus = ITA_army_of_liberation
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_speak_softly_and_carry_a_big_stick"
+		add_ideas = limited_conscription
+	}
+}
+
+shared_focus = {
+	id =  ITA_the_accomplishments_of_democracy
+	icon = GFX_Democracys_Benefeits
+	cost = 5.00
+	
+	x = 4
+	y = 12
+	prerequisite = {
+		focus = ITA_speak_softly_and_carry_a_big_stick
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_the_accomplishments_of_democracy"
+		if = {
+			limit = {
+				any_country = {
+					is_subject_of = ITA
+				}
+			}
+			PREV = {
+				random_state = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}		
+				}
+			}
+		}
+	}
+}
+
+## TRENTIN TREE ##
+
+shared_focus = {
+	id =  ITA_freedom_and_justice
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 2
+	y = 0
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_freedom_and_justice"
+		add_ideas = anti_corruption_laws
+		country_event = {
+			id = ITA.14
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_rights_of_man
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 2
+	y = 1
+	prerequisite = {
+		focus = ITA_freedom_and_justice
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_rights_of_man"
+		add_ideas = ita_rights_of_man
+	}
+}
+
+shared_focus = {
+	id =  ITA_autonomous_provinces
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 0
+	y = 2
+	prerequisite = {
+		focus = ITA_rights_of_man
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_autonomous_provinces"
+		add_ideas = ita_autonomous_provinces
+	}
+}
+
+shared_focus = {
+	id =  ITA_frederalisms_benefits
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 0
+	y = 3
+	prerequisite = {
+		focus = ITA_autonomous_provinces
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_frederalisms_benefits"
+		swap_ideas = {
+			remove_idea = ita_autonomous_provinces
+			add_idea = ita_autonomous_provinces2
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_pluralism_upon_italy
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 2
+	y = 2
+	prerequisite = {
+		focus = ITA_rights_of_man
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_pluralism_upon_italy"
+		add_stability = 0.05
+		country_event = {
+			id = ITA.15
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_deal_with_the_people
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 2
+	y = 3
+	prerequisite = {
+		focus = ITA_pluralism_upon_italy
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_deal_with_the_people"
+		country_event = {
+			id = ITA.16
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_the_mans_market
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 4
+	y = 2
+	prerequisite = {
+		focus = ITA_rights_of_man
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_the_mans_market"
+		add_offsite_building = { type = industrial_complex level = 2 }
+	}
+}
+
+shared_focus = {
+	id =  ITA_the_freer_the_market
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 4
+	y = 3
+	prerequisite = {
+		focus = ITA_the_mans_market
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_the_freer_the_market"
+		add_ideas = free_trade
+	}
+}
+
+shared_focus = {
+	id =  ITA_state_nation_federalism
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 2
+	y = 4
+	prerequisite = {
+		focus = ITA_frederalisms_benefits
+	}
+	prerequisite = {
+		focus = ITA_deal_with_the_people
+	}
+	prerequisite = {
+		focus = ITA_the_freer_the_market
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_state_nation_federalism"
+		swap_ideas = {
+			remove_idea = ita_autonomous_provinces2
+			add_idea = ita_autonomous_provinces3
+		}
+		set_cosmetic_tag = ITA_christain
+	}
+}
+
+shared_focus = {
+	id =  ITA_colonial_grants
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 0
+	y = 5
+	prerequisite = {
+		focus = ITA_state_nation_federalism
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_colonial_grants"
+		449 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+			add_manpower = 1000
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_subsidies_for_southern_industry
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 2
+	y = 5
+	prerequisite = {
+		focus = ITA_state_nation_federalism
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_subsidies_for_southern_industry"
+		115 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		117 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_attract_immigration
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 4
+	y = 5
+	prerequisite = {
+		focus = ITA_state_nation_federalism
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_attract_immigration"
+		458 = {
+			add_building_construction = {
+				type = naval_base
+				level = 2
+				instant_build = yes
+				province = 9904
+			}
+		}
+		117 = {
+			add_building_construction = {
+				type = naval_base
+				level = 2
+				instant_build = yes
+				province = 819
+			}
+		}
+		115 = {
+			add_building_construction = {
+				type = naval_base
+				level = 2
+				instant_build = yes
+				province = 10074
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_assurance_of_profit
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 2
+	y = 6
+	prerequisite = {
+		focus = ITA_colonial_grants
+	}
+	prerequisite = {
+		focus = ITA_subsidies_for_southern_industry
+	}
+	prerequisite = {
+		focus = ITA_attract_immigration
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_assurance_of_profit"
+	}
+}
+
+shared_focus = {
+	id =  ITA_counter_unitary_systems
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 2
+	y = 7
+	prerequisite = {
+		focus = ITA_assurance_of_profit
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_counter_unitary_systems"
+		add_ideas = ita_profit_defense
+	}
+}
+
+shared_focus = {
+	id =  ITA_oppose_authoritarian_systems
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 1
+	y = 8
+	prerequisite = {
+		focus = ITA_counter_unitary_systems
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_oppose_authoritarian_systems"
+		add_political_power = 75
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = -0.03
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_support_the_flames_of_rebellion
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 3
+	y = 8
+	prerequisite = {
+		focus = ITA_counter_unitary_systems
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_support_the_flames_of_rebellion"
+		add_ideas = ita_flames_of_rebellion
+	}
+}
+
+shared_focus = {
+	id =  ITA_a_clean_and_functional_italy
+	icon = GFX_ITA_A_Clean_And_Stable_Italy
+	cost = 4.00
+	
+	x = 2
+	y = 9
+	prerequisite = {
+		focus = ITA_oppose_authoritarian_systems
+	}
+	prerequisite = {
+		focus = ITA_support_the_flames_of_rebellion
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_a_clean_and_functional_italy"
+		add_ideas = ita_clean_functional_italy
+	}
+}
+
+shared_focus = {
+	id =  ITA_claim_the_entente
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 2
+	y = 10
+	prerequisite = {
+		focus = ITA_a_clean_and_functional_italy
+	}
+	available = {
+		strength_ratio = {
+			tag = FRA
+			ratio > 1.25
+		}
+		ic_ratio = {
+			tag = FRA
+			ratio > 1.5
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_claim_the_entente"
+		create_faction = "Entente"
+		every_country = {
+			if = {
+				limit = {
+					is_in_faction_with = FRA
+				}
+				ITA = { add_to_faction = ROOT }
+			}
+		}
+	}
+}
+
+
+shared_focus = {
+	id =  ITA_invite_hungary
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 0
+	y = 11
+	prerequisite = {
+		focus = ITA_claim_the_entente
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_invite_hungary"
+		HUN = {
+		country_event = {
+			id = ITA.17
+			days = 1
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_invite_ukraine
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 2
+	y = 11
+	prerequisite = {
+		focus = ITA_claim_the_entente
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_invite_ukraine"
+		if = { 
+			limit = {
+				country_exists = UKN
+			}
+		UKN = {
+			country_event = {
+			id = ITA.18
+			days = 1
+				}
+			}
+		}
+		if = {
+			limit = {
+				country_exists = UKR
+			}
+		UKR = {
+			country_event = {
+			id = ITA.18
+			days = 1
+				}
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_invite_greece
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 4
+	y = 11
+	prerequisite = {
+		focus = ITA_claim_the_entente
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_invite_greece"
+		GRE = {
+		country_event = {
+			id = ITA.19
+			days = 1
+			}
+		}
+	}
+}
+
+## MALVESTITI TREE ##
+
+shared_focus = {
+	id =  ITA_federalization_of_italy
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 4
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_federalization_of_italy"
+		country_event = {
+			id = ITA.20
+			days = 1
+		}
+		add_popularity = {
+			ideology = liberalism
+			popularity = -0.1
+		}
+		add_popularity = {
+			ideology = progressivism
+			popularity = -0.2
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_immediate_decolonization
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 2
+	y = 2
+	prerequisite = {
+		focus = ITA_federalization_of_italy
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_immediate_decolonization"
+		country_event = {
+			id = ITA.25
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_the_world_stage
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 4
+	y = 1
+	prerequisite = {
+		focus = ITA_federalization_of_italy
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_the_world_stage"
+		country_event = {
+			id = ITA.21
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_leave_the_entente
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 4
+	y = 2
+	prerequisite = {
+		focus = ITA_the_world_stage
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_leave_the_entente"
+		leave_faction = yes
+		remove_ideas = ITA_years_of_the_sheep
+	}
+}
+
+shared_focus = {
+	id =  ITA_negotiate_with_the_people
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 6
+	y = 2
+	prerequisite = {
+		focus = ITA_federalization_of_italy
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_negotiate_with_the_people"
+		2 = {
+			add_building_construction = {
+			type = infrastructure
+			level = 2
+			instant_build = yes
+			}
+		}
+	}
+}
+
+
+shared_focus = {
+	id =  ITA_decentralization
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 4
+	y = 3
+	prerequisite = {
+		focus = ITA_immediate_decolonization
+	}
+	prerequisite = {
+		focus = ITA_leave_the_entente
+	}
+	prerequisite = {
+		focus = ITA_negotiate_with_the_people
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_decentralization"
+		add_ideas = ita_reforms_decentralization
+	}
+}
+
+shared_focus = {
+	id =  ITA_the_welfare_of_the_people
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 4
+	y = 4
+	prerequisite = {
+		focus = ITA_decentralization
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_the_welfare_of_the_people"
+		swap_ideas = {
+			remove_idea = ita_reforms_decentralization
+			add_idea = ita_reforms_decentralization2
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_jobs_for_the_men
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 2
+	y = 5
+	prerequisite = {
+		focus = ITA_the_welfare_of_the_people
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_jobs_for_the_men"
+		add_offsite_building = { type = industrial_complex level = 2 }
+	}
+}
+
+shared_focus = {
+	id =  ITA_roads_for_the_families
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 4
+	y = 5
+	prerequisite = {
+		focus = ITA_the_welfare_of_the_people
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_roads_for_the_families"
+		random_owned_controlled_state = {
+			add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_building_construction = {
+			type = infrastructure
+			level = 1
+			instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_churhces_for_all
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 6
+	y = 5
+	prerequisite = {
+		focus = ITA_the_welfare_of_the_people
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_churhces_for_all"
+		add_political_power = 75
+	}
+}
+
+shared_focus = {
+	id =  ITA_the_new_face_of_italy
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 4
+	y = 6
+	prerequisite = {
+		focus = ITA_jobs_for_the_men
+	}
+	prerequisite = {
+		focus = ITA_roads_for_the_families
+	}
+	prerequisite = {
+		focus = ITA_churhces_for_all
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_the_new_face_of_italy"
+		country_event = {
+			id = ITA.22
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_crack_down_on_radicals
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 0
+	y = 7
+	prerequisite = {
+		focus = ITA_the_new_face_of_italy
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_crack_down_on_radicals"
+		add_popularity = {
+			ideology = centralism
+			popularity = -0.03
+		}
+		add_popularity = {
+			ideology = socialism
+			popularity = -0.03
+		}
+		add_popularity = {
+			ideology = progressivism
+			popularity = -0.03
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_support_regional_movements
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 2
+	y = 7
+	prerequisite = {
+		focus = ITA_the_new_face_of_italy
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_support_regional_movements"
+		add_popularity = {
+			ideology = conservatism
+			popularity = 0.05
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_faith_in_the_lord
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 4
+	y = 7
+	prerequisite = {
+		focus = ITA_the_new_face_of_italy
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_faith_in_the_lord"
+		add_ideas = ita_faith_in_god
+	}
+}
+
+shared_focus = {
+	id =  ITA_passive_culture
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 6
+	y = 7
+	prerequisite = {
+		focus = ITA_the_new_face_of_italy
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_passive_culture"
+		add_ideas = ita_passive_culture
+		remove_ideas = ITA_impending_war_of_independence
+	}
+}
+
+shared_focus = {
+	id =  ITA_support_the_balance_of_power
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 8
+	y = 7
+	prerequisite = {
+		focus = ITA_the_new_face_of_italy
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_support_the_balance_of_power"
+		remove_ideas = ITA_offset_of_power
+		add_to_variable = { country_infamy = -3 } 
+		custom_effect_tooltip = "Infamy will go down by 3."
+	}
+}
+
+shared_focus = {
+	id =  ITA_a_new_constitution
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 4
+	y = 8
+	prerequisite = {
+		focus = ITA_crack_down_on_radicals
+	}
+	prerequisite = {
+		focus = ITA_support_regional_movements
+	}
+	prerequisite = {
+		focus = ITA_faith_in_the_lord
+	}
+	prerequisite = {
+		focus = ITA_passive_culture
+	}
+	prerequisite = {
+		focus = ITA_support_the_balance_of_power
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_a_new_constitution"
+		country_event = {
+			id = ITA.23
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_global_neutrality
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 3
+	y = 9
+	prerequisite = {
+		focus = ITA_a_new_constitution
+	}
+	mutually_exclusive = {
+		focus = ITA_rejoin_the_entente
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_global_neutrality"
+		add_political_power = 75
+	}
+}
+
+shared_focus = {
+	id =  ITA_rejoin_the_entente
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 5
+	y = 9
+	prerequisite = {
+		focus = ITA_a_new_constitution
+	}
+	mutually_exclusive = {
+		focus = ITA_global_neutrality
+	}
+	bypass = {
+        NOT = {
+			country_exists = FRA
+		}
+    }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_rejoin_the_entente"
+		if = {
+			limit = {
+				country_exists = FRA
+			}
+			FRA = {
+				country_event = {
+					id = ITA.24
+					days = 1
+				}
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_catholic_education
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 3
+	y = 10
+	prerequisite = {
+		focus = ITA_global_neutrality
+		focus = ITA_rejoin_the_entente
+	}
+	mutually_exclusive = {
+		focus = ITA_secular_education
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_catholic_education"
+		add_ideas = ita_catholic_education
+	}
+}
+
+shared_focus = {
+	id =  ITA_secular_education
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 5
+	y = 10
+	prerequisite = {
+		focus = ITA_global_neutrality
+		focus = ITA_rejoin_the_entente
+	}
+	mutually_exclusive = {
+		focus = ITA_catholic_education
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_secular_education"
+		add_ideas = ita_secular_education
+	}
+}
+shared_focus = {
+	id =  ITA_traditional_values
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 3
+	y = 11
+	prerequisite = {
+		focus = ITA_catholic_education
+		focus = ITA_secular_education
+	}
+	mutually_exclusive = {
+		focus = ITA_way_for_progress
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_traditional_values"
+		add_ideas = ita_traditional_values
+	}
+}
+
+shared_focus = {
+	id =  ITA_way_for_progress
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 5
+	y = 11
+	prerequisite = {
+		focus = ITA_catholic_education
+		focus = ITA_secular_education
+	}
+	mutually_exclusive = {
+		focus = ITA_traditional_values
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_way_for_progress"
+		add_ideas = ita_progressive_society
+	}
+}
+
+shared_focus = {
+	id =  ITA_for_the_longevity_of_the_italian_confederation
+	icon = GFX_ITA_for_the_longevity_of_italy
+	cost = 4.00
+	
+	x = 4
+	y = 12
+	prerequisite = {
+		focus = ITA_traditional_values
+		focus = ITA_way_for_progress
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_for_the_longevity_of_the_italian_confederation"
+		add_ideas = ita_longevity_of_the_confederation
+	}
+}
+
+## AUSTRIAN WAR TREE ########################################################################################
+
+shared_focus = {
+	id =  ITA_the_beast_above
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 8
+	y = 13
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_the_beast_above"
+		add_war_support = 0.1
+	}
+}
+
+shared_focus = {
+	id =  ITA_mass_mobilization
+	icon = GFX_FRA_call_upon_the_people
+	cost = 4.00
+	
+	x = 4
+	y = 14
+	available = {
+		has_government = progressivism
+	}
+	prerequisite = {
+		focus = ITA_the_beast_above
+	}
+	mutually_exclusive = {
+		focus = ITA_the_way_of_peace
+	}
+	mutually_exclusive = {
+		focus = ITA_family_of_the_rebellion
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_mass_mobilization"
+		add_ideas = ita_mass_mobilization_1
+	}
+}
+
+shared_focus = {
+	id =  ITA_protection_of_the_coast
+	icon = GFX_goal_generic_construct_military
+	cost = 4.00
+	
+	x = 0
+	y = 15
+	prerequisite = {
+		focus = ITA_mass_mobilization
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_protection_of_the_coast"
+		791 = {
+			add_building_construction = {
+			    type = coastal_bunker
+			    level = 2
+			    instant_build = yes
+			    province = 6793
+			}
+			add_building_construction = {
+			    type = coastal_bunker
+			    level = 2
+			    instant_build = yes
+			    province = 782
+			}
+			add_building_construction = {
+			    type = coastal_bunker
+			    level = 2
+			    instant_build = yes
+			    province = 9924
+			}
+		}
+		157 = {
+			add_building_construction = {
+			    type = coastal_bunker
+			    level = 2
+			    instant_build = yes
+			    province = 967
+			}
+			add_building_construction = {
+			    type = coastal_bunker
+			    level = 2
+			    instant_build = yes
+			    province = 925
+			}
+		}
+		163 = {
+			add_building_construction = {
+			    type = coastal_bunker
+			    level = 2
+			    instant_build = yes
+			    province = 3943
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_the_gift_of_flight
+	icon = GFX_goal_generic_build_airforce
+	cost = 4.00
+	
+	x = 2
+	y = 15
+	prerequisite = {
+		focus = ITA_mass_mobilization
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_the_gift_of_flight"
+		159 = {
+			add_building_construction = {
+			    type = air_base
+			    level = 2
+			    instant_build = yes
+			}
+		}
+		161 = {
+			add_building_construction = {
+			    type = air_base
+			    level = 1
+			    instant_build = yes
+			}
+		}
+		add_tech_bonus = {
+		    bonus = 0.5
+		    uses = 1
+		    category = light_air
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_expand_research_facilities
+	icon = GFX_goal_generic_scientific_exchange
+	cost = 4.00
+	
+	x = 2
+	y = 16
+	prerequisite = {
+		focus = ITA_the_gift_of_flight
+	}
+	prerequisite = {
+		focus = ITA_protection_of_the_coast
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_expand_research_facilities"
+		add_timed_idea = {
+			idea = ita_military_research_effort
+			days = 365
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_emergency_conversion
+	icon = GFX_goal_continuous_non_factory_construct
+	cost = 4.00
+	
+	x = 4
+	y = 15
+	prerequisite = {
+		focus = ITA_mass_mobilization
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_emergency_conversion"
+		159 = { #Lombaryd
+			if = {
+				limit = { industrial_complex > 4 }
+				remove_building = {
+				    type = industrial_complex
+				    level = 2
+				}
+				add_building_construction = {
+				    type = arms_factory
+				    level = 2
+				    instant_build = yes
+				}
+				else = {
+					remove_building = {
+					    type = industrial_complex
+					    level = 1
+					}
+					add_building_construction = {
+					    type = arms_factory
+					    level = 1
+					    instant_build = yes
+					}
+				}
+			}
+		}
+		161 = { #emilia romagna
+			if = {
+				limit = { industrial_complex > 4 }
+				remove_building = {
+				    type = industrial_complex
+				    level = 2
+				}
+				add_building_construction = {
+				    type = arms_factory
+				    level = 2
+				    instant_build = yes
+				}
+				else = {
+					remove_building = {
+					    type = industrial_complex
+					    level = 1
+					}
+					add_building_construction = {
+					    type = arms_factory
+					    level = 1
+					    instant_build = yes
+					}
+				}
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_modernize_armaments
+	icon = GFX_goal_rhineland
+	cost = 4.00
+	
+	x = 4
+	y = 16
+	prerequisite = {
+		focus = ITA_emergency_conversion
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_modernize_armaments"
+		add_tech_bonus = {
+		    bonus = 0.5
+		    uses = 1
+		    category = infantry_tech
+		}
+		add_timed_idea = {
+			idea = ita_gun_production
+			days = 180	
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_draft_the_people
+	icon = GFX_focus_generic_military_mission
+	cost = 4.00
+	
+	x = 4
+	y = 17
+	prerequisite = {
+		focus = ITA_modernize_armaments
+	}
+	prerequisite = {
+		focus = ITA_expand_research_facilities
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_draft_the_people"
+		swap_ideas = {
+			remove_idea = ita_mass_mobilization_1
+			add_idea = ita_mass_mobilization_2
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_boots_on_the_ground
+	icon = GFX_focus_generic_paratrooper
+	cost = 4.00
+	
+	x = 2
+	y = 18
+	prerequisite = {
+		focus = ITA_draft_the_people
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_boots_on_the_ground"
+		#add 1 paratropper div
+		#if tech is unlocked, add 2 more
+		if = {
+			limit = {
+				NOT { has_tech = paratroopers }
+			}
+			set_technology = {
+			    paratroopers = 1
+			}
+		}
+		add_equipment_to_stockpile = {
+		    type = transport_plane_equipment_1
+		    amount = 5
+		    producer = ITA
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_modern_techniques
+	icon = GFX_focus_secret_rearmament
+	cost = 4.00
+	
+	x = 4
+	y = 18
+	prerequisite = {
+		focus = ITA_draft_the_people
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_modern_techniques"
+		army_experience = 15
+		add_tech_bonus = {
+		    bonus = 0.5
+		    uses = 1
+		    category = land_doctrine
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_brothers_in_arms
+	icon = GFX_focus_generic_little_entente
+	cost = 4.00
+	
+	x = 4
+	y = 19
+	prerequisite = {
+		focus = ITA_modern_techniques
+	}
+	prerequisite = {
+		focus = ITA_boots_on_the_ground
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_brothers_in_arms"
+		swap_ideas = {
+			remove_idea = ita_mass_mobilization_2
+			add_idea = ita_mass_mobilization_3
+		}
+		add_manpower = 100000
+	}
+}
+#MIDDLE BRANCH
+shared_focus = {
+	id =  ITA_family_of_the_rebellion
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 8
+	y = 14
+	available = {
+		has_government = liberalism
+	}
+	prerequisite = {
+		focus = ITA_the_beast_above
+	}
+	mutually_exclusive = {
+		focus = ITA_the_way_of_peace
+	}
+	mutually_exclusive = {
+		focus = ITA_mass_mobilization
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_family_of_the_rebellion"
+	}
+}
+
+shared_focus = {
+	id =  ITA_the_slavs
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 6
+	y = 15
+	prerequisite = {
+		focus = ITA_family_of_the_rebellion
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_the_slavs"
+		#czech revolt
+	}
+}
+
+shared_focus = {
+	id =  ITA_arms_of_the_north
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 8
+	y = 15
+	prerequisite = {
+		focus = ITA_family_of_the_rebellion
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_arms_of_the_north"
+		#event about guns from Denmark
+	}
+}
+
+shared_focus = {
+	id =  ITA_prime_the_poles
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 10
+	y = 15
+	prerequisite = {
+		focus = ITA_family_of_the_rebellion
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_prime_the_poles"
+		send_equipment = {
+		    equipment = infantry_equipment
+		    amount = 300
+		    target = POL
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_against_the_empire_of_evil
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 8
+	y = 16
+	prerequisite = {
+		focus = ITA_the_slavs
+	}
+	prerequisite = {
+		focus = ITA_arms_of_the_north
+	}
+	prerequisite = {
+		focus = ITA_prime_the_poles
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_against_the_empire_of_evil"
+		add_war_support 0.1
+	}
+}
+
+shared_focus = {
+	id =  ITA_invade_the_conquests
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 8
+	y = 17
+	prerequisite = {
+		focus = ITA_against_the_empire_of_evil
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_invade_the_conquests"
+	}
+}
+
+shared_focus = {
+	id =  ITA_arm_the_underground
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 6
+	y = 18
+	prerequisite = {
+		focus = ITA_invade_the_conquests
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_arm_the_underground"
+		add_equipment_to_stockpile = {
+		    type = infantry_equipment
+		    amount = -500
+		    producer = ITA
+		}
+	}
+}
+
+shared_focus = {
+	id =  ITA_modern_intelligence
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 8
+	y = 18
+	prerequisite = {
+		focus = ITA_invade_the_conquests
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_modern_intelligence"
+		#idea decryption
+	}
+}
+
+shared_focus = {
+	id =  ITA_the_new_europe
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 10
+	y = 18
+	prerequisite = {
+		focus = ITA_invade_the_conquests
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_the_new_europe"
+	}
+}
+
+shared_focus = {
+	id =  ITA_light_the_fuse
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 8
+	y = 19
+	prerequisite = {
+		focus = ITA_arm_the_underground
+	}
+	prerequisite = {
+		focus = ITA_modern_intelligence
+	}
+	prerequisite = {
+		focus = ITA_the_new_europe
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_light_the_fuse"
+		#spawn revolt in Czechia, slovenia, silesia, (?Dalmatia)
+	}
+}
+
+shared_focus = {
+	id =  ITA_the_way_of_peace
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 12
+	y = 14
+	available = {
+		has_government = conservatism
+	}
+	prerequisite = {
+		focus = ITA_the_beast_above
+	}
+	mutually_exclusive = {
+		focus = ITA_family_of_the_rebellion
+	}
+	mutually_exclusive = {
+		focus = ITA_mass_mobilization
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_the_way_of_peace"
+	}
+}
+
+shared_focus = {
+	id =  ITA_meet_with_the_pope
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 12
+	y = 15
+	prerequisite = {
+		focus = ITA_the_way_of_peace
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_meet_with_the_pope"
+	}
+}
+
+shared_focus = {
+	id =  ITA_brokering_with_austria
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 12
+	y = 16
+	prerequisite = {
+		focus = ITA_meet_with_the_pope
+	}
+	mutually_exclusive = {
+		focus = ITA_stand_against_the_wiles_of_the_devil
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_brokering_with_austria"
+	}
+}
+
+shared_focus = {
+	id =  ITA_a_pact_of_non_interference
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 12
+	y = 17
+	prerequisite = {
+		focus = ITA_brokering_with_austria
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_a_pact_of_non_interference"
+	}
+}
+
+shared_focus = {
+	id =  ITA_compensations_for_austria
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 12
+	y = 18
+	prerequisite = {
+		focus = ITA_a_pact_of_non_interference
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_compensations_for_austria"
+	}
+}
+
+shared_focus = {
+	id =  ITA_the_prince_of_peace
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 12
+	y = 19
+	prerequisite = {
+		focus = ITA_compensations_for_austria
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_the_prince_of_peace"
+	}
+}
+
+shared_focus = {
+	id =  ITA_stand_against_the_wiles_of_the_devil
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 14
+	y = 16
+	prerequisite = {
+		focus = ITA_meet_with_the_pope
+	}
+	mutually_exclusive = {
+		focus = ITA_brokering_with_austria
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_stand_against_the_wiles_of_the_devil"
+	}
+}
+
+shared_focus = {
+	id =  ITA_armor_of_god
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 14
+	y = 17
+	prerequisite = {
+		focus = ITA_stand_against_the_wiles_of_the_devil
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_armor_of_god"
+	}
+}
+
+shared_focus = {
+	id =  ITA_helmet_of_salvation
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 14
+	y = 18
+	prerequisite = {
+		focus = ITA_armor_of_god
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_helmet_of_salvation"
+	}
+}
+
+shared_focus = {
+	id =  ITA_sword_of_the_spirit
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 16
+	y = 18
+	prerequisite = {
+		focus = ITA_armor_of_god
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_sword_of_the_spirit"
+	}
+}
+
+shared_focus = {
+	id =  ITA_breastplate_of_righteousness
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 18
+	y = 18
+	prerequisite = {
+		focus = ITA_armor_of_god
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_breastplate_of_righteousness"
+	}
+}
+
+shared_focus = {
+	id =  ITA_against_the_powers_of_this_dark_world
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 20
+	y = 18
+	prerequisite = {
+		focus = ITA_armor_of_god
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus ITA_against_the_powers_of_this_dark_world"
+	}
+}
+
+shared_focus = {
+	id =  ITA_david_and_goliath
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 14
+	y = 19
+	prerequisite = {
+		focus = ITA_helmet_of_salvation
+	}
+	prerequisite = {
+		focus = ITA_sword_of_the_spirit
+	}
+	prerequisite = {
+		focus = ITA_breastplate_of_righteousness
+	}
+	prerequisite = {
+		focus = ITA_against_the_powers_of_this_dark_world
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: ITA_david_and_goliath"
+	}
+}
+
+shared_focus = {
+	id =  ITA_the_final_war_of_independence
+	icon = GFX_focus_usa_attack_italy
+	cost = 4.00
+	
+	x = 8
+	y = 20
+	prerequisite = {
+		focus = ITA_brothers_in_arms
+		focus = ITA_light_the_fuse
+		focus = ITA_david_and_goliath
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: ITA_the_final_war_of_independence"
+		declare_war_on = {
+		    target = AUS
+		    type = annex_everything
+		}
+	}
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=879
+	name="STATE_879"
+	manpower = 190789
+	
+	state_category = town
+
+	history={
+		owner = HSU
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = {
+			13235 2 
+		}
+		add_core_of = HSU
+	}
+
+	provinces={
+		13235 13236 12129
+	}
+}

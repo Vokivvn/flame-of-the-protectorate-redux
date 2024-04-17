@@ -1,0 +1,37 @@
+﻿capital = 862
+
+set_research_slots = 2
+
+set_convoys = 25
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	centralism = 0
+	socialism = 0
+	progressivism = 0
+	liberalism = 0
+	conservatism = 0
+	authoritarianism = 100
+	ultranationalism = 0
+}
+
+create_country_leader = {
+	name = "Bonifacius Cornelis de Jonge"
+	desc = "POLITICS_BONIFACIUS_CORNELIS_DE_JONGE_DESC"
+	picture = "Bonifacius_Cornelis_De_Jonge.dds"
+	expire = "1965.1.1"
+	ideology = colonial_government
+	traits = {
+		#
+	}
+}
+
+add_ideas = {
+	DEI_Republican_Remnant
+	DEI_Deal_With_the_Devil
+}

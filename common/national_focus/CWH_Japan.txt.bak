@@ -1,0 +1,12 @@
+focus_tree = {
+	id = JAP_focus_1
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = JAP
+		}
+	}
+	default = no
+	shared_focus = SAF_white_funny
+}

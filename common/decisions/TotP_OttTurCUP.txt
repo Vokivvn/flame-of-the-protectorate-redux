@@ -1,0 +1,20 @@
+TUR_the_empires_tensions = {
+	TUR_test = {
+
+		icon = generic_ignite_civil_war
+
+		available = {
+			always = yes
+		}
+
+		cost = 40
+
+		ai_will_do = {
+		}
+
+		visible = {
+		}
+		complete_effect = {
+		}
+	}
+}

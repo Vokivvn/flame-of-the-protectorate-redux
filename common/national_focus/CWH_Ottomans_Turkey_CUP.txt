@@ -1,0 +1,12 @@
+focus_tree = {
+	id = TUR_starting_out
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SAF
+		}
+	}
+	default = no
+	shared_focus = TUR_the_sick_mans_woes
+}

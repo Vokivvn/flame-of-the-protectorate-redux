@@ -1,0 +1,25 @@
+state={
+	id=888
+	name="STATE_888"
+	manpower = 1311280
+	
+	state_category = town
+
+	history={
+		owner = JMB
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = JMB
+
+		victory_points = {
+			1345 2 
+		}	
+	}
+
+	provinces={
+		10209 12184 10225 12343 12212 1332 1345 4364 1373 1533
+	}
+}

@@ -1,0 +1,79 @@
+﻿add_namespace = delhi
+
+country_event = { # 
+	id = delhi.1
+	title = delhi.1.t
+	desc = delhi.1.desc
+	picture = GFX_report_event_delhi_bose
+
+	is_triggered_only = yes
+	
+	option = {
+		name = delhi.1.a
+	}
+}
+
+country_event = { # 
+	id = delhi.2
+	title = delhi.2.t
+	desc = delhi.2.desc
+	picture = GFX_report_event_delhi_bose
+
+	is_triggered_only = yes
+	
+	option = {
+		name = delhi.2.a
+	}
+}
+
+country_event = { # 
+	id = delhi.3
+	title = delhi.3.t
+	desc = delhi.3.desc
+	picture = GFX_report_event_delhi_bose
+
+	is_triggered_only = yes
+	
+	option = {
+		name = delhi.3.a
+	}
+}
+
+country_event = { # 
+	id = delhi.4
+	title = delhi.4.t
+	desc = delhi.4.desc
+	picture = GFX_report_event_delhi_bose
+
+	is_triggered_only = yes
+	
+	option = {
+		name = delhi.4.a
+	}
+}
+
+country_event = { # 
+	id = delhi.5
+	title = delhi.5.t
+	desc = delhi.5.desc
+	picture = GFX_report_event_delhi_bose
+
+	is_triggered_only = yes
+	
+	option = {
+		name = delhi.5.a
+	}
+}
+
+country_event = { # 
+	id = delhi.6
+	title = delhi.6.t
+	desc = delhi.6.desc
+	picture = GFX_report_event_delhi_bose
+
+	is_triggered_only = yes
+	
+	option = {
+		name = delhi.6.a
+	}
+}

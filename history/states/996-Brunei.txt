@@ -1,0 +1,28 @@
+state={
+	id=996
+	name="STATE_996"
+	
+	history={
+		owner = ENG
+		victory_points = {
+			7371 1 
+		}
+		buildings = {
+			infrastructure = 3
+			7371 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = SRW
+
+	}
+	
+	provinces={
+		7371 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

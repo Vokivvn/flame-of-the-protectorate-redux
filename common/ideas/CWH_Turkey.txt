@@ -1,0 +1,75 @@
+ideas = {
+	country = {
+		TUR_the_mejidian_restorations = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = TUR_mejidian_restorations
+
+				modifier = {
+					stability_factor = 0.1 
+					consumer_goods_factor = 0.05
+					production_speed_infrastructure_factor = 0.1 
+					production_speed_industrial_complex_factor = 0.1
+					production_speed_arms_factory_factor = 0.05
+				}
+		}
+		
+		TUR_the_house_of_osman = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = TUR_house_of_osman
+
+				modifier = {
+					political_power_gain = 0.2
+					stability_factor = -0.05
+					republicanism_drift = 0.01
+					ultranationalism_drift = 0.01
+				}
+		}
+
+		TUR_the_caliphate = {
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = TUR_caliphate
+
+			modifier = {
+				non_core_manpower = 0.05
+				stability_factor = 0.05
+				war_support_weekly = 0.01
+				stability_weekly = 0.001
+			}
+		}
+		
+		TUR_the_divided_society = {
+	
+				allowed = {
+					always = no
+				}
+
+				removal_cost = -1
+
+				picture = TUR_divided_society
+
+				modifier = {
+					stability_factor = -0.2
+					consumer_goods_factor = 0.15
+					stability_weekly = -0.005
+					production_speed_arms_factory_factor = -0.05
+				}
+		}
+	}
+}

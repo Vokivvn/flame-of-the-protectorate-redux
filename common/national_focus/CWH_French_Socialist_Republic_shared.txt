@@ -1,0 +1,13 @@
+focus_tree = {
+	id = FSR_Starting_Out
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FSR
+		}
+	}
+	default = no
+	shared_focus = FSR_la_guerre_de_defense
+	continuous_focus_position = { x = 0 y = 4000 }
+}

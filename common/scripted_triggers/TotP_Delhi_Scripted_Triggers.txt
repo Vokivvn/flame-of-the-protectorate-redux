@@ -1,0 +1,140 @@
+RAJ_bill_has_cabinet_support_auth = {
+	custom_trigger_tooltip = {
+		tooltip = RAJ_has_cabinet_support
+		count_triggers = {
+			amount = 2
+			if = {
+				limit = {
+					has_country_flag = RAJ_Cabinet_Jawaharlal_Nehru
+				}
+				check_variable = {
+					var = RAJ_Jawaharlal_Nehru_Support
+					value = 0.7
+					compare = greater_than_or_equals
+				}
+			}
+			has_country_flag = RAJ_Cabinet_Vallabhbhai_Patel
+			if = {
+				limit = {
+					has_country_flag = RAJ_Cabinet_Asaf_Ali
+				}
+				check_variable = {
+					var = RAJ_Asaf_Ali_Support
+					value = 0.5
+					compare = greater_than_or_equals
+				}
+			}
+		}
+	}
+}
+
+RAJ_bill_has_cabinet_support_soc = {
+	custom_trigger_tooltip = {
+		tooltip = RAJ_has_cabinet_support
+		count_triggers = {
+			amount = 2
+			has_country_flag = RAJ_Cabinet_Jawaharlal_Nehru
+			if = {
+				limit = {
+					has_country_flag = RAJ_Cabinet_Vallabhbhai_Patel
+				}
+				check_variable = {
+					var = RAJ_Vallabhbhai_Patel_Support
+					value = 0.7
+					compare = greater_than_or_equals
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = RAJ_Cabinet_Asaf_Ali
+				}
+				check_variable = {
+					var = RAJ_Asaf_Ali_Support
+					value = 0.5
+					compare = greater_than_or_equals
+				}
+			}
+		}
+	}
+}
+
+RAJ_bill_has_cabinet_support_international = {
+	custom_trigger_tooltip = {
+		tooltip = RAJ_has_cabinet_support
+		count_triggers = {
+			amount = 2
+			if = {
+				limit = {
+					has_country_flag = RAJ_Cabinet_Jawaharlal_Nehru
+				}
+				check_variable = {
+					var = RAJ_Jawaharlal_Nehru_Support
+					value = 0.5
+					compare = greater_than_or_equals
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = RAJ_Cabinet_Vallabhbhai_Patel
+				}
+				check_variable = {
+					var = RAJ_Vallabhbhai_Patel_Support
+					value = 0.5
+					compare = greater_than_or_equals
+				}
+			}
+			has_country_flag = RAJ_Cabinet_Asaf_Ali
+		}
+	}
+}
+
+RAJ_bill_has_cabinet_support_generic = {
+	custom_trigger_tooltip = {
+		tooltip = RAJ_has_cabinet_support
+		count_triggers = {
+			amount = 2
+			if = {
+				limit = {
+					has_country_flag = RAJ_Cabinet_Jawaharlal_Nehru
+				}
+				check_variable = {
+					var = RAJ_Jawaharlal_Nehru_Support
+					value = 0.4
+					compare = greater_than_or_equals
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = RAJ_Cabinet_Vallabhbhai_Patel
+				}
+				check_variable = {
+					var = RAJ_Vallabhbhai_Patel_Support
+					value = 0.4
+					compare = greater_than_or_equals
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = RAJ_Cabinet_Asaf_Ali
+				}
+				check_variable = {
+					var = RAJ_Asaf_Ali_Support
+					value = 0.4
+					compare = greater_than_or_equals
+				}
+			}
+		}
+	}
+}
+
+
+RAJ_bill_has_pop_support = {
+	custom_trigger_tooltip = {
+		tooltip = RAJ_low_popular_support
+		check_variable = {
+			var = RAJ_Popular_Support
+			value = 0.5
+			compare = greater_than_or_equals
+		}
+	}
+}

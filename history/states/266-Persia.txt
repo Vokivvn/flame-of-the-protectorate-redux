@@ -1,0 +1,20 @@
+
+state={
+	id=266
+	name="STATE_266" # Tehran
+	manpower = 2906163
+	
+	state_category = town
+
+	history={
+		owner = PGG
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PER
+	}
+
+	provinces={
+		4580 10385 10768 13366 
+	}
+}

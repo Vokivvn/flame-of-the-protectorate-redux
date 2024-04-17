@@ -1,0 +1,1355 @@
+﻿add_namespace = ENG_Pol
+
+country_event = { #
+	id = ENG_Pol.1
+	title = ENG_Pol.1.t
+	desc = ENG_Pol.1.d
+	picture = GFX_report_event_Cromwell
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = ENG_Pol.1.a
+		
+	}
+}
+
+country_event = { #
+	id = ENG_Pol.2
+	title = ENG_Pol.2.t
+	desc = ENG_Pol.2.d
+	picture = GFX_report_event_chamberlain
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = ENG_Pol.2.a
+		
+	}
+}
+
+add_namespace = ENG
+
+country_event = { #Chamberlain's Last Year
+	id = ENG.1
+	title = ENG.1.t
+	desc = ENG.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = ENG.1.a
+		add_political_power = 20
+	}
+}
+
+country_event = { #Meeting with Eden
+	id = ENG.2
+	title = ENG.2.t
+	desc = ENG.2.d
+	picture = GFX_report_event_meet_with_eden
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = ENG.2.a
+	}
+}
+
+country_event = { #Controlling the Party
+	id = ENG.3
+	title = ENG.3.t
+	desc = ENG.3.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = ENG.3.a
+		ENG_conservatives_lose_popularity = yes
+	}
+}
+
+country_event = { #Meeting with Mosley
+	id = ENG.4
+	title = ENG.4.t
+	desc = ENG.4.d
+	picture = GFX_report_event_meet_with_mosley
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = ENG.4.a
+		add_political_power = -40
+	}
+}
+
+country_event = { #Talking to the Moderates
+	id = ENG.5
+	title = ENG.5.t
+	desc = ENG.5.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = ENG.5.a
+		ENG_republican_gain_popularity = yes
+	}
+}
+
+country_event = { #Meeting with Stapledon
+	id = ENG.6
+	title = ENG.6.t
+	desc = ENG.6.d
+	picture = GFX_report_event_meet_with_stapleton
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = ENG.6.a
+		add_political_power = -50
+	}
+}
+
+country_event = { #Walking the slums
+	id = ENG.7
+	title = ENG.7.t
+	desc = ENG.7.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = ENG.7.a
+		ENG_progressives_gain_popularity = yes
+	}
+}
+
+country_event = { #Meeting with Samuels
+	id = ENG.8
+	title = ENG.8.t
+	desc = ENG.8.d
+	picture = GFX_report_event_meet_with_samuel
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = ENG.8.a
+		add_political_power = 10
+	}
+}
+
+country_event = { #Parlimentarian Bipartisanship
+	id = ENG.9
+	title = ENG.9.t
+	desc = ENG.9.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = ENG.9.a
+		ENG_liberals_gain_popularity = yes
+	}
+}
+
+country_event = { #Party demands Chamberlain stops meeting with Mosley and Stapledon
+	id = ENG.10
+	title = ENG.10.t
+	desc = ENG.10.d
+	picture = GFX_report_event_chamberlain
+
+	is_triggered_only = yes
+	
+	option = { #Agree
+		name = ENG.10.a
+		add_political_power = 80
+		ENG_conservatives_gain_popularity = yes
+		ENG_liberals_gain_popularity = yes
+		complete_national_focus = ENG_solidify_the_moderates
+	}
+
+	option = { #Un-Agree
+		name = ENG.10.b
+		add_political_power = -80
+		ENG_republican_gain_popularity = yes
+		ENG_progressives_gain_popularity = yes
+		complete_national_focus = ENG_mend_the_extremes
+	}
+}
+
+country_event = { #affirming party doctrine
+	id = ENG.11
+	title = ENG.11.t
+	desc = ENG.11.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Agree to all demands
+		name = ENG.11.a
+		hidden_effect = {
+			ENG_liberals_gain_popularity = yes
+		}
+	}
+
+	option = { #Push for moderation on social policy
+		name = ENG.11.b
+		hidden_effect = {
+			ENG_conservatives_gain_popularity = yes
+		}
+	}
+}
+
+country_event = { #party cleaning
+	id = ENG.12
+	title = ENG.12.t
+	desc = ENG.12.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Do the full purge
+		name = ENG.12.a
+		hidden_effect = {
+			ENG_liberals_gain_popularity = yes
+		}
+	}
+
+	option = { #Only purge the radicals
+		name = ENG.12.b
+		hidden_effect = {
+			ENG_conservatives_gain_popularity = yes
+		}
+	}
+}
+
+country_event = { #Campaign with either progressives or republicans
+	id = ENG.13
+	title = ENG.13.t
+	desc = ENG.13.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Commonwealth Party
+		name = ENG.13.a
+		hidden_effect = {
+			ENG_progressives_gain_popularity = yes
+		}
+	}
+
+	option = { #Republican Party
+		name = ENG.13.b
+		hidden_effect = {
+			ENG_republican_gain_popularity = yes
+		}
+	}
+}
+
+country_event = { #encourage deradicalization
+	id = ENG.14
+	title = ENG.14.t
+	desc = ENG.14.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Do the full purge
+		name = ENG.14.a
+		hidden_effect = {
+			ENG_progressives_gain_popularity = yes
+		}
+	}
+
+	option = { #Only purge the radicals
+		name = ENG.14.b
+		hidden_effect = {
+			ENG_republican_gain_popularity = yes
+		}
+	}
+}
+
+country_event = { #Eden elected
+	id = ENG.15
+	title = ENG.15.t
+	desc = ENG.15.d
+	picture = GFX_report_event_eden_elected
+
+	is_triggered_only = yes
+
+	option = {
+		name = ENG.15.a
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Anthony Eden"
+			desc = "POLITICS_ANTHONY_EDEN_DESC"
+			picture = "Portrait_Britain_Anthony_Eden.dds"
+			expire = "1965.1.1"
+			ideology = conservatism_subtype
+			traits = {
+				
+			}
+		}
+		add_popularity = {
+			ideology = conservatism
+			popularity = 0.1
+		}
+	}
+}
+
+country_event = { #Samuel elected
+	id = ENG.16
+	title = ENG.16.t
+	desc = ENG.16.d
+	picture = GFX_report_event_samuel_elected
+
+	is_triggered_only = yes
+
+	option = {
+		name = ENG.16.a
+		retire_country_leader = yes
+		add_popularity = {
+			ideology = liberalism
+			popularity = 0.15
+		}
+		set_politics = {
+			ruling_party = liberalism
+		}
+		hidden_effect = {
+			create_country_leader = {
+				name = "Anthony Eden"
+				desc = "POLITICS_ANTHONY_EDEN_DESC"
+				picture = "Portrait_Britain_Anthony_Eden.dds"
+				expire = "1965.1.1"
+				ideology = conservatism_subtype
+				traits = {
+				
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Stapledon elected
+	id = ENG.17
+	title = ENG.17.t
+	desc = ENG.17.d
+	picture = GFX_report_event_stapleton_elected
+
+	is_triggered_only = yes
+
+	option = {
+		name = ENG.17.a
+		retire_country_leader = yes
+		add_popularity = {
+			ideology = progressivism
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.05
+		}
+		set_politics = {
+			ruling_party = progressivism
+		}
+		hidden_effect = {
+			create_country_leader = {
+				name = "Anthony Eden"
+				desc = "POLITICS_ANTHONY_EDEN_DESC"
+				picture = "Portrait_Britain_Anthony_Eden.dds"
+				expire = "1965.1.1"
+				ideology = conservatism_subtype
+				traits = {
+				
+				}
+			}
+			country_event = { id = MosleyCoup.1 days = 14 }
+		}
+	}
+}
+
+country_event = { #Mosley elected
+	id = ENG.18
+	title = ENG.18.t
+	desc = ENG.18.d
+	picture = GFX_report_event_mosley_elected
+
+	is_triggered_only = yes
+
+	option = {
+		name = ENG.18.a
+		retire_country_leader = yes
+		add_popularity = {
+			ideology = republicanism
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.05
+		}
+		set_politics = {
+			ruling_party = republicanism
+		}
+		hidden_effect = {
+			create_country_leader = {
+				name = "Anthony Eden"
+				desc = "POLITICS_ANTHONY_EDEN_DESC"
+				picture = "Portrait_Britain_Anthony_Eden.dds"
+				expire = "1965.1.1"
+				ideology = conservatism_subtype
+				traits = {
+				
+				}
+			}
+		}
+	}
+}
+
+country_event = { #LAZERS DEBUG EVENT FOR PM TREES
+	id = ENG.19
+	title = ENG.19.t
+	desc = ENG.19.d
+	picture = GFX_report_event_mosley_elected
+
+	is_triggered_only = yes
+
+	option = {
+		name = "stapledon"
+		load_focus_tree = ENG_Stapledon_initial_tree
+	}
+	option = {
+		name = ENG.19.b
+		#load_focus_tree = ENG_Samuel_initial_tree
+	}
+	option = {
+		name = ENG.19.c
+		#load_focus_tree = ENG_Mosely_initial_tree
+	}
+	option = {
+		name = ENG.19.d
+		#load_focus_tree = ENG_Eden_initial_tree
+	}
+}
+
+add_namespace = ENG_election
+
+country_event = {
+	id = ENG_election.1
+	title = ENG_election.1.t
+	desc = ENG_election.1.d
+	picture = GFX_unkown
+
+	is_triggered_only = yes
+
+	option = {
+		name = ENG_election.1.a
+		ENG_the_winner_is = yes
+		add_political_power = 50
+	}
+}
+
+add_namespace = MosleyCoup
+
+country_event = { #Inital Failure
+	id = MosleyCoup.1
+	title = MosleyCoup.1.t
+	desc = MosleyCoup.1.d
+	picture = GFX_report_event_mosley_1
+
+	is_triggered_only = yes
+	
+	option = { # It'll be a No
+		name = MosleyCoup.1.a
+		hidden_effect = {
+			country_event = { id = MosleyCoup.2  hours = 1 }
+		}
+	}
+}
+
+country_event = { #Mosley expresses anger
+	id = MosleyCoup.2
+	title = MosleyCoup.2.t
+	desc = MosleyCoup.2.d
+	picture = GFX_report_event_british_anti_authoritarianism
+
+	is_triggered_only = yes
+	
+	option = { # Follow him
+		name = MosleyCoup.2.a
+		hidden_effect = {
+			country_event = { id = MosleyCoup.3  hours = 3 }
+		}
+	}
+	option = { # Don't follow him
+		name = MosleyCoup.2.b
+		hidden_effect = {
+			country_event = { id = MosleyCoup.8  hours = 3 }
+		}
+	}
+}
+
+country_event = { #Odd meeting
+	id = MosleyCoup.3
+	title = MosleyCoup.3.t
+	desc = MosleyCoup.3.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # That's odd, report it back
+		name = MosleyCoup.3.a
+		hidden_effect = {
+			country_event = { id = MosleyCoup.4  hours = 4 }
+		}
+	}
+}
+
+country_event = { #Investigating Orde Wingate
+	id = MosleyCoup.4
+	title = MosleyCoup.4.t
+	desc = MosleyCoup.4.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # That's odd, report it back
+		name = MosleyCoup.4.a
+		hidden_effect = {
+			country_event = { id = MosleyCoup.5  days = 2 }
+		}
+	}
+}
+
+country_event = { #People wonder why Mosley is gone and his ministry is locked
+	id = MosleyCoup.5
+	title = MosleyCoup.5.t
+	desc = MosleyCoup.5.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # That's odd, report it back
+		name = MosleyCoup.5.a
+		hidden_effect = {
+			country_event = { id = MosleyCoup.6  days = 2 }
+		}
+	}
+}
+
+country_event = { #The fall of Mosley
+	id = MosleyCoup.6
+	title = MosleyCoup.6.t
+	desc = MosleyCoup.6.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # That's odd, report it back
+		name = MosleyCoup.6.a
+	}
+}
+
+country_event = { #The Republicans stop showing up
+	id = MosleyCoup.7
+	title = MosleyCoup.7.t
+	desc = MosleyCoup.7.d
+	picture = GFX_report_event_people_outside
+
+	is_triggered_only = yes
+	
+	option = { # That's odd, report it back
+		name = MosleyCoup.7.a
+		hidden_effect = {
+			country_event = { id = MosleyCoup.8  days = 2 }
+		}
+	}
+}
+
+country_event = { #Mosley summons Stapledon, asks again, threatening
+	id = MosleyCoup.8
+	title = MosleyCoup.8.t
+	desc = MosleyCoup.8.d
+	picture = GFX_report_event_report_event_mosley_demands
+
+	is_triggered_only = yes
+	
+	option = { # Sure, fuck it
+		name = MosleyCoup.8.a
+		hidden_effect = {
+			country_event = { id = MosleyCoup.9  hours = 2 }
+		}
+	}
+	option = { # No
+		name = MosleyCoup.8.b
+		hidden_effect = {
+			country_event = { id = MosleyCoup.13  hours = 2 }
+		}
+	}
+}
+
+country_event = { #The announcement is made, party is uneasy
+	id = MosleyCoup.9
+	title = MosleyCoup.9.t
+	desc = MosleyCoup.9.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # That's odd, report it back
+		name = MosleyCoup.9.a
+		hidden_effect = {
+			country_event = { id = MosleyCoup.10  days = 2 }
+		}
+	}
+}
+
+country_event = { #The party protests
+	id = MosleyCoup.10
+	title = MosleyCoup.10.t
+	desc = MosleyCoup.10.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # That's odd, report it back
+		name = MosleyCoup.10.a
+		hidden_effect = {
+			country_event = { id = MosleyCoup.11  days = 2 }
+		}
+	}
+}
+
+country_event = { #Radicals split off from the party, new socialist party
+	id = MosleyCoup.11
+	title = MosleyCoup.11.t
+	desc = MosleyCoup.11.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # That's odd, report it back
+		name = MosleyCoup.11.a
+		hidden_effect = {
+			country_event = { id = MosleyCoup.12  days = 2 }
+		}
+		set_party_name = { 
+			ideology = socialism 
+			long_name = ENG_socialist_party_new_long
+			name = ENG_socialist_party_new 
+		}
+	}
+}
+
+country_event = { #The handshake with Mosley, stability falls on the government
+	id = MosleyCoup.12
+	title = MosleyCoup.12.t
+	desc = MosleyCoup.12.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # That's odd, report it back
+		name = MosleyCoup.12.a
+	}
+}
+
+country_event = { #Republicans emerge, Stapledon is alone with people who dislike him
+	id = MosleyCoup.13
+	title = MosleyCoup.13.t
+	desc = MosleyCoup.13.d
+	picture = GFX_report_event_mosley_victory
+
+	is_triggered_only = yes
+	
+	option = { # That's odd, report it back
+		name = MosleyCoup.13.a
+		hidden_effect = {
+			country_event = { id = MosleyCoup.14  hours = 2 }
+		}
+	}
+}
+
+country_event = { #Orde Wingate locks down the council of state
+	id = MosleyCoup.14
+	title = MosleyCoup.14.t
+	desc = MosleyCoup.14.d
+	picture = GFX_report_event_orde_wingate
+
+	is_triggered_only = yes
+	
+	option = { # That's odd, report it back
+		name = MosleyCoup.14.a
+		hidden_effect = {
+			country_event = { id = MosleyCoup.15  hours = 2 }
+		}
+	}
+}
+
+country_event = { #Republicans and Stapledon, Stapledon catches word of whats coming up
+	id = MosleyCoup.15
+	title = MosleyCoup.15.t
+	desc = MosleyCoup.15.d
+	picture = GFX_report_event_mosley_victory_2
+
+	is_triggered_only = yes
+	
+	option = { # That's odd, report it back
+		name = MosleyCoup.15.a
+		hidden_effect = {
+			country_event = { id = MosleyCoup.16  hours = 2 }
+		}
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = authoritarianism
+		}
+		create_country_leader = {
+			name = "Oswald Mosley"
+			desc = "COUP_MOSLEY_DESC"
+			picture = "Portrait_Britain_Oswald_Mosley_Coup.dds"
+			expire = "1965.1.1"
+			ideology = authoritarianism_subtype
+			traits = {
+				
+			}
+		}
+		add_stability = -0.2
+	}
+}
+
+country_event = { #Stapledon is jailed and deemed treasonous, Mosley is named Lorf Protector
+	id = MosleyCoup.16
+	title = MosleyCoup.16.t
+	desc = MosleyCoup.16.d
+	picture = GFX_report_event_Cromwell
+
+	is_triggered_only = yes
+	
+	option = { # That's odd, report it back
+		name = MosleyCoup.16.a
+	
+	}
+}
+
+add_namespace = celts
+
+country_event = { # welsh
+	id = celts.1
+	title = celts.1.t
+	desc = celts.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = celts.1.a
+		if = {
+			limit = {
+				check_variable = {
+					var = ENG_welsh_national_federation
+					value = 0.25
+					compare = less_than_or_equals
+				}
+			}
+			
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = ENG_welsh_national_federation
+					value = 0.50
+					compare = less_than_or_equals
+				}
+				NOT = {
+					check_variable = {
+						var = ENG_welsh_national_federation
+						value = 0.25
+						compare = less_than_or_equals
+					}
+				}
+			}
+			WLS = {
+				add_state_core = 969
+				add_state_core = 970
+				add_state_core = 971
+				add_state_core = 122
+				#
+				transfer_state = 969
+				transfer_state = 970
+				if = {
+					limit = {
+						check_variable = {
+							var = ENG_welsh_plaid_cymru_prominence
+							value = ENG_welsh_welsh_labour_prominence
+							compare = greater_than_or_equals
+						}
+					}
+					set_politics = {
+						ruling_party = liberalism
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = ENG_welsh_welsh_labour_prominence
+							value = ENG_welsh_plaid_cymru_prominence
+							compare = greater_than_or_equals
+						}
+					}
+					set_politics = {
+						ruling_party = socialism
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = ENG_welsh_national_federation
+					value = 0.75
+					compare = less_than_or_equals
+				}
+				NOT = {
+					check_variable = {
+						var = ENG_welsh_national_federation
+						value = 0.50
+						compare = less_than_or_equals
+					}
+				}
+			}
+			WLS = {
+				add_state_core = 969
+				add_state_core = 970
+				add_state_core = 971
+				add_state_core = 122
+				#
+				transfer_state = 969
+				transfer_state = 970
+				transfer_state = 971
+				if = {
+					limit = {
+						check_variable = {
+							var = ENG_welsh_plaid_cymru_prominence
+							value = ENG_welsh_welsh_labour_prominence
+							compare = greater_than_or_equals
+						}
+					}
+					set_politics = {
+						ruling_party = liberalism
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = ENG_welsh_welsh_labour_prominence
+							value = ENG_welsh_plaid_cymru_prominence
+							compare = greater_than_or_equals
+						}
+					}
+					set_politics = {
+						ruling_party = socialism
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = ENG_welsh_national_federation
+					value = 1
+					compare = less_than_or_equals
+				}
+				NOT = {
+					check_variable = {
+						var = ENG_welsh_national_federation
+						value = 0.75
+						compare = less_than_or_equals
+					}
+				}
+			}
+			WLS = {
+				add_state_core = 969
+				add_state_core = 970
+				add_state_core = 971
+				add_state_core = 122
+				#
+				transfer_state = 969
+				transfer_state = 970
+				transfer_state = 971
+				transfer_state = 122
+				if = {
+					limit = {
+						check_variable = {
+							var = ENG_welsh_plaid_cymru_prominence
+							value = ENG_welsh_welsh_labour_prominence
+							compare = greater_than_or_equals
+						}
+					}
+					set_politics = {
+						ruling_party = liberalism
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = ENG_welsh_welsh_labour_prominence
+							value = ENG_welsh_plaid_cymru_prominence
+							compare = greater_than_or_equals
+						}
+					}
+					set_politics = {
+						ruling_party = socialism
+					}
+				}
+				
+			}
+		}
+	}
+}
+
+country_event = { # scots
+	id = celts.2
+	title = celts.2.t
+	desc = celts.2.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = celts.2.a
+		if = {
+			limit = {
+				check_variable = {
+					var = ENG_NAVSR
+					value = 0.25
+					compare = less_than_or_equals
+				}
+			}
+			
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = ENG_NAVSR
+					value = 0.50
+					compare = less_than_or_equals
+				}
+				NOT = {
+					check_variable = {
+						var = ENG_NAVSR
+						value = 0.25
+						compare = less_than_or_equals
+					}
+				}
+			}
+			SCO = {
+				add_state_core = 120 
+				add_state_core = 136
+				add_state_core = 133
+				add_state_core = 121
+				add_state_core = 973
+				add_state_core = 972
+				#
+				transfer_state = 120
+				transfer_state = 136
+				if = {
+					limit = {
+						check_variable = {
+							var = ENG_scottish_scottish_covenant_prominence
+							value = ENG_scottish_scottish_democratic_redemption_party_prominence
+							compare = greater_than_or_equals
+						}
+					}
+					set_politics = {
+						ruling_party = liberalism
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = ENG_scottish_scottish_democratic_redemption_party_prominence
+							value = ENG_scottish_scottish_covenant_prominence
+							compare = greater_than_or_equals
+						}
+					}
+					set_politics = {
+						ruling_party = republicanism
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = ENG_NAVSR
+					value = 0.75
+					compare = less_than_or_equals
+				}
+				NOT = {
+					check_variable = {
+						var = ENG_NAVSR
+						value = 0.50
+						compare = less_than_or_equals
+					}
+				}
+			}
+			SCO = {
+				add_state_core = 120 
+				add_state_core = 136
+				add_state_core = 133
+				add_state_core = 121
+				add_state_core = 973
+				add_state_core = 972
+				#
+				transfer_state = 120
+				transfer_state = 136
+				transfer_state = 133
+				transfer_state = 121
+				if = {
+					limit = {
+						check_variable = {
+							var = ENG_scottish_scottish_covenant_prominence
+							value = ENG_scottish_scottish_democratic_redemption_party_prominence
+							compare = greater_than_or_equals
+						}
+					}
+					set_politics = {
+						ruling_party = liberalism
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = ENG_scottish_scottish_democratic_redemption_party_prominence
+							value = ENG_scottish_scottish_covenant_prominence
+							compare = greater_than_or_equals
+						}
+					}
+					set_politics = {
+						ruling_party = republicanism
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = ENG_NAVSR
+					value = 1
+					compare = less_than_or_equals
+				}
+				NOT = {
+					check_variable = {
+						var = ENG_NAVSR
+						value = 0.75
+						compare = less_than_or_equals
+					}
+				}
+			}
+			SCO = {
+				add_state_core = 120 
+				add_state_core = 136
+				add_state_core = 133
+				add_state_core = 121
+				add_state_core = 973
+				add_state_core = 972
+				#
+				transfer_state = 120
+				transfer_state = 136
+				transfer_state = 133
+				transfer_state = 121
+				transfer_state = 973
+				transfer_state = 972
+				if = {
+					limit = {
+						check_variable = {
+							var = ENG_scottish_scottish_covenant_prominence
+							value = ENG_scottish_scottish_democratic_redemption_party_prominence
+							compare = greater_than_or_equals
+						}
+					}
+					set_politics = {
+						ruling_party = liberalism
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = ENG_scottish_scottish_democratic_redemption_party_prominence
+							value = ENG_scottish_scottish_covenant_prominence
+							compare = greater_than_or_equals
+						}
+					}
+					set_politics = {
+						ruling_party = republicanism
+					}
+				}
+				
+			}
+		}
+	}
+}
+
+country_event = { # irish
+	id = celts.3
+	title = celts.3.t
+	desc = celts.3.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = celts.3.a
+		if = {
+			limit = {
+				check_variable = {
+					var = ENG_irish_patriot_party
+					value = 0.25
+					compare = less_than_or_equals
+				}
+			}
+			
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = ENG_irish_patriot_party
+					value = 0.50
+					compare = less_than_or_equals
+				}
+				NOT = {
+					check_variable = {
+						var = ENG_irish_patriot_party
+						value = 0.25
+						compare = less_than_or_equals
+					}
+				}
+			}
+			IRE = {
+				add_state_core = 134 
+				add_state_core = 975
+				add_state_core = 974
+				add_state_core = 119
+				add_state_core = 113
+				add_state_core = 135
+				#
+				transfer_state = 134
+				transfer_state = 975
+				if = {
+					limit = {
+						check_variable = {
+							var = ENG_irish_cavaliers_prominence
+							value = ENG_irish_irish_republican_brotherhood_prominence
+							compare = greater_than_or_equals
+						}
+						check_variable = {
+							var = ENG_irish_cavaliers_prominence
+							value = ENG_irish_irish_tuc_prominence
+							compare = greater_than_or_equals
+						}
+					}
+					set_politics = {
+						ruling_party = liberalism
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = ENG_irish_irish_republican_brotherhood_prominence
+							value = ENG_irish_cavaliers_prominence
+							compare = greater_than_or_equals
+						}
+						check_variable = {
+							var = ENG_irish_irish_republican_brotherhood_prominence
+							value = ENG_irish_irish_tuc_prominence
+							compare = greater_than_or_equals
+						}
+					}
+					set_politics = {
+						ruling_party = republicanism
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = ENG_irish_irish_tuc_prominence
+							value = ENG_irish_cavaliers_prominence
+							compare = greater_than_or_equals
+						}
+						check_variable = {
+							var = ENG_irish_irish_tuc_prominence
+							value = ENG_irish_irish_republican_brotherhood_prominence
+							compare = greater_than_or_equals
+						}
+					}
+					set_politics = {
+						ruling_party = socialism
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = ENG_irish_patriot_party
+					value = 0.75
+					compare = less_than_or_equals
+				}
+				NOT = {
+					check_variable = {
+						var = ENG_irish_patriot_party
+						value = 0.50
+						compare = less_than_or_equals
+					}
+				}
+			}
+			IRE = {
+				add_state_core = 134 
+				add_state_core = 975
+				add_state_core = 974
+				add_state_core = 119
+				add_state_core = 113
+				add_state_core = 135
+				#
+				transfer_state = 134
+				transfer_state = 975
+				transfer_state = 974
+				if = {
+					limit = {
+						check_variable = {
+							var = ENG_irish_cavaliers_prominence
+							value = ENG_irish_irish_republican_brotherhood_prominence
+							compare = greater_than_or_equals
+						}
+						check_variable = {
+							var = ENG_irish_cavaliers_prominence
+							value = ENG_irish_irish_tuc_prominence
+							compare = greater_than_or_equals
+						}
+					}
+					set_politics = {
+						ruling_party = liberalism
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = ENG_irish_irish_republican_brotherhood_prominence
+							value = ENG_irish_cavaliers_prominence
+							compare = greater_than_or_equals
+						}
+						check_variable = {
+							var = ENG_irish_irish_republican_brotherhood_prominence
+							value = ENG_irish_irish_tuc_prominence
+							compare = greater_than_or_equals
+						}
+					}
+					set_politics = {
+						ruling_party = republicanism
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = ENG_irish_irish_tuc_prominence
+							value = ENG_irish_cavaliers_prominence
+							compare = greater_than_or_equals
+						}
+						check_variable = {
+							var = ENG_irish_irish_tuc_prominence
+							value = ENG_irish_irish_republican_brotherhood_prominence
+							compare = greater_than_or_equals
+						}
+					}
+					set_politics = {
+						ruling_party = socialism
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = ENG_irish_patriot_party
+					value = 1
+					compare = less_than_or_equals
+				}
+				NOT = {
+					check_variable = {
+						var = ENG_irish_patriot_party
+						value = 0.75
+						compare = less_than_or_equals
+					}
+				}
+			}
+			IRE = {
+				add_state_core = 134 
+				add_state_core = 975
+				add_state_core = 974
+				add_state_core = 119
+				add_state_core = 113
+				add_state_core = 135
+				#
+				transfer_state = 134
+				transfer_state = 975
+				transfer_state = 974
+				transfer_state = 119
+				transfer_state = 113
+				transfer_state = 135
+				if = {
+					limit = {
+						check_variable = {
+							var = ENG_irish_cavaliers_prominence
+							value = ENG_irish_irish_republican_brotherhood_prominence
+							compare = greater_than_or_equals
+						}
+						check_variable = {
+							var = ENG_irish_cavaliers_prominence
+							value = ENG_irish_irish_tuc_prominence
+							compare = greater_than_or_equals
+						}
+					}
+					set_politics = {
+						ruling_party = liberalism
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = ENG_irish_irish_republican_brotherhood_prominence
+							value = ENG_irish_cavaliers_prominence
+							compare = greater_than_or_equals
+						}
+						check_variable = {
+							var = ENG_irish_irish_republican_brotherhood_prominence
+							value = ENG_irish_irish_tuc_prominence
+							compare = greater_than_or_equals
+						}
+					}
+					set_politics = {
+						ruling_party = republicanism
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = ENG_irish_irish_tuc_prominence
+							value = ENG_irish_cavaliers_prominence
+							compare = greater_than_or_equals
+						}
+						check_variable = {
+							var = ENG_irish_irish_tuc_prominence
+							value = ENG_irish_irish_republican_brotherhood_prominence
+							compare = greater_than_or_equals
+						}
+					}
+					set_politics = {
+						ruling_party = socialism
+					}
+				}
+			}
+		}
+	}
+}

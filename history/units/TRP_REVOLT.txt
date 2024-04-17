@@ -1,0 +1,340 @@
+##Division Templates##
+
+division_template = {
+	name = "Kuvâ-yi Milliye"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Hucüm Tümeni"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Kuvâ-yi Hisariye"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+	}
+}
+
+
+##Units##
+
+units = {
+	division = {
+	name = "Kuvâ-yi Milliye"
+	location = "4112"
+	division_template = "Kuvâ-yi Milliye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Milliye"
+	location = "7130"
+	division_template = "Kuvâ-yi Milliye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Milliye"
+	location = "12013"
+	division_template = "Kuvâ-yi Milliye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Milliye"
+	location = "6977"
+	division_template = "Kuvâ-yi Milliye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Milliye"
+	location = "12016"
+	division_template = "Kuvâ-yi Milliye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Milliye"
+	location = "909"
+	division_template = "Kuvâ-yi Milliye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Milliye"
+	location = "6920"
+	division_template = "Kuvâ-yi Milliye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Milliye"
+	location = "9915"
+	division_template = "Kuvâ-yi Milliye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Milliye"
+	location = "3982"
+	division_template = "Kuvâ-yi Milliye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Milliye"
+	location = "1005"
+	division_template = "Kuvâ-yi Milliye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Hisariye"
+	location = "1122"
+	division_template = "Kuvâ-yi Hisariye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Hisariye"
+	location = "784"
+	division_template = "Kuvâ-yi Hisariye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Hisariye"
+	location = "3876"
+	division_template = "Kuvâ-yi Hisariye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Hisariye"
+	location = "9811"
+	division_template = "Kuvâ-yi Hisariye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Hisariye"
+	location = "3907"
+	division_template = "Kuvâ-yi Hisariye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Hisariye"
+	location = "6808"
+	division_template = "Kuvâ-yi Hisariye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Hisariye"
+	location = "9806"
+	division_template = "Kuvâ-yi Hisariye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Hisariye"
+	location = "6908"
+	division_template = "Kuvâ-yi Hisariye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Hisariye"
+	location = "11784"
+	division_template = "Kuvâ-yi Hisariye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Hisariye"
+	location = "11747"
+	division_template = "Kuvâ-yi Hisariye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Milliye"
+	location = "11894"
+	division_template = "Kuvâ-yi Milliye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Milliye"
+	location = "960"
+	division_template = "Kuvâ-yi Milliye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Hucüm Tümeni"
+	location = "3935"
+	division_template = "Hucüm Tümeni"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Hucüm Tümeni"
+	location = "3903"
+	division_template = "Hucüm Tümeni"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Hisariye"
+	location = "9777"
+	division_template = "Kuvâ-yi Hisariye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Milliye"
+	location = "9761"
+	division_template = "Kuvâ-yi Milliye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Milliye"
+	location = "3890"
+	division_template = "Kuvâ-yi Milliye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Hucüm Tümeni"
+	location = "6888"
+	division_template = "Hucüm Tümeni"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Hucüm Tümeni"
+	location = "921"
+	division_template = "Hucüm Tümeni"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Hucüm Tümeni"
+	location = "3870"
+	division_template = "Hucüm Tümeni"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Hucüm Tümeni"
+	location = "9861"
+	division_template = "Hucüm Tümeni"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Hucüm Tümeni"
+	location = "11792"
+	division_template = "Hucüm Tümeni"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Hisariye"
+	location = "961"
+	division_template = "Kuvâ-yi Hisariye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Hisariye"
+	location = "9777"
+	division_template = "Kuvâ-yi Hisariye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Hisariye"
+	location = "7026"
+	division_template = "Kuvâ-yi Hisariye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Hisariye"
+	location = "4008"
+	division_template = "Kuvâ-yi Hisariye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Milliye"
+	location = "4127"
+	division_template = "Kuvâ-yi Milliye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Milliye"
+	location = "6894"
+	division_template = "Kuvâ-yi Milliye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Milliye"
+	location = "9755"
+	division_template = "Kuvâ-yi Milliye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Milliye"
+	location = "6807"
+	division_template = "Kuvâ-yi Milliye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Milliye"
+	location = "6938"
+	division_template = "Kuvâ-yi Milliye"
+	start_experience_factor = 0.1
+	}
+
+	division = {
+	name = "Kuvâ-yi Milliye"
+	location = "6877"
+	division_template = "Kuvâ-yi Milliye"
+	start_experience_factor = 0.1
+	}
+}

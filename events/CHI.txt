@@ -1,0 +1,1125 @@
+﻿add_namespace = CHI
+add_namespace = chikoo
+
+country_event = { #Shenyang Incident
+	id = CHI.1
+	title = CHI.1.t
+	desc = CHI.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = {
+		name = CHI.1.a
+			#start_border_war = {
+  			#	change_state_after_war = no
+  			#	attacker = {
+   		    #		state = 527
+        	#		num_provinces = 2
+        	#		on_win = CHI.2
+        	#		on_lose = #
+        	#		on_cancel = #
+    		#	}
+			#		
+   		 	#	defender = {
+        	#		state = 716
+       		#		num_provinces = 2
+        	#		on_win = CHI.3
+        	#		on_lose = #
+        	#		on_cancel = #
+    		#}
+		#}
+	}
+}
+
+country_event = { #Shenyang Incident - JAP Victory
+	id = CHI.2
+	title = CHI.2.t
+	desc = CHI.2.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = {
+		name = CHI.2.a
+		JAP = {
+			puppet = MAN
+		}
+		MAN = {
+			set_cosmetic_tag = MAN_MANCHUKUO
+			set_politics = {
+				ruling_party = conservatism
+				last_election = "1936.1.1"
+				election_frequency = 48
+				elections_allowed = no
+			}
+			create_country_leader = {
+				name = "Jiang Jieshi"
+	
+				picture = "gfx/leaders/MAN/Portrait_China_Chiang_Kai_Shek.dds"
+				expire = "1960.1.1"
+				ideology = conservatism_subtype
+				traits = {
+				#
+				}
+			}
+		}
+
+	}
+}
+
+country_event = { #Shenyang Incident - CHI Victory
+	id = CHI.3
+	title = CHI.3.t
+	desc = CHI.3.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = {
+		name = CHI.3.a
+	}
+}
+
+country_event = { #
+	id = CHI.4
+	title = CHI.4.t
+	desc = CHI.4.d
+	picture = GFX_report_event_CHI_funny_look
+
+	is_triggered_only = yes
+	
+	option = {
+		name = CHI.4.a
+	}
+}
+
+##KOU PRESIDENCY
+
+country_event = { #Intro event
+	id = chikoo.1
+	title = chikoo.1.t
+	desc = chikoo.1.d
+	picture = GFX_report_event_CHI_koo_radio
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.1.a
+	}
+}
+
+country_event = {
+    id = chikoo.2
+	title = chikoo.2.t
+	desc = chikoo.2.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.2.a
+	}
+}
+
+country_event = {
+    id = chikoo.3
+	title = chikoo.3.t
+	desc = chikoo.3.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.3.a
+	}
+}
+
+country_event = {
+    id = chikoo.4
+	title = chikoo.4.t
+	desc = chikoo.4.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.4.a
+	}
+}
+
+country_event = { # Plan to cripple Nganhoeui, warlord situation
+    id = chikoo.5
+	title = chikoo.5.t
+	desc = chikoo.5.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.5.a
+	}
+}
+
+country_event = { # "Hey surrender mongolia to the government"
+    id = chikoo.6
+	title = chikoo.6.t
+	desc = chikoo.6.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.6.a
+		hidden_effect = {
+			country_event = {
+				id = chikoo.7
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = { # They arent going to return mongolia
+    id = chikoo.7
+	title = chikoo.7.t
+	desc = chikoo.7.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.7.a
+	}
+}
+
+country_event = { # alright. done with this bitch, touans not gonna work with us, time to work against him
+    id = chikoo.8
+	title = chikoo.8.t
+	desc = chikoo.8.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.8.a
+	}
+}
+
+country_event = { # Touan speaks against Kou, doubting the gov's legitimacy
+    id = chikoo.9
+	title = chikoo.9.t
+	desc = chikoo.9.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.9.a
+		hidden_effect = {
+			country_event = {
+				id = chikoo.10
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = { # Bro. We HAVE to do something about Touan
+    id = chikoo.10
+	title = chikoo.10.t
+	desc = chikoo.10.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.10.a
+	}
+}
+
+country_event = { # Summon Tchang's Debts
+    id = chikoo.11
+	title = chikoo.11.t
+	desc = chikoo.11.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.11.a
+	}
+}
+
+country_event = { # Yang's Isolation
+    id = chikoo.12
+	title = chikoo.12.t
+	desc = chikoo.12.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.12.a
+	}
+}
+
+country_event = { # T'ang's Goodwill
+    id = chikoo.13
+	title = chikoo.13.t
+	desc = chikoo.13.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.13.a
+	}
+}
+
+country_event = { # Fastest hand in the east
+    id = chikoo.14
+	title = chikoo.14.t
+	desc = chikoo.14.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.14.a
+		custom_effect_tooltip = TEMP_RANDOM_TOBEDONE
+		hidden_effect = {
+			random_list = {
+				50 = {
+					country_event = {
+						id = chikoo.16
+						days = 1
+					}
+				}
+				50 = {
+					country_event = {
+						id = chikoo.15
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = { # Warlords stand up to Kou
+    id = chikoo.15
+	title = chikoo.15.t
+	desc = chikoo.15.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.15.a
+	}
+}
+
+country_event = { # Touan is removed
+    id = chikoo.16
+	title = chikoo.16.t
+	desc = chikoo.16.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.16.a
+		add_state_core = 654
+		add_state_core = 329
+		add_state_core = 330
+		ANH = {
+			remove_state_core = 654
+			remove_state_core = 329
+			remove_state_core = 330
+		}
+		MON = {
+			transfer_state = 654
+			transfer_state = 329
+			transfer_state = 330
+			add_state_core = 654
+			add_state_core = 329
+			add_state_core = 330
+		}
+		if = {
+			limit = {
+				OR = {
+					has_dlc = "Together for Victory"
+					has_dlc = "Man the Guns"
+				}
+			}
+			set_autonomy = {
+				target = MON
+				autonomous_state = autonomy_warlord
+			}
+			else = {
+				puppet = MON
+			}
+		}
+		MON = {
+			set_politics = {
+				ruling_party = authoritarianism
+				last_election = "1936.1.1"
+				election_frequency = 48
+				elections_allowed = no
+			}
+			set_popularities = {
+				authoritarianism = 100
+			}
+		}
+	}
+}
+
+country_event = { # Chinese Economy must be modernized and industrialized :)
+    id = chikoo.17
+	title = chikoo.17.t
+	desc = chikoo.17.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.17.a
+	}
+}
+
+country_event = { # Privatization will help our badass economy
+    id = chikoo.18
+	title = chikoo.18.t
+	desc = chikoo.18.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.18.a
+	}
+}
+
+country_event = { # State corporations? Yea, we gotem
+    id = chikoo.19
+	title = chikoo.19.t
+	desc = chikoo.19.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.19.a
+	}
+}
+
+country_event = { # Fellas are all be workin together to help China
+    id = chikoo.20
+	title = chikoo.20.t
+	desc = chikoo.20.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.20.a
+	}
+}
+
+country_event = { # Some kickass factories, economic egalitarianism
+    id = chikoo.21
+	title = chikoo.21.t
+	desc = chikoo.21.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.21.a
+	}
+}
+
+country_event = { # State sponsored banking
+    id = chikoo.22
+	title = chikoo.22.t
+	desc = chikoo.22.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.22.a
+	}
+}
+
+country_event = { # Appealing for foreign loans
+    id = chikoo.23
+	title = chikoo.23.t
+	desc = chikoo.23.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.23.a
+		hidden_effect = {
+			random_list = {
+				50 = {
+					country_event = {
+						id = chikoo.24
+						days = 1
+					}
+				}
+				50 = {
+					country_event = {
+						id = chikoo.25
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = { # No one responds, fuck the world
+    id = chikoo.24
+	title = chikoo.24.t
+	desc = chikoo.24.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.24.a
+	}
+}
+
+country_event = { # Someone responds, life is good
+    id = chikoo.25
+	title = chikoo.25.t
+	desc = chikoo.25.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.25.a
+		add_to_variable = {
+			var = CHI_consumer_goods_modif
+			value = -0.05
+		}
+		custom_effect_tooltip = CHI_private_industry_buff
+	}
+}
+
+country_event = { # Fiscal government :), infrastructure connecting shit
+    id = chikoo.24
+	title = chikoo.24.t
+	desc = chikoo.24.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.24.a
+	}
+}
+
+country_event = { # Selling shit to France
+    id = chikoo.25
+	title = chikoo.25.t
+	desc = chikoo.25.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.25.a
+		add_to_variable = {
+			var = CHI_consumer_goods_modif
+			value = -0.05
+		}
+		custom_effect_tooltip = CHI_private_industry_buff
+	}
+}
+
+country_event = { # Democracy is so fucking based
+    id = chikoo.26
+	title = chikoo.26.t
+	desc = chikoo.26.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.26.a
+	}
+}
+
+country_event = { # No more summary executions
+    id = chikoo.27
+	title = chikoo.27.t
+	desc = chikoo.27.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.27.a
+	}
+}
+
+country_event = { # Defining our claims
+    id = chikoo.28
+	title = chikoo.28.t
+	desc = chikoo.28.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.28.a
+		hidden_effect = {
+			country_event = {
+				id = chikoo.29
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = { # fellas respond to our claims
+    id = chikoo.29
+	title = chikoo.29.t
+	desc = chikoo.29.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.29.a
+	}
+}
+
+country_event = { # bread help idk what this chain is
+    id = chikoo.30
+	title = chikoo.30.t
+	desc = chikoo.30.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.30.a
+		hidden_effect = {
+			country_event = {
+				id = chikoo.31
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = { # bread help idk what this chain is
+    id = chikoo.31
+	title = chikoo.31.t
+	desc = chikoo.31.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.31.a
+		hidden_effect = {
+			country_event = {
+				id = chikoo.32
+				days = 3
+			}
+		}
+	}
+	option = {
+		name = chikoo.31.b
+		hidden_effect = {
+			country_event = {
+				id = chikoo.32
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = { # bread help idk what this chain is
+    id = chikoo.32
+	title = chikoo.32.t
+	desc = chikoo.32.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.32.a
+		hidden_effect = {
+			country_event = {
+				id = chikoo.34
+				days = 3
+			}
+		}
+	}
+	option = {
+		name = chikoo.32.b
+		hidden_effect = {
+			country_event = {
+				id = chikoo.37
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = { # bread help idk what this chain is
+    id = chikoo.33
+	title = chikoo.33.t
+	desc = chikoo.33.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.33.a
+	}
+}
+
+country_event = { # bread help idk what this chain is
+    id = chikoo.34
+	title = chikoo.34.t
+	desc = chikoo.34.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.34.a
+		hidden_effect = {
+			country_event = {
+				id = chikoo.35
+				days = 3
+			}
+		}
+	}
+	option = {
+		name = chikoo.34.b
+		hidden_effect = {
+			country_event = {
+				id = chikoo.33
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = { # bread help idk what this chain is
+    id = chikoo.35
+	title = chikoo.35.t
+	desc = chikoo.35.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.35.a
+		hidden_effect = {
+			country_event = {
+				id = chikoo.36
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = { # bread help idk what this chain is
+    id = chikoo.37
+	title = chikoo.37.t
+	desc = chikoo.37.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.37.a
+		hidden_effect = {
+			country_event = {
+				id = chikoo.38
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = { # bread help idk what this chain is
+    id = chikoo.38
+	title = chikoo.38.t
+	desc = chikoo.38.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.38.a
+		hidden_effect = {
+			country_event = {
+				id = chikoo.39
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = { # bread help idk what this chain is
+    id = chikoo.39
+	title = chikoo.39.t
+	desc = chikoo.39.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.39.a
+	}
+}
+
+country_event = { # british drug trafficker is sentenced
+    id = chikoo.40
+	title = chikoo.40.t
+	desc = chikoo.40.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.40.a
+	}
+}
+
+country_event = { # fake event
+    id = chikoo.41
+	title = chikoo.41.t
+	desc = chikoo.41.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.41.a
+		annex_country = {
+			target = ANH
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = MAN
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = YUN
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = SIC
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = TIB
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = XSM
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = SIK
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = KOR
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = MON
+			transfer_troops = yes
+		}
+		transfer_state = 991
+		transfer_state = 729
+		transfer_state = 326
+		transfer_state = 990
+		transfer_state = 989
+		transfer_state = 988
+		transfer_state = 987
+		transfer_state = 743
+		transfer_state = 992
+		transfer_state = 745
+		transfer_state = 524
+		# depopulate
+		transfer_state = 408
+		transfer_state = 409
+		transfer_state = 655
+		transfer_state = 537
+		transfer_state = 560
+		transfer_state = 657
+		transfer_state = 522
+		transfer_state = 15
+		transfer_state = 123
+		transfer_state = 191
+		transfer_state = 938
+		transfer_state = 386
+		transfer_state = 530
+		every_country = {
+			remove_state_core = 408
+			remove_state_core = 409
+			remove_state_core = 655
+			remove_state_core = 537
+			remove_state_core = 560
+			remove_state_core = 657
+			remove_state_core = 522
+			remove_state_core = 15
+			remove_state_core = 123
+			remove_state_core = 191
+			remove_state_core = 938
+			remove_state_core = 386
+			remove_state_core = 530
+		}
+		408 = {
+			set_variable = { state_population = 0 }
+			add_manpower = -10000000
+		}
+		409 = {
+			set_variable = { state_population = 0 }
+			add_manpower = -10000000
+		}
+		655 = {
+			set_variable = { state_population = 0 }
+			add_manpower = -10000000
+		}
+		537 = {
+			set_variable = { state_population = 0 }
+			add_manpower = -10000000
+		}
+		560 = {
+			set_variable = { state_population = 0 }
+			add_manpower = -10000000
+		}
+		657 = {
+			set_variable = { state_population = 0 }
+			add_manpower = -10000000
+		}
+		522 = {
+			set_variable = { state_population = 0 }
+			add_manpower = -10000000
+		}
+		15 = {
+			set_variable = { state_population = 0 }
+			add_manpower = -10000000
+		}
+		123 = {
+			set_variable = { state_population = 0 }
+			add_manpower = -10000000
+		}
+		191 = {
+			set_variable = { state_population = 0 }
+			add_manpower = -10000000
+		}
+		938 = {
+			set_variable = { state_population = 0 }
+			add_manpower = -10000000
+		}
+		386 = {
+			set_variable = { state_population = 0 }
+			add_manpower = -10000000
+		}
+		530 = {
+			set_variable = { state_population = 0 }
+			add_manpower = -10000000
+		}
+		add_state_core = 408
+		add_state_core = 409
+		add_state_core = 655
+		add_state_core = 537
+		add_state_core = 560
+		add_state_core = 657
+		add_state_core = 522
+		add_state_core = 15
+		add_state_core = 123
+		add_state_core = 191
+		add_state_core = 154
+		add_state_core = 386
+		add_state_core = 350
+		set_cosmetic_tag = CHI_Koureich
+		
+	}
+}
+
+country_event = { # Our President, Eduard Kou, is dead.
+    id = chikoo.42
+	title = chikoo.42.t
+	desc = chikoo.42.d
+	picture = report_event_CHI_funny_look
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = chikoo.42.a
+		load_focus_tree = CHI_koo_is_dead
+		set_country_flag = CHI_kou_died
+		if = {
+			limit = {
+				check_variable = {
+					var = chi_shuzheng_power
+					value = chi_kewen_power
+					compare = greater_than_or_equals
+				}
+			}
+			kill_country_leader = yes
+			create_country_leader = {
+				name = "Xu Shuzheng"
+				desc = "POLITICS_Xu_Shuzheng_DESC"
+				picture = "CHI_Xu_Shuzheng.dds"
+				expire = "1965.1.1"
+				ideology = democracy_of_the_few
+				traits = {
+					#
+				}
+			}
+		}
+		else = {
+			kill_country_leader = yes
+			create_country_leader = {
+				name = "Yuan Kewen"
+				desc = "POLITICS_Yuan_Kewen_DESC"
+				picture = "CHI_Yuan_Kewen.dds"
+				expire = "1965.1.1"
+				ideology = democracy_of_the_few
+				traits = {
+					#
+				}
+			}
+		}
+	}
+}
+
+##DEBUG
+
+country_event = { #Cosmetic Debug - Revisionism
+	id = CHI.1000
+	title = CHI.1000.t
+	desc = CHI.1000.d
+	picture = GFX_report_event_CHI_funny_look
+
+	is_triggered_only = yes
+	
+	option = {
+		name = CHI.1000.a
+		set_politics = {
+			ruling_party = centralism
+		}
+		set_capital = 620
+		create_country_leader = {
+			name = "Li Da"
+			desc = "POLITICS_Li_Da_DESC"
+			picture = "CHI_Li_Da.dds"
+			expire = "1965.1.1"
+			ideology = blanquism
+			traits = {
+				#
+			}
+		}
+		set_cosmetic_tag = CHI_REFORM
+	}
+}
+
+country_event = { #Cosmetic Debug - USC
+	id = CHI.1001
+	title = CHI.1001.t
+	desc = CHI.1001.d
+	picture = GFX_report_event_CHI_funny_look
+
+	is_triggered_only = yes
+	
+	option = {
+		name = CHI.1001.a
+		set_politics = {
+			ruling_party = republicanism
+		}
+		set_capital = 728
+		create_country_leader = {
+			name = "Song Kiaojen"
+			desc = "POLITICS_Song_Jiaoren_DESC"
+			picture = "CHI_Song_Jiaoren.dds"
+			expire = "1965.1.1"
+			ideology = revolutionary_regime
+			traits = {
+				#
+			}
+		}
+		set_cosmetic_tag = CHI_USA
+	}
+}
+
+country_event = { #Cosmetic Debug - Taiping
+	id = CHI.1002
+	title = CHI.1002.t
+	desc = CHI.1002.d
+	picture = GFX_report_event_CHI_funny_look
+
+	is_triggered_only = yes
+	
+	option = {
+		name = CHI.1002.a
+		set_politics = {
+			ruling_party = authoritarianism
+		}
+		set_capital = 613
+		create_country_leader = {
+			name = "Soong Meiling"
+			desc = "POLITICS_Soong_Meiling_DESC"
+			picture = "CHI_Soong_Mei_Ling.dds"
+			expire = "1965.1.1"
+			ideology = absolutism
+			traits = {
+				#
+			}
+		}
+		set_cosmetic_tag = CHI_TAIPING
+	}
+}
+
+country_event = { #Cosmetic Debug - Divine State
+	id = CHI.1003
+	title = CHI.1003.t
+	desc = CHI.1003.d
+	picture = GFX_report_event_CHI_funny_look
+
+	is_triggered_only = yes
+	
+	option = {
+		name = CHI.1003.a
+		set_politics = {
+			ruling_party = ultranationalism
+		}
+		set_party_name = {
+			ideology = ultranationalism
+			long_name = CHI_DIVINE_ultranationalism_party_long
+			name = CHI_DIVINE_ultranationalism_party
+		}
+		set_capital = 605
+		create_country_leader = {
+			name = "Chen Lifu"
+			desc = "POLITICS_Chen_Lifu_DESC"
+			picture = "CHI_Chen_Lifu.dds"
+			expire = "1965.1.1"
+			ideology = national_syndicalism
+			traits = {
+				#
+			}
+		}
+		set_cosmetic_tag = CHI_DIVINE
+	}
+}

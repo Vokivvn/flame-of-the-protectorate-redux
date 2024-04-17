@@ -1,0 +1,229 @@
+ITA_add_socialist_3 = {
+	add_to_variable = { ITA_socialist_army_power = 0.03 } 
+	set_temp_variable = { temp_socialist = ITA_socialist_army_power }
+	set_temp_variable = { temp_nationalist = ITA_nationalist_army_power }
+	subtract_from_temp_variable = { temp_socialist = temp_nationalist }
+	set_variable = { ITA_army_division = temp_socialist }
+	clamp_variable = {
+		var = ITA_nationalist_army_power
+		min = 0
+		max = 1
+	}
+	clamp_variable = {
+		var = ITA_socialist_army_power
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = ita_socialist_gain
+}
+
+ITA_add_socialist_5 = {
+	add_to_variable = { ITA_socialist_army_power = 0.05 } 
+	set_temp_variable = { temp_socialist = ITA_socialist_army_power }
+	set_temp_variable = { temp_nationalist = ITA_nationalist_army_power }
+	subtract_from_temp_variable = { temp_socialist = temp_nationalist }
+	set_variable = { ITA_army_division = temp_socialist }
+	clamp_variable = {
+		var = ITA_nationalist_army_power
+		min = 0
+		max = 1
+	}
+	clamp_variable = {
+		var = ITA_socialist_army_power
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = ita_socialist_gain_medium
+}
+
+ITA_add_socialist_10 = {
+	add_to_variable = { ITA_socialist_army_power = 0.10 } 
+	set_temp_variable = { temp_socialist = ITA_socialist_army_power }
+	set_temp_variable = { temp_nationalist = ITA_nationalist_army_power }
+	subtract_from_temp_variable = { temp_socialist = temp_nationalist }
+	set_variable = { ITA_army_division = temp_socialist }
+	clamp_variable = {
+		var = ITA_nationalist_army_power
+		min = 0
+		max = 1
+	}
+	clamp_variable = {
+		var = ITA_socialist_army_power
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = ita_socialist_gain_large
+}
+
+ITA_subtract_socialist_3 = {
+	add_to_variable = { ITA_socialist_army_power = -0.03 } 
+	set_temp_variable = { temp_socialist = ITA_socialist_army_power }
+	set_temp_variable = { temp_nationalist = ITA_nationalist_army_power }
+	subtract_from_temp_variable = { temp_socialist = temp_nationalist }
+	set_variable = { ITA_army_division = temp_socialist }
+	clamp_variable = {
+		var = ITA_nationalist_army_power
+		min = 0
+		max = 1
+	}
+	clamp_variable = {
+		var = ITA_socialist_army_power
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = ita_socialist_loss
+}
+
+ITA_subtract_socialist_5 = {
+	add_to_variable = { ITA_socialist_army_power = -0.05 } 
+	set_temp_variable = { temp_socialist = ITA_socialist_army_power }
+	set_temp_variable = { temp_nationalist = ITA_nationalist_army_power }
+	subtract_from_temp_variable = { temp_socialist = temp_nationalist }
+	set_variable = { ITA_army_division = temp_socialist }
+	clamp_variable = {
+		var = ITA_nationalist_army_power
+		min = 0
+		max = 1
+	}
+	clamp_variable = {
+		var = ITA_socialist_army_power
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = ita_socialist_loss_medium
+}
+
+ITA_subtract_socialist_10 = {
+	add_to_variable = { ITA_socialist_army_power = -0.10 } 
+	set_temp_variable = { temp_socialist = ITA_socialist_army_power }
+	set_temp_variable = { temp_nationalist = ITA_nationalist_army_power }
+	subtract_from_temp_variable = { temp_socialist = temp_nationalist }
+	set_variable = { ITA_army_division = temp_socialist }
+	clamp_variable = {
+		var = ITA_nationalist_army_power
+		min = 0
+		max = 1
+	}
+	clamp_variable = {
+		var = ITA_socialist_army_power
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = ita_socialist_loss_large
+}
+
+#######
+
+ITA_add_nationalist_3 = {
+	add_to_variable = { ITA_nationalist_army_power = 0.03 } 
+	set_temp_variable = { temp_socialist = ITA_socialist_army_power }
+	set_temp_variable = { temp_nationalist = ITA_nationalist_army_power }
+	subtract_from_temp_variable = { temp_socialist = temp_nationalist }
+	set_variable = { ITA_army_division = temp_socialist }
+	clamp_variable = {
+		var = ITA_nationalist_army_power
+		min = 0
+		max = 1
+	}
+	clamp_variable = {
+		var = ITA_socialist_army_power
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = ita_nationalist_gain
+}
+
+ITA_add_nationalist_5 = {
+	add_to_variable = { ITA_nationalist_army_power = 0.05 } 
+	set_temp_variable = { temp_socialist = ITA_socialist_army_power }
+	set_temp_variable = { temp_nationalist = ITA_nationalist_army_power }
+	subtract_from_temp_variable = { temp_socialist = temp_nationalist }
+	set_variable = { ITA_army_division = temp_socialist }
+	clamp_variable = {
+		var = ITA_nationalist_army_power
+		min = 0
+		max = 1
+	}
+	clamp_variable = {
+		var = ITA_socialist_army_power
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = ita_nationalist_gain_medium
+}
+
+ITA_add_nationalist_10 = {
+	add_to_variable = { ITA_nationalist_army_power = 0.10 } 
+	set_temp_variable = { temp_socialist = ITA_socialist_army_power }
+	set_temp_variable = { temp_nationalist = ITA_nationalist_army_power }
+	subtract_from_temp_variable = { temp_socialist = temp_nationalist }
+	set_variable = { ITA_army_division = temp_socialist }
+	clamp_variable = {
+		var = ITA_nationalist_army_power
+		min = 0
+		max = 1
+	}
+	clamp_variable = {
+		var = ITA_socialist_army_power
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = ita_nationalist_gain_large
+}
+
+ITA_subtract_nationalist_3 = {
+	add_to_variable = { ITA_nationalist_army_power = -0.03 } 
+	set_temp_variable = { temp_socialist = ITA_socialist_army_power }
+	set_temp_variable = { temp_nationalist = ITA_nationalist_army_power }
+	subtract_from_temp_variable = { temp_socialist = temp_nationalist }
+	set_variable = { ITA_army_division = temp_socialist }
+	clamp_variable = {
+		var = ITA_nationalist_army_power
+		min = 0
+		max = 1
+	}
+	clamp_variable = {
+		var = ITA_socialist_army_power
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = ita_nationalist_loss
+}
+
+ITA_subtract_nationalist_5 = {
+	add_to_variable = { ITA_nationalist_army_power = -0.05 } 
+	set_temp_variable = { temp_socialist = ITA_socialist_army_power }
+	set_temp_variable = { temp_nationalist = ITA_nationalist_army_power }
+	subtract_from_temp_variable = { temp_socialist = temp_nationalist }
+	set_variable = { ITA_army_division = temp_socialist }
+	clamp_variable = {
+		var = ITA_nationalist_army_power
+		min = 0
+		max = 1
+	}
+	clamp_variable = {
+		var = ITA_socialist_army_power
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = ita_nationalist_loss_medium
+}
+
+ITA_subtract_nationalist_10 = {
+	add_to_variable = { ITA_nationalist_army_power = -0.10 } 
+	set_temp_variable = { temp_socialist = ITA_socialist_army_power }
+	set_temp_variable = { temp_nationalist = ITA_nationalist_army_power }
+	subtract_from_temp_variable = { temp_socialist = temp_nationalist }
+	set_variable = { ITA_army_division = temp_socialist }
+	clamp_variable = {
+		var = ITA_nationalist_army_power
+		min = 0
+		max = 1
+	}
+	clamp_variable = {
+		var = ITA_socialist_army_power
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = ita_nationalist_loss_large
+}

@@ -1,0 +1,25 @@
+ideas = {
+	country = {
+		KAC_Tribal_Confederation = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = ENG_the_protectorate
+
+			modifier = {
+				political_power_gain = -0.05
+			}
+		}
+		KAC_Home_of_the_Exiles = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = ENG_the_protectorate
+
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.05
+			}
+		}
+	}
+}

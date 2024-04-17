@@ -1,0 +1,29 @@
+
+state={
+	id=825
+	name="STATE_825"
+	manpower = 1095600
+	
+	state_category = pastoral
+	
+	resources={
+	}
+
+	history={
+		owner = ORG
+		victory_points = {
+			12064 3 
+		}
+		victory_points = {
+			5231 5 
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = ORG
+	}
+
+	provinces={
+		12064 12648 5231
+	}
+}

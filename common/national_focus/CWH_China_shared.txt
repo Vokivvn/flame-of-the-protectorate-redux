@@ -1,0 +1,1060 @@
+shared_focus = {
+	id = CHI_President_Koo
+	icon = GFX_CHI_President_Koo
+	cost = 5.00
+
+	x = 8
+	y = 0
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_President_Koo"
+		country_event = {
+			id = chikoo.1
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = CHI_Policy_Direction_Comittee
+	icon = GFX_CHI_Policy_Direction_Comittee
+	cost = 5.00
+
+	x = 0
+	y = 1
+
+	relative_position_id = CHI_President_Koo
+	prerequisite = { focus = CHI_President_Koo }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_President_Koo"
+		country_event = {
+			id = chikoo.2
+			days = 1
+		}
+		add_stability = 0.05
+	}
+}
+
+shared_focus = {
+	id = CHI_consult_the_military
+	icon = GFX_CHI_consulting_the_military
+	cost = 5.00
+
+	x = -1
+	y = 2
+
+	relative_position_id = CHI_President_Koo
+	prerequisite = { focus = CHI_Policy_Direction_Comittee }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_President_Koo"
+		country_event = {
+			id = chikoo.3
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = CHI_woo_the_bureaucracy
+	icon = GFX_CHI_Receiving_Bureaucratic_Support
+	cost = 5.00
+
+	x = 1
+	y = 2
+
+	relative_position_id = CHI_President_Koo
+	prerequisite = { focus = CHI_Policy_Direction_Comittee }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_President_Koo"
+		country_event = {
+			id = chikoo.4
+			days = 1
+		}
+	}
+}
+shared_focus = {
+	id = CHI_defragmentation
+	icon = GFX_CHI_Defragmentation
+	cost = 5.00
+
+	x = -6
+	y = 3
+
+	relative_position_id = CHI_President_Koo
+	prerequisite = { focus = CHI_consult_the_military }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_defragmentation"
+		country_event = {
+			id = chikoo.5
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = CHI_the_easy_way
+	icon = GFX_CHI_cowboy_koo
+	cost = 5.00
+
+	x = -1
+	y = 1
+
+	relative_position_id = CHI_defragmentation
+	prerequisite = { focus = CHI_defragmentation }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_defragmentation"
+		country_event = {
+			id = chikoo.6
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = CHI_the_much_harder_way
+	icon = GFX_CHI_cowboy_koo
+	cost = 5.00
+
+	x = 1
+	y = 2
+
+	relative_position_id = CHI_defragmentation
+	prerequisite = { focus = CHI_the_easy_way }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_the_much_harder_way"
+		country_event = {
+			id = chikoo.8
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = CHI_touan_tsijouis_last_dance
+	icon = GFX_CHI_cowboy_koo
+	cost = 5.00
+
+	x = 0
+	y = 3
+
+	relative_position_id = CHI_defragmentation
+	prerequisite = { focus = CHI_the_much_harder_way }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_touan_tsijouis_last_dance"
+		country_event = {
+			id = chikoo.9
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = CHI_summon_tchangs_debts
+	icon = GFX_CHI_cowboy_koo
+	cost = 5.00
+
+	x = -2
+	y = 4
+
+	relative_position_id = CHI_defragmentation
+	prerequisite = { focus = CHI_touan_tsijouis_last_dance }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_summon_tchangs_debts"
+		country_event = {
+			id = chikoo.11
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = CHI_yangs_isolation
+	icon = GFX_CHI_cowboy_koo
+	cost = 5.00
+
+	x = 0
+	y = 4
+
+	relative_position_id = CHI_defragmentation
+	prerequisite = { focus = CHI_touan_tsijouis_last_dance }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_yangs_isolation"
+		country_event = {
+			id = chikoo.12
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = CHI_tangs_goodwill
+	icon = GFX_CHI_cowboy_koo
+	cost = 5.00
+
+	x = 2
+	y = 4
+
+	relative_position_id = CHI_defragmentation
+	prerequisite = { focus = CHI_touan_tsijouis_last_dance }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_tangs_goodwill"
+		country_event = {
+			id = chikoo.13
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = CHI_fastest_hand_in_the_east
+	icon = GFX_CHI_cowboy_koo
+	cost = 5.00
+
+	x = 0
+	y = 5
+
+	relative_position_id = CHI_defragmentation
+	prerequisite = { focus = CHI_summon_tchangs_debts }
+	prerequisite = { focus = CHI_yangs_isolation }
+	prerequisite = { focus = CHI_tangs_goodwill }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_fastest_hand_in_the_east"
+		country_event = {
+			id = chikoo.4
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = CHI_industrialization
+	icon = GFX_CHI_Economic_Industrialization
+	cost = 5.00
+
+	x = 0
+	y = 3
+
+	available = {
+		has_completed_focus = CHI_fastest_hand_in_the_east
+	}
+
+	relative_position_id = CHI_President_Koo
+	prerequisite = { focus = CHI_consult_the_military }
+	prerequisite = { focus = CHI_woo_the_bureaucracy }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_industrialization"
+		country_event = {
+			id = chikoo.17
+			days = 1
+		}
+		hidden_effect = {
+			set_variable = {
+				var = CHI_consumer_goods_modif
+				value = 0.15
+			}
+			set_variable = {
+				var = CHI_production_modif
+				value = 0.05
+			}
+			set_variable = {
+				var = CHI_local_construction_modif
+				value = 0.05
+			}
+			set_variable = {
+				var = CHI_construction_modif
+				value = 0.05
+			}
+		}
+		add_dynamic_modifier = { modifier = CHI_Economic_Industiralization }
+	}
+}
+
+shared_focus = {
+	id = CHI_privatization_scheme
+	icon = GFX_CHI_Privatization_Scheme
+	cost = 5.00
+
+	x = -1
+	y = 1
+
+	relative_position_id = CHI_industrialization
+	prerequisite = { focus = CHI_industrialization }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_privatization_scheme"
+		country_event = {
+			id = chikoo.18
+			days = 1
+		}
+		add_to_variable = {
+			var = CHI_consumer_goods_modif
+			value = -0.10
+		}
+		custom_effect_tooltip = CHI_private_industry_buff
+	}
+}
+
+shared_focus = {
+	id = CHI_state_corporations
+	icon = GFX_CHI_cowboy_koo
+	cost = 5.00
+
+	x = -3
+	y = 2
+
+	relative_position_id = CHI_industrialization
+	prerequisite = { focus = CHI_privatization_scheme }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_state_corporations"
+		country_event = {
+			id = chikoo.19
+			days = 1
+		}
+		add_to_variable = {
+			var = CHI_consumer_goods_modif
+			value = -0.10
+		}
+		custom_effect_tooltip = CHI_private_industry_buff
+	}
+}
+
+shared_focus = {
+	id = CHI_corporate_alliances_for_chinese_development
+	icon = GFX_CHI_cowboy_koo
+	cost = 5.00
+
+	x = -3
+	y = 3
+
+	relative_position_id = CHI_industrialization
+	prerequisite = { focus = CHI_state_corporations }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_corporate_alliances_for_chinese_development"
+		country_event = {
+			id = chikoo.20
+			days = 1
+		}
+		add_to_variable = {
+			var = CHI_construction_modif
+			value = 0.05
+		}
+		custom_effect_tooltip = CHI_construction_buff
+	}
+}
+
+shared_focus = {
+	id = CHI_small_business_loans
+	icon = GFX_CHI_equipment
+	cost = 5.00
+
+	x = -1
+	y = 2
+
+	relative_position_id = CHI_industrialization
+	prerequisite = { focus = CHI_privatization_scheme }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_small_business_loans"
+		add_to_variable = {
+			var = CHI_local_construction_modif
+			value = 0.05
+		}
+		custom_effect_tooltip = CHI_local_construction_buff
+	}
+}
+
+shared_focus = {
+	id = CHI_improve_distribution_networks
+	icon = GFX_CHI_distribution
+	cost = 5.00
+
+	x = -1
+	y = 3
+
+	relative_position_id = CHI_industrialization
+	prerequisite = { focus = CHI_small_business_loans }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_improve_distribution_networks"
+		608 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		614 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		607 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		606 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		613 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = CHI_economic_egalitarianism
+	icon = GFX_CHI_cowboy_koo
+	cost = 5.00
+
+	x = -2
+	y = 4
+
+	relative_position_id = CHI_industrialization
+	prerequisite = { focus = CHI_improve_distribution_networks }
+	prerequisite = { focus = CHI_corporate_alliances_for_chinese_development }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_economic_egalitarianism"
+		country_event = {
+			id = chikoo.21
+			days = 1
+		}
+		add_offsite_building = { type = industrial_complex level = 3 }
+	}
+}
+
+shared_focus = {
+	id = CHI_state_sponsored_banking
+	icon = GFX_CHI_small_loans
+	cost = 5.00
+
+	x = 1
+	y = 1
+
+	relative_position_id = CHI_industrialization
+	prerequisite = { focus = CHI_industrialization }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_state_sponsored_banking"
+		country_event = {
+			id = chikoo.22
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = CHI_building_capital_reserves
+	icon = GFX_CHI_cowboy_koo
+	cost = 5.00
+
+	x = 1
+	y = 2
+
+	relative_position_id = CHI_industrialization
+	prerequisite = { focus = CHI_state_sponsored_banking }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_building_capital_reserves"
+		add_to_variable = {
+			var = CHI_consumer_goods_modif
+			value = -0.05
+		}
+		custom_effect_tooltip = CHI_private_industry_buff
+	}
+}
+
+shared_focus = {
+	id = CHI_smart_investing
+	icon = GFX_CHI_cowboy_koo
+	cost = 5.00
+
+	x = 1
+	y = 3
+
+	relative_position_id = CHI_industrialization
+	prerequisite = { focus = CHI_building_capital_reserves }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_smart_investing"
+		add_to_variable = {
+			var = CHI_production_modif
+			value = 0.05
+		}
+		custom_effect_tooltip = CHI_investments_better_working
+	}
+}
+
+shared_focus = {
+	id = CHI_apply_for_foreign_loans
+	icon = GFX_CHI_cowboy_koo
+	cost = 5.00
+
+	x = 3
+	y = 2
+
+	relative_position_id = CHI_industrialization
+	prerequisite = { focus = CHI_state_sponsored_banking }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_apply_for_foreign_loans"
+		country_event = {
+			id = chikoo.23
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = CHI_roadways_away
+	icon = GFX_CHI_infrastructure
+	cost = 5.00
+
+	x = 3
+	y = 3
+
+	relative_position_id = CHI_industrialization
+	prerequisite = { focus = CHI_state_sponsored_banking }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_roadways_away"
+		594 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		592 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		593 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		600 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		749 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = CHI_a_rich_government
+	icon = GFX_CHI_cowboy_koo
+	cost = 5.00
+
+	x = 2
+	y = 4
+
+	relative_position_id = CHI_industrialization
+	prerequisite = { focus = CHI_smart_investing }
+	prerequisite = { focus = CHI_roadways_away }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_a_rich_government"
+		country_event = {
+			id = chikoo.24
+			days = 1
+		}
+		728 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		596 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		599 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		325 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		744 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		605 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		753 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		754 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		604 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		601 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		757 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		759 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		617 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = CHI_chinese_capitalism
+	icon = GFX_CHI_cowboy_koo
+	cost = 5.00
+
+	x = 0
+	y = 5
+
+	relative_position_id = CHI_industrialization
+	prerequisite = { focus = CHI_economic_egalitarianism }
+	prerequisite = { focus = CHI_a_rich_government }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_chinese_capitalism"
+		country_event = {
+			id = chikoo.25
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = CHI_democratization
+	icon = GFX_CHI_Democratization
+	cost = 5.00
+
+	x = 6
+	y = 3
+
+	relative_position_id = CHI_President_Koo
+	prerequisite = { focus = CHI_woo_the_bureaucracy }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_democratization"
+		country_event = {
+			id = chikoo.26
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = CHI_end_summary_executions
+	icon = GFX_CHI_cowboy_koo
+	cost = 5.00
+
+	x = 1
+	y = 1
+
+	relative_position_id = CHI_democratization
+	prerequisite = { focus = CHI_democratization }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_end_summary_executions"
+		country_event = {
+			id = chikoo.27
+			days = 1
+		}
+		add_dynamic_modifier = { modifier = CHI_Code_of_Law }
+		set_variable = {
+			var = CHI_stability_modif
+			value = -0.10
+		}
+		set_variable = {
+			var = CHI_political_power_modif
+			value = 0.05
+		}
+		set_variable = {
+			var = CHI_education_modif
+			value = -0.05
+		}
+	}
+}
+
+shared_focus = {
+	id = CHI_the_chinese_code_of_law
+	icon = GFX_CHI_cowboy_koo
+	cost = 5.00
+
+	x = 1
+	y = 2
+
+	relative_position_id = CHI_democratization
+	prerequisite = { focus = CHI_end_summary_executions }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_the_chinese_code_of_law"
+		add_to_variable = {
+			var = CHI_stability_modif
+			value = 0.10
+		}
+		add_to_variable = {
+			var = CHI_political_power_modif
+			value = -0.05
+		}
+		custom_effect_tooltip = CHI_code_of_law_cemented
+	}
+}
+
+shared_focus = {
+	id = CHI_define_the_territorial_claims
+	icon = GFX_CHI_Defining_Territorial_Claims
+	cost = 5.00
+
+	x = -1
+	y = 3
+
+	relative_position_id = CHI_democratization
+	prerequisite = { focus = CHI_the_chinese_code_of_law }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_define_the_territorial_claims"
+		country_event = {
+			id = chikoo.28
+			days = 1
+		}
+		add_to_variable = {
+			var = CHI_political_power_modif
+			value = 0.05
+		}
+		custom_effect_tooltip = CHI_big_dick_moves
+	}
+}
+
+shared_focus = {
+	id = CHI_national_education_standards
+	icon = GFX_CHI_cowboy_koo
+	cost = 5.00
+
+	x = -1
+	y = 4
+
+	relative_position_id = CHI_democratization
+	prerequisite = { focus = CHI_define_the_territorial_claims }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_national_education_standards"
+		add_to_variable = {
+			var = CHI_political_power_modif
+			value = 0.10
+		}
+		custom_effect_tooltip = CHI_education_standards
+	}
+}
+
+shared_focus = {
+	id = CHI_build_the_court_system
+	icon = GFX_CHI_cowboy_koo
+	cost = 5.00
+
+	x = 1
+	y = 3
+
+	relative_position_id = CHI_democratization
+	prerequisite = { focus = CHI_the_chinese_code_of_law }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_build_the_court_system"
+		add_to_variable = {
+			var = CHI_stability_modif
+			value = 0.05
+		}
+		add_to_variable = {
+			var = CHI_political_power_modif
+			value = 0.05
+		}
+		custom_effect_tooltip = CHI_court_of_law_bad_ass
+	}
+}
+
+shared_focus = {
+	id = CHI_define_separation_of_powers
+	icon = GFX_CHI_cowboy_koo
+	cost = 5.00
+
+	x = 3
+	y = 3
+
+	relative_position_id = CHI_democratization
+	prerequisite = { focus = CHI_the_chinese_code_of_law }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_define_separation_of_powers"
+		add_to_variable = {
+			var = CHI_stability_modif
+			value = 0.07
+		}
+		custom_effect_tooltip = CHI_separation_of_powers
+	}
+}
+
+shared_focus = {
+	id = CHI_the_lawsuit
+	icon = GFX_CHI_the_trial
+	cost = 5.00
+
+	x = 2
+	y = 4
+
+	relative_position_id = CHI_democratization
+	prerequisite = { focus = CHI_build_the_court_system }
+	prerequisite = { focus = CHI_define_separation_of_powers }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_the_lawsuit"
+		country_event = {
+			id = chikoo.39
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = CHI_define_the_rules_abide_by_the_rules
+	icon = GFX_CHI_cowboy_koo
+	cost = 5.00
+
+	x = 1
+	y = 5
+
+	relative_position_id = CHI_democratization
+	prerequisite = { focus = CHI_national_education_standards }
+	prerequisite = { focus = CHI_the_lawsuit }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_define_the_rules_abide_by_the_rules"
+		country_event = {
+			id = chikoo.40
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = CHI_the_1938_elections
+	icon = GFX_CHI_cowboy_koo
+	cost = 5.00
+	cancelable = no
+	cancel_if_invalid = yes
+	
+	x = 0
+	y = 9
+	available = {
+		NOT = {
+			has_country_flag = CHI_kou_died
+		}
+	}
+	relative_position_id = CHI_President_Koo
+	prerequisite = { focus = CHI_chinese_capitalism }
+	prerequisite = { focus = CHI_fastest_hand_in_the_east }
+	prerequisite = { focus = CHI_define_the_rules_abide_by_the_rules }
+	select_effect = {
+		hidden_effect = {
+			country_event = {
+				id = chikoo.42
+				days = 6
+			}
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_the_1938_elections"
+		country_event = {
+			id = chikoo.41
+			days = 1
+		}
+	}
+}
+
+#################################################################################
+#Koo is Dead
+shared_focus = {
+	id = CHI_the_headless_chicken
+	icon = GFX_CHI_cowboy_koo
+	cost = 5.00
+
+	x = 17
+	y = 0
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_the_headless_chicken"
+	}
+}
+
+shared_focus = {
+	id = CHI_doing_our_best_to_keep_calm
+	icon = GFX_CHI_cowboy_koo
+	cost = 5.00
+
+	x = 0
+	y = 1
+
+	relative_position_id = CHI_the_headless_chicken
+	prerequisite = { focus = CHI_the_headless_chicken }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_doing_our_best_to_keep_calm"
+	}
+}
+
+shared_focus = {
+	id = CHI_appeal_to_the_warlords
+	icon = GFX_CHI_cowboy_koo
+	cost = 5.00
+
+	x = 1
+	y = 2
+
+	relative_position_id = CHI_the_headless_chicken
+	prerequisite = { focus = CHI_doing_our_best_to_keep_calm }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_appeal_to_the_warlords"
+	}
+}
+
+shared_focus = {
+	id = CHI_cross_camp_discourse
+	icon = GFX_CHI_cowboy_koo
+	cost = 5.00
+
+	x = -1
+	y = 2
+
+	relative_position_id = CHI_the_headless_chicken
+	prerequisite = { focus = CHI_doing_our_best_to_keep_calm }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_cross_camp_discourse"
+	}
+}
+
+shared_focus = {
+	id = CHI_reason_and_conversation_triumphant
+	icon = GFX_CHI_cowboy_koo
+	cost = 5.00
+
+	x = 0
+	y = 3
+
+	relative_position_id = CHI_the_headless_chicken
+	prerequisite = { focus = CHI_cross_camp_discourse }
+	prerequisite = { focus = CHI_appeal_to_the_warlords }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_reason_and_conversation_triumphant"
+	}
+}
+
+shared_focus = {
+	id = CHI_burn_the_palace_down
+	icon = GFX_CHI_cowboy_koo
+	cost = 5.00
+
+	x = 0
+	y = 4
+
+	relative_position_id = CHI_the_headless_chicken
+	prerequisite = { focus = CHI_reason_and_conversation_triumphant }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_burn_the_palace_down"
+	}
+}

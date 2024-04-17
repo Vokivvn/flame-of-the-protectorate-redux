@@ -1,0 +1,21 @@
+#   ██████╗ ███████╗██████╗ ███╗   ███╗ █████╗ ███╗   ██╗██╗   ██╗  #
+#  ██╔════╝ ██╔════╝██╔══██╗████╗ ████║██╔══██╗████╗  ██║╚██╗ ██╔╝  #
+#  ██║  ███╗█████╗  ██████╔╝██╔████╔██║███████║██╔██╗ ██║ ╚████╔╝   #
+#  ██║   ██║██╔══╝  ██╔══██╗██║╚██╔╝██║██╔══██║██║╚██╗██║  ╚██╔╝    #
+#  ╚██████╔╝███████╗██║  ██║██║ ╚═╝ ██║██║  ██║██║ ╚████║   ██║     #
+#   ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝     #
+#Focus Tree
+
+focus_tree = {
+	id = GER_opening
+	country = {
+		factor = 0
+		modifier = { add = 10 original_tag = GER }
+	}
+	default = no
+
+	continuous_focus_position = { x = 0 y = 4000 }
+
+	shared_focus = GER_eerste_nationaldeutsche_wahl
+	shared_focus = GER_stresemanns_diplomacy
+}

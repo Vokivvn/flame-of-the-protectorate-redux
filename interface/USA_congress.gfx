@@ -1,0 +1,93 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_USA_congress_Democrat"
+		texturefile = "gfx/interface/usa_congress/GFX_USA_congress_Democrat.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_congress_Progressive"
+		texturefile = "gfx/interface/usa_congress/GFX_USA_congress_Progressive.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_congress_Republican"
+		texturefile = "gfx/interface/usa_congress/GFX_USA_congress_Republican.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_congress_Whig"
+		texturefile = "gfx/interface/usa_congress/GFX_USA_congress_Whig.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_House"
+		texturefile = "gfx/interface/usa_congress/GFX_USA_House.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_USA_democrat_seats"
+		texturefile = "gfx/interface/usa_congress/GFX_USA_democrat_seats.dds"
+		noOfFrames = 61
+	}
+	spriteType = {
+		name = "GFX_USA_democrat_seats2"
+		texturefile = "gfx/interface/usa_congress/GFX_USA_democrat_seats2.dds"
+		noOfFrames = 47
+	}
+	
+	spriteType = {
+		name = "GFX_USA_progressive_seats"
+		texturefile = "gfx/interface/usa_congress/GFX_USA_progressive_seats.dds"
+		noOfFrames = 61
+	}
+	spriteType = {
+		name = "GFX_USA_progressive_seats2"
+		texturefile = "gfx/interface/usa_congress/GFX_USA_progressive_seats2.dds"
+		noOfFrames = 47
+	}
+	
+	spriteType = {
+		name = "GFX_USA_republican_seats"
+		texturefile = "gfx/interface/usa_congress/GFX_USA_republican_seats.dds"
+		noOfFrames = 61
+	}
+	spriteType = {
+		name = "GFX_USA_republican_seats2"
+		texturefile = "gfx/interface/usa_congress/GFX_USA_republican_seats2.dds"
+		noOfFrames = 47
+	}
+	
+	spriteType = {
+		name = "GFX_USA_whig_seats"
+		texturefile = "gfx/interface/usa_congress/GFX_USA_whig_seats.dds"
+		noOfFrames = 61
+	}
+	spriteType = {
+		name = "GFX_USA_whig_seats2"
+		texturefile = "gfx/interface/usa_congress/GFX_USA_whig_seats2.dds"
+		noOfFrames = 47
+	}
+	spriteType = {
+		name = "GFX_Dialogue_Box"
+		texturefile = "gfx/interface/usa_congress/GFX_Dialogue_Box.dds"
+	}
+	spriteType = {
+		name = "GFX_190x61_button"
+		texturefile = "gfx/interface/usa_congress/GFX_190x61_button.dds"
+	}
+	
+	### PEOPLE
+	# VP
+	spriteType = {
+		name = "GFX_USA_VP_Joseph_Robinson"
+		texturefile = "gfx/interface/usa_congress/vice_presidents/GFX_USA_VP_Joseph_Robinson.dds"
+	}
+	
+	# SPEAKERS
+	spriteType = {
+		name = "GFX_USA_HS_John_Garner"
+		texturefile = "gfx/interface/usa_congress/house_speakers/GFX_USA_HS_John_Garner.dds"
+	}
+	
+	# SENATE LEADERS
+	spriteType = {
+		name = "GFX_USA_SL_George_Norris"
+		texturefile = "gfx/interface/usa_congress/senate_leaders/GFX_USA_SL_George_Norris.dds"
+	}
+}

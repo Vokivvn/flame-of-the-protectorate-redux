@@ -1,0 +1,259 @@
+ideas = {
+	country = {
+
+		CHI_Unstable_Government = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHI_Unstable_Government"}	
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = CHI_unstable_government
+
+			modifier = {
+				political_power_gain = -0.15
+				stability_factor = -0.20 
+				war_support_factor = -0.15
+				consumer_goods_factor = 0.30
+				conscription_factor = -0.15
+				ai_call_ally_desire_factor = -1000
+			}
+		}
+
+		CHI_Legitimate_Government_of_China = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHI_Legitimate_Government_of_China"}	
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = CHI_legitimate_government
+
+			modifier = {
+				trade_opinion_factor = 0.25
+				stability_factor = 0.1
+				political_power_gain = 0.05
+			}
+		}
+
+		CHI_Taiping_Memories = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHI_Taiping_Memories"}
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = CHI_Taiping_Legacy
+
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.10
+			}
+		}
+
+		CHI_China_Violation = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHI_China_Violation"}
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = CHI_China_Violation
+
+			modifier = {
+				trade_opinion_factor = 0.2
+				political_power_gain = -0.05
+				trade_cost_for_target_factor = 0.1
+			}
+		}
+		CHI_The_New_Army = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHI_The_New_Army"}
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = CHI_New_Army
+
+			modifier = {
+				army_org_factor = -0.2
+				army_morale_factor = -0.2
+				army_defence_factor = -0.3
+				army_attack_factor = -0.3
+				planning_speed = -0.1
+			}
+		}
+		CHI_Province_Anhui = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHI_Province_Anhui"}	
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_CHI_Province_Anhui
+
+			modifier = {
+				ai_join_ally_desire_factor = -1000
+				ai_call_ally_desire_factor = -1000
+				offence = -0.2
+				defence = -0.2
+				supply_consumption_factor = 0.1
+				army_morale_factor = 0.1
+				army_leader_cost_factor = -0.25
+				autonomy_gain_warscore_factor = -1
+				autonomy_gain_ll_to_overlord_factor = -1
+				autonomy_gain_trade_factor = -1
+			}
+		}
+	
+		CHI_Province_Manchu = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHI_Province_Manchu"}	
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_CHI_Province_Manchu
+
+			modifier = {
+				ai_join_ally_desire_factor = -1000
+				ai_call_ally_desire_factor = -1000
+				offence = -0.2
+				defence = -0.2
+				supply_consumption_factor = 0.1
+				army_morale_factor = 0.1
+				army_leader_cost_factor = -0.25
+				autonomy_gain_warscore_factor = -1
+				autonomy_gain_ll_to_overlord_factor = -1
+				autonomy_gain_trade_factor = -1
+			}
+		}
+	
+		CHI_Province_Sichuan = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHI_Province_Sichuan"}	
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_CHI_Province_Sichuan
+
+			modifier = {
+				ai_join_ally_desire_factor = -1000
+				ai_call_ally_desire_factor = -1000
+				offence = -0.2
+				defence = -0.2
+				supply_consumption_factor = 0.1
+				army_morale_factor = 0.1
+				army_leader_cost_factor = -0.25
+				autonomy_gain_warscore_factor = -1
+				autonomy_gain_ll_to_overlord_factor = -1
+				autonomy_gain_trade_factor = -1
+			}
+		}
+	
+		CHI_Province_Tibet = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHI_Province_Tibet"}	
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_CHI_Province_Tibet
+
+			modifier = {
+				ai_join_ally_desire_factor = -1000
+				ai_call_ally_desire_factor = -1000
+				offence = -0.2
+				defence = -0.2
+				supply_consumption_factor = 0.1
+				army_morale_factor = 0.1
+				army_leader_cost_factor = -0.25
+				autonomy_gain_warscore_factor = -1
+				autonomy_gain_ll_to_overlord_factor = -1
+				autonomy_gain_trade_factor = -1
+			}
+		}
+	
+		CHI_Province_Ma = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHI_Province_Ma"}	
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_CHI_Province_Ma
+
+			modifier = {
+				ai_join_ally_desire_factor = -1000
+				ai_call_ally_desire_factor = -1000
+				offence = -0.2
+				defence = -0.2
+				supply_consumption_factor = 0.1
+				army_morale_factor = 0.1
+				army_leader_cost_factor = -0.25
+				autonomy_gain_warscore_factor = -1
+				autonomy_gain_ll_to_overlord_factor = -1
+				autonomy_gain_trade_factor = -1
+			}
+		}
+	
+		CHI_Province_Yunnan = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHI_Province_Yunnan"}	
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_CHI_Province_Yunnan
+
+			modifier = {
+				ai_join_ally_desire_factor = -1000
+				ai_call_ally_desire_factor = -1000
+				offence = -0.2
+				defence = -0.2
+				supply_consumption_factor = 0.1
+				army_morale_factor = 0.1
+				army_leader_cost_factor = -0.25
+				autonomy_gain_warscore_factor = -1
+				autonomy_gain_ll_to_overlord_factor = -1
+				autonomy_gain_trade_factor = -1
+			}
+		}
+	
+		CHI_Province_Xinj = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHI_Province_Xinj"}	
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_CHI_Province_Xinj
+
+			modifier = {
+				ai_join_ally_desire_factor = -1000
+				ai_call_ally_desire_factor = -1000
+				offence = -0.2
+				defence = -0.2
+				supply_consumption_factor = 0.1
+				army_morale_factor = 0.1
+				army_leader_cost_factor = -0.25
+				autonomy_gain_warscore_factor = -1
+				autonomy_gain_ll_to_overlord_factor = -1
+				autonomy_gain_trade_factor = -1
+			}
+		}
+	}
+}

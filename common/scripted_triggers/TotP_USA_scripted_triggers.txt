@@ -1,0 +1,3 @@
+can_have_elections = {
+	has_state_flag = USA_state_can_have_elections
+}

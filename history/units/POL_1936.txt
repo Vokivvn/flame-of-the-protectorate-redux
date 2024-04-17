@@ -1,0 +1,379 @@
+﻿division_template = {
+	name = "Oddział Piechoty"
+	division_names_group = POL_infantry
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Partyzanci"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Podział Kawalerii"
+	division_names_group = POL_cavalry
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = "402"
+		division_template = "Oddział Piechoty"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = "11399"
+		division_template = "Oddział Piechoty"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = "6580"
+		division_template = "Oddział Piechoty"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = "9494"
+		division_template = "Oddział Piechoty"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = "3434"
+		division_template = "Oddział Piechoty"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = "9544"
+		division_template = "Oddział Piechoty"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = "11385"
+		division_template = "Oddział Piechoty"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = "9316"
+		division_template = "Oddział Piechoty"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = "6464"
+		division_template = "Oddział Piechoty"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = "11413"
+		division_template = "Oddział Piechoty"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = "11245"
+		division_template = "Oddział Piechoty"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = "9452"
+		division_template = "Oddział Piechoty"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = "11466"
+		division_template = "Oddział Piechoty"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = "3295"
+		division_template = "Oddział Piechoty"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = "3458"
+		division_template = "Oddział Piechoty"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = "402"
+		division_template = "Oddział Piechoty"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = "3544"
+		division_template = "Oddział Piechoty"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = "9427"
+		division_template = "Oddział Piechoty"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = "3544"
+		division_template = "Oddział Piechoty"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = "362"
+		division_template = "Oddział Piechoty"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = "6558"
+		division_template = "Oddział Piechoty"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		}
+		location = "9570"
+		division_template = "Oddział Piechoty"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = "9508"
+		division_template = "Podział Kawalerii"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = "9412"
+		division_template = "Podział Kawalerii"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = "11385"
+		division_template = "Podział Kawalerii"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Partyzanci"
+		location = "6460"
+		division_template = "Partyzanci"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Partyzanci"
+		location = "9425"
+		division_template = "Partyzanci"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Partyzanci"
+		location = "6483"
+		division_template = "Partyzanci"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Partyzanci"
+		location = "9558"
+		division_template = "Partyzanci"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Partyzanci"
+		location = "9454"
+		division_template = "Partyzanci"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Partyzanci"
+		location = "513"
+		division_template = "Partyzanci"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Partyzanci"
+		location = "11247"
+		division_template = "Partyzanci"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Partyzanci"
+		location = "3256"
+		division_template = "Partyzanci"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Partyzanci"
+		location = "3281"
+		division_template = "Partyzanci"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Partyzanci"
+		location = "9274"
+		division_template = "Partyzanci"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Partyzanci"
+		location = "9295"
+		division_template = "Partyzanci"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}

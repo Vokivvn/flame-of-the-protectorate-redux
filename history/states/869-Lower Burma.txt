@@ -1,0 +1,13 @@
+state={
+	id=869
+	name="STATE_869"
+	provinces={
+		1333 1417 1650 4059 4293 4336 7441 10283 10344 12127 12256 
+	}
+	history={
+		owner = FEI
+	}
+	manpower=982371
+	state_category=town
+	buildings_max_level_factor=1.000
+}

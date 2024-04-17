@@ -1,0 +1,22 @@
+state={ #Al-Hasakah
+	id=680
+	name="STATE_680"
+	manpower = 71543
+	
+	state_category = wasteland
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TUR
+		add_core_of = SYR
+
+	}
+
+
+	provinces={
+		901 2013 7513 10383 10882 12316 12442 
+	}
+}

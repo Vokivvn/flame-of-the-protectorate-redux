@@ -1,0 +1,705 @@
+﻿add_namespace = ITA
+
+country_event = { # 
+	id = ITA.0
+	title = ITA.0.t
+	desc = ITA.0.d
+	picture = GFX_report_event_mazzini_ponder
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ITA.0.a
+		
+	}
+}
+
+country_event = { # 
+	id = ITA.1
+	title = ITA.1.t
+	desc = ITA.1.d
+	picture = GFX_report_event_pdaz_italy
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ITA.1.a
+		
+	}
+}
+
+country_event = { # 
+	id = ITA.2
+	title = ITA.2.t
+	desc = ITA.2.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ITA.2.a
+	}
+}
+
+country_event = { # 
+	id = ITA.3
+	title = ITA.3.t
+	desc = ITA.3.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ITA.3.a
+		AUS = {
+			add_timed_idea = {
+				idea = ITA_concessions_to_italy_1
+				days = 180
+			}
+		}
+	}
+}
+
+country_event = { # 
+	id = ITA.4
+	title = ITA.4.t
+	desc = ITA.4.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ITA.4.a
+		add_war_support = -0.15
+		ITA_add_nationalist_10 = yes
+		ITA_subtract_socialist_10 = yes
+	}
+}
+
+country_event = { # 
+	id = ITA.5
+	title = ITA.5.t
+	desc = ITA.5.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = {
+		name = ITA.5.a
+		AUS = {
+			add_timed_idea = {
+				idea = ITA_concessions_to_italy_2
+				days = 180
+			}
+		}
+	}
+}
+
+country_event = { # 
+	id = ITA.6
+	title = ITA.6.t
+	desc = ITA.6.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ITA.6.a
+		
+	}
+}
+
+country_event = { # 
+	id = ITA.7
+	title = ITA.7.t
+	desc = ITA.7.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ITA.7.a
+	}
+}
+
+country_event = { # 
+	id = ITA.8
+	title = ITA.8.t
+	desc = ITA.8.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ITA.8.a
+		load_focus_tree = ITA_Parri
+	}
+}
+
+country_event = { # 
+	id = ITA.9
+	title = ITA.9.t
+	desc = ITA.9.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ITA.9.a
+		
+	}
+}
+
+country_event = { # 
+	id = ITA.10
+	title = ITA.10.t
+	desc = ITA.10.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #
+		name = ITA.10.a
+		load_focus_tree = ITA_Parri
+	}
+}
+
+country_event = { # for france, Italy wants business cooperation
+	id = ITA.11
+	title = ITA.11.t
+	desc = ITA.11.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # yes
+		name = ITA.11.a
+		add_ideas = ITA_business_cooperation
+		ITA = {
+			add_ideas = ITA_business_cooperation
+		}
+	}
+	option = { # no
+		name = ITA.11.b
+		add_political_power = 50
+	}
+}
+
+country_event = { # anti mafia stuff
+	id = ITA.12
+	title = ITA.12.t
+	desc = ITA.12.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # yes
+		name = ITA.12.a
+	}
+}
+
+country_event = { # parri and the pope
+	id = ITA.13
+	title = ITA.13.t
+	desc = ITA.13.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # yes
+		name = ITA.13.a
+	}
+}
+
+country_event = { # fate of corruption
+	id = ITA.14
+	title = ITA.14.t
+	desc = ITA.14.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # yes
+		name = ITA.14.a
+		
+	}
+}
+
+country_event = { # papal tension
+	id = ITA.15
+	title = ITA.15.t
+	desc = ITA.15.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # yes
+		name = ITA.15.a
+		
+	}
+}
+
+country_event = { # concordat
+	id = ITA.16
+	title = ITA.16.t
+	desc = ITA.16.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # of course, if it will shut him up
+		name = ITA.16.a
+		add_political_power = -50
+		add_stability = 0.05
+	}
+	option = { # no
+		name = ITA.16.b
+		add_political_power = 50
+		add_stability = -0.05
+	}
+}
+
+country_event = { # hungary in entente
+	id = ITA.17
+	title = ITA.17.t
+	desc = ITA.17.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # of course
+		name = ITA.17.a
+		ITA = { add_to_faction = ROOT }
+	}
+	option = { # no
+		name = ITA.17.b
+	}
+}
+
+country_event = { # ukraine in entente
+	id = ITA.18
+	title = ITA.18.t
+	desc = ITA.18.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # of course
+		name = ITA.18.a
+		ITA = { add_to_faction = ROOT }
+	}
+	option = { # no
+		name = ITA.18.b
+	}
+}
+
+country_event = { # greece in entente
+	id = ITA.19
+	title = ITA.19.t
+	desc = ITA.19.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # of course
+		name = ITA.19.a
+		ITA = { add_to_faction = ROOT }
+	}
+	option = { # no
+		name = ITA.19.b
+	}
+}
+
+country_event = { # consolitdation of power
+	id = ITA.20
+	title = ITA.20.t
+	desc = ITA.20.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # lets get to work
+		name = ITA.20.a
+	}
+}
+
+country_event = { # relations soiled with france
+	id = ITA.21
+	title = ITA.21.t
+	desc = ITA.21.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # 
+		name = ITA.21.a
+	}
+}
+
+country_event = { # pope leader
+	id = ITA.22
+	title = ITA.22.t
+	desc = ITA.22.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # 
+		name = ITA.22.a
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Urban X"
+			desc = "POLITICS_URBAN_X_DESC"
+			picture = "Leader_ITA_Urban_X.dds"
+			expire = "1965.1.1"
+			ideology = christian_democracy
+			traits = {
+				Romanus_Pontifex
+			}
+		}
+	}
+}
+
+country_event = { # end of the republic
+	id = ITA.23
+	title = ITA.23.t
+	desc = ITA.23.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # 
+		name = ITA.23.a
+		set_cosmetic_tag = ITA_more_christain
+	}
+}
+
+country_event = { # italy wants to rejoin entente
+	id = ITA.24
+	title = ITA.24.t
+	desc = ITA.24.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # yes
+		name = ITA.24.a
+		FRA = { add_to_faction = ITA }
+	}
+	option = { # no
+		name = ITA.24.b
+	}
+}
+
+country_event = { # ITALY DECOLONIZes
+	id = ITA.25
+	title = ITA.25.t
+	desc = ITA.25.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # yes
+		name = ITA.25.a
+		LBA = {
+			add_state_core = 449
+			transfer_state = 449
+			add_state_core = 273
+			transfer_state = 273
+			add_state_core = 448
+			transfer_state = 448
+			add_state_core = 661
+			transfer_state = 661
+			add_state_core = 662
+			transfer_state = 662
+		}
+		CYR = {
+			add_state_core = 873
+			transfer_state = 873
+			add_state_core = 450
+			transfer_state = 450
+			add_state_core = 451
+			transfer_state = 451
+			add_state_core = 663
+			transfer_state = 663
+		}
+		TUN = {
+			add_state_core = 458
+			transfer_state = 458
+			add_state_core = 818
+			transfer_state = 818
+			add_state_core = 665
+			transfer_state = 665
+		}
+	}
+}
+
+country_event = { # Bordiga Coup
+	id = ITA.26
+	title = ITA.26.t
+	desc = ITA.26.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # yes
+		name = ITA.26.a
+		set_politics = {
+			ruling_party = centralism
+		}
+		drop_cosmetic_tag = yes
+		set_cosmetic_tag = ITA_bordiga
+	}
+}
+
+country_event = { # Lussu Coup
+	id = ITA.27
+	title = ITA.27.t
+	desc = ITA.27.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # yes
+		name = ITA.27.a
+		set_politics = {
+			ruling_party = socialism
+		}
+		drop_cosmetic_tag = yes
+	}
+}
+
+country_event = { # Lussu Coup
+	id = ITA.28
+	title = ITA.28.t
+	desc = ITA.28.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { # yes
+		name = ITA.28.a
+		set_politics = {
+			ruling_party = ultranationalism
+		}
+		drop_cosmetic_tag = yes
+		set_cosmetic_tag = ITA_farinacci
+	}
+}
+
+add_namespace = ITA_AUS
+
+country_event = { # Victory over Italy (BorderW)
+	id = ITA_AUS.1
+	title = ITA_AUS.1.t
+	desc = ITA_AUS.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ITA_AUS.1.a
+		add_war_support = 0.05
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 300
+			producer = AUS
+		}
+	}
+}
+
+country_event = { # Failure over Italy (BorderW)
+	id = ITA_AUS.2
+	title = ITA_AUS.2.t
+	desc = ITA_AUS.2.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ITA_AUS.2.a
+		add_war_support = -0.15
+		add_stability = -0.1
+		add_popularity = {
+			ideology = ultranationalism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.05
+		}
+	}
+}
+
+country_event = { # Tie over Italy (BorderW)
+	id = ITA_AUS.3
+	title = ITA_AUS.3.t
+	desc = ITA_AUS.3.d
+	picture = GFX_report_event_chinese_soldiers_01
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ITA_AUS.3.a
+		add_political_power = -25
+		add_war_support = -0.075
+	}
+}
+
+country_event = { #ANI coup
+	id = ITA.29
+	title = ITA.29.t
+	desc = ITA.29.d
+	picture = GFX_report_event_CHI_funny_look
+
+	is_triggered_only = yes
+	
+	option = {
+		name = ITA.29.a
+		set_politics = {
+			ruling_party = republicanism
+		}
+		set_party_name = {
+			ideology = centralism
+			long_name = ITA_ANI_republicanism_party_long
+			name = ITA_ANI_republicanism_party
+		}
+		set_party_name = {
+			ideology = republicanism
+			long_name = ITA_ANI_republicanism_party_long
+			name = ITA_ANI_republicanism_party
+		}
+		set_party_name = {
+			ideology = authoritarianism
+			long_name = ITA_ANI_republicanism_party_long
+			name = ITA_ANI_republicanism_party
+		}
+		set_party_name = {
+			ideology = ultranationalism
+			long_name = ITA_ANI_republicanism_party_long
+			name = ITA_ANI_republicanism_party
+		}
+		create_country_leader = {
+			name = "Gabriele D'Annunzio"
+			desc = "POLITICS_Gabriele_DAnnunzio_DESC"
+			picture = "ITA_Gabriele_DAnnunzio.dds"
+			expire = "1965.1.1"
+			ideology = republicanism_subtype
+			traits = {
+				#
+			}
+		}
+		create_country_leader = {
+			name = "Edmondo Rossoni"
+			desc = "POLITICS_Edmondo_Rossoni_DESC"
+			picture = "ITA_Edmondo_Rossoni.dds"
+			expire = "1965.1.1"
+			ideology = social_nationalism
+			traits = {
+				#
+			}
+		}
+		create_country_leader = {
+			name = "Italo Balbo"
+			desc = "POLITICS_Italo_Balbo_DESC"
+			picture = "ITA_Italo_Balbo.dds"
+			expire = "1965.1.1"
+			ideology = authoritarianism_subtype
+			traits = {
+				#
+			}
+		}
+		create_country_leader = {
+			name = "Julius Evola"
+			desc = "POLITICS_Julius_Evola_DESC"
+			picture = "ITA_Julius_Evola.dds"
+			expire = "1965.1.1"
+			ideology = ultranationalism_subtype
+			traits = {
+				#
+			}
+		}
+	}
+}
+
+country_event = { #PPF coup
+	id = ITA.30
+	title = ITA.30.t
+	desc = ITA.30.d
+	picture = GFX_report_event_CHI_funny_look
+
+	is_triggered_only = yes
+	
+	option = {
+		name = ITA.30.a
+		set_politics = {
+			ruling_party = republicanism
+		}
+		set_party_name = {
+			ideology = republicanism
+			long_name = ITA_futurist_republicanism_party_long
+			name = ITA_futurist_republicanism_party
+		}
+		create_country_leader = {
+			name = "Filippo Tommaso Marinetti"
+			desc = "POLITICS_Filippo_Tommaso_Marinetti_DESC"
+			picture = "ITA_Filippo_Tommaso_Marinetti.dds"
+			expire = "1965.1.1"
+			ideology = republicanism_subtype
+			traits = {
+				#
+			}
+		}
+	}
+}
+
+country_event = { #PPF bans all parties
+	id = ITA.31
+	title = ITA.31.t
+	desc = ITA.31.d
+	picture = GFX_report_event_CHI_funny_look
+
+	is_triggered_only = yes
+	
+	option = {
+		name = ITA.31.a
+		set_politics = {
+			ruling_party = republicanism
+		}
+		set_party_name = {
+			ideology = centralism
+			long_name = ITA_futurist_republicanism_party_long
+			name = ITA_futurist_republicanism_party
+		}
+		set_party_name = {
+			ideology = socialism
+			long_name = ITA_futurist_republicanism_party_long
+			name = ITA_futurist_republicanism_party
+		}
+		set_party_name = {
+			ideology = progressivism
+			long_name = ITA_futurist_republicanism_party_long
+			name = ITA_futurist_republicanism_party
+		}
+		set_party_name = {
+			ideology = liberalism
+			long_name = ITA_futurist_republicanism_party_long
+			name = ITA_futurist_republicanism_party
+		}
+		set_party_name = {
+			ideology = conservatism
+			long_name = ITA_futurist_republicanism_party_long
+			name = ITA_futurist_republicanism_party
+		}
+		set_party_name = {
+			ideology = authoritarianism
+			long_name = ITA_futurist_republicanism_party_long
+			name = ITA_futurist_republicanism_party
+		}
+				set_party_name = {
+			ideology = ultranationalism
+			long_name = ITA_futurist_republicanism_party_long
+			name = ITA_futurist_republicanism_party
+		}
+	}
+}

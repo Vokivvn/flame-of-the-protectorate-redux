@@ -1,0 +1,329 @@
+﻿l_english:
+  ## Ideas ##
+  ENG_cromwells_legacy:0 "Cromwell's Legacy"
+  ENG_cromwells_legacy_desc:0 "To be British is to live the high life. Even those most downtrodden who make their homes on street corners or in the back alley of shops find all their troubles whisked away at the mere sight of the well functioning society fostered by the Lord Protector. To be British is to enjoy the pleasant side of life, to live far from any European squabbles or fighting, granting the people the luxury to explore the arts. To be British is to participate in a fine-functioning democracy. The government is not too radical but not too simple. To be British is to be content.\n\nTo be Irish is to be miserable. Oliver Cromwell made no attempts to disguise his contempt for the people of the Emerald Isle and it would be his words that would set the Irish people down the course of subjugation and segregation. Even as the power of the Lord Protector waned, the rhetoric of the man only expanded, becoming firmly ingrained into British society."
+ 
+  ENG_all_alone:0 "All Alone"
+  ENG_all_alone_desc:0 "There is no shame in being separated from the rabble of continental Europe. Are the proud people of Britain going to be shamed by the men who charge over hills to kill their brothers? No, let them squabble! Britain stands far above them, contained in her own bubble of civility, where men can make a name for themselves in whatever craft they desire.\n\nBritian may be alone in Europe but has found family in the empire, establishing holdouts of English culture across the globe. The powers of Europe may not turn to Britain in times of crisis, but would the fine people of London have it any other way?"
+ 
+  ENG_into_the_dark:0 "Into the Dark"
+  ENG_into_the_dark_desc:0 "Nothing worth keeping is ever handed to a man. An empire, a people, a state to be proud of must be fought for at every turn for on the path to greatness, life leaves many challenges. Conflicts within the empire, rambunctious native savages who proclaim any efforts to modernize their backwater tribal fiefdoms as a threat to their very existence, have yet to relent their guerrilla warfare against our imperial authority.\n\nThe threats inside are not always the most pressing. While the army may be distracted with an unruly kingdom, the foreign office will almost certainly be buzzing about with diplomats receiving and sending messages to the French, Germans, and Americans in an effort to maintain the status-quo.\n\nNo matter the ferocity to which London asserts its authority, the cracks have begun to show and the vultures swarm above. It will take brilliant leadership and the greatest generation Britain has to offer to keep Britain from falling to the wayside."
+ 
+  ## Decisions
+  ENG_party_popularity:0 "Party Popularities"
+  ENG_party_popularity_desc:0 "The citizens of our proud Commonwealth feel a great deal of pride and satisfaction in the robust engines of our democracy. No one else in the world enjoys such great and bountiful liberty as the proud citizens of our fair Isles. \n\nIn accord with this, elections for parliament and the position of Lord-Protector are held every five years, with a variety of parties running. Besides from the traditional Liberal and Conservative parties, recently two other parties have risen to take the mantle of power, running on populist policy and boisterous promises. \n\nOn the left is the Commonwealth Party, comprised of unions, those too left for the Liberals, and the dreaded spector of Socialism. On the right is the Republican Party, a populist movement born out of Conservative party splitters sick of the muddling middle ground embraced by Chambarlain. Led by the occasionally charming and ever controversial Oswald Mosley, the party has quickly become the most polarizing movement any  Briton can remember. \n\nThe Conservatives currently are  [Root.ENG_conservative_popularity] \n\nThe Republicans currently are  [Root.ENG_republican_popularity] \n\nThe Progressives currently are  [Root.ENG_progressive_popularity] \n\nThe Liberals currently are  [Root.ENG_liberals_popularity]"
+  ENG_celt_crisis:0 "Celt Crisis"
+  #ENG_celt_crisis_desc:0 "Welsh National Federation\nTension: [get.ENG_welsh_national_federation_tension]\n\nPlaid Cymru\nProminence: [?ENG_welsh_plaid_cymru_prominence|%G0]\nStatus: [get.ENG_welsh_plaid_cymru]\n\nWelsh Labour\nProminence: [?ENG_welsh_welsh_labour_prominence|%G0]\nStatus: [get.ENG_welsh_welsh_labour]\n\nNational Association for the Vindication of Scottish Rights\nTension: [get.ENG_NAVSR_tension]\n\nScottish Covenant\nProminence: [?ENG_scottish_scottish_covenant_prominence|%G0]\nStatus: [get.ENG_scottish_scottish_covenant]\n\nScottish Democratic Republican Party\nProminence: [?ENG_scottish_scottish_democratic_redemption_party_prominence|%G0]\nStatus: [get.ENG_scottish_scottish_democratic_redemption_party]\n\nIrish Patriot Party\nTension: [get.ENG_irish_patriot_party_tension]\n\nCavaliers\nProminence: [?ENG_irish_cavaliers_prominence|%G0]\nStatus: [get.ENG_irish_cavaliers]\n\nIrish Republican Brotherhood\nProminence: [?ENG_irish_irish_republican_brotherhood_prominence|%G0]\nStatus: [get.ENG_irish_irish_republican_brotherhood]\n\nIrish Trade Union Congress\nProminence: [?ENG_irish_irish_tuc_prominence|%G0]\nStatus: [get.ENG_irish_irish_tuc]"
+    # Celts
+    ENG_low:0 "§GLow§!"
+    ENG_medium:0 "§YMedium§!"
+    ENG_high:0 "§RHigh§!"
+    ENG_very_high:0 "§RVery High§!"
+    #
+    ENG_appeased:0 "§GAppeased§!"
+    ENG_neutral:0 "§YNeutral§!"
+    ENG_angered:0 "§RAngered§!"
+    ENG_outraged:0 "§ROutraged§!"
+    
+    ENG_WELSH_NF:0 "Welsh National Federation"
+    ENG_WELSH_tension:0 "Tension: [get.ENG_welsh_national_federation_tension]"
+    ENG_WELSH_Plaid_Cymru:0 "Plaid Cymru"
+    ENG_WELSH_Plaid_Cymru_prom:0 "Prominence: [?ENG_welsh_plaid_cymru_prominence|%G0]"
+    ENG_WELSH_Plaid_Cymru_status:0 "Status: [get.ENG_welsh_plaid_cymru]"
+    ENG_WELSH_Welsh_Labour:0 "Welsh Labour"
+    ENG_WELSH_Welsh_Labour_prom:0 "Prominence: [?ENG_welsh_welsh_labour_prominence|%G0]"
+    ENG_WELSH_Welsh_Labour_status:0 "Status: [get.ENG_welsh_welsh_labour]"
+    
+    ENG_NAVSR:0 "NAVSR"
+    ENG_NAVSR_tension:0 "Tension: [get.ENG_NAVSR_tension]"
+    ENG_NAVSR_Scott_Cov:0 "Scottish Covenant"
+    ENG_NAVSR_Scott_Cov_prom:0 "Prominence: [?ENG_scottish_scottish_covenant_prominence|%G0]"
+    ENG_NAVSR_Scott_Cov_status:0 "Status: [get.ENG_scottish_scottish_covenant]"
+    ENG_NAVSR_Scott_DemRep:0 "Scottish Republicans"
+    ENG_NAVSR_Scott_DemRep_prom:0 "Prominence: [?ENG_scottish_scottish_democratic_redemption_party_prominence|%G0]"
+    ENG_NAVSR_Scott_DemRep_status:0 "Status: [get.ENG_scottish_scottish_democratic_redemption_party]"
+
+ ## Events ##
+ ENG_Pol.1.t:0 "The Torch We Bear"
+ ENG_Pol.1.d:0 "Many men can say they've changed history. Your kings and queens, presidents and protectors, they can all claim to have changed history. From the most mediocre monarch to the generation's greatest general, every action alters the course of history, nudging the ship one way or the other.\n\nBut how many men can say that they have sculpted the future?\n\nHis Highness Oliver Cromwell, Lord Protector of the Commonwealth of England, Scotland, and Ireland is among the noble few who could truly say in earnest that they had not carved out a legacy, but built a future. Once Oliver Cromwell established his undisputed control over the isles, the Lord Protector aimed to accomplish two goals. To heal Britain and to make her whole once more. Cromwell was well on his way on to accomplishing both of the arduous tasks, mounding society into his image, when in September of 1658, a fatal bout of Malaria took the revolutionary to his grave and the young Richard Cromwell to the hallowed halls of Parliament.\n\nRichard was not fit to rule. He was at peace with the fact, parliament could sense it, and the Council of State knew better than any other. When Richard stepped down from the position only a few years after his father's passing, the Council of State ushered in Henry Lawrence to replace him. Such was Britain, a monarchy in all but name, with its figurehead decided by the Council of State until the chaos following the death of Lord Protector Cuthbert Collingwood in 1810 enabled the Council to change society once more, opening up the position of Lord Protector to the people but, maybe more importantly, doing the same for the Council of State.\n\nThere a few things that are more fundamentally British than mastering the art of being bull headed.\n\nTo welcome the people into government is to welcome chaos, but the people of Britain make due, grumbling every step of the way."
+ ENG_Pol.1.a:0 "Would Oliver be proud if he saw us today?"
+ 
+ ENG_Pol.2.t:0 "Where Nothing's Ever Changed"
+ ENG_Pol.2.d:0 ""Lord Protector!" The sweaty politician stomped his foot, attempting to command the room into silence. "Lord Protector, if I may speak so brazen, your disregard for the will of the people makes me envy the people of Delhi!" The speaker received a chorus of murmurs in agreement from the men on the benches behind him.\n\nOne Councilor interrupted with a jeer, "While I share the sentiment of the Right Honorable Gentleman from Wales, he is sorely mistaken. For His Highness the Lord Protector to disregard the will of the people would imply he has even cared to hear it!" The hall erupted into chaos at the remark, the four main cliques of the Council going for the throat.\n\n"With all due respect, the title of Lord Protector has decayed so terribly, it is beginning to look like His Highness' wife!" Called one Oswald Mosely, representing the Republican Party. Followers of the gentleman waved their speeches in the air, mumbling phrases of support.\n\nAcross the room, those associated with the Common Wealth Party offered their own insightful commentary on the Lord Protector. A fat and stout Councilor rose from his seat, gripping onto the bench just to not fall over. "The Lord Protector has traveled far and wide during his tenure, bringing with him all that usually follows in his wake. Death, suffering, and worst of all, overwhelming exploitation! And that's only what His Highness has done to Glasgow! I won't begin to raddle off what His Highness has done around the Empire, lest we be here till the sun sets!" The members of the Council continued to sling mud at Chamberlain. It was almost like they had disregarded any political goals and simply attended sessions to make him miserable. It wouldn't work. No, Neville had grown too thick of skin from his time in politics to let any of this effect him. Still, he could not shake that fear that hid in the darkest pits of his stomach, that feeling that all rulers felt as their time in the sun began to fade."
+ ENG_Pol.2.a:0 "What would Britain become?"
+ 
+ ENG.1.t:0 "The Chamberlain Ministry's Last Year"
+ ENG.1.d:0 "In British politics, many believe that no man is more important than the Lord Protector. After all, he is the face of the country abroad, and the man making the hardest decisions within the halls of power. This belief, held by so many patriotic Britons, is one not held by the Lord Protector Neville Chamberlain. \n\nSure the economy continues to grow, and peace and prosperity are common at home, but what has he done to cause any of this? \"A footnote in history, that is all they will remember me as.\" he mused to himself late one night, not in a tone of bitterness, but as one might state a fact already accepted. As he chewed on this fact, a stark realization came to him: he’s the Lord Protector of Britain, and if nothing else, it is his duty to leave the country in good hands. \n\nIt will be controversial, sure, but perhaps it is his duty to meet with the other parties, and find a man worthy of leading the Commonwealth. With a newfound resolve, he placed a call to his secretary to begin planning some meetings."
+ ENG.1.a:0 "May the best man win!"
+ ENG.2.t:0 "Tea with Eden"
+ ENG.2.d:0 "The meeting with Eden, his expected successor, had been harder to arrange than he had expected. Him and Eden had rarely seen eye to eye, with his neutral acceptance of the Empire clashing with Eden’s zealous calls to renew the spreading of the sacred flame of civilization to the uncivilized. When push came to shove though, he was able to get a meeting with the all but confirmed next party leader. \n\nContrary to his worst fears, Eden proved to be an amicable enough man, with a clear vision for the future of the Commonwealth. They talked about the growing divisions within the conservative party, the recent maneuvers by the Austrians in Europe, and finally about the worrying reports coming out of Ireland. It would have been an altogether pleasant afternoon if it wasn’t for the last discussion the two men found themselves in, over the issue of colonialism. \n\n\"I’m telling you Neville, I respect many of your policies, I do, but when I’m in charge this wishy washy appeasement towards the uncivilized is coming to an end. Did you see the headline in the Times yesterday? \"President Bose questions continued British presence in India, calls for an end to Imperialism in subcontinent\" it's outrageous! Trust me, when I’m Lord Protector, there won’t be any headlines like that!\" \n\nAll Chamberlain could do was meekly nod in the face of the man’s zeal."
+ ENG.2.a:0 "Well... could be worse"
+ ENG.3.t:0 "Confirming Eden"
+ ENG.3.d:0 "\"The deed is done\" thought Chamberlain as the announcement was made that Eden had been selected as party leader for the upcoming election. It had taken some arm twisting from Eden, some patriotic speeches from Chamberlain, and a whole day of political machinations, but Eden finally had his moment of glory. \n\nAs the party mps cheered his name, Eden took the stage to deliver a short address on the future of the Tories. In it he hit the expected notes, with a spoonful of imperialism mixed with a dash of domestic policy, completed with a pinch of jingoistic zeal. For better or for worse, Anthony Eden’s road to the office of Lord-Protector now lays open."
+ ENG.3.a:0 "Three cheers for Eden, the successor to old Neville!"
+ ENG.4.t:0 "Brunch with Mosley"
+ ENG.4.d:0 "He wasn’t sure what side of Mosley he would meet today over brunch. Would it be the charming and smiling Mosley, the one photographed chatting with everyone from rich bankers to the urban poor; or would it be the bombastic bomb thrower Mosley, who’s speech declaring the birth of the Republican party had caused Chamberlain so many sleepless nights. \n\nUnsurprisingly, it ended up being neither. \n\nMosley proved to be a charming, if slimy, brunch companion. He laced his descriptions of specific proposed policies with bombastic claims, with even the most mundane issues sounding at once to be the most pressing issue in the Commonwealth. Chamberlain largely allowed the man to speak, only adding in his own input when it was required of him. Walking away from the meal he couldn’t say he really knew Mosley any better than he had before, but at the very least, he seemed capable of talking with others."
+ ENG.4.a:0 "Perhaps he can see reason afterall"
+ ENG.5.t:0 "Meeting the Republican Moderates"
+ ENG.5.d:0 "He hadn’t expected the invitation to attend the Republican leadership convention, but he had received it and decided to attend, despite the worries of his aides. The crowd assembled, containing the top minds and finest brass of the party, was an inherently contradictory mess. Native rights activists sat next to jingoistic imperialists, labour union leaders next to ultranationalist autocrats. The only thing that seemed to unite this disheveled mob was a shared enthusiasm for Mosley. \n\nWith a round of deafening applause and cheering, Mosley climbed the stairs to the stage in front of them, walking with the swagger of a war hero returning home. He raised his hand for them to quiet down, before beginning the first lines of his address. \n\n\"Britons, from all walks of life, it is my honor to be speaking to you tonight! For the first time in decades, a movement stands ready to return our beloved Commonwealth to serving the interests of the people, rather than the fat cat plutocrats of the Conservative and Liberal parties. We’ve fought long, and we’ve fought hard for the future of Britain, and I beg all of you to keep this fight going, to keep the torch alight no matter how tired you may become. Hundreds of years from now when they read about our movement, they will say to themselves that this was their finest hour!/’"
+ ENG.5.a:0 "They're an odd bunch alright..."
+ ENG.6.t:0 "Supper with Stapledon"
+ ENG.6.d:0 "Stapledon was an odd man. Without a doubt one of the strangest politicians that Chamberlain had met in his entire career. The science fiction novelist turned Commonwealth party leader was unashamedly a man of the left, and unlike Mosley had no desire to sheathe his sword of populism when the opportunity presented itself. It had taken significant pleading to get him to agree to meet for supper, and when he finally sat down with the man he found him to be an uninspiring dinner partner. He obviously had some great thoughts going around in his head, he just didn’t seem willing to share them with him. \n\nIt wasn’t until the eleventh hour when their meals were almost complete that he managed to get a discussion going with the man, on the topic of Austria of all things. Chamberlain had suggested to an aid that measures should be taken to deal with their continued saber rattling, which suddenly sparked the interest of his dinner companion. Speaking as a professor would, he began a short but impactful plea towards Chamberlain to consider a different stance, one less likely to spark global tensions. When pressed on why he wanted that, his answer was quite simple. \n\n\"For the sake of the poor of course.\""
+ ENG.6.a:0 "He has passion, that's for sure"
+ ENG.7.t:0 "The Otherside of Britain"
+ ENG.7.d:0 "It had taken considerable effort, but Chamberlain managed to wrangle an invitation to the Commonwealth party convention. What he encountered there would make him reconsider everything he thought he knew about politics. \n\nWalking into the convention, he was almost immediately under the spotlight of attention, as both committed trade unionists, international socialists, and the party avante-garde sneered at him. The vote to select Stapledon as leader had to be delayed thrice, two times to hunt down a delegate who had had too much to drink and wandered off, and once to break up a fight over whether Bronstein was a revisionist or not. He had about had it with the party when the vote finally occurred, and Stapledon ascended the stage to give a short address to the people assembled. \n\nTo the great shock of Chamberlain, Stapledon delivered a stunning speech, tackling a wide number of varied issues while still managing to make them all seem coherent and well thought out. The ending of his speech in particular, at least to Chamberlain, was quite excellent. \"To all assembled, whether proletariat or bourgeoisie, worker or manager, I wish to thank you for granting me the role as party leader. The Commonwealth Party has always stood for the forgotten citizens of Britain, the odd John’s of the Commonwealth if you will. It is my sincere belief that the policy platform of our party will not only protect those forgotten, but will at the same time stand in solidarity with those remembered as well. We shall build a new Commonwealth, one not only for the common man, but for the uncommon man as well!\""
+ ENG.7.a:0 "Perhaps they have a point after all..."
+ ENG.8.t:0 "Dining with Samuel"
+ ENG.8.d:0 "It had taken next to no effort to arrange a meeting with Samuel, in fact, Chamberlain had often met with the man in his previous nine years of national leadership. When he finally sat down to eat with the man, it was almost identical to the many meals he had with him before. \n\nChamberlain ordered a beef roast with a side of potatoes, Samuel did the same. Chamberlain asked the man if he wished to speak about domestic policy, Samuel immediately agreed. When Chamberlain voiced his distaste of the current leader of France, Samuel agreed heartily. In fact, as far as Chamberlain could tell, he hardly disagreed with anything that Samuel said. \n\nWhen pressed on what he would do if he became Lord Protector, Samuel simply stated that he would do much of the same as Chamberlain had done. \"No reason to rock the boat afterall, especially when we are sailing as smoothly as we are now. You’ve been a good leader and chap Neville, I’d hate to do away with all of the good things you’ve done\". Chamberlain listened to it intently, with equal parts relief and disappointment."
+ ENG.8.a:0 "It's a good thing thats he's such an agreeable chap"
+ ENG.9.t:0 "The Spirit of Civility"
+ ENG.9.d:0 "Attending the Liberal Convention had, similar to meeting with Samuel, taken very little effort on the part of Chamberlain. In fact, as long as Samuel had been liberal leader, he had always received an invitation to attend. Upon arrival he was greeted to a polite and warm reception, and a small round of applause from the various Liberal politicians. He was given a seat at the front along with the other guests of honor, and was paid a personal visit by Samuel before the vote for party leader was to commence. \n\nIn typical Liberal fashion, the vote was nearly unanimous, with the only dissent coming from the party’s leftwing which hadn’t left for the Commonwealth Party. A grateful Herbert Samuel climbed the stage to a polite round of applause, and gave a broad smile as he began a short speech. \n\n\"To all those in attendance tonight, I must thank you for once again honoring me with the role of party leader. We sit in a golden age of Britain, one where all are fed and none go hungry, where all are housed and none are left out in the rain. I would like to take a moment to thank our current Lord Protector, Neville Chamberlain, for the stellar work he has done in the previous nine years. To the bomb throwing, knocky kneed radicals I declare that the center will hold, and it will hold during the next five years of Liberal government!\""
+ ENG.9.a:0 "Three cheers for the Liberals!"
+ ENG.10.t:0 "An Unpleasant Surprise"
+ ENG.10.d:0 ""What I'm trying to tell you Mr. Chamberlain, is that this nonsense of meeting with the other parties is over." The balding MP sitting in front of Chamberlain took a moment to wipe his brow, before continuing "Everytime you appear at one of their conventions, or get photographed meeting with them, the press has a field day. If this nonsense doesn't end soon you're going to cost us the election and with it the position of Lord Protector. Can you imagine if someone like Mosley or Stapledon wins? There'll be blood in the streets for christ sakes!" \n\nThe man departed a few minutes later, leaving Chamberlain alone in his office, with nothing to do but mull over what had been said. It wasn't a surprise that the party was angry, but it was a surprise that they would be this blunt about it. It was almost a certainty that if he did not listen to the party demands his days as a member of the conservatives would be over, but compitulating itself sounded just as unappetizing. He took a moment to consider his answer, before placing a call to his secretary to send a message to the Conservative party headquarters."
+ ENG.10.a:0 "Very well, I will do as the party says"
+ ENG.10.b:0 "The party must remember that I AM the leader, not them"
+ ENG.11.t:0 "The Conservative Manifesto"
+ ENG.11.d:0 ""
+ ENG.11.a:0 "Party orthodoxy overall"
+ ENG.11.b:0 "A little flexibility wouldn't be bad"
+ ENG.12.t:0 "Dealing with the Radicals"
+ ENG.12.d:0 ""
+ ENG.12.a:0 "Whatever it takes"
+ ENG.12.b:0 "This is all just a little extreme..."
+ ENG.13.t:0 "On the Trail 36'"
+ ENG.13.d:0 ""
+ ENG.13.a:0 "Its unorthodox, but we'll endorse Stapledon"
+ ENG.13.b:0 "Mosley's the man, despite his rhetoric"
+ ENG.14.t:0 "Ousting the Radicals"
+ ENG.14.d:0 ""
+ ENG.14.a:0 "The Commonwealth Party agrees"
+ ENG.14.b:0 "Mosley agrees to tone it down"
+ ENG.15.t:0 "Anthony Eden Elected Lord Protector"
+ ENG.15.d:0 "The bands played Rule Britannia and the troops marched with an extra spring in their step today, as Anthony Eden was announced to have been elected Lord Protector of Britain. His victory comes as a surprise to many, as the pre-election infighting within the Conservative Party had resulted in many political experts ruling them a spent force in the face of the unity expressed by the other parties. \n\nIn a bellicose speech in front of parliament, Eden laid out his plans for the next five years, including plans for the expansion of Imperial Interests and a greater centralization of the colonial Empire. Noted by many at the time, and even more now, is that at no point during the speech did Eden ever touch on domestic policy. \n\nThe reaction to the speech among the populace has been mostly negative, with all but the most stalwart Imperialists being at best lukewarm to the idea, and at worst terrified that Eden will bumble the country into a war with the Great Powers. And for the free people of Asia, Africa, and the Americas, the speech can only be seen as an ill omen for things to come."
+ ENG.15.a:0 "For a strong England, by jingo!"
+ ENG.16.t:0 "Herbert Samuel Elected Lord Protector"
+ ENG.16.d:0 "It was with a sigh of relief that many received the news today that Herbert Samuel had been elected to be the next Lord Protector of Britain. Considered by many, himself included, to be firmly a man of the center, Samuel largely ran as the voice of reason in comparison to the imperialistic Eden, rabble rousing Stapledon, and duplicitous Mosley. As can be expected from such a campaign, his victory has provoked neither great celebration, or significant protests. \n\nIn a brief, pre-written speech given by an aide to parliament, Samuel thanked the British people for having entrusted him with the position of Lord Protector, and promised them five more years of people and prosperity within the Isles. It was met with a modest, but polite, reception."
+ ENG.16.a:0 "The center holds once more"
+ ENG.17.t:0 "Olaf Stapledon Elected Lord Protector"
+ ENG.17.d:0 "It was with populist furor and working class triumph that the news was delivered today that Olaf Stapledon, to the surprise of much of the political class, had been elected to be the next Lord Protector of Britain. Considered largely a non-factor by many political pundits, his victory has sent shock waves not only within Britain, but in the outside world as well. \n\nIn a shocking repudiation of tradition, Stapledon refused to give a speech to parliament, instead giving one directly to the people through a radio address. In it he announced his election to be a revolution by the ballot box, and laid out his plans for the following five years, including the building of a welfare state and an end to foreign entanglements. While very popular among much of the working class, rumors swirl of the speech only causing further alienate among the already offended upper class. \n\nThe announcement given only a few hours later, that Stapledon had already ordered the budget for the colonial office slashed in half, has likely only further grown their resentment towards him."
+ ENG.17.a:0 "The common man triumphs once more!"
+ ENG.18.t:0 "Oswald Mosley Elected Lord Protector"
+ ENG.18.d:0 "It was to the shock, and in some cases horror, of many that it was announced today that Oswald Mosley had been elected to be the next Lord Protector of Britain. Almost immediately the election result has become one of the most polarizing in British history, with opinions ranging from it being a triumph of the common man, to it being the start of the Commonwealth’s slide into Totalitarianism. Making matters worse is the new Lord Protector’s refusal to assuage any of these fears, with him instead taking it as an opportunity to rile up his supporters and mock his enemies in the press. \n\nIn a stump speech delivered on the stairs of Parliament to a crowd comprised equal parts of supporters and protestors, Mosley made clear his agenda going forward. He may have said some great things, but unfortunately very few could hear him over the sound of his supporters and detractors arguing amongst themselves. Having finished, it was with a cocky grin and a wave of his right hand that he finished climbing the stairs and entered the chambers of Parliament, ready to make his mark on history."
+ ENG.18.a:0 "At the very least the next five years will be interesting..."
+ 
+ ENG_election.1.t:0 "The 1937 Elections"
+ ENG_election.1.d:0 ""
+ ENG_election.1.a:0 "Don't forget to vote!"
+ 
+ MosleyCoup.1.t:0 "A Request"
+ MosleyCoup.1.d:0 "With the recent victory of the Common Wealth Party and by extension the crushing defeat of the Republican Party, it was clear to the upper leadership of the Republicans that a compromise was in order. In a recent meeting with Lord Protector Stapledon, Oswald Mosley vented his frustration with the organization of both the conservative and liberal parties, citing their lack of unity which led to the botched turnout. \n\nUnfortunately for Mosley, Stapledon knew what he was scheming.\n\nIn an attempt to end the conversation as soon as possible, Stapledon mentioned how late it was and that he should be heading out. Mosley caught wind of this and set up for an attempt to prolong this engagement. \n\n"Well, how about we see this conversations end over dinner?"\n\nStapledon noted that he must not come off as assertive as he would’ve liked to be.\n\n"As much as I would love to, I have kept my wife waiting far too long and can’t risk another delay."\n\nMosley panicked, it was now or never to pop the question.\n\n"Then I’ll be seeing you off. One last thing to consider. Would you be willing to embrace a partnership between our two parties in these trying times? A coalition could demonstrate much-needed unity."\n\nStapledon’s expression declined from a facade of excitement to a blank slate. This man just wouldn’t give up."
+ MosleyCoup.1.a:0 ""Unfortunately I don’t think that will work out, I will be seeing you out now.""
+ 
+ MosleyCoup.2.t:0 "Some Sore Loser"
+ MosleyCoup.2.d:0 "Facing yet another defeat, Mosley stormed out of Stapledon’s chambers. His temper had been spiked by the failure of his actions, Mosley failed to remain collected, spouting out a variety of insults.\n\n"How you won in the first place amazes me, you’ve proven to be weaker than both Eden and Samuel!"\n\n"How can a man be fooled by the wolves in the sheep's cloth so often to the point where he resists aid from one of his own?"\n\n"Let us both hope that your wife is able to make up for the auto-cannibalization of your party."\n\nThough none of them truly phased Stapledon, one had stuck out.\n\n"This pitiful electoral system has proven itself to be inefficient once again. Cromwell would be seething if he could even see a fraction of what you’re doing. Perhaps you can correct your errors by following my own model."\n\nFrom what seemed to just be the use of Cromwell’s name in vain, the statement stuck with the Lord Protector. Perhaps he had read too much into it?"
+ MosleyCoup.2.a:0 "The would-be tyrant has taken a misstep, someone will be sent to watch his actions."
+ MosleyCoup.2.b:0 "Though worrisome, it was simply a harmless outburst, the past is the past."
+ 
+ 
+ 
+ MosleyCoup.7.t:0 "The Illusive Opposition"
+ MosleyCoup.7.d:0 "It had been the status quo, since the election, that any session of the Council of State would be accompanied by the jeers and disruptive behavior by the ever uncouth Republican Opposition. Even such a simple proposal as inviting the Chancellor of Germany over for tea with the Council would take hours to be passed in the face of the Republicans. And then, slowly, things began to change. \n\nIt started with their great leader Mosley, rebuked by the Lord Protector when he had asked for a coalition, became silent and began shirking his duties to the council. His most trusted supporters and inner circle had for a few days been left in a state of confusion by this disappearance, but then they too stopped showing up to the Council of State. Soon even the rank and file became a rarity within the body, and for the first time since Stapledon’s inauguration, the peace and tranquility of the Chamberlain-Samuel spirit returned. \n\nAnd then the Lord Protector received a letter from Mosley, asking for a meeting."
+ MosleyCoup.7.a:0 "Time to see what's going on."
+ 
+ MosleyCoup.8.t:0 "Lowering the Bar"
+ MosleyCoup.8.d:0 "He hadn’t known what to expect when meeting with Mosley for the second time. He had thought the man was done with politics altogether after their last meeting and the ensuing disappearance of the Republicans, but now that he thought about it, that had been a hopelessly naive thought. People like Mosley, he thought to himself, despite every sign and advice you try and give them, can never allow themselves to move on. \n\nThey met at nine at night, in the Lord Protector’s office. From high above on the wall behind Mosley, the portrait of the first Lord Protector gazed down on them. It was Mosley who spoke first. \n\n"Now Stapledon, I understand our meeting last time did not end in a manner particularly satisfactory to either of our interests. I said some things which I now regret, and... I do apologize for that.", he looked off in the distance for a moment, to collect his thoughts, before speaking again. \n\n"You must understand my frustration with your continued refusal to cooperate, do you not see the opportunities presented to us? We sit on the cusp of changing the course of history itself, of bringing a new dawn to our beloved isles. And for a patriot, and a dedicated civil servant such as myself, it is so... so... very frustrating to see that wasted by naivety and idealism.", he spoke the last bit as more of an angry stump speech then a sentence, his fists lay clenched by his sides. Realizing this, he composed himself, before speaking again.\n\n"You and me, Stapledon, you and me... together, we could do so much for Britain, all you have to do is say yes.""
+ MosleyCoup.8.a:0 "It seems his party is behind him, we shall accept."
+ MosleyCoup.8.b:0 "We shall end his tyranny before it begins, no means no."
+ 
+ 
+ MosleyCoup.13.t:0 "Out of the Dark"
+ MosleyCoup.13.d:0 "A flash of regret went into Mosley’s eyes as the Lord Protector repeated his previous answer once, and then when pressed one more time, again. The conversation drifted awkwardly for a moment longer, before with a half hearted handshake, Mosley and his entourage departed from the Council of State. \n\nFor half an hour very little else happened that night. For half an hour all was right within Britain. And then the first bottle hit Stapledon’s window. \n\nSoon the entire building was encased in the sounds of bottles and rocks hitting it. Like a rainstorm of glass and debris, the building which had housed the very engines of democracy for centuries, was pelted by the people it had sworn to protect. \n\nFrom the window of his office, Stapledon gazed out at the rapidly assembling mob, the darkness of the night and the reflection of their torches making them bare silhouettes against the cobbled streets. Even from within his office, he could hear the chanted slogans, the calls for him to resign, and the voice of Mosley."
+ MosleyCoup.13.a:0 "One Small Slip."
+ 
+ MosleyCoup.14.t:0 "Moment of Reflection"
+ MosleyCoup.14.d:0 "It had been an hour into the siege, when they arrived. Like the Red Sea from centuries prior, the crowd of Republicans parted to let them through. They marched in lock step, one foot after another, bayonets glinting in the moonlight. For fifteen agonizing minutes they paused just short of the Council of State, as they organized lines and prepared to storm the building. \n\nStapledon, staring down at it from his high office, felt a dull surrealism envelop him. "How did it come to this? What else could I have done?", questions such as these danced through his mind as he saw the soldiers begin their charge. As the sounds of gunfire and crashing boots emanated from the first floor, he took one last long look at the portrait of Cromwell hanging in his office, and with a shaky hand, removed it from its hook and smashed it on the floor. Bits of glass sprayed in every direction, and the motionless stare of Cromwell witnessed first the entrance, then the arrest, and finally the exit of Lord Protector Stapledon."
+ MosleyCoup.14.a:0 "Out With the Old"
+ 
+ MosleyCoup.15.t:0 "History in the Making"
+ MosleyCoup.15.d:0 "For the crowd outside of the Council, the presence of the soldiers had been unexpected, and for some, appreciated. Oswald Mosley, perhaps the man all eyes had turned to, felt dismay at what unfolded before him. Has Wingate kept his promise?", over and over again this question played through his mind, like a broken record. It was easy, for a man in his position, to see the greatest perils in only the lightest shadows. No man had attempted this since the Great Lord Protector himself, so many centuries ago, this was not supposed to happen. The Democratic tradition of Britain, the English character, the exceptionalism of the Anglo-Saxon race. All these and more people pointed to over, and over, and over again as why authoritarianism could never kiss these isles. \n\nIt was when he was on the verge of losing his nerve, that a procession of soldiers departed from the building, the Commonwealth flag hoisted upside down on their bayonets. With only a modest moment of self doubt, Mosley joined the column, and began the march back into the Council of State, and indeed, the annals of history itself."
+ MosleyCoup.15.a:0 "A New Face for Our Republic."
+ 
+ MosleyCoup.16.t:0 "Man of the Hour"
+ MosleyCoup.16.d:0 ""I had my doubts, I must admit, but this plan has worked out exceptionally, I believe it's fair to say." said Wingate, his feet resting lazily on the Lord Protector’s desk. Across from him sat Mosley, in the chair meant for the guests of the Lord Protector. Small bits of glass crunched under his feet with every shift of his weight. \n\n\"As we agreed, Stapledon is out. It's a damn blessing we acted when we did, imagine what that radical could have done if we didn’t step in. We’re heros Ozzy, you and me, when the British people decades from now still have warm homes, hot meals, and a sense of dignity in their step, they’ll be praising us with every passing day." He smiled then, and took a puff from the lit cigarette held in his right hand. His partner in the plan shifted once more in his seat, before speaking up. \n\n\"Indeed it is a good thing... now about the agreement we made, I will of course be made the Lord Protector, correct?" He began to speak again, but he was shushed by the hearty laugh of Wingate, who took another puff from his cigarette. \n\n\"Of course, of course. No one would accept me as Lord Protector, I’m sure you’re aware of that. But then, of course, our agreement will have to be altered somewhat, to recognize our new special relationship. You can sail the ship all you want Ozzy, but it’s going to be up to boys like me and the men to keep her right. That’s what you want, isn’t it? Smooth sailing from here on out, smooth sailing..." he took one more puff, and Mosley, despite the success of everything, felt the tiniest pin pricks of dread in the back of his mind."
+ MosleyCoup.16.a:0 "For now... all is calm."
+
+  ## scripted loc keys
+  ENG_conservatives_very_unpopular:0 "§Rvery unpopular§!."
+  ENG_conservatives_unpopular:0 "§Hunpopular§!"
+  ENG_conservatives_neutral:0 "§Yneutral§!"
+  ENG_conservatives_popular:0 "§Lpopular§!"
+  ENG_conservatives_very_popular:0 "§Gvery popular§!"
+
+  ## Leader Descriptions ##
+  POLITICS_NEVILLE_CHAMBERLAIN_DESC:0 "Tea with two sugars. Left out in the Birmingham dreary afternoon. A lukewarm drink, certainly not a cold one but most definitely not a warm one either. If one were to sip at the drink, they may make a face. Not one of disgust but not of satisfaction either.\n\nWhat can be said of tea left in the sill could just as aptly be applied to Lord Protector Arthur Neville Chamberlain. Neville did not rise to prominence via revolutionary zeal or by following in the footsteps of great statesmen. No, Neville managed a plantation in Nigeria, working tirelessly to supervise the harvesting of coffee, as most affluent persons did. It was his outstanding mediocrity, his prowess for good enough, that stood out to the Lord Protector when Neville was made Lord Mayor of his home city of Birmingham. It was in that city that he established a municipal savings bank, the first one in Britain.\n\nLord Protector David Lloyd George took keen interest in Chamberlain, eager to exploit his economic prowess. Neville was invited to advise Lloyd George's government and it was there he got his first taste for politics. Since then, Neville found himself bouncing between bureaucratic bubbles. From postmaster general to chancellor of the Exchequer, Neville has seen it all. The people, on the other hand, feel they've seen enough.\n\nTo many of the people of Britain, living under the Chamberlain government is to be a child once more, sitting at the table with a plate of vegetables before them. The people pick and poke at their food with a general disinterest. Luckily for them, Chamberlain's time as Lord Protector is approaching its end. It'll only be a matter of time before the British people say once more,\n\n"Pass the peas, darling.""
+  POLITICS_OLAF_STAPLEDON_DESC:0 "Olaf Stapledon is not the kind of person anyone imagines becoming the leader of a world power. First becoming a well-known figure as a science fiction novelist, Stapledon's works often included themes that were obviously socialist and could even be interpreted as anarchist, showing dystopic hyper-consumerist futures and grand societies that functioned off of mutual cooperation rather than states and governments. Stapledon also made it clear that he was an ardent pacifist, protesting against the close brush with war that came alongside German unification. Stapledon made his grandest statement yet with the release of Star Maker mere months before the election, right at the start of 1937.\n\nNow, against all odds, this ethicist, novelist, and pacifist is Lord Protector of one of the most powerful nations on the face of the Earth. As a writer, Stapledon's rhetoric and prose are unmatched, but can his essays and speeches truly translate into a commonwealth based on common welfare? Now the future that he once wrote about is in his hands."
+  POLITICS_HERBERT_SAMUEL_DESC:0 "Herbert Samuel has taken his place as Lord Protector of the Commonwealth of Britain. In a landscape dominated by fiery rhetoric, radical ideas, and a demand for change, Samuel is the one who has most devotedly stuck to the center, earning the admiration of previous Lord Protector Neville Chamberlain despite the party divide. Samuel holds the torch of liberalism among the darkness of radicalism, and perhaps the only thing he won't compromise on is his centrism.\n\nDespite being a centrist liberal and upholder of the status quo, Samuel is as unlikely a leader as any in many ways. The first ever Lord Protector to be an at least nominally practising Jew and the second ever Lord Protector of Jewish ancestry, Samuel faced his own set of challenges. In times like these, one could even argue that being a centrist is harder than being a fiery demagogue, when the people are so willing to choose the radicals and reject the status quo. Samuel's term may not be as radical as his competitors' could have been, but that does not necessarily mean it will be less interesting."
+  POLITICS_OSWALD_MOSLEY_DESC:0 "Oliver Cromwell casts a long shadow over Britain, and over all of history. Though his legacy is somewhat controversial, there are few politicians in Britain who would dare claim that they don't at least partially respect him. However, almost nobody's admiration is as intense or sincere as Oswald Mosley's.\n\nMosley's vision of republicanism is frightening to many, and bold and visionary to others. To him, it is more than just a system in which the people rather than the monarch are the focus. It is an ideal of revolution, of unity, of strength. It is a nationalist ideology in the purest sense, where every citizen is as important to the progress and might of the nation as any other. The nation is its people, and the people are the Republic.\n\nNow, Mosley holds the office which his personal hero and inspiration created three centuries ago: Lord Protector. To have such a man wield so much power means that the next five years will be unlike any in the nation's past, and though it remains to be seen whether his impact will be remembered as glorious or catastrophic, it is certain that it will be remembered as truly massive."
+  POLITICS_ANTHONY_EDEN_DESC:0 "Anthony Eden has long advocated for Britain to assert its place in the world. For too long, Britain has been simply another great nation of many, one that jockeys for colonial influence and power on the European continent. To Eden, this must end. Britain is not just another power among many. Britain is unique and mighty, and it must make sure that the rest of the world knows that. Britain must be at the forefront, leading the world as it did when it became the first nation in centuries to throw off the shackles of monarchy to become a republic.\n\nNow, Eden has the chance to put his plans into action. Though his policy at home is somewhat similar to that of his predecessor, Chamberlain, Eden differs greatly from the former Lord Protector in how dedicated he is to that policy. He will not compromise, handing his leadership on plate to the opposition like Chamberlain did. Both at home and abroad, Britain will not compromise."
+  COUP_MOSLEY_DESC:0 "Oliver Cromwell casts a long shadow over Britain, and over all of history. Though his legacy is somewhat controversial, there are few politicians in Britain who would dare claim that they don't at least partially respect him. However, almost nobody's admiration is as intense or sincere as Oswald Mosley's.\n\nMosley's vision of republicanism is frightening to many, and bold and visionary to others. To him, it is more than just a system in which the people rather than the monarch are the focus. It is an ideal of revolution, of unity, of strength. It is a nationalist ideology in the purest sense, where every citizen is as important to the progress and might of the nation as any other. The nation is its people, and the people are the Republic.\n\nNow, Mosley holds the office which his personal hero and inspiration created three centuries ago: Lord Protector. With the bold actions taken to achieve this dream, Oswald Mosley has set a standard for years to come. The people’s voice only matters if one rallies for the Republic, and to stand against the leader of the Republic is treasonous to the Republic itself. The dream of a democratic Britain standing through the storms to come has been shaken out of the people, as Mosely has awoken them from that nightmare. The people can be wrong, but the valiant Lord Protector shall rule benevolently with an the nation's fist to assure that the people learn. All will learn."
+ 
+  ## Parties ##
+  ENG_centralism_party:0 "WPC"
+  ENG_centralism_party_long:0 "Workers Party of the Commonwealth"
+  ENG_socialism_party:0 "BSP"
+  ENG_socialism_party_long:0 "British Socialist Party"
+  ENG_socialist_party_new_long:0 "British Socialist Party" # https://en.wikipedia.org/wiki/British_Socialist_Party
+  ENG_socialist_party_new:0 "BSP"
+  ENG_progressivism_party:0 "CWP"
+  ENG_progressivism_party_long:0 "Common Wealth Party"
+  ENG_liberalism_party:0 "LP"
+  ENG_liberalism_party_long:0 "Liberal Party"
+  ENG_conservatism_party:0 "CP"
+  ENG_conservatism_party_long:0 "Conservative Party"
+  ENG_republicanism_party:0 "RP"
+  ENG_republicanism_party_long:0 "Republican Party"
+  ENG_authoritarianism_party:0 "PC"
+  ENG_authoritarianism_party_long:0 "Populists of the Commonwealth"
+  ENG_ultranationalism_party:0 "CF"
+  ENG_ultranationalism_party_long:0 "Commonwealth of Fascists"
+  
+  ENG_social_credit_authoritarianism_party:0 "SCPC"
+  ENG_social_credit_authoritarianism_party:0 "Social Credit Party of the Commonwealth"
+  
+  ## Focuses ##
+  
+  #Intro Tree - New
+  ENG_intro_chamberlains_last_year:0 "Chamberlain's Last Year"
+  ENG_intro_chamberlains_last_year_desc:0 ""
+
+  ENG_intro_ulster_in_chains:0 "Ulster in Chains"
+  ENG_intro_ulster_in_chains_desc:0 ""
+
+  ENG_intro_work_with_the_city_government:0 "Work with the City Government"
+  ENG_intro_work_with_the_city_government_desc:0 ""
+
+  ENG_intro_to_the_farms:0 "To The Farms"
+  ENG_intro_to_the_farms_desc:0 ""
+
+  ENG_intro_offer_the_lords_a_fair_deal:0 "Offer the Lords a Deal"
+  ENG_intro_offer_the_lords_a_fair_deal_desc:0 ""
+
+  ENG_intro_the_third_land_reform_bill:0 "The Third Land Reform Bill"
+  ENG_intro_the_third_land_reform_bill_desc:0 ""
+
+  ENG_intro_revitalization_of_the_empire:0 "Revitalization of the Empire"
+  ENG_intro_revitalization_of_the_empire_desc:0 ""
+
+  ENG_intro_the_pyramid:0 "The Pyramid"
+  ENG_intro_the_pyramid_desc:0 ""
+
+  ENG_intro_expand_lawrencian_extraction:0 "Expand Lawrencian Extraction"
+  ENG_intro_expand_lawrencian_extraction_desc:0 ""
+
+  ENG_intro_free_the_conflict:0 "Freeze the Conflict"
+  ENG_intro_free_the_conflict_desc:0 ""
+
+  ENG_intro_slims_burden:0 "Slim's Burden"
+  ENG_intro_slims_burden_desc:0 ""
+
+  ENG_intro_whatever_lines_mean:0 "Whatever Lines Mean"
+  ENG_intro_whatever_lines_mean_desc:0 ""
+
+  ENG_intro_loyalty_in_the_cape:0 "Loyalty in the Cape?"
+  ENG_intro_loyalty_in_the_cape_desc:0 ""
+
+  ENG_intro_an_oppertunity_in_poland:0 "An Oppertunity in Poland"
+  ENG_intro_an_oppertunity_in_poland_desc:0 ""
+
+  ENG_intro_a_message_to_warsaw:0 "A Message to Warsaw"
+  ENG_intro_a_message_to_warsaw_desc:0 ""
+
+  ENG_intro_stomp_austrias_ambition:0 "Stomp Austria's Ambition"
+  ENG_intro_stomp_austrias_ambition_desc:0 ""
+
+  ENG_intro_british_boots_on_polish_shores:0 "British Boots on Polish Shores"
+  ENG_intro_british_boots_on_polish_shores_desc:0 ""
+
+  ENG_intro_hold_the_front:0 "Hold the Front"
+  ENG_intro_hold_the_front_desc:0 ""
+
+  ENG_intro_continue_the_fighting:0 "Continue the Fighting"
+  ENG_intro_continue_the_fighting_desc:0 ""
+
+  ENG_intro_a_war_of_persistence:0 "A War of Persistence"
+  ENG_intro_a_war_of_persistence_desc:0 ""
+
+  ENG_intro_grab_what_we_can:0 "Grab What We Can"
+  ENG_intro_grab_what_we_can_desc:0 ""
+
+  ENG_intro_a_return_to_glory:0 "A Return to Glory"
+  ENG_intro_a_return_to_glory_desc:0 ""
+
+  #Intro Tree - Old
+  ENG_chamberlains_last_year:0 "Chamberlain's Last Year"
+  ENG_chamberlains_last_year_desc:0 ""
+  
+  ENG_groom_the_successor:0 "Groom The Successor"
+  ENG_groom_the_successor_desc:0 ""
+  
+  ENG_compromise_with_mosely:0 "Compromise WIth Mosley"
+  ENG_compromise_with_mosely_desc:0 ""
+  
+  ENG_ease_in_stapledon:0 "Ease In Stapledon"
+  ENG_ease_in_stapledon_desc:0 ""
+  
+  ENG_success_in_samuel:0 "Success In Samuel"
+  ENG_success_in_samuel_desc:0 ""
+  
+  ENG_quell_the_conservatives:0 "Quell The Conservatives"
+  ENG_quell_the_conservatives_desc:0 ""
+  
+  ENG_reach_for_the_moderates:0 "Reach For The Moderates"
+  ENG_reach_for_the_moderates_desc:0 ""
+  
+  ENG_the_odd_johns_of_the_commonwealth:0 "The Odd Johns Of The Commonwealth"
+  ENG_the_odd_johns_of_the_commonwealth_desc:0 ""
+  
+  ENG_the_friendly_foe:0 "The Friendly Foe"
+  ENG_the_friendly_foe_desc:0 ""
+  
+  ENG_accidental_alienation:0 "Accidental Alienation"
+  ENG_accidental_alienation_desc:0 ""
+  
+  ENG_solidify_the_moderates:0 "Solidify The Moderates"
+  ENG_solidify_the_moderates_desc:0 ""
+  
+  ENG_firm_policy:0 "Firm Policy"
+  ENG_firm_policy_desc:0 ""
+  
+  ENG_the_fight_for_stability:0 "The Fight For Stability"
+  ENG_the_fight_for_stability_desc:0 ""
+  
+  ENG_political_peace:0 "Political Peace"
+  ENG_political_peace_desc:0 ""
+  
+  ENG_mend_the_extremes:0 "Mend The Extremes"
+  ENG_mend_the_extremes_desc:0 ""
+  
+  ENG_gain_their_support:0 "Gain Their Support"
+  ENG_gain_their_support_desc:0 ""
+  
+  ENG_a_firm_separation:0 "A Firm Separation"
+  ENG_a_firm_separation_desc:0 ""
+  
+  ENG_prevent_their_devilish_deeds:0 "Prevent Their Devilish Deeds"
+  ENG_prevent_their_devilish_deeds_desc:0 ""
+
+  #Tool Tips
+  eng_conservative_boast:0 "The Conservatives will gain popularity\n"
+  eng_conservative_malus:0 "The Conservatives will lose popularity\n"  
+
+  eng_progressive_boast:0 "The Progressives will gain popularity\n"
+  eng_progressive_malus:0 "The Progressives will lose popularity\n"  
+
+  eng_republican_boast:0 "The Republicans will gain popularity\n"
+  eng_republican_malus:0 "The Republicans will lose popularity\n"  
+
+  eng_liberal_boast:0 "The Liberals will gain popularity\n"
+  eng_liberal_malus:0 "The Liberals will lose popularity\n"  

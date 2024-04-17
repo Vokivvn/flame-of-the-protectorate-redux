@@ -1,0 +1,1015 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "USA_congress_button"
+		position = { x= 0 y = 0 }
+		size = { width = 220 height = 128 }
+
+		buttonType = {
+			name ="USA_button_icon"
+			spriteType = "GFX_decision_category_usa_congress_senate_ui"
+			position = { x = 138 y = 388 }
+		}
+
+	}
+	
+	containerWindowType = {
+		name = "TOTP_USA_congress_GUI"
+		position = { x = 536 y = 43 }
+		size = { width = 586 height = 600 }
+		movable = no
+		
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_thin_border2"
+		}
+		
+		# senators
+		iconType = {
+			name = "TOTP_SENATOR_1"
+			position = { x = 10  y = 393 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_2"
+			position = { x = 20  y = 393 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_3"
+			position = { x = 30  y = 393 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_4"
+			position = { x = 40  y = 393 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_5"
+			position = { x = 50  y = 393 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_6"
+			position = { x = 60  y = 393 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_7"
+			position = { x = 70  y = 393 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_8" 
+			position = { x = 80  y = 393 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_9"
+			position = { x = 90  y = 393 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_10"
+			position = { x = 100  y = 393 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_11"
+			position = { x = 110  y = 393 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_12"
+			position = { x = 120  y = 393 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_13"
+			position = { x = 130  y = 393 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_14"
+			position = { x = 140  y = 393 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_15"
+			position = { x = 150  y = 393 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_16"
+			position = { x = 160  y = 393 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_17"
+			position = { x = 170  y = 393 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_18"
+			position = { x = 180  y = 393 }
+		} 
+		iconType = {
+			name = "TOTP_SENATOR_19"
+			position = { x = 190  y = 393 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_20"
+			position = { x = 200  y = 393 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_21"
+			position = { x = 10  y = 403 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_22"
+			position = { x = 20  y = 403 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_23"
+			position = { x = 30  y = 403 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_24"
+			position = { x = 40  y = 403 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_25"
+			position = { x = 50  y = 403 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_26"
+			position = { x = 60  y = 403 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_27"
+			position = { x = 70  y = 403 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_28" 
+			position = { x = 80  y = 403 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_29"
+			position = { x = 90  y = 403 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_30"
+			position = { x = 100  y = 403 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_31"
+			position = { x = 110  y = 403 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_32"
+			position = { x = 120  y = 403 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_33"
+			position = { x = 130  y = 403 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_34"
+			position = { x = 140  y = 403 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_35"
+			position = { x = 150  y = 403 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_36"
+			position = { x = 160  y = 403 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_37"
+			position = { x = 170  y = 403 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_38"
+			position = { x = 180  y = 403 }
+		}  
+		iconType = {
+			name = "TOTP_SENATOR_39"
+			position = { x = 190  y = 403 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_40"
+			position = { x = 200  y = 403 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_41"
+			position = { x = 10  y = 413 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_42"
+			position = { x = 20  y = 413 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_43"
+			position = { x = 30  y = 413 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_44"
+			position = { x = 40  y = 413 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_45"
+			position = { x = 50  y = 413 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_46"
+			position = { x = 60  y = 413 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_47"
+			position = { x = 70  y = 413 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_48" 
+			position = { x = 80  y = 413 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_49"
+			position = { x = 90  y = 413 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_50"
+			position = { x = 100  y = 413 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_51"
+			position = { x = 110  y = 413 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_52"
+			position = { x = 120  y = 413 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_53"
+			position = { x = 130  y = 413 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_54"
+			position = { x = 140  y = 413 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_55"
+			position = { x = 150  y = 413 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_56"
+			position = { x = 160  y = 413 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_57"
+			position = { x = 170  y = 413 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_58"
+			position = { x = 180  y = 413 }
+		} 
+		iconType = {
+			name = "TOTP_SENATOR_59"
+			position = { x = 190  y = 413 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_60"
+			position = { x = 200  y = 413 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_61"
+			position = { x = 10  y = 423 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_62"
+			position = { x = 20  y = 423 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_63"
+			position = { x = 30  y = 423 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_64"
+			position = { x = 40  y = 423 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_65"
+			position = { x = 50  y = 423 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_66"
+			position = { x = 60  y = 423 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_67"
+			position = { x = 70  y = 423 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_68" 
+			position = { x = 80  y = 423 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_69"
+			position = { x = 90  y = 423 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_70"
+			position = { x = 100  y = 423 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_71"
+			position = { x = 110  y = 423 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_72"
+			position = { x = 120  y = 423 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_73"
+			position = { x = 130  y = 423 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_74"
+			position = { x = 140  y = 423 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_75"
+			position = { x = 150  y = 423 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_76"
+			position = { x = 160  y = 423 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_77"
+			position = { x = 170  y = 423 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_78"
+			position = { x = 180  y = 423 }
+		} 
+		iconType = {
+			name = "TOTP_SENATOR_79"
+			position = { x = 190  y = 423 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_80"
+			position = { x = 200  y = 423 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_81"
+			position = { x = 10   y = 433 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_82"
+			position = { x = 20   y = 433 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_83"
+			position = { x = 30   y = 433 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_84"
+			position = { x = 40   y = 433 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_85"
+			position = { x = 50   y = 433 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_86"
+			position = { x = 60   y = 433 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_87"
+			position = { x = 70   y = 433 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_88" 
+			position = { x = 80   y = 433 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_89"
+			position = { x = 90   y = 433 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_90"
+			position = { x = 100   y = 433 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_91"
+			position = { x = 110   y = 433 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_92"
+			position = { x = 120   y = 433 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_93"
+			position = { x = 130   y = 433 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_94"
+			position = { x = 140   y = 433 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_95"
+			position = { x = 150   y = 433 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_96"
+			position = { x = 160   y = 433 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_97"
+			position = { x = 170   y = 433 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_98"
+			position = { x = 180   y = 433 }
+		} 
+		iconType = {
+			name = "TOTP_SENATOR_99"
+			position = { x = 190   y = 433 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_100"
+			position = { x = 200   y = 433 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_101"
+			position = { x = 10  y = 443 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_102"
+			position = { x = 20  y = 443 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_103"
+			position = { x = 30  y = 443 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_104"
+			position = { x = 40  y = 443 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_105"
+			position = { x = 50  y = 443 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_106"
+			position = { x = 60  y = 443 }
+		}
+		iconType = {
+			name = "TOTP_SENATOR_106"
+			position = { x = 60  y = 443 }
+		}
+		
+		iconType = { # House
+			name = "TOTP_HOUSE_OVERLAY"
+			quadTextureSprite = "GFX_USA_House"
+			position = { x = 10  y = 10 }
+		}
+		
+		# House Stuff
+		iconType = {
+			name = "TOTP_Republican_House_Member_Set_1"
+			quadTextureSprite = "GFX_USA_republican_seats"
+			position = { x = 12  y = 12 }
+		}
+		iconType = {
+			name = "TOTP_Republican_House_Member_Set_2"
+			quadTextureSprite = "GFX_USA_republican_seats"
+			position = { x = 12  y = 42 }
+		}
+		iconType = {
+			name = "TOTP_Republican_House_Member_Set_3"
+			quadTextureSprite = "GFX_USA_republican_seats"
+			position = { x = 12  y = 72 }
+		}
+		iconType = {
+			name = "TOTP_Republican_House_Member_Set_4"
+			quadTextureSprite = "GFX_USA_republican_seats"
+			position = { x = 12  y = 102 }
+		}
+		iconType = {
+			name = "TOTP_Republican_House_Member_Set_5"
+			quadTextureSprite = "GFX_USA_republican_seats"
+			position = { x = 12  y = 132 }
+		}
+		iconType = {
+			name = "TOTP_Republican_House_Member_Set_6"
+			quadTextureSprite = "GFX_USA_republican_seats"
+			position = { x = 12  y = 162 }
+		}
+		iconType = {
+			name = "TOTP_Republican_House_Member_Set_7"
+			quadTextureSprite = "GFX_USA_republican_seats"
+			position = { x = 12  y = 192 }
+		}
+		iconType = {
+			name = "TOTP_Republican_House_Member_Set_8"
+			quadTextureSprite = "GFX_USA_republican_seats"
+			position = { x = 12  y = 222 }
+		}
+		iconType = {
+			name = "TOTP_Republican_House_Member_Set_9"
+			quadTextureSprite = "GFX_USA_republican_seats"
+			position = { x = 12  y = 252 }
+		}
+		iconType = {
+			name = "TOTP_Republican_House_Member_Set_10"
+			quadTextureSprite = "GFX_USA_republican_seats"
+			position = { x = 12  y = 282 }
+		}
+		iconType = {
+			name = "TOTP_Whig_House_Member_Set_1"
+			quadTextureSprite = "GFX_USA_whig_seats"
+			position = { x = 12  y = 12 }
+		}
+		iconType = {
+			name = "TOTP_Whig_House_Member_Set_2"
+			quadTextureSprite = "GFX_USA_whig_seats"
+			position = { x = 12  y = 42 }
+		}
+		iconType = {
+			name = "TOTP_Whig_House_Member_Set_3"
+			quadTextureSprite = "GFX_USA_whig_seats"
+			position = { x = 12  y = 72 }
+		}
+		iconType = {
+			name = "TOTP_Whig_House_Member_Set_4"
+			quadTextureSprite = "GFX_USA_whig_seats"
+			position = { x = 12  y = 102 }
+		}
+		iconType = {
+			name = "TOTP_Whig_House_Member_Set_5"
+			quadTextureSprite = "GFX_USA_whig_seats"
+			position = { x = 12  y = 132 }
+		}
+		iconType = {
+			name = "TOTP_Whig_House_Member_Set_6"
+			quadTextureSprite = "GFX_USA_whig_seats"
+			position = { x = 12  y = 162 }
+		}
+		iconType = {
+			name = "TOTP_Whig_House_Member_Set_7"
+			quadTextureSprite = "GFX_USA_whig_seats"
+			position = { x = 12  y = 192 }
+		}
+		iconType = {
+			name = "TOTP_Whig_House_Member_Set_8"
+			quadTextureSprite = "GFX_USA_whig_seats"
+			position = { x = 12  y = 222 }
+		}
+		iconType = {
+			name = "TOTP_Whig_House_Member_Set_9"
+			quadTextureSprite = "GFX_USA_whig_seats"
+			position = { x = 12  y = 252 }
+		}
+		iconType = {
+			name = "TOTP_Whig_House_Member_Set_10"
+			quadTextureSprite = "GFX_USA_whig_seats"
+			position = { x = 12  y = 282 }
+		}
+		iconType = {
+			name = "TOTP_Democrat_House_Member_Set_1"
+			quadTextureSprite = "GFX_USA_democrat_seats"
+			position = { x = 12  y = 12 }
+		}
+		iconType = {
+			name = "TOTP_Democrat_House_Member_Set_2"
+			quadTextureSprite = "GFX_USA_democrat_seats"
+			position = { x = 12  y = 42 }
+		}
+		iconType = {
+			name = "TOTP_Democrat_House_Member_Set_3"
+			quadTextureSprite = "GFX_USA_democrat_seats"
+			position = { x = 12  y = 72 }
+		}
+		iconType = {
+			name = "TOTP_Democrat_House_Member_Set_4"
+			quadTextureSprite = "GFX_USA_democrat_seats"
+			position = { x = 12  y = 102 }
+		}
+		iconType = {
+			name = "TOTP_Democrat_House_Member_Set_5"
+			quadTextureSprite = "GFX_USA_democrat_seats"
+			position = { x = 12  y = 132 }
+		}
+		iconType = {
+			name = "TOTP_Democrat_House_Member_Set_6"
+			quadTextureSprite = "GFX_USA_democrat_seats"
+			position = { x = 12  y = 162 }
+		}
+		iconType = {
+			name = "TOTP_Democrat_House_Member_Set_7"
+			quadTextureSprite = "GFX_USA_democrat_seats"
+			position = { x = 12  y = 192 }
+		}
+		iconType = {
+			name = "TOTP_Democrat_House_Member_Set_8"
+			quadTextureSprite = "GFX_USA_democrat_seats"
+			position = { x = 12  y = 222 }
+		}
+		iconType = {
+			name = "TOTP_Democrat_House_Member_Set_9"
+			quadTextureSprite = "GFX_USA_democrat_seats"
+			position = { x = 12  y = 252 }
+		}
+		iconType = {
+			name = "TOTP_Democrat_House_Member_Set_10"
+			quadTextureSprite = "GFX_USA_democrat_seats"
+			position = { x = 12  y = 282 }
+		}
+		iconType = {
+			name = "TOTP_Progressive_House_Member_Set_1"
+			quadTextureSprite = "GFX_USA_progressive_seats"
+			position = { x = 12  y = 12 }
+		}
+		iconType = {
+			name = "TOTP_Progressive_House_Member_Set_2"
+			quadTextureSprite = "GFX_USA_progressive_seats"
+			position = { x = 12  y = 42 }
+		}
+		iconType = {
+			name = "TOTP_Progressive_House_Member_Set_3"
+			quadTextureSprite = "GFX_USA_progressive_seats"
+			position = { x = 12  y = 72 }
+		}
+		iconType = {
+			name = "TOTP_Progressive_House_Member_Set_4"
+			quadTextureSprite = "GFX_USA_progressive_seats"
+			position = { x = 12  y = 102 }
+		}
+		iconType = {
+			name = "TOTP_Progressive_House_Member_Set_5"
+			quadTextureSprite = "GFX_USA_progressive_seats"
+			position = { x = 12  y = 132 }
+		}
+		iconType = {
+			name = "TOTP_Progressive_House_Member_Set_6"
+			quadTextureSprite = "GFX_USA_progressive_seats"
+			position = { x = 12  y = 162 }
+		}
+		iconType = {
+			name = "TOTP_Progressive_House_Member_Set_7"
+			quadTextureSprite = "GFX_USA_progressive_seats"
+			position = { x = 12  y = 192 }
+		}
+		iconType = {
+			name = "TOTP_Progressive_House_Member_Set_8"
+			quadTextureSprite = "GFX_USA_progressive_seats"
+			position = { x = 12  y = 222 }
+		}
+		iconType = {
+			name = "TOTP_Progressive_House_Member_Set_9"
+			quadTextureSprite = "GFX_USA_progressive_seats"
+			position = { x = 12  y = 252 }
+		}
+		iconType = {
+			name = "TOTP_Progressive_House_Member_Set_10"
+			quadTextureSprite = "GFX_USA_progressive_seats"
+			position = { x = 12  y = 282 }
+		}
+		
+		
+		# Senate Stuff
+		iconType = {
+			name = "TOTP_Republican_Senator_Count"
+			quadTextureSprite = "GFX_USA_republican_seats"
+			position = { x = 12  y = 395 }
+		} 
+		iconType = {
+			name = "TOTP_Republican_Senator_Count2"
+			quadTextureSprite = "GFX_USA_republican_seats2"
+			position = { x = 12  y = 395 }
+		}
+		iconType = {
+			name = "TOTP_Whigs_Senator_Count"
+			quadTextureSprite = "GFX_USA_whig_seats"
+			position = { x = 12  y = 395 }
+		}
+		iconType = {
+			name = "TOTP_Whigs_Senator_Count2"
+			quadTextureSprite = "GFX_USA_whig_seats2"
+			position = { x = 12  y = 395 }
+		}
+		iconType = {
+			name = "TOTP_Democrats_Senator_Count"
+			quadTextureSprite = "GFX_USA_democrat_seats"
+			position = { x = 12  y = 395 }
+		}
+		iconType = {
+			name = "TOTP_Democrats_Senator_Count2"
+			quadTextureSprite = "GFX_USA_democrat_seats2"
+			position = { x = 12  y = 395 }
+		}
+		iconType = {
+			name = "TOTP_Progressive_Senator_Count"
+			quadTextureSprite = "GFX_USA_progressive_seats"
+			position = { x = 12  y = 395 }
+		}
+		iconType = {
+			name = "TOTP_Progressive_Senator_Count2"
+			quadTextureSprite = "GFX_USA_progressive_seats2"
+			position = { x = 12  y = 395 }
+		}
+		
+		instantTextBoxType = {
+			name ="HOUSE_NAME"
+			position = { x = 10 y = 261 }
+			font = "hoi_24header"
+			text = "HOUSE_NAME_TEXT"  
+			format = center
+			maxHeight = 28
+		} 
+		
+		instantTextBoxType = {
+			name ="PROGRESSIVE_CONTROL_HOUSE"
+			position = { x = 13 y = 290 }
+			font = "hoi_18header"
+			text = "PROGRESSIVE_CONTROL_HOUSE"
+			format = center
+			maxHeight = 28
+			maxWidth = 88
+		}
+		
+		instantTextBoxType = {
+			name ="WHIG_CONTROL_HOUSE"
+			position = { x = 127 y = 290 }
+			font = "hoi_18header" 
+			text = "WHIG_CONTROL_HOUSE"
+			format = center 
+			maxHeight = 28
+			maxWidth = 88
+		}
+		instantTextBoxType = {
+			name ="DEMOCRAT_CONTROL_HOUSE"
+			position = { x = 13 y = 350 }
+			font = "hoi_18header"
+			text = "DEMOCRAT_CONTROL_HOUSE"
+			format = center
+			maxHeight = 28
+			maxWidth = 88
+		} 
+		 
+		instantTextBoxType = {
+			name ="REPUBLICAN_CONTROL_HOUSE"
+			position = { x = 127 y = 350 }
+			font = "hoi_18header" 
+			text = "REPUBLICAN_CONTROL_HOUSE"
+			format = center 
+			maxHeight = 28
+			maxWidth = 88
+		}
+		
+		instantTextBoxType = {
+			name ="SENATE_NAME"
+			position = { x = 10 y = 451 }
+			font = "hoi_24header"
+			text = "SENATE_NAME_TEXT"
+			format = center
+			maxHeight = 28
+		}
+		
+		instantTextBoxType = {
+			name ="PROGRESSIVE_CONTROL"
+			position = { x = 13 y = 480 }
+			font = "hoi_18header"
+			text = "PROGRESSIVE_CONTROL"
+			format = center
+			maxHeight = 28
+			maxWidth = 88
+		}
+		
+		instantTextBoxType = {
+			name ="WHIG_CONTROL"
+			position = { x = 127 y = 480 }
+			font = "hoi_18header" 
+			text = "WHIG_CONTROL"
+			format = center
+			maxHeight = 28
+			maxWidth = 88
+		}
+		instantTextBoxType = {
+			name ="DEMOCRAT_CONTROL"
+			position = { x = 13 y = 540 }
+			font = "hoi_18header"
+			text = "DEMOCRAT_CONTROL"
+			format = center
+			maxHeight = 28
+			maxWidth = 88
+		}
+		 
+		instantTextBoxType = {
+			name ="REPUBLICAN_CONTROL"
+			position = { x = 127 y = 540 }
+			font = "hoi_18header" 
+			text = "REPUBLICAN_CONTROL"
+			format = center
+			maxHeight = 28
+			maxWidth = 88
+		}
+		
+		buttonType = {
+			name = "TOTP_button_for_negotiations" 
+			quadTextureSprite = "GFX_filibutton"
+			position = { x = 343 y = 540 }
+		}
+		
+		#
+		
+		instantTextBoxType = {
+			name ="speaker_title" 
+			position = { x = 211 y = 12 } 
+			font = "hoi_24header" 
+			text = "speaker_title"  
+			format = center
+			maxHeight = 28
+			maxWidth = 189
+		} 
+		instantTextBoxType = {
+			name ="senate_leader"
+			position = { x = 389 y = 12 } 
+			font = "hoi_24header" 
+			text = "senate_leader"   
+			format = center
+			maxHeight = 28
+			maxWidth = 189
+		}
+		iconType = {
+			name = "house_speaker_persom"
+			position = { x = 228 y = 36 } 
+		}	
+		iconType = {
+			name = "senate_leader_persom"
+			position = { x = 406 y = 36 }  
+		}	
+		instantTextBoxType = {
+			name ="vice_president"
+			position = { x = 308 y = 246 } 
+			font = "hoi_24header" 
+			text = "vice_president"   
+			format = center
+			maxHeight = 28
+			maxWidth = 189 
+		}	
+		iconType = {
+			name = "vice_president_person"
+			position = { x = 322 y = 270 } 
+		}			
+	} 
+	
+	containerWindowType = {
+		name = "TOTP_USA_CONGRESS_NEGOTIATIONS"
+		position = { x = 900 y = 43 }
+		size = { width = 600 height = 543 }
+		moveable = yes
+		
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_thin_border2"
+		}
+		
+		instantTextBoxType = {
+			name ="HOUSE_NAME"
+			position = { x = 200 y = 10 }
+			font = "hoi_24header"
+			text = "HOUSE_NAME_TEXT"  
+			format = center
+			maxHeight = 28
+		} 
+		
+		buttonType = { # Progressive 
+			name = "Progressive_House_Neg_Button" 
+			quadTextureSprite = "GFX_filibutton"
+			position = { x = 13 y = 38 }
+		}
+		buttonType = { # Democratic
+			name = "Democratic_House_Neg_Button"   
+			quadTextureSprite = "GFX_filibutton"
+			position = { x = 163 y = 38 }
+		}
+		buttonType = { # Whig 
+			name = "Whig_House_Neg_Button"  
+			quadTextureSprite = "GFX_filibutton"
+			position = { x = 314 y = 38 } 
+		}
+		buttonType = { # Republican
+			name = "Republican_House_Neg_Button" 
+			quadTextureSprite = "GFX_filibutton"
+			position = { x = 464 y = 38 } 
+		}
+		 
+		instantTextBoxType = {
+			name ="SENATE_NAME"
+			position = { x = 200 y = 81 }
+			font = "hoi_24header"
+			text = "SENATE_NAME_TEXT"  
+			format = center
+			maxHeight = 28
+		} 
+		
+		buttonType = { # Progressive
+			name = "Progressive_Senate_Neg_Button" 
+			quadTextureSprite = "GFX_filibutton"
+			position = { x = 13 y = 109 }
+		}
+		buttonType = { # Democratic
+			name = "Democratic_Senate_Neg_Button"   
+			quadTextureSprite = "GFX_filibutton"
+			position = { x = 163 y = 109 }
+		}
+		buttonType = { # Whig 
+			name = "Whig_Senate_Neg_Button"  
+			quadTextureSprite = "GFX_filibutton" 
+			position = { x = 314 y = 109 }
+		}
+		buttonType = { # Republican
+			name = "Republican_Senate_Neg_Button" 
+			quadTextureSprite = "GFX_filibutton"
+			position = { x = 464 y = 109 } 
+		}
+		
+		iconType = {
+			name = "Negotiation_Person"
+			quadTextureSprite = "GFX_Lussu"
+			position = { x = 20  y = 160 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "Dialogue_Box"
+			quadTextureSprite = "GFX_Dialogue_Box"
+			position = { x = 20  y = 382 }
+			alwaystransparent = yes
+		}
+		
+		instantTextBoxType = { 
+			name ="Neg_Role"
+			position = { x = 190 y = 160 }
+			font = "hoi_18header"
+			text = "Person_Role"
+			format = left 
+			maxHeight = 28
+			maxWidth = 167
+		}
+		instantTextBoxType = { 
+			name ="Neg_Name"
+			position = { x = 190 y = 188 }
+			font = "hoi_18header"
+			text = "Neg_Name"
+			format = left 
+			maxHeight = 28
+			maxWidth = 167
+		}
+		instantTextBoxType = { 
+			name ="Neg_Party"
+			position = { x = 190 y = 216 }
+			font = "hoi_18header"
+			text = "Neg_Party"
+			format = left 
+			maxHeight = 28
+			maxWidth = 167
+		}
+		
+		instantTextBoxType = { 
+			name ="Bill_Name"
+			position = { x = 367 y = 160 }
+			font = "hoi_18header"
+			text = "Bill_Name"
+			format = left 
+			maxHeight = 28
+			maxWidth = 167
+		}
+		instantTextBoxType = { 
+			name ="Bill_Integrity"
+			position = { x = 367 y = 188 }
+			font = "hoi_18header"
+			text = "Bill_Integrity"
+			format = left 
+			maxHeight = 28
+			maxWidth = 167
+		}
+		instantTextBoxType = {  
+			name ="Negotiation_Success"
+			position = { x = 367 y = 216 }
+			font = "hoi_18header"
+			text = "Negotiation_Success"
+			format = left 
+			maxHeight = 28
+			maxWidth = 167
+		}
+		
+		buttonType = { # top left
+			name = "TOTP_neg_button_1" 
+			quadTextureSprite = "GFX_190x61_button"
+			position = { x = 190  y = 246 }
+		}
+		buttonType = { # top right
+			name = "TOTP_neg_button_2" 
+			quadTextureSprite = "GFX_190x61_button"
+			position = { x = 387  y = 246 }
+		}
+		buttonType = { # bottom left
+			name = "TOTP_neg_button_3" 
+			quadTextureSprite = "GFX_190x61_button"
+			position = { x = 190  y = 311 }
+		}
+		buttonType = { # bottom right
+			name = "TOTP_neg_button_4" 
+			quadTextureSprite = "GFX_190x61_button"
+			position = { x = 387  y = 311 }
+		}
+		
+	}
+}

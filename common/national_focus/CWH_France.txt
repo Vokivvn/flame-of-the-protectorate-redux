@@ -1,0 +1,54 @@
+focus_tree = {
+	id = FRA_Starting_Out
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+	default = no
+	shared_focus = FRA_the_catalan_crisis
+	continuous_focus_position = { x = 0 y = 4000 }
+}
+
+focus_tree = {
+	id = FRA_de_gaulle
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+	default = no
+	shared_focus = FRA_the_expected_outcome
+	continuous_focus_position = { x = 0 y = 4000 }
+}
+focus_tree = {
+	id = FRA_herriot_elected
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+	default = no
+	shared_focus = FRA_victory_for_people
+	continuous_focus_position = { x = 0 y = 4000 }
+}
+focus_tree = {
+	id = FRA_huntziger
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+	default = no
+	shared_focus = FRA_the_emergency
+	shared_focus = FRA_the_coup
+	continuous_focus_position = { x = 0 y = 4000 }
+}

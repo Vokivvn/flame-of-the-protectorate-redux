@@ -1,0 +1,45 @@
+GENERIC_infamy_up = {
+	add_to_variable = { country_infamy = 1 } 
+	if = {
+		limit = {
+			check_variable = {
+				var = country_infamy
+				value = 25
+				compare = greater_than_or_equals
+			}
+		}
+		if = {
+			limit = {
+				is_major = yes
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = ROOT
+			}
+		}
+	}
+	custom_effect_tooltip = "INFAMY_UP1"
+}
+
+GENERIC_infamy_down = {
+	add_to_variable = { country_infamy = -1 } 
+	if = {
+		limit = {
+			check_variable = {
+				var = country_infamy
+				value = 25
+				compare = greater_than_or_equals
+			}
+		}
+		if = {
+			limit = {
+				is_major = yes
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = ROOT
+			}
+		}
+	}
+	custom_effect_tooltip = "INFAMY_DOWN1"
+}

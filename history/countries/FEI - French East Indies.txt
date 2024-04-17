@@ -1,0 +1,38 @@
+﻿capital = 320
+
+set_research_slots = 2
+
+set_convoys = 25
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	centralism = 0
+	socialism = 0
+	progressivism = 0
+	liberalism = 0
+	conservatism = 0
+	authoritarianism = 100
+	ultranationalism = 0
+}
+
+create_country_leader = {
+	name = "Louis Renault"
+	desc = "POLITICS_LOUIS_RENAULT_DESC"
+	picture = "Portrait_French_East_Indies_Louis_Renault.dds"
+	expire = "1965.1.1"
+	ideology = colonial_government
+	traits = {
+		#
+	}
+}
+
+add_ideas = {
+	FEI_Autonomous_Company
+	FEI_Reign_of_Gold
+	FEI_Tamil_Upper_Class
+}

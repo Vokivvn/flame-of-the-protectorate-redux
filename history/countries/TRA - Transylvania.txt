@@ -1,0 +1,39 @@
+﻿capital = 76
+
+set_variable = { country_infamy = 0 } 
+
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.6
+
+set_politics = {
+	ruling_party = progressivism
+	last_election = "1933.12.20"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	progressivism = 100
+}
+
+create_country_leader = {
+	name = "Károly Kós"
+	desc = "POLITICS_Károly_Kós-Voevod_DESC"
+	picture = "Leader_TRA_Karoly_Kos.dds"
+	expire = "1965.1.1"
+	ideology = progressivism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Alexandru Vaida"
+	desc = "POLITICS_Alexandru_Vaida-Voevod_DESC"
+	picture = "Leader_TRA_Alexandru_Vaida-Voevod.dds"
+	expire = "1965.1.1"
+	ideology = conservatism_subtype
+	traits = {
+		#
+	}
+}

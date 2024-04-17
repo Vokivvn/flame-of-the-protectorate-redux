@@ -1,0 +1,26 @@
+state={
+	id=989
+	name="STATE_989"
+	manpower = 157805
+	
+	state_category = large_town
+	
+	history={
+		owner = JAP
+		add_core_of = CHI
+		add_claim_by = JAP
+		victory_points = { 
+			4196 5 
+		}
+		buildings = {
+			infrastructure = 4
+			4196 = {
+				naval_base = 3
+			}
+		}
+	}
+	
+	provinces={
+		4196 
+	}
+}

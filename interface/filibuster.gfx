@@ -1,0 +1,56 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_no_leader"
+		texturefile = "gfx/interface/filibuster/Portrait_USA_no_leader.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_USA_Dean_Lamb"
+		texturefile = "gfx/interface/filibuster/Portrait_USA_Dean_Lamb.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_USA_Tex_ORiely"
+		texturefile = "gfx/interface/filibuster/Portrait_USA_Tex_ORiely.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_USA_Sam_Dreben"
+		texturefile = "gfx/interface/filibuster/Portrait_USA_Sam_Dreben.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_filibuster_frame"
+		texturefile = "gfx/interface/filibuster/filibuster_frame.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_filibutton"
+		texturefile = "gfx/interface/filibuster/filibutton.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_rightarrow"
+		texturefile = "gfx/interface/filibuster/rightarrow.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_leftarrow"
+		texturefile = "gfx/interface/filibuster/leftarrow.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_grey_button"
+		texturefile = "gfx/interface/filibuster/grey_button.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_yellow_button"
+		texturefile = "gfx/interface/filibuster/yellow_button.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_red_button"
+		texturefile = "gfx/interface/filibuster/red_button.dds"
+	}
+}

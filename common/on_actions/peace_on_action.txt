@@ -1,0 +1,493 @@
+on_actions = {
+	on_annex = { 
+		effect = { 
+			if = {
+				limit = {
+					ROOT = { original_tag = FRA }
+					FROM = { owns_state = 845 }
+				}
+				ROOT = { country_event = { id = peace.1 days = 1 }}
+			}
+		}
+	}
+	
+	on_annex = { 
+		effect = { 
+			if =  {
+				limit = {
+					ROOT = { original_tag = ENG }
+					FROM = { owns_state = 126 }
+				}
+				ROOT = { country_event = { id = peace.2 days = 1 }}
+			}
+		}
+	}
+	
+	on_annex = { 
+		effect = { 
+			if =  {
+				limit = {
+					ROOT = { original_tag = ITA }
+					FROM = { owns_state = 2 }
+				}
+				ROOT = { country_event = { id = peace.3 days = 1 }}
+			}
+		}
+	}
+	
+	on_annex = { 
+		effect = { 
+			if =  {
+				limit = {
+					ROOT = { original_tag = AUS }
+					FROM = { owns_state = 4 }
+				}
+				ROOT = { country_event = { id = peace.4 days = 1 }}
+			}
+		}
+	}
+	
+	on_annex = { 
+		effect = { 
+			if =  {
+				limit = {
+					ROOT = { original_tag = GER }
+					FROM = { owns_state = 59 }
+				}
+				ROOT = { country_event = { id = peace.5 days = 1 }}
+			}
+		}
+	}
+	
+	on_annex = { 
+		effect = { 
+			if =  {
+				limit = {
+					ROOT = { original_tag = GER }
+					FROM = { owns_state = 59 }
+				}
+				ROOT = { country_event = { id = peace.5 days = 1 }}
+			}
+		}
+	}
+	
+	
+	
+	on_annex = { 
+		effect = { 
+			if =  {
+				limit = {
+					ROOT = { original_tag = CRO }
+					FROM = { owns_state = 109 }
+				}
+				ROOT = { country_event = { id = peace.8 days = 1 }}
+			}
+		}
+	}
+	
+	on_state_control_changed = { 
+		effect = { 
+			if = {
+				limit = {
+					ROOT = { tag = BLR }
+					FROM = { 
+						OR = {
+							tag = UKR
+							tag = UKN
+						}
+					}
+					OR = {
+						FROM.FROM = { state = 194 }
+						ROOT = { has_full_control_of_state = 194 }
+					}
+				}
+				BLR = {
+					country_event = {
+						id = PLC.5
+						days = 2
+					}
+				}
+			}
+		} 
+	}
+	
+	on_state_control_changed = { 
+		effect = { 
+			if = {
+				limit = {
+					ROOT = { 
+						OR = {
+							tag = UKR
+							tag = UKN
+						}
+					}
+					FROM = { tag = BLR }
+					OR = {
+						FROM.FROM = { state = 194 }
+						ROOT = { has_full_control_of_state = 194 }
+					}
+				}
+				ROOT = {
+					country_event = {
+						id = PLC.3
+						days = 2
+					}
+				}
+			}
+		} 
+	}
+	on_capitulation = {
+		effect = { 
+			if = {
+				limit = {
+					ROOT = { tag = LIT }
+					FROM = { tag = POL }
+				}
+				POL = {
+					country_event = { id = PLC.9 days = 2 }
+				}
+			}
+		} 
+	}
+	
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = { tag = POL }
+					FROM = { tag = LIT }
+				}
+				LIT = {
+					country_event = { id = PLC.10 days = 2 }
+				}
+			}
+		} 
+	}
+	
+	on_capitulation = {
+		effect = { 
+			if = {
+				limit = {
+					ROOT = { tag = UKR }
+					FROM = { tag = UKN }
+				}
+				UKN = {
+					country_event = { id = PLC.1 days = 2 }
+				}
+			}
+		} 
+	}
+	
+	on_capitulation = {
+		effect = { 
+			if = {
+				limit = {
+					ROOT = { tag = UKN }
+					FROM = { tag = UKR }
+				}
+				UKR = {
+					country_event = { id = PLC.1 days = 2 }
+				}
+			}
+		} 
+	}
+	
+	on_capitulation = {
+		effect = { 
+			if = {
+				limit = {
+					ROOT = {
+						OR = {
+							tag = POL
+							tag = LIT
+						}
+					}
+					FROM = { tag = BLR }
+				}
+				BLR = {
+					white_peace = ROOT
+				}
+			}
+		} 
+	}
+	
+	on_state_control_changed = {
+		effect = { 
+			if = {
+				limit = {
+					ROOT = { tag = POL }
+					FROM = {
+						tag = AUS
+						AND = {
+							9 = { is_controlled_by = POL }
+							69 = { is_controlled_by = POL }
+							74 = { is_controlled_by = POL }
+							75 = { is_controlled_by = POL }
+						}
+					}
+				}
+				POL = {
+					country_event = { id = PLC.7 days = 2 }
+				}
+			}
+		} 
+	}
+	
+	on_state_control_changed = {
+		effect = { 
+			if = {
+				limit = {
+					ROOT = { tag = AUS }
+					FROM = {
+						tag = POL
+						AND = {
+							66 = { is_controlled_by = AUS }
+							67 = { is_controlled_by = AUS }
+							88 = { is_controlled_by = AUS }
+							762 = { is_controlled_by = AUS }
+						}
+					}
+				}
+				AUS = {
+					country_event = { id = PLC.8 days = 2 }
+				}
+			}
+		} 
+	}
+	
+	on_state_control_changed = {
+		effect = { 
+			if = {
+				limit = {
+					FROM = {
+						tag = POL
+						surrender_progress > 0.2
+					}
+					AUS = {
+						has_war_with = POL
+					}
+				}
+				AUS = {
+					country_event = { id = PLC.8 days = 2 }
+				}
+			}
+		} 
+	}
+	
+	on_capitulation = {
+		effect = { 
+			if = {
+				limit = {
+					FROM = {
+						tag = CRO
+					}
+					SER = {
+						has_war_with = CRO
+					}
+				}
+				CRO = {
+					country_event = { id = BKW.3 days = 2 }
+					annex_country = {
+						target = SER
+						transfer_troops = no
+					}
+				}
+			}
+		} 
+	}
+	
+	on_capitulation = {
+		effect = { 
+			if = {
+				limit = {
+					FROM = {
+						tag = SER
+					}
+					CRO = {
+						has_war_with = SER
+					}
+				}
+				SER = {
+					country_event = { id = BKW.2 days = 2 }
+					annex_country = {
+						target = CRO
+						transfer_troops = no
+					}
+				}
+			}
+		} 
+	}
+	
+	on_state_control_changed = {
+		effect = { 
+			if = {
+				limit = {
+					ROOT = { tag = HUN }
+					FROM = {
+						tag = CRO
+						AND = {
+							HUN = {
+								num_of_controlled_states > 3
+							}
+						}
+					}
+				}
+				HUN = {
+					country_event = { id = BKW.6 days = 2 }
+				}
+			}
+		} 
+	}
+	
+	on_state_control_changed = {
+		effect = { 
+			if = {
+				limit = {
+					ROOT = { tag = HUN }
+					FROM = {
+						tag = SER
+						AND = {
+							HUN = {
+								num_of_controlled_states > 3
+							}
+						}
+					}
+				}
+				HUN = {
+					country_event = { id = BKW.6 days = 2 }
+				}
+			}
+		} 
+	}
+	
+	on_state_control_changed = {
+		effect = { 
+			if = {
+				limit = {
+					FROM = {
+						tag = HUN
+						surrender_progress > 0.3
+					}
+					SER = {
+						has_war_with = HUN
+					}
+				}
+				SER = {
+					country_event = { id = BKW.7 days = 2 }
+				}
+			}
+		} 
+	}
+	
+	on_state_control_changed = {
+		effect = { 
+			if = {
+				limit = {
+					FROM = {
+						tag = HUN
+						surrender_progress > 0.3
+					}
+					CRO = {
+						has_war_with = HUN
+					}
+				}
+				CRO = {
+					country_event = { id = BKW.8 days = 2 }
+				}
+			}
+		} 
+	}
+	
+	on_state_control_changed = {
+		effect = { 
+			if = {
+				limit = {
+					ROOT = { tag = BUL }
+					FROM = {
+						tag = SER
+						AND = {
+							BUL = {
+								num_of_controlled_states > 3
+							}
+						}
+					}
+				}
+				BUL = {
+					country_event = { id = BKW.11 days = 2 }
+				}
+			}
+		} 
+	}
+	
+	on_state_control_changed = {
+		effect = { 
+			if = {
+				limit = {
+					FROM = {
+						tag = BUL
+						surrender_progress > 0.3
+					}
+					SER = {
+						has_war_with = BUL
+					}
+				}
+				SER = {
+					country_event = { id = BKW.12 days = 2 }
+				}
+			}
+		} 
+	}
+	
+	on_state_control_changed = {
+		effect = { 
+			if = {
+				limit = {
+					FROM = {
+						tag = BUL
+						surrender_progress > 0.3
+					}
+					CRO = {
+						has_war_with = BUL
+					}
+				}
+				CRO = {
+					country_event = { id = BKW.13 days = 2 }
+				}
+			}
+		} 
+	}
+
+	on_capitulation = { 
+		effect = { 
+			if = {
+				limit = {
+					ROOT = { original_tag = LIT }
+					FROM = { original_tag = SOV }
+				}
+				SOV_western_krai_lithuania_folds = yes
+				SOV = {
+					country_event = { id = RUS.7 days = 0 }
+				}
+				LIT = {
+					white_peace = SOV
+				}
+			}
+		}
+	}
+	
+	on_capitulation = { 
+		effect = { 
+			if = {
+				limit = {
+					ROOT = { original_tag = BLR }
+					FROM = { original_tag = SOV }
+				}
+				SOV = {
+					country_event = { id = RUS.8 days = 0 }
+					annex = BLR
+				}
+			}
+		}
+	}
+	
+}

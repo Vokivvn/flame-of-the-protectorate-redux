@@ -1,0 +1,82 @@
+﻿capital = 859
+
+set_stability = 0.6
+set_war_support = 0.1
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	transport = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+	CAS1 = 1
+	early_fighter = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	centralism = 0
+	socialism = 0
+	progressivism = 0
+	liberalism = 10
+	conservatism = 50
+	authoritarianism = 25
+	republicanism = 15
+	ultranationalism = 0
+}
+
+create_country_leader = {
+	name = "Alf Landon"
+	desc = "POLITICS_Alf_Landon_DESC"
+	picture = "Portrait_Calcutta_Alf_Landon.dds"
+	expire = "1965.1.1"
+	ideology = liberalism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Harry Edward Arnhold"
+	desc = "POLITICS_Harry_Edward_Arnhold_DESC"
+	picture = "Portrait_Calcutta_Harry_Edward_Arnhold.dds"
+	expire = "1965.1.1"
+	ideology = conservatism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Christian Dior"
+	desc = "POLITICS_Christian_Dior_DESC"
+	picture = "Portrait_Calcutta_Christian_Dior.dds"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "José Rebelo"
+	desc = "POLITICS_Jose_Rebelo_DESC"
+	picture = "Portrait_Calcutta_Jose_Rebelo.dds"
+	expire = "1965.1.1"
+	ideology = republicanism_subtype
+	traits = {
+	}
+}
+
+add_ideas = {
+	CAL_International_Settlement
+	CAL_British_Domination
+	CAL_Peace_Between_Powers
+}

@@ -1,0 +1,338 @@
+﻿division_template = {
+	name = "Stralkovaja Dyvizija"
+	division_names_group = BLR_infantry
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = "3392"
+		division_template = "Stralkovaja Dyvizija"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = "6546"
+		division_template = "Stralkovaja Dyvizija"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = "3254"
+		division_template = "Stralkovaja Dyvizija"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = "400"
+		division_template = "Stralkovaja Dyvizija"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = "3392"
+		division_template = "Stralkovaja Dyvizija"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = "11329"
+		division_template = "Stralkovaja Dyvizija"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = "11274"
+		division_template = "Stralkovaja Dyvizija"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = "215"
+		division_template = "Stralkovaja Dyvizija"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = "13206"
+		division_template = "Stralkovaja Dyvizija"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = "318"
+		division_template = "Stralkovaja Dyvizija"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = "6359"
+		division_template = "Stralkovaja Dyvizija"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = "9359"
+		division_template = "Stralkovaja Dyvizija"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = "3267"
+		division_template = "Stralkovaja Dyvizija"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = "11370"
+		division_template = "Stralkovaja Dyvizija"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = "11370"
+		division_template = "Stralkovaja Dyvizija"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = "11216"
+		division_template = "Stralkovaja Dyvizija"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = "3759"
+		division_template = "Stralkovaja Dyvizija"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = "9304"
+		division_template = "Stralkovaja Dyvizija"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = "3350"
+		division_template = "Stralkovaja Dyvizija"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = "11313"
+		division_template = "Stralkovaja Dyvizija"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		location = "11301"
+		division_template = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		location = "347"
+		division_template = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		location = "11528"
+		division_template = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		location = "6415"
+		division_template = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		location = "6306"
+		division_template = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		location = "11370"
+		division_template = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		location = "11370"
+		division_template = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		location = "6373"
+		division_template = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		location = "331"
+		division_template = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		location = "304"
+		division_template = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		location = "11285"
+		division_template = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		location = "3556"
+		division_template = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		location = "3507"
+		division_template = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		location = "9249"
+		division_template = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		location = "3203"
+		division_template = "Bielaruskaja Nacyjanaĺnaja Hvardyja"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}

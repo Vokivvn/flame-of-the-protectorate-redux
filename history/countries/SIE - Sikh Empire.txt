@@ -1,0 +1,36 @@
+﻿capital = 798
+
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	basic_light_tank = 1
+}
+
+set_popularities = {
+	ultranationalism = 0
+	authoritarianism = 0
+	republicanism = 0
+	conservatism = 13
+	liberalism = 61
+	progressivism = 14
+	socialism = 12
+	centralism = 0
+}
+
+set_politics = {
+	ruling_party = liberalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Manjeet Kaur"
+	desc = "POLITICS_Manjeet_Kaur_DESC"
+	picture = "Portrait_SIE_Manjeet_Kaur.dds"
+	expire = "1965.1.1"
+	ideology = liberalism_subtype
+	traits = {
+		#
+	}
+}

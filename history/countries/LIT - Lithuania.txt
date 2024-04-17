@@ -1,0 +1,92 @@
+﻿capital = 11
+
+set_research_slots = 3
+
+load_focus_tree = generic_focus
+
+add_ideas = {
+	extensive_conscription
+	war_economy
+}
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1926.5.8"
+	election_frequency = 120
+	elections_allowed = no
+}
+set_popularities = {
+	conservatism = 100
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	improved_light_tank = 1
+	basic_heavy_tank = 1
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	strategic_bomber1 = 1
+	CAS1 = 1
+	naval_bomber1 = 1
+	
+	mobile_warfare = 1
+	trade_interdiction = 1
+	formation_flying = 1
+	synth_oil_experiments = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+
+#oob = "LIT_1936"
+
+create_country_leader = {
+	name = "Michael II"
+	desc = "POLITICS_Michael_II_DESC"
+	picture = "Portrait_Lithuania_Michael_II.dds"
+	expire = "1965.1.1"
+	ideology = conservatism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Rozalia Luksenburg"
+	desc = "POLITICS_Michael_II_DESC"
+	picture = "Portrait_Lithuania_Michael_II.dds"
+	expire = "1965.1.1"
+	ideology = socialism_subtype
+	traits = {
+		#
+	}
+}
+
+declare_war_on = {
+    target = UKR
+    type = annex_everything
+}
+
+#declare_war_on = {
+#    target = POL
+#    type = annex_everything
+#}
+declare_war_on = {
+    target = BLR
+    type = annex_everything
+}
+declare_war_on = {
+    target = UKN
+    type = annex_everything
+}

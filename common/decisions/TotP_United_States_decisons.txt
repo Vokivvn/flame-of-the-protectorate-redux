@@ -1,0 +1,6331 @@
+USA_election_campaign = {
+	USA_show_large_options = {
+		visible = {
+			NOT = {
+				has_country_flag = USA_show_large_options
+			}
+		}
+		complete_effect = {
+			clr_country_flag = USA_show_small_options
+			clr_country_flag = USA_show_medium_options
+			set_country_flag = USA_show_large_options
+		}
+	}
+	USA_show_medium_options = {
+		visible = {
+			NOT = {
+				has_country_flag = USA_show_medium_options
+			}
+		}
+		complete_effect = {
+			clr_country_flag = USA_show_small_options
+			set_country_flag = USA_show_medium_options
+			clr_country_flag = USA_show_large_options
+		}
+	}
+	USA_show_small_options = {
+		visible = {
+			NOT = {
+				has_country_flag = USA_show_small_options
+			}
+		}
+		complete_effect = {
+			set_country_flag = USA_show_small_options
+			clr_country_flag = USA_show_medium_options
+			clr_country_flag = USA_show_large_options
+		}
+	}
+	
+	USA_WHIG_campaign_in_pacific_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_small_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_whigs_in_pacific_campaigning
+		}
+	}
+	USA_WHIG_campaign_in_pacific_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_medium_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_whigs_in_pacific_campaigning
+		}
+	}
+	USA_WHIG_campaign_in_pacific_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_high_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_whigs_in_pacific_campaigning
+		}
+	}
+	
+	USA_whigs_in_pacific_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_whig_gain_pacific_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_whig
+			clr_country_flag = USA_high_whig_campaign
+			clr_country_flag = USA_medium_whig_campaign
+			clr_country_flag = USA_small_whig_campaign
+		}
+	}
+	
+	USA_WHIG_campaign_in_rockies_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_small_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_whigs_in_rockies_campaigning
+		}
+	}
+	USA_WHIG_campaign_in_rockies_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_medium_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_whigs_in_rockies_campaigning
+		}
+	}
+	USA_WHIG_campaign_in_rockies_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_high_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_whigs_in_rockies_campaigning
+		}
+	}
+	
+	USA_whigs_in_rockies_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_whig_gain_rockies_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_whig
+			clr_country_flag = USA_high_whig_campaign
+			clr_country_flag = USA_medium_whig_campaign
+			clr_country_flag = USA_small_whig_campaign
+		}
+	}
+	
+	USA_WHIG_campaign_in_plains_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_small_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_whigs_in_plains_campaigning
+		}
+	}
+	USA_WHIG_campaign_in_plains_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_medium_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_whigs_in_plains_campaigning
+		}
+	}
+	USA_WHIG_campaign_in_plains_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_high_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_whigs_in_plains_campaigning
+		}
+	}
+	
+	USA_whigs_in_plains_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_whig_gain_plains_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_whig
+			clr_country_flag = USA_high_whig_campaign
+			clr_country_flag = USA_medium_whig_campaign
+			clr_country_flag = USA_small_whig_campaign
+		}
+	}
+	
+	USA_WHIG_campaign_in_midwest_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_small_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_whigs_in_midwest_campaigning
+		}
+	}
+	USA_WHIG_campaign_in_midwest_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_medium_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_whigs_in_midwest_campaigning
+		}
+	}
+	USA_WHIG_campaign_in_midwest_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_high_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_whigs_in_midwest_campaigning
+		}
+	}
+	
+	USA_whigs_in_midwest_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_whig_gain_midwest_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_whig
+			clr_country_flag = USA_high_whig_campaign
+			clr_country_flag = USA_medium_whig_campaign
+			clr_country_flag = USA_small_whig_campaign
+		}
+	}
+	
+	USA_WHIG_campaign_in_southwest_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_small_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_whigs_in_southwest_campaigning
+		}
+	}
+	USA_WHIG_campaign_in_southwest_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_medium_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_whigs_in_southwest_campaigning
+		}
+	}
+	USA_WHIG_campaign_in_southwest_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_high_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_whigs_in_southwest_campaigning
+		}
+	}
+	
+	USA_whigs_in_southwest_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_whig_gain_southwest_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_whig
+			clr_country_flag = USA_high_whig_campaign
+			clr_country_flag = USA_medium_whig_campaign
+			clr_country_flag = USA_small_whig_campaign
+		}
+	}
+	
+	USA_WHIG_campaign_in_new_england_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_small_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_whigs_in_new_england_campaigning
+		}
+	}
+	USA_WHIG_campaign_in_new_england_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_medium_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_whigs_in_new_england_campaigning
+		}
+	}
+	USA_WHIG_campaign_in_new_england_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_high_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_whigs_in_new_england_campaigning
+		}
+	}
+	
+	USA_whigs_in_new_england_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_whig_gain_new_england_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_whig
+			clr_country_flag = USA_high_whig_campaign
+			clr_country_flag = USA_medium_whig_campaign
+			clr_country_flag = USA_small_whig_campaign
+		}
+	}
+	
+	USA_WHIG_campaign_in_ne_coast_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_small_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_whigs_in_ne_coast_campaigning
+		}
+	}
+	USA_WHIG_campaign_in_ne_coast_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_medium_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_whigs_in_ne_coast_campaigning
+		}
+	}
+	USA_WHIG_campaign_in_ne_coast_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_high_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_whigs_in_ne_coast_campaigning
+		}
+	}
+	
+	USA_whigs_in_ne_coast_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_whig_gain_ne_coast_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_whig
+			clr_country_flag = USA_high_whig_campaign
+			clr_country_flag = USA_medium_whig_campaign
+			clr_country_flag = USA_small_whig_campaign
+		}
+	}
+	
+	USA_WHIG_campaign_in_ce_coast_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_small_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_whigs_in_ce_coast_campaigning
+		}
+	}
+	USA_WHIG_campaign_in_ce_coast_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_medium_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_whigs_in_ce_coast_campaigning
+		}
+	}
+	USA_WHIG_campaign_in_ce_coast_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_high_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_whigs_in_ce_coast_campaigning
+		}
+	}
+	
+	USA_whigs_in_ce_coast_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_whig_gain_ce_coast_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_whig
+			clr_country_flag = USA_high_whig_campaign
+			clr_country_flag = USA_medium_whig_campaign
+			clr_country_flag = USA_small_whig_campaign
+		}
+	}
+	
+	USA_WHIG_campaign_in_north_south_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_small_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_whigs_in_north_south_campaigning
+		}
+	}
+	USA_WHIG_campaign_in_north_south_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_medium_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_whigs_in_north_south_campaigning
+		}
+	}
+	USA_WHIG_campaign_in_north_south_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_high_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_whigs_in_north_south_campaigning
+		}
+	}
+	
+	USA_whigs_in_north_south_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_whig_gain_north_south_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_whig
+			clr_country_flag = USA_high_whig_campaign
+			clr_country_flag = USA_medium_whig_campaign
+			clr_country_flag = USA_small_whig_campaign
+		}
+	}
+	
+	USA_WHIG_campaign_in_deep_south_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_small_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_whigs_in_deep_south_campaigning
+		}
+	}
+	USA_WHIG_campaign_in_deep_south_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_medium_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_whigs_in_deep_south_campaigning
+		}
+	}
+	USA_WHIG_campaign_in_deep_south_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_high_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_whigs_in_deep_south_campaigning
+		}
+	}
+	
+	USA_whigs_in_deep_south_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_whig_gain_deep_south_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_whig
+			clr_country_flag = USA_high_whig_campaign
+			clr_country_flag = USA_medium_whig_campaign
+			clr_country_flag = USA_small_whig_campaign
+		}
+	}
+	
+	USA_WHIG_campaign_in_cen_america_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_small_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_whigs_in_cen_america_campaigning
+		}
+	}
+	USA_WHIG_campaign_in_cen_america_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_medium_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_whigs_in_cen_america_campaigning
+		}
+	}
+	USA_WHIG_campaign_in_cen_america_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_high_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_whigs_in_cen_america_campaigning
+		}
+	}
+	
+	USA_whigs_in_cen_america_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_whig_gain_cen_america_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_whig
+			clr_country_flag = USA_high_whig_campaign
+			clr_country_flag = USA_medium_whig_campaign
+			clr_country_flag = USA_small_whig_campaign
+		}
+	}
+	
+	USA_WHIG_campaign_in_carribean_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_small_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_whigs_in_carribean_campaigning
+		}
+	}
+	USA_WHIG_campaign_in_carribean_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_medium_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_whigs_in_carribean_campaigning
+		}
+	}
+	USA_WHIG_campaign_in_carribean_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = liberalism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_whig
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_whig
+			set_country_flag = USA_high_whig_campaign
+			add_to_variable = {
+				var = USA_WHIG_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_whigs_in_carribean_campaigning
+		}
+	}
+	
+	USA_whigs_in_carribean_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_whig_gain_carribean_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_whig
+			clr_country_flag = USA_high_whig_campaign
+			clr_country_flag = USA_medium_whig_campaign
+			clr_country_flag = USA_small_whig_campaign
+		}
+	}
+	
+	USA_DEM_campaign_in_pacific_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_dem_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_small_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_dem_in_pacific_campaigning
+		}
+	}
+	USA_DEM_campaign_in_pacific_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_medium_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_dem_in_pacific_campaigning
+		}
+	}
+	USA_DEM_campaign_in_pacific_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_high_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_dem_in_pacific_campaigning
+		}
+	}
+	
+	USA_dem_in_pacific_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_dem_gain_pacific_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_dem
+			clr_country_flag = USA_high_dem_campaign
+			clr_country_flag = USA_medium_dem_campaign
+			clr_country_flag = USA_small_dem_campaign
+		}
+	}
+	
+	USA_DEM_campaign_in_rockies_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_small_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_dem_in_rockies_campaigning
+		}
+	}
+	USA_DEM_campaign_in_rockies_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_medium_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_dem_in_rockies_campaigning
+		}
+	}
+	USA_DEM_campaign_in_rockies_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_high_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_dem_in_rockies_campaigning
+		}
+	}
+	
+	USA_dem_in_rockies_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_dem_gain_rockies_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_dem
+			clr_country_flag = USA_high_dem_campaign
+			clr_country_flag = USA_medium_dem_campaign
+			clr_country_flag = USA_small_dem_campaign
+		}
+	}
+	
+	USA_DEM_campaign_in_plains_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_small_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_dem_in_plains_campaigning
+		}
+	}
+	USA_DEM_campaign_in_plains_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_medium_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_dem_in_plains_campaigning
+		}
+	}
+	USA_DEM_campaign_in_plains_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_high_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_dem_in_plains_campaigning
+		}
+	}
+	
+	USA_dem_in_plains_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_dem_gain_plains_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_dem
+			clr_country_flag = USA_high_dem_campaign
+			clr_country_flag = USA_medium_dem_campaign
+			clr_country_flag = USA_small_dem_campaign
+		}
+	}
+	
+	USA_DEM_campaign_in_midwest_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_small_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_dem_in_midwest_campaigning
+		}
+	}
+	USA_DEM_campaign_in_midwest_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_medium_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_dem_in_midwest_campaigning
+		}
+	}
+	USA_DEM_campaign_in_midwest_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_high_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_dem_in_midwest_campaigning
+		}
+	}
+	
+	USA_dem_in_midwest_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_dem_gain_midwest_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_dem
+			clr_country_flag = USA_high_dem_campaign
+			clr_country_flag = USA_medium_dem_campaign
+			clr_country_flag = USA_small_dem_campaign
+		}
+	}
+	
+	USA_DEM_campaign_in_southwest_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_small_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_dem_in_southwest_campaigning
+		}
+	}
+	USA_DEM_campaign_in_southwest_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_medium_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_dem_in_southwest_campaigning
+		}
+	}
+	USA_DEM_campaign_in_southwest_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_high_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_dem_in_southwest_campaigning
+		}
+	}
+	
+	USA_dem_in_southwest_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_dem_gain_southwest_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_dem
+			clr_country_flag = USA_high_dem_campaign
+			clr_country_flag = USA_medium_dem_campaign
+			clr_country_flag = USA_small_dem_campaign
+		}
+	}
+	
+	USA_DEM_campaign_in_new_england_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_small_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_dem_in_new_england_campaigning
+		}
+	}
+	USA_DEM_campaign_in_new_england_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_medium_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_dem_in_new_england_campaigning
+		}
+	}
+	USA_DEM_campaign_in_new_england_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_high_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_dem_in_new_england_campaigning
+		}
+	}
+	
+	USA_dem_in_new_england_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_dem_gain_new_england_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_dem
+			clr_country_flag = USA_high_dem_campaign
+			clr_country_flag = USA_medium_dem_campaign
+			clr_country_flag = USA_small_dem_campaign
+		}
+	}
+	
+	USA_DEM_campaign_in_ne_coast_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_small_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_dem_in_ne_coast_campaigning
+		}
+	}
+	USA_DEM_campaign_in_ne_coast_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_medium_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_dem_in_ne_coast_campaigning
+		}
+	}
+	USA_DEM_campaign_in_ne_coast_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_high_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_dem_in_ne_coast_campaigning
+		}
+	}
+	
+	USA_dem_in_ne_coast_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_dem_gain_ne_coast_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_dem
+			clr_country_flag = USA_high_dem_campaign
+			clr_country_flag = USA_medium_dem_campaign
+			clr_country_flag = USA_small_dem_campaign
+		}
+	}
+	
+	USA_DEM_campaign_in_ce_coast_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_small_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_dem_in_ce_coast_campaigning
+		}
+	}
+	USA_DEM_campaign_in_ce_coast_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_medium_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_dem_in_ce_coast_campaigning
+		}
+	}
+	USA_DEM_campaign_in_ce_coast_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_high_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_dem_in_ce_coast_campaigning
+		}
+	}
+	
+	USA_dem_in_ce_coast_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_dem_gain_ce_coast_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_dem
+			clr_country_flag = USA_high_dem_campaign
+			clr_country_flag = USA_medium_dem_campaign
+			clr_country_flag = USA_small_dem_campaign
+		}
+	}
+	
+	USA_DEM_campaign_in_north_south_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_small_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_dem_in_north_south_campaigning
+		}
+	}
+	USA_DEM_campaign_in_north_south_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_medium_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_dem_in_north_south_campaigning
+		}
+	}
+	USA_DEM_campaign_in_north_south_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_high_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_dem_in_north_south_campaigning
+		}
+	}
+	
+	USA_dem_in_north_south_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_dem_gain_north_south_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_dem
+			clr_country_flag = USA_high_dem_campaign
+			clr_country_flag = USA_medium_dem_campaign
+			clr_country_flag = USA_small_dem_campaign
+		}
+	}
+	
+	USA_DEM_campaign_in_deep_south_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_small_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_dem_in_deep_south_campaigning
+		}
+	}
+	USA_DEM_campaign_in_deep_south_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_medium_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_dem_in_deep_south_campaigning
+		}
+	}
+	USA_DEM_campaign_in_deep_south_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_high_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_dem_in_deep_south_campaigning
+		}
+	}
+	
+	USA_dem_in_deep_south_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_dem_gain_deep_south_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_dem
+			clr_country_flag = USA_high_dem_campaign
+			clr_country_flag = USA_medium_dem_campaign
+			clr_country_flag = USA_small_dem_campaign
+		}
+	}
+	
+	USA_DEM_campaign_in_cen_america_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_small_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_dem_in_cen_america_campaigning
+		}
+	}
+	USA_DEM_campaign_in_cen_america_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_medium_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_dem_in_cen_america_campaigning
+		}
+	}
+	USA_DEM_campaign_in_cen_america_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_high_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_dem_in_cen_america_campaigning
+		}
+	}
+	
+	USA_dem_in_cen_america_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_dem_gain_cen_america_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_dem
+			clr_country_flag = USA_high_dem_campaign
+			clr_country_flag = USA_medium_dem_campaign
+			clr_country_flag = USA_small_dem_campaign
+		}
+	}
+	
+	USA_DEM_campaign_in_carribean_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_small_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_dem_in_carribean_campaigning
+		}
+	}
+	USA_DEM_campaign_in_carribean_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_medium_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_dem_in_carribean_campaigning
+		}
+	}
+	USA_DEM_campaign_in_carribean_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			OR = {
+				has_government = conservatism
+				has_government = republicanism
+			}
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_dem
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_whig_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_dem
+			set_country_flag = USA_high_dem_campaign
+			add_to_variable = {
+				var = USA_DEM_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_dem_in_carribean_campaigning
+		}
+	}
+	
+	USA_dem_in_carribean_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_dem_gain_carribean_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_dem
+			clr_country_flag = USA_high_dem_campaign
+			clr_country_flag = USA_medium_dem_campaign
+			clr_country_flag = USA_small_dem_campaign
+		}
+	}
+	
+	USA_PROG_campaign_in_pacific_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_small_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_prog_in_pacific_campaigning
+		}
+	}
+	USA_PROG_campaign_in_pacific_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_medium_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_prog_in_pacific_campaigning
+		}
+	}
+	USA_PROG_campaign_in_pacific_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_high_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_prog_in_pacific_campaigning
+		}
+	}
+	
+	USA_prog_in_pacific_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_prog_gain_pacific_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_prog
+			clr_country_flag = USA_high_prog_campaign
+			clr_country_flag = USA_medium_prog_campaign
+			clr_country_flag = USA_small_prog_campaign
+		}
+	}
+	
+	USA_PROG_campaign_in_rockies_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_small_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_prog_in_rockies_campaigning
+		}
+	}
+	USA_PROG_campaign_in_rockies_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_medium_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_prog_in_rockies_campaigning
+		}
+	}
+	USA_PROG_campaign_in_rockies_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_high_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_prog_in_rockies_campaigning
+		}
+	}
+	
+	USA_prog_in_rockies_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_prog_gain_rockies_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_prog
+			clr_country_flag = USA_high_prog_campaign
+			clr_country_flag = USA_medium_prog_campaign
+			clr_country_flag = USA_small_prog_campaign
+		}
+	}
+	
+	USA_PROG_campaign_in_plains_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_small_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_prog_in_plains_campaigning
+		}
+	}
+	USA_PROG_campaign_in_plains_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_medium_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_prog_in_plains_campaigning
+		}
+	}
+	USA_PROG_campaign_in_plains_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_high_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_prog_in_plains_campaigning
+		}
+	}
+	
+	USA_prog_in_plains_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_prog_gain_plains_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_prog
+			clr_country_flag = USA_high_prog_campaign
+			clr_country_flag = USA_medium_prog_campaign
+			clr_country_flag = USA_small_prog_campaign
+		}
+	}
+	
+	USA_PROG_campaign_in_midwest_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_small_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_prog_in_midwest_campaigning
+		}
+	}
+	USA_PROG_campaign_in_midwest_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_medium_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_prog_in_midwest_campaigning
+		}
+	}
+	USA_PROG_campaign_in_midwest_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_high_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_prog_in_midwest_campaigning
+		}
+	}
+	
+	USA_prog_in_midwest_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_prog_gain_midwest_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_prog
+			clr_country_flag = USA_high_prog_campaign
+			clr_country_flag = USA_medium_prog_campaign
+			clr_country_flag = USA_small_prog_campaign
+		}
+	}
+	
+	USA_PROG_campaign_in_southwest_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_small_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_prog_in_southwest_campaigning
+		}
+	}
+	USA_PROG_campaign_in_southwest_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_medium_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_prog_in_southwest_campaigning
+		}
+	}
+	USA_PROG_campaign_in_southwest_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_high_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_prog_in_southwest_campaigning
+		}
+	}
+	
+	USA_prog_in_southwest_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_prog_gain_southwest_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_prog
+			clr_country_flag = USA_high_prog_campaign
+			clr_country_flag = USA_medium_prog_campaign
+			clr_country_flag = USA_small_prog_campaign
+		}
+	}
+	
+	USA_PROG_campaign_in_new_england_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_small_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_prog_in_new_england_campaigning
+		}
+	}
+	USA_PROG_campaign_in_new_england_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_medium_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_prog_in_new_england_campaigning
+		}
+	}
+	USA_PROG_campaign_in_new_england_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_high_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_prog_in_new_england_campaigning
+		}
+	}
+	
+	USA_prog_in_new_england_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_prog_gain_new_england_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_prog
+			clr_country_flag = USA_high_prog_campaign
+			clr_country_flag = USA_medium_prog_campaign
+			clr_country_flag = USA_small_prog_campaign
+		}
+	}
+	
+	USA_PROG_campaign_in_ne_coast_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_small_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_prog_in_ne_coast_campaigning
+		}
+	}
+	USA_PROG_campaign_in_ne_coast_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_medium_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_prog_in_ne_coast_campaigning
+		}
+	}
+	USA_PROG_campaign_in_ne_coast_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_high_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_prog_in_ne_coast_campaigning
+		}
+	}
+	
+	USA_prog_in_ne_coast_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_prog_gain_ne_coast_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_prog
+			clr_country_flag = USA_high_prog_campaign
+			clr_country_flag = USA_medium_prog_campaign
+			clr_country_flag = USA_small_prog_campaign
+		}
+	}
+	
+	USA_PROG_campaign_in_ce_coast_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_small_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_prog_in_ce_coast_campaigning
+		}
+	}
+	USA_PROG_campaign_in_ce_coast_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_medium_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_prog_in_ce_coast_campaigning
+		}
+	}
+	USA_PROG_campaign_in_ce_coast_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_high_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_prog_in_ce_coast_campaigning
+		}
+	}
+	
+	USA_prog_in_ce_coast_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_prog_gain_ce_coast_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_prog
+			clr_country_flag = USA_high_prog_campaign
+			clr_country_flag = USA_medium_prog_campaign
+			clr_country_flag = USA_small_prog_campaign
+		}
+	}
+	
+	USA_PROG_campaign_in_north_south_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_small_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_prog_in_north_south_campaigning
+		}
+	}
+	USA_PROG_campaign_in_north_south_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_medium_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_prog_in_north_south_campaigning
+		}
+	}
+	USA_PROG_campaign_in_north_south_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_high_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_prog_in_north_south_campaigning
+		}
+	}
+	
+	USA_prog_in_north_south_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_prog_gain_north_south_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_prog
+			clr_country_flag = USA_high_prog_campaign
+			clr_country_flag = USA_medium_prog_campaign
+			clr_country_flag = USA_small_prog_campaign
+		}
+	}
+	
+	USA_PROG_campaign_in_deep_south_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_small_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_prog_in_deep_south_campaigning
+		}
+	}
+	USA_PROG_campaign_in_deep_south_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_medium_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_prog_in_deep_south_campaigning
+		}
+	}
+	USA_PROG_campaign_in_deep_south_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_high_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_prog_in_deep_south_campaigning
+		}
+	}
+	
+	USA_prog_in_deep_south_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_prog_gain_deep_south_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_prog
+			clr_country_flag = USA_high_prog_campaign
+			clr_country_flag = USA_medium_prog_campaign
+			clr_country_flag = USA_small_prog_campaign
+		}
+	}
+	
+	USA_PROG_campaign_in_cen_america_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_small_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_prog_in_cen_america_campaigning
+		}
+	}
+	USA_PROG_campaign_in_cen_america_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_medium_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_prog_in_cen_america_campaigning
+		}
+	}
+	USA_PROG_campaign_in_cen_america_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_high_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_prog_in_cen_america_campaigning
+		}
+	}
+	
+	USA_prog_in_cen_america_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_prog_gain_cen_america_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_prog
+			clr_country_flag = USA_high_prog_campaign
+			clr_country_flag = USA_medium_prog_campaign
+			clr_country_flag = USA_small_prog_campaign
+		}
+	}
+	
+	USA_PROG_campaign_in_carribean_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_small_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_prog_in_carribean_campaigning
+		}
+	}
+	USA_PROG_campaign_in_carribean_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_medium_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_prog_in_carribean_campaigning
+		}
+	}
+	USA_PROG_campaign_in_carribean_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = progressivism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_prog
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_prog_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_prog
+			set_country_flag = USA_high_prog_campaign
+			add_to_variable = {
+				var = USA_PROG_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_prog_in_carribean_campaigning
+		}
+	}
+	
+	USA_prog_in_carribean_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_prog_gain_carribean_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_prog
+			clr_country_flag = USA_high_prog_campaign
+			clr_country_flag = USA_medium_prog_campaign
+			clr_country_flag = USA_small_prog_campaign
+		}
+	}
+	
+	USA_REPUBLICAN_campaign_in_pacific_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_small_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_republican_in_pacific_campaigning
+		}
+	}
+	USA_REPUBLICAN_campaign_in_pacific_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_medium_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_republican_in_pacific_campaigning
+		}
+	}
+	USA_REPUBLICAN_campaign_in_pacific_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_high_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_republican_in_pacific_campaigning
+		}
+	}
+	
+	USA_republican_in_pacific_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_republican_gain_pacific_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_republican
+			clr_country_flag = USA_high_republican_campaign
+			clr_country_flag = USA_medium_republican_campaign
+			clr_country_flag = USA_small_republican_campaign
+		}
+	}
+	
+	USA_REPUBLICAN_campaign_in_rockies_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_small_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_republican_in_rockies_campaigning
+		}
+	}
+	USA_REPUBLICAN_campaign_in_rockies_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_medium_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_republican_in_rockies_campaigning
+		}
+	}
+	USA_REPUBLICAN_campaign_in_rockies_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_high_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_republican_in_rockies_campaigning
+		}
+	}
+	
+	USA_republican_in_rockies_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_republican_gain_rockies_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_republican
+			clr_country_flag = USA_high_republican_campaign
+			clr_country_flag = USA_medium_republican_campaign
+			clr_country_flag = USA_small_republican_campaign
+		}
+	}
+	
+	USA_REPUBLICAN_campaign_in_plains_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_small_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_republican_in_plains_campaigning
+		}
+	}
+	USA_REPUBLICAN_campaign_in_plains_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_medium_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_republican_in_plains_campaigning
+		}
+	}
+	USA_REPUBLICAN_campaign_in_plains_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_high_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_republican_in_plains_campaigning
+		}
+	}
+	
+	USA_republican_in_plains_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_republican_gain_plains_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_republican
+			clr_country_flag = USA_high_republican_campaign
+			clr_country_flag = USA_medium_republican_campaign
+			clr_country_flag = USA_small_republican_campaign
+		}
+	}
+	
+	USA_REPUBLICAN_campaign_in_midwest_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_small_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_republican_in_midwest_campaigning
+		}
+	}
+	USA_REPUBLICAN_campaign_in_midwest_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_medium_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_republican_in_midwest_campaigning
+		}
+	}
+	USA_REPUBLICAN_campaign_in_midwest_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_high_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_republican_in_midwest_campaigning
+		}
+	}
+	
+	USA_republican_in_midwest_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_republican_gain_midwest_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_republican
+			clr_country_flag = USA_high_republican_campaign
+			clr_country_flag = USA_medium_republican_campaign
+			clr_country_flag = USA_small_republican_campaign
+		}
+	}
+	
+	USA_REPUBLICAN_campaign_in_southwest_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_small_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_republican_in_southwest_campaigning
+		}
+	}
+	USA_REPUBLICAN_campaign_in_southwest_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_medium_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_republican_in_southwest_campaigning
+		}
+	}
+	USA_REPUBLICAN_campaign_in_southwest_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_high_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_republican_in_southwest_campaigning
+		}
+	}
+	
+	USA_republican_in_southwest_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_republican_gain_southwest_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_republican
+			clr_country_flag = USA_high_republican_campaign
+			clr_country_flag = USA_medium_republican_campaign
+			clr_country_flag = USA_small_republican_campaign
+		}
+	}
+	
+	USA_REPUBLICAN_campaign_in_new_england_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_small_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_republican_in_new_england_campaigning
+		}
+	}
+	USA_REPUBLICAN_campaign_in_new_england_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_medium_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_republican_in_new_england_campaigning
+		}
+	}
+	USA_REPUBLICAN_campaign_in_new_england_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_high_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_republican_in_new_england_campaigning
+		}
+	}
+	
+	USA_republican_in_new_england_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_republican_gain_new_england_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_republican
+			clr_country_flag = USA_high_republican_campaign
+			clr_country_flag = USA_medium_republican_campaign
+			clr_country_flag = USA_small_republican_campaign
+		}
+	}
+	
+	USA_REPUBLICAN_campaign_in_ne_coast_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_small_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_republican_in_ne_coast_campaigning
+		}
+	}
+	USA_REPUBLICAN_campaign_in_ne_coast_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_medium_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_republican_in_ne_coast_campaigning
+		}
+	}
+	USA_REPUBLICAN_campaign_in_ne_coast_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_high_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_republican_in_ne_coast_campaigning
+		}
+	}
+	
+	USA_republican_in_ne_coast_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_republican_gain_ne_coast_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_republican
+			clr_country_flag = USA_high_republican_campaign
+			clr_country_flag = USA_medium_republican_campaign
+			clr_country_flag = USA_small_republican_campaign
+		}
+	}
+	
+	USA_REPUBLICAN_campaign_in_ce_coast_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_small_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_republican_in_ce_coast_campaigning
+		}
+	}
+	USA_REPUBLICAN_campaign_in_ce_coast_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_medium_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_republican_in_ce_coast_campaigning
+		}
+	}
+	USA_REPUBLICAN_campaign_in_ce_coast_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_high_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_republican_in_ce_coast_campaigning
+		}
+	}
+	
+	USA_republican_in_ce_coast_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_republican_gain_ce_coast_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_republican
+			clr_country_flag = USA_high_republican_campaign
+			clr_country_flag = USA_medium_republican_campaign
+			clr_country_flag = USA_small_republican_campaign
+		}
+	}
+	
+	USA_REPUBLICAN_campaign_in_north_south_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_small_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_republican_in_north_south_campaigning
+		}
+	}
+	USA_REPUBLICAN_campaign_in_north_south_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_medium_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_republican_in_north_south_campaigning
+		}
+	}
+	USA_REPUBLICAN_campaign_in_north_south_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_high_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_republican_in_north_south_campaigning
+		}
+	}
+	
+	USA_republican_in_north_south_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_republican_gain_north_south_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_republican
+			clr_country_flag = USA_high_republican_campaign
+			clr_country_flag = USA_medium_republican_campaign
+			clr_country_flag = USA_small_republican_campaign
+		}
+	}
+	
+	USA_REPUBLICAN_campaign_in_deep_south_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_small_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_republican_in_deep_south_campaigning
+		}
+	}
+	USA_REPUBLICAN_campaign_in_deep_south_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_medium_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_republican_in_deep_south_campaigning
+		}
+	}
+	USA_REPUBLICAN_campaign_in_deep_south_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_high_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_republican_in_deep_south_campaigning
+		}
+	}
+	
+	USA_republican_in_deep_south_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_republican_gain_deep_south_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_republican
+			clr_country_flag = USA_high_republican_campaign
+			clr_country_flag = USA_medium_republican_campaign
+			clr_country_flag = USA_small_republican_campaign
+		}
+	}
+	
+	USA_REPUBLICAN_campaign_in_cen_america_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_small_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_republican_in_cen_america_campaigning
+		}
+	}
+	USA_REPUBLICAN_campaign_in_cen_america_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_medium_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_republican_in_cen_america_campaigning
+		}
+	}
+	USA_REPUBLICAN_campaign_in_cen_america_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_high_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_republican_in_cen_america_campaigning
+		}
+	}
+	
+	USA_republican_in_cen_america_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_republican_gain_cen_america_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_republican
+			clr_country_flag = USA_high_republican_campaign
+			clr_country_flag = USA_medium_republican_campaign
+			clr_country_flag = USA_small_republican_campaign
+		}
+	}
+	
+	USA_REPUBLICAN_campaign_in_carribean_small = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_small_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 15
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_15_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_small_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -15
+			}
+			activate_mission = USA_republican_in_carribean_campaigning
+		}
+	}
+	USA_REPUBLICAN_campaign_in_carribean_medium = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_medium_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 35
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_35_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_medium_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -35
+			}
+			activate_mission = USA_republican_in_carribean_campaigning
+		}
+	}
+	USA_REPUBLICAN_campaign_in_carribean_large = { 
+		visible = {
+			has_country_flag = USA_election_season
+			has_country_flag = USA_show_large_options
+			has_government = socialism
+		}
+		available = {
+			has_country_flag = USA_election_season
+			NOT = {
+				has_country_flag = USA_currently_campaigning_republican
+			}
+		}
+		
+		custom_cost_trigger = {
+            check_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = 50
+				compare = greater_than_or_equals
+			}
+        }
+        custom_cost_text = USA_50_republican_cost
+		
+		complete_effect = {
+			set_country_flag = USA_currently_campaigning_republican
+			set_country_flag = USA_high_republican_campaign
+			add_to_variable = {
+				var = USA_REPUBLICAN_CAMPAIGN_POINTS
+				value = -50
+			}
+			activate_mission = USA_republican_in_carribean_campaigning
+		}
+	}
+	
+	USA_republican_in_carribean_campaigning = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_republican_gain_carribean_decision_variant = yes
+			clr_country_flag = USA_currently_campaigning_republican
+			clr_country_flag = USA_high_republican_campaign
+			clr_country_flag = USA_medium_republican_campaign
+			clr_country_flag = USA_small_republican_campaign
+		}
+	}
+	
+	USA_opposition_campaign = {
+		allowed = {
+			always = no
+			tag = USA
+		}
+		available = {
+			always = no
+		}
+		
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			USA_opposing_parties_campaign = yes
+			hidden_effect = {
+				if = { # re run
+					limit = {
+						has_country_flag = USA_election_season
+					}
+					activate_mission = USA_opposition_campaign
+				}
+			}
+			custom_effect_tooltip = USA_Campaign_Opposition_tt
+		}
+	}
+	
+}
+
+USA_electoral_college = {
+	USA_debug_election_1936 = {
+		complete_effect = {
+			USA_get_EV_count = yes
+		}
+	}
+}
+
+USA_faux_freedom_decisions = {
+	USA_example_1 = {
+		complete_effect = {
+			add_political_power = 100
+		}
+	}
+}
+
+USA_archies_legacy = {
+	### Pro Dem ###
+	
+	USA_support_the_texans_toas = { # Pro Texas
+		visible = {
+			has_country_flag = USA_president_a_roosevelt
+			NOT = {
+				has_country_flag = USA_Archie_did_USA_decry_the_toas_fight
+			}
+		}
+		available = {
+			has_country_flag = USA_president_a_roosevelt
+			NOT = {
+				has_country_flag = USA_archie_doing_action
+			}
+			
+		}
+		cost = 50
+		ai_will_do = {
+			base = 0 
+			modifier = { 	
+				has_country_flag = USA_AI_go_for_dems
+				factor = 100
+			}
+		}
+		
+		fire_only_once = yes
+		days_remove = 35
+		complete_effect = {
+			set_country_flag = USA_archie_doing_action
+			custom_effect_tooltip = USA_will_boost_dem_support_of_archie
+		}
+		remove_effect = {
+			clr_country_flag = USA_archie_doing_action
+			set_country_flag = USA_Archie_did_USA_support_the_texans_toas
+			add_to_variable = {
+				var = USA_Archie_Dem_Love
+				value = 0.07
+			}
+			custom_effect_tooltip = USA_will_boost_dem_support_of_archie
+		}
+	}
+	
+	USA_support_the_colonist_miners = { # East Coast Like
+		visible = {
+			has_country_flag = USA_president_a_roosevelt
+		}
+		available = {
+			has_country_flag = USA_president_a_roosevelt
+			NOT = {
+				has_country_flag = USA_archie_doing_action
+			}
+		}
+		cost = 50
+		ai_will_do = {
+			base = 0 
+			modifier = { 	
+				has_country_flag = USA_AI_go_for_dems
+				factor = 100
+			}
+		}
+		fire_only_once = yes
+		days_remove = 35
+		complete_effect = {
+			set_country_flag = USA_archie_doing_action
+			custom_effect_tooltip = USA_will_boost_dem_support_of_archie
+		}
+		remove_effect = {
+			clr_country_flag = USA_archie_doing_action
+			set_country_flag = USA_Archie_did_USA_support_the_colonist_miners
+			add_to_variable = {
+				var = USA_Archie_Dem_Love
+				value = 0.07
+			}
+			custom_effect_tooltip = USA_will_boost_dem_support_of_archie
+		}
+	}
+	
+	USA_meet_with_Patton = { # West Coast Like
+		visible = {
+			has_country_flag = USA_president_a_roosevelt
+		}
+		available = {
+			has_country_flag = USA_president_a_roosevelt
+			NOT = {
+				has_country_flag = USA_archie_doing_action
+			}
+		}
+		cost = 50
+		ai_will_do = {
+			base = 0 
+			modifier = { 	
+				has_country_flag = USA_AI_go_for_dems
+				factor = 100
+			}
+		}
+		fire_only_once = yes
+		days_remove = 35
+		complete_effect = {
+			set_country_flag = USA_archie_doing_action
+			custom_effect_tooltip = USA_will_boost_dem_support_of_archie
+		}
+		remove_effect = {
+			clr_country_flag = USA_archie_doing_action
+			set_country_flag = USA_Archie_did_USA_meet_with_Patton
+			add_to_variable = {
+				var = USA_Archie_Dem_Love
+				value = 0.07
+			}
+			custom_effect_tooltip = USA_will_boost_dem_support_of_archie
+		}
+	}
+	
+	USA_phyc_op_strikers = { # strengthens Dems, strengthens Socs
+		visible = {
+			has_country_flag = USA_president_a_roosevelt
+			has_country_flag = USA_MAY_DAY_STRIKES_1936
+			NOT = {
+				has_country_flag = USA_Archie_did_USA_condemn_strikers
+			}
+		}
+		available = {
+			has_country_flag = USA_president_a_roosevelt
+			NOT = {
+				has_country_flag = USA_archie_doing_action
+			}
+		}
+		cost = 50
+		ai_will_do = {
+			base = 0 
+			modifier = { 	
+				has_country_flag = USA_AI_go_for_dems
+				factor = 100
+			}
+		}
+		fire_only_once = yes
+		days_remove = 35
+		complete_effect = {
+			set_country_flag = USA_archie_doing_action
+			custom_effect_tooltip = USA_will_boost_dem_support_of_archie
+		}
+		remove_effect = {
+			clr_country_flag = USA_archie_doing_action
+			set_country_flag = USA_Archie_did_USA_phyc_op_strikers
+			add_to_variable = {
+				var = USA_Archie_Dem_Love
+				value = 0.07
+			}
+			custom_effect_tooltip = USA_will_boost_dem_support_of_archie
+		}
+	}
+	
+	### Pro Whig ###
+	
+	USA_decry_the_toas_fight = { # Anti-Texas
+		visible = {
+			has_country_flag = USA_president_a_roosevelt
+			NOT = {
+				has_country_flag = USA_Archie_did_USA_support_the_texans_toas
+			}
+		}
+		available = {
+			has_country_flag = USA_president_a_roosevelt
+			NOT = {
+				has_country_flag = USA_archie_doing_action
+			}
+		}
+		cost = 50
+		ai_will_do = {
+			base = 0 
+			modifier = { 	
+				OR = {
+					has_country_flag = USA_AI_go_for_whigs
+					has_country_flag = USA_AI_go_for_progs
+				}	
+				factor = 100
+			}
+		}
+		fire_only_once = yes
+		days_remove = 35
+		complete_effect = {
+			set_country_flag = USA_archie_doing_action
+			custom_effect_tooltip = USA_will_boost_whig_support_of_archie
+		}
+		remove_effect = {
+			clr_country_flag = USA_archie_doing_action
+			set_country_flag = USA_Archie_did_USA_decry_the_toas_fight
+			#
+			add_to_variable = {
+				var = USA_Archie_Whig_Love
+				value = 0.07
+			}
+			custom_effect_tooltip = USA_will_boost_whig_support_of_archie
+		}
+	}
+	USA_establish_carlsbad_national_park = { # Texas
+		visible = {
+			has_country_flag = USA_president_a_roosevelt
+		}
+		available = {
+			has_country_flag = USA_president_a_roosevelt
+			NOT = {
+				has_country_flag = USA_archie_doing_action
+			}
+		}
+		cost = 50
+		ai_will_do = {
+			base = 0 
+			modifier = { 	
+				OR = {
+					has_country_flag = USA_AI_go_for_whigs
+					has_country_flag = USA_AI_go_for_progs
+				}	
+				factor = 100
+			}
+		}
+		fire_only_once = yes
+		days_remove = 35
+		complete_effect = {
+			set_country_flag = USA_archie_doing_action
+			custom_effect_tooltip = USA_will_boost_whig_support_of_archie
+		}
+		remove_effect = {
+			clr_country_flag = USA_archie_doing_action
+			set_country_flag = USA_Archie_did_USA_establish_carlsbad_national_park
+			add_to_variable = {
+				var = USA_Archie_Whig_Love
+				value = 0.07
+			}
+			custom_effect_tooltip = USA_will_boost_whig_support_of_archie
+		}
+	}
+	USA_establish_everglades_national_park = { # Florida
+		visible = {
+			has_country_flag = USA_president_a_roosevelt
+		}
+		available = {
+			has_country_flag = USA_president_a_roosevelt
+			NOT = {
+				has_country_flag = USA_archie_doing_action
+			}
+		}
+		cost = 50
+		ai_will_do = {
+			base = 0 
+			modifier = { 	
+				OR = {
+					has_country_flag = USA_AI_go_for_whigs
+					has_country_flag = USA_AI_go_for_progs
+				}	
+				factor = 100
+			}
+		}
+		fire_only_once = yes
+		days_remove = 35
+		complete_effect = {
+			set_country_flag = USA_archie_doing_action
+			custom_effect_tooltip = USA_will_boost_whig_support_of_archie
+		}
+		remove_effect = {
+			clr_country_flag = USA_archie_doing_action
+			set_country_flag = USA_Archie_did_USA_establish_everglades_national_park
+			add_to_variable = {
+				var = USA_Archie_Whig_Love
+				value = 0.07
+			}
+			custom_effect_tooltip = USA_will_boost_whig_support_of_archie
+		}
+	}
+	USA_establish_great_smokey_mountains_national_park = { # Florida
+		visible = {
+			has_country_flag = USA_president_a_roosevelt
+		}
+		available = {
+			has_country_flag = USA_president_a_roosevelt
+			NOT = {
+				has_country_flag = USA_archie_doing_action
+			}
+		}
+		cost = 50
+		ai_will_do = {
+			base = 0 
+			modifier = { 	
+				OR = {
+					has_country_flag = USA_AI_go_for_whigs
+					has_country_flag = USA_AI_go_for_progs
+				}	
+				factor = 100
+			}
+		}
+		fire_only_once = yes
+		days_remove = 35
+		complete_effect = {
+			set_country_flag = USA_archie_doing_action
+			custom_effect_tooltip = USA_will_boost_whig_support_of_archie
+		}
+		remove_effect = {
+			clr_country_flag = USA_archie_doing_action
+			set_country_flag = USA_Archie_did_USA_establish_great_smokey_mountains_national_park
+			add_to_variable = {
+				var = USA_Archie_Whig_Love
+				value = 0.07
+			}
+			custom_effect_tooltip = USA_will_boost_whig_support_of_archie
+		}
+	}
+	USA_condemn_strikers = { # strengthens Whigs
+		visible = {
+			has_country_flag = USA_president_a_roosevelt
+			has_country_flag = USA_MAY_DAY_STRIKES_1936
+			NOT = {
+				has_country_flag = USA_Archie_did_USA_phyc_op_strikers
+			}
+		}
+		available = {
+			has_country_flag = USA_president_a_roosevelt
+			NOT = {
+				has_country_flag = USA_archie_doing_action
+			}
+		}
+		cost = 50
+		ai_will_do = {
+			base = 0 
+			modifier = { 	
+				OR = {
+					has_country_flag = USA_AI_go_for_whigs
+					has_country_flag = USA_AI_go_for_progs
+				}	
+				factor = 100
+			}
+		}
+		fire_only_once = yes
+		days_remove = 35
+		complete_effect = {
+			set_country_flag = USA_archie_doing_action
+			custom_effect_tooltip = USA_will_boost_whig_support_of_archie
+		}
+		remove_effect = {
+			clr_country_flag = USA_archie_doing_action
+			set_country_flag = USA_Archie_did_USA_condemn_strikers
+			add_to_variable = {
+				var = USA_Archie_Whig_Love
+				value = 0.07
+			}
+			custom_effect_tooltip = USA_will_boost_whig_support_of_archie
+		}
+	}
+	
+	## Finale
+	
+	USA_Endorse_Allen_Dulles = { # 
+		visible = {
+			has_country_flag = USA_president_a_roosevelt
+			NOT = {
+				date > 1936.11.03
+			}
+			NOT = {
+				OR = {
+					has_country_flag = endorses_noone
+					has_country_flag = endorses_calvin
+				}
+			}
+		}
+		available = {
+			has_country_flag = USA_president_a_roosevelt
+			NOT = {
+				has_country_flag = USA_archie_doing_action
+			}
+			date > 1936.09.01
+			date < 1936.11.01
+		}
+		cost = 25
+		ai_will_do = {
+			base = 0 
+			modifier = { 	
+				has_country_flag = USA_AI_go_for_dems
+				factor = 100
+			}
+		}
+		fire_only_once = yes
+		complete_effect = {
+			custom_effect_tooltip = USA_dem_endorsement
+			hidden_effect = {
+				set_country_flag = endorses_allen
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_Archie_Dem_Love
+							value = 0.00
+							compare = greater_than_or_equals
+						}
+						NOT = {
+							check_variable = {
+								var = USA_Archie_Dem_Love
+								value = 0.25
+								compare = greater_than_or_equals
+							}
+						}
+					}
+					country_event = { id = ArchieLegacy.4 days = 1 }
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_Archie_Dem_Love
+							value = 0.25
+							compare = greater_than_or_equals
+						}
+					}
+					country_event = { id = ArchieLegacy.3 days = 1 }
+				}
+			}
+		}
+	}
+	USA_Endorse_Calvin_Coolidge = { # 
+		visible = {
+			has_country_flag = USA_president_a_roosevelt
+			NOT = {
+				date > 1936.11.03
+			}
+			NOT = {
+				OR = {
+					has_country_flag = endorses_noone
+					has_country_flag = endorses_allen
+				}
+			}
+		}
+		available = {
+			has_country_flag = USA_president_a_roosevelt
+			NOT = {
+				has_country_flag = USA_archie_doing_action
+			}
+			date > 1936.09.01
+			date < 1936.11.01
+		}
+		cost = 25
+		ai_will_do = {
+			base = 0 
+			modifier = { 	
+				OR = {
+					has_country_flag = USA_AI_go_for_whigs
+					has_country_flag = USA_AI_go_for_progs
+				}	
+				factor = 100
+			}
+		}
+		fire_only_once = yes
+		complete_effect = {
+			custom_effect_tooltip = USA_whig_endorsement
+			hidden_effect = {
+				set_country_flag = endorses_calvin
+				if = {
+					limit = {
+						check_variable = {
+							var = USA_Archie_Whig_Love
+							value = 0.00
+							compare = greater_than_or_equals
+						}
+						NOT = {
+							check_variable = {
+								var = USA_Archie_Whig_Love
+								value = 0.25
+								compare = greater_than_or_equals
+							}
+						}
+					}
+					country_event = { id = ArchieLegacy.2 days = 1 }
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							var = USA_Archie_Whig_Love
+							value = 0.25
+							compare = greater_than_or_equals
+						}
+					}
+					country_event = { id = ArchieLegacy.1 days = 1 }
+				}
+			}
+		}
+	}
+	USA_Refuse_To_Endorse = { # 
+		visible = {
+			has_country_flag = USA_president_a_roosevelt
+			NOT = {
+				date > 1936.11.03
+			}
+			NOT = {
+				OR = {
+					has_country_flag = endorses_calvin
+					has_country_flag = endorses_allen
+				}
+			}
+		}
+		available = {
+			has_country_flag = USA_president_a_roosevelt
+			NOT = {
+				has_country_flag = USA_archie_doing_action
+			}
+			date > 1936.09.01
+			date < 1936.11.01
+		}
+		cost = 25
+		ai_will_do = {
+			base = 0 
+			modifier = { 	
+				OR = {
+					has_country_flag = USA_AI_go_for_whigs
+					has_country_flag = USA_AI_go_for_progs
+				}	
+				factor = 100
+			}
+		}
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = endorses_noone
+			custom_effect_tooltip = USA_no_endrosement
+			hidden_effect = {
+				country_event = { id = ArchieLegacy.5 days = 1 }
+			}
+		}
+	}
+}
+
+USA_filibuster = {
+}

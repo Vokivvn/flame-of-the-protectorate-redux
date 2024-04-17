@@ -1,0 +1,200 @@
+##############################################
+#██████╗░██╗░░░██╗░██████╗░██████╗██╗░█████╗░#
+#██╔══██╗██║░░░██║██╔════╝██╔════╝██║██╔══██╗#
+#██████╔╝██║░░░██║╚█████╗░╚█████╗░██║███████║#
+#██╔══██╗██║░░░██║░╚═══██╗░╚═══██╗██║██╔══██║#
+#██║░░██║╚██████╔╝██████╔╝██████╔╝██║██║░░██║#
+#╚═╝░░╚═╝░╚═════╝░╚═════╝░╚═════╝░╚═╝╚═╝░░╚═╝#
+##############################################
+
+#####################
+##RUSSIA INTRO TREE## V3
+#####################
+
+shared_focus = {
+	id = SOV_my_empire_of_dirt
+	icon = GFX_SOV_My_Empire_Of_Dirt
+	cost = 5
+	x = 8
+	y = 1
+	available = { has_country_flag = SOV_flag_nikolai_iii_emperor } 
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus SOV_my_empire_of_dirt"
+		
+	}
+}
+
+shared_focus = {
+	id = SOV_a_crown_of_thorns
+	icon = GFX_SOV_A_Crown_Of_Thorns
+	cost = 5
+	x = -1
+	y = 1
+	available = { has_country_flag = SOV_flag_nikolai_iii_emperor }
+	prerequisite = { focus = SOV_my_empire_of_dirt }
+	relative_position_id = SOV_my_empire_of_dirt
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus SOV_a_crown_of_thorns"
+		
+	}
+}
+
+shared_focus = {
+	id = SOV_our_burdens
+	icon = GFX_SOV_Our_Burdens
+	cost = 5
+	x = 1
+	y = 1
+	available = { has_country_flag = SOV_flag_nikolai_iii_emperor }
+	prerequisite = { focus = SOV_my_empire_of_dirt }
+	relative_position_id = SOV_my_empire_of_dirt
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus SOV_our_burdens"
+		
+	}
+}
+
+shared_focus = {
+	id = SOV_remember_our_promises
+	icon = GFX_SOV_Remember_Our_Promises
+	cost = 5
+	x = -2
+	y = 1
+	available = { has_country_flag = SOV_flag_nikolai_iii_emperor }
+	prerequisite = { focus = SOV_a_crown_of_thorns }
+	relative_position_id = SOV_a_crown_of_thorns
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus SOV_remember_our_promises" 
+		
+	}
+}
+
+shared_focus = {
+	id = SOV_our_western_krai
+	icon = GFX_SOV_Our_Western_Krai
+	cost = 5
+	x = 0
+	y = 2
+	available = { has_country_flag = SOV_flag_nikolai_iii_emperor }
+	prerequisite = { focus = SOV_my_empire_of_dirt }
+	relative_position_id = SOV_my_empire_of_dirt
+	ai_will_do = { factor = 70 }
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus SOV_our_western_krai" 
+		custom_effect_tooltip = SOV_our_western_krai_tt
+		set_country_flag = SOV_flag_our_western_krai_decisions_unlocked
+		if = {
+			limit = {
+				SOV  = { is_ai = yes }
+			}
+			set_variable = { SOV_western_krai_michael_influence = 0.41 }
+		}
+		else = { 
+			set_variable = { SOV_western_krai_michael_influence = 0 }
+		}
+	}
+}
+
+shared_focus = {
+	id = SOV_putilovs_report
+	icon = GFX_SOV_Putilovs_Report
+	cost = 5
+	x = 2
+	y = 1
+	available = { has_country_flag = SOV_flag_nikolai_iii_emperor }
+	prerequisite = { focus = SOV_our_burdens }
+	relative_position_id = SOV_our_burdens
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus SOV_putilovs_report" 
+		
+	}
+}
+
+shared_focus = {
+	id = SOV_lord_save_russia
+	icon = GFX_SOV_Lord_Save_Russia
+	cost = 5
+	x = 2
+	y = 1
+	available = { has_country_flag = SOV_flag_nikolai_iii_emperor }
+	prerequisite = { focus = SOV_remember_our_promises }
+	relative_position_id = SOV_remember_our_promises
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus SOV_lord_save_russia" 
+		
+	}
+}
+
+shared_focus = {
+	id = SOV_bring_her_peace
+	icon = GFX_SOV_Bring_Her_Peace
+	cost = 5
+	x = -2
+	y = 1
+	available = { has_country_flag = SOV_flag_nikolai_iii_emperor }
+	prerequisite = { focus = SOV_putilovs_report }
+	relative_position_id = SOV_putilovs_report
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus SOV_bring_her_peace" 
+		
+	}
+}
+
+shared_focus = {
+	id = SOV_the_land_of_contrasts
+	icon = GFX_SOV_A_Country_Of_Contrasts
+	cost = 5
+	x = -1
+	y = 1
+	available = { has_country_flag = SOV_flag_nikolai_iii_emperor }
+	prerequisite = { focus = SOV_lord_save_russia }
+	relative_position_id = SOV_lord_save_russia
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus SOV_the_land_of_contrasts" 
+		
+	}
+}
+
+shared_focus = {
+	id = SOV_business_as_usual
+	icon = GFX_SOV_Business_As_Usual
+	cost = 5
+	x = 1
+	y = 1
+	available = { has_country_flag = SOV_flag_nikolai_iii_emperor }
+	prerequisite = { focus = SOV_bring_her_peace }
+	relative_position_id = SOV_bring_her_peace
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus SOV_business_as_usual" 
+		
+	}
+}
+
+shared_focus = {
+	id = SOV_cast_the_ballot
+	icon = GFX_SOV_Cast_The_Ballot
+	cost = 5
+	x = 0
+	y = 3
+	available = { has_country_flag = SOV_flag_nikolai_iii_emperor }
+	prerequisite = { focus = SOV_the_land_of_contrasts }
+	prerequisite = { focus = SOV_our_western_krai }
+	prerequisite = { focus = SOV_business_as_usual }
+	relative_position_id = SOV_our_western_krai
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus SOV_cast_the_ballot" 
+		custom_effect_tooltip = SOV_cast_the_ballot_tt
+		SOV_start_limbo = yes
+	}
+}
