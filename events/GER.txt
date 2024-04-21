@@ -1,5 +1,4 @@
 ﻿add_namespace = GER
-add_namespace = gcw
 
 country_event = { # CLAIM
 	id = GER.1
@@ -50,62 +49,59 @@ country_event = { # gcw
 	title = GER.24.t
 	desc = GER.24.d
 	picture = GFX_report_event_chinese_soldiers_01
-
+	
 	is_triggered_only = yes
 	
-option = {
-	name = GER.24.a
-	BAV = {
-		transfer_state = 52
-		add_state_core = 52
-		set_province_controller = 6725
-		set_province_controller = 13281		
-		set_province_controller = 3690
-		set_province_controller = 6540
-		set_province_controller = 9655
-	}
-	PRS = {
-		transfer_state = 763
-	}
-}
-
-country_event = { # gcw 2
-	id = GER.25
-	title = GER.25.t
-	desc = GER.25.d
-	picture = GFX_report_event_chinese_soldiers_01
-
-	is_triggered_only = yes
-	
-option = {
-		name = GER.25.a
-
-		PRS = {
-			transfer_state = 763
-		}
-	}
-}	
-
-country_event = { # gcw 2
-	id = GER.26
-	title = GER.26.t
-	desc = GER.26.d
-	picture = GFX_report_event_chinese_soldiers_01
-
-	is_triggered_only = yes
-	
-option = {
-		name = GER.26.a
-		GSR = {
+	immediate = { 
+		hidden_effect = {
+			GSR = {
 			transfer_state = 64
+			add_state_core = 64
+			transfer_state = 59
+			add_state_core = 59
+			transfer_state = 68
+			add_state_core = 68
+			transfer_state = 63
+			add_state_core = 63
+			transfer_state = 923
+			add_state_core = 923
+			transfer_state = 928
+			add_state_core = 928
+			transfer_state = 932
+			add_state_core = 932
+			transfer_state = 921
+			add_state_core = 921
+			transfer_state = 922
+			add_state_core = 922
+			transfer_state = 929
+			add_state_core = 929
+			transfer_state = 926
+			add_state_core = 926
+			transfer_state = 920
+			add_state_core = 920
+			set_province_controller = 495
+			set_province_controller = 9347
+			set_province_controller = 564
+			set_province_controller = 11533
+			set_province_controller = 538
+			set_province_controller = 11481
+			set_province_controller = 444
+			set_province_controller = 3438
+			set_province_controller = 3207
+			set_province_controller = 3312
+			declare_war_on = {
+    			target = GER
+    			type = annex_everything
+			}
 		}
-		GER = {
-		set_province_controller = 11415
-		set_province_controller = 9496		
-		set_province_controller = 9428
-		set_province_controller = 3499	
-		set_province_controller = 375	
-		set_province_controller = 3367
-		set_province_controller = 11444
+	}
+	is_triggered_only = yes
+	
+	option = { # stay in GER
+		name = GER.24.a
+	}
+	option = { # tag GSR
+		name = GER.24.b
+		GSR = { change_tag_from = ROOT }
 	}
 }

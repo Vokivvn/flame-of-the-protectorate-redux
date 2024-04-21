@@ -1,0 +1,18 @@
+﻿l_english:
+ ## parties ##
+  CAL_centralism_party:0 "CCP"
+  CAL_centralism_party_long:0 "Cape Communist Party"
+  CAL_socialism_party:0 "SPC"
+  CAL_socialism_party_long:0 "Socialist Party of the Cape"
+  CAL_progressivism_party:0 "Labour"
+  CAL_progressivism_party_long:0 "Labour Party"
+  CAL_liberalism_party:0 "SAP"
+  CAL_liberalism_party_long:0 "South African Party"
+  CAL_conservatism_party:0 "Progressives"
+  CAL_conservatism_party_long:0 "Progressive Party"
+  CAL_republicanism_party:0 "Afrikaner Bond"
+  CAL_republicanism_party_long:0 "Afrikaner Bond"
+  CAL_authoritarianism_party:0 "RP"
+  CAL_authoritarianism_party_long:0 "Republican Party"
+  CAL_ultranationalism_party:0 "Broederbond"
+  CAL_ultranationalism_party_long:0 "Afrikaner Broederbond"

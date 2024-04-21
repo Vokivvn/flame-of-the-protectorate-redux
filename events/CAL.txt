@@ -1,0 +1,55 @@
+﻿add_namespace = calcutta
+
+country_event = { # The Maharaja's Stroke
+	id = calcutta.1
+	title = calcutta.1.t
+	desc = calcutta.1.desc
+	picture = GFX_report_event_khalistan_mehmet_duleep_singh
+
+	is_triggered_only = yes
+	
+	option = {
+		name = calcutta.1.a
+		hidden_effect = {
+			country_event = {
+				id = calcutta.2
+				days = 5
+			}
+		}
+	}
+}
+
+country_event = { # Enoch Powell
+	id = calcutta.2
+	title = calcutta.2.t
+	desc = calcutta.2.desc
+	picture = GFX_report_event_khalistan_mehmet_duleep_singh
+
+	is_triggered_only = yes
+	
+	option = {
+		name = calcutta.2.a
+		create_country_leader = {
+			name = "Enoch Powell"
+			desc = "POLITICS_ENOCH_POWELL_DESC"
+			picture = "Portrait_Enoch_Powell.dds"
+			expire = "1965.1.1"
+			ideology = ultranationalism_subtype
+			traits = {
+			}
+		}
+		set_politics = {
+				ruling_party = ultranationalism
+				last_election = "1936.1.1"
+				election_frequency = 48
+				elections_allowed = no
+			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = calcutta.3
+				days = 2
+			}
+		}
+	}
+}

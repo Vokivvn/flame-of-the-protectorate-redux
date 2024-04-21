@@ -1,0 +1,38 @@
+ideas = {
+	country = {
+		SPR_unstable_republic = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = ENG_the_protectorate
+
+			modifier = {
+				stability_factor = -0.25
+				political_power_gain = -0.25
+			}
+		}
+		SPR_growing_radicalism = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = ENG_the_protectorate
+
+			modifier = {
+				ultranationalism_drift = 0.05
+				centralism_drift = 0.05
+				socialism_drift = 0.05
+			}
+		}
+		SPR_memories_of_the_spanish_american_war = {
+			allowed = {	always = no }
+			removal_cost = -1
+
+			picture = ENG_the_protectorate
+
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.15
+			}
+		}
+	}
+}

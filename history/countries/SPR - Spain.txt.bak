@@ -20,7 +20,6 @@ set_popularities = {
 	authoritarianism = 32
 	ultranationalism = 4
 }
-
 add_ideas = {
 	SPR_unstable_republic
 	SPR_growing_radicalism

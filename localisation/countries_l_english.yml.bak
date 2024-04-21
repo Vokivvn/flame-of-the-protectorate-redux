@@ -287,6 +287,34 @@
  BAV_ultranationalism_ADJ:0 "Bavarian"
  
  
+   #GSR
+ GSR_centralism:0 "German Socialist Republic"
+ GSR_centralism_DEF:0 "The Bavaria Red Army"
+ GSR_socialism:0 "Bavarian Red Army"
+ GSR_socialism_DEF:0 "The Bavarian Red Army"
+ GSR_progressivism:0 "Bavarian Red Army"
+ GSR_progressivism_DEF:0 "The Bavarian Red Army"
+ GSR_republicanism:0 "Bavarian Red Army"
+ GSR_republicanism_DEF:0 "The Bavarian Red Army"
+ GSR_liberalism:0 "Bavarian Red Army"
+ GSR_liberalism_DEF:0 "The Bavarian Red Army"
+ GSR_conservatism:0 "Bavarian Red Army"
+ GSR_conservatism_DEF:0 "The Bavarian Red Army"
+ GSR_authoritarianism:0 "Bavarian Red Army"
+ GSR_authoritarianism_DEF:0 "The Bavarian Red Army"
+ GSR_ultranationalism:0 "Bavarian Red Army"
+ GSR_ultranationalism_DEF:0 "The Bavarian Red Army"
+ 
+ BAV_centralism_ADJ:0 "Bavarian"
+ BAV_socialism_ADJ:0 "Bavarian"
+ BAV_progressivism_ADJ:0 "Bavarian"
+ BAV_liberalism_ADJ:0 "Bavarian"
+ BAV_conservatism_ADJ:0 "Bavarian"
+ BAV_republicanism_ADJ:0 "Bavarian"
+ BAV_authoritarianism_ADJ:0 "Bavarian"
+ BAV_ultranationalism_ADJ:0 "Bavarian"
+ 
+ 
  #Saudi Kingdom
  BAG_centralism:0 "Saudi Kingdom"
  BAG_centralism_DEF:0 "The Iraqi Federation"
@@ -3375,16 +3403,16 @@
  PRS_authoritarianism:0 "Prussian Free State"
  PRS_authoritarianism_DEF:0 "The Prussian Free State"
  PRS_ultranationalism:0 "Prussian Free State"
- PRs_ultranationalism_DEF:0 "The Prussian Free State"
+ PRS_ultranationalism_DEF:0 "The Prussian Free State"
  
- BAV_centralism_ADJ:0 "Prussian"
- BAV_socialism_ADJ:0 "Prussian"
- BAV_progressivism_ADJ:0 "Prussian"
- BAV_liberalism_ADJ:0 "Prussian"
- BAV_conservatism_ADJ:0 "Prussian"
- BAV_republicanism_ADJ:0 "Prussian"
- BAV_authoritarianism_ADJ:0 "Prussian"
- BAV_ultranationalism_ADJ:0 "Prussian"
+ PRS_centralism_ADJ:0 "Prussian"
+ PRS_socialism_ADJ:0 "Prussian"
+ PRS_progressivism_ADJ:0 "Prussian"
+ PRS_liberalism_ADJ:0 "Prussian"
+ PRS_conservatism_ADJ:0 "Prussian"
+ PRS_republicanism_ADJ:0 "Prussian"
+ PRS_authoritarianism_ADJ:0 "Prussian"
+ PRS_ultranationalism_ADJ:0 "Prussian"
  
  
  #Quebec

@@ -130,8 +130,8 @@
  AUS_conservatism_party_long:0 "Christlichsoziale Partei"
  AUS_republicanism_party:0 "GDVP"
  AUS_republicanism_party_long:0 "Großdeutsche Volkspartei"
- AUS_authoritarianism_party:0 "Landbund"
- AUS_authoritarianism_party_long:0 "Landbund"
+ AUS_authoritarianism_party:0 "Lanbund"
+ AUS_authoritarianism_party_long:0 "Lanbund"
  AUS_ultranationalism_party:0 "Heimwehr"
  AUS_ultranationalism_party_long:0 "Heimwehr"
 
