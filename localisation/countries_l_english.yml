@@ -4861,6 +4861,10 @@
  PRU_liberalism_DEF:0 "The Republic of Peru"
  PRU_liberalism_ADJ:0 "Peruvian"
  
+ PUE_ultranationalism:0 "Puerto Rico"
+ PUE_ultranationalism_DEF:0 "Puerto Rico"
+ PUE_ultranationalism_ADJ:0 "Puerto Rican"
+ 
  SAF_liberalism:0 "South Africa"
  SAF_liberalism_DEF:0 "South Africa"
  SAF_liberalism_ADJ:0 "South African"

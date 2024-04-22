@@ -245,6 +245,7 @@ RIO = "countries/Rio Grande.txt"
 NIC = "countries/Nicaragua.txt"
 PAN = "countries/Panama.txt"
 PAR = "countries/Paraguay.txt"
+PUE = "countries/Puerto Rico.txt"
 QUE = "countries/Quebec.txt"
 SUR = "countries/Suriname.txt"
 

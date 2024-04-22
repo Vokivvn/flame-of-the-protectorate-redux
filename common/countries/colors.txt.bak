@@ -873,8 +873,8 @@ GSR = {
 	color_ui = rgb { 122  37  37 }
 }
 FRK = {
-	color = rgb { 122  37  37 }
-	color_ui = rgb { 122  37  37 }
+	color = rgb { 64 64 64 }
+	color_ui = rgb { 64 64 64 }
 }
 
 
