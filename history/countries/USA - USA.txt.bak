@@ -200,6 +200,10 @@ if = {
 		target = PHI
 		autonomous_state = autonomy_colonial_regime
 	}
+	set_autonomy = {
+		target = GYA
+		autonomous_state = autonomy_colonial_regime
+	}
 	else = {
 		puppet = MOR
 		puppet = RIF

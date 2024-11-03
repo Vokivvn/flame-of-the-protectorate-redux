@@ -39,10 +39,6 @@ if = {
 		target = NZL
 		autonomous_state = autonomy_satellite
 	}
-	set_autonomy = {
-		target = GYA
-		autonomous_state = autonomy_colonial_regime
-	}
 	else = {
 		puppet = CAT
 		puppet = FEA

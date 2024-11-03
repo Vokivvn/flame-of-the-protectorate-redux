@@ -135,6 +135,10 @@ if = {
 		autonomous_state = autonomy_satellite
 		freedom_level = 0.2
 	}
+	set_autonomy = { # malet
+		target = NZL
+		autonomous_state = autonomy_satellite
+	}
 	else = {
 		puppet = MAL
 	}
