@@ -9,12 +9,3 @@ music = {
 		}		
 	}
 }
-
-music = {
-	song = "fairwellofslavianka"
-	chance = {
-		modifier = {
-			factor = 0.5
-		}		
-	}
-}
