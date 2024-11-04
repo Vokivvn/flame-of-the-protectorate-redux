@@ -87,7 +87,21 @@ country_event = { # The Philipinnes is fucked
 	
 	option = {
 		name = USA.5.a
-		
+		HUK = {
+			transfer_state = 623
+			set_province_controller = 10165
+			declare_war_on = {
+    			target = PHI
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = CPH
+    			type = annex_everything
+			}
+						declare_war_on = {
+    			target = TAG
+    			type = annex_everything
+			}
 	}
 }
 

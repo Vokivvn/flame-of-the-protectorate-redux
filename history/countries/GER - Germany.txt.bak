@@ -1,0 +1,176 @@
+﻿capital = 55
+
+set_fuel_ratio = 0.8
+
+set_stability = 0.75 
+set_war_support = 0.3
+
+set_politics = {
+	ruling_party = liberalism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	centralism = 4
+	socialism = 10
+	progressivism = 20
+	liberalism = 23
+	conservatism = 22
+	republicanism = 5
+	authoritarianism = 14
+	ultranationalism = 2
+}
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = DCG
+		autonomous_state = autonomy_colonial_regime
+	}
+	else = {
+		puppet = DCG
+	}
+}
+
+add_ideas = {
+	GER_frankfurt_constitution
+	GER_the_old_haunt
+	GER_the_fifth_power
+	GER_die_wacht_am_rhein
+	
+	# laws
+	mixed
+}
+
+create_country_leader = {
+	name = "Nebelun Ludwig I von Löwenburg"
+	desc = "POLITICS_Nebelun_Ludwig_DESC"
+	picture = "Portrait_Germany_Ludwig_Neapelowin_.dds"
+	expire = "1965.1.1"
+	ideology = federalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Theodor Liebknecht"
+	desc = "POLITICS_THEODOR_LIEBKNECHT_DESC"
+	picture = "Portrait_Germany_Theodor_Liebknecht.dds"
+	expire = "1965.1.1"
+	ideology = socialism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Karl Liebknecht"
+	desc = "POLITICS_KARL_LIEBKNECHT_DESC"
+	picture = "Portrait_Germany_Karl_Liebknecht.dds"
+	expire = "1965.1.1"
+	ideology = centralism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Alfred Hugenburg"
+	desc = "POLITICS_ALFRED_HUGENBERG_DESC"
+	picture = "Portrait_Germany_ALFRED_HUGENBURG.dds"
+	expire = "1965.1.1"
+	ideology = republicanism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Carl Friedrich Goerdeler"
+	desc = "POLITICS_ALFRED_HUGENBERG_DESC"
+	picture = "Portrait_Germany_Carl_Friedrich_Goerdeler.dds"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Anton Drexler"
+	desc = "POLITICS_ALFRED_HUGENBERG_DESC"
+	picture = "Portrait_Germany_Anton_Drexler.dds"
+	expire = "1965.1.1"
+	ideology = ultranationalism_subtype
+	traits = {
+		#
+	}
+}
+
+# STATE IDEOLOGIES #
+# 1 Centralist
+# 2 Socialist
+# 3 Progressive
+# 4 Liberal
+# 5 Conservative
+# 6 Republicanism
+# 7 Authoritarianism
+# 8 Ultranationalist
+# 9 Military Occupation
+# 10 Monarchy
+
+## CENTRALIST
+923 = {	set_variable = { var = state_ideology value = 1 } }
+
+## SOCIALIST
+920 = {	set_variable = { var = state_ideology value = 2 } }
+65 = {	set_variable = { var = state_ideology value = 2 } }
+933 = {	set_variable = { var = state_ideology value = 2 } }
+
+## PROGRESSIVE
+59 = { set_variable = { var = state_ideology value = 3 } }
+928 = { set_variable = { var = state_ideology value = 3 } }
+932 = { set_variable = { var = state_ideology value = 3 } }
+60 = { set_variable = { var = state_ideology value = 3 } }
+934 = { set_variable = { var = state_ideology value = 3 } }
+935 = { set_variable = { var = state_ideology value = 3 } }
+336 = { set_variable = { var = state_ideology value = 3 } }
+
+## LIBERAL
+924 = { set_variable = { var = state_ideology value = 4 } }
+54 = { set_variable = { var = state_ideology value = 4 } }
+927 = { set_variable = { var = state_ideology value = 4 } }
+925 = { set_variable = { var = state_ideology value = 4 } }
+61 = { set_variable = { var = state_ideology value = 4 } }
+62 = { set_variable = { var = state_ideology value = 4 } }
+929 = { set_variable = { var = state_ideology value = 4 } }
+50 = { set_variable = { var = state_ideology value = 4 } }
+
+## CONSERVATIVE
+57 = { set_variable = { var = state_ideology value = 5 } }
+55 = { set_variable = { var = state_ideology value = 5 } }
+
+## REPUBLICANISM
+53 = { set_variable = { var = state_ideology value = 6 } }
+52 = { set_variable = { var = state_ideology value = 6 } }
+922 = { set_variable = { var = state_ideology value = 6 } }
+936 = { set_variable = { var = state_ideology value = 6 } }
+
+## AUTHORITARIANISM
+930 = { set_variable = { var = state_ideology value = 7 } }
+64 = { set_variable = { var = state_ideology value = 7 } }
+
+## ULTRANATIONALISM
+763 = { set_variable = { var = state_ideology value = 8 } }
+63 = { set_variable = { var = state_ideology value = 8 } }
+68 = { set_variable = { var = state_ideology value = 8 } }
+
+## MILITARY OCCUPATION
+
+## MONARCHIST
+919 = { set_variable = { var = state_ideology value = 10 } }
+56 = { set_variable = { var = state_ideology value = 10 } }
+921 = { set_variable = { var = state_ideology value = 10 } }
+926 = { set_variable = { var = state_ideology value = 10 } }
