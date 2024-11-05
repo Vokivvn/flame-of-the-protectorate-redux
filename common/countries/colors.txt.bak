@@ -125,16 +125,16 @@ BUN = {
 	color_ui = rgb { 173 109 109 }
 }
 POR = { 
-	color = rgb { 100 115 107 }
-	color_ui = rgb { 100 115 107 }
+	color = rgb { 87 109 93 }
+	color_ui = rgb { 87 109 93 }
 }
 PEA = { 
-	color = rgb { 100 115 107 }
-	color_ui = rgb { 100 115 107 }
+	color = rgb { 87 109 93 }
+	color_ui = rgb { 87 109 93 }
 }
 PEI = { 
-	color = rgb { 86 114 99 }
-	color_ui = rgb { 86 114 99 }
+	color = rgb { 87 109 93 }
+	color_ui = rgb { 87 109 93 }
 }
 FIN = {
 	color = rgb { 205 212 228 }
@@ -875,6 +875,10 @@ GSR = {
 FRK = {
 	color = rgb { 64 64 64 }
 	color_ui = rgb { 64 64 64 }
+}
+PUE = {
+	color = rgb { 188 130 122 }
+	color_ui = rgb { 188 130 122 }
 }
 
 
