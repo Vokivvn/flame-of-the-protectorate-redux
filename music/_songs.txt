@@ -18,3 +18,12 @@ music = {
 		}		
 	}
 }
+
+music = {
+	song = "dasschonsteaufderwelt"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}		
+	}
+}

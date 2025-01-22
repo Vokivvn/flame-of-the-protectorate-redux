@@ -1,7 +1,0 @@
-
-# MAIN THEME
-music = {
-	name = "maintheme"
-	file = "Cromwell, Protector of the Realm.ogg"
-	volume = 1.00
-}

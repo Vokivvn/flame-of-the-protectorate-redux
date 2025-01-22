@@ -4,7 +4,7 @@ country_event = { #intro
 	id = AUS.0
 	title = AUS.0.t
 	desc = AUS.0.desc
-	picture = GFX_report_event_AUS_start_vienna
+	picture = GFX_report_event_austria_start
 
 	is_triggered_only = yes
 	

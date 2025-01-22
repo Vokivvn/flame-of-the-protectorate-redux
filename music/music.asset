@@ -11,3 +11,9 @@ music = {
 	file = "Farewell of Slavianka.ogg"
 	volume = 1.00
 }
+
+music = {
+	name = "dasschonsteaufderwelt"
+	file = "Das Schönste auf der Welt.ogg"
+	volume = 1.00
+}

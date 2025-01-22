@@ -1,0 +1,20 @@
+state={
+	id=1001
+	name="STATE_1001"
+	
+	history={
+		owner = TRA
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = TRA
+		add_claim_of = HUN
+	}
+	
+	provinces={
+		713 746 3696 3709 9687
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category = town
+}

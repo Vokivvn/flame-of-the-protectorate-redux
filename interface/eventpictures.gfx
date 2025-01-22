@@ -2420,4 +2420,8 @@ spriteTypes = {
 		name = "GFX_report_event_CHI_koo_radio"
 		texturefile = "gfx/event_pictures/GFX_report_event_CHI_koo_radio.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_AUS_start_vienna"
+		texturefile = "gfx/event_pictures/report_event_austria_start.dds"
+	}
 }
