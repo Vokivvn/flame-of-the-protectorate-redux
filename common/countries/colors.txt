@@ -125,6 +125,7 @@ BUN = {
 	color_ui = rgb { 173 109 109 }
 }
 POR = { 
+<<<<<<< HEAD
 	color = rgb { 106 110 130 }
 	color_ui = rgb { 87 93 109 }
 }
@@ -133,7 +134,15 @@ PEA = {
 	color_ui = rgb { 87 93 109 }
 }
 PEI = { 
-	color = rgb { 106 110 130 }
+	color = rgb { 87 93 109 }
+	color_ui = rgb { 87 93 109 }
+}
+PEA = { 
+	color = rgb { 87 93 109 }
+	color_ui = rgb { 87 93 109 }
+}
+PEI = { 
+	color = rgb { 87 93 109 }
 	color_ui = rgb { 87 93 109 }
 }
 FIN = {
