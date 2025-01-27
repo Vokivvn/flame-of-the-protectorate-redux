@@ -33,8 +33,12 @@ CZE = {
 	color_ui = rgb { 108 146 150 }
 }
 BOS = {	
-	color = rgb { 182 189 142 }
-	color_ui = rgb { 182 189 142 }
+	color = rgb { 160 165 168 }
+	color_ui = rgb { 119 127 130 }
+}
+BAN = {	
+	color = rgb { 163 147 113 }
+	color_ui = rgb { 141 128 117 }
 }
 POL = {
 	color = rgb { 130 85 85 } # { 150 96 96 }
@@ -125,7 +129,6 @@ BUN = {
 	color_ui = rgb { 173 109 109 }
 }
 POR = { 
-<<<<<<< HEAD
 	color = rgb { 106 110 130 }
 	color_ui = rgb { 87 93 109 }
 }
@@ -134,15 +137,7 @@ PEA = {
 	color_ui = rgb { 87 93 109 }
 }
 PEI = { 
-	color = rgb { 87 93 109 }
-	color_ui = rgb { 87 93 109 }
-}
-PEA = { 
-	color = rgb { 87 93 109 }
-	color_ui = rgb { 87 93 109 }
-}
-PEI = { 
-	color = rgb { 87 93 109 }
+	color = rgb { 106 110 130 }
 	color_ui = rgb { 87 93 109 }
 }
 FIN = {

@@ -1948,6 +1948,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/GFX_AUS_A_New_Austria.dds"
 	}
 	SpriteType = { 
+		name = "GFX_AUS_Moravian_Sunrise"
+		texturefile = "gfx/interface/goals/GFX_AUS_Moravian_Sunrise.dds"
+	}
+	SpriteType = { 
 		name = "GFX_AUS_Abolish_the_Monarchy"
 		texturefile = "gfx/interface/goals/GFX_AUS_Abolish_the_Monarchy.dds"
 	}

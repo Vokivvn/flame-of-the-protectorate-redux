@@ -9,6 +9,9 @@ state=
 	history={
 		owner = CRO
 		add_core_of = CRO
+		victory_points = {
+			3924 3 
+		}
 		buildings = {
 			infrastructure = 5
 			3943 = {
@@ -17,9 +20,13 @@ state=
 			3868 = {
 				naval_base = 2
 			}
+			3924 = {
+				naval_base = 3
+
+			}
 		}
 	} 
 	provinces={	
-		3943 3868
+		3943 984 3974 3924
 	}
 }

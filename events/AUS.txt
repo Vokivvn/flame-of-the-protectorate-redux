@@ -1,14 +1,18 @@
 ﻿add_namespace = AUS
 
 country_event = { #intro
-	id = AUS.0
-	title = AUS.0.t
-	desc = AUS.0.desc
+	id = AUS.1
+	title = AUS.1.t
+	desc = AUS.1.desc
 	picture = GFX_report_event_AUS_start_vienna
-
-	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = AUS 
+	}
 	
 	option = {
-		name = AUS.0.a
+		name = AUS.1.a
 	}
 }

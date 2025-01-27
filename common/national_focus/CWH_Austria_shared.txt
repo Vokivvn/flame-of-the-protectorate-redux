@@ -1,8 +1,8 @@
 #intro tree
 shared_focus = {
-	id =  AUS_Shattered_Lands
-	icon = GFX_AUS_Shattered_Lands
-	cost = 4.00
+	id =  AUS_State_of_the_Empire
+	icon = GFX_AUS_State_of_the_Empire
+	cost = 0.2
 	
 	x = 6
 	y = 0
@@ -10,7 +10,68 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
 		country_event = {
-			id = AUS.1
+			id = AUS.2
+		}
+	}
+}
+
+shared_focus = {
+	id = AUS_The_Commission_Begins
+	icon = GFX_AUS_The_Commission_Begins
+	cost = 0.2
+	
+	x = 0
+	y = 2
+	
+	relative_position_id = AUS_State_of_the_Empire
+	prerequisite = { focus = AUS_State_of_the_Empire }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
+		country_event = {
+			id = AUS.2
+		}
+	}
+}
+
+shared_focus = {
+	id = AUS_Look_to_Britain
+	icon = GFX_AUS_Look_to_Britain
+	cost = 4.00
+	
+	x = -1
+	y = 1
+	
+	relative_position_id = AUS_The_Commission_Begins
+	prerequisite = { focus = AUS_The_Commission_Begins }
+	mutually_exclusive = {
+		focus = AUS_Look_to_Russia
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
+		country_event = {
+			id = AUS.2
+		}
+	}
+}
+
+shared_focus = {
+	id = AUS_Look_to_Russia
+	icon = GFX_AUS_Look_to_Russia
+	cost = 4.00
+	
+	x = 1
+	y = 1
+	
+	relative_position_id = AUS_The_Commission_Begins
+	prerequisite = { focus = AUS_The_Commission_Begins }
+	mutually_exclusive = {
+		focus = AUS_Look_to_Russia
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
+		country_event = {
+			id = AUS.2
 		}
 	}
 }
