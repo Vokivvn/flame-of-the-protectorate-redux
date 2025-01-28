@@ -1,0 +1,31 @@
+USA_commission = {
+	USA_neo_wilsonianism = {
+		visible = {
+			tag = USA
+		}
+		available = { always = yes }
+		fire_only_once = no
+		complete_effect = {
+			USA = { country_event = { Id = USA.1 days = 1 } }
+		}
+    }
+	USA_support_self_determination = {
+		visible = {
+			tag = USA
+		}
+		available = { always = yes }
+		fire_only_once = no
+		complete_effect = {
+			USA = { country_event = { Id = USA.1 days = 1 } }
+		}
+    }
+	USA_support_nationalist_ambitions = {
+		visible = {
+			tag = USA
+		}
+		available = { always = yes }
+		fire_only_once = no
+		complete_effect = {
+			USA = { country_event = { Id = USA.1 days = 1 } }
+    }
+}

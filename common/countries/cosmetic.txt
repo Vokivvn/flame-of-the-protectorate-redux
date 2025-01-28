@@ -92,3 +92,8 @@ CHI_Koureich = {
 	color = rgb { 128 147 173 }
 	color_ui = rgb { 128 147 173 }
 }
+
+CRO_kingdom = {
+	color = rgb { 160 165 168 }
+	color_ui = rgb { 119 127 130 }
+}

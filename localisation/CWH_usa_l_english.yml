@@ -1109,3 +1109,7 @@
  USA_numeral_one:0 "1"
  USA_numeral_two:0 "2"
  USA_numeral_thr:0 "3"
+ 
+  ## USA Commission
+  USA_commission:0 "Commission Phase I"
+  USA_commission_desc:0 "As the First Phase of the Commission is put in Gear, President Roosevelt is willing to learn from past Mistakes. Clearly, following the policy of "Self-determination" so strictly was not for the best. The President has announced his willingness to compromise with the more pro-Austrian stances of Russia and the Commonwealth of Britain."

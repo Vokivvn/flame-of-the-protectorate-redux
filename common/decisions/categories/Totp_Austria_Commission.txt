@@ -1,0 +1,8 @@
+USA_commission = {
+	visible_when_empty = yes
+	allowed = {
+		original_tag = USA
+	}
+
+	priority = 85
+}

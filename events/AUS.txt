@@ -16,3 +16,59 @@ country_event = { #intro
 		name = AUS.1.a
 	}
 }
+
+country_event = { #croatia war
+	id = AUS.27
+	title = AUS.27.t
+	desc = AUS.27.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = AUS.27.a	
+		declare_war_on = {
+			target = CRO
+			type = annex_everything
+		}	}
+}
+
+country_event = { #croatia kingdom
+	id = AUS.28
+	title = AUS.28.t
+	desc = AUS.28.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = AUS.28.a
+		hidden_effect = {
+			AUS = {
+				release = CRO
+			CRO = {
+				set_cosmetic_tag = CRO_kingdom
+				retire_country_leader = yes
+				set_politics = {
+					ruling_party = conservatism
+				}
+				create_country_leader = {
+					name = "Alexander III"
+					desc = "POLITICS_ALEXANDER_III_DESC"
+					picture = "Leader_CRO_Alexander_III.dds"
+					expire = "1965.1.1"
+					ideology = conservatism_subtype
+						traits = {
+					}
+				}
+				set_popularities = {
+				conservatism = 100
+				}
+			}
+		}
+	}
+}
