@@ -4,6 +4,19 @@ set_variable = { country_infamy = 13 }
 OOB = "AUS_1936"
 load_focus_tree = AUS_Intro
 
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = SLO
+		autonomous_state = autonomy_satellite
+	}
+}
+
 set_research_slots = 3
 
 set_technology = {
@@ -60,11 +73,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Adolf Hitler"
-	desc = "POLITICS_Adolf_Hitler_DESC"
-	picture = "Leader_AUS_Adolf_Hitler.dds"
+	name = "Engelbert Dollfuss"
+	desc = "POLITICS_Engelbert_Dollfuss_DESC"
+	picture = "Leader_AUS_Engelbert_Dollfuss.dds"
 	expire = "1965.1.1"
-	ideology = ethnic_nationalism
+	ideology = corporatism
 	traits = {
 		#
 	}

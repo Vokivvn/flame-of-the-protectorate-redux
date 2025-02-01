@@ -1,0 +1,166 @@
+﻿add_namespace = commission
+
+country_event = { #intro
+	id = commission.1
+	title = commission.1.t
+	desc = commission.1.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only
+	}
+	
+	option = {
+		name = commission.1.a
+	}
+}
+
+country_event = { #bosnia
+	id = commission.40
+	title = commission.40.t
+	desc = commission.40.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only
+	}
+	
+	option = {
+		name = commission.40.a
+		hidden_effect = {
+			AUS = { 
+				release_autonomy = {
+					target = BOS
+					autonomy_state = autonomy_satellite
+					freedom_level = 0.5
+				}
+			}
+			BOS = {
+			transfer_state = 836
+			add_state_core = 836
+			transfer_state = 999
+			add_state_core = 999
+			}
+		}
+	}
+}
+
+country_event = { #banat
+	id = commission.41
+	title = commission.41.t
+	desc = commission.41.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only
+	}
+	
+	option = {
+		name = commission.41.a
+		hidden_effect = {
+			BAN = {
+			transfer_state = 764
+			add_state_core = 764
+			}
+		}
+	}
+}
+
+country_event = { #banat 2
+	id = commission.42
+	title = commission.42.t
+	desc = commission.42.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only
+	}
+	
+	option = {
+		name = commission.42.a
+		hidden_effect = {
+			BAN = {
+			transfer_state = 764
+			add_state_core = 764
+			transfer_state = 82
+			add_state_core = 82
+			}
+		}
+	}
+}
+
+country_event = { #hungary
+	id = commission.43
+	title = commission.43.t
+	desc = commission.43.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only
+	}
+	
+	option = {
+		name = commission.43.a
+		hidden_effect = {
+			HUN = {
+			transfer_state = 83
+			add_state_core = 83
+			transfer_state = 82
+			add_state_core = 82
+			transfer_state = 1001
+			add_state_core = 1001
+			transfer_state = 1000
+			add_state_core = 1000
+			}
+		}
+	}
+}
+
+country_event = { #slovakia
+	id = commission.44
+	title = commission.44.t
+	desc = commission.44.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only
+	}
+	
+	option = {
+		name = commission.44.a
+		hidden_effect = {
+			SLO = {
+			transfer_state = 664
+			add_state_core = 664
+			}
+		}
+	}
+}
+
+country_event = { #croatia
+	id = commission.45
+	title = commission.45.t
+	desc = commission.45.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only
+	}
+	
+	option = {
+		name = commission.45.a
+		hidden_effect = {
+			CRO = {
+			transfer_state = 835
+			add_state_core = 835
+			}
+		}
+	}
+}

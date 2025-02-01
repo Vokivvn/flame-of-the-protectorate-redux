@@ -1,0 +1,43 @@
+﻿add_namespace = HUN
+
+country_event = { #join Bludenz Front? - HUN
+	id = HUN.30
+	title = HUN.30.t
+	desc = HUN.30.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = HOL.30.a
+		hidden_effect = {
+			AUS = {
+				country_event = AUS.57
+			}
+		}
+	}
+	option = {
+		name = HOL.HUN.b
+	}
+}
+
+country_event = { #join Bludenz Front? - HUN
+	id = HUN.35
+	title = HUN.35.t
+	desc = HUN.35.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = HOL.35.a
+		declare_war_on = {
+			target = TRA
+			type = annex_everything
+		}
+	}
+}

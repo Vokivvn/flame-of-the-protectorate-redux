@@ -9,5 +9,19 @@ focus_tree = {
 	}
 	default = no
 	continuous_focus_position = { x = 50 y = 1800 }
-	shared_focus = AUS_State_of_the_Empire
+	shared_focus = AUS_The_Commission_Begins
+}
+
+focus_tree = {
+	id = AUS_Croatiawin
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AUS
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 1800 }
+	shared_focus = AUS_victory
 }

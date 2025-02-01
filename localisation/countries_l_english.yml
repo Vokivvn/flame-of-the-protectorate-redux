@@ -246,8 +246,8 @@
  AUS_republicanism_DEF:0 "Austria"
  AUS_authoritarianism:0 "Austria"
  AUS_authoritarianism_DEF:0 "Austria"
- AUS_ultranationalism:0 "Deutschsozialen Austria"
- AUS_ultranationalism_DEF:0 "Deutschsozialen Austria"
+ AUS_ultranationalism:0 "Ständestaat Österreich"
+ AUS_ultranationalism_DEF:0 "Ständestaat Österreich"
  
  AUS_centralism_ADJ:0 "Austrian"
  AUS_progressivism_ADJ:0 "Austrian"

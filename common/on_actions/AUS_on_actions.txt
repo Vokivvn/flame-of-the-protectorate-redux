@@ -5,5 +5,10 @@ on_actions = {
 				country_event = { id = AUS.1 days = 0 } 
 			}
 		}
+		effect = {
+			AUS = {
+				country_event = { id = AUS.2 days = 2.4 } 
+			}
+		}
 	}
 }

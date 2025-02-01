@@ -1,7 +1,7 @@
 #intro tree
 shared_focus = {
-	id =  AUS_State_of_the_Empire
-	icon = GFX_AUS_State_of_the_Empire
+	id = AUS_The_Commission_Begins
+	icon = GFX_AUS_The_Commission_Begins
 	cost = 0.2
 	
 	x = 6
@@ -10,26 +10,8 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
 		country_event = {
-			id = AUS.2
-		}
-	}
-}
-
-shared_focus = {
-	id = AUS_The_Commission_Begins
-	icon = GFX_AUS_The_Commission_Begins
-	cost = 0.2
-	
-	x = 0
-	y = 2
-	
-	relative_position_id = AUS_State_of_the_Empire
-	prerequisite = { focus = AUS_State_of_the_Empire }
-	
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
-		country_event = {
-			id = AUS.2
+			id = AUS.3
+			days = 5
 		}
 	}
 }
@@ -37,7 +19,7 @@ shared_focus = {
 shared_focus = {
 	id = AUS_Look_to_Britain
 	icon = GFX_AUS_Look_to_Britain
-	cost = 4.00
+	cost = 0.2
 	
 	x = -1
 	y = 1
@@ -46,6 +28,9 @@ shared_focus = {
 	prerequisite = { focus = AUS_The_Commission_Begins }
 	mutually_exclusive = {
 		focus = AUS_Look_to_Russia
+	}
+	available = {
+		always = no
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
@@ -58,7 +43,7 @@ shared_focus = {
 shared_focus = {
 	id = AUS_Look_to_Russia
 	icon = GFX_AUS_Look_to_Russia
-	cost = 4.00
+	cost = 0.2
 	
 	x = 1
 	y = 1
@@ -68,10 +53,184 @@ shared_focus = {
 	mutually_exclusive = {
 		focus = AUS_Look_to_Russia
 	}
+	available = {
+		always = no
+	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
 		country_event = {
 			id = AUS.2
+		}
+	}
+}
+
+shared_focus = {
+	id = AUS_Approach_Hungary
+	icon = GFX_AUS_Approach_Hungary
+	cost = 0.2
+	
+	x = 1
+	y = 1
+	
+	relative_position_id = AUS_Look_to_Russia
+	prerequisite = { focus = AUS_Look_to_Russia }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
+		country_event = {
+			id = AUS.2
+		}
+	}
+}
+
+shared_focus = {
+	id = AUS_Push_Polish_Claims
+	icon = GFX_AUS_Push_Polish_Claims
+	cost = 0.2
+	
+	x = -1
+	y = 1
+	
+	relative_position_id = AUS_Look_to_Russia
+	prerequisite = { focus = AUS_Look_to_Russia focus = AUS_Look_to_Britain } 
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
+		country_event = {
+			id = AUS.2
+		}
+	}
+}
+
+shared_focus = {
+	id = AUS_Our_German_Brothers
+	icon = GFX_AUS_Our_German_Brothers
+	cost = 0.2
+	
+	x = -1
+	y = 1
+	
+	relative_position_id = AUS_Look_to_Britain
+	prerequisite = { focus = AUS_Look_to_Britain } 
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
+		country_event = {
+			id = AUS.2
+		}
+	}
+}
+
+shared_focus = {
+	id = AUS_Germanic_family
+	icon = GFX_AUS_Germanic_family
+	cost = 0.2
+	
+	x = 0
+	y = 1
+	
+	relative_position_id = AUS_Our_German_Brothers
+	prerequisite = { focus = AUS_Our_German_Brothers } 
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
+		country_event = {
+			id = AUS.2
+		}
+	}
+}
+
+shared_focus = {
+	id = AUS_Pax_Danubia
+	icon = GFX_AUS_Pax_Danubia
+	cost = 0.2
+	
+	x = 0
+	y = 1
+	
+	relative_position_id = AUS_Approach_Hungary
+	prerequisite = { focus = AUS_Approach_Hungary } 
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
+		country_event = {
+			id = AUS.2
+		}
+	}
+}
+
+shared_focus = {
+	id = AUS_Shift_Our_Focus_South
+	icon = GFX_AUS_Shift_Our_Focus_South
+	cost = 0.2
+	
+	x = 0
+	y = 1
+	
+	relative_position_id = AUS_Push_Polish_Claims
+	prerequisite = { focus = AUS_Push_Polish_Claims } 
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
+		country_event = {
+			id = AUS.2
+		}
+	}
+}
+
+shared_focus = {
+	id = AUS_Crush_the_Reds
+	icon = GFX_AUS_Crush_the_Reds
+	cost = 0.2
+	
+	x = 0
+	y = 1
+	
+	relative_position_id = AUS_Shift_Our_Focus_South
+	prerequisite = { focus = AUS_Shift_Our_Focus_South } prerequisite = { focus = AUS_Germanic_family focus = AUS_Pax_Danubia } 
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
+		country_event = {
+			id = AUS.27
+		}
+	}
+}	
+
+#croatia win
+shared_focus = {
+	id = AUS_victory
+	icon = GFX_AUS_victory
+	cost = 0.2
+	
+	x = 6
+	y = 0
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
+		country_event = {
+			id = AUS.3
+			days = 5
+		}
+	}
+}	
+
+shared_focus = {
+	id = AUS_Death_of_The_Kaiser
+	icon = GFX_AUS_victory
+	cost = 0.2
+	
+	x = 0
+	y = 1
+	
+	relative_position_id = AUS_victory
+	prerequisite = { focus = AUS_victory }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
+		country_event = {
+			id = AUS.3
+			days = 5
 		}
 	}
 }

@@ -8,12 +8,46 @@ country_event = { #intro
 	
 	fire_only_once = yes
 	
-	trigger = {
-		tag = AUS 
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = AUS.1.a
+	}
+}
+
+country_event = { #Austria Commission
+	id = AUS.2
+	title = AUS.2.t
+	desc = AUS.2.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = AUS.2.a
+		complete_national_focus = AUS_The_Commission_Begins
+	}
+}
+
+country_event = { #Britain or Russia
+	id = AUS.3
+	title = AUS.3.t
+	desc = AUS.3.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = AUS.3.a
+		complete_national_focus = AUS_Look_to_Britain
+	}
+	option = {
+		name = AUS.3.b
+		complete_national_focus = AUS_Look_to_Russia
 	}
 }
 
@@ -32,9 +66,10 @@ country_event = { #croatia war
 		declare_war_on = {
 			target = CRO
 			type = annex_everything
-		}	}
-}
-
+		}
+	}
+} 	
+	
 country_event = { #croatia kingdom
 	id = AUS.28
 	title = AUS.28.t
@@ -49,7 +84,11 @@ country_event = { #croatia kingdom
 		name = AUS.28.a
 		hidden_effect = {
 			AUS = {
-				release = CRO
+				release_autonomy = {
+					target = CRO
+					autonomy_state = autonomy_satellite
+					freedom_level = 0.5
+				}
 			CRO = {
 				set_cosmetic_tag = CRO_kingdom
 				retire_country_leader = yes
@@ -68,7 +107,289 @@ country_event = { #croatia kingdom
 				set_popularities = {
 				conservatism = 100
 				}
+			}	
+			load_focus_tree = AUS_Croatiawin
 			}
+		}	
+	}	
+}	
+
+country_event = { #kaiser death
+	id = AUS.30
+	title = AUS.30.t
+	desc = AUS.30.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = AUS.30.a
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Karl I"
+			desc = "Karl_I_DESC"
+			picture = "Leader_AUS_Karl_I.dds"
+			expire = "1965.1.1"
+			ideology = conservatism_subtype
+			traits = {
+		
+			}
+		}
+	}
+}
+
+country_event = { #dollfuss
+	id = AUS.39
+	title = AUS.39.t
+	desc = AUS.39.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = AUS.39.a
+		set_politics = {
+			ruling_party = ultranationalism
+		}
+		create_country_leader = {
+			name = "Engelbert Dollfuss"
+			desc = "Engelbert Dollfuss_DESC"
+			picture = "Leader_AUS_Engelbert_Dollfuss.dds"
+			expire = "1965.1.1"
+			ideology = corporatism
+			traits = {
+		
+			}
+		}
+	}
+}
+
+country_event = { #Bludenz Front
+	id = AUS.45
+	title = AUS.45.t
+	desc = AUS.45.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = AUS.45.a
+		create_faction = "Bludenz Front"
+	}
+}	
+	
+country_event = { #Bludenz Front Dutch say yes
+	id = AUS.46
+	title = AUS.46.t
+	desc = AUS.46.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = AUS.46.a
+		Add_to_faction = HOL
+	}
+}
+	
+country_event = { #Bludenz Front Dutch say no
+	id = AUS.47
+	title = AUS.47.t
+	desc = AUS.47.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = AUS.47.a
+	}
+}
+
+country_event = { #Bludenz Front Hungary
+	id = AUS.56
+	title = AUS.56.t
+	desc = AUS.56.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = AUS.56.a
+	}
+}
+
+country_event = { #Bludenz Front Hungary yes
+	id = AUS.57
+	title = AUS.57.t
+	desc = AUS.57.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = AUS.57.a
+		Add_to_faction = HUN
+	}
+}
+
+country_event = { #Unite Danubia
+	id = AUS.70
+	title = AUS.70.t
+	desc = AUS.70.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = AUS.70.a
+		hidden_effect = {
+			annex_country = {
+				target = HUN
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = CRO
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = BOS
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = SLO
+				transfer_troops = yes
+			AUS = }
+				set_cosmetic_tag = AUS_greateraustria
+		}
+	}	
+}
+
+country_event = { #occupy Banat
+	id = AUS.72
+	title = AUS.72.t
+	desc = AUS.72.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = AUS.72.a
+		declare_war_on = {
+			target = BAN
+			type = annex_everything
+		}
+		hidden_effect = {
+			country_event = {
+				id = AUS.75
+				days = 5
+			}
+		}
+	}
+}
+
+country_event = { #invade Serbia
+	id = AUS.75
+	title = AUS.75.t
+	desc = AUS.75.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = AUS.75.a
+		declare_war_on = {
+			target = SER
+			type = annex_everything
+		}
+	}
+}
+
+country_event = { #Puppet Serbia
+	id = AUS.76
+	title = AUS.76.t
+	desc = AUS.76.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = AUS.76.a
+		hidden_effect = {
+			AUS = {
+				release_autonomy = {
+					target = SER
+					autonomy_state = autonomy_satellite
+					freedom_level = 0.5
+				}
+				transfer_state = 45
+				transfer_state = 836
+				transfer_state = 764
+				transfer_state = 835
+				}
+			SER = {
+				set_cosmetic_tag = SER_ak
+				retire_country_leader = yes
+				set_politics = {
+					ruling_party = ultranationalism
+				}
+				create_country_leader = {
+					name = "August Meyszner"
+					desc = "POLITICS_AUGUST_MEYSZNER_DESC"
+					picture = "Leader_CRO_August_Meyszner.dds"
+					expire = "1965.1.1"
+					ideology = ethnic_nationalism
+						traits = {
+					}
+				}
+				set_popularities = {
+				ultranationalism = 100
+				}
+			}
+		}
+	}
+}
+
+country_event = { #peace with Poland
+	id = AUS.90
+	title = AUS.90.t
+	desc = AUS.90.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = AUS.90.a
+		hidden_effect = {
+			white_peace = POL
+		}
+		AUS = {
+			transfer_state = 66
+			transfer_state = 67
+			transfer_state = 762
 		}
 	}
 }

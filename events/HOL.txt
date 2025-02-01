@@ -1,0 +1,25 @@
+﻿add_namespace = HOL
+
+country_event = { #join Bludenz Front? - HOL
+	id = HOL.30
+	title = HOL.30.t
+	desc = HOL.30.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = HOL.30.a
+		hidden_effect = {
+			AUS = {
+				country_event = AUS.46
+			}
+		}
+	}
+	option = {
+		name = HOL.30.b
+	}
+}
+

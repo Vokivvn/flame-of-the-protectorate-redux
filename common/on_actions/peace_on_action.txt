@@ -259,16 +259,18 @@ on_actions = {
 		effect = { 
 			if = {
 				limit = {
+					ROOT = { tag = AUS }
 					FROM = {
 						tag = POL
-						surrender_progress > 0.2
-					}
-					AUS = {
-						has_war_with = POL
+						AND = {
+							66 = { is_controlled_by = AUS }
+							67 = { is_controlled_by = AUS }
+							762 = { is_controlled_by = AUS }
+						}
 					}
 				}
 				AUS = {
-					country_event = { id = PLC.8 days = 2 }
+					country_event = { id = AUS.90 days = 2 }
 				}
 			}
 		} 
@@ -332,9 +334,54 @@ on_actions = {
 				AUS = {
 					annex_country = {
 						target = CRO
-						transfer_troops = no
+						transfer_troops = yes
 					}
 					country_event = { id = AUS.28 days = 0 }
+				}
+			}
+		} 
+	}
+	
+	
+	on_capitulation = {
+		effect = { 
+			if = {
+				limit = {
+					FROM = {
+						tag = AUS
+					}
+					AUS = {
+						has_war_with = BAN
+					}
+				}
+				AUS = {
+					annex_country = {
+						target = BAN
+						transfer_troops = yes
+					}
+				}
+			}
+		} 
+	}
+	
+	
+	on_capitulation = {
+		effect = { 
+			if = {
+				limit = {
+					FROM = {
+						tag = AUS
+					}
+					AUS = {
+						has_war_with = SER
+					}
+				}
+				AUS = {
+					annex_country = {
+						target = SER
+						transfer_troops = yes
+					}
+					country_event = { id = AUS.76 days = 0 }
 				}
 			}
 		} 
