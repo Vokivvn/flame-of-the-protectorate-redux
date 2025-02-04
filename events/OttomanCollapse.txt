@@ -309,34 +309,18 @@ country_event = { #Iraq spawns
 	}
 }
 
-country_event = { #Zionist Revolt
-	id = collapse.7
-	title = collapse.7.t
-	desc = collapse.7.d
-	picture = GFX_report_event_wahhabi_cavalry
+country_event = { #CUP victory
+	id = collapse.20
+	title = collapse.20.t
+	desc = collapse.20.d
+	picture = GFX_report_event_mustafa_kemal
 
 	is_triggered_only = yes
 	
 	option = {
-		name = collapse.7.a
-		ISR = {
-			transfer_state = 454
-			add_state_core = 454
-			declare_war_on = {
-    			target = TUR
-    			type = annex_everything
-			}
-		TUR = {
-			set_province_controller = 1201
-			set_province_controller = 7107
-			set_province_controller = 1086
-			set_province_controller = 7176
-			set_province_controller = 1015
-			set_province_controller = 11970
-		}
-		news_event = {
-			id = global.2
-			days = 1
+		name = collapse.20.a
+		CUP = {
+			set_cosmetic_tag = CUP_victory
 		}
 	}
 }

@@ -2698,6 +2698,33 @@
  LIB_progressivism_ADJ:0 "American"
  
  
+ #American WA
+ LIC_ultranationalism:0 "Liechtenstein"
+ LIC_ultranationalism_DEF:0 "Principality of Liechtenstein"
+ LIC_conservatism:0 "Liechtenstein"
+ LIC_conservatism_DEF:0 "Principality of Liechtenstein"
+ LIC_authoritarianism:0 "Liechtenstein"
+ LIC_authoritarianism_DEF:0 "Principality of Liechtenstein"
+ LIC_centralism:0 "Liechtenstein"
+ LIC_centralism_DEF:0 "Principality of Liechtenstein"
+ LIC_ultranationalism_ADJ:0 "Liechtensteiner"
+ LIC_conservatism_ADJ:0 "Liechtensteiner"
+ LIC_authoritarianism_ADJ:0 "Liechtensteiner"
+ LIC_centralism_ADJ:0 "Liechtensteiner"
+ LIC_socialism:0 "Liechtenstein"
+ LIC_socialism_DEF:0 "Principality of Liechtenstein"
+ LIC_socialism_ADJ:0 "Liechtensteiner"
+ LIC_republicanism:0 "Liechtenstein"
+ LIC_republicanism_DEF:0 "Principality of Liechtenstein"
+ LIC_republicanism_ADJ:0 "Liechtensteiner"
+ LIC_liberalism:0 "Liechtenstein"
+ LIC_liberalism_DEF:0 "Principality of Liechtenstein"
+ LIC_liberalism_ADJ:0 "Liechtensteiner"
+ LIC_progressivism:0 "Liechtenstein"
+ LIC_progressivism_DEF:0 "Principality of Liechtenstein"
+ LIC_progressivism_ADJ:0 "Liechtensteiner"
+ 
+ 
  #Limburg
  LIM_ultranationalism:0 "Limburg"
  LIM_ultranationalism_DEF:0 "Limburg"
@@ -3913,6 +3940,34 @@
  SLU_republicanism_ADJ:0 "Sulu"
  SLU_authoritarianism_ADJ:0 "Sulu"
  SLU_ultranationalism_ADJ:0 "Sulu"
+ 
+ 
+ #San Marino
+ SNM_ultranationalism:0 "San Marino"
+ SNM_ultranationalism_DEF:0 "The Republic of San Marino"
+ SNM_conservatism:0 "San Marino"
+ SNM_conservatism_DEF:0 "The Republic of San Marino"
+ SNM_authoritarianism:0 "San Marino"
+ SNM_authoritarianism_DEF:0 "The Republic of San Marino"
+ SNM_centralism:0 "San Marino"
+ SNM_centralism_DEF:0 "The Republic of San Marino"
+ SNM_socialism:0 "San Marino"
+ SNM_socialism_DEF:0 "The Republic of San Marino"
+ SNM_republicanism:0 "San Marino"
+ SNM_republicanism_DEF:0 "The Republic of San Marino"
+ SNM_liberalism:0 "San Marino"
+ SNM_liberalism_DEF:0 "The Republic of San Marino"
+ SNM_progressivism:0 "San Marino"
+ SNM_progressivism_DEF:0 "The Republic of San Marino"
+ 
+ SNM_centralism_ADJ:0 "Sammarinese"
+ SNM_socialism_ADJ:0 "Sammarinese"
+ SNM_progressivism_ADJ:0 "Sammarinese"
+ SNM_liberalism_ADJ:0 "Sammarinese"
+ SNM_conservatism_ADJ:0 "Sammarinese"
+ SNM_republicanism_ADJ:0 "Sammarinese"
+ SNM_authoritarianism_ADJ:0 "Sammarinese"
+ SNM_ultranationalism_ADJ:0 "Sammarinese"
  
  
  #Majeerteen

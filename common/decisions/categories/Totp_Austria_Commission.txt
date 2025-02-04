@@ -6,3 +6,12 @@ USA_commission = {
 
 	priority = 85
 }
+
+AUS_commission = {
+	visible_when_empty = no
+	allowed = {
+		original_tag = AUS
+	}
+
+	priority = 85
+}

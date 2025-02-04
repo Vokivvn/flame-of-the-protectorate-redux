@@ -28,10 +28,12 @@ country_event = { #Austria Commission
 	option = {
 		name = AUS.2.a
 		complete_national_focus = AUS_The_Commission_Begins
+		unlock_decision_category_tooltip = AUS_commission
+		set_country_flag = AUS_commission
 	}
 }
 
-country_event = { #Britain or Russia
+country_event = { #Red Wien
 	id = AUS.3
 	title = AUS.3.t
 	desc = AUS.3.desc
@@ -43,11 +45,6 @@ country_event = { #Britain or Russia
 	
 	option = {
 		name = AUS.3.a
-		complete_national_focus = AUS_Look_to_Britain
-	}
-	option = {
-		name = AUS.3.b
-		complete_national_focus = AUS_Look_to_Russia
 	}
 }
 

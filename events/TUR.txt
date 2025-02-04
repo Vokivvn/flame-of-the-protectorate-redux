@@ -1,0 +1,14 @@
+﻿add_namespace = TUR
+
+country_event = { #Collapse begins - Republic
+	id = TUR.1
+	title = TUR.1.t
+	desc = TUR.1.d
+	picture = GFX_report_event_mustafa_kemal
+
+	is_triggered_only = yes
+	
+	option = {
+		name = TUR.1.a
+	}
+}

@@ -27,5 +27,20 @@ USA_commission = {
 		fire_only_once = no
 		complete_effect = {
 			USA = { country_event = { Id = USA.1 days = 1 } }
+		}
+    }
+}
+
+AUS_commission = {
+	AUS_invade_croatia = {
+		visible = {
+			tag = AUS
+			has_country_flag = AUS_commission
+		}
+		available = { always = yes }
+		fire_only_once = no
+		complete_effect = {
+			USA = { country_event = { Id = USA.1 days = 1 } }
+		}
     }
 }

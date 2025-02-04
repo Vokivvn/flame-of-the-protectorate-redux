@@ -97,3 +97,8 @@ CRO_kingdom = {
 	color = rgb { 160 165 168 }
 	color_ui = rgb { 119 127 130 }
 }
+
+CUP_victory = {
+	color = rgb { 82 9 18 }
+	color_ui = rgb { 82 9 18 }
+}
