@@ -88,6 +88,10 @@ if = {
 	else = {
 		puppet = LBA
 	}
+	set_autonomy = {
+		target = TUN
+		autonomous_state = autonomy_satellite
+	}
 }
 
 create_country_leader = {

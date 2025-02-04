@@ -61,6 +61,34 @@
  ACE_ultranationalism_ADJ:0 "Aceh"
  
  
+  #Andorra
+ ADR_ultranationalism:0 "Andorra"
+ ADR_ultranationalism_DEF:0 "The Principality of Andorra"
+ ADR_conservatism:0 "Andorra"
+ ADR_conservatism_DEF:0 "The Principality of Andorra"
+ ADR_authoritarianism:0 "Andorra"
+ ADR_authoritarianism_DEF:0 "The Principality of Andorra"
+ ADR_centralism:0 "Andorra"
+ ADR_centralism_DEF:0 "The Principality of Andorra"
+ ADR_socialism:0 "Andorra"
+ ADR_socialism_DEF:0 "The Principality of Andorra"
+ ADR_republicanism:0 "Andorra"
+ ADR_republicanism_DEF:0 "The Principality of Andorra"
+ ADR_liberalism:0 "Andorra"
+ ADR_liberalism_DEF:0 "The Principality of Andorra"
+ ADR_progressivism:0 "Andorra"
+ ADR_progressivism_DEF:0 "The Principality of Andorra"
+ 
+ ACE_centralism_ADJ:0 "Andorran"
+ ACE_socialism_ADJ:0 "Andorran"
+ ACE_progressivism_ADJ:0 "Andorran"
+ ACE_liberalism_ADJ:0 "Andorran"
+ ACE_conservatism_ADJ:0 "Andorran"
+ ACE_republicanism_ADJ:0 "Andorran"
+ ACE_authoritarianism_ADJ:0 "Andorran"
+ ACE_ultranationalism_ADJ:0 "Andorran"
+ 
+ 
  #Afghanistan
  AFG_centralism:0 "Afghanistan"
  AFG_centralism_DEF:0 "Afghanistan"
@@ -2828,6 +2856,25 @@
  MAN_centralism_ADJ:0 "Chinese"
  
  
+  #Monaco
+ MCO_ultranationalism:0 "Monaco"
+ MCO_ultranationalism_DEF:0 "The Principality of Monaco"
+ MCO_liberalism:0 "Monaco"
+ MCO_liberalism_DEF:0 "The Principality of Monaco"
+ MCO_conservatism:0 "Monaco"
+ MCO_conservatism_DEF:0 "The Principality of Monaco"
+ MCO_authoritarianism:0 "Monaco"
+ MCO_authoritarianism_DEF:0 "The Principality of Monaco"
+ MCO_centralism:0 "Monaco"
+ MCO_centralism_DEF:0 "The Principality of Monaco"
+ 
+ MAN_ultranationalism_ADJ:0 "Monegasque"
+ MAN_liberalism_ADJ:0 "Monegasque"
+ MAN_conservatism_ADJ:0 "Monegasque"
+ MAN_authoritarianism_ADJ:0 "Monegasque"
+ MAN_centralism_ADJ:0 "Monegasque"
+ 
+ 
  #Mexico
  MEX_ultranationalism:0 "Mexican Junta"
  MEX_ultranationalism_DEF:0 "The Mexican Junta"
@@ -4420,6 +4467,25 @@
  EES_republicanism:0 "Interim Eastern Bloc"
  EES_republicanism_DEF:0 "The Interim Eastern Bloc"
  EES_republicanism_ADJ:0 "American"
+ 
+ 
+ #Holy See
+ VAC_ultranationalism:0 "State of the Holy See"
+ VAC_ultranationalism_DEF:0 "The State of the Holy See"
+ VAC_liberalism:0 "State of the Holy See"
+ VAC_liberalism_DEF:0 "The State of the Holy See"
+ VAC_conservatism:0 "State of the Holy See"
+ VAC_conservatism_DEF:0 "The State of the Holy See"
+ VAC_authoritarianism:0 "State of the Holy See"
+ VAC_authoritarianism_DEF:0 "The State of the Holy See"
+ VAC_centralism:0 "State of the Holy See"
+ VAC_centralism_DEF:0 "The State of the Holy See"
+ 
+ VAC_ultranationalism_ADJ:0 "Roman"
+ VAC_liberalism_ADJ:0 "Roman"
+ VAC_conservatism_ADJ:0 "Roman"
+ VAC_authoritarianism_ADJ:0 "Roman"
+ VAC_centralism_ADJ:0 "Roman"
  
  
  #Venezuela

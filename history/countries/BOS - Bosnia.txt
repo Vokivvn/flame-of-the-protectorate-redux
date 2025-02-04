@@ -43,18 +43,29 @@ set_technology = {
 #}
 #
 set_politics = {
-	ruling_party = progressivism
+	ruling_party = conservatism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	centralism = 12
-	socialism = 12
-	progressivism = 16
-	liberalism = 12
-	conservatism = 12
-	republicanism = 12
-	authoritarianism = 12
-	ultranationalism = 12
+	centralism = 0
+	socialism = 0
+	progressivism = 0
+	liberalism = 0
+	conservatism = 100
+	republicanism = 0
+	authoritarianism = 0
+	ultranationalism = 0
+}
+
+create_country_leader = {
+	name = "Mehmed Spaho"
+	desc = "POLITICS_Mehmed_Spaho_DESC"
+	picture = "Leader_BOS_Mehmed_Spaho.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {
+		#
+	}
 }

@@ -3,8 +3,11 @@ shared_focus = {
 	id = AUS_The_Commission_Begins
 	icon = GFX_AUS_The_Commission_Begins
 	cost = 0.2
+	available = {
+		always = no
+	}
 	
-	x = 6
+	x = 3
 	y = 0
 	
 	completion_reward = {
@@ -29,9 +32,6 @@ shared_focus = {
 	mutually_exclusive = {
 		focus = AUS_Look_to_Russia
 	}
-	available = {
-		always = no
-	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
 		country_event = {
@@ -51,10 +51,7 @@ shared_focus = {
 	relative_position_id = AUS_The_Commission_Begins
 	prerequisite = { focus = AUS_The_Commission_Begins }
 	mutually_exclusive = {
-		focus = AUS_Look_to_Russia
-	}
-	available = {
-		always = no
+		focus = AUS_Look_to_Britain
 	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
@@ -203,7 +200,7 @@ shared_focus = {
 	icon = GFX_AUS_victory
 	cost = 0.2
 	
-	x = 6
+	x = 13
 	y = 0
 	
 	completion_reward = {
@@ -216,8 +213,28 @@ shared_focus = {
 }	
 
 shared_focus = {
-	id = AUS_Death_of_The_Kaiser
-	icon = GFX_AUS_victory
+	id = AUS_The_Red_Threat
+	icon = GFX_AUS_The_Red_Threat
+	cost = 0.2
+	
+	x = -5
+	y = 1
+	
+	relative_position_id = AUS_victory
+	prerequisite = { focus = AUS_victory }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
+		country_event = {
+			id = AUS.3
+			days = 5
+		}
+	}
+}
+
+shared_focus = {
+	id = AUS_The_Austronationalists
+	icon = GFX_AUS_The_Austronationalists
 	cost = 0.2
 	
 	x = 0
@@ -225,6 +242,84 @@ shared_focus = {
 	
 	relative_position_id = AUS_victory
 	prerequisite = { focus = AUS_victory }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
+		country_event = {
+			id = AUS.3
+			days = 5
+		}
+	}
+}
+
+shared_focus = {
+	id = AUS_Appeasement
+	icon = GFX_AUS_Appeasement
+	cost = 0.2
+	mutually_exclusive = {
+		focus = AUS_Toe_the_Middle_Line
+	}
+	mutually_exclusive = {
+		focus = AUS_Opposition
+	}
+	
+	x = -2
+	y = 1
+	
+	relative_position_id = AUS_The_Austronationalists
+	prerequisite = { focus = AUS_The_Austronationalists }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
+		country_event = {
+			id = AUS.3
+			days = 5
+		}
+	}
+}
+
+shared_focus = {
+	id = AUS_Toe_the_Middle_Line
+	icon = GFX_AUS_Toe_the_Middle_Line
+	cost = 0.2
+	
+	x = 0
+	y = 1
+	
+	relative_position_id = AUS_The_Austronationalists
+	prerequisite = { focus = AUS_The_Austronationalists }
+	mutually_exclusive = {
+		focus = AUS_Appeasement
+	}
+	mutually_exclusive = {
+		focus = AUS_Opposition
+	}
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
+		country_event = {
+			id = AUS.3
+			days = 5
+		}
+	}
+}
+
+shared_focus = {
+	id = AUS_Opposition
+	icon = GFX_AUS_Opposition
+	cost = 0.2
+	
+	x = 2
+	y = 1
+	
+	relative_position_id = AUS_The_Austronationalists
+	prerequisite = { focus = AUS_The_Austronationalists }
+	mutually_exclusive = {
+		focus = AUS_Appeasement
+	}
+	mutually_exclusive = {
+		focus = AUS_Toe_the_Middle_Line
+	}
 	
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"

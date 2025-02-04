@@ -920,6 +920,31 @@ WLM = {
 	color_ui = rgb { 50 80 115 }
 }
 
+ADR = {
+	color = rgb { 255 165 0 }
+	color_ui = rgb { 255 165 0 }
+}
+
+MCO = {
+	color = rgb { 255 116 140 }
+	color_ui = rgb { 255 116 140 }
+}
+
+VAC = {
+	color = rgb { 255 215 0 }
+	color_ui = rgb { 255 215 0 }
+}
+
+LIC = {
+	color = rgb { 146 146 146 }
+	color_ui = rgb { 146 146 146 }
+}
+
+SNM = {
+	color = rgb { 173 216 230 }
+	color_ui = rgb { 173 216 230 }
+}
+
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
@@ -980,5 +1005,3 @@ D15 = {
 	color = rgb { 194 140 86 }
 	color_ui = rgb { 252 182 112 }
 }
-
-

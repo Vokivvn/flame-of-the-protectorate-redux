@@ -42,6 +42,12 @@ country_event = { #bosnia
 			add_state_core = 836
 			transfer_state = 999
 			add_state_core = 999
+				set_politics = {
+					ruling_party = conservatism
+				}
+				set_popularities = {
+				conservatism = 100
+				}
 			}
 		}
 	}

@@ -170,6 +170,11 @@ NSI = "countries/International North Sea.txt"
 VNZ = "countries/Venice.txt"
 RHD = "countries/Switzerland.txt"
 TLE = "countries/Switzerland.txt"
+ADR = "countries/Andorra.txt"
+MCO = "countries/Monaco.txt"
+VAC = "countries/Holy See.txt"
+SNM = "countries/San Marino.txt"
+LIC = "countries/Liechtenstein.txt"
 
 ##INDIA##
 AFG = "countries/Afghanistan.txt"
