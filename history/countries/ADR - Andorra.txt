@@ -24,9 +24,9 @@ set_popularities = {
 set_convoys = 5
 
 create_country_leader = {
-	name = "Mefail Shehu"
-	desc = "POLITICS_Mefail_Shehu_DESC"
-	picture = "Portrait_ALB_Mefail_Shehu.dds"
+	name = "Justí Guitart i Vilardebó"
+	desc = "POLITICS_Justi_Guitart_i_Vilardebo_DESC"
+	picture = "Portrait_ADR_Justi_Guitart_i_Vilardebo.dds"
 	expire = "1965.1.1"
 	ideology = authoritarianism_subtype
 	traits = {

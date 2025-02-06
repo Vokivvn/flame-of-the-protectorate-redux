@@ -24,9 +24,9 @@ set_popularities = {
 set_convoys = 5
 
 create_country_leader = {
-	name = "Giuliano Gozi"
-	desc = "POLITICS_Giuliano_Gozi_DESC"
-	picture = "Portrait_SNM_Giuliano_Gozi.dds"
+	name = "Ezio Balducci"
+	desc = "POLITICS_Ezio_Balducci_DESC"
+	picture = "Portrait_SNM_Ezio_Balducci.dds"
 	expire = "1965.1.1"
 	ideology = republicanism_subtype
 	traits = {

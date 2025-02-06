@@ -1,0 +1,46 @@
+AUS_nationalist = {
+	AUS_alliance_with_the_netherlands = {
+		visible = {
+			tag = AUS
+			has_country_flag = AUS_bludenz_front
+		}
+		available = { always = yes }
+		fire_only_once = yes
+		complete_effect = {
+			HOL = { country_event = { Id = HOL.30 days = 1 } }
+		}
+    }
+	AUS_alliance_with_hungary = {
+		visible = {
+			tag = AUS
+			has_country_flag = AUS_bludenz_front
+		}
+		available = { always = yes }
+		fire_only_once = yes
+		complete_effect = {
+			HUN = { country_event = { Id = HUN.30 days = 1 } }
+		}
+    }
+	AUS_push_against_tranyslvania = {
+		visible = {
+			tag = AUS
+			has_country_flag = AUS_bludenz_front
+		}
+		available = { always = yes }
+		fire_only_once = yes
+		complete_effect = {
+			HUN = { country_event = { Id = HUN.35 days = 1 } }
+		}
+    }
+	AUS_unite_danubia = {
+		visible = {
+			tag = AUS
+			has_country_flag = AUS_bludenz_front
+		}
+		available = { always = yes }
+		fire_only_once = no
+		complete_effect = {
+			country_event = { Id = AUS.70 days = 1 }
+		}
+    }
+}

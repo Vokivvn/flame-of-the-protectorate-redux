@@ -1,5 +1,27 @@
 ﻿add_namespace = HUN
 
+country_event = { #Hungary Coup
+	id = HUN.20
+	title = HUN.20.t
+	desc = HUN.20.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = HUN.20.a
+		hidden_effect = {
+			HUN = {
+				set_politics = {
+					ruling_party = ultranationalism
+				}
+			}
+		}
+	}
+}
+
 country_event = { #join Bludenz Front? - HUN
 	id = HUN.30
 	title = HUN.30.t
@@ -23,7 +45,7 @@ country_event = { #join Bludenz Front? - HUN
 	}
 }
 
-country_event = { #join Bludenz Front? - HUN
+country_event = { #invade Tranyslvania?
 	id = HUN.35
 	title = HUN.35.t
 	desc = HUN.35.desc

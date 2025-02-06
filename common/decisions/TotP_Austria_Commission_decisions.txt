@@ -32,15 +32,37 @@ USA_commission = {
 }
 
 AUS_commission = {
-	AUS_invade_croatia = {
+	AUS_meet_with_britain = {
 		visible = {
 			tag = AUS
 			has_country_flag = AUS_commission
 		}
 		available = { always = yes }
-		fire_only_once = no
+		fire_only_once = yes
 		complete_effect = {
-			USA = { country_event = { Id = USA.1 days = 1 } }
+			AUS = { country_event = { Id = AUS.1 days = 1 } }
 		}
     }
+	AUS_meet_with_russia = {
+		visible = {
+			tag = AUS
+			has_country_flag = AUS_commission
+		}
+		available = { always = yes }
+		fire_only_once = yes
+		complete_effect = {
+			AUS = { country_event = { Id = AUS.1 days = 1 } }
+		}
+    }
+	AUS_consult_pfrimer
+		visible = {
+			tag = AUS
+			has_country_flag = AUS_commission
+		}
+		available = { always = yes }
+		fire_only_once = yes
+		complete_effect = {
+			AUS = { country_event = { Id = AUS.1 days = 1 } }
+		}
+    }	
 }

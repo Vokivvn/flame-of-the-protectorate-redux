@@ -12,24 +12,24 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = ultranationalism
+	ruling_party = liberalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	ultranationalism = 100
+	liberalism = 100
 }
 
 set_convoys = 5
 
 create_country_leader = {
-	name = "Mefail Shehu"
-	desc = "POLITICS_Mefail_Shehu_DESC"
-	picture = "Portrait_ALB_Mefail_Shehu.dds"
+	name = "Qazim Koculi"
+	desc = "POLITICS_Qazim_Koculi_DESC"
+	picture = "Leader_ALB_Qazim_Koculi.dds"
 	expire = "1965.1.1"
-	ideology = ultranationalism_subtype
+	ideology = liberalism_subtype
 	traits = {
 		#
 	}

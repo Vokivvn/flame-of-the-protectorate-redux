@@ -4,3 +4,21 @@
  WLM_DEF:0 "Wallmapu"
  WLM_ADJ:0 "Wallmapu"
  
+ ## parties ##
+  WLM_centralism_party:0 "KMCw"
+  WLM_centralism_party_long:0 "-"
+  WLM_socialism_party:0 "-"
+  WLM_socialism_party_long:0 "-"
+  WLM_progressivism_party:0 "Mw"
+  WLM_progressivism_party_long:0 "-"
+  WLM_liberalism_party:0 "TMw"
+  WLM_liberalism_party_long:0 "-"
+  WLM_conservatism_party:0 "KGw"
+  WLM_conservatism_party_long:0 ""
+  WLM_republicanism_party:0 "NMw"
+  WLM_republicanism_party_long:0 "Newenmapuwen"
+  WLM_authoritarianism_party:0 "-"
+  WLM_authoritarianism_party_long:0 "-"
+  WLM_ultranationalism_party:0 "-"
+  WLM_ultranationalism_party_long:0 "-"
+ 
