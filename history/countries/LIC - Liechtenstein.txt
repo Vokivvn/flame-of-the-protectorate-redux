@@ -24,9 +24,9 @@ set_popularities = {
 set_convoys = 5
 
 create_country_leader = {
-	name = "Franz I"
-	desc = "POLITICS_Franz_I_DESC"
-	picture = "Portrait_LIC_Franz_I.dds"
+	name = "Alois  I"
+	desc = "POLITICS_Alois_I_DESC"
+	picture = "Portrait_LIC_Alois_I.dds"
 	expire = "1965.1.1"
 	ideology = conservatism_subtype
 	traits = {

@@ -40,7 +40,7 @@ AUS_commission = {
 		available = { always = yes }
 		fire_only_once = yes
 		complete_effect = {
-			AUS = { country_event = { Id = AUS.1 days = 1 } }
+			country_event = { Id = AUS_commission.1 days = 1 }
 		}
     }
 	AUS_meet_with_russia = {
@@ -51,10 +51,10 @@ AUS_commission = {
 		available = { always = yes }
 		fire_only_once = yes
 		complete_effect = {
-			AUS = { country_event = { Id = AUS.1 days = 1 } }
+			country_event = { Id = AUS_commission.3 days = 1 }
 		}
     }
-	AUS_consult_pfrimer
+	AUS_consult_pfrimer = {
 		visible = {
 			tag = AUS
 			has_country_flag = AUS_commission
@@ -64,5 +64,27 @@ AUS_commission = {
 		complete_effect = {
 			AUS = { country_event = { Id = AUS.1 days = 1 } }
 		}
-    }	
+    }
+	AUS_continue_talks_with_russia = {
+		visible = {
+			tag = AUS
+			has_country_flag = AUS_talks_with_russia
+		}
+		available = { always = yes }
+		fire_only_once = yes
+		complete_effect = {
+			AUS = { country_event = { Id = AUS.1 days = 1 } }
+		}
+    }
+	AUS_sign_the_lieven_miklas_pact = {
+		visible = {
+			tag = AUS
+			has_country_flag = AUS_lieven_miklas_pact
+		}
+		available = { always = yes }
+		fire_only_once = yes
+		complete_effect = {
+			country_event = { Id = AUS_commission.5 days = 1 }
+		}
+    }
 }

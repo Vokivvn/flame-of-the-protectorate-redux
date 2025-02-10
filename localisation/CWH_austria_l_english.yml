@@ -230,12 +230,12 @@
  AUS.1.desc:0 "Despite the turmoil of the past few decades, Austria marches on. Our nation has been proven indivisible even though we have lost a good chunk of our lands. Due to the Revolutions of 1916, we have held our remaining holdings in Italy and Bohemia even tighter. We are still plagued by fears of what the future brings; the successor to Franz Ferdinand I, The Second Commission for our former territories, The Engelist specter down south. The Kaiser clearly toes a thin line between the Communists and the Austronationalists who have become increasingly popular in our political world. Nevertheless, the Austrian Eagle still stands strong and defiant. Our citizens, our nobles, our politicians, our royalty, and even our Emperor still cry out..."
  AUS.1.a:0 "Alles Erdreich ist Österreich untertan!"
 
- AUS.2.t:0 "Franz Ferdinand's Decree"
+ AUS.2.t:0 "The Commission Opens"
  AUS.2.desc:0 "POG"
  AUS.2.a:0 "ok"
 
- AUS.3.t:0 "Pacification of Slovakia"
- AUS.3.desc:0 "pog"
+ AUS.3.t:0 "A Walk around the Capital"
+ AUS.3.desc:0 "Kaiser Franz Ferdinand I pondered his daily tasks and looked out to the gardens of the Schönbrunn Palace.\n\n"Eure Majestät! The driver is here, we should leave quickly if we want to have time for everything else today"\n\n"Indeed, Sepp. I am done glaring out the window for today anyways."
  AUS.3.a:0 "uh oh"
 
  AUS.4.t:0 "The Kaiser's Balkan Ambitions"
@@ -298,6 +298,18 @@
  MONARCH_AUS.1.t:0 "Victory in Poland"
  MONARCH_AUS.1.desc:0 "Victory is ours! The soldiers of the Austrian empire march proudly through Krakow, and the bicolor flies high all across Silesia and Galicia. Though they were extremely reluctant, the Poles had no choice but to surrender and grant us the territories, as they have far too many other problems to deal with. However, the noble feats and heroic might of our army should not be underplayed, and this great achievement is truly a triumph to be remembered in our empire for centuries to come.\n\nWith Kaiser Franz Ferdinand I's last-ditch effort to reclaim imperial glory successful, we can finally take a breath of fresh air. Even the fascists are joyously cheering the name of our Emperor, and those who still aren't convinced can put their complaints aside and stop being so troublesome, at least for now. This was a much-needed win for our empire, and now that it is ours, we can finally begin to move forwards."
  MONARCH_AUS.1.a:0 "Long live the Kaiser! Long live Austria!"
+
+ AUS_commission.1.t:0 ""
+ AUS_commission.1.desc:0 ""
+ AUS_commission.1.a:0 ""
+ 
+ AUS_commission.2.t:0 ""
+ AUS_commission.2.desc:0 ""
+ AUS_commission.2.a:0 ""
+ 
+ AUS_commission.3.t:0 "A Meeting in Riga"
+ AUS_commission.3.desc:0 ""Herr Lieven, I am certainly quite pleased that we were finally able to schedule this meeting" Wilhelm Miklas looked nervous. He had fairly recently been made ambassador to Russia, and he was looking at this as an oppurtunity to move up into the ranks of The Reichsrat.\n\n"As well as I. This Second Commission finally opening will hopefuly mean the end of American meddling in European Affairs. Prime Minister Ustryalov has given me guidance on our positions for the Commission. We do wish to  respect to national integrity of Hungary to some degree. We know you Austrians have your ambitions."\n\nWilhelm Miklas was greatly enthused.\n\n"I can assure you that our nation is committed to Hungarian expansion. We are deeply concerned with how they've been ripped apart by the First Commission. They have become quite the ally in all this. Our current prioirty, however, is the Croatian Reds. They have been a blemish on the European for a few decades now."\n\n"All of Russia and I agree with you. We should continute our discussions over the coming weeks I would say. Russia could use a friend like Austria.""
+ AUS_commission.3.a:0 "Herr Lieven, I Couldn't Agree More."
 
  #flags
  AUS_galicia_victory_flag:0 "Victory in Galicia assured!"

@@ -7,7 +7,12 @@ on_actions = {
 		}
 		effect = {
 			AUS = {
-				country_event = { id = AUS.2 days = 2.4 } 
+				country_event = { id = AUS.2 days = 1.4 } 
+			}
+		}
+		effect = {
+			AUS = {
+				country_event = { id = AUS_commission.1 days = 2.4 } 
 			}
 		}
 	}

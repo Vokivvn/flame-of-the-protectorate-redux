@@ -1,4 +1,5 @@
 ﻿add_namespace = ENG_Pol
+add_namespace = ENG_commission
 
 country_event = { #
 	id = ENG_Pol.1
@@ -1349,6 +1350,24 @@ country_event = { # irish
 						ruling_party = socialism
 					}
 				}
+			}
+		}
+	}
+}
+
+country_event = { #
+	id = ENG_commission.1
+	title = ENG_commission.1.t
+	desc = ENG_commission.1.d
+	picture = GFX_report_event_Cromwell
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = ENG_commission.1.a
+		hidden_effect = {
+			ENG = {
+				set_country_flag = ENG_support_austria
 			}
 		}
 	}

@@ -1,0 +1,12 @@
+ENG_support_austria = {
+	enable = {
+		original_tag = ENG
+		country_exists = AUS
+		has_country_flag = ENG_support_austria
+	}
+	ai_strategy = {
+		type = support
+		tag = AUS
+	}
+	abort_when_not_enabled = yes
+}

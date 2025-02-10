@@ -17,4 +17,8 @@ opinion_modifiers = {
 	AUS_hungary_spited = { #jesus H-christ wth austria
 		value = -15
 	}
+	
+	AUS_lieven_miklas_pact = { #austro-russian pact
+		value = 25
+	}
 }	

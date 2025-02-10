@@ -388,6 +388,29 @@ on_actions = {
 	}
 	
 	
+	on_capitulation = {
+		effect = { 
+			if = {
+				limit = {
+					FROM = {
+						tag = AUS
+					}
+					AUS = {
+						has_war_with = GER
+					}
+				}
+				AUS = {
+					annex_country = {
+						target = GER
+						transfer_troops = yes
+					}
+					country_event = { id = AUS.76 days = 0 }
+				}
+			}
+		} 
+	}
+	
+	
 	on_state_control_changed = {
 		effect = { 
 			if = {

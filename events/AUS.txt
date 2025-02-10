@@ -1,7 +1,7 @@
 ﻿add_namespace = AUS
 add_namespace = AUS_commission
 
-country_event = { #intro
+country_event = { #Black Days and Red Nights
 	id = AUS.1
 	title = AUS.1.t
 	desc = AUS.1.desc
@@ -16,7 +16,7 @@ country_event = { #intro
 	}
 }
 
-country_event = { #Austria Commission
+country_event = { #The Eleventh Hour
 	id = AUS.2
 	title = AUS.2.t
 	desc = AUS.2.desc
@@ -28,27 +28,10 @@ country_event = { #Austria Commission
 	
 	option = {
 		name = AUS.2.a
-		unlock_decision_category_tooltip = AUS_commission
-		set_country_flag = AUS_commission
 	}
 }
 
-country_event = { #Red Wien
-	id = AUS.3
-	title = AUS.3.t
-	desc = AUS.3.desc
-	picture = GFX_report_event_AUS_start_vienna
-	
-	fire_only_once = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = AUS.3.a
-	}
-}
-
-country_event = { #Red Wien
+country_event = { #A walk in the Empire
 	id = AUS.3
 	title = AUS.3.t
 	desc = AUS.3.desc
@@ -427,10 +410,27 @@ country_event = { #peace with Poland
 	}
 }
 
-country_event = { #look to Britain
+country_event = { #Austria Commission
 	id = AUS_commission.1
-	title = AUS_commission.t
-	desc = AUS_commission.desc
+	title = AUS_commission.1.t
+	desc = AUS_commission.1.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = AUS_commission.1.a
+		unlock_decision_category_tooltip = AUS_commission
+		set_country_flag = AUS_commission
+	}
+}
+
+country_event = { #Meet with Britain
+	id = AUS_commission.2
+	title = AUS_commission.2.t
+	desc = AUS_commission.2.desc
 	picture = GFX_report_event_AUS_start_vienna
 	
 	fire_only_once = yes
@@ -439,9 +439,57 @@ country_event = { #look to Britain
 	
 	option = {
 		name = AUS_commission.a
+		AUS = {
+			country_event = AUS.commission.3
 		hidden_effect = {
 			ENG = {
-				country_event = ENG.30
+				country_event = ENG_commission.1
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Austria Commission
+	id = AUS_commission.3
+	title = AUS_commission.3.t
+	desc = AUS_commission.3.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = AUS_commission.3.a
+		set_country_flag = AUS_talks_with_russia
+	}
+}
+
+country_event = { #Meet with Britain
+	id = AUS_commission.5
+	title = AUS_commission.5.t
+	desc = AUS_commission.5.desc
+	picture = GFX_report_event_AUS_start_vienna
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = AUS_commission.5.a
+		hidden_effect = {
+		AUS = {
+			add_opinion_modifier = {
+				target = SOV
+				modifier = AUS_lieven_miklas_pact
+			}
+		}
+		SOV = {
+			add_opinion_modifier = {
+				target = AUS
+				modifier = AUS_lieven_miklas_pact
+				}
 			}
 		}
 	}

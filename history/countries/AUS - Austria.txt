@@ -62,6 +62,50 @@ add_ideas = {
 set_stability = 0.50
 
 create_country_leader = {
+	name = "Ernst Fischer"
+	desc = "POLITICS_Ernst_Fischer_DESC"
+	picture = "Leader_AUS_Ernst_Fischer.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Otto Bauer"
+	desc = "POLITICS_Otto_Bauer_DESC"
+	picture = "Leader_AUS_Otto_Bauer.dds"
+	expire = "1965.1.1"
+	ideology = de_leonism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Karl Renner"
+	desc = "POLITICS_Karl_Renner_DESC"
+	picture = "Leader_AUS_Karl_Renner.dds"
+	expire = "1965.1.1"
+	ideology = democratic_socialism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Friedrich Hayek"
+	desc = "POLITICS_Friedrich_Hayek_DESC"
+	picture = "Leader_AUS_Friedrich_Hayek.dds"
+	expire = "1965.1.1"
+	ideology = classical_liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Franz Ferdinand I"
 	desc = "POLITICS_Franz_Ferdinand_DESC"
 	picture = "Leader_AUS_Franz_Ferdinand_of_Austria.dds"
@@ -73,11 +117,22 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Engelbert Dollfuss"
-	desc = "POLITICS_Engelbert_Dollfuss_DESC"
-	picture = "Leader_AUS_Engelbert_Dollfuss.dds"
+	name = "Rudolf Ramek"
+	desc = "POLITICS_Rudolf_Ramek_DESC"
+	picture = "Leader_AUS_Rudolf_Ramek.dds"
 	expire = "1965.1.1"
-	ideology = corporatism
+	ideology = republicanism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Franz Winkler"
+	desc = "POLITICS_Franz_Winkler_DESC"
+	picture = "Leader_AUS_Franz_Winkler.dds"
+	expire = "1965.1.1"
+	ideology = despotism
 	traits = {
 		#
 	}
@@ -88,7 +143,7 @@ create_country_leader = {
 	desc = "POLITICS_Engelbert_Dollfuss_DESC"
 	picture = "Leader_AUS_Engelbert_Dollfuss.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = corporatism
 	traits = {
 		#
 	}

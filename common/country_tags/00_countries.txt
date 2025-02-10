@@ -63,6 +63,7 @@ ZUL = "countries/Zulu.txt"
 ##CENTRAL ASIA##
 KHI = "countries/Khiva.txt"
 BKH = "countries/Bukhara.txt"
+BSM = "countries/Basmachi.txt"
 
 ##EAST ASIA##
 ACE	= "countries/Aceh.txt"

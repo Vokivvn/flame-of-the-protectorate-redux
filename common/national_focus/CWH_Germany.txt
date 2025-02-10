@@ -16,6 +16,5 @@ focus_tree = {
 
 	continuous_focus_position = { x = 0 y = 4000 }
 
-	shared_focus = GER_eerste_nationaldeutsche_wahl
-	shared_focus = GER_stresemanns_diplomacy
+	shared_focus = GER_das_deutsche_reich
 }
