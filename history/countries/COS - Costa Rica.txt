@@ -62,16 +62,16 @@ set_popularities = {
 	liberalism = 100
 }
 
-#create_country_leader = {
-#	name = "Ricardo Jiménez Oreamuno"
-#	desc = "POLITICS_RICARDO_JIMENEZ_OREAMUNO_DESC"
-#	picture = "GFX_portrait_costa_rica_ricardo_jiminez_oreamuno"
-#	expire = "1965.1.1"
-#	ideology = liberalism
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	name = "Jorge Volio Jiménez"
+	desc = "POLITICS_Jorge_Volio_Jiménez_DESC"
+	picture = "Leader_COS_Jorge_Volio_Jiménez.dds"
+	expire = "1965.1.1"
+	ideology = liberalism_subtype
+	traits = {
+		
+	}
+}
 
 #1939.1.1 = {
 #	set_politics = {

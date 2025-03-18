@@ -234,3 +234,91 @@ country_event = { #The Passing of Nikolay
 	}
 }
 
+country_event = { #Bukharan Rebellion
+	id = RUS.30
+	immediate = {log = "[GetDateText]: [Root.GetName]: event RUS.11"}
+	title = RUS.30.t
+	desc = RUS.30.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = RUS.30.a
+		ai_chance = { factor = 1 }
+		add_stability = -0.25
+		hidden_effect = {
+			TKR = {
+				transfer_state = 742
+				set_province_controller = 10205
+				set_province_controller = 13330
+				declare_war_on = {
+					target = SOV
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = BKH
+					type = annex_everything
+				}
+			}
+			SOV = {
+				country_event = { id = RUS.31 days = 6 }
+			}
+		}
+	}
+}
+
+country_event = { #Bukharan Rebellion
+	id = RUS.31
+	immediate = {log = "[GetDateText]: [Root.GetName]: event RUS.11"}
+	title = RUS.31.t
+	desc = RUS.31.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = RUS.31.a
+		ai_chance = { factor = 1 }
+		add_stability = -0.15
+		hidden_effect = {
+			SOV = {
+				country_event = { id = RUS.35 days = 3 }
+			}
+		}
+	}
+	option = { #
+		name = RUS.31.b
+		ai_chance = { factor = 1 }
+		add_stability = -0.15
+		hidden_effect = {
+			SOV = {
+				country_event = { id = RUS.32 days = 3 }
+			}
+		}
+	}
+}
+
+country_event = { #Bukharan Rebellion
+	id = RUS.32
+	immediate = {log = "[GetDateText]: [Root.GetName]: event RUS.11"}
+	title = RUS.32.t
+	desc = RUS.32.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = RUS.32.a
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			SMR = {
+				set_state_owner = 251
+				set_province_controller = 11225
+			}
+		}
+	}
+}

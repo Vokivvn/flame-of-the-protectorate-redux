@@ -9,3 +9,14 @@ set_politics = {
 set_popularities = {
 	authoritarianism = 100
 }
+
+create_country_leader = {
+	
+	name = "Omar al Mukhtar"
+	picture = "Leader_LBA_Omar_al_Mukhtar.dds"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+	traits = {
+		
+	}
+}

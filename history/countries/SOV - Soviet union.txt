@@ -1,4 +1,4 @@
-﻿capital = 219
+﻿capital = 195
 
 set_variable = { country_infamy = 13 } 
 

@@ -10,4 +10,13 @@ set_popularities = {
 	republicanism = 100
 }
 
-
+create_country_leader = {
+	
+	name = "Edward Grigg"
+	picture = "Leader_KEN_Edward_Grigg.dds"
+	expire = "1965.1.1"
+	ideology = republicanism_subtype
+	traits = {
+		
+	}
+}

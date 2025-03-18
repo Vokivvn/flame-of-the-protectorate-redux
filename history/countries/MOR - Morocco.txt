@@ -62,3 +62,14 @@ set_politics = {
 set_popularities = {
 	authoritarianism = 100
 }
+
+create_country_leader = {
+	name = "Mohammed V"
+	desc = "POLITICS_Mohammed_V_DESC"
+	picture = "Leader_MOR_Mohammed_V.dds"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+	traits = {
+		
+	}
+}

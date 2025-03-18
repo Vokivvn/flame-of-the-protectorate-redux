@@ -64,6 +64,7 @@ ZUL = "countries/Zulu.txt"
 KHI = "countries/Khiva.txt"
 BKH = "countries/Bukhara.txt"
 BSM = "countries/Basmachi.txt"
+TKR = "countries/Turkestan Red Army.txt"
 
 ##EAST ASIA##
 ACE	= "countries/Aceh.txt"
@@ -176,6 +177,9 @@ MCO = "countries/Monaco.txt"
 VAC = "countries/Holy See.txt"
 SNM = "countries/San Marino.txt"
 LIC = "countries/Liechtenstein.txt"
+SMR = "countries/Samara.txt"
+MGG = "countries/Military Government of Germany.txt"
+SIZ = "countries/Saxon Industrial Zone.txt"
 
 ##INDIA##
 AFG = "countries/Afghanistan.txt"

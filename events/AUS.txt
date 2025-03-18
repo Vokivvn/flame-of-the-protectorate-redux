@@ -172,12 +172,11 @@ country_event = { #dollfuss
 		}
 		create_country_leader = {
 			name = "Engelbert Dollfuss"
-			desc = "Engelbert Dollfuss_DESC"
+			desc = "POLITICS_ENGELBERT_DOLLFUSS_DESC"
 			picture = "Leader_AUS_Engelbert_Dollfuss.dds"
 			expire = "1965.1.1"
 			ideology = corporatism
-			traits = {
-		
+				traits = {
 			}
 		}
 	}

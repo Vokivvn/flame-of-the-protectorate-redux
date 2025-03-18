@@ -129,15 +129,15 @@ BUN = {
 	color_ui = rgb { 173 109 109 }
 }
 POR = { 
-	color = rgb { 106 110 130 }
+	color = rgb { 99 122 144 }
 	color_ui = rgb { 87 93 109 }
 }
 PEA = { 
-	color = rgb { 106 110 130 }
+	color = rgb { 99 122 144 }
 	color_ui = rgb { 87 93 109 }
 }
 PEI = { 
-	color = rgb { 106 110 130 }
+	color = rgb { 99 122 144 }
 	color_ui = rgb { 87 93 109 }
 }
 FIN = {
@@ -189,7 +189,7 @@ BRA = {
 	color_ui = rgb { 100 122 108 }
 }
 BWA = {
-	color = rgb { 100 122 108 }
+	color = rgb { 91 109 135 }
 	color_ui = rgb { 100 122 108 }
 }
 CAN = {
@@ -213,7 +213,7 @@ CHL = {
 	color_ui = rgb { 138 112 90 }
 }
 COL = {
-	color = rgb { 168 171 140 }
+	color = rgb { 136 139 147 }
 	color_ui = rgb { 168 171 140 }
 }
 COS = {
@@ -313,7 +313,7 @@ CPH = {
 	color_ui = rgb { 179 181 125 }
 }
 PRU = { 
-	color = rgb { 120 112 107 }
+	color = rgb { 130 104 106 }
 	color_ui = rgb { 120 116 111 }
 }
 SAU = {
@@ -357,7 +357,7 @@ DOM = {
 	color_ui = rgb { 100 135 123 }
 }
 JAM = {
-	color = rgb { 71 107 64 }
+	color = rgb { 145 107 108 }
 	color_ui = rgb { 71 107 64 }
 }
 HAI = {
@@ -782,7 +782,7 @@ GWA = {
 	color_ui = rgb { 107 133 113 }
 }
 JAM = {
-	color = rgb { 209 160 136 }
+	color = rgb { 145 107 108 }
 	color_ui = rgb { 209 160 136 }
 }
 CAL = {
@@ -942,6 +942,26 @@ LIC = {
 
 SNM = {
 	color = rgb { 173 216 230 }
+	color_ui = rgb { 173 216 230 }
+}
+
+TKR = {
+	color = rgb { 178 34 34 }
+	color_ui = rgb { 173 216 230 }
+}
+
+SMR = {
+	color = rgb { 6 64 43 }
+	color_ui = rgb { 173 216 230 }
+}
+
+MGG = {
+	color = rgb { 160 165 168 }
+	color_ui = rgb { 173 216 230 }
+}
+
+SIZ = {
+	color = rgb { 115 118 119 }
 	color_ui = rgb { 173 216 230 }
 }
 

@@ -95,9 +95,9 @@ if = {
 }
 
 create_country_leader = {
-	name = "Ferruccio Parri"
-	desc = "POLITICS_Ferruccio_Parri_DESC"
-	picture = "Leader_ITA_Ferruccio_Parri.dds"
+	name = "Alberto Cianca"
+	desc = "POLITICS_Alberto_Cianca_DESC"
+	picture = "Leader_ITA_Alberto_Cianca.dds"
 	expire = "1965.1.1"
 	ideology = democratic_socialism
 	traits = {

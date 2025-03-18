@@ -26,9 +26,6 @@ shared_focus = {
 	
 	relative_position_id = AUS_A_Viennese_Morning
 	prerequisite = { focus = AUS_A_Viennese_Morning }
-	mutually_exclusive = {
-		focus = AUS_Look_to_Russia
-	}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
 		country_event = {
@@ -38,18 +35,15 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = AUS_Look_to_Russia
-	icon = GFX_AUS_Look_to_Russia
+	id = AUS_Imperial_Politics
+	icon = GFX_AUS_Imperial_Politics
 	cost = 0.2
 	
 	x = 1
 	y = 1
 	
-	relative_position_id = AUS_The_Commission_Begins
-	prerequisite = { focus = AUS_The_Commission_Begins }
-	mutually_exclusive = {
-		focus = AUS_Look_to_Britain
-	}
+	relative_position_id = AUS_Violence_in_the_Streets
+	prerequisite = { focus = AUS_Violence_in_the_Streets }
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
 		country_event = {
@@ -59,15 +53,34 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = AUS_Approach_Hungary
-	icon = GFX_AUS_Approach_Hungary
+	id = AUS_A_Moravian_Sunrise
+	icon = GFX_AUS_A_Moravian_Sunrise
+	cost = 0.2
+	
+	x = -1
+	y = 1
+	
+	relative_position_id = AUS_Violence_in_the_Streets
+	prerequisite = { focus = AUS_Violence_in_the_Streets }
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
+		country_event = {
+			id = AUS.2
+		}
+	}
+}
+
+shared_focus = {
+	id = AUS_A_Specter_Over_Wien
+	icon = GFX_AUS_A_Specter_Over_Wien
 	cost = 0.2
 	
 	x = 1
 	y = 1
 	
-	relative_position_id = AUS_Look_to_Russia
-	prerequisite = { focus = AUS_Look_to_Russia }
+	relative_position_id = AUS_Imperial_Politics
+	prerequisite = { focus = AUS_Imperial_Politics } 
 	
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
@@ -78,34 +91,15 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = AUS_Push_Polish_Claims
-	icon = GFX_AUS_Push_Polish_Claims
+	id = AUS_Support_the_Sudeten_Germans
+	icon = GFX_AUS_Support_the_Sudeten_Germans
 	cost = 0.2
 	
 	x = -1
 	y = 1
 	
-	relative_position_id = AUS_Look_to_Russia
-	prerequisite = { focus = AUS_Look_to_Russia focus = AUS_Look_to_Britain } 
-	
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"
-		country_event = {
-			id = AUS.2
-		}
-	}
-}
-
-shared_focus = {
-	id = AUS_Our_German_Brothers
-	icon = GFX_AUS_Our_German_Brothers
-	cost = 0.2
-	
-	x = -1
-	y = 1
-	
-	relative_position_id = AUS_Look_to_Britain
-	prerequisite = { focus = AUS_Look_to_Britain } 
+	relative_position_id = AUS_A_Moravian_Sunrise
+	prerequisite = { focus = AUS_A_Moravian_Sunrise } 
 	
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus AUS_Shattered_Lands"

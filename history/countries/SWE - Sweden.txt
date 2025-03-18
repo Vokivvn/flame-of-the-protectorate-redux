@@ -146,9 +146,9 @@ set_convoys = 25
 set_stability = 0.9
 
 create_country_leader = {
-	name = "Gustaf V"
-	desc = "POLITICS_Gustaf_V_DESC"
-	picture = "Leader_SWE_Gustaf_V.dds"
+	name = "Marie I"
+	desc = "POLITICS_Marie_I_DESC"
+	picture = "Leader_SWE_Marie_I.dds"
 	expire = "1965.1.1"
 	ideology = progressivism_subtype
 	traits = {

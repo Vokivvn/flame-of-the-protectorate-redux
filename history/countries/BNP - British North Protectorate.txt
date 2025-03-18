@@ -16,3 +16,14 @@ set_popularities = {
 	authoritarianism = 100
 	ultranationalism = 0
 }
+
+create_country_leader = {
+	
+	name = "Frederick Lugard"
+	picture = "Leader_BNP_Frederick_Lugard.dds"
+	expire = "1965.1.1"
+	ideology = colonial_government
+	traits = {
+		
+	}
+}
